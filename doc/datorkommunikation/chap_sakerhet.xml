@@ -1,0 +1,268 @@
+<chapter id="chap_sakerhet"><title>Datasäkerhet och lagstiftning</title>
+	<!--
+		Säkerhet
+		- Gällande datalagstiftning och förstå datasäkerhetens betydelse
+		- Olika sätt att skydda information vid dataöverföringar
+	-->
+	<abstract>
+		<para>
+			Stora öppna nät som till exempel Internet är naturligtvis bra för
+			kommunikationen men det öppnar även för onda personer som kan
+			missbruka denna öppenhet. I detta kapitel behandlar vi
+			datasäkerhet. Hur farligt är Internet och vilka metoder finns
+			för att skydda sig. 
+		</para>
+		<para>
+			Säkerhet är de metoder och verktg som vi kan ta till för att
+			uppnå trygghet.
+		</para>
+	</abstract>
+
+	<sect1><title>Syftet med datasäkerhet</title>
+		<para>
+			Syftet med all säkerhet är att man skall skapa trygghet. En
+			stor bov i detta spel är faktiskt också trygghet. En människa
+			som känner sig väldigt trygg slutar ofta att tänka på
+			säkerheten. Det värsta är det vi kallar falsk trygghet.
+		</para>
+		<para>
+			Det finns flera exempel när tryggheten som man vill uppnå
+			motarbetar säkerheten i sig. Till exempel så kan ett brandlarm
+			göra att man struntar i att kontrollera att alla ljus är släkta
+			innan man går ock lägger sig. Risken att huset skall brinna ner
+			är då betydligt större än utan brandvaranare. Man har
+			intstallerat ett skyddssystem men inte skyddat sig mot själva
+			faran.
+		</para>
+		<para>
+			Falsk trygghet kan vara om till exempel brandvarnaren i
+			exemplet ovan inte fungerar. Du sjunker säkerheten i huset
+			avsevärt, men de som bor där känner sig tryggare än någonsin.
+		</para>
+	</sect1>
+
+	<sect1><title>Hur farligt är Internet?</title>
+		<para>
+			Internet och andra stora nätverk är i sig är inte farliga. Det
+			är de som använder näten som potentiellt kan vara farliga. Det
+			är viktigt att tänka på vilka uppgifter man lämnar ifrån sig
+			och hur man skyddar sådant som man vill hålla för sig själv.
+		</para>
+		<para>
+			Människan är ofta rädd för det som är okänt. Det gör att man
+			kanske är mer rädd för att använda sitt kontokort på Internet
+			än vad man är för att använde det i en butik. I själva verket
+			är det lika farligt att använda det i en butik om den som står
+			bakom disken i butiken har onda avsikter.
+		</para>
+	</sect1>
+	<sect1><title>Hur kan jag skydda mig?</title>
+		<sect2><title>Lösenord</title>
+			<para>
+				Den första kontakten de flesta har med datasäkerhet är
+				användarnamn och lösenord. Användarnamnet använder du för
+				att det aktuella systemet skall veta vad då får och inte får
+				göra och se. Det kallas får identifiering. Lösenordet
+				används för att du skall kunna bevisa att du verkligen är
+				du. Detta kallas autenticering. Ibland behövs ingen
+				autenticering och ibland behövs det autenticering som är
+				starkare än bara ett användarnamn och ett läsenord. Ett
+				lösenord är något som man <emphasis>vet</emphasis> ibland
+				kan det också kravas att man <emphasis>har</emphasis> något,
+				till exempel ett kort eller en nyckel.
+			</para>
+			<para>
+				Ett system som använder lösenord är relativt säkert. Det
+				största problemet med ett sådant system är användarna och
+				de lösenord de väljer eller hur de hanskas med lösenorden.
+				Ett lösenord som är lätt att gissa eller som står uppskrivet
+				på skärmen eller under skrivbordunderlägget gör ingen stööre
+				nytta. En grundläggande regel som man kan jobba efter är
+				att: <emphasis>Lösenord skall man hantera som underkläder.
+				Man lånar inte ut dem, låter dem inte ligga framme, och
+				byter dem då och då.</emphasis>
+			</para>
+			<para>
+				Hur hittar man då ett lösenord som man skall kunna komma
+				ihåg (det är aldrig bra att ha lösenord nedskrivna) men som
+				inte är lätt att gissa? En grundregel är att inte ta något
+				som är kopplat till ens person. Till exempel är namnet på
+				barn, barnbarn, hundar och katter extremt vanliga lösenord.
+				Helst skall man undvika alla ord och helst också blanda små
+				bokstäver, stora bosktäver och siffror. Ett bra lösenord är
+				till exempel <emphasis>Jsk2KgP</emphasis> men hur skall man
+				komma ihåg ett sådant lösenord? Jo, det är enkelt.
+				Lösenordet är taget från frasen <emphasis>Jag skall köpa 2
+				Kg Potatis</emphasis> som är lätt att komma ihåg. Ofta är
+				det lätt att komma ihåg fraser. Man kan också utgå från ord
+				och byta ut vissa tecken mot bokstäver, till exempel så kan
+				<emphasis>potatis</emphasis> bli
+				<emphasis>p0t4t1s</emphasis> som är ett bra lösenord.
+			</para>
+			<para>
+				Anledningen till att man skall ha bra lösenord är att det
+				finns vissa program som är till föra att knäcka lösenord
+				genom att testa alla möjliga tänkbara lösenord. Dessa
+				program utgår från listor med vanliga lösenord och tar sedan
+				ord från ordböcker och liknande. De kan utan problem testa
+				alla svenska ord. Har du då ett svenskt ord som lösenord så
+				skyddar det dig inte alls.
+			</para>
+		</sect2>
+		<sect2><title>Kryptering</title>
+			<para>
+				En sak som är grundläggande när det gäller att hålla saker
+				hemliga är kryptering. Kryptering har man användt i princip
+				lika länge som människor har kommunicerat. Man vet att vi
+				använt kryptering sedan minst 4000år. Man kallar även
+				att kryptera för att chiffrera som betyder att dölja något.
+				Den okrypterade texten brukar kallas för klartext och den
+				krypterade brukar kallas chiffer. För att kryptera och
+				dekryptera använder man någon algoritm och i vissa fall en
+				eller flera nycklar. Information som är krypterad med en bra
+				krypteringsalgoritm kan man klassa som helt skyddad.
+			</para>
+			<para>
+				En väldigt gammal kriperingsaloritm som de flesta använt som
+				barn är det så kallade <emphasis>Cesars Chiffer</emphasis>.
+				Det går ut på att man helt enkelt byter ut bosktäverna i
+				alfabetet mot en annan bosktav x positioner längre fram i
+				alfabetet. Tillexempel så kan E bli H och R bli U om man
+				hoppar 3 steg. I det fallet är krypteringsalgoritmen Cesars
+				Chiffer och nyckeln är 3.
+				<screen>
+||| <- Nyckel = 3
+   ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ
+       |  |  |      |||       | 
+ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
+				</screen>
+				Krypterar man ordet <emphasis>säkerhet</emphasis> med denna
+				krypteringsalgoritm så blir det
+				<emphasis>vbnhukhw</emphasis>. Denna krypteringsalgoritm är
+				naturligtvis väldigt lätt att knäcka men man kan säga att
+				det är grundpricipen för hur kryptering fungerar.
+			</para>
+			<para>
+				En nackdel med Cesars Chiffer är att bokstaven S alltid blir
+				V om man krypterar enligt ovan. Det gör att chiffret blif
+				väldigt lätt att knäcka. Om man istället använder till
+				exempel 5 olika nycklar om varandra så blir det mycket
+				svårare att knäcka. Är det optimalt så bör bosktaven S bli
+				olika bokstäver varje gång den krypteras.
+			</para>
+			<sect3><title>Symetrisk och asymetrisk kryptering</title>
+				<para>
+					Det finns i huvudsak två olika sorters kryptering,
+					<emphasis>symetrisk</emphasis> och
+					<emphasis>asymetrisk</emphasis> kryptering. Symetrisk
+					kryptering använder en nyckel och asymetrisk två.
+				</para>
+				<para>
+					Cesars Chiffer som vi såg ovan använder sig av en nyckel
+					(3 i exemplet).  Det är ett så kallat symetriskt chiffer.
+					Man använder samma nyckel för att kryptera som man
+					använder för att dekryptera meddelandet.
+				</para>
+				<para>
+					Programvara som implementerar symmetriska
+					krypteringsalgoritmer kan göras väldigt snabba. Det är
+					relativt lätt att kryptera med symetrisk kryptering. Men
+					det finns ett stort problem, nämligen hur man skall dela
+					nyckeln mellan sändare och mottagare. Vill jag kunna ta
+					emot krypterade meddelanden från människor så måste jag
+					ju först träffa dem för att vi skall kunna komma överens
+					om en nyckel vi skall använda. Nyckeln måste vi ju båda
+					känna till och den är lika hemlig som meddelandet.
+					Nyckeln kan man ju också bara använda för att skicka
+					meddelanden mellan två personer. Skall man skicka ett
+					annat meddelande till en annan person så måste man skapa
+					en nyckel till och byta den på något sätt. Tillsut inser
+					man att om man måste byta en nyckel varje gång så kan man
+					lika gärna lämna meddelandet på en gång.
+				</para>
+				<para>
+					En lösning på detta är något som kallas asymetrisk
+					kryptering. Det går till så att man använder ett par av
+					nycklar. En för att kryptera och en för att dekryptera.
+					Med hjälp av denna förändring kan man lösa många av
+					problemen som vi visat på ovan.
+				</para>
+				<para>
+					Paret av nycklar använder man på så vis att man håller
+					den ena för sig själv och sprider den andra så att den är
+					väl tillgänglig för alla som vill ha den. Man kallar den
+					man skyddar för privat nyckel och den som alla kan nå
+					för publik nyckel. Eftersom den ena nyckeln krypterar och
+					den andra dekrypterar så kan en person som vill skicka
+					ett meddelande till mig använda min publika nyckel för
+					att kryptera meddelandet. När det är krypterat kan det
+					bara öppnas med min privata nyckel, alltså bara av mig.
+				</para>
+			</sect3>
+			<sect3><title>Signering</title>
+				<para>
+					Ofta behöver man inte kryptera meddelandet utan det
+					räcker med att signera det. En signatur är något som man
+					applicerar på sitt meddelande så att mottagaren vet att
+					det är du som skickat det.
+				</para>
+				<para>
+					Signering går att lösa med flera asymetriska
+					krypteringsalgoritmer. Eftersom nycklarna jobbar i par
+					där en kan kryptera och den andra kan
+					dekryptera<footnote><para>Det är inte alla asymetriska
+					krypteringsalgoritmer som har denna egenskap men de
+					vanligaste man använder i samband med till exempel e-post
+					har det.</para></footnote> så kan man välja att kryptera
+					meddelandet med sin hemliga nyckel. När man gjort det så
+					kan vem som helst dekryptera det med motsvarande publika
+					nyckel. Eftersom vem som helst kan dekryptera meddelandet
+					så är det inte skyddat för insyn. Men man kan vara säker
+					på att det kommer från den person det utges komma ifrån
+					för man vet vems publika nyckel man använder och då måste
+					det ju vara krypterat med motsvarande, hemliga nyckel.
+					Inte heller den här gången behöver man avslöja sin
+					hemliga nyckel.
+				</para>
+			</sect3>
+		</sect2>
+	</sect1>
+	
+	<sect1><title>Relevanta lagar</title>
+		<para>
+			
+		</para>
+		<sect2><title>Personuppgiftelagen (PUL)</title>
+			<para>
+				<emphasis>Från Wikipedia, den fria encyklopedin.</emphasis>
+			</para>
+			<para>
+				PUL, eller Personuppgiftslag (1998:204) som den egentligen
+				heter, är den svenska implementationen av ett EU-direktiv.
+				Syftet med lagen är att skydda människor mot att deras
+				personliga integritet kränks genom behandling av
+				personuppgifter. Lagen gäller för personuppgiftsansvariga
+				som är etablerade i Sverige. Lagen tillämpas också när den
+				personuppgiftsansvarige är etablerad i tredje land men för
+				behandlingen av personuppgifter använder sig av utrustning
+				som finns i Sverige. Staffat är böter eller fängelse i högst
+				sex månader eller, om brottet är grovt, till fängelse i
+				högst två år.
+			</para>
+		</sect2>
+	</sect1>
+				
+	<sect1><title>Sammanfattning</title>
+		<para>
+			
+		</para>
+	</sect1>
+</chapter>
+
+<!-- Keep this comment at the end of the file
+tab-width: 3
+vim600: fdm=syntax sw=3 ts=3
+vim: sw=3 ts=3
+vi: sw=3 ts=3
+-->
+

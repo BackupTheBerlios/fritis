@@ -2,7 +2,7 @@
 #
 #
 #
-SOURCE_FILES=datorkommunikation.xml liskola.css liskola.dsl index.in Makefile outline.txt laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml fdl.xml kommandotabell.xml rfcer.xml asciitabell.xml dectobintabell.xml hextodectabell.xml netmask.xml ovningsuppgifter.xml services.xml topdomains.xml
+SOURCE_FILES=datorkommunikation.xml liskola.css liskola.dsl index.in Makefile outline.txt laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml fdl.xml kommandotabell.xml rfcer.xml asciitabell.xml dectobintabell.xml hextodectabell.xml netmask.xml ovningsuppgifter.xml services.xml topdomains.xml chap_sakerhet.xml chap_epost.xml
 TARGET=datorkommunikation
 
 LABORATIONS= #laborationer/lab1_hub_vs_switch.pdf
