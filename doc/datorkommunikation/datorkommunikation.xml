@@ -34,7 +34,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/19 08:50:35 $</pubdate>
+<pubdate>$Date: 2004/01/19 17:52:58 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -63,7 +63,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.13 2004/01/19 08:50:35 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.14 2004/01/19 17:52:58 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -1268,7 +1268,8 @@
 			<emphasis>nod</emphasis>. En nod är en generell
 			adresserbar nätverkskomponent, det kan vara en arbetsstation,
 			en router, en brandvägg eller något annat. Är den adresserbar i
-			nätverket så kallas den ofta för en nod.
+			nätverket så kallas den ofta för en nod. En nod kallas också
+			för <emphasis>host</emphasis> eller <emphasis>värd</emphasis>.
 		</para>
 		<para>
 			Man kan säga att ett nätverk byggs upp av noder som i sin tur
@@ -3041,34 +3042,76 @@ Modeller, referensmodeller, standarder
 
 		<sect3><title>IP</title>
 			<para>
-				
+				IP är en förkortning för <emphasis>Internet
+				Protocol</emphasis>. IP är det protokoll som ser till att
+				data kommer från en nod till en annan. IP är vad man brukar
+				kalla fer ett <emphasis>connectionless</emphasis> protokoll.
+				Det innebär att det inte finns en koppling mellan sändare
+				och mottagare utan paketen skickas ut i nätet och kommer
+				fram om det kommer fram. Man kan jämföra det med att skicka
+				ett brev med posten. Man skriver det och skickar iväg. Det
+				finns ingen direkt förbindelse mellan sändare och mottagare.
+				Kommer brevet fram så gör det, annars inte. Vill man veta
+				att brevet verkligen har kommit fram måste man be mottagaren
+				bekräfta detta vilket görs i en del av protokollen ovaför
+				IP i OSI-modellen. IP hittas i nätverksnivån i OSI-modellen.
 			</para>
 		</sect3>
 		<sect3><title>TCP</title>
 			<para>
-				
+				TCP står för <emphasis>Transmission Control
+				Protocol</emphasis>. TCP är det vanligaste
+				transportprotokollet på Internet. TCP är vad man brukar
+				kalla för <emphasis>connection oriented</emphasis>, det vill
+				säga det skapas ett koppling (connection) mellan sändare och
+				mottagare, precis som under ett telefonsamtal. Vi inser ju
+				att den bara är virtuell eftersom det bygger på IP, men alla
+				överliggande lager ser det som en koppling. I TCP finns
+				funktioner som ser till all data som sänds mellan noderna
+				kommer fram och att den inte blir förstörd. På IP-nivån kan
+				detta åstadkommas genom att paketen som skickas måste
+				kvitteras. Precis på samma sätt som jag kan veta säkert att
+				ett brev kommit fram om jag ber mottagaren bekräfta det.
 			</para>
 		</sect3>
 		<sect3><title>UDP</title>
 			<para>
-				
+				UDP är också ett valigt protokoll på Internet. UDP är en
+				förkortning för <emphasis>User Datagram Protocol</emphasis>.
+				Till skillnad från TCP så är det
+				<emphasis>connectionless</emphasis>, vilket betyder att det
+				fungerar som det underliggande IP i det avseendet. I UDP
+				finns alltså ingen garanti för att alla paket kommer fram.
+				UDP används till exempel till DNS och i många program som
+				streamar media av något slag där det är viktigare att data
+				kommer fram i tid än att alla data kommer fram.
 			</para>
 		</sect3>
 		<sect3><title>ICMP</title>
 			<para>
-				
+				ICMP är en förkortning för <emphasis>Internet Control
+				Message Protocol</emphasis> är ett protokoll som används för
+				diagnostik av ruting och annan funktionalitet samt för
+				kontroll och felmeddelandehantering i ett TCP/IP-nät.
+				Programmen "ping" och "traceroute" är exempel på program som
+				använder ICMP. ICMP är, precis som UDP, connectionless så
+				man kan inte garantera att paketen komme fram.
 			</para>
 		</sect3>
 		<sect3><title>ARP</title>
 			<para>
-				ARP (Adress Resolution Protocol) använs för att en nod skall
-				kunna hitta MAC-adressen<footnote><para>MAC-adress kallas
-				även Fysisk adress eller hårdvaruadress</para></footnote>
-				till en annan nod. För att de skall kunna tala behöver noden
-				veta den andras IP-adress (mer om IP-adresser nedan) men för
-				att de faktiskt skall kunna prata måste den veta dess
-				MAC-adress.  För att hitta den används ARP. Det fungerar så
-				att den dator som skall sända skickar ut en
+				ARP (Address Resolution Protocol) använs för att en nod
+				skall kunna hitta MAC-adressen<footnote><para>MAC-adress
+				kallas även Fysisk adress eller
+				hårdvaruadress</para></footnote> till en annan nod. Detta är
+				nödvändigt eftersom nätverkslagret inte använder samma typ
+				av adresser som underliggande lager. För att de skall kunna
+				tala behöver noden veta den andres IP-adress som är känd
+				från nätverkslagret och uppåt (mer om IP-adresser nedan) men
+				för att de faktiskt skall kunna prata måste den veta dess
+				MAC-adress som används i de underliggande lagren.  För att
+				hitta den används ARP. Det fungerar så att den dator som
+				skall sända skickar ut en
 				<emphasis>broadkast</emphasis>-förfrågan (en
 				broadkastförfrågan kommer till alla datorer på nätverket)
 				där den ber noden med den aktuella IP-adressen att svara.
