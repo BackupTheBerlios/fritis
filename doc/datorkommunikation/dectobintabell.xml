@@ -35,7 +35,6 @@
 					<entry>10000000</entry>
 					<entry>192</entry>
 					<entry>11000000</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 1</entry>
@@ -46,7 +45,7 @@
 					<entry>10000001</entry>
 					<entry>193</entry>
 					<entry>11000001</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 2</entry>
@@ -57,7 +56,6 @@
 					<entry>10000010</entry>
 					<entry>194</entry>
 					<entry>11000010</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 3</entry>
@@ -68,7 +66,6 @@
 					<entry>10000011</entry>
 					<entry>195</entry>
 					<entry>11000011</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 4</entry>
@@ -79,7 +76,6 @@
 					<entry>10000100</entry>
 					<entry>196</entry>
 					<entry>11000100</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 5</entry>
@@ -90,7 +86,6 @@
 					<entry>10000101</entry>
 					<entry>197</entry>
 					<entry>11000101</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 6</entry>
@@ -101,7 +96,6 @@
 					<entry>10000110</entry>
 					<entry>198</entry>
 					<entry>11000110</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 7</entry>
@@ -112,7 +106,6 @@
 					<entry>10000111</entry>
 					<entry>199</entry>
 					<entry>11000111</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 8</entry>
@@ -123,7 +116,6 @@
 					<entry>10001000</entry>
 					<entry>200</entry>
 					<entry>11001000</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 9</entry>
@@ -134,7 +126,6 @@
 					<entry>10001001</entry>
 					<entry>201</entry>
 					<entry>11001001</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 10</entry>
@@ -145,7 +136,6 @@
 					<entry>10001010</entry>
 					<entry>202</entry>
 					<entry>11001010</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 11</entry>
@@ -156,7 +146,6 @@
 					<entry>10001011</entry>
 					<entry>203</entry>
 					<entry>11001011</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 12</entry>
@@ -167,7 +156,6 @@
 					<entry>10001100</entry>
 					<entry>204</entry>
 					<entry>11001100</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 13</entry>
@@ -178,7 +166,6 @@
 					<entry>10001101</entry>
 					<entry>205</entry>
 					<entry>11001101</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 14</entry>
@@ -189,7 +176,6 @@
 					<entry>10001110</entry>
 					<entry>206</entry>
 					<entry>11001110</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 15</entry>
@@ -200,7 +186,6 @@
 					<entry>10001111</entry>
 					<entry>207</entry>
 					<entry>11001111</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 16</entry>
@@ -211,7 +196,6 @@
 					<entry>10010000</entry>
 					<entry>208</entry>
 					<entry>11010000</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 17</entry>
@@ -222,7 +206,6 @@
 					<entry>10010001</entry>
 					<entry>209</entry>
 					<entry>11010001</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 18</entry>
@@ -233,7 +216,6 @@
 					<entry>10010010</entry>
 					<entry>210</entry>
 					<entry>11010010</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 19</entry>
@@ -244,7 +226,6 @@
 					<entry>10010011</entry>
 					<entry>211</entry>
 					<entry>11010011</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 20</entry>
@@ -255,7 +236,6 @@
 					<entry>10010100</entry>
 					<entry>212</entry>
 					<entry>11010100</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 21</entry>
@@ -266,7 +246,6 @@
 					<entry>10010101</entry>
 					<entry>213</entry>
 					<entry>11010101</entry>
-					<entry></entry>
 				</row>
 				<row>
 					<entry> 22</entry>
@@ -277,7 +256,7 @@
 					<entry>10010110</entry>
 					<entry>214</entry>
 					<entry>11010110</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 23</entry>
@@ -288,7 +267,7 @@
 					<entry>10010111</entry>
 					<entry>215</entry>
 					<entry>11010111</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 24</entry>
@@ -299,7 +278,7 @@
 					<entry>10011000</entry>
 					<entry>216</entry>
 					<entry>11011000</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 25</entry>
@@ -310,7 +289,7 @@
 					<entry>10011001</entry>
 					<entry>217</entry>
 					<entry>11011001</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 26</entry>
@@ -321,7 +300,7 @@
 					<entry>10011010</entry>
 					<entry>218</entry>
 					<entry>11011010</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 27</entry>
@@ -332,7 +311,7 @@
 					<entry>10011011</entry>
 					<entry>219</entry>
 					<entry>11011011</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 28</entry>
@@ -343,7 +322,7 @@
 					<entry>10011100</entry>
 					<entry>220</entry>
 					<entry>11011100</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 29</entry>
@@ -354,7 +333,7 @@
 					<entry>10011101</entry>
 					<entry>221</entry>
 					<entry>11011101</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 30</entry>
@@ -365,7 +344,7 @@
 					<entry>10011110</entry>
 					<entry>222</entry>
 					<entry>11011110</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 31</entry>
@@ -376,7 +355,7 @@
 					<entry>10011111</entry>
 					<entry>223</entry>
 					<entry>11011111</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 32</entry>
@@ -387,7 +366,7 @@
 					<entry>10100000</entry>
 					<entry>224</entry>
 					<entry>11100000</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 33</entry>
@@ -398,7 +377,7 @@
 					<entry>10100001</entry>
 					<entry>225</entry>
 					<entry>11100001</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 34</entry>
@@ -409,7 +388,7 @@
 					<entry>10100010</entry>
 					<entry>226</entry>
 					<entry>11100010</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 35</entry>
@@ -420,7 +399,7 @@
 					<entry>10100011</entry>
 					<entry>227</entry>
 					<entry>11100011</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 36</entry>
@@ -431,7 +410,7 @@
 					<entry>10100100</entry>
 					<entry>228</entry>
 					<entry>11100100</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 37</entry>
@@ -442,7 +421,7 @@
 					<entry>10100101</entry>
 					<entry>229</entry>
 					<entry>11100101</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 38</entry>
@@ -453,7 +432,7 @@
 					<entry>10100110</entry>
 					<entry>230</entry>
 					<entry>11100110</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 39</entry>
@@ -464,7 +443,7 @@
 					<entry>10100111</entry>
 					<entry>231</entry>
 					<entry>11100111</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 40</entry>
@@ -475,7 +454,7 @@
 					<entry>10101000</entry>
 					<entry>232</entry>
 					<entry>11101000</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 41</entry>
@@ -486,7 +465,7 @@
 					<entry>10101001</entry>
 					<entry>233</entry>
 					<entry>11101001</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 42</entry>
@@ -497,7 +476,7 @@
 					<entry>10101010</entry>
 					<entry>234</entry>
 					<entry>11101010</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 43</entry>
@@ -508,7 +487,7 @@
 					<entry>10101011</entry>
 					<entry>235</entry>
 					<entry>11101011</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 44</entry>
@@ -519,7 +498,7 @@
 					<entry>10101100</entry>
 					<entry>236</entry>
 					<entry>11101100</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 45</entry>
@@ -530,7 +509,7 @@
 					<entry>10101101</entry>
 					<entry>237</entry>
 					<entry>11101101</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 46</entry>
@@ -541,7 +520,7 @@
 					<entry>10101110</entry>
 					<entry>238</entry>
 					<entry>11101110</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 47</entry>
@@ -552,7 +531,7 @@
 					<entry>10101111</entry>
 					<entry>239</entry>
 					<entry>11101111</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 48</entry>
@@ -563,7 +542,7 @@
 					<entry>10110000</entry>
 					<entry>240</entry>
 					<entry>11110000</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 49</entry>
@@ -574,7 +553,7 @@
 					<entry>10110001</entry>
 					<entry>241</entry>
 					<entry>11110001</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 50</entry>
@@ -585,7 +564,7 @@
 					<entry>10110010</entry>
 					<entry>242</entry>
 					<entry>11110010</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 51</entry>
@@ -596,7 +575,7 @@
 					<entry>10110011</entry>
 					<entry>243</entry>
 					<entry>11110011</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 52</entry>
@@ -607,7 +586,7 @@
 					<entry>10110100</entry>
 					<entry>244</entry>
 					<entry>11110100</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 53</entry>
@@ -618,7 +597,7 @@
 					<entry>10110101</entry>
 					<entry>245</entry>
 					<entry>11110101</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 54</entry>
@@ -629,7 +608,7 @@
 					<entry>10110110</entry>
 					<entry>246</entry>
 					<entry>11110110</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 55</entry>
@@ -640,7 +619,7 @@
 					<entry>10110111</entry>
 					<entry>247</entry>
 					<entry>11110111</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 56</entry>
@@ -651,7 +630,7 @@
 					<entry>10111000</entry>
 					<entry>248</entry>
 					<entry>11111000</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 57</entry>
@@ -662,7 +641,7 @@
 					<entry>10111001</entry>
 					<entry>249</entry>
 					<entry>11111001</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 58</entry>
@@ -673,7 +652,7 @@
 					<entry>10111010</entry>
 					<entry>250</entry>
 					<entry>11111010</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 59</entry>
@@ -684,7 +663,7 @@
 					<entry>10111011</entry>
 					<entry>251</entry>
 					<entry>11111011</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 60</entry>
@@ -695,7 +674,7 @@
 					<entry>10111100</entry>
 					<entry>252</entry>
 					<entry>11111100</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 61</entry>
@@ -706,7 +685,7 @@
 					<entry>10111101</entry>
 					<entry>253</entry>
 					<entry>11111101</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 62</entry>
@@ -717,7 +696,7 @@
 					<entry>10111110</entry>
 					<entry>254</entry>
 					<entry>11111110</entry>
-					<entry></entry>
+					
 				</row>
 				<row>
 					<entry> 63</entry>

@@ -18,8 +18,8 @@
 		och IP-adressen representeras (som allt annat) i binär
 		form. Till exempel så blir nätmasken 255.255.255.0
 
-		<literallayot>11111111.11111111.11111111.00000000
-		</literallayot>
+		<literallayout>11111111.11111111.11111111.00000000
+		</literallayout>
 
 		naturligtvis är inte punkterna med men jag tar med dem
 		ändå i exemplen för att det skall bli lättare att se.
@@ -28,8 +28,8 @@
 		En IP-adress, till exempel 192.168.0.1 ser ut så här i
 		binär form
 	
-		<literallayot>11000000.10101000.00000000.00000001
-		</literallayot>
+		<literallayout>11000000.10101000.00000000.00000001
+		</literallayout>
 	</para>
 	<para>
 		För att få fram nätverksadressen använder man den
@@ -37,11 +37,11 @@
 		nätmasken med varje bit i IP-adressen. Detta kallas
 		bitvis AND. AND fungerar enligt följande:
 
-		<literallayot>1 AND 1 = 1
+		<literallayout>1 AND 1 = 1
 1 AND 0 = 0
 0 AND 1 = 0
 0 AND 0 = 0
-		</literallayot>
+		</literallayout>
 
 		Det vill säga AND är bara 1 om båda termerna är 1.
 	</para>
@@ -49,10 +49,10 @@
 		Om man AND-ar nätmasken med IP-adressen får man fram
 		nätadressen. Se nedan:
 	
-		<literallayot>11111111.11111111.11111111.00000000
+		<literallayout>11111111.11111111.11111111.00000000
 11000000.10101000.00000000.00000001 AND
 11000000.10101000.00000000.00000000
-		</literallayot>
+		</literallayout>
 		
 		Alltså är 11000000.10101000.00000000.00000000 =
 		192.168.0.0 nätverksadressen.
