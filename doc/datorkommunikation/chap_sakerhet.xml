@@ -57,7 +57,22 @@
 		</para>
 	</sect1>
 	<sect1><title>Hur kan jag skydda mig?</title>
-		<sect2><title>Lösenord</title>
+		<para>
+			Det finns massor av sätt att skydda dig. Vanligt sunt förnuft
+			räcker väldigt långt. Här kommer ytterligare tips.
+		</para>
+		
+		<sect2><title>Var försiktig med e-post och bilagor</title>
+			<para>
+			</para>
+		</sect2>
+		
+		<sect2><title>Ladda hem saker från internet med försiktighet</title>
+			<para>
+			</para>
+		</sect2>
+		
+		<sect2><title>Använd bra lösenord</title>
 			<para>
 				Den första kontakten de flesta har med datasäkerhet är
 				användarnamn och lösenord. Användarnamnet använder du för
@@ -258,6 +273,8 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 		</para>
 	</sect1>
 </chapter>
+
+
 
 <!-- Keep this comment at the end of the file
 tab-width: 3
