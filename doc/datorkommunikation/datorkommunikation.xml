@@ -52,7 +52,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/04/24 20:44:57 $</pubdate>
+	<pubdate>$Date: 2004/05/30 21:47:29 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.47 $</revnumber>
+			<revnumber>$Revision: 1.48 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -125,8 +125,9 @@
 			genom att släppa denna bok fri förväntar jag mig att du som
 			läsare skall skicka mig kommentarer så att vi tillsammans kan
 			göra den mycket bättre än vad jag och kanske du skulle ensamma.
-			Ett exempel på en som gjort detta är <emphasis>Bengt
-			Gördén</emphasis> som gett mycket bra feedback om NAT.
+			Några exempel på de som gjort detta är <emphasis>Bengt
+			Gördén</emphasis> som gett mycket bra feedback om NAT och Pär
+			Lindskog som gett bra feedback angående IMAP. Tack!
 		</para>
 		<para>
 			Sist vill jag tacka min Jenny som står ut med att ha en
