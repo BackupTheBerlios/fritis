@@ -38,7 +38,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/27 21:35:26 $</pubdate>
+	<pubdate>$Date: 2004/02/02 10:07:58 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -47,7 +47,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.37 $</revnumber>
+			<revnumber>$Revision: 1.38 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -2439,7 +2439,7 @@
 			publiceras. Vi kommer att titta mer på Internet i <xref
 			linkend="chap_internet"/>, det finns också en tabell över
 			RFC:er som berör det vi talar om i denna bok i <xref
-			linkend="rfcer"/>.
+			linkend="rfc"/>.
 		</para>
 		<para>
 			Det finns naturligtvis även protokoll och standarder som
@@ -4097,6 +4097,18 @@ Destination   Netmask          Gateway           Interface
 				alla operativsystem. Den vanligaste finns till Unix-system, även
 				Linux och heter <emphasis>BIND, Berkeley Internet Name
 				Daemon</emphasis>. 
+			</para>
+		</sect2>
+		<sect2><title>Round Robin DNS</title>
+			<para>
+				Om man har en server där prestanda blir lidande av för stor
+				belastning kan man använda en teknik som heter Round Robin
+				DNS. Den fungerar så att DNS-servern inte returnerar samma
+				IP-adress varje gång den frågas efter ett datornamn. Det gör
+				att man kan ha två eller flera servrar, gärna utspridda på
+				olika håll som servar samma domännamn. Eftersom
+				DNS-servrarna sprider ut svaren på domännamnsfårgorna så
+				kommer lasten att balanseras över de olika servrarna.
 			</para>
 		</sect2>
 	</sect1>
