@@ -327,7 +327,9 @@
 
 	<sect1><title>Sammanfattning</title>
 		<para>
-			Kommer snart ...
+			I detta kapitel har vi gått igenom en mängd
+			nätverkskomponenter. Du skall nu känna till vad dessa gör och
+			hur de fungerar. Till exempel switch, gateway och brandvägg.
 		</para>	
 	</sect1>
 </chapter>
