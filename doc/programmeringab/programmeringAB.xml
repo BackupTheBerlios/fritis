@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.9 2004/01/08 19:12:27 magnus Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.10 2004/01/08 19:18:54 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -988,7 +988,7 @@ echo "Hallå Världen!";
 					<programlisting>
 <![CDATA[
 <?php
-$c = $a + $b; //Utläses, c tilldelas a + b
+$c = $a + $b; // Utläses, c tilldelas värdet av a + b
 ?>
 ]]>
 					</programlisting>
@@ -996,19 +996,14 @@ $c = $a + $b; //Utläses, c tilldelas a + b
 			</para>
 			<para>
 				Det finns vissa andra tilldelningsoperatorer, men dessa behöver
-				ni inte kunna. De är mest genvägar för de som är lata. Jag tar
-				dem kort här.
-				<!--
-				XXX: Det är *INTE* för de som är LATA! Det blir snyggare och
-				     enklare kod och mindre att underhålla =)
-				-->
+				ni inte kunna. Jag tar dem kort här.
 				<example>
 					<title>Tilldelningsoperatorerna += och -=</title>
 					<programlisting>
 <![CDATA[
 <?php
-$a += 5 // Samma sak som $a = $a + 5
-$a -= 5 // Samma sak som $a = $a - 5
+$a += 5; // Samma sak som $a = $a + 5
+$a -= 5; // Samma sak som $a = $a - 5
 ?>
 ]]>
 					</programlisting>
