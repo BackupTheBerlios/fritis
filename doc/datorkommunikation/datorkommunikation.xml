@@ -31,7 +31,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/14 17:35:25 $</pubdate>
+<pubdate>$Date: 2004/01/14 22:36:15 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -62,7 +62,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.3 2004/01/14 17:35:25 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.4 2004/01/14 22:36:15 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -1239,9 +1239,9 @@
 			och skickar vidare. När datan kommer tillbaka (med
 			stafettpinnen) till avsändaren tar den bort datan från nätet
 			och skickar stafettpinnen vidare. Detta gör att kollisioner
-			helt undviks.
+			helt undviks. Token Passing används i nätverksteknologin Token
+			Ring från IBM.
 		</para>
-
 	</sect1>
 
 	<sect1><title>Övningsuppgifter</title>
@@ -1252,8 +1252,331 @@
 </chapter>	
 
 <chapter><title>Nätverkskomponenter</title>
+	<abstract>
+		<para>
+			För att kunna bygga de nätverk som beskrevs i det förra
+			kapitlet måste man ka något att bygga av. Nätverken byggs
+			naturligtvis upp av datorer, men även andra komponenter behövs
+			för att kunna, dels koppla ihop datorerna i nätverk och även
+			kunna koppla ihop olika nätverk med varandra.
+		</para>
+	</abstract>
+
+	<sect1><title>Noder</title>
+		<para>
+			Det kan vara på sin plats att först beskriva termen
+			<emphasis>nod</emphasis>. En nod är en generell
+			addresserbar nätverkskomponent, det kan vara en arbetsstation,
+			en router, en brandvägg eller något annat. Är den adresserbar i
+			nätverket så kallas den ofta för en nod.
+		</para>
+		<para>
+			Man kan säga att ett nätverk byggs upp av noder som i sin tur
+			är olika komponenter.
+		</para>
+	</sect1>
+
+	<sect1><title>Datorer/Servrar</title>
 	<para>
+		Datorer kan anses som de viktigaste komponenterna i ett
+		datornätverk. Utan dem blir det inte mycket till nätverk. Det
+		minsta nätverk man kan bygga är med hjälp av två datorer med något
+		typ av kommunikationskort och en kabel.
 	</para>
+	<para>
+		Det vanligaste typen av kommunikationskort eller gränssnitt man
+		använder på en dator är ett <emphasis>nätverkskort</emphasis>. Det
+		vanligaste typen av nätverkkort idag är ethernet-kort. Dessa har
+		oftast ett uttag för en kabel med ett kontaktdon som kallas för
+		RJ-45. RJ-45 ser ungefär som den koppling som finns på en del
+		telefoner. Den kontakt som sitter på telefonen heter RJ-11 och har
+		fyra ledningar medan RJ-45 har åtta. RJ-11 kallas även för
+		modulärkontakt. RJ står för Registered Jack.
+	</para>
+	<para>
+		Varje nätverkskort har en unik adress. Denna kallas för kortets
+		<emphasis>hårdvaruadress</emphasis> eller
+		<emphasis>MAC-adress</emphasis>. MAC står för
+		<emphasis>Media Access Control</emphasis> och är nödvändig för att
+		kunna identifiera de olika datorerna på nätverket. MAC-adresserna
+		är alltså unika på alla natverkskort som säljs. Detta samordnas
+		centralt av en organisation som heter <emphasis>IEEE</emphasis>.
+		IEEE (uttalas "i-triple-e") är en förkortning för Institute for
+		Electric and Electronic Engineers och är en organisation av
+		personer och företag inom elektricitet, elektronik och datorer.
+	</para>
+	<para>
+		En dator kan ha flera olika roller i ett nätverk. Den kan vara
+		till exempel en arbetsstation vid vilken någon sitter och jobbar.
+		Det kan också vara en <emphasis>server</emphasis>. En server är en
+		dator som förser nätverket med en eller flera tjänster (Eng.
+		services). Egentligen är en server inte en hårdvara utan själva
+		programvaran som implementerar tjänsten men det har blivit så att
+		man även kallar själva datorn som kör servern eller servrarna för
+		en server. Det finns speciella datorer som kallas servrar. Det som
+		skiljer dessa från vanliga datorer är att de brukar vara
+		kraftigare byggda och ha mer påkostade fläktar och diskar.
+		Funktionsmässigt är det ingen större skillnad så länge det rör sig
+		om samma datorarkitektur.
+	</para>
+	<para>
+		En dator kan också vara en <emphasis>terminal</emphasis>. En
+		terminal är brukar kallas för en "dum" terminal och är en dator
+		som inte själv har så mycket resurser utan är knuten till en
+		server vars tjänster terminalen är helt beroede av. Terminalerna
+		bestod tidigare av bara en skärm och ett tangentbord som var
+		kopplade direkt till en dator antingen via en vanlig kabel eller
+		via telefonnätet eller andra större nätverk. De hade allstå ingen
+		egen datorkapacitet. Idag är detta inte så vanligt. Använder man
+		terminalsystem idag så är det oftast så att man kör ett
+		terminalemulerningsprogram på sin PC. 
+	</para>
+	<para>
+		Det har dock på senare tid blivit vanligt med tunna klienter.
+		Dessa fungerar ungefär som terminalerna gjorde men en tunn klient
+		har lite egna resurser men kör alla program direkt från en server.
+		Det har flera fördelar. För det första så blir dessa tunna
+		klienter mycket billigare och har längre livslängd än PC-datorer.
+		En andra fördel är att service och uppgraderingar av programvaror
+		lättare kan skötas centralt. Alla klienter kör ju samma
+		programvaror från servern så om denna uppgraderas så har alla
+		klienter uppgraderats på en gång.
+	</para>
+	</sect1>
+
+	<sect1><title>Hubb</title>
+	<para>
+		En hubb, från engelskans hub = nav, är namnet på den centrala
+		knytpunkten, nätnavet, i ett stjärnnät. Det är också namnet på en
+		nätverkskomponent som används just i detta syfte. En hubb fungerar
+		som en grenkoppling. Alla signaler som kommer in på ett uttag på
+		hubben skickas ut på alla andra uttag på samma gång. En nackdel
+		med detta är att bara en ansluten nod i taget kan sända. Sänder en
+		så skickas det till alla andra på en gång och hela nätet blir
+		således upptaget. Det är väldigt vanligt med kollisioner i ett nät
+		där man har just en hubb som nätnav. De flesta hubbar har en
+		lysdiod som indikerar när det är en kollission på nätet. Denna
+		lampa kan man använda som en indikator för att se hur mycket
+		kollisioner det är på nätverket. Mycket kollisioner gör att
+		nätverket får minskad kapacitet och upplevs som långsamt. Man kan
+		då välja att segmentera nätverket eller skaffa en switch (se nästa
+		stycke). Ett annat relaterat problem är att eftersom all trafik
+		kommer fram till alla datorer kan en ond användare ta del av
+		information som inte är avsedd för henne vilket är en
+		säkerhets-risk.
+		
+		<figure id="fig_hubb"><title>Kommunikation över en hubb</title>
+			<mediaobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						Bild som visar hur trafik från en sändande dator
+						kommer fram till alla andra när de är anslutna till
+						ett stjärnnät med en hubb som nätnav.
+					</phrase>
+				</textobject>
+				<caption>
+					<para>
+						Kommunikaton över en hubb. När dator B sänder data
+						över nätverket så når det inte bara avsedd mottagare
+						utan även alla andra anslutna till hubben. Det gör att
+						bara en kan sända i taget vilket gör att fler
+						kollisioner uppstår och att nätverket kan gå
+						långsammare.
+					</para>
+				</caption>
+			</mediaobject>
+		</figure>
+		
+		
+	</para>
+	</sect1>
+	
+	<sect1><title>Switch</title>
+		<para>
+			En switch är också en komponent som används som nätnav i ett
+			stjärnnät. Till skillnad från hubben så håller switchen reda på
+			vilka datorer som sitter på vilket uttag och skickar bara
+			informationen till den dator som den är avsedd för. Det gör att
+			inte nätet fylls med trafik så fort någon av datorerna skickar
+			data. Alltså kan kommunikation ske mellan två par datorer
+			oberoende av varandra på samma gång på samma switch. Säkerheten
+			ökas också eftersom det blir svårare att komma åt information
+			som inte är avsedd för den aktuella datorn.
+		</para>
+		<para>
+			Studera och jämför bilderna <xref linkend="fig_hubb"/> och
+			<xref linkend="fig_switch"/>.
+		</para>
+		<figure id="fig_switch"><title>Kommunikation över en switch</title>
+			<mediaobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						Bild som visar hur trafik från en sändande dator
+						bara kommer fram till avsedd dator när de är anslutna till
+						ett stjärnnät med en switch som nätnav.
+					</phrase>
+				</textobject>
+				<caption>
+					<para>
+						Kommunikaton över en switch. När dator B sänder data
+						över nätverket till C så når datan bara dator C.
+						Eftersom B och C får en egen kanal genom switchen kan
+						de kommunicera utan att resten av nätverket störs.
+						Samtidigt skulle A och D kunna kommunicera på samma
+						sätt.
+					</para>
+				</caption>
+			</mediaobject>
+		</figure>
+
+		<para>
+			I mer avancerade switchar kan man konfigurera exakt på vilket
+			sätt olika noder får tala med varandra. Man kan skapa så
+			kallade <emphasis>virtuella LAN</emphasis> (VLAN) på en switch.
+			Det går till så att man kopplar ihop portar i grupper så att
+			varje grupp fungerar som en egen switch. Det finns även flera
+			funktioner på dyrare switchar.
+		</para>
+	</sect1>
+	
+	<sect1><title>Repeater</title>
+	<para>
+		En repeater kan jämföras med en förstärkare. En repeater har
+		ingångar och utångar, den lyssnar på ingångarna och förstärker
+		signalerna och skickar dem på utgångarna. En repeater har ingen
+		intelligens alls utan förstärker bara det den hör och skickar
+		vidare. En repeater används vid kommunikation över större avstånd
+		och för att koppla ihop olika nätverkssegment i ett nätverk.
+	</para>
+	</sect1>
+	
+	<sect1><title>Brygga</title>
+	<para>
+		En brygga fungerar ungefär som en repeater med den skillnaden att
+		den kan konvertera mellan olika nätverksprotokoll och kablar. En
+		brygga används när man vill koppla ihop nätverkssegment av olika
+		slag.
+	</para>
+	</sect1>
+	
+	<sect1><title>Brouter</title>
+	<para>
+		Namnet brouter är en lek med ord. Det är en sammanslagning av de
+		engelska orden Bridge (brygga) och Router. Det är en brygga som
+		också fungerar som en Router (se nedan).
+	</para>
+	</sect1>
+	
+	<sect1><title>Router</title>
+	<para>
+		En router är en nätverkskomponent som kopplar samman olika
+		nätverk. Den kopplar inte samman näten så blint som en brygga
+		eller repeater utan en Router läser nätverkstrafiken och bedömer
+		vilken trafik som skall till vilket nät. En router kan vara
+		ansluten till flera nät. Att läsa nätverkstrafik och skicka den
+		vidare åt olika håll beroende på deras destination kallas för att
+		<emphasis>routa</emphasis> på klingande svengelska. För att veta
+		år vilket håll inkommen nätverkstrafik skall använder sig en
+		router av en <emphasis>routingtabell</emphasis> där det finns
+		listat var olika datorer och nätverk finns. Routingtabellen kan
+		vara statisk, det vill säga sparad på en disk i routern och ändras
+		inte, eller dynamisk. En dynamisk routingtabell uppdateras
+		automatiskt utifrån hur omgivningen ser ut.
+	</para>
+	</sect1>
+	
+	<sect1><title>Gateway</title>
+	<para>
+		En gateway finns på de flesta lokala nätverk och är oftast en väg
+		ut på ett större nät. En gateway kan precis som routern läsa
+		nätverkstrafiken och konvertera den men har en specifik uppgift
+		att koppla samman ett nät med ett annat. En router kan sitta på
+		ett nät och bara tala med andra routrar medan en gateway har
+		datorer åtminstone på sin ena sida.
+	</para>
+	</sect1>
+	
+	<sect1><title>Brandvägg</title>
+	<para>
+		En gateway mellan till exempel ett lokalt nätverk och Internet
+		kombineras ofta med en branvägg (eng. Firewall). En brandvägg är
+		en speciell sorts router som bara routar vidare den trafik som
+		uppfyller vissa krav.  Trafik som inte uppfyller kraven kastas
+		bort vilket gör att mottagaren av den "förbjudna" trafiken skyddas
+		från den. 
+	</para>
+	<para>
+		Oftast har man en brandvägg mellan ett lokalt nätverk och Internet
+		men man kan även ha brandväggar på det interna nätet. Ibland har
+		man brandväggar på själva den datorn som skall skyddas. Den
+		fungerar på samma sätt som en vanlig brandvägg med den enda
+		skillnaden att den inte routar till och från ett helt nätverk utan
+		bara till och från den aktuella datorn.
+	</para>
+	<para>
+		Det som avgör om en viss trafik skall släppas igenom eller inte
+		kallas för <emphasis>brandväggsregler</emphasis> eller bara regler
+		om det inte råder några tvivel om vad man talar om.
+	</para>
+	<para>
+		Vi kommer att tala mer om brandväggar i <xref
+		linkend="chap_sakerhet"/>
+	</para>
+	</sect1>
+
+	<sect1><title>Sammanhängande exempel</title>
+		<para>
+			I <xref linkend="fig_natverk"/> visas en en kanska krystad bild
+			på ett nätverk där de flesta av komponenterna vi behandlat
+			finns med. Switchen hade lika gärna kunnat vara en hubb. I
+			exemplet finns det en kombinerad gateway och brandvägg vilket
+			inte alls är ovanligt.
+		</para>
+		<figure id="fig_natverk"><title>Exempel på nätverk</title>
+			<mediaobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						Ganska krystad bild som visar ett nätverk där så många
+						komponenter som möjligt för trängas på så liten yta
+						som möjligt ....
+					</phrase>
+				</textobject>
+				<caption>
+					<para>
+						Ett exempel på ett nätverk med de flesta av de
+						komponenter vi studerat. Det är ett ganska överdrivet
+						exempel för att allt skulle få plats men
+						förhoppningsvis illustreras de olika komponenternas
+						plats.
+					</para>
+				</caption>
+			</mediaobject>
+		</figure>
+	</sect1>	
+
+	<sect1><title>Övningsuppgifter</title>
+		<para>
+			Övningar kommer snart ...
+		</para>	
+	</sect1>
 </chapter>
 
 <chapter><title>Kablar och icke-kablar</title>
@@ -3325,7 +3648,7 @@ Modeller, referensmodeller, standarder
 
 </chapter>
 
-<chapter><title>Datasäkerhet</title>
+<chapter id="chap_sakerhet"><title>Datasäkerhet</title>
 <abstract><para>
 	Stora öppna nät som till exempel Internet är naturligtvis bra
 	för kommunikatinonen men det öppnar även för onda personer som
