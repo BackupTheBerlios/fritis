@@ -1,0 +1,3805 @@
+<?xml version="1.0" encoding="latin1" ?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
+ "/usr/share/sgml/docbook/dtd/4.2/docbookx.dtd" [
+<!ENTITY fdl-sv SYSTEM "fdl-sv.xml">
+<!ENTITY dtr1201 SYSTEM "dtr1201.xml">
+<!ENTITY hextodectabell SYSTEM "hextodectabell.xml">
+<!ENTITY asciitabell SYSTEM "asciitabell.xml">
+]>
+
+<book lang="sv" status="draft">
+<bookinfo>
+
+<title>Datorkommunikation</title>
+
+
+
+<author>
+	<firstname>Marcus</firstname> 
+	<surname>Rejås</surname>
+	<affiliation>
+      		<orgname>Rejås Datakonsult</orgname>
+		<address><email>marcus@rejas.se</email></address>
+    	</affiliation>
+</author>
+<!--
+<othercredit>
+	<firstname>Johan</firstname>
+	<surname>Hammar</surname>
+	<contrib>
+		Mycket uppskattad korrekturläsning.
+	</contrib>
+</othercredit>
+-->
+<pubdate>$Date: 2004/01/14 12:38:30 $</pubdate>
+
+<copyright>
+	<year>2003, 2004</year>
+	<holder>Marcus Rejås</holder>
+</copyright>
+
+<legalnotice>
+	<para>
+	
+		Var och en äger rätt att kopiera, distribuera och/eller modifiera
+		detta dokument under villkoren i licensen "GNU Free Documentation
+		License", version 1.2 eller senare publicerad av Free Software
+		Foundation, med det invarianta styckena <xref linkend="dtr1201"/>
+		och <xref linkend="forord"/>, utan framsidestexter och utan
+		baksidestexter.  En kopia av denna licens finns med i avsnittet
+		med titeln "GNU Free Documentation License".
+	
+	</para>
+	<para>
+	
+		Det vill säga, du kan fritt ladda ner, vidaredistribuera
+		och kopiera denna bok. Du får ändra den om du vill (se
+		licenstexten).  Tryckta böcker kan köpas av TriNix AB i
+		Helsingborg, telefon 042-127800.
+		
+	</para>
+</legalnotice>
+
+<revhistory>
+<revision>
+	<revnumber>$Id: datorkommunikation.xml,v 1.1 2004/01/14 12:38:30 rejas Exp $</revnumber>
+	<date></date>
+	<revremark>Utvecklingsversion</revremark>
+</revision>
+</revhistory>
+
+<abstract>
+<para>
+
+	Denna bok är anpassad för gymnasieskolans kurs
+	datorkommunikation med kurskoden DTR1201 (<xref
+	linkend="dtr1201"/> ). Den kan naturligtvis
+	användas även i andra sammanhang.
+
+</para>
+</abstract>
+
+</bookinfo>
+
+<preface id="forord"><title>Förord</title>
+<sect1><title>Tack till</title>
+<para>
+
+	Jag vill börja denna bok med att tacka alla som hjälpt mig med
+	den. Framför allt då <emphasis>Johan Hammar</emphasis> som
+	ställt upp med korrekturläsning och XXXX XXXX som ritat alla
+	fina bilder. Utan er hade boken inte varit så bra som den är
+	idag. Tack!
+
+</para>
+
+<para>
+
+	Jag vill också tacka dig som läser denna bok. Hittar du något
+	som är fel eller som du tycker att man kan göra på något bättre
+	sätt så tveka inte att höra av dig till mig. Min adress står i
+	början av boken. Jag har mina begränsningar som författare men
+	genom att släppa denna bok fri förväntar jag mig att du som
+	läsare skall skicka mig kommentarer så att vi tillsammans kan
+	göra den mycket bättre än vad jag och kanske du skulle ensamma.
+
+</para>
+
+<para>
+
+	Sist vill jag tacka min Jenny som står ut med att ha en datanörd
+	hemmavid. Att skriva böcker för att ge bort dem samt att
+	engagera sig i en massa öppna projekt vid sidan om mer än ett
+	heltidsjobb tar sin tid och kräver mycket tålamod och förståelse
+	av de nära. Allt det ger Jenny mig vilket jag är mycket tacksam
+	för. Ni borde också tacka Jenny, utan Jenny -- ingen bok.
+
+</para>
+
+</sect1>
+
+<sect1><title>Några ord om denna bok</title>
+<para>
+
+	Jag vill också passa på att berätta lite om denna bok, varför
+	jag skriver den, varför jag släpper den helt fritt och kanske
+	varför den blev som den blev.
+
+</para>
+
+<para>
+
+	Det finns flera anledningar till att jag skriver denna bok. Den
+	största anledningen är att jag till vardags håller bland annat denna
+	kurs i en gymnasieskola. Jag har läst ett flertal böcker på området
+	och tycker inte att någon lägger upp kursen på det sätt jag vill och
+	vissa innehåller inte heller allt det som står i kursplanen. Jag har
+	utgått från kursplanen när jag gjort denna bok så allt skall vara
+	med. Man bör komplettera med labbar också eftersom kursplanen nämner
+	en del praktiska moment. Det finns labbar att hämta på denna boks
+	hemsida. Har du förslag på labbar, lektionsförslag, övningar eller
+	annat så tveka inte att skicka dem till mig. Tillsammans kan vi göra
+	ett suveränt kursmatrial som kan gagna både elever, lärare och skolor
+	i framtiden.
+
+</para>
+
+<para>
+
+	Hur kommer det sig då att jag släpper denna bok fritt på Internet,
+	med en licens som till och med låter andra ändra i den och/eller
+	sälja den för att tjäna pengar? Jag brinner för något som kallas fri
+	programvara. Fri programvara är programvara som du får använda fritt
+	i vilket syfte du vill och vars källkod är öppen. Fri programvara har
+	visat sig hålla mycket hög kvalitet och funktionalitet. Exempel på
+	fri programvara är till exempel operativsystemet Linux, webservern
+	Apache och kontorsprogramsviten OpenOffice.org. Alla dessa tre har på
+	sitt sätt till att skapa och sprida denna bok. Till denna bok har
+	uteslutande fria programvaror använts.
+
+</para>
+
+<para>
+
+	Även denna bok är fri. Du kan ladda ner den från internet. Även
+	de datafiler jag skrivit boken i finns där så att du kan
+	förbättra den om du vill. Om du väljer att göra det så vill jag
+	gärna veta det även om det inte är något tvång. Vad som däremot
+	är ett tvång är att om du bygger vidare på denna bok så måste du
+	släppa den lika fri som jag gjort (se licenstexten om du är
+	osäker). Eftersom denna bok är skriven för och med fria
+	programvaror så kommer de exempel som är i boken att vara i
+	operativsystemet Linux och de program som brukar finnas med det.
+	Använder du något annat operativsystem så kan du ändå ha nytta
+	av boken. 
+
+</para>
+
+<para>
+
+	Det finns naturligtvis andra skäl till att släppa en bok fritt
+	på detta sätt. Det självklara är att alla kan hjälpas åt att
+	göra den bättre, men det finns även mer praktiska fördelar. Det
+	står skolan fritt att köpa denna bok i tryckt format. Tycker man
+	att det är för dyrt eller tar för lång tid kan man trycka den
+	själv. Man kan även läsa den online om man vill. Har någon elev
+	glömt sin bok en dag så finns allt material fritt tillgängligt
+	på Internet. Man för fritt kopiera hela eller delar av boken.
+	Detta kan vara smidigt i händelse av att någon glömt sin bok
+	eller om man bara vill behandla en liten del av den i en kurs.
+	Hittas ett fel i boken kan detta rättas till och vara
+	studenterna till hands redan nästa dag om man vill.
+
+</para>
+
+<para>
+	
+	Men, som jag sagt, den största fördelen är att alla kan hjälpas
+	åt för att göra denna bok bättre. Jag hoppas nu när jag skriver
+	denna bok att det skall vara ett levande dokument som anpassas
+	efterhand som tekniken förändras. Därför vill jag uppmuntra dig
+	som läsare att skicka kommentarer, rättelser, nya avsnitt,
+	förändrade avsnitt, mm, mm till mig så för jag in dem i boken.
+	Tillsammans kan vi göra en bok mycket bättre än vad jag själv
+	skulle kunna åstadkomma. I gengäld får du ett bättre matrial och vad
+	som brukar kallas för "credit", det vill säga ett omnämnande i boken
+	för att visa vad du gjort. Att hjälpas åt på detta sätt för att göra
+	det som blir bäst för alla, det är det som allt detta handlar om.
+	
+</para>
+<para>
+	Marcus Rejås, Norrtälje 2004-01-11.
+</para>
+
+
+</sect1>
+</preface>
+
+<toc/>
+
+<chapter><title>Inledning</title>
+
+	<abstract>
+		<para>
+			I detta kapitel ges en liten intruduktion till vad
+			datorkommunikation är och går igenom några grundläggande
+			begrepp.
+		</para>
+	</abstract>
+
+	<sect1><title>Vad är data och vad är dator?</title>
+		<para>
+			Det här är inte så lätt som man kan tro. Data är någon typ av
+			fakta eller värden som kan bearbetas av människor eller
+			maskiner men som inte ännu har tolkats. Till exempel så är en
+			ström av bokstäver data. Man kan titta på bokstäverna utan att
+			läsa ut vad de innebär, man kan flytta dem, skriva ut den,
+			kopiera dem och så vidare. Bokstäverna kan bilda en mening men
+			behöver inte nödvändigtvis göra detta för att vara data. På
+			samma sätt kan en tabell med siffror utgöra data. Rätt tolkade
+			kankse de utgör en viktig kalkyl för ett stort företag men utan
+			att tolka dem så är det data.
+		</para>
+		<para>
+			En dator är en maskin som vi använder för att behandla data,
+			till exempel en persondator eller en server i ett nätverk. Man
+			hör ofta att någon säger "Jag slog på datan." när de egentligen
+			menar, "Jag slog på datorn.", såvida de inte faktiskt stod och
+			slog på cd-skivan eller vad det nu kan vara för något som
+			innehåller data.
+		</para>
+	</sect1>
+
+	<sect1><title>Vad är information?</title>
+		<para>
+			Data som tolkats av en människa eller en dator kallas för
+			information. Till exempel så är en bild som sparats på en disk
+			data ända tills den presenterats av ett bildvisningsprogram för
+			en människa som förstår bilden, då först är det information. På
+			samma sätt så är strängen med bokstäver i exemplet ovan data
+			tills dess att de läses av en människa som kan tolka dem. Då
+			blir det information.
+		</para>
+		<para>
+			Alltså data som tolkats och givits en innebörd är information.
+			Information kan inte flyttas mellan två datorer men data kan.
+			Information kan inte sparas ned på en disk men data kan. Data
+			kan, om den är rätt utformad, tolkas till information.
+		</para>
+	</sect1>
+
+	<sect1><title>Vad är kommunikation?</title>
+		<para>
+			Kommunikation är ett vitt begrepp. Vi använder det till att
+			benämna till exempel ett samtal eller att vi själv förflyttar
+			oss med till exempel tåg eller buss. Kommunikation kommer från
+			att utbyta information till att själv förfytta sig.  det
+			latinska ordet communicatio som betyder ungefär "att utbyta"
+			eller "att delge". Ordet kommunikation kan, som du vet,
+			användas på flera olika sätt och alla är riktiga. Men i denna
+			bok och i ämnesområdet datakommunikation betyder kommunikation
+			att man kan utbyter information. Som vi konstaterat tidigare så
+			kan inte information skickas mellan två datorer men data kan.
+			Och data plus regler för hur datat skall tolkas kan ju göras om
+			till information.
+		</para>
+	</sect1>
+
+	<sect1><title>Vad är datorkommunikation?</title>
+		<para>
+			Datorkommunikation är ju vad denna bok skall behandla, så vad
+			är det för något? Datorkommunikation är när människor utbyter
+			information med varandra med hjälp av datorer. Som vi sett så
+			kan bara datorerna utbyta data så det måste även finnas regler
+			för hur denna information skall kunna tolkas till information i
+			slutändan för att det skall vara någon mening med
+			kommunikationen. Under kommunikationens gång kan datat
+			behandlas av system eller datorer som inte har vetskap om vad
+			datat betyder. Dessa är delar av datorkommunikationen men är
+			inte en part som kommunicerar. Till exempel så är telefonen en
+			del av ett telefonsamtal men det är inte telefonen som
+			kommunicerar utan det är du och den som håller i luren på andra
+			sidan som kommunicerar. Trots detta är telefonen, ledningar och
+			telefonväxlar ett led i kommunikationen.
+		</para>	
+	</sect1>
+
+	<sect1><title>Övningsuppgifter</title>
+		<para>
+			I detta kapitel har vi lärt oss vad några grundläggande begrepp
+			inom datorkommunikationsämnet står för. Detta kapitel avslutas,
+			liksom de resterande kapitlen i boken, med några kontrollfrågor
+			eller övningsuppgifter som du kan använda för att kontrollera
+			dig själv att du lärt dig det som kapitlet handlade om.
+		</para>
+		<orderedlist>
+			<listitem>
+				<para>
+					Förklara skillnaden mellan data och dator.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Förklara skillnaden mellan data och information.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Diskussionsuppgift: Kan man spara information?
+				</para>
+			</listitem>
+		</orderedlist>
+	</sect1>
+
+</chapter>
+
+<chapter><title>Dataöverföring</title>
+	<abstract>
+		<para>
+			Detta kapitel behandlar hur data kan föras över mellan två
+			olika noder i ett system genom en kabel eller på annat sätt som
+			till exempel radio eller som infrarött ljus.
+		</para>
+	</abstract>
+
+	<sect1><title>Inledning</title>
+		<para> 
+			I slutet på det förra kapitlet nämndes ett telefonsamtal som
+			ett exempel på kommunikation. Två personer kommunicerar med
+			varandra. Om man bryter ner samtalet i olika lager så ser vi
+			att personerna egentligen inte talar med varandra utan de båda
+			talar egentligen med sin telefon. Telefonerna i sin tur talar
+			med varandra med hjälp av telenätet. Telefonerna utbyter data
+			med varandra men är ovetande om innebörden.  Telefonerna
+			presenterar data i form av ljud som personerna som för dialogen
+			förstår och omsätter till information. En hel del regler måste
+			finnas och följas för att kommunikationen skall fungera.
+		</para>
+
+		<figure id="fig_telefonsamtal"><title>Ett telefonsamtal</title>
+			<mediaobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						En figur som visar hur ett telefonsamtal mellan två
+						personer kan delas upp en mängd olika delar och lager.
+					</phrase>
+				</textobject>
+				<caption>
+					<para>
+						Schematisk bild över ett telefonsamtal.  Personerna
+						längst upp upplever det som att de talar med varandra
+						med egentligen talar de med var sin telefon.
+						Telefonerna tror i sin tur att de talar med varandra
+						medan de i själva verket talar med en telefonväxel
+						eller motsvarande och så vidare. Samtalet betyder bara
+						något för personerna och följer vissa regler som de
+						känner till.  Samma sak gäller varje del i modellen
+						där data överförs.
+					</para>
+					<para>
+						Det är inte i denna bild meningen att förlklara hur
+						telefonnätet fungerar.  Häng inte upp dig på
+						detaljerna utan fokusera på principen med de olika
+						lagren.
+					</para>
+				</caption>
+			</mediaobject>
+		</figure>
+
+		<para>
+			Personerna som samtalar måste följa en mängd regler som båda
+			känner till för att samtalet skall ha någon mening. Till
+			exempel så måste de tala en i taget och tala ett språk som de
+			båda förstår och följa de regler som finns i detta språk. Man
+			kan säga att detta är det <emphasis>protokoll</emphasis> som de
+			följer.
+		</para>
+		<para>
+			Nu är det ju inte så att dessa två personer talar med varandra
+			direkt, utan de talar ju egentligen med sin telefon. Denna
+			telefon talar sedan med den andra telefonen med hjälp av en
+			mängd komponenter som till exempel växlar och kablar. Alla
+			dessa komponenter måste samarbeta enligt givna prototokoll för
+			att det skall fungera. Telefonerna skickar och tar emot
+			elektriska strömmar som bildar ljud. Dessa måste se ut på ett
+			visst sätt för att telefonerna skall förstå dem. Vidare måste
+			alla delar i telefonnätet vara överens för att man skall vara
+			så säker som möjligt på att de strömmar som kommer ur en
+			telefons högtalare skall vara så lika som möjligt som de som
+			kommer in i den andra telefonens mikrofon.
+		</para>
+		<para>
+			Om alla delar i denna kommunikation fungerar så kommer samtalet
+			att vara givande. Vi skall nu titta lite närmare på hur det går
+			till att överföra data i en ledning.
+		</para>
+	</sect1>
+
+	<sect1><title>Analog och digital överföring</title>
+		<para>
+			Data som förs över en ledning skickas som elektriska strömmar
+			eller signaler på ett eller annat vis. Beroende på vilket
+			protokoll som används så kan datat packas in i dessa strömmar
+			på olika sätt. Till exempel så kan en hög spänning betyda en
+			sak och en låg spänning något annat.
+		</para>
+		<para>
+			I telefonexemplet så var det ljud som fördes från en telefon
+			till en annan. Ljud är exempel på analoga data
+			<footnote><para>Även analoga data kan överföras digitalt bara
+			man kommer överens om vilket protokoll som skall användas för
+			att packa in den analoga datan i ett binärt
+			format.</para></footnote>. Spänningen varierar beroende på
+			vilket ljud som kommer i mikrofonen på den ena telefonen och
+			spelas upp på mostvarande sätt i den andres hörtelefon. Man kan
+			jämföra analoga signaler med en vattenkran. Om man öppnar
+			mycket kommer mycket vatten och öppnar man den lite kommer det
+			lite vatten. Man kan variera exakt hur mycket vatten man vill
+			skall komma fram vid varje tidpunkt. Digitala signaler kan man
+			istället jämföra med en strömbrytare som antingen kan slå på
+			eller av strömmen. Man kan inte med en vanlig strömbrytare
+			sätta på strömmen litegrann.
+		</para>
+
+		<figure id="fig_analogadigitalasignaler">
+			<title>Analoga och digitala signaler</title>
+			<mediaobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						En figur som visar en rund sinusformad våg till
+						vänster och en kantig fyrkantsvåg till höger.
+					</phrase>
+				</textobject>
+				<caption>
+					<para>
+						Kurvan till vänster är ett exempel på en analog
+						signal. Den varierar mellan höga och låga signaler.
+						Den till höger är en digital signal.  Den kan bara
+						anta antingen ett högt eller ett lågt värde och får
+						därför en kantig form.
+					</para>
+				</caption>
+			</mediaobject>
+		</figure>
+
+	</sect1>
+
+	<sect1><title>Amplitud och frekvens</title>
+		<para>
+			I <xref linkend="fig_analogadigitalasignaler"/> så ser vi
+			exempel på en analog och en digital signal. Vi ser att båda två
+			går upp och ned. I bland är de höga och ibland är de låga.
+			Avståndet mellan det höga läget och det låga läget kallas för
+			signalens amplitud. I vilken enhet den mäts beror på vilken
+			enhet som finns på y-axeln i diagrammet. Vanligt är att den
+			mäts i Volt.
+		</para>
+		<para>
+			Hur många gånger per sekund en kurva växlar mellan lågt och
+			högt värde kallas för frekvens. Den mäts i enheten Hertz (Hz)
+			som är samma sak som antal per sekund. Vid höga frekvenser
+			används Kilo Hertz (kHz), Mega Hertz (MHz) eller till och med
+			Giga Hertz (GHz).
+		</para>
+	</sect1>
+
+	<sect1><title>Mer om digital dataöverföring</title>
+		<para>
+			När man talar om datorkommunikation menar man så gott som
+			alltid digital dataöverföring. Datorn fungerar digitalt både
+			inom en och samma maskin och när den kommunicerar med andra
+			datorer. 
+		</para>
+		<para>
+			Du har kanske hört att en dator bara känner till ettor och
+			nollor.  Detta verkar ju hänga bra ihop med liknelsen med en
+			strömbrytare ovan eller att kurvan bara kan vara låg eller hög.
+			Och visst hänger det ihop. En dator använder bara ettor och
+			nollor för att hantera data och dessa representeras ofta av
+			låga och höga spänningar, precis som i vårt lilla exempel ovan.
+		</para>
+		<para>
+			Men hur kan man få ut något av en etta eller en nolla? Jodå,
+			det går alldeles utmärkt bara det finns många ettor och nollor.
+			En datamängd som kan vara ett eller noll är den minsta möjliga
+			datamängden. Den kallas för en <emphasis>bit</emphasis>. Alltså
+			något som kan vara ett eller noll är en bit. Ordet bit kommer
+			från engelskans <emphasis>Binary Digit</emphasis> som betyder
+			binär siffra. Binär är samma sak som tvåfaldig. Men en bit har
+			man ingen större nytta av. Oftast klumpar man ihop några bitar
+			för att få en datamänd som är något större. Om man har en bit
+			så finns det ju bara två alternativ (0 och 1), men har man 8
+			bitar så finns det betydligt fler alternativ (till exempel
+			11001010 och 01010111). Det är vanligt att man jobbar med just
+			8 bitar som kallas för en <emphasis>byte</emphasis>. Ordet byte
+			kommer från engelskans "By eight" En byte kan anta
+			2<superscript>8</superscript>=256 olika kombinationer.
+		</para>
+	</sect1>
+
+	<sect1><title>Något om talbaser</title>
+		<para>
+			Normalt när vi räknar och talar om siffror så menar vi
+			underförstått att vi använder talbasen 10. Vi bygger våra tal
+			av 10 olika siffror (0-9) och grupperar up ett tal i ental,
+			10-tal, 100-tal, 1000-tal och så vidare. 1, 10, 100 och 1000 är
+			potenser av 10 10<superscript>0</superscript>,
+			10<superscript>1</superscript>, 10<superscript>2</superscript>,
+			10<superscript>3</superscript>. Precis på samma sätt kan man
+			ränka med andra talbaser, till exemepel 2 (binärt), 8 oktalt
+			eller 16 hexadecimalt.
+		</para>
+		<para>
+			Talet 13 kan beskrivas som
+			1*10<superscript>1</superscript>+3*10<superscript>0</superscript>=13.
+			Det vill säga ett 10-tal och 3 ental. I det binära talsystemet
+			har vi bara två siffror (0 och 1) och iställer för ental,
+			10-tal och så vidare så har vi ental, 2-tal, 4-tal, 8-tal,
+			16-tal och så vidare eller 2<superscript>0</superscript>,
+			2<superscript>1</superscript>, 2<superscript>2</superscript>,
+			2<superscript>3</superscript>, 2<superscript>4</superscript>
+			och så vidare. Skall vi binärt skriva 13 så behöver vi, enligt
+			samma principer som i vår decimalsystem, ett 8-tal, ett 4-tal,
+			inget 2-tal och ett ental eftersom
+			1*2<superscript>3</superscript>+1*2<superscript>2</superscript>+0*2<superscript>1</superscript>+1*2<superscript>0</superscript>=13.
+			Talet 13 skrivs alltså som 1101 binärt.
+		</para>
+		<para>
+			Eftersom datorn bara jobbar binärt med bitar så hanterar datorn
+			tal i binärform. Ofta när man jobbar inom datateknik och
+			programmering så använder man sig av binära tal. Som vi sett så
+			går det ju utmärkt att konvertera mellan det binära talsystemet
+			och det vanliga decimala. Som vi också ser så är 1101 mycket
+			längre och svårare att överblicka än till exempel 13. Det gör
+			att man i praktiken sällan jobbar med binära tal. Ofta räkar
+			man istället med talabasen 8 eller 16. Dessa är fortfarande
+			potenser av 2 och passar bra in i datorsammanhang men talen
+			blir mindre och enklare. Det vanligaste är talbasen 16 eller
+			hexadecimala tal som det kallas. Eftersom vi har talbasen 16
+			måste vi ha 16 stycken siffror. Våra vanliga siffror räcker
+			inte till utan man brukar lägga till bokstäverna A-F också och
+			behandla dem precis som om de vore siffror. Vi har altså
+			siffrorna 0123456789ABCDEF.  Vi bygger tal av ental, 16-tal,
+			256-tal, 4096-tal och så vidare.  Eller om vi uttrycker det som
+			ovan 16<superscript>0</superscript>,
+			16<superscript>1</superscript>, 16<superscript>2</superscript>,
+			16<superscript>3</superscript> och så vidare. Skall man skriva
+			talet 13 binärt så behöver vi bara D (=13) stycken ental. Talet
+			13 skrivs alltså D hexadecimalt.
+		</para>
+	</sect1>
+	<sect1><title>Bit, Byte kByte, ...</title>
+		<para>
+			Inom matematiken har vi sedan länge lärt oss att prefixen kilo
+			(k), Mega (M) och Giga (G) betyder
+			10<superscript>3</superscript>, 10<superscript>6</superscript>
+			respektive 10<superscript>9</superscript>. Inom datorvärlden
+			där mycket utgår från binära tal så är inte dessa tal speciellt
+			jämna. De tal som är jämna i ett binärt talsystem är, översatt
+			till decimaltal, talen 4, 8, 16, 32, 64, 128, 256, 512, 1024,
+			osv. Kanske känner du igen dessa tal om du någon gång köpt till
+			exempel minne till din dator. Detta har också gjort att man
+			inom datorvetenskapen definierat om våra vanliga prefix. Kilo
+			betyder istället för 1000 (10<superscript>3</superscript>) i
+			sammanhanget kByte istället 1024
+			(2<superscript>10</superscript>). Mega betyder 1024*1024 eller
+			2<superscript>20</superscript> eller som det blir decimalt,
+			1048576. Detta leder förståss till en del missförstånd, men
+			eftersom talen ligger relativt nära varandra så blir det sällan
+			några större problem. Men det kan vara svårt att veta om man
+			till exemepel köpt en hårddisk på 1 GByte om den rymmer
+			10<superscript>9</superscript>=1000000000 eller
+			2<superscript>30</superscript>=1073741824 bytes.
+		</para>
+		<para>
+			Märk också, när vi har enhetsförväxlingar på tapeten, att
+			dataöverföringshastigheter oftast mäts i bitar/sekund och inte
+			i bytes/sekund. Där gör det större skillnad eftersom skillnaden
+			är ungefär en faktor 10.
+		</para>
+	</sect1>
+
+	<sect1><title>ASCII-tabell</title>
+		<para>
+			Vi har nu sett att man binärt kan uttrycka tal. Till exempel så
+			var ju 1101 talet 13. Ofta så vill man instället för tal
+			representera text eller bokstäver. Detta går till på så sätt
+			att man låter olika tal representera olika bokstäver enligt en
+			tabell. Ett exempel på en sådan tabell är ASCII-tabellen. ASCII
+			är en standard för hur tecken skall representeras binärt i form
+			av siffror. Ett exempel på en ASCII-tabell visas i <xref
+			linkend="tab_ascii"/>.
+		</para>
+	</sect1>
+
+	<sect1><title>Övningsuppgifter</title>
+		<para>
+			I detta kapitel har vi behandlat på vilket sätt olika protokoll
+			kan jobba både beroende till varandra och oberoende av varandra
+			i en och samma kommuniktaionsmodell. Vi har också tittat på vad
+			som menas med analog och digital överföring och vilka
+			karakteristiska egenskaper dessa har. Vi har lärt oss
+			ytterligare några begrepp och lite om matematiken med olika
+			talbaser och varför man i datorvärlden så ofta uttrycker tal
+			hexadecimalt.
+		</para>
+		<orderedlist>
+			<listitem>
+				<para>
+					Vad är skillnaden mellan digitala och analoga signaler?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad är skillnaden mellan en bit och en byte?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Hur många bitar går det på en byte?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Hur många värden kan en byte respektive en bit anta?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad är skillnaden mellan en bit och en byte?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad blir talet 36 hexadecimalt?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vilket talmotsvarar bokstaven A enligt ASCII-tabellen i
+					<xref linkend="tab_ascii"/>?
+				</para>
+			</listitem>
+		</orderedlist>
+	</sect1>
+
+</chapter>
+
+<chapter><title>Seriell och parallell kommunikation</title>
+	<abstract>
+		<para>
+			Här behandlas seriell och parallell dataöverföring. Vad skiljer
+			dem åt och hur fungerar det.
+		</para>
+	</abstract>
+
+	<sect1><title>Seriell och parallell kommunikation</title>
+		<para>
+			Skillnaden mellan seriell och parallell kommunikation hörs
+			nästan i namnet. Vid seriell kommunikation skickas bitarna i en
+			rad efter varandra och vid parallell kommunikation skickas
+			flera bitar i bredd, samtidigt.
+		</para>
+		<para>
+			Seriell kommuniktation lämpar sig bäst då data skall
+			transporteras längre sträckor och parallell kommuniktation
+			används bara för att transportera data kortare sträckor.
+		</para>
+	</sect1>
+
+	<sect1 id="sect_parallell_kommunikation"><title>Parallell kommunikation</title>
+		<para>
+			Parallell kommunikation innebär som tidigare nämnts att
+			data-bitarna skickas parallellt i grupper. Detta innebär att
+			några förutsättningar måste finnas. Får det första så måste det
+			finnas en ledning för varje bit som skall åka i bredd. Tänk på
+			en motorväg, fyra bilar lastade med ettor eller nollor kan bara
+			åka parallellt om det finns fyra filer på vägen. Vidare så
+			måste filerna vara likvärdiga för att en grupp bilar ska komma
+			fram samtidigt. Om en fil är långsammare än de andra så kommer
+			överföringen att bli långsammare och om det blir problem på en
+			fil så kommer överföringen naturligtvis att hindras.
+		</para>
+		<para>
+			När vi talar om datorkommunikation är det naturligtvis inte
+			filer på en motorväg vi talar om utan om ledningar. Ju fler
+			ledninger i bredd desto snabbare dataöverföring. Eftersom
+			parallell överföring lämpar sig bäst för korta avstånd är det
+			denna typ av kommunikation som används inuti en dator för att
+			flytta data mellan minnet, processorn och andra enheter som
+			till exempel diskar och minnen. Vanligtvis idag så har dessa
+			databussar, som det kallas, 32 ledningar i bredd men 64 blir
+			allt vanligare. Även 8 och 16 ledniningar förekommer men det är
+			inte lika vanligt. 
+		</para>
+		<para>
+			Eftersom en ledning med 32 kablar i bredd kan överföra 32 bitar
+			i taget brukar en sådan ledning kallas för en 32-bitars buss.
+		</para>
+		<para>
+			Som nämnts tidigare så används parallella anslutningar oftast
+			inom datorn men det kan också användas för att ansluta yttre
+			enheter. Vanligaste enheten som ansluts till en dator
+			parallellt är en skrivare men även lagringsenheter, skannrar
+			och annat förekommer med parallell anslutning. Den parallella
+			anslutning som finns på de flesta PC kallas normalt för
+			parallellport eller skrivarport. <xref
+			linkend="fig_parallellport"/> visar hur en parallellport eller
+			skrivarport ser ut.
+		</para>
+
+		<figure id="fig_parallellport">
+			<title>Parallellport eller skrivarport</title>
+
+			<mediaobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						Bild på en parallellport på en PC och mostvarande
+						kontakt.
+					</phrase>
+				</textobject>
+				<caption>
+					<para>
+						Parallellporten, eller skrivarporten som den populärt
+						kallas används för att över en parallell ledning
+						ansluta utrustning till en dator. Till höger ser vi
+						även hur motsvarande kontakt ser ut.
+					</para>
+				</caption>
+			</mediaobject>
+		</figure>
+
+		<para>
+			Den största nackdelen med att ansluta utrustning till datorn
+			via en parallellkabel är att denna kabel måste hållas kort. För
+			skrivare som inte är så krävande kan den vara omkring 5 meter
+			medans den om man har mer krävande utrustningar som till
+			exempel diskar bara kan ha en kabel på omkring en meters längd.
+		</para>
+
+	</sect1>
+
+	<sect1><title>Seriell kommunikation</title>
+		<para>
+			Till skillnad från parallell kommunikation så behövs det i
+			seriell kommunikation egentligen bara en ledare. I praktiken så
+			behövs det oftast åtminstone två men man kan se det som en.
+			Ofta har man en ledare för trafik i den ena riktiningen och en
+			för trafik i den andra riktningen plus några ledare för
+			kontrollsignaler.
+		</para>
+		<para>
+			Seriell överföring är normalt långsammare än parallell
+			överföring men är inte lika störningskänslig och man kan ha
+			kablar som är upp till 40 meter långa.
+		</para>
+		<para>
+			På en PC kan det finnas lite olika seriella portar. En lite
+			äldre som normalt kallas en serieport eller som den lite mer
+			strikt heter RS-232 (Recommended Standard 232, från ett
+			Amerikanskt standardiseringsförbund). Denna kan se ut på två
+			olika sätt, antingen med 9 poler eller med 25. Dessa två
+			fungerar likadant men ser olika ut. Den med 25 poler blir
+			mindre och mindre förekommande eftersom den tar större plats.
+		</para>
+		<para>
+			Något som blir vanligare och vanligare både på PC och bland
+			tillbehören är något som kallas för USB (Universal Serial Bus)
+			som används för att koppla tillbehör till en dator. Den har
+			mycket högre överföringskapacitet än den äldre RS-232. Även USB
+			finns i två utföranden. Den större är vanligast att man hittar
+			på datorer och i kopplingar medan den mindra ofta hittas på
+			utrustningar som till exempel kameror, skannrar och diskar där
+			utrymmet ofta är mindre. I <xref linkend="fig_serieportar"/>
+			visas de vanligaste typerna av serieanslutningar och
+			motsvarande kablar.
+		</para>
+
+		<figure id="fig_serieportar">
+			<title>Olika seriella portar och motsvarande kablar</title>
+
+			<mediaobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+       	 	</imageobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						Bild på olika seriella anslutningar och kontakter
+					</phrase>
+				</textobject>
+				<caption>
+					<para>
+						De två uttagen till vänster är RS-232 portar.  Dessa
+						kallas vanligvis bara för serieportar. De två till
+						höger är USB-anslutningar. Under alla portar visas
+						motsvarande kabel.
+					</para>
+				</caption>
+			</mediaobject>
+		</figure>
+
+		<para>
+			För att seriell överföring skall fungera så måste datat skickas
+			på ett visst sätt genom kabeln. Annars fungerar det
+			naturligtvis inte. Man skiljer på två olika sätt att överföra
+			data seriellt, nämligen <emphasis>synkront</emphasis> och
+			<emphasis>asynkront</emphasis>. Att skicka data asynkront är
+			det vanligaste.
+		</para>
+
+		<sect2><title>Synkron överföring</title>
+			<para>
+				Synkron överföring innebär att databitarna skickas i så
+				kallade datablock. Varje datablock kan innehålla hundratals
+				bitar. Hur många framgår av de regler (protokoll) som gäller
+				för överföringen. För att de parter som utbyter data på en
+				synkron förbindelse skall veta var de är så måste de ha en
+				gemensam klocka så att parterna kan hålla takten. Vidare så
+				måste båda parterna ha tillgång till ett buffertminne för
+				att kunna samla upp datablock och kontrollera dem. Parterna
+				måste också kunna förbereda ett datablock för sändning. 
+			</para>
+		</sect2>
+		<sect2><title>Asynkron överföring</title>
+			<para>
+				Det vanligaste när man talar om seriell kommunikation är
+				asynkron överföring. Med asynkron överföring skickas data
+				tecken för tecken och inte block för block. Det ger lite
+				större <emphasis>overhead</emphasis> eftersom varje tecken
+				måste kontrolleras. Med overhead menas sådan trafik som inte
+				direkt är nyttig men som krävs för överföringen. Mycket
+				overhead ger större slöseri med bandbredd än lite overhead.
+				Man kanske kan jämföra med ett lastfartyg. Skall man flytta
+				säd eller kaffe över jorden måste man även transportera
+				bränsle till fartyget och mat till besättningen. Denna last
+				måste vara med för att skeppet skall komma fram men ingår
+				inte i den last för vilken någon betalar. Bränslet och maten
+				utgör då overhead.
+			</para>
+
+			<figure id="fig_startostoppbit">
+				<title>Start- och stoppbit</title>
+
+				<mediaobject>
+  					<imageobject>
+      				<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        			</imageobject>
+  					<imageobject>
+      				<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        			</imageobject>
+					<textobject>
+						<phrase>
+							Schematisk bild över hur ett tecken (11100110)
+							kodas vid asyncron överföring (0111001101).
+						</phrase>
+					</textobject>
+					<caption>
+						<para>
+							Schematisk bild över ett tecken . Den första biten
+							kallas startbit. Sedan kommer de databärande
+							bitarna och sist kommer det en stoppbit.
+							Startbiten och stoppbiten utgör overhead.
+						</para>
+					</caption>
+				</mediaobject>
+			</figure>
+			<para>
+				I <xref linkend="fig_startostoppbit" /> visas hur ett tecken
+				som skall skickas över en asynkron seriell förbindelse kan
+				se ut.  Först kommer det en startbil som alltid är en 0:a,
+				sedan kommer de bitar som utgör själva datat, det är normalt
+				7 eller 8 stycken. Sist kommer eventuellt en paritetsbit om
+				vi kommer att behandla längre fram och en eller eventuellt
+				två stoppbitar.
+			</para>
+			<para>
+				Om bara en start och en stoppbit används så kommer det att
+				innebära att två bitar ber byte är overhead. Det är ganska
+				mycket men de fördelar som finns, bland annat billiga
+				utrustningar och möjligheter att ha långa kablar, gör att
+				det ändå är värt denna overhead.
+			</para>
+			<para>
+				Man kan använda sig av något som kallas
+				<emphasis>paritet</emphasis>. Syftet med paritet är att
+				lägga till en enkel felkontroll på överföringen.  Det
+				fungerar så att man läggar till en bit innan stoppbiten
+				eller stoppbitarna. Man skiljer på <emphasis>udda</emphasis>
+				och <emphasis>jämn paritet</emphasis>. Vid jämn paritet
+				skall alla ettor, inklusive paritetsbiten utgöra ett jämnt
+				tal och vid udda paritet ett udda tal.
+			</para>
+
+			<para>	
+				Sändaren beräknar och lägger till paritetsbiten när tecknet
+				skickas och mottagaren beräknar och kontrollerar
+				paritetsbiten.  Om den inte stämmer överens med det
+				förväntade har något fel inträffat i överföringen.
+			</para>
+
+		</sect2>
+
+	</sect1>
+	<sect1><title>Övningsuppgifter</title>
+		<para>
+			I detta kapitel har vi tittat på seriell och parallell
+			komunikation.  Vi har lärt oss vad som skiljer dem åt och vilka
+			för- respektive nackdelar de har. Vi har läst oss att seriell
+			kommunikation i huvudsak kan gå till på två olika sätt och hur
+			dessa fungerar. Vi har också lärt oss begreppet overhead och
+			dess betydelse vid seriell kommunikation.
+		</para>	
+		<orderedlist>
+			<listitem>
+				<para>
+					Vad är skillnaden mellan parallell och seriell
+					kommunikation?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vilka är fördelarna med asyncron överföring?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Hur lång tid tar det att föra öven en fil på 1MByte över
+					en seriell förbindelse med kapaciteten 28800 bit/s om man
+					använder asynkron överföring med en stopp-bit och ingen
+					paritet?
+				</para>
+			</listitem>
+		</orderedlist>
+	</sect1>
+
+</chapter>
+
+<chapter><title>Datornätverk</title>
+<abstract><para>
+	I detta kapitel tittar vi närmare på hur ett datornätverk byggs
+	upp, vad topologier är och hur de ser ut och hur man kan
+	sammanbygga flera mindre nät till ett stort.
+</para></abstract>
+
+<sect1><title>Inledning</title>
+<para>
+	I det förra kapitlet tittade vi på seriell och parallell
+	överföring. Oftast bygger man ovanpå dessa tekniker en mer
+	avancerad struktur som oftast kallas för datornätverk där
+	datorer efter givna regler kan kommunicera med varandra.
+</para>
+<para>
+	Ett datornätverk är ett system som består av två eller flera
+	datorer som kopplats ihop så att det kan utbyta data med
+	varandra. Ett litet nätverk kan kopplas ihop med ett annat för
+	att bilda ett större nätverk. Det största nätverket som finns är
+	Internet som består av extremt många nätverk, både stora och
+	små.
+</para>
+
+</sect1>
+
+<sect1><title>LAN, WAN, MAN</title>
+<para>
+	Man kallar nätverken för olika saker beroende på hur stort
+	område de sträcker sig över. Det vanligaste är det som kallas
+	för <emphasis>LAN, Local Area Network</emphasis> som är ett
+	nätverk som oftast håller sig inom samma byggnad. Det finns dock
+	inget som hindrar att även ett LAN utbreder sig mellan flera
+	byggnader eller ett campus. På svenska säger vi lokalt nätverk
+	eller just LAN som är den engelska förkortningen. Allt från små
+	hemmanätverk till ganska stora företagsnätverk hör till denna
+	grupp.  
+</para>
+
+<para>
+	Ett nätverk som sträcker sig mellan flera byggnader, inte sällan
+	långt från varandra, eller mellan olika städer kallas för ett
+	<emphasis>WAN, Wide Area Network</emphasis>. Ett WAN består
+	oftast av två eller flera LAN som kopplats ihop till ett större
+	WAN. Ett exempel på ett WAN är Internet.
+</para>
+
+<para>
+	Storleksmässigt mellan LAN och WAN finns något som kallas för
+	<emphasis>MAN, Metropolitan Area Networks</emphasis>. Ett MAN
+	är större än ett LAN och kopplar ihop LAN inom ett begränsat
+	område, till exempel en stad, med hög kapacitet. I Sverige är
+	stadsnäten exempel på olika MAN. MAN är ett nyare begrepp än de
+	andra två och används inte så ofta. Det är inte fel att säga WAN
+	om ett MAN eftersom ett MAN också består av flera LAN. 
+</para>
+
+</sect1>
+
+<sect1><title>Topologier</title>
+<para>
+
+	Ett lokalt datornätverk  (LAN) kan byggas på en mängd olika
+	sätt. Både logiskt och fysiskt kan man välja olika lösningar.
+	Hur ett nätverk strukturellt är uppbyggt kallar vi för
+	<emphasis>topologi</emphasis>. En topologi kan beskriva både hur
+	nätet ser ut fysikt (hur kablar är dragna) och hur det ser ut
+	logiskt. De topologierna som används är: 
+	<emphasis>bussnät</emphasis>, <emphasis>stjärnnät</emphasis> och
+	<emphasis>ringnät</emphasis>.
+
+</para>
+
+<sect2><title>Bussnät</title>
+<para>
+	I ett bussnät finns det en kabel till vilken alla datorer är
+	kopplade. Till den gemensamma kabeln (kallas för backbone)
+	kopplas datorerna med så kallade drop-cables. I <xref
+	linkend="fig_bussnat"/> visas en schematisk bild av ett bussnät.
+
+	<figure id="fig_bussnat">
+	<title>Bussnät</title>
+
+	<mediaobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        	</imageobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        	</imageobject>
+		<textobject>
+			<phrase>
+				Schematisk bild av ett bussnät med en
+				backbone-kabel och drop-cables till
+				datorerna.
+			</phrase>
+		</textobject>
+		<caption><para>
+				Schematisk bild av ett bussnät. Överst i
+				bilden är back-bonekabeln med
+				terminatorer i ändarna. Från den går så
+				kallade drop-cables till de olika
+				datorerna på nätverket.
+		</para></caption>
+	</mediaobject>
+	</figure>	
+</para>
+<para>
+	Bussnätverk är relativt billiga att installera. Ett problem med
+	dem är att alla delar av nätet är beroende av backbone-kabeln.
+	Bara en dator i taget kan sända ut data på nätet. Detta leder
+	till att nätverket blir långsammare ju fler datorer som ansluts.
+	För att signaler på backbone-kabeln inte skall kunna studsa fram
+	och tillbaka (och så på sätt ockupera nätet längre än
+	nödvändigt) så måste backbone-kabeln ha
+	<emphasis>terminatorer</emphasis> i båda ändarna. Terminatorn är
+	egentligen ett motstånd som dämpar signalen.
+</para>
+
+</sect2>
+<sect2><title>Stjärnnät</title>
+<para>
+
+	I ett stjärnnät kopplas alla datorer till en central punkt som
+	kallas för <emphasis>hub</emphasis>. Hub, som brukar försvenskas
+	till hubb, är engelska och betyder nav. I <xref
+	linkend="fig_stjarnnat"/> visas ett stjärnnät. Om man tittar på bilden
+	och jämför hubben med navet på ett hjul så förstår man varför
+	den kallas hub och varför topologin kallas stjärnnät.
+	
+	<figure id="fig_stjarnnat">
+	<title>Stjärnnät</title>
+
+	<mediaobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        	</imageobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        	</imageobject>
+		<textobject>
+			<phrase>
+				Schematisk bild av ett stjärnnät. I
+				mitten syns hubben och maskinerna sitter
+				på kablar som strålar ut från den som en
+				stjärna.
+			</phrase>
+		</textobject>
+		<caption><para>
+				Schematisk bild av ett stjärnnät. I
+				mitten ser vi hubben dit alla datorer är
+				anslutna. Eftersom den är centrum i
+				nätverket bildas en bild som påminner och
+				just en stjärna.
+		</para></caption>
+	</mediaobject>
+	</figure>	
+</para>
+<para>
+	Stjärnnät är den vanligaste topologin i nyinstallerade nätverk
+	idag. Den är billig att installera och om någon del an nätverket
+	fallerar behöver inte nödvändigtvis hela nätet påverkas. Hubben
+	i mitten fungerar så att en dator sänder och alla andra lyssnar,
+	bara den datorn som meddelandet är avsett för sparar och
+	behandlar meddelandet. Om någon dator faller ur nätverket så
+	spelar det ingen roll för de övriga. Hubbar ersätts idag ofta
+	med switchar. En switch fungerar som en hubb men håller reda på
+	till vilken dator som ett meddelande skall. På så sätt kan flera
+	maskiner utbyta data samtidigt oberoende av varandra. Det gör
+	att nätverkets kapacitet ökar markant. 
+</para>
+
+</sect2>
+<sect2><title>Ringnät</title>
+<para>
+	I både bussnät och stjärnnät så finns det en central del som
+	alltid måste fungera (backbone respektive hubben). I ett ringnät
+	behövs inte detta utan noderna (datorerna) är kopplade till
+	varandra utan någon central enhet. Detta är möjligt eftersom
+	alla datorer har två anslutningar, en från föregående dator och
+	en till nästa dator. När cirkeln av datorer är sluten har man
+	fått en ring, därav namnet ringnät. I <xref linkend="fig_ringnat"/>
+
+	<figure id="fig_ringnat">
+	<title>Ringnät</title>
+
+	<mediaobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        	</imageobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        	</imageobject>
+		<textobject>
+			<phrase>
+				Schematisk bild av ett ringnät. Datorena
+				bildar en ring. Varje dator har två
+				anslutningar, en till varje granne i
+				ringen.
+			</phrase>
+		</textobject>
+		<caption><para>
+				Schematisk bild av ett ringnät.
+				Datorerna bildar en cirkel. Varje dator
+				har två kablar till sig där varje kabel
+				går till närmaste granne. Datat i
+				nätet cirkulerar runt om i nätverket och
+				snappas upp av den maskin som skall ha
+				informationen. 
+		</para></caption>
+	</mediaobject>
+	</figure>
+</para>
+<para>
+	En nackdel med ringnät är att de är relativt känsliga för
+	störningar. Om cirkeln bryts kommer kommunikationen inte att
+	fungera. Detta försöker man undvika genom att skydda kablarna
+	så mycket som möjligt och ibland drar man även dubbla cirklar.
+	Ringnät är inte speciellt vanliga idag utan idag byggs i
+	huvudsak stjärnnät när man bygger ett nytt nätverk.
+</para>
+</sect2>
+</sect1>
+
+<sect1><title>Accessmetoder</title>
+<para>
+
+	I alla tre topologier som vi gått igenom måste det finnas regler
+	för vilken dator som får sända när. I inget av näten kan alla
+	datorer prata i munnen på varandra på samma kabel. Det går inte
+	eftersom det inte fysiskt fungerar. För att detta inte skall ske
+	och för att det inte skall bli katastrof om det sker så finns
+	det vissa regler för hur datorerna får tala. Dessa regler kallas för
+	accessmetoder och är i själva verket protokoll som säger
+	vilken dator som för tillfället har rätt att använda det
+	gemensamma mediet (kabeln). Om du skall ringa till din kompis så
+	får du en upptaget-ton om han eller hon talar i telefonen, du
+	får försöka igen lite senare. Det är ett exempel på en relativt
+	enkel accessmetod.
+
+</para>
+<para>
+
+	Den vanligaste accessmetoden är en med det krångliga namnet
+	<emphasis>CSMA/CD</emphasis> som betyder: <emphasis>Carrier
+	Sense Multiple Access / Collision
+	Detection</emphasis><footnote><para>Datorkommunikation är ett
+	underbart ämne med underbara förkortningar.</para></footnote>.
+	Vi tar det steg för steg. Carrier Sense innebär att en dator
+	innan den sänder måste känna efter om det är någon som använder
+	nätet. Är det det så måste datorerna vänta tills det blir ledigt.
+	Multiple Access betyder att alla får använda nätet men inte
+	samtidigt. Collision Detection innebär att om två stycken eller
+	flera börjar sända samtidigt så skall detta detekteras och de
+	får sända en i taget. I praktiken så fungerar det så att om en
+	kollision upptäcks så slutar alla inblandande att sända och
+	väntar en slumpvis tidsperiod. På så sätt minimeras risken att de
+	börjar sända samtidigt igen. Naturligtvis gör kollisioner att
+	trafiken i systemet går långsammare. På hubbar brukar det ofta
+	finnas lampor som indikerar att en kollision har inträffat.
+</para>
+<para>
+	En variant på CSMA/DC är <emphasis>CSMA/CA</emphasis>. Alla
+	bokstäver står för samma sak (och samma innebörd) utom då CA som
+	står för <emphasis>Collision Avoidance</emphasis>. Det fungerar
+	så att en dator innan den börjar sända skickar ut ett litet
+	meddelande för att kontrollera att nätverket är ledigt och om
+	det är det skickar ut riktig data. Det gör att kollisioner inte
+	behöver ske med riktiga data utan bara med de små "provskotten".
+</para>
+
+<para>
+
+	CSMA/CD och CCMA/CA passar när nätverket består av ett gemensamt
+	media, till exempel en kabel eller en hub. I fallet med ringnät
+	passar inte detta eftersom det är olika kablar i de olika
+	delarna av nätverket (studera <xref linkend="fig_stjarnnat"/>).
+	I ett ringnät kan man istället använda en accessmetod som heter
+	<emphasis>token passing</emphasis>. Token passing går ut på att
+	en token cirkulerar runt i nätverket ungefär som en stafettpinne,
+	varje dator får stafettpinnen och skickar den vidare. Det finns
+	bara en stafettpinne och bara den dator som har stafettpinnen
+	får sända data. Datat och stafettpinen skickas vidare. Alla
+	datorer skickar vidare och den som datat är avsedd för kopierar
+	datat och skickar vidare. När datat kommer tillbaka (med
+	stafettpinnen) till avsändaren tar den bort datat från nätet och
+	skickar stafettpinnen vidare. Detta gör att kollisioner helt
+	undviks.
+
+</para>
+
+</sect1>
+<sect1><title>Övningsuppgifter</title>
+<para>
+	Övningar kommer snart ...
+</para>	
+</sect1>
+
+	
+</chapter>	
+
+<chapter><title>Kablar och icke-kablar</title>
+<abstract><para>
+	I det förra kapitlet tittade vi på hur man kan "förpacka" data
+	för att skicka det på olika sätt i olika kablar. I detta kapitel
+	skall vi titta mer på själva kablarna och lite på de trådlösa
+	alternativ som finns.
+</para></abstract>
+<!--Allmänt om kablar och icke-kablar
+	- Ledningsegenskaper och kapacitet samt deras praktiska innebörd
+	  vid datakommunikation
+	- Olika sorters kablar
+		- För och nackdelar
+	- Olika sorters trådlösa alternativ
+-->
+<sect1><title>Inledning</title>
+<para>
+	Det finns massor av olika kablar. De flesta kablar finns
+	naturligtvis för att de är speciellt bra på någonting men det
+	finns också de som finns för att de en gång i tiden var bra på
+	något. Det vill säga vissa kablar finns kvar på grund av att de
+	varit vanliga en gång i tiden. Idag finns det dessutom en hel
+	del trådlösa alternativ såsom radio, IR och Mobiltelefonnätet.
+	Jag kallar dessa trådlösa alternativ för icke-kablar. Detta för
+	att de på många sätt påminner om kablar och gör ofta samma sak
+	men en del av själva finessen med dem är att de just inte är
+	kablar.
+</para>
+<para>
+	I detta kapitel tittar vi närmare på kablarna och icke-kablarna
+	och deras egenskaper.
+</para>
+</sect1>
+
+<sect1><title>Kabelegenskaper</title>
+<para>
+
+	En kabel har en mängd olika egenskaper. Alla påverkar på olika
+	sätt hur bra den är i olika sammanhang. En kabel för att leda
+	starkström mellan ett kärnkraftverk och någon typ av ställvärk
+	eller mellan två kontinenter har vid en första anblick inte
+	mycket gemensamt med en ledning mellan två olika delar i ett
+	elektroniskt armbansdur. Men om man tänker efter så är flera
+	olika saker direkt jämförbara även om deras mätvärden inte ens
+	kommer i närheten av varandra.
+
+</para>
+
+<para>
+	
+	Båda kablarna har som uppgift att leda en ström. Den gigantiska
+	kabeln från kärnkraftverket eller mellan kontinenterna måste
+	kunna leda en enormt stor ström. Den måste också tåla väder och
+	vara utformad så att man inte kan skada sig på den. Kabeln i
+	klockan skall också leda en ström. Denna ström är bara en
+	bråkdel av strömmen i den stora kabeln. Kabeln i klockan måste i
+	stället vara tillräckligt tunn för att rymmas i klockan, den
+	måste dessutom vara utformad så att den tål eventuella stötar
+	klockan kan komma att utsättas för.
+	
+</para>
+
+<para>
+	
+	Även om dessa kablar inte liknar varandra ser vi att samma
+	storheter spelar in på dem. De skall leda en viss ström
+	(Ampere). De får inte ha för stort motstånd (Ohm) och så vidare.
+	
+</para>
+
+<para>
+
+	De viktigaste egenskaperna för kablar när det gäller
+	datorkommunikation är att de har rätt antal ledare, att de inte
+	har för stort motstånd över den längd de är avsedda för och att
+	de inte är störningskänsliga så att de klara de frekvenser de
+	kommer att utsättas för. Det finns en mängd olika kablar.
+
+</para>
+
+</sect1>
+
+<sect1><title>Kablar till periferiutrustning</title>
+<para>
+	För att ansluta periferiutrustning till en dator finns det idag i
+	huvudsak tre olika kabeltyper. Seriekabel, parallellkabel och
+	USB-kabel. 
+</para>
+
+<sect2><title>Parallellkabel</title>
+<para>
+
+	Parallellkabeln kallas också för skrivarkabel och används
+	huvudsakligen för att ansluta skrivare till en dator. Man kan
+	också använda den till att ansluta andra saker som till exempel
+	flyttbara hårddiskar, skannrar, och annat. Man kan även koppla
+	ihop två datorer med en parallellkabel för till exempel
+	filöverföring. Man skall tänka på att en parallellkabel inte kan
+	vara speciellt lång (se <xref
+	linkend="sect_parallell_kommunikation"/>).
+
+</para>
+</sect2>
+
+<sect2><title>Seriekabel</title>
+<para>
+	Seriekabeln används oftast för att ansluta modem men den kan
+	även användas för en mängd olika saker, som till exempel att
+	ansluta en digitalkamera eller överföra filer. Seriekablar kan
+	vara väldigt långa.
+</para>
+</sect2>
+
+<sect2><title>USB-kabel</title>
+<para>
+	USB är ett gränsnitt som blir allt vanligare. I många fall
+	ersätter det både seriekablar och parallellkablar. Både modem,
+	kameror och skrivare ansluts allt oftare via USB. XXXXX
+</para>
+</sect2>
+
+</sect1>
+
+<sect1><title>Kablar till datornätverk</title>
+<para>
+	Det blir allt vanligare att man kopplar ihop flera datorer i ett
+	datornät. De allra flesta nya datorer idag har nätverkskort eller
+	modem och ansluts till ett nätverk. 
+</para>
+<para>
+	Fortfarande är kablar det vanligaste sättet att bygga ett
+	datornätverk även om trådlösa alternativ kommer starkt.
+</para>
+
+<sect2><title>Twisted-pair (TP)</title>
+<para>
+
+	Twisted-pair eller partvinnad kabel, kallas vardagligt för
+	TP-kabel,  är den vanligaste typen av kabel i installationer
+	inom byggnader.  TP-kabel är är lätt att dra i byggnader och är
+	ekonomiskt fördelaktig.
+
+</para>
+<para>
+
+	I en vanlig TP-kabel finns det 4 par kablar. Det finns dem med
+	bara två par också men de används inte så ofta för datornätverk
+	utan avnänds oftast bara till telefontrakik. Som namnet antyder
+	är ledarna i varje par tvinnade om varandra. Man kan känna detta
+	om drar fingrarna längs en TP-kabel. Anledningen till att man
+	tvinnar dem är att minska känsligheten för störningar, böde för
+	störningar utifrån, så kallad interferens, och inre störningar i
+	kabeln, så kallad crosstalk. Kanske minns nu från fysiken hur
+	ett elektromagnetiskt fält vrider sig runt kabeln. Genom att
+	tvinna två kablar tar dessa magnetfält ut varandra och minskar
+	risken för störningar.
+
+</para>
+<para>
+	
+	Det finns två typer av TP-kabel, skärmad och oskärmad. Den
+	skärmade varianten kallas för STP och den oskärmade för UTP.
+	TP-kabel klarar överföringar på 10 - 155 Mbit/s. Det finns även
+	de som klarar 1000Mbit/s.
+
+</para>
+
+	<sect3><title>Oskärmad TP-kabel (UTP)</title>
+	<para>
+
+		Oskärmad TP-kabel brukar kallas UTP. Det kommer från
+		engelskans Unshielded Twisted Pair. Den har normalt 8
+		ledningr (4 par). UTP kabel är mycket mjuk och följsam
+		vilket gör den lätt (billig) att installera i en byggnad. 
+
+	</para>
+	</sect3>
+	
+	<sect3><title>Skärmad TP-kabel (STP)</title>
+	<para>
+
+		Skärmad TP-kabel kallas STP som i Shielded Twisted Pair.
+		Trots att kabelparen är tvinnade så ar UTP-kabel känslig
+		för störningar. Därför finns STP.  Den ser likadan ut
+		som UTP men har en skärm mellan ledarna och ytterhöljet.
+		Denna skärm består oftast av aluminiumfolie eller
+		kopparväv. STP blir, tack vara skärmen, lite stelare och
+		svårare att installera. Men den är andå relativt
+		lättinstallerad. STP är också dyrare är UTP.
+
+	</para>
+	</sect3>
+	
+</sect2>
+
+<sect2><title>Koaxialkabel (Koax)</title>
+<para>
+
+
+
+</para>
+
+</sect2>
+
+<sect2><title>Fiberoptisk kabel (Fiber)</title>
+<para>
+</para>
+</sect2>
+
+</sect1>
+
+<sect1><title>Trådlösa alternativ</title>
+<para>
+	Kablar har många nackdelar. Till exempel så kostar de en hel
+	del. Även om kostnaden för kabeln kanske inte är så stor så
+	kostar den att installera. Vidare är kablar svåra att dölja vid
+	en installation. Man vill ju inte ha kablar kors och tvärs
+	överallt i en lokal. Kablar är inte heller så flexibla för
+	användaren. Skall man gå från sitt skrivbort till soffan eller
+	fikabordet och vill ha sin laptop med sig blir det krångligt
+	med sladdar. Har man trådlöst nätverk till sin dator underlättar
+	det avsevärt.
+</para>
+<para>
+	Och sist men inte minst. Sladdar och kablar kan inte ligga still
+	bredvid varandra utan att bilda trassel, bara det kan motivera
+	ett byte till trådlösa alternativ. Man skall dock vara medveten
+	om problemen.
+</para>
+
+<para>
+	Trådlös kommunikation kan låta som himmelriket men är förknippat
+	med en hel del problem. För det första får man räkna med att
+	kapaciteten minskar mot kabelalternativ och framför allt att
+	säkerheten som regel minskar. Man måste ta detta i anspråk innan
+	man beslutar sig för att upprätta en trådlös kommunikation.
+</para>
+
+<sect2><title>Infrarött ljus (IR)</title>
+<para>
+
+	Infrarött ljus kan användas för att överföra data mellan olika
+	enheter som stödjer detta. Vanligast är att det används för att föra
+	över infomration mellan små enheter som till exempel handdatorer. Det
+	är också vanligt att det används för att ansluta pereferienheter,
+	framför allt skrivare, till bärbara datorer för att slippa hålla på
+	med kablar. Det går också att använda IR för att föra över filer
+	mellan bärbara datorer. En nackdel med IR är att det måste vara fri
+	sikt mellan sändaren och mottagaren och att dessa är ganska
+	riktingskänsliga. Det blir vanligare och vanligare att Bluetooth tar
+	över där IR vanligt vanligt.
+
+</para>
+</sect2>
+
+<sect2><title>Radio</title>
+<para>
+
+	Radio är det vanligaste alternativet när det gäller att sätta upp
+	trådläsa nätverk, så kallade <emphasis>Wireless LAN</emphasis> eller
+	<emphasis>WLAN</emphasis>. Eftersom man oftast använder radio till
+	dessa kallas de ibland för radiolan. De standarder som är vanligast
+	inom detta område kommer från <emphasis>IEEE</emphasis>
+	(http://www.ieee.org/) och är en familj av protokoll under namnet
+	<emphasis>IEEE 802.11</emphasis> (http://www.ieee802.org/11/).
+	Kapaciteten beror på vilken standard man använder sig av. Vanligast
+	idag är IEEE 802.11b som tillåter 11 Mbit/s men betydligt snabbare
+	finns.
+
+</para>
+</sect2>
+
+<sect2><title>Bluetooth (Blåtand)</title>
+<para>
+
+	Bluetoth, eller blåtand som det också kallas, är en standard som från
+	början togs fram av Ericsson. Nu styrs standarden av ett större organ
+	med över 100 medlemmar.
+
+</para>
+
+<para>
+
+	Bluetooth är inte direkt menat för datornätverk även om det idag kan
+	användas till det. Bluetooth är avset för det som brukar kallas
+	personliga nätverk. Det vill säga nätverk som bara används av en
+	person. Det kan vara till exempel mellan en telefon och ett headset,
+	mellan en handdator/ljudspelare och hörlurar eller mellan en dator
+	och en datormus. Eftersom det är avsett för dessa små nätverk har
+	Bluetooth väldigt begränsad räckvidd. Upp till 10 eller 100 meter
+	beroende på utrusning.
+
+</para>
+
+<para> 
+
+	Bluetooth är idag mycket vanligt i till exempel mobiltelefoner och
+	handdatorer. I vanliga datorer är det ännu inte lika vanligt men
+	väntas komma där med.
+
+</para>
+
+</sect2>
+
+<sect2><title>Mobiltelefon</title>
+<para>
+	
+	Ofta vill man komma åt sina nätverk var man än befinner sig. I
+	dagsläget är det enda rimliga alternativet för detta att använda sig
+	av mobiltelefonnätet. Det finns flera sätt att ansluta till ett
+	datornätverk via mobiltelefonen. Till exempel kan man använda den som
+	en helt vanlig telefon och ringa upp ett modem pricis som med en
+	vanlig telefon. Dock skall man tänka på att hastigheten i det fallet
+	inte blir lika snabb som med en vanlig telefon eftersom
+	mobiltelefonnätet inte förmedlar lika mycket information (bandbredd).
+
+</para>
+
+<para>
+
+	Eftersom man inte kan utnyttja mobiltelefonnätet så bra för
+	datorkommunikation på traditionellt sätt så har nya tekniker tagits
+	fram som nyttjar samma infrastruktur. Det vanligaste idag är GPRS.
+	GPRS är ett paketförmedlat system som kan användas samtidigt som man
+	talar i telefonen. Det har en hastighet på 9-160 kbit/s beroende på
+	belastning i systemet.
+
+</para>
+
+<para>
+
+	I det nya mobiltelefonnätet <emphasis>UMTS</emphasis>, även kallat
+	3G. UMTS använder ett mycket större frekvensområde än dagens
+	mobiltelefoner <emphasis>GSM</emphasis> och är bland annat mer
+	lämpligt för datatrafik.
+
+</para>
+
+</sect2>
+
+</sect1>
+</chapter>
+
+<chapter><title>Modem</title>
+<abstract><para>
+	I detta kapitel tittar vi närmare på modem. Vad ett modem är och
+	hur det fungerar.
+</para></abstract>
+
+<sect1><title>Introduktion</title>
+<para>
+
+	Som vi sagt tidigare så är vissa medier, till exempel
+	telefonnätet, gjorda för att transportera analoga signaler.
+	Ofta vill man transportera digital data över en analog
+	förbindelse. Till detta används en utrustning som kallas för
+	<emphasis>modem</emphasis>. Modem är en förkortning för
+	<emphasis>Modulator/Demodulator</emphasis> och kommer från
+	modemets huvudsakliga funktion. Att modulera innebär att man
+	översätter digitala signaler till analoga och att demodulera
+	innebär att man reverserar processen genom att omvandla de
+	analoga signalerna tillbaka till digitala.
+
+</para>
+
+<para>
+
+	Modem har traditionellt varit det vanligaste sättet för
+	privatpersoner att ansluta sig till Internet. Alla
+	Internetleverantörer (Internet Service Proveider, ISP) erbjuder
+	tjänsten uppringt internet, det vill säga Internet via ett modem
+	anslutet till telenätet. I dag blir detta dock allt mindre
+	vanligt då nya snabbare tjänster erbjuds. Mer som dessa kommer i
+	kapitlet om Internet (<xref linkend="chap_internet"/>).
+
+</para>
+</sect1>
+
+<sect1><title>Olika sätt att modulera</title>
+<para>
+	När ett modem modulerar en digital signal finns det flera olika
+	sätt att göra det på. I slutändan blir det någon typ av ljud med
+	olika egenskaper. Man kan välja att ändra den analoga signalen
+	på flera olika sätt för att kunna koda in digitala signaler i
+	den.
+</para>
+
+<sect2><title>Amplitudmodulering</title>
+<para>
+
+	Amplitudmodulering innebär att man genom att ändra amplituden i
+	signalen. Det vill säga 1:or ges en amplitud och 0:or en annan.
+	Denna metod är inte så effektiv, eftersom den till exempel är
+	väldigt beroende av att signalen inte dämpas på vägen, och
+	användes i de första modemen. 
+
+	<figure id="fig_amplitudmodulering">
+	<title>Amplitudmodulering</title>
+
+	<mediaobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        	</imageobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        	</imageobject>
+		<textobject>
+			<phrase>
+				Bild som visar en analog kurva som
+				varierar i amplitud där de olika
+				amplituderna betyder 0:a eller 1:a.
+			</phrase>
+		</textobject>
+		<caption><para>
+				Vid amplitudmodulering används olika
+				amplituder för att bära antingen 1:or
+				eller 0:or. I figuren innebär till
+				exempel en högre amplitud en 1:a och en
+				lägre en 0:a. Denna metod är dock
+				väldigt känslig för till exempel att
+				signalen blir dämpad och användes bara i
+				de första modemen.
+		</para></caption>
+	</mediaobject>
+	</figure>
+</para>
+</sect2>
+
+<sect2><title>Frekvensmodulering</title>
+<para>
+
+	Frekvensmudulering innebär att man skickar en signal med
+	konstant amplitud men att frekvensen ändras. Denna metod är
+	bättre än amplitudmodulering.
+
+	<figure id="fig_frekvensmodulering">
+	<title>Frekvensmodulering</title>
+
+	<mediaobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        	</imageobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        	</imageobject>
+		<textobject>
+			<phrase>
+				Bild som visar en analog kurva som
+				varierar i frekvens där de olika
+				frekvenserna betyder 0:a eller 1:a.
+			</phrase>
+		</textobject>
+		<caption><para>
+				Vid frekvensmodulering används olika
+				frekvenser för att bära antingen 1:or
+				eller 0:or. I figuren innebär till
+				exempel en högre frekvens en 1:a och en
+				lägre en 0:a.
+		</para></caption>
+	</mediaobject>
+	</figure>
+</para>
+</sect2>
+
+<sect2><title>Fasskiftesmodulering</title>
+<para>
+
+	Ett tredje sätt att bädda in digitala signaler i en analog är att
+	använda sig av fasskiftesmodulering. Det innebär att man utgår
+	från en sinusformad signal och bestämmer att ett fasskifte har
+	en viss innebörd. Eftersom man kan välja att byta fas vid olika
+	ställen (vinklar) så kan man skicka mer information än 1:or och
+	0:or. Till exempel kan man bestämma att vissa lägen betyder 00,
+	01, 10 och 11.
+
+	<figure id="fig_fasskiftesmodulering">
+	<title>Fasskiftesmodulering</title>
+
+	<mediaobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        	</imageobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        	</imageobject>
+		<textobject>
+			<phrase>
+				Bild som visar en analog kurva som
+				i vissa lägen byter fas.
+			</phrase>
+		</textobject>
+		<caption><para>
+				Vid fasskiftesmodulering utgår man från
+				en sinusformad kurva och låter den byta
+				fas vid bestämda lägen. Ett fasskifte på
+				ett visst ställe i cykeln betyder en
+				viss sak, till exempel en 1:a eller 0:a.
+				Det finns också utrymme för att
+				specifiera följder av tecken, till
+				exempel 00, 01, 10 eller 11.
+		</para></caption>
+	</mediaobject>
+	</figure>
+</para>
+</sect2>
+
+</sect1>
+
+</chapter>
+
+<chapter><title>Publika telenätet</title>
+<abstract><para>
+
+	Över det publika telenätet kan man använda en hel del olika
+	tjänster. Här tittar vi på ett urval av dessa, vad de är och hur
+	de fungerar. Vi tar inte upp snabba och moderna
+	Internetuppkopplingar i detta kapitel utan dessa behandlas i
+	<xref linkend="chap_internet"/>.
+
+</para></abstract>
+
+
+<sect1><title>Telenätets uppbyggnad</title>
+<para>
+
+	Vi skall inte gå in på detaljnivå i denna bok hur telenätet är
+	uppbyggt. Det finns säker andra böcker som behandlar detta. Vi nöjer
+	oss med att titta på de mesta karakteristiska egenskaperna.
+
+</para>
+
+<sect2><title>Stamnät och accessnät</title>
+<para>
+
+	Man delar in det publika telenätet i två olika delarm
+	<emphasis>stamnät</emphasis> och <emphasis>accessnät</emphasis>.
+	Stamnät brukar man kalla stora nätverk som används som backbone i
+	natverkstrukturer och så är det även i fallet med telefonnätet.
+	Stamnätet är alla de kablar som utgör telefonnätet mellan städer och
+	kopplingsstationer i Sverige. Accessnät kallas det nät som förbinder
+	alla abbonnenter med stamnätet. Det vill säga den kabeln som går från
+	ditt telefonjack till kopplingsstationen. Stamnätet är väl utbyggt
+	och är i Sverige digitalicerat medan accessnätet till största delen
+	utgörs av kopparkabel som i många fall är 50 år gammal. När man skall
+	bygga snabba datornät över telenätet är det oftast här man stöter på
+	problem.
+
+</para>
+</sect2>
+
+</sect1>
+
+
+<sect1><title>Kretskopplade nät</title>
+<para>
+	Man skiljer på kretskopplade och paketförmedlande nät. I
+	kretskopplade nät fungerar förbindelsen så att man har en fysisk
+	koppling mellan de två parterna. Denna är konstant öppen och
+	stängs inte förrän parterna bestämmer det. Precis så fungerar
+	ett telefonsamtal. Detta har både fördelar och nackdelar. De
+	kommunicerande har en konstant koppling till varandra, de känner
+	dess kapacitet och vet att ingen annan tar den i anspråk. Å
+	andra sidan är det ett enormt slöseri med resurser när dessa
+	parter inte utbyter någon data. Då är ju linjen uppbokad så att
+	ingen annan kan  nyttja den men den används inte till något.
+	Alltså måste parterna koppla ner förbindelsen när den inte skall
+	användas på en längre tid.
+</para>
+
+<sect2><title>Datex</title>
+<para>
+	Ett exempel på ett kretskopplat datornät är Datex ... XXXXXXXXXX
+	XXXXXXXXXX
+</para>
+</sect2>
+
+</sect1>
+<sect1><title>Paketförmedlande nät</title>
+<para>
+	Ett paketförmedlat nät är ett nät där trafiken delas upp i små
+	paket som skickas genom nätet. Det gör att flera kan nyttja
+	nätet på samma gång. Om man jämför kretskopplande nät med ett
+	telefonsamtal så kan man jämföra ett paketförmedlande nät med
+	en transportfirma eller posten. Flera personer kan skicka massor
+	av paket samtidigt. Posten eller transportfirman ser till att
+	alla paket kommer dit de skall. Paketen delar lastbilar och
+	annat på vägen.
+</para>
+<sect2><title>Datapak</title>
+<para>
+	Ett exempel på ett paketförmedlande datanät är Datapak ... XXXXXXXXXX
+	XXXXXXXXXX
+</para>
+</sect2>
+</sect1>
+
+<sect1><title>Uppringt Internet</title>
+<para>
+	Vi kommer att tala mer om olika sätt att ansluta sig till
+	Internet i <xref linkend="chap_internet"/>. Men det passar här
+	att i alla fall nämna att telenätet är ett av de vanligaste
+	sätten att ansluta sig till Internet eller använda sig av
+	datorkommunikation. Använder man en uppringd förbindelse till
+	Internet eller till någon annan dator eller tjänst så behöver
+	man inget annat än en vanlig telefonanslutning och ett modem i
+	båda ändar av förbindelsen. Detta fungerar sedan som ett vanligt
+	telefonsamtal. Man skall tänka på att man har en kretskopplad
+	förbindelse mellan modemen. Modemens prestanda är väldigt
+	beroende av hur bra denna förbindelse är. Har man en dålig
+	förbindelse kan det löna sig att koppla ner och sedan koppla upp
+	igen och hoppas på en bättre koppling mellan modemen.
+</para>
+</sect1>
+</chapter>
+
+<chapter><title>Protokoll</title>
+<abstract><para>
+	Protokoll är en uppsättning regler som de olika systemen måste
+	känna till för att kunna kommunicera med varandra. Man kan säga
+	att ett protokoll är det språk på vilket kommunikationen sker.
+	Jag skriver detta på Svenska. Eftersom du känner till de regler
+	som gäller för Svenska så förstår du vad jag skriver. Vi
+	kommunicerar med Svenska som protokoll.
+</para></abstract>
+
+<sect1><title>Inledning</title>
+<para>
+	Minns ni telefonsamtalet som var ett exempel tidigt i denna bok?
+	För att telefonsamtalet skall fungera krävs att väldigt många
+	olika regler som måste följas. Man kan dela kommunikationen i
+	ett flertal olika lager. Om Kalle talar i telefon med Kajsa så
+	talar de ju enligt en uppsättning olika regler. De måste vara
+	överens om vilket språk de talar och även inom vilket ämne de
+	talar. Talar de om helt olika saker finns det en stor risk att
+	de missförstår varandra.
+</para>
+
+<para>
+
+	Om man studerar samtalet i detalj så ser man att Kalle
+	egentligen inte talar med Kajsa. För honom är det som om han gör
+	det men egentligen så talar han med sin telefon. Telefonen i sin
+	tur tror att den "talar" med Kajsas telefon men den talar
+	egentligen med en telefonväxel och så vidare. Varje nivå i vårt
+	exempel tror att de talar med en motpart på samma nivå medan de
+	egentligen talar med en nivå upp eller ner på sin sida av
+	figuren. Överallt i alla pilar i denna figur finns det regler
+	för hur det skall gå till för att allt skall fungera. Märk också
+	att de tvärgående pilarna fungerar precis lika även om de
+	underliggande pilarna ändras. Till exempel så behöver inte Kalle
+	och Kajsa tala på ett annat sätt om samtalet går via satellit
+	istället för kopparkabel bara de lager det berör gör sitt.
+
+</para>
+
+<para>
+	Kort sagt så kan man säga att om man skall kommunicera på ett
+	eller annat sätt så måste de som kommunicerar göra det efter
+	vissa givna regler. Ett datornätverk skulle inte fungera om inte
+	alla enheter håll sig till en uppsättning regler. Hur skulle
+	alla 1:or och 0:or på internet kunna komma rätt om alla datorer
+	gjorde som de ville?
+</para>
+</sect1>
+
+<sect1><title>Olika protokoll till olika saker</title>
+<para>
+	Nu är det inte så att det bara finns ett protokoll. Det finns
+	inte heller bara ett protokoll per nätverk utan det finns massor
+	av protokoll, i alla delar av kommunikationen. Tänk på
+	telefonsamtalet igen. Kalle och Kajsa talar ett språk med
+	varandra, det är ett protokoll. Den som ringde upp slog ett
+	nummer med sin telefon, detta nummer tolkades av en telefonväxel
+	enligt ett visst protokoll, osv. På samma sätt är det ett
+	virrvarr av protokoll i ett datornätverk och även mellan datorer
+	och tillbehör, som till exempel skrivare.
+</para>
+<para>
+
+	Protokoll finns mellan alla parter som utbyte av data sker.
+	Detta gäller både horisontellt och vertikalt i vår telefonmodell
+	(<xref linkend="fig_telefonsamtal"/>). Vi har ju tidigare tittat
+	på till exempel hur data kan skickas över en seriell förbindelse
+	som är ett exempel på ett protokoll.
+
+</para>
+<para>
+	Följer alla sina protokoll så kommer det att fungera. För att
+	alla skall kunna följa samma protokoll så måste ju dessa
+	protokoll finnas tillgängliga för alla som vill vara med
+	och prata. Dessutom måste det ju finnas någon som ser till att
+	protokollen hålls uppdaterade och att de är korrekta.
+</para>
+	
+</sect1>
+
+<sect1><title>Vem styr över protokollen och hur tillkommer nya?</title>
+<para>
+	Det finns flera företag och organisationer som hanterar olika
+	standarder. De flesta välanvända protokoll finns dokumenterade
+	i någon typ av standard. När det gäller Internet så har flera
+	standarder kommit till på ett lite annorlunda sätt. Internet är
+	ju ett öppet nät som inte någon kontrollerar, därför har
+	standarder under Internets uppväxt kommit till på i den andan.
+	På Internet finns en typ av dokument som heter
+	<emphasis>Request For Comments, RFC</emphasis>. RFC-Dokument
+	fungerar så att någon publicerar ett RFC som beskriver något
+	protokoll eller annat som kan beröra flera. Om inte någon
+	protesterat inom en vis tid antas att RFC:n kan fungera som
+	standard. I dag som regel ett RFC-dokument klart redan när det
+	publiceras. Vi kommer att titta mer på Internet i <xref
+	linkend="chap_internet"/>.
+</para>
+<para>
+	Det finns naturligtvis även protokoll och standarder som
+	kontrolleras av företag och organisationer på traditionellt vis.
+	Exempel på organisationer som hanterar stadarder är i Sverige
+	till exempel <emphasis>Post och Telestyrelsen, PTS</emphasis>
+	som kontrollerar bland annat radio och teletrafiken i Sverige
+	och <emphasis>Standardiseringen i Sverige, SIS</emphasis> som är
+	en del av <emphasis>ISO, International Organization for
+	Standardization</emphasis> som är en organisation som lyder
+	under FN och har medlemmar från
+	147<footnote><para>http://www.iso.ch/iso/en/aboutiso/introduction/</para></footnote>
+	länder. Ett annat organ som kan vara bra att känna till är
+	<emphasis>IEEE</emphasis> som är ett Amerikansk samling av
+	ingengörer som tar fram standarder för bland annat lokala
+	nätverk.
+</para>
+
+</sect1>
+
+<sect1 id="sect_osimodellen"><title>OSI-modellen</title>
+<para>
+	I de fall där man skall implementera datorkommunikation så
+	stöter man oftast på problem som är väldigt likartade. Oftast så
+	kan man specificera problemet i en modell som inte är helt olik
+	den i vårt telefonsamtal (<xref linkend="fig_telefonsamtal"/>).
+	Likheten är att man kan dela upp kommunikationen i olika lager
+	med samma lager på både sändar- och mottagarsidan. Precis som i
+	telefonsamtalet upplever varje lager som om det kommunicerar med
+	motsvarande lager på andra sidan när det i själva verket
+	egentligen bara talar med det underliggande och överliggande
+	lagret.
+</para>
+<para>
+	På under slutet av 1970- och början på 1980-talet kom den
+	internationella standardiseringsorganisationen, ISO på en modell
+	för att på ett standardiserat sätt beskriva hur
+	datorkommunikation går till.  Anledningen till detta är att alla
+	som jobbar med datorkommunikation skall ha en gemensam modell
+	att jobba kring. Modellen som ISO togs fram kallas för
+	<emphasis>Open Systems Interconnect (OSI)</emphasis>.
+</para>
+
+<para>
+	OSI-modellen har sju lager. Den nedersta lagret är närmast
+	hårdvaran och det översta närmast användaren. Man numrerar
+	lagren från 1 till 7 och börjar nerifrån. Så här ser lagren ut.
+
+<literallayout>7. Applikation (Application)
+	6. Presentation (Presentation)
+	5. Session (Session)
+	4. Transport (Transport)
+	3. Nätverk (Network)
+	2. Datalänk (Datalink)
+	1. Fysiska (Physical)
+</literallayout>
+
+	För att komma ihåg de olika lagren är det smidigt att lära sig
+	en lite ramsa. Den ramsa jag lärde mig en gång i tiden var
+	<emphasis>Please Do Not Teach Such Petty Acronyms</emphasis> men
+	du kan hitta på en egen ramsa eller leta efter en på Internet,
+	det finns massor.
+</para>
+<para>
+	Vi skall nu studera OSI-modellen lite mer i detalj. För att det
+	skall gå så lätt som möjligt så börjar vi med en liten figur.
+
+	<figure id="fig_osi-modell">
+	<title>OSI-modellen</title>
+
+	<mediaobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        	</imageobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        	</imageobject>
+		<textobject>
+			<phrase>
+				Bild som visar OSI-modellens 7 lager och
+				hur kommunikation går uppåt och nedåt på
+				varje sida medan de olika skikten/lagren
+				upplever det som om de talade med samma
+				lager på motstående sida.
+			</phrase>
+		</textobject>
+		<caption><para>
+				OSI-modellen består av sju lager. Varje
+				lager kommunicerar med motstående lager
+				på andra sidan men egentligen så talar
+				det med ovanstående och underliggande
+				lager på samma sida. (Se mer utförlig
+				beskrivning i texten.)
+		</para></caption>
+	</mediaobject>
+	</figure>
+
+
+	I figuren (<xref linkend="fig_osi-modell"/>) ser vi
+	OSI-modellens sju lager. Då ett meddlelande skall gå från den
+	ena sidan till den andra börjar meddelandet högst upp på den ena
+	sidan. All data förbereds för att skickas till samma nivå på den
+	andra sidan och skickas sedan till lagret under. Detta lager
+	lägger på den information som skall till motsvarande lager på
+	andra sidan och skickar nedåt. Så fortsätter meddelandet på
+	sändarsidan tills det nått det nedersta lagret. Det nedersta
+	lagret ser till att meddelandet hamnar längst ned på
+	mottagarsidan. Nu har meddelandet en resa framför sig upp på
+	mottagarsidan. Varje lager behandlar den information som var
+	avsedd för det lagret (från sin kompis på andra sidan) och tar
+	bort denna information innan meddelandet skickas uppåt. Så
+	fortgår det tills meddelandet nått toppen på mottagarsidan och
+	ser ut som det gjorde innan det började sin resa.
+	
+</para>
+<para>
+	Vi skall ni titta lite närmare på varje lager:
+</para>
+<sect2><title>Applikationslagret</title>
+<para>
+	Detta är lagret närmast programvarorna som användaren ser. Det
+	är med detta lager som program som använder nätverket jobbar.
+	Exemple på protokoll från detta lager är FTP, HTTP, och olika
+	protokoll för att dela filer.
+</para>
+</sect2>
+<sect2><title>Presentationslagret</title>
+<para>
+	Används inte så ofta. I detta lager formateras data om utan att
+	förändras. Till exempel om man skall kryptera eller komprimera
+	data i överföringen så sker det i detta lager.
+</para>
+</sect2>
+
+<sect2><title>Sessionslagret</title>
+<para>
+	Detta lager används inte så ofta. Detta lager håller reda på hur
+	sessioner startas och avslutas. En session kan till exempel vara
+	att ett program har en koppling till en terminal eller databas.
+</para>
+</sect2>
+
+<sect2><title>Transportlagret</title>
+<para>
+	I detta lager delas data i flera mindre paket. Det gör att
+	nätskiktet lättare kan arbeta. På mottagarsidan ansvara detta
+	lager för att sätta ihop paketen igen i rätt ordning så att
+	ursprungsstrukturen återfås. I detta skickt hittar vi TCP som
+	används flitigt på Internet och på LAN.
+</para>
+</sect2>
+
+<sect2><title>Nätverkslagret</title>
+<para>
+	Detta lager ansvarar för vägval och och vidarebefodring av
+	paketen i datanätet. Här jobbbar till exempel routrar. Det finns
+	massor av protokoll i detta skickt och det viktigaste i dag
+	borde vara IP som används på Internet och i de flesta LAN.
+</para>
+</sect2>
+
+<sect2><title>Datalänklagret</title>
+<para>
+	Här hittar vi det accessmetoder vi lärt oss. Till exempel
+	CSMA/CD och Token Passing. Utrustning som jobbar här är till
+	exempel bryggor.
+</para>
+</sect2>
+
+<sect2><title>Fysiska lagret</title>
+<para>
+	Det fysiska lagret hanterar det fysiska. Det vill säga det som
+	man kan ta på. Här hittar vi kablar, kontakter, spänningar och
+	strömmar. Exempel på utrustning här är STP, UTP, Koax och RJ45.
+	Vanliga enheter är Volt, Ampere ich Herz.
+</para>
+</sect2>
+
+
+</sect1>
+
+<!--	- Olika typer av överförings- transport- och
+	  transmissionsprotokoll
+	- Referensmodeller som beskriver struktur och funktion för
+	  datorkommunikation
+	  
+Modeller, referensmodeller, standarder
+	- ISO/OSI
+	- SIS
+	- IEEE
+	- PTS
+	- m.fl.
+-->
+</chapter>
+
+<chapter id="chap_internet"><title>Internet</title>
+<abstract><para>
+	Internet är utan tvekan det viktigaste datanätet som finns.
+	Internet kan man komma åt från världens alla hörn och tjänsterna
+	på internet blir fler och fler för varje dag. I detta kapitel
+	tittar vi på hur internet kom till, hur det fungerar och vad det
+	erbjuder.
+</para><para>
+	Internet är inte heller bara Internet. Den teknik som används på
+	Internet blir allt vanligare även i andra betydligt mindre
+	datornät. Till exempel är det vanligaste nätverksprotokollet i
+	lokala nätverk idag TCP/IP som är samma protokoll som används på
+	Internet.
+</para></abstract>
+<!--
+	- internets historik, uppbyggnad och kommunikationsteknik
+	- vanligaste protokollen och programmen på interne
+	- programvaror för enklare diagnostisering, spårning och
+	  felsökning på internet
+-->
+
+<sect1><title>Internets historia och utveckling</title>
+<para>
+
+</para>
+
+<sect2><title>Internets historia</title>
+
+<para>
+
+	Det vi idag kallar för internet	har även det varit ett litet
+	projekt en gång i tiden. Alla har vi ju varit små. Internet
+	började sin bana som ett forskningsprojekt inom den amerikanska
+	universitetsvärlden. Syftet var att kunna ansluta datorer till
+	varandra över ett stort avstånd. I mitten på 1960-talet var en
+	av pionjärerna J.C.R. Licklider som anses vara den första som
+	kommit på idén med ett världsomspännande nätverk. Han blev sedan
+	chef för ett forskningsprojekt som kallades
+	<emphasis>DARPA, Defense Advanced Research Projects
+	Agency</emphasis> som var ett projekt inom data forskningen där
+	han fick medel till att utvärdera och utveckla sina idéer.
+</para>
+<para>
+
+	Inom det Amerikanska försvaret hade man liknande tankar som de
+	som utvecklades inom forskarvärlden. Man var sedan länge
+	beroende av kommunikationer över långa sträckor och hade börjat
+	fundera på hur dessa skulle kunna hållas fungerande under krig.
+	Det utlimata problemet man ställdes inför var dåtidens rädlsa
+	för atombomber. 
+
+</para>
+<para>
+	Man insåg att kretskopplade nät som till exempel telenäten var
+	väldigt känsliga för störningar. Klipper man av en kabel så
+	försvinner förbindelsen. Kunde man uppfinna ett nätverk där
+	data kunde delas upp i mindre delar och sedan skickas ut i ett
+	nätverk där det fanns flera olika vägar fram och tekniken själv
+	ser till att alla paket kommer fram, även om det innebär att
+	paketeten tar olika vägar. På så sätt kan systemet hämta sig
+	även om några kommunikationsvägar slås ut.
+
+</para>
+
+<para>
+
+	Det första nätet som byggdes bygdes inom ett projekt som
+	kallades ARPANET. ARPANET var ett paketförmedlat nät, precis som
+	Internet, men från början mycket, mycket mindre. Vissa tjänster
+	utvecklades tidigt, till exempel så kom e-post att bli väldigt
+	populärt i början av 1970-talet.
+
+</para>
+<para>
+
+	Allt fler intresserade sig för ARPANET och fler datorer och
+	nätverk anslöts. Ju större det blev desto mer intressant blev
+	det och fler och fler ville ansluta sig. Försvaret hade redan
+	tidigt bestämt sig för att nätverket skulle utvecklas öppet. De
+	hade nämligen inga resurser att utveckla det själva utan måste
+	ta hjälp från universiteten. Detta var en ovanlig situation för
+	en militär organisation där all utveckling i normala fall är
+	topphemlig. Allteftersom nätverket sprider sig blir det mer och
+	mer okntrollerbart och är till slut inte längre intressant för
+	militären. De överger tillslut Internet och börjat utveckla ett
+	eget nätver som kommer att kallas MILNET.
+</para>
+</sect2>
+
+<sect2><title>Word wide web, WWW</title>
+<para>
+
+	Det som många idag förknippar med Internet är
+	<emphasis>Word wide web</emphasis> eller WWW som det brukar
+	förkortas eller webben som det populärt kallas. Webben är
+	egentligen bara en funktion av väldigt många på Internet men
+	för många är den, parallellt med e-post, den funktion som är
+	viktigast. När man talar om att "surfa på nätet" är det WWW som
+	man avser.
+
+</para>
+<para>
+
+	Ett centralt begrepp på webben är hypertext. Hypertext är text
+	som innehåller hyperlänkar. En hyperlänk är en koppling mellan
+	en viss del av en text eller bild till en helt annan, men
+	relaterad, text eller bild antingen på samma server eller på ett
+	helt annat ställe, kanske på andra sidan jordklotet. Konceptet
+	med hypertext har funnits mycket länge, långt innan tänken på
+	Internet föddes, men har inte före Internet fått en så betydande
+	användning.
+
+</para>
+<!-- kolla upp Tem Berners Lee -->
+<para>
+
+	Det största som hänt Internet bör vara när den första grafiska
+	webbläsaren, <emphasis>Mosaic</emphasis>, skapades. Den gjorde
+	det möjligt att på ett enkelt sätt navigera brand all den
+	information som gjordes tillgänglig på Internet. Programvaran
+	var så pass enkel att vem som helst skulle kunna använda den.
+	Ett mål med den, och hela Internet, var att det skulle fungera
+	oavsett vilken sorts dator man använde. Redan tidigt hade det
+	besämts att alla datorer skulle kunna ansluta till nätet bara de
+	följde de protokoll som gäller.
+
+</para>
+<para>
+
+	Idag är det vanligaste webbläsarna <emphasis>Internet
+	Explorer</emphasis>, <emphasis>Netscape</emphasis> och Mozilla.
+
+</para>
+</sect2>
+
+<sect2><title>Svensk Internethistoria</title>
+<para>
+
+	Hämrta infomraiton från bland annat:
+	http://www.susning.nu/Svensk_Internethistoria
+
+</para>
+</sect2>
+
+<sect2><title>RFC-Dokument</title>
+<para>
+	
+	Som sagts tidigare så måste alla aktörer och användare följa
+	samma regler. Eftersom ingen bestämmer enväldigt över internet
+	så måste man på något sätt ta fram de regler som gäller. För att
+	styra upp Internet så har en rad organisationer upprättats som
+	organiserar olika delar av regelverket som styr Internet. I
+	början var den huvudsakliga vägen att styra regelverket på
+	Internet de så kallade <emphasis>RFC-dokumenten</emphasis>. RFC
+	står för Request For Comments som betyder ungefär "Förfrågan om
+	kommentarer" och det fungerade ungefär så här. En organisation,
+	företag eller forskare kommer på ett bra protokoll eller program
+	och skriver en RFC om detta. Denna RFC läses av alla
+	intressedade och de har möjlighet att kommentera den. Alla har,
+	i demokratins anda, möjlighet att läsa, och kommentera,
+	dokumenten. Då ett dokument kommenterats och uppdaterats tills
+	alla ha blivit nöjda anses det vara en standard som gäller. 
+	
+</para>
+<para>
+
+	Idag fungerar det lite annorlunda. De RFC:er som publiceras idag
+	är oftast redan färdiga standarder men likväl kan de läsas av
+	alla så att alla skall ha samma chans att skriva programvaror
+	som följer de standarder som specificeras i dokumenten. 
+
+</para>
+</sect2>
+
+</sect1>
+
+<sect1><title>Att ansluta till Internet</title>
+
+<para>
+	Det finns idag så många sätt att ansluta till Internet att man
+	kan tycka att det är svårt att välja. I praktiken är det dock
+	nästan aldrig några problem eftersom urvalet kraftigt styrs av
+	var du bor eller var företaget ligger och hur mycket man är
+	villig att betala, det vill säga vilket behov man har.
+</para>
+
+<sect2><title>Privatpersoner och mindre företag</title>
+
+<para>
+
+	Som sagt så kan man  ansluta till Internet på en uppsjö av olika
+	sätt.  Man kan till exmpel använda ett vanligt telefonabbonemang
+	och en dator med modem. Denna metod kallas vardagligt för
+	uppringt Internet. Uppringt Internet är väldigt enkelt och
+	fungerar överallt där det finns telefon. Denna metod är väldigt
+	vanlig bland de som inte använder Internet så ofta eller av dem
+	som bor på ett ställe där inga alternativ ges. Använder man
+	Internet väldigt lite är detta det i särklass billigaste sättet.
+
+</para>
+<para>
+
+	Nackdelen med uppringd Internet är att det är ganska långsamt
+	och att det oftast är förknippat med en samtalsavgift. Det vill
+	säfga du betalar för den tid du är ansluten till Internet även
+	om du inte använder anslutningen. Detta inbjuder till att man
+	kopplar ner sin anslutning till Internet när man inte använder
+	den. Ytterligare en nackdel är då att det tar en stund att
+	koppla upp sig igen. För inte alls många år sedan var detta det
+	ända sättet en privatperson kunde ansluta sin dator till
+	Internet. Den maximala anslutningshastigeheten ligger på ungefär
+	56 kbit/s med ett vanligt modem.
+
+</para>
+<para>
+
+	Det finns snabbare sätt att ansluta till Internet via
+	telefonlinjen. Men till skillnad från modemet ovan så ställer
+	dessa metoder mer krav på telefonförbindelsen och kräver
+	installationer såväl i hemmet som i telefonsystemet. De metoder
+	som avses är ISDN (Integrated Services Digital
+	Network) och olika varianter av DSL (Digital Subscriber Line).
+	De vanligaste ISDN linjer man ansluter hemma kallas för en
+	basanslutning. Den gör så att man får två stycken linjer till
+	sitt jack (som måste vara ett specialjack) dessa två kan man
+	antingen använda till data eller till samtal. Använder man en
+	till data klarar den maximalt 64 kbit/s och använder man båda
+	till data så kommer man upp i maximalt 128 kbit/s. Använder man
+	bara den ena så kan man tala i telefonen samtidigt som man
+	använder Internet men det går naturligtvis långsammare än om man
+	använder båda. ISDN är oftast, precis som med ett vanligt modem,
+	förknippat med en avgift som är beroende på hur länge man är
+	uppkopplad men till skillnad från vanliga modem så går en
+	uppkoppling med ISDN väldigt fort. Det gör att man kan koppla
+	upp och ner mer frekvent med ISDN. En annan fördel med ISDN är
+	att det är något snabbare än ett vanligt modem.
+
+</para>
+<para>
+
+	DSL tekniken är en modernare teknik än ISDN. Men den kräver
+	ytterligare lite till av telenätet och går därför inte att för
+	överallt där man kan få ISDN eller använda ett vanligt modem.
+	Den vanligaste varianden av DSL som använde i Sverige är ADSL
+	(Asymmetric Digital Subscriber Line) det innebär att hastigheten
+	man kan komma upp skiljer sig beroende på om man skickar eller
+	tar emot data. Vanligtvis så går det snabbare att hämta data
+	från Internet än vad det gör att skicka data till Internet.
+	Eftersom man oftast hämtar data från Internet så har detta
+	oftast ingen större praktisk betydelse. Hur snabbt det kan gå
+	med ADSL beror på hur långt ledning du har från ditt hem till en
+	telestation. Ledningens kvalitet påverkar också. Med ADSL ligger
+	hastigheten för nedladdning någonstans mellan 1 och 8 mbit/s och
+	uppladdning någonstans mellan 0,5 och 1 mbit/s. Observera att
+	din Internetleverantör (ISP) kan sätta en lägre hastighet än den
+	teoretisk möjliga.
+
+</para>
+<para>
+	
+	Med DSL-teknik är man normalt uppkopplad hela tiden med samma
+	hastighet. Man betalar antingen ett fast pris per månad eller så
+	betalar man beroende på hur mycket man använder anslutningen,
+	det vill säga hur mycket data man skickar och hämtar.
+	
+</para>
+
+</sect2>
+<sect2><title>Företag</title>
+
+<para>
+
+	Det sätt vi behandlat hittills passar privatpersoner. De kan
+	naturligtvis även användas av företag som företaget inte har
+	större behov. Företag har annars flera andra sätt att ansluta
+	till Internet beroende på vilka behov de har.  
+
+</para>
+<para>
+
+	Oftast använder företag någon typ av fast förbindelse till
+	Internet. Det vill säga att de har en konstant koppling till en
+	av Internetleverantörernas routrar och får på så sätt en stabil
+	koppling till Internet. Inte sällan har större företag två eller
+	flera kopplingar för att inte vara beroende av en ända. De kan
+	till exempel ha en förbindelse mellan två kontor i olka städer
+	och sedan en Internetförbindelse i varje stad. Går den ena
+	Internetförbindelsen ner så märker inte användarna det utan
+	surfar vidare genom förbindelsen till det andra kontoret och ut
+	på Internet via deras Internetförbindelse.
+
+</para>
+<para>
+	
+	När det gäller kapaciteten på Inernetanslutningar för företag
+	och skolor så finns det igentligen inga begränsningar. Bara
+	priset sätter gränsen. Hur mycket man är villig att betala
+	beror naturligtvis på vilket behov man har. Behovet beräknas
+	utifrån vilken verksamhet man bedriver och hur många samtidiga
+	användare man har. Anslutningar från 10mbit/s och upp till
+	hundratals mbit/s är vanliga.
+	
+</para>
+
+
+</sect2>
+
+<sect2><title>Ytterligare metoder att ansluta till Internet</title>
+<para>
+
+	Det har länge funnits ett behov av snabba billiga
+	Internetanslutningar i Sverige. Ett stort behov medför många
+	förslag på hur det skall tillgodoses. Detta gör att det finns
+	ett otal andra sätt att ansluta sig till Internet.
+
+</para>
+<para>
+
+	Man kan tillexmpel koppla upp sig mot Internet via
+	kabeltvnäten. Denna metod är relativt vanlig i de städer där
+	kabeltv finns. Man kan även på vissa ställen i landen använda
+	elnätet för att koppla upp sig. Man kan även använda radio för
+	att ansluta ett avlägset hus eller villaområde. På vissa ställen
+	kan man få fiberkabel ända in till huset eller till ett område
+	vilket ger en mycket snabb och bra Internetförbindelse.
+
+</para>
+
+<para>
+
+	Även på det mobila området förekommer mycket nytänkande. Man kan
+	till exempel utan problem koppla upp sig mot Internet med de
+	flesta moderna mobiltelefoner. Man kan också i vissa butiker
+	koppla upp sig mot internet via bluetooth eller radiolan.
+
+</para>
+
+</sect2>
+</sect1>
+
+<sect1><title>Vanliga tjänster, program och protokoll på Internet</title>
+<para>
+
+	Det säjer sig självt att om så många datorer skall fungera ihop
+	så måste de använda ett och samma protokoll. Vidare verkar det
+	kanska uppenbart att ett så stort och mångfaldigt nätverk som
+	Internet måste ha flera protokoll. 
+
+</para>
+
+<para> 
+
+	En annan sak som säger sig självt är att när en massa datorer
+	kopplas ihop och en massa människor börja använda dem så skapas
+	en marknad för en mängd olika tjänster. Dessa tjänster kräver i
+	sin tur sina egna program och sina egna protokoll.
+
+</para>
+
+<sect2><title>TCP/IP</title>
+<para>
+
+	Det protokoll som är absolut viktigast på Internet är TCP/IP.
+	TCP/IP är standardprotokollet på Internet. Namnet TCP/IP är
+	egentligen en hel familj protokoll. Namnet TCP/IP kommer från
+	två av de ingående protokollen, nämligen IP och TCP. IP står för
+	Internet Protocol och är det protokoll som ansvarar för hur alla
+	datorer skall hitta varandra på Internet. Alla datorer på
+	Internet har en så kallad IP-adress. Denna adress är unik och
+	det är tack vare denna som paket som skall till din dator kommer
+	fram just till din dator. Om vi jämför med OSI-modellen (<xref
+	linkend="sect_osimodellen"/>) som vi tittat på tidigare så ligger
+	IP i nätverksskiktet.
+
+</para>
+<para>
+
+	Vi kommer inte att behandla TCP/IP så mycket i detta kapitel.
+	Det kommer mer om det längre fram i boken. Vi skall i detta
+	kapitel titta på de protkoll och program som används högre upp i
+	modellen.
+
+</para>
+
+</sect2>
+
+<sect2><title>WWW (HTTP)</title>
+<para>
+
+	World Wide Web (WWW) var det system som satte riktig fart på
+	Internet. WWW packeterades med snygga program som var lätta att
+	använda. WWW är det system som vi använder när vi "surfar" på
+	nätet. Det verktyg som man använder kallar för webläsare (eng.
+	browser). Det protokoll som används heter <emphasis>Hypertext
+	Transport Protocol (HTTP)</emphasis>. Med hypertext menas text
+	som innehåller hyperlänkar. Men hyperlänk menas en koppling från
+	det man läser till relaterad text någon annanstans. Det är genom
+	att följa hyperlänkar som man surfar på nätet.
+
+</para>
+<para>
+
+	Hypertext är inget som kommit till i och med Internet utan det
+	har funnits tidiare i vissa programvaror och begreppet som
+	sådant har använts, om än inte i samma utbredning som nu, sedan
+	andra värdskriget.
+
+</para>
+
+<para>
+
+	För att använda WWW måste man ha en webläsare. Vänliga websäsare
+	är Netscape Navigator, Internet Explorer och Mozilla. I <xref
+	linkend="fig_konqueror"/> visas en webläsare.
+	
+	<figure id="fig_konqueror">
+	<title>Den grafiska webläsaren Konqueror</title>
+
+	<mediaobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/konqueror.jpeg" format="JPEG" />
+        	</imageobject>
+  		<imageobject>
+      			<imagedata fileref="bilder/konqueror.eps" format="EPS" />
+        	</imageobject>
+		<textobject>
+			<phrase>
+				Bild som visar Konqueror, en grafisk webläsare.
+			</phrase>
+		</textobject>
+		<caption><para>
+				Konqueror är en grafisk webläsare.
+				Grafiska webläsare är enormt populära
+				och finns till i princip alla
+				operativsystem. Den som visas på bilden
+				heter Konqueror.
+		</para></caption>
+	</mediaobject>
+	</figure>
+
+</para>
+
+</sect2>
+
+<sect2><title>Filöverförning (FTP)</title>
+<para>
+
+	När man använder http (se ovan) så hämtar man ju filer från
+	servern för att visa dem i sin webläsare. Men eftersom http är
+	tänkt för att användas av webläsare så saknar det mycket av den
+	funktionalitet som man vill ha i ett protokoll för
+	filöverföring. Till exempel så är det bökigt att ladda upp filer
+	till servern med http och det går inte att byta namn eller
+	radera en fil på servern med http. Eftersom man tidigt kom fram
+	till att man vill flytta filer mellan datorer på ett nätverk så
+	skapades ett speciellt protokoll för detta. Man kallade
+	protokollet för <emphasis>File Transfer Protocol
+	(FTP)</emphasis>. Ftp har stöd för alla funktioner man
+	förknippar med att flytta filer mellan datorer. Det finns flera
+	program för att använda ftp och ftp stöds dessutom av flera
+	vanliga filhanterare.
+
+</para>
+</sect2>
+
+<sect2><title>Nyhetsgrupper (NNTP)</title>
+<para>
+
+	
+
+</para>
+</sect2>
+
+<sect2><title>Fjärrinloggning (TELNET/SSH)</title>
+<para>
+
+</para>
+</sect2>
+</sect1>
+
+
+<sect1><title>Internets framtid</title>
+<para>
+	
+</para>
+</sect1>
+</chapter>
+
+<chapter><title>Mer om Internets teknik</title>
+<abstract>
+<para>
+	Vi har i föregående kapitel tittat på internet och hur det
+	används. I detta kapitel skall vi titta närmare på tekniken som
+	gör Internet möjligt. Efter att ha läst detta skall du förstå
+	hur Internet fungerar och kunna utföra enklare felsökning.
+</para>
+</abstract>
+
+<sect1><title>TCP/IP</title>
+<para>
+	
+	TCP/IP är en grundläggande teknik som används på Internet.
+	TCP/IP är det protokoll, eller riktigare, den familj av
+	protokoll som bygger upp Internet. TCP/IP står för <emphasis>Transmission
+	Control Protocol/Internet protocol</emphasis>. Standarden TCP/IP
+	har fått sitt namn av två av dess ingående protokoll, nämligen
+	TCP och IP. Fler protokoll ingår i stadarden som vi kommer att
+	se i detta kapitel. 
+	
+</para>
+
+<sect2><title>IP-adresser</title>
+<para>
+	<!-- IP-adresser, nätklasser och nätmaskar  -->
+
+	För att man skall hitta alla datorer i ett TCP/IP nät så måste
+	de ha en unik adress. Precis som alla telefoner anslutna till
+	ett globalt telefonnät måste ha unika telefonnummer. Precis som
+	i telefonfallet kan olika datorer ha samma nummer men de kan
+	inte sitta på samma nät. Två telefoner kan ha nummer 12345 men
+	de kan ju inte finnas på samma riktnummer. Skulle de sitta på
+	samma riktinummer så får de inte finnas inom samma land utan
+	måste skiljas åt med olika landsnummer. Huvudsakligen är att det
+	totala telefonnummret är unikt. IP-adresserna byggs upp av olika
+	delar, precis som ett telefonnummer.
+	
+</para>
+
+<para>
+
+	En IP-adress består av ett tal som är 32 bitar stort. Detta tal
+	brukar delas upp i fyra delar om vardera 8 bitar. Man brukar
+	ange delarna decimalt. Det vill säga med basen tio som vi är
+	vana. 8 bitar ger 256 olika kombinationer så varje del i en
+	IP-adress kan vara mellan 0 och 255. De fyra delarna åtskiljs
+	med . (punkt). Exempel på en giltig IP-adress är 192.168.100.10.
+	Precis som med telefonnummer så består denna IP-adress av olika
+	delar. En del är datornamnet och en annan del är adressen till
+	det nätverk där datorn finns. Till skillnad från telefonnummer
+	så är avgränsningen mellan datornamn och natverksnamn lite mer
+	flytande och syns inte direkt i adressen. 
+	
+</para>
+
+<para>
+	Vilken del av adressen som är nätadress och vilken som är
+	datoradress beror på vilket nätverk man sitter på. Traditionellt
+	så delar man in nätverken i tre olika klasser, A, B och C. Det
+	finns även D och E men dessa behandlas inte i denna bok. Om man
+	delar in IP-adressen i dess fyra talgrupper w.x.y.w så kan ma
+	Det finns även D och E men dessa behandlas inte i denna bok. Om
+	man delar in IP-adressen i dess fyra talgrupper så gäller <xref
+	linkend="table_natverksklasser"/>.
+
+	
+<table frame="all" id="table_natverksklasser"><title>Nätverksklasser</title>
+<tgroup cols='6' align='left' colsep='3' rowsep='3'>
+	<thead><row>
+		<entry>Klass</entry>
+		<entry>Nätadress (N)</entry>
+		<entry>Datoradress (D)</entry>
+		<entry>Nätmask</entry>
+		<entry>Antal nätverk</entry>
+		<entry>Datorer / Nätverk</entry>
+	</row></thead>
+	<tbody>
+	<row>
+		<entry>A</entry>
+		<entry>N.X.X.X</entry>
+		<entry>X.D.D.D</entry>
+		<entry>255.0.0.0</entry>
+		<entry>126</entry>
+		<entry>16 777 214</entry>
+	</row>
+	<row>
+		<entry>B</entry>
+		<entry>N.N.X.X</entry>
+		<entry>X.X.D.D</entry>
+		<entry>255.255.0.0</entry>
+		<entry>16 384</entry>
+		<entry>65 534</entry>
+	</row>
+	<row>
+		<entry>C</entry>
+		<entry>N.N.N.X</entry>
+		<entry>X.X.X.D</entry>
+		<entry>255.255.255.0</entry>
+		<entry>2 097 152</entry>
+		<entry>254</entry>
+	</row>
+	</tbody>
+</tgroup></table>
+
+	Den observanta läsaren ser direkt att antalet tillgängliga
+	nätverk inte riktigt kommer att räcka till till alla datornät
+	som finns på internet. Det finns flera lösningar på detta. Ett
+	sätt är att dela in adresserna i fler mer finfördelade klasser
+	än A, B och C. Detta gör man redan idag för att få få fler
+	nätverk. Man kan till exempel ha nätverk med bara 8 eller 32
+	ip-adresser. Det finns också en teknik som kallas NAT som gör
+	att man kan gömma hela nätverk bakom en enda IP-adress. Genom
+	att använda denna teknik så kan man ha samma IP-adresser på
+	flera datorer bara de sitter på ett nätverk som använder NAT
+	för att komma ut på Internet. Detta är idag det vanligaste
+	sättet att ansluta företagsnät. Det har flera fördelar, till
+	exempel så höjs säkerheten eftersom datorerna inne på nätverket
+	har adresser som inte finns på Internet. En annan uppenbar
+	fördel är att företaget bara behöver några få publika
+	IP-adresser. Det finns också nackdelar med denna metod, till
+	exempel om någon av datorerna på det interna nätet av någon
+	anledning behöver göras tillgänglig på Internet. Men det är som
+	regel inget som förekommer i lokala nät som drivs av
+	säkerhetsmedvetna administratörer.
+
+</para>
+
+<para>
+	Det finns också en mer permanent lösning på problemet. Det finns
+	en helt ny verison av IP-protokollet som heter IP version 6. Med
+	IP version 6 kommer det inte att råda någon brist på vare sig
+	IP-adresser eller nätverksadresser. Problemet är att bytet från
+	nuvarande version, IP version 4, till den nya inte är enkel och
+	kommer att skapa problem. IP version 6 behandlas inte i denna
+	version av denna bok.
+</para>
+
+</sect2>
+
+<sect2><title>Portnummer och tjänster</title>
+<para>
+
+	Som vi sagt tidigare så kan en och samma dator tillhandahålla en
+	mängd olika tjänster. Till exempel så kan en dator vara både
+	webserver, e-postserver och DNS-server på samma gång. För att
+	inte trafiken till de olika tjänsterna skall krocka med varandra
+	så måste man på något sätt dela upp den. Till exempel så förstår
+	ju inte en webserver den trafik som är menad till en epostserver
+	även om de körs på samma dator. För att komma till rätta med
+	detta så har man infört i protokollet något som kallas för
+	portar. Man skulle kunna jämföra det med ett hyreshus. Hela
+	huset är datorn och varje lägenhetsdörr är en port. I varje
+	lägenhet bor en tjänst. I lägehet nummer 80 bor till exempel
+	webbtjänsten så om någon pratar med port 80 på datorn så pratar
+	den bara med webtjänsten. Portar är alltså inte något fysiskt på
+	datorn utan bara en logisk uppdelning av tjänsterna. Varje
+	tjänst är kopplad till en port på datorn. En dator kan ha
+	ungefär 65000 portar.I lägehet nummer 80 bor till exempel
+	webbtjänsten så om någon pratar med port 80 på datorn så pratar
+	den bara med webtjänsten. Portar är alltså inte något fysiskt på
+	datorn utan bara en logisk uppdelning av tjänsterna. I lägehet
+	nummer 80 bor till exempel webbtjänsten så om någon pratar med
+	port 80 på datorn så pratar den bara med webtjänsten. Portar är
+	alltså inte något fysiskt på datorn utan bara en logisk
+	uppdelning av tjänsterna.
+	
+</para>
+
+<para>
+	
+	För att man skall veta bakom vilken port som en viss tjänst
+	finns (jämför lägenhetsdörr) så har man kommit fram till vissa
+	standardportar som brukar användas. Till exempel så körs nästan
+	alltid webservern på port 80 och e-postservern på port 25. I
+	<xref linkend="services"/> finns en lista av de vanligaste
+	portarna och vad de används till. Där finns även en referens
+	till var man hittar fler.
+	
+</para>
+
+</sect2>
+
+<sect2><title>URL Uniform Resource Locator</title>
+<para>
+
+	En URL är en adress som används för att referera till en viss
+	tjänst på en viss dator någonstans i världen (Internet). En URL
+	består av tre olika delar. Vi tittar på en URL:
+	<emphasis>http://www.se.linux.org:80/support</emphasis>. Den
+	första delen är det som kommer före <emphasis>://</emphasis>, i
+	vårt fall <emphasis>http</emphasis>. Http står för
+	<emphasis>Hypertext Transfer Protocol</emphasis> och används för
+	att läsa websidor från en webserver. Andra exempel på vanliga
+	protokoll i URL:er är ftp och https som är för filöverföring
+	respektive säker överföring av websidor. Den andra delen är
+	datornamnet, se kapitlet om DNS längre fram i boken. Om
+	datornamnet har ett kolon i sig så är det som kommer efter ett
+	portnummer. Normalt sett så behöver man inte ange portnummer om
+	tjänsten man skall komma åt körs på sin standardport, men om den
+	körs på en icke-standardport så måste man tala om detta. Den
+	sista delen är en adress till något på den dator man ansluter
+	till. I vårt fall en websida.
+
+</para>
+</sect2>
+
+<sect2><title>Routing</title>
+<para>
+
+	På Internet finns en otrolig mängd datorer. Du kan blixtsnabbt
+	läsa en sida på en dator i Australien för att nästa sekund läsa
+	en på en dator i USA. Att detta fungerar och går så fort är
+	inget under utan ingenjörskonst. I detta avsnitt skall vi
+	behandla hur det går till.
+	
+</para>
+
+<sect3><title>Paketförmedling</title>
+<para>
+
+	Till att börja med så är en del i hemligheten att Internet
+	(TCP/IP) är ett paketförmedlande nät. Det betyder som vi sagt
+	tidigare att all trafik mellan två datorer delas upp i små paket
+	som skickas oberoende av varandra igenom nätverket.
+
+</para>
+<para>
+
+	För att alla paket, eller åtminstone så många som möjligt, skall
+	komma fram används en teknik som kallas för routing.
+
+</para>
+</sect3>
+
+<sect3><title>Routing i korthet</title>
+<para>
+
+	På Internet finns en mängd olika routrar. De fungerar som små
+	postkontor som tar emot paket från olika håll och beroende på
+	var de skall skickar dem vidare åt olika håll. Varje router står
+	i kontakt med andra routrar och de sammarbetar så att varje
+	router vet vilka delar av nätet som varje router kan komma åt.
+	På så sätt kan en router välja vilken av sina grannar som bäst
+	kan förmedla det aktuella paketet. Det finns flera alternativa
+	väger för at paket att komma fram så om någon router går ner så
+	märker dess granne detta och letar efter en annan router som kan
+	komma åt de delar av nätet som den som gick ned. Det kan
+	innebära att paketen får ta en liten omväg men de kommer i alla
+	fall fram. Det kan även hända att den kortaste vägen för
+	tillfållet är överbelastad. Då kan en router välja att skicka
+	paketeten en annan väg.
+
+</para>
+
+<para>
+
+	Systemet består alltså av en mängd olika routrar som känner till
+	sin omgivning genom att med bestämda protokoll sammarbetar med
+	sina grannar om de olika möjliga vägarna till olika mål och
+	därefter tar emot och skickar datapaket åt olika håll beroende
+	på var de skall.
+
+</para>
+
+</sect3>
+
+<sect3><title>Time to live (TTL)</title>
+<para>
+
+	Man kan lätt tänka sig att det kan uppstå problem i detta
+	system. Tänk om någon router får fel infomration av någon
+	anledning och börjar att skicka paket åt fel håll eller tänk om
+	ett paket har en konstig adress som ingen vill veta av. För att
+	förhuindra att paket åker runt i all eveighet på Internet så har
+	varje paket ett fält med ett heltal som kallas för
+	<emphasis>Time To Live (TTL)</emphasis>. Detta fält börjar på
+	ett tal och minskas av varje router som tar i paketet med ett.
+	Om paketet kommer till en router med TTL=0 så kastar denna
+	router bort paketet. På så sätt kommer inget paket att åka runt
+	för evigt.
+
+</para>
+</sect3>
+
+<sect3><title>Statisk routing, default gw</title>
+<para>
+</para>
+</sect3>
+
+</sect2>
+
+
+<sect2><title>ICMP</title>
+<para>
+
+</para>
+</sect2>
+
+
+<sect2><title>Felsökning i TCP/IP-nätverk</title>
+<para>
+	<!-- IP-adresser, nätklasser och nätmaskar  -->
+</para>
+
+<sect3><title>Ifconfig</title>
+<para>
+
+</para>
+</sect3>
+
+<sect3><title>Ping</title>
+<para>
+
+</para>
+</sect3>
+
+<sect3><title>Route</title>
+<para>
+
+</para>
+</sect3>
+
+<sect3><title>Traceroute</title>
+<para>
+
+</para>
+</sect3>
+
+<sect3><title>Host</title>
+<para>
+
+</para>
+</sect3>
+
+<sect3><title>Arp</title>
+<para>
+
+</para>
+</sect3>
+
+<sect3><title>Netstat</title>
+<para>
+
+</para>
+</sect3>
+
+
+
+</sect2>
+</sect1>
+
+<sect1><title>Domännamnssystemet (DNS)</title>
+<!--
+               - DNS-systemets uppbyggnad
+	       		- hierarkiskt
+	       		- topdomäner (appendix med komplett lista kanske)
+		- DNS-servrar								   
+-->
+<para>
+	Domännamnssystemet <emphasis>Domain Name System, DNS</emphasis>
+	är ett av de viktigaste systemen på Internet. Utan detta system
+	skulle visserligen det mesta av Internet fungera men inte många
+	skulle kunna använda sig av det. Både fysiska användare och
+	olika system på Internet skulle sluta fungera om DNS skulle
+	sluta att fungera en dag.
+</para>
+<para>
+
+	Domännamnssystemets huvudsakliga uppgift är att översätta
+	datornamn (hostname), till exempel www.se.linux.org till en
+	ip-adress, 213.141.74.169. Den huvudsakliga anledningen till
+	detta är att det skall vara lätt för människor att komma ihåg
+	namnen på olika servrar. I exemplet så är ju datornamnet mycket
+	lättare för en människa att lägga på minnet än vad ip-adressen
+	är. Dessutom är det bra att använda ett alias, datornamnet, när
+	man adresserar en dator eftersom man då kan flytta datorn,
+	vilket oftast medför en ny ip-adress, utan att man behöver
+	uppdatera alla som skall använda datorn, det räcker ju att
+	uppdatera DNS-namnet.
+	
+</para>
+
+<para>
+
+	När internet inte var så stort behövde man inte använda något
+	system som DNS. På samma sätt behöver man inte använda det om
+	man har ett mindre lokalt nätverk. Men så snart man skall
+	använda internet eller skall hantera ett lite större nätverk så
+	är det väldigt bra att använda ett DNS-system. Från början på
+	Internet använde man så kallade hosts-filer på varja dator. I
+	denna fil fanns det en lista med datornamn och mostvarande
+	ip-adresser. Detta system kan man fortfarande använda om man
+	vill men fungerar bara så länge som nätverket är litet. Det blir
+	snabbt ohållbart att hålla alla dessa hosts-filer uppdaterade
+	med varandra. Precis som man upptäckte så snart som Internet
+	började växa.
+
+</para>
+
+<sect2><title>Hierarkiskt system</title>
+<para>
+	
+	DNS kan jämföras med en gigantisk distribuerad databas med
+	datornamn och ip-adresser. DNS är ett hierarkiskt system. Det
+	vill säga det finns en mängd olika nivåer där varje nivå har en
+	master. Det kan jämföras med en hierarkisk företagsstruktur med
+	en VD överst och under denne en rad chefer som under sig har
+	kankse andra chefer som under sig har arbetare. Varje chef
+	ansvarar för sina underhuggare och lyder närmast överliggande
+	chef. Ungefär på samma sätt fungerar DNS. 
+	
+</para>
+<para>
+
+	Denna hierarkiska struktur används i DNS av precis samma skäl
+	som det används i företag. Den högsta chefen kan inte
+	personligen hålla reda på alla arbetare i företaget. Precis som
+	en enda dator inte kan hålla reda på alla datorer på Internet
+	och hantera frågor om dem.
+
+</para>
+<para>
+
+	DNS har inte en master eller top-chef utan i dagsläget 13
+	stycken (http://www.root-servers.org/). Under dessa finns alla
+	dns-servrar som hanterar <emphasis>topdomäner</emphasis>.
+
+</para>
+
+<para>
+
+	Vi har tidigare sett att ett datornamn består av flera olika
+	delar. Det längst till höger är det mest signifikanta och är den
+	så kallade toppdomänen. I det finns två olika typer av
+	topdomäner, dels de så kallade <emphasis>generiska</emphasis>
+	som är de äldsta. De vanligaste generiska topdomänerna är .com,
+	.org, och .net. Dessa kom till när Internet var litet och i
+	princip bara fanns i USA. Då var det mest logiskt att dela upp
+	datornamnen efter vilken funktion de tillhörde. Sedan när
+	Internet växte insåg man att man måste dela upp utterligare, då
+	blev det mest logiska att dela upp efter land. Så kom de
+	nationella topdomänerna till. Exempel på nationella domäner ät
+	.se, .no, och .dk. Märk att de nationella domänerna är bundna
+	till land medan de generiska kan användas överallt. USA, där
+	användandet av generiska topdomännamn är vanligast har den
+	nationella topdomännamnet .us. Märk också att även om nationella
+	topdomännamn är bundna till länder så finns det inget som
+	hindrar att landet säljer dessa till utlandet. På så sätt har
+	det till exempel blivit väldigt vanligt att svenskar använder
+	det nationella topdomännamnet .nu som tillhör landet Niue.
+</para>
+
+<para>
+	
+	I <xref linkend="topdomains"/> finns en komplett lista över de
+	generiska och nationella toppdomänerna.
+
+</para>
+
+</sect2>
+
+<sect2><title>Domännamnsförfrågan</title>
+<para>
+
+	Som vi sa tidigare så ansvarar DNS för att översätta datornamn
+	till ip-adress. Så vad händer när du skall hitta en dator. Säg
+	att du vill kontakta datorn www.se.linux.org för att till
+	exempel titta på de webtjänster som den erbjuder. Du knappar in
+	http://www.se.linux.org i din browser, vad händer sedan?
+
+</para>
+
+<para>
+
+	Det första som händer är att din dator frågar den DNS-server som
+	du angett som standard, det är vanligtvis den server som är DNS
+	på ditt lokala nätverk eller den som din Internetleverantör
+	tillhandahåller. Så din dator frågar alltså denna efter
+	www.se.linux.org. Vi antar att denna DNS inte vet vad
+	www.se.linux.org har för adress så denna DNS måste fråga någon
+	annan. Eftersom det är en .org adress (generisk topdomän) så
+	frågar den den server som ansvarar för .org. Vet inte server
+	vilken det är så måste den fråga någon av root-servrarna. Den
+	server<footnote><para>Dessa stora domäner hanteras av flera
+	servrar men man kan se de som en enda.</para></footnote> som
+	hanterar .org. Denna server känner inte heller till hela
+	adressen men den kan fråga linux.org som den känner till. Alla
+	känner ju till de som ligger direkt under dem. linux.org känner
+	se.linux.org som i sin tur hittar www.se.linux.org. På så sätt
+	så hittas adressen till den dator du sökte. Varje fråga som
+	ställs sparas (cachas) i den maskin som ställde frågan så det
+	skall gå snabbare nästa gång. Så nästa gång du frågar så vet
+	redan din lokala dns vilken adress det är du söker. Utan denna
+	funktion skulle Internet snabbt svämma över av bara
+	namnförfrågningar.
+
+</para>
+</sect2>
+
+<sect2><title>DNS-servrar</title>
+<para>
+
+	En DNS-server är en funktion i en dator. De större DNS-servrarna
+	är datorer som bara är DNS-servrar och inget annat. Mindre
+	DNS-servrar till exempel i lokala nätverk kan ha flera
+	funktioner, man kan till exempel ha en dator som både DNS-server
+	och webbserver. Det finns DNS-serverprogramvaror till i princip
+	alla operativsystem. Den vanligaste finns till Unix-system, även
+	Linux och heter <emphasis>BIND, Berkeley Internet Name
+	Daemon</emphasis>. 
+
+</para>
+
+</sect2>
+
+</sect1>
+
+
+<sect1><title>Mer om e-post</title>
+<para>
+	<!-- smtp, pop, imap  -->
+	E-post är den tjänst som av många räknas som den viktigaste på
+	Internet. Utan e-post står många företag stilla. I detta avsnitt
+	skall vi behandla e-post och hur det fungerar lite närmare.
+</para>
+
+<sect2><title>Flera protokoll</title>
+<para>
+
+	När du skickar ett e-brev till någon så kommer flera protokoll
+	att ha används innan mottagaren har läst brevet. Förutom TCP/IP,
+	DNS med mera används även minst ett par olika protokoll för
+	själva brevskickandet.
+
+</para>
+</sect2>
+
+<sect2><title>Simple Mail Transport Protocol, SMTP</title>
+<para>
+
+	Det viktigaste protokollet som används är <emphasis>Simple Mail
+	Transport Protocol, SMTP</emphasis>. Det är med SMTP som brevet
+	transporteras över Internet från dig till mottagaren. Man kan
+	säga at det är med SMTP som man skickar e-post.
+
+</para>
+<para>
+
+	Du startar ditt e-postprogram på din dator. Normalt så har du
+	ingen SMTP-server på din dator utan när du skickar brevet så
+	pratar ditt e-postprogram med en SMTP-server på ditt nät som
+	antingen tillhandahålls av din ISP eller av IT-avdelningen på
+	det företag du jobbar. Det protokoll som används mellan
+	tille-postprogram och servern är SMTP.
+
+</para>
+<para>
+
+	När brevet nått din SMTP-server måste det skickas vidare.
+	Mottagaren har ju inte tillgång till din SMTP-server, och även
+	om mottagaren hade det så kan han eller hon inte veta att post
+	väntar på just din server. Istället så skickar din SMTP-server
+	brevet vidare till den SMTP-server som hanterar posten för det
+	domännamn som du angav i mottagarens e-postadress (det som står
+	till höger om "@" i e-postadressen). Information om vilken
+	server som anvsarar för e-posten för just den aktuella domänen
+	får din server från DNS-systemet. När brevet kommit dit så finns
+	det förhoppningvis på en server som mottagaren har tillgång
+	till. I vissa fall så hoppar brevet flera steg till innan det
+	nått den servern som just din mottagare kommer åt.
+
+</para>
+<para>
+
+	Nu återstår det bara för din mottagare att hämta och läsa brevet
+	från dig. Det finns flera olika sätt att göra det. De vanligaste
+	sätten är via protokoll som POP eller IMAP, men det blir
+	vanligare och vanligare att man använder något som kalls för
+	webbmail som är ett system för att, med hjälp av en webbläsare
+	läsa sin post direkt från SMTP-servern.
+
+</para>
+</sect2>
+<sect2><title>Post Office Protocol, POP</title>
+<para>
+	Ett ganska gammalt, men fortfarande väldigt vanligt, sätt att
+	hämta sin e-post är att använda ett protokoll som heter
+	<emphasis>Post Office Protocol, POP</emphasis>. Med hjälp av POP
+	hämtar du posten från din POP-server till lokala dator. De
+	flesta e-postprogram klarar att hämta post med POP. Märk att
+	SMTP har änvänds hela tiden för att transportera brevet men
+	sista biten används andra protokoll. I det här fallet POP.  När
+	brevet flyttats (kallas ibland för poppats) till din dator tas
+	det oftast bort från POP-servern och lagras nu lokalt på din
+	hårddisk.
+</para>
+</sect2>
+<sect2><title>IMAP</title>
+<para>
+</para>
+</sect2>
+
+<sect2><title>Webmail</title>
+<para>
+
+	En nackdel med POP och IMAP är att det krävs inställningar på
+	den dator man skall läsa sin post ifrån. Många vill idag kunna
+	läsa sin post på vilken dator som helst eftersom de ofta reser
+	eller använder flera olika datorer.
+
+</para>
+<para>
+
+	Det enklaste sättet att göra detta på är att använda sig av en
+	webmail. Det är ett system då man istället för att hämta sin
+	post från leverantörens eller företagets SMTP-server med POP
+	eller IMAP, läser den direkt från servern med hjälp av en
+	webmailprogramvara. Ved denna programvara gör är att möjliggöra
+	att man läser sin post via HTTP och ett vanlig webbläsare.
+	Eftersom nästan alla datorer idag har en webbläsare och är
+	anslutna till Internet kan man läsa sin post nästan varifrån som
+	helst.
+
+</para>
+<para>
+
+	Att kunna läsa sin post varifrån som helst och att slippa spara
+	sina brev på den egna datorn är stora fördelar som gör att många
+	använder webmail. Det finns flera företag som använder gratis
+	webmailtjänster som gör att du kan skaffa dig en e-postadress
+	alldeles gratis utan att ens ha en Internetansluten dator. Men
+	det finns ocskå nackdelar med webmail.
+
+</para>
+<para>
+
+	Webmail har flera nackdelar. Att hantera sin post med en
+	webbläsare är oftast krångligare och längsammare än att göra det
+	med ett vanligt e-postprogram. En annan nackdel är att du måste
+	vara uppkopplad hela tiden su skall läsa din post. Om du hämtar
+	posten med POP eller IMAP behöver du ju bara vara ansluten till
+	Internet just när du hämtar posten, sedan kan du ju läsa den i
+	lugn och ro även om du inte är uppkopplad. En annan nackdel är
+	att de flesta företag som erbjuder webmail har en gräns för hur
+	mycket post du får spara på deras server. Det gör att du men
+	gämna mellanrum måste slänga dina brev för att få plats med
+	nya. Detta gäller i första han gratistjänster men det är inte
+	ovanligt att även sådana man betalar för eller de inom företag
+	har liknande gränser (om än oftast lite högre).
+
+</para>
+</sect2>
+
+</sect1>
+
+<sect1><title>E-post och säkerhet</title>
+<para>
+
+	I nästa kapitel kommer vi att tala om säkerhet men det är ändå
+	på sin plats att tala lite om det redan nu när vi hanterar
+	e-post. E-post är nämligen en tjänst på internet som skall
+	betraktas som osäker. En tumregel som är bra är att man inte
+	skall skriva någonting i ett e-brev som man inte skulle skriva
+	på ett vykort. Vill man skicka någonting som är lite hemilgt
+	skall man använda sig av något verktyg för att kryptera sitt
+	brev så att obehöriga inte kan läsa det.
+
+</para>
+
+
+</sect1>
+
+</chapter>
+
+<chapter><title>Datasäkerhet</title>
+<abstract><para>
+	Stora öppna nät som till exempel Internet är naturligtvis bra
+	för kommunikatinonen men det öppnar även för onda personer som
+	kan missbruka denna öppenhet. I deta kapitel behandlar vi
+	datasäkerhet. Hur farligt är internet och vad kan man göra för
+	att skydda sig?
+</para></abstract>
+<!--
+	Säkerhet
+	- Gällande datalagstiftning och förstå datasäkerhetens betydelse
+	- Olika sätt att skydda information vid dataöverföringar
+-->
+
+</chapter>
+
+&dtr1201;
+
+&asciitabell;
+
+&hextodectabell;
+
+<appendix id="commands"><title>Tabell över kommandon i olika operativsystem</title>
+<para>
+
+	I denna bok utgår vi från att du har tillgång till ett Linux
+	eller Unixsystem. Har du inte det så finns det i detta kapitel
+	en tabell över alla kommandon som nämnts i boken och deras
+	motsvarighet i olika operativsystem.
+
+</para>
+
+<para>
+
+	För att få reda på exakt hur de fungerar så rekommenderas att du
+	läser manualen till just ditt operativsystem.
+
+</para>
+
+<table frame="all"><title>Kommandotabell</title>
+<tgroup cols='4' align='left' colsep='3' rowsep='3'>
+	<thead><row>
+		<entry>Linux/Unix</entry>
+		<entry>Windows 9x</entry>
+		<entry>Windows 2000/XP</entry>
+		<entry>MacOS</entry>
+	</row></thead>
+	<tbody>
+	<row>
+		<entry>ifconfig</entry>
+		<entry>ipconfig</entry>
+		<entry>ipconfig</entry>
+		<entry></entry>
+	</row>
+	<row>
+		<entry>route</entry>
+		<entry>route</entry>
+		<entry>route</entry>
+		<entry></entry>
+	</row>
+	<row>
+		<entry>traceroute</entry>
+		<entry>tracert</entry>
+		<entry>tracert</entry>
+		<entry></entry>
+	</row>
+	<row>
+		<entry>host</entry>
+		<entry></entry>
+		<entry></entry>
+		<entry></entry>
+	</row>
+	<row>
+		<entry>arp</entry>
+		<entry>arp</entry>
+		<entry>arp</entry>
+		<entry>arp</entry>
+	</row>
+	<row>
+		<entry>netstat</entry>
+		<entry>netstat</entry>
+		<entry>netstat</entry>
+		<entry></entry>
+	</row>
+	</tbody>
+</tgroup></table>
+</appendix>
+
+<appendix id="services"><title>Portnummer och tjänster</title>
+<para>
+I detta appendix listas en del tjänster och deras mostvarande
+portnummer i urval. Man kan naturligtvis köra tjänster på vilken port som helst
+men vill man göra det lätt för sina användare så använder man dessa
+portar. Vill du se flera skall du läsa RFC 1700.
+
+<screen>
+Keyword         Decimal    Description 
+-------         -------    -----------
+echo              7/tcp    Echo
+echo              7/udp    Echo
+daytime          13/tcp    Daytime (RFC 867)
+daytime          13/udp    Daytime (RFC 867)
+chargen          19/tcp    Character Generator
+chargen          19/udp    Character Generator
+ftp              21/tcp    File Transfer [Control]
+ftp              21/udp    File Transfer [Control]
+ssh              22/tcp    SSH Remote Login Protocol
+ssh              22/udp    SSH Remote Login Protocol
+telnet           23/tcp    Telnet
+telnet           23/udp    Telnet
+smtp             25/tcp    Simple Mail Transfer
+smtp             25/udp    Simple Mail Transfer
+time             37/tcp    Time
+time             37/udp    Time
+domain           53/tcp    Domain Name Server
+domain           53/udp    Domain Name Server
+finger           79/tcp    Finger
+finger           79/udp    Finger
+http             80/tcp    World Wide Web HTTP
+http             80/udp    World Wide Web HTTP
+pop3            110/tcp    Post Office Protocol - Version 3
+pop3            110/udp    Post Office Protocol - Version 3
+sunrpc          111/tcp    SUN Remote Procedure Call
+sunrpc          111/udp    SUN Remote Procedure Call
+auth            113/tcp    Authentication Service
+auth            113/udp    Authentication Service
+nntp            119/tcp    Network News Transfer Protocol
+nntp            119/udp    Network News Transfer Protocol
+ntp             123/tcp    Network Time Protocol
+ntp             123/udp    Network Time Protocol
+netbios-ns      137/tcp    NETBIOS Name Service    
+netbios-ns      137/udp    NETBIOS Name Service    
+netbios-dgm     138/tcp    NETBIOS Datagram Service
+netbios-dgm     138/udp    NETBIOS Datagram Service
+netbios-ssn     139/tcp    NETBIOS Session Service
+netbios-ssn     139/udp    NETBIOS Session Service
+imap            143/tcp    Internet Message Access Protocol
+imap            143/udp    Internet Message Access Protocol
+ups             401/tcp    Uninterruptible Power Supply
+ups             401/udp    Uninterruptible Power Supply
+https           443/tcp    http protocol over TLS/SSL
+https           443/udp    http protocol over TLS/SSL
+isakmp          500/tcp    isakmp
+isakmp          500/udp    isakmp
+syslog          514/udp
+printer         515/tcp    spooler
+printer         515/udp    spooler
+ldp             646/tcp    LDP
+ldp             646/udp    LDP
+silc            706/tcp    SILC
+silc            706/udp    SILC
+rsync           873/tcp    rsync
+rsync           873/udp    rsync
+imaps           993/tcp    imap4 protocol over TLS/SSL
+imaps           993/udp    imap4 protocol over TLS/SSL
+ircs            994/tcp    irc protocol over TLS/SSL
+ircs            994/udp    irc protocol over TLS/SSL
+pop3s           995/tcp    pop3 protocol over TLS/SSL (was spop3)
+pop3s           995/udp    pop3 protocol over TLS/SSL (was spop3)
+</screen>
+
+</para>
+</appendix>
+
+<appendix id="topdomains"><title>Topdomäner</title>
+<para>
+	Toppdomänerna är den översta nivån i DNS-hierarkin. I detta
+	appendix listas de generiska och de nationella toppdomänerna.
+	Dessa uppgifter kommer från Internet Assigned Numbers Authority
+	(IANA, http://www.iana.org).
+</para>
+
+<sect1><title>Generiska (gtld)</title>
+<para>
+<literallayout>
+<emphasis>aero</emphasis>, Reserverad för medlemmar av flygtransportindustrin, sponsrad av Société Internationale de Télécommunications Aéronautiques (SITA).
+<emphasis>biz</emphasis>, Begränsad till företag, drivs av NeuLevel, Inc.
+<emphasis>com</emphasis>, Drivs av VeriSign Global Registry Services.
+<emphasis>coop</emphasis>, Reserverad för kooperativa föreningar, sponsrad av Dot Cooperation LLC.
+<emphasis>info</emphasis>, Drivs av Afilias Limited.
+<emphasis>museum</emphasis>, Reserverad för museum, sponsrad av Museum Domain Management Association.
+<emphasis>name</emphasis>, Reserved för privatpersoner, drivs av Global Name Registry.
+<emphasis>net</emphasis>, Drivs av VeriSign Global Registry Services.
+<emphasis>org</emphasis>, Drivs av Public Interest Registry. Avsedd för icke-kommersiella verksamheter men finns tillgänglig för alla.
+<emphasis>pro</emphasis>, Under uppbyggnad, drivs av RegistryPro. 
+<emphasis>gov</emphasis>, Reserverad enbart för den amerikanska regeringen. Drivs av US General Services Administration.
+<emphasis>edu</emphasis>, Reserverad för amerikanska skolväsendet
+<emphasis>mil</emphasis>, Reserverad för det amerikanska försvaret.Drivs av US DoD Network Information Center.
+<emphasis>int</emphasis>, Används bara av oraganisationer som etablerats av olika regeringar. Drivs av IANA .int Domain Registry. 
+</literallayout>
+</para>
+</sect1>
+
+<sect1><title>Nationella (cctld)</title>
+<para>
+
+<emphasis>ac</emphasis>, Ascension Island.
+<emphasis>ad</emphasis>, Andorra.
+<emphasis>ae</emphasis>, United Arab Emirates.
+<emphasis>af</emphasis>, Afghanistan.
+<emphasis>ag</emphasis>, Antigua and Barbuda.
+<emphasis>ai</emphasis>, Anguilla.
+<emphasis>al</emphasis>, Albania.
+<emphasis>am</emphasis>, Armenia.
+<emphasis>an</emphasis>, Netherlands Antilles.
+<emphasis>ao</emphasis>, Angola.
+<emphasis>aq</emphasis>, Antarctica.
+<emphasis>ar</emphasis>, Argentina.
+<emphasis>as</emphasis>, American Samoa.
+<emphasis>at</emphasis>, Austria.
+<emphasis>au</emphasis>, Australia.
+<emphasis>aw</emphasis>, Aruba.
+<emphasis>az</emphasis>, Azerbaijan.
+<emphasis>ba</emphasis>, Bosnia and Herzegovina.
+<emphasis>bb</emphasis>, Barbados.
+<emphasis>bd</emphasis>, Bangladesh.
+<emphasis>be</emphasis>, Belgium.
+<emphasis>bf</emphasis>, Burkina Faso.
+<emphasis>bg</emphasis>, Bulgaria.
+<emphasis>bh</emphasis>, Bahrain.
+<emphasis>bi</emphasis>, Burundi.
+<emphasis>bj</emphasis>, Benin.
+<emphasis>bm</emphasis>, Bermuda.
+<emphasis>bn</emphasis>, Brunei Darussalam.
+<emphasis>bo</emphasis>, Bolivia.
+<emphasis>br</emphasis>, Brazil.
+<emphasis>bs</emphasis>, Bahamas.
+<emphasis>bt</emphasis>, Bhutan.
+<emphasis>bv</emphasis>, Bouvet Island.
+<emphasis>bw</emphasis>, Botswana.
+<emphasis>by</emphasis>, Belarus.
+<emphasis>bz</emphasis>, Belize.
+<emphasis>ca</emphasis>, Canada.
+<emphasis>cc</emphasis>, Cocos (Keeling) Islands.
+<emphasis>cd</emphasis>, Congo, Democratic Republic of the.
+<emphasis>cf</emphasis>, Central African Republic.
+<emphasis>cg</emphasis>, Congo, Republic of.
+<emphasis>ch</emphasis>, Switzerland.
+<emphasis>ci</emphasis>, Cote d'Ivoire.
+<emphasis>ck</emphasis>, Cook Islands.
+<emphasis>cl</emphasis>, Chile.
+<emphasis>cm</emphasis>, Cameroon.
+<emphasis>cn</emphasis>, China.
+<emphasis>co</emphasis>, Colombia.
+<emphasis>cr</emphasis>, Costa Rica.
+<emphasis>cu</emphasis>, Cuba.
+<emphasis>cv</emphasis>, Cap Verde.
+<emphasis>cx</emphasis>, Christmas Island.
+<emphasis>cy</emphasis>, Cyprus.
+<emphasis>cz</emphasis>, Czech Republic.
+<emphasis>de</emphasis>, Germany.
+<emphasis>dj</emphasis>, Djibouti.
+<emphasis>dk</emphasis>, Denmark.
+<emphasis>dm</emphasis>, Dominica.
+<emphasis>do</emphasis>, Dominican Republic.
+<emphasis>dz</emphasis>, Algeria.
+<emphasis>ec</emphasis>, Ecuador.
+<emphasis>ee</emphasis>, Estonia.
+<emphasis>eg</emphasis>, Egypt.
+<emphasis>eh</emphasis>, Western Sahara.
+<emphasis>er</emphasis>, Eritrea.
+<emphasis>es</emphasis>, Spain.
+<emphasis>et</emphasis>, Ethiopia.
+<emphasis>fi</emphasis>, Finland.
+<emphasis>fj</emphasis>, Fiji.
+<emphasis>fk</emphasis>, Falkland Islands (Malvina).
+<emphasis>fm</emphasis>, Micronesia, Federal State of.
+<emphasis>fo</emphasis>, Faroe Islands.
+<emphasis>fr</emphasis>, France.
+<emphasis>ga</emphasis>, Gabon.
+<emphasis>gd</emphasis>, Grenada.
+<emphasis>ge</emphasis>, Georgia.
+<emphasis>gf</emphasis>, French Guiana.
+<emphasis>gg</emphasis>, Guernsey.
+<emphasis>gh</emphasis>, Ghana.
+<emphasis>gi</emphasis>, Gibraltar.
+<emphasis>gl</emphasis>, Greenland.
+<emphasis>gm</emphasis>, Gambia.
+<emphasis>gn</emphasis>, Guinea.
+<emphasis>gp</emphasis>, Guadeloupe.
+<emphasis>gq</emphasis>, Equatorial Guinea.
+<emphasis>gr</emphasis>, Greece.
+<emphasis>gs</emphasis>, South Georgia and the South Sandwich Islands.
+<emphasis>gt</emphasis>, Guatemala.
+<emphasis>gu</emphasis>, Guam.
+<emphasis>gw</emphasis>, Guinea-Bissau.
+<emphasis>gy</emphasis>, Guyana.
+<emphasis>hk</emphasis>, Hong Kong.
+<emphasis>hm</emphasis>, Heard and McDonald Islands.
+<emphasis>hn</emphasis>, Honduras.
+<emphasis>hr</emphasis>, Croatia/Hrvatska.
+<emphasis>ht</emphasis>, Haiti.
+<emphasis>hu</emphasis>, Hungary.
+<emphasis>id</emphasis>, Indonesia.
+<emphasis>ie</emphasis>, Ireland.
+<emphasis>il</emphasis>, Israel.
+<emphasis>im</emphasis>, Isle of Man.
+<emphasis>in</emphasis>, India.
+<emphasis>io</emphasis>, British Indian Ocean Territory.
+<emphasis>iq</emphasis>, Iraq.
+<emphasis>ir</emphasis>, Iran (Islamic Republic of).
+<emphasis>is</emphasis>, Iceland.
+<emphasis>it</emphasis>, Italy.
+<emphasis>je</emphasis>, Jersey.
+<emphasis>jm</emphasis>, Jamaica.
+<emphasis>jo</emphasis>, Jordan.
+<emphasis>jp</emphasis>, Japan.
+<emphasis>ke</emphasis>, Kenya.
+<emphasis>kg</emphasis>, Kyrgyzstan.
+<emphasis>kh</emphasis>, Cambodia.
+<emphasis>ki</emphasis>, Kiribati.
+<emphasis>km</emphasis>, Comoros.
+<emphasis>kn</emphasis>, Saint Kitts and Nevis.
+<emphasis>kp</emphasis>, Korea, Democratic People's Republic.
+<emphasis>kr</emphasis>, Korea, Republic of.
+<emphasis>kw</emphasis>, Kuwait.
+<emphasis>ky</emphasis>, Cayman Islands.
+<emphasis>kz</emphasis>, Kazakhstan.
+<emphasis>la</emphasis>, Lao People's Democratic Republic.
+<emphasis>lb</emphasis>, Lebanon.
+<emphasis>lc</emphasis>, Saint Lucia.
+<emphasis>li</emphasis>, Liechtenstein.
+<emphasis>lk</emphasis>, Sri Lanka.
+<emphasis>lr</emphasis>, Liberia.
+<emphasis>ls</emphasis>, Lesotho.
+<emphasis>lt</emphasis>, Lithuania.
+<emphasis>lu</emphasis>, Luxembourg.
+<emphasis>lv</emphasis>, Latvia.
+<emphasis>ly</emphasis>, Libyan Arab Jamahiriya.
+<emphasis>ma</emphasis>, Morocco.
+<emphasis>mc</emphasis>, Monaco.
+<emphasis>md</emphasis>, Moldova, Republic of.
+<emphasis>mg</emphasis>, Madagascar.
+<emphasis>mh</emphasis>, Marshall Islands.
+<emphasis>mk</emphasis>, Macedonia, Former Yugoslav Republic.
+<emphasis>ml</emphasis>, Mali.
+<emphasis>mm</emphasis>, Myanmar.
+<emphasis>mn</emphasis>, Mongolia.
+<emphasis>mo</emphasis>, Macau.
+<emphasis>mp</emphasis>, Northern Mariana Islands.
+<emphasis>mq</emphasis>, Martinique.
+<emphasis>mr</emphasis>, Mauritania.
+<emphasis>ms</emphasis>, Montserrat.
+<emphasis>mt</emphasis>, Malta.
+<emphasis>mu</emphasis>, Mauritius.
+<emphasis>mv</emphasis>, Maldives.
+<emphasis>mw</emphasis>, Malawi.
+<emphasis>mx</emphasis>, Mexico.
+<emphasis>my</emphasis>, Malaysia.
+<emphasis>mz</emphasis>, Mozambique.
+<emphasis>na</emphasis>, Namibia.
+<emphasis>nc</emphasis>, New Caledonia.
+<emphasis>ne</emphasis>, Niger.
+<emphasis>nf</emphasis>, Norfolk Island.
+<emphasis>ng</emphasis>, Nigeria.
+<emphasis>ni</emphasis>, Nicaragua.
+<emphasis>nl</emphasis>, Netherlands.
+<emphasis>no</emphasis>, Norway.
+<emphasis>np</emphasis>, Nepal.
+<emphasis>nr</emphasis>, Nauru.
+<emphasis>nu</emphasis>, Niue.
+<emphasis>nz</emphasis>, New Zealand.
+<emphasis>om</emphasis>, Oman.
+<emphasis>pa</emphasis>, Panama.
+<emphasis>pe</emphasis>, Peru.
+<emphasis>pf</emphasis>, French Polynesia.
+<emphasis>pg</emphasis>, Papua New Guinea.
+<emphasis>ph</emphasis>, Philippines.
+<emphasis>pk</emphasis>, Pakistan.
+<emphasis>pl</emphasis>, Poland.
+<emphasis>pm</emphasis>, St. Pierre and Miquelon.
+<emphasis>pn</emphasis>, Pitcairn Island.
+<emphasis>pr</emphasis>, Puerto Rico.
+<emphasis>ps</emphasis>, Palestinian Territories.
+<emphasis>pt</emphasis>, Portugal.
+<emphasis>pw</emphasis>, Palau.
+<emphasis>py</emphasis>, Paraguay.
+<emphasis>qa</emphasis>, Qatar.
+<emphasis>re</emphasis>, Reunion Island.
+<emphasis>ro</emphasis>, Romania.
+<emphasis>ru</emphasis>, Russian Federation.
+<emphasis>rw</emphasis>, Rwanda.
+<emphasis>sa</emphasis>, Saudi Arabia.
+<emphasis>sb</emphasis>, Solomon Islands.
+<emphasis>sc</emphasis>, Seychelles.
+<emphasis>sd</emphasis>, Sudan.
+<emphasis>se</emphasis>, Sweden.
+<emphasis>sg</emphasis>, Singapore.
+<emphasis>sh</emphasis>, St. Helena.
+<emphasis>si</emphasis>, Slovenia.
+<emphasis>sj</emphasis>, Svalbard and Jan Mayen Islands.
+<emphasis>sk</emphasis>, Slovak Republic.
+<emphasis>sl</emphasis>, Sierra Leone.
+<emphasis>sm</emphasis>, San Marino.
+<emphasis>sn</emphasis>, Senegal.
+<emphasis>so</emphasis>, Somalia.
+<emphasis>sr</emphasis>, Suriname.
+<emphasis>st</emphasis>, Sao Tome and Principe.
+<emphasis>sv</emphasis>, El Salvador.
+<emphasis>sy</emphasis>, Syrian Arab Republic.
+<emphasis>sz</emphasis>, Swaziland.
+<emphasis>tc</emphasis>, Turks and Caicos Islands.
+<emphasis>td</emphasis>, Chad.
+<emphasis>tf</emphasis>, French Southern Territories.
+<emphasis>tg</emphasis>, Togo.
+<emphasis>th</emphasis>, Thailand.
+<emphasis>tj</emphasis>, Tajikistan.
+<emphasis>tk</emphasis>, Tokelau.
+<emphasis>tm</emphasis>, Turkmenistan.
+<emphasis>tn</emphasis>, Tunisia.
+<emphasis>to</emphasis>, Tonga.
+<emphasis>tp</emphasis>, East Timor.
+<emphasis>tr</emphasis>, Turkey.
+<emphasis>tt</emphasis>, Trinidad and Tobago.
+<emphasis>tv</emphasis>, Tuvalu.
+<emphasis>tw</emphasis>, Taiwan.
+<emphasis>tz</emphasis>, Tanzania.
+<emphasis>ua</emphasis>, Ukraine.
+<emphasis>ug</emphasis>, Uganda.
+<emphasis>uk</emphasis>, United Kingdom.
+<emphasis>um</emphasis>, US Minor Outlying Islands.
+<emphasis>us</emphasis>, United States.
+<emphasis>uy</emphasis>, Uruguay.
+<emphasis>uz</emphasis>, Uzbekistan.
+<emphasis>va</emphasis>, Holy See (City Vatican State).
+<emphasis>vc</emphasis>, Saint Vincent and the Grenadines.
+<emphasis>ve</emphasis>, Venezuela.
+<emphasis>vg</emphasis>, Virgin Islands (British).
+<emphasis>vi</emphasis>, Virgin Islands (USA).
+<emphasis>vn</emphasis>, Vietnam.
+<emphasis>vu</emphasis>, Vanuatu.
+<emphasis>wf</emphasis>, Wallis and Futuna Islands.
+<emphasis>ws</emphasis>, Western Samoa.
+<emphasis>ye</emphasis>, Yemen.
+<emphasis>yt</emphasis>, Mayotte.
+<emphasis>yu</emphasis>, Yugoslavia.
+<emphasis>za</emphasis>, South Africa.
+<emphasis>zm</emphasis>, Zambia.
+<emphasis>zw</emphasis>, Zimbabwe.
+
+
+</para>
+</sect1>
+
+
+</appendix>
+
+&fdl-sv;
+
+</book>
+
+
+<!-- Keep this comment at the end of the file
+tab-width: 3
+vim600: fdm=syntax sw=3 ts=3
+vim: sw=3 ts=3
+vi: sw=3 ts=3
+-->
+

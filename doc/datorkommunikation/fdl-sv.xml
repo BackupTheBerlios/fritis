@@ -1,0 +1,700 @@
+<appendix id="gfdl">
+<title>GNU Free Documentation License (Översättning pågår ....)</title>
+<subtitle>
+	Version 1.2, November 2002.  Svensk översättning av Marcus Rejås
+	m.fl., December 2003
+</subtitle>
+
+
+<blockquote id="fsf-unoffical-en">
+	<para>
+		This is an unofficial translation of the GNU Free
+		Documentation License into Swedish. It was not published
+		by the Free Software Foundation, and does not legally
+		state the distribution terms for documentation that uses
+		the GNU FDL -- only the original English text of the GNU
+		FDL does that. However, we hope that this translation
+		will help Swedish speakers understand the GNU FDL
+		better.
+	</para>
+</blockquote>
+
+<blockquote id="fsf-unoffical-nl">
+	<para>
+	
+		Detta är en inofficiell översättning av GNU Free
+		Documentation License till svenska. Den har inte
+		publicerats av Free Software Foundation och är inte
+		juridiskt gällande för distribution av dokumentation som
+		använder GNU FDL -- bara den engelska orginaltexten i
+		GNU FDL gäller. Vi hoppas att denna översättning skall
+		hjälpa svensktalande att förstå GNU FDL bättre.
+
+	</para> 
+</blockquote>
+
+
+<blockquote id="fsf-copyright">
+	<para>
+		Copyright (C) 2000,2001,2002  Free Software Foundation,
+		Inc.  59 Temple Place, Suite 330, Boston, MA  02111-1307
+		USA Var och en äger kopiera och distribuera ordagranna
+		kopior av detta licensavtal, men att ändra det är inte
+		tillåtet.
+	</para>
+</blockquote>
+
+<sect1 id="gfdl-0"><title>BAKGRUND</title>
+	<para>
+		Syftet med denna licens är att göra en manual, bok,
+		eller annat praktiskt och användbart dokument "fritt"
+		som i frihet, att försäkra var och en den faktiska
+		friheten att kopiera och distribuera det, med eller utan
+		förändringar, antingen kommersiellt eller ideellt.
+		Sekundärt så håller denna licens en väg öppen för
+		författaren och förläggaren att få ära för deras arbete
+		utan att anses vara ansvariga för förändringar gjorda av
+		andra.
+
+	</para>
+	<para>
+	
+		Denna Licens är en sorts "copyleft", vilket betyder att
+		härledda verk av detta dokument måste vara fria på samma
+		sätt. Den kompletterar GNU General Public License, som
+		är en copyleft-licens utformad för fri programvara.
+
+	</para>
+	<para>
+	
+		Vi har utformat denna licens för att den skall användas
+		för manualer till fri programvara eftersom fri
+		programvara behöver fri dokumentation. Ett fritt program
+		skall ha en manual som erbjuder samma friheter som
+		programmet gör. Men denna licens är inte begränsad till
+		programvarumanualer, den kan användas för vilket skrivet
+		verk som helst oavsett ämne eller ifall det är en
+		förläggd, tryckt bok. Vi rekommenderar denna lincens för
+		alla verk vars syfte är instruktion eller referens.
+
+	</para>
+</sect1>
+
+<sect1 id="gfdl-1"><title>TILLÄMPNING OCH DEFINITIONER</title>
+
+<para id="gfdl-doc">
+
+	Denna licens gäller för varje manual eller annat verk som
+	innehåller ett meddelande, tillagd av upphovrättsinnehavaren,
+	som säger att det kan distribueras enligt villkoren i denna
+	licens. Ett sådant meddelande ger en internationell, rojaltyfri
+	frihet, utan tidsbegränsning att använda verket under villkoren
+	i denna licens. Ordet "Dokument" nedan syftar på godtycklig
+	manual eller verk. Var och en är licensiat och adresseras "du".
+	Du accepterar villkoren i denna licens om du kopierar,
+	modifierar eller distribuerar det verk på ett sådand sätt att
+	det kräver tillstånd enligt gällande upphovsrättslagstiftning.
+
+</para>
+
+<para id="gfdl-mod-ver">
+	
+	En "Modifierad version" av dokumentet innebär varje verk som
+	innehåller dokumentet eller en del av det, antingen ordagranna
+	kopior, eller med andringar och/eller en översättning till ett
+	annat språk.
+
+</para>
+
+
+
+<para id="gfdl-secnd-sect">
+
+	Ett "sekundärt avsnitt" är en märkt bilaga eller förord till
+	dokumentet som exklusivt behandlar relationen mellan förläggare
+	eller författare och dokumentet och dokumentets huvudsakliga
+	ämne (eller relaterat ämne) och som inte innehåller något som
+	direkt faller under det huvudsakliga ämnet. (Alltså, om
+	dokumentet är en lärobok i matematik så får ett sekundärt
+	avsnitt inte förklara någon matematik.) Relationen kan vara en
+	historisk koppling till ämnet eller något relaterat, eller en
+	juridisk, kommersiell, filosofisk, etiskt eller politisk
+	ställning till dem. 
+
+</para>
+
+<para id="gfdl-inv-sect">
+
+	De "invarianta avsnitten" är sekundära avsnitt vars titlar är
+	angivna som invarianta avsnitt i meddelandet som gör gällande
+	att dokumentet är utgivit under denna licens. Om ett avsnitt inte
+	inte faller in under den ovanstående definitionen på sekundärt
+	så är det tillåtet att ange det som invariant. Dokumentet
+	behöver inte innehålla några invarianta avsnitt. Om dokumentet
+	inte anger några invarianta avsnitt så finns det inga.
+
+</para>
+
+<para id="gfdl-cov-text">
+	
+	"Omslagstexterna" är speciella korta ordföljder som är listade
+	som framsidestexter eller baksidestexter i meddelandet som gör
+	gällande att dokumentet är utgivit under denna licens. En
+	framsidestext kan vara som mest 5 ord och en baksidestext kan
+	vara som mest 25 ord.
+
+</para>
+
+<para id="gfdl-transparent">
+
+	En "transparent" kopia av dokumenetet är en maskinläsbar kopia, i
+	ett format vars specifikation finns tillgänglig för allmänheten,
+	som lämpar sig för att revidera dokumentet på ett enkelt sätt
+	med generella texteditorer eller (för pixelbaserade bilder)
+	generella grafikprogram eller (för ritningar) något väl
+	tillgängligt ritprogram, och som är anpassat som indata till
+	textfomaterare eller automatiskt konvertering till en mängd format
+	som passar som indata till textformaterare. En kopia i ett för
+	övrigt transparent format vars markeringar, eller avsaknad av
+	markeringar, har ordnats så att det motverkar eller inte
+	uppmuntrar till vidare förändring av läsare är inte transparent.
+	Ett bildformat är inte transparent om det används för någon
+	betydande del text. En kopia som inte är "transparent" kallas
+	"opak".
+
+</para>
+
+<para>
+	
+	Exempel på passande format för transparanta kopior inkluderar
+	ren ASCII utan markeringar, Texinfo indataformat, LaTeX
+	indataformat, SGML eller XML som använder en publikt tillgänglig
+	DTD, och standardenlig HTML, PostScript eller PDF utformat för
+	mänsklig förändring. Exempel på transparenta bildformat
+	inkluderar PNG, XCF och JPG. Opaka format inkluderar proprietära
+	format som kan läsas och editeras brara med proprietära
+	ordbehandlare, SGML eller XML för vilket DTD och/eller
+	formateringsverktyg inte finns allmänt tillgängliga, och den
+	maskingenererade HTML, PostScript eller PDF som produceras av
+	vissa ordbehandlare enbart avsett som utdata. 
+
+</para>
+
+<para id="gfdl-title-page">
+
+	"Titelsidan" innebär, för en tryckt bok, titelsidan självt, och
+	därpå följande sidor som krävs för att göra det matrial som
+	enligt denna licens skall synas på titelsidan läsbart. För verk
+	i sådana format som inte har någon egentlig titelsida, avses med
+	"titelsida" den text som är närmast den mest framstående
+	presentationen av verkets titel, föregående början av huvuddelen
+	av texten.
+
+</para>
+
+<para id="gfdl-entitled">
+
+	Ett avsnitt "med titeln XYZ" betyder en namngiven del av
+	dokumentet vars titel är exakt XYZ eller innehåller XYZ inom
+	parentes efterföljande text som översätter XYZ till ett annat
+	språk. (Här står XYZ för ett speciellt namn på ett avsnitt
+	nedan, som till exempel "Tillkännagivanden", "Dedikationer",
+	"Endossement" eller "Historia".) Att "Bevara titeln" på ett
+	sådant avsnitt när du ändrar dokumentet innebär att det förblir
+	ett avsnitt "med titeln XYZ" enligt denna definition.
+	
+</para>
+
+<para>
+
+	Dokumentet får innehålla garantifrånskrivanden invid meddelandet
+	om att denna licens gäller för dokumentet. Dessa
+	garantifrånskrivanden skall anses vara inkuderade per referens i
+	denna licens, men bara för att friskriva från garantier. All
+	annan innebörd dessa garantifrånskrivanden kan har är ogiltiga
+	och påverkar inte på något sätt innebörden i denna licens.
+
+</para>
+
+</sect1>
+
+<sect1 id="gfdl-2"><title>ORDAGRANN KOPIERING</title>
+
+<para>
+
+	Du får kopiera och distribuera dokumentet på valfritt medium,
+	antingen kommersiellt eller ideellt, förutsatt att denna licens,
+	upphovsrättsklausul, och meddelandet som gör gällande att denna
+	licens gäller för dokumentet finns med på alla kopior, och att
+	du inte lägger till några som helst andra villkor än de som
+	ingår i denna licens. Du får inte vidta tekniska åtgärder för
+	att begränsa eller kontrollera läsande eller vidare kopiering av
+	de kopior du skapar eller distribuerar. Dock får du ta emot
+	kompensation i utbyte mot kopior. Om du distribuerar
+	tillräckligt många kopior måste du också följa villkoren i
+	avsnitt 3.
+
+</para>
+
+<para>
+	Du får också låna ut kopior, under samma vilkor som ovan, och du
+	får presentera kopior publikt.
+</para>
+
+</sect1>
+
+
+<sect1 id="gfdl-3"><title>KVANTITATIV KOPIERING</title>
+
+<para>
+	Om du publicerar tryckta kopior (eller kopior i medier som
+	normalt har tryckta omslag) av dokumentet, i upplagor på fler än
+	100, och dokumentets licensmeddelande kräver omslagstexter, så
+	måste du förse kopiorna med omslag som, klart och tydligt, alla
+	omslagstexter: framsidestexter på framsidan och baksidestexter
+	på dabsidan. Båda omslagen måste klart och tydligt identifiera
+	dig som utgivare av dessa kopior. Framsidan måste presentera
+	dokumentets hela titel, med alla ord i titeln lika framträdande
+	och synliga. Du får lägga till ytterligare stoff på omslagen.
+	Kopiering med förändringar gjorda bara på omslaget, så länge som
+	de bevarar dokumentets titel och i övrigt uppfyller dessa krav
+	kan anses vara ordagrann kopiering i andra avseenden.
+</para>
+
+<para>
+	Om de obligatoriska texterna för något omslag är för stora för
+	att rymmas i läsbart skick skall du placera de första (så många
+	som får plats) på det egentliga omslaget, och fortsätta med
+	resten på de direkt följande sidorna.
+</para>
+
+<para>
+
+	Om du publicerar opaka kopior av dokumentet i upplagor om mer än
+	100, måste du antingen inkludera en maskinläsbar transparent
+	kopia med varje opak kopia, eller ange i eller med varje
+	opak kopia en nätverksadress som är tillgänglig för den allmänna
+	nätverksanvändande massan där man, med standardiserade
+	protokoll, kan ladda ner en komplett transparent kopia av
+	dokumenet, utan extra matrial. Om du väljer det senare
+	alternativet, måste du vidta skäliga åtgärder, när du börjar
+	distribuera opaka kopior i kvantitet, för att denna transparenta
+	kopia skall förbli tillgänglig på angivna platsen till
+	åtminstone ett år efter den sista gången du distribuerade en
+	opak kopia (direkt eller via agenturer eller återförsäljare) av
+	den utgåvan till allmänheten.
+
+</para>
+
+<para>
+
+	Det är önskvärt, men inte ett krav, att du kontaktar författarna
+	till dokumentet innan du distribuerar något större antal kopior,
+	för att ge dem en chans att förse dig med en uppdaterad version
+	av dokumentet.
+</para>
+
+</sect1>
+
+<sect1 id="gfdl-4"><title>FÖRÄNDRINGAR</title>
+
+<para>
+	Du får kopiera och distribuera en förändrad version av
+	dokumentet under de villkor som beskrivs i avsnitt 2 och 3 ovan,
+	förutsatt att du släpper den förändrade versionen under exakt
+	denna licens, och att den förändrade versionen antar dokumentets
+	roll, alltså medge distribution och förändring av den förändrade
+	versionen till envar som erhåller en kopia av den. Utöver detta
+	måste du göra följande med den ändrade versionen:
+</para>
+
+<orderedlist id="gfdl-modif-cond" numeration="upperalpha">
+<listitem><simpara>
+
+	Använda en titel skild från den som dokumentet har, och skild
+	från tidigare versioners titel (som skall, om det finns några,
+	finnas listade i historik-avsnittet i dokumentet). Du får
+	använda samma titel som det föregående dokumentet om den
+	ursprungliga utgivaren ger sitt tillstånd.
+
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Listar, som författare, eller flera personer eller enheter som
+	ansvarat för förändringarna i den ändrade verisonen, tillsammans
+	med minst fem av de hududsakliga författarna av dokumentet (alla
+	dess hududsakliga författare, om det har mindre än fem), såvida
+	de inte ger dig tillstånd att bortse från detta krav.
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Anger namnet på utgivaren av den ändrade verisonen, som
+	utgivare, på titelsidan. 
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Bibehåller dokumentets alla upphovsrättsklausuler. 
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Lägger till en upphovsrättsklausul för dina förändringar
+	angränsande till de andra upphovsrättsklausulerna.
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Direkt efter upphovsrättsklausulerna inkluderar ett meddelande
+	som ger allmänheten tillstånd att använda den aändrade
+	verisionen under villkoren i denna licens i den form som visas i
+	<link linkend="gfdl-addendum">Tillägg</link> nedan.
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Bevara det meddelandet den fullständiga listan över invarianta
+	avsnitt och obligatoriska omslagstexter som finns i dokumentets
+	meddelande om licensen.
+
+  
+</simpara></listitem>
+<listitem><simpara>
+
+	Inkluderar en oförändrad kopia av denna licens.
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Bevarar det avsnitt som med titeln "Historik". Bevara dess titel
+	och lägg till en post med åtminstone titeln, året, nya
+	författare och utgivaren av den modifierade versionen så som
+	angivet på titelsidan. Om det inte finns något avsnitt med
+	titeln Historik i dokumentet så skapa en med titeln, året,
+	författare och utgivaren av dokumentet så som det står på
+	titelsidan. Lägg sedan till en post som beskriver den förändrade
+	versionen så som beskrivits ovan.
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Bevarar den nätverksadress, om det finns någon, angiven i
+	dokumentet till den allmänt tillgängliga transparenta kopian av
+	dokumentet, och motsvarande för nätverksadresserna till de
+	föregående versioner som dokumentet baseras på. Dessa får
+	placeras i avsnittet "Historia". Du får utelämna en
+	nätverksadress för ett verk som är publicerat mer än fyra år
+	före dokumentet självt, eller om den ursprunglige utgivaren ger
+	sitt tillstånd.
+
+</simpara></listitem>
+<listitem><simpara>
+
+	För alla avsnitt med titlarna "Tillkännagivanden" eller
+	"Dedikationer" (I svenska har vi flera ord för detta så detta
+	bör gälla även synonymer till dessa ord. Övers. Anm.), bevara
+	titeln på avsnittet, och bevara allt innehåll och prägel på alla
+	tillkännagivanden eller dedikationer gjorda av varje bidragare.
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Bevara alla invarianta avsnitt i dokumentet oförändrade till
+	text och titel. Avsnittsnummer eller motsvarande anses inte
+	tillhöra avsnittets titel.
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Radera varje avsnitt med titeln "Endossement". Ett sådant
+	avsnitt får inte inkluderas i en modifierad version.
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Byt inte titel på något existerande avsnitt så att det blir
+	"Endossement" eller så att titeln kan förväxlas med något
+	invariant avsnitt. 
+
+</simpara></listitem>
+<listitem><simpara>
+
+	Bevarar varje garantifrånskrivningsklausul.
+
+</simpara></listitem>
+</orderedlist>
+
+<para>
+
+	Om den föränmdrade versionen innehåller nya framsidestexter
+	eller bilagor som kvalar som sekundära avsnitt och inte
+	innehåller något matrial kopierat från dokumentet, så for du, om
+	du vill, benämna dessa som invarianta. För att göra detta, lägg
+	deras titlar till listan över invarianta sektioner i den
+	förändrade versionens licensklausul. Dessa titlar måste vara
+	skilda från alla andra avsnitts titlar.
+
+</para>
+
+<para>
+
+	Du får lägga till ett avsnitt med titeln "Endossement",
+	förutsatt att det inte innehåller något annat än endossement för
+	din modifierade version från olika aktörer -- till exempel,
+	meddelanden om utförd korrekturläsning eller att texten har
+	godkännts av en organisation som en officiell definition av en
+	standard.
+
+</para>
+
+<para>
+	
+	Du får lägga till en rad på upp till fem ord som framsidestext,
+	och en på upp till 25 ord som baksidestext på listan med
+	omslagstexter i den modifoerade versionen. Bara en rad med
+	frasidestexter och en med baksidestexter får adderas av (eller
+	genom försorg av) en enda enhet. In dokumentet redan innehåller
+	en omlagstext för något av omslagen, tidigare tillagd av dig
+	eller genom försorg av samma enhet som du företräder, får du
+	inte lägga till en till, men du får ändra den gamla med
+	tillstånd från den tidigare utgivaren som lade till den förra.
+</para>
+
+<para>
+
+	Författaren (författarna) och utgivaren (utgivarna) av
+	dokumentet ger inte via denna licens sitt tillstånd att använda
+	sina namn för publicitet eller för att lägga till eller antyda
+	endossement av någon modifierad version.
+
+</para>
+
+</sect1>
+
+<sect1 id="gfdl-5"><title>KOMBINERA DOKUMENT</title>
+
+<para>
+	
+	Du får kombinera dokumentet med andra dokument som är släppta
+	under denna licens, under de villkor som definieras i <link
+	linkend="gfdl-4"> avsnitt 4</link> här ovan för modifierade
+	verioner., förutsatt att du, i det kombinerade dokumentet,
+	inkluderar alla invarianta avsnitt från orginaldokumenten,
+	omodifierade, och listar dem som invarianta avsnitt i ditt
+	kombinerade verk i dess licensklausul, och att du bevarar alla
+	deras garantifrånsägningsklausuler.
+
+</para>
+
+
+<para>
+
+	Det kombinerade verket behöver bara innehålle en kopia av denna
+	licens, och flera identiska invarianta stycken kan ersättas med
+	en kopia. Om det finns flera invarianta stycken med samma namn
+	med olika innehåll, se till att titeln på varje sådant avsnitt
+	är unik genom att i slutet på den, inom parentes, lägga till
+	namnet på den ursprunglige författaren eller utgivaren av det
+	avsnittet om dessa är kända, annars ett unikt nummer. Gör samma
+	justeringar av titlarna i listan över invarianta sektioner i
+	licensklausulen i det kombinerade verket.
+
+</para>
+
+<para>
+
+	I det kombinerade verket, måste du kombinera alla avsnitt med
+	titlarna "Historik" i de ursprungliga dokumenten, till ett
+	avsnitt med titeln "Historik", på samma sätt skall alla avsnitt
+	med titlarna "Tillkännagivelser", alla avsnitt med titlarna
+	"Dedikeringar" kombineras. Du måste ta bort alla avsnitt med
+	titlarna "Endossement".
+
+</para>
+
+</sect1>
+
+<sect1 id="gfdl-6"><title>SAMLINGAR AV DOKUMENT</title>
+
+<para>
+
+	Du får skapa en samling bestående av dokumentet och andra
+	dokument som är släppta under denna licens, och ersätta
+	individuella kopior i dokumenten av denna licens med en enda
+	kopia som inkluderas i samlingen, förutsatt att du följer
+	villkoren för ordagrann kopiering i denna licens för varje
+	inkluderat dokument i alla andra avseenden.
+
+</para>
+
+<para>
+
+	Du får lyfta ut ett dokument från en sådan samling, och
+	distribuera det enskilt under denna licens, förutsatt att du
+	inkluderar en kopia av denna licens i det utlyfta dokumentet,
+	och följer villkoren för ordagrann kopiering i denna licens för
+	det utlyfta dokumentet i alla andra avseenden.
+</para>
+</sect1>
+
+<sect1 id="gfdl-7"><title>SAMMANSLAGNING MED OBEROENDE VERK</title>
+
+<para>
+
+	En samling av dokumentet eller av dess derivat men andra
+	separata och oberoende dokument eller verk, på eller i en
+	lagringsvolym eller ett distributionsmedia, kallas för en
+	"sammanslagning" om den sammanslagna upphovsrätten inte används
+	för att begränsa samlingens användares rättigheter utöver vad de
+	enkilda dokumenten tillåter. När dokumentet ingår i en sådan
+	sammanslägning, gäller inte denna licens de andra verken i
+	samlingen som inte själva är deriverat av dokumentet.
+
+</para>
+
+<para>
+
+	Om kravet på omslagstexter enligt avsnitt 3 är applicerbart till
+	dessa kopior av dokumentet, och dokumentet utgör mindre än
+	hälften av hela samlingen, så kan dokumentets omlsagstexter
+	placeras på det omslag som omger dokumentet inuti samlingen,
+	eller den elektroniska motsvarigheten till omslag om dokumentet
+	är i elektronisk form. Annars måste de synas på det omslag som
+	omger hela samlingen.
+</para>
+</sect1>
+
+<sect1 id="gfdl-8"><title>ÖVERSÄTTNING</title>
+
+<para>
+
+	Översättning anses vara en sorts modifiering, så du får
+	distribuera översättningar av dokumentet under de villkor som
+	sätts i avsnitt 4. Invarianta avsnitt som ersätts med
+	översättningar kräver tillstånd från deras
+	upphovsrättsinnehavare, men du får inkludera översättningar av
+	alla eller vissa av dessa invarianta avsnitt tillsammans med
+	orginalversionerna av dessa invarianta avsnitt. Du får inkludera
+	en översättning av denna licens, och alla licensklausuler i
+	dokumentet, och alla garantifrånskrivningar, förutsatt att du
+	också inkluderar den engelska orginalversionen av denna licens
+	och orginalversionerna av dessa klausuler. Skulle det finnas
+	skillnader mellan översättningen och orginalversionen av denna
+	licens eller någon klausul så gäller orginalversionen.
+
+</para>
+
+<para>
+
+	Om ett avsnitt i dokumentet heter "Tillkännagivanden",
+	"Dedikeringar", eller "Historik", kommer kravet (avsnitt 4) att
+	bevara dess titel (avsnitt 1) vanligtvis att kräva att själva
+	titeln ändras.
+
+</para>
+</sect1>
+
+<sect1 id="gfdl-9"><title>UPPHÖRANDE</title>
+
+<para>
+
+	Du får inte kopiera, modifiera, omlicensiera eller distribuera
+	dokumentet såvida det inte sker enligt villkoren i denna licens.
+	Alla övriga försök att, kopiera, modifiera, omlicensiera, eller
+	distribuera dokumentet är ogilitgt och fråntar dig automatisk
+	dina rättigheter enligt denna licens. Trots detta så fråntas
+	inte rättigheterna enligt denna licens de parter som har
+	mottagit kopior eller rättigheter från dig eligt denna licens sä
+	länge som dessa tillmötesgår denna licens.
+
+</para>
+</sect1>
+
+<sect1 id="gfdl-10"><title>FRAMTIDA VERSIONER AV DENNA LICENS</title>
+
+<para>
+
+	Free Software Foundation kan publicera nya, reviderade versioner
+	av GNU Free Documentation License då och då. Sådana nye
+	versioner kommer att vara likadana i andemening som den
+	nuvarande versionen, men kan skilja i detalj för att adressera
+	nya problem eller angelägenheter. Se
+	http://www.gnu.org/copyleft/.
+	
+</para>
+
+
+<para>
+
+	Varje version av licensen ges ett unikt versionsnummer. Om
+	dokumentet utger att en specifik numrerad version av denna
+	licens "eller valfri senare version" gäller för det, så har du
+	rätten att följa villkoren enligt antingen den angivna versionen
+	eller vilken senare version som helst som publicerats (inte som
+	utkast) av Free Software Foundation. Om dokumentet inte anger en
+	verision av denna licens, får du välja vilken version som helst
+	som publicerats (inte som utkast) av Free Software Foundation.
+
+</para>
+</sect1>
+
+<sect1 id="gfdl-addendum">
+<title>TILLÄGG: Hur du använder denna licens för dina dokument</title>
+
+<para>
+
+	För att använda denna licens för ett dokument du har skrivit,
+	inkludera en kopia av licensen i dokumentet och placera följande
+	copyrightklausul omedelbart efter titelsidan:
+
+</para>
+
+<blockquote id="copyright-sample"><para>
+
+	Copyright (c)  ÅRTAL  DITT NAMN.
+	Var och en äger rätt att kopiera, distribuera och/eller
+	modifiera detta dokument under villkoren i licensen "GNU Free
+	Documentation License", version 1.2 eller senare publicerad av
+	Free Software Foundation, utan invarianta avsnitt, utan
+	framsidestexter och utan baksidestexter. En kopia av denna
+	licens finns med i avsnittet med titeln "GNU Free Documentation
+	License".
+
+</para></blockquote>
+
+<para>
+
+	Om du har invarianta avsnitt, framsidestexter och
+	baksidestexter, byt ut "utan...texter." med följande:
+
+</para>
+
+<blockquote id="inv-cover-sample"><para>
+
+	med de invarianta avsnitten LISTA DERAS TITLAR, med
+	framsidestexterna LISTA, och med baksidestexterna LISTA.
+
+</para></blockquote>
+
+<para>
+
+	Om du har invariante avsnitt utan omslagstexter, eller någon
+	annan kombination av de tre, så samman dessa två alternativ så
+	att det passar den uppkomna situiationen.
+
+</para>
+
+<para>
+
+	Om ditt dokument innnehåller icke-triviala exempel med
+	programkod, så rekommenderar vi att du släpper dessa exempel
+	parallellt under en, av dig vald, fri programvarulicens, som
+	till exempel GNU General Public License, för att möjliggöra
+	deras användning i fri programvara.
+
+</para>
+
+</sect1>
+</appendix>
