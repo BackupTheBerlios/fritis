@@ -10,7 +10,7 @@
 <!ENTITY chap_helloworld SYSTEM "chap_helloworld.xml">
 <!ENTITY chap_webbprogrammering SYSTEM "chap_webbprogrammering.xml">
 <!ENTITY chap_variabler SYSTEM "chap_variabler.xml">
-<!ENTITY chap_operander SYSTEM "chap_operander.xml">
+<!ENTITY chap_operatorer SYSTEM "chap_operatorer.xml">
 <!ENTITY chap_selektioner SYSTEM "chap_selektioner.xml">
 <!ENTITY chap_iterationer SYSTEM "chap_iterationer.xml">
 <!ENTITY chap_kommentering SYSTEM "chap_kommentering.xml">
@@ -79,7 +79,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.18 2004/08/22 14:12:16 rejas Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.19 2004/08/22 18:05:06 rejas Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -118,7 +118,7 @@
 
 &chap_variabler;
 
-&chap_operander;
+&chap_operatorer;
 
 &chap_selektioner;
 
