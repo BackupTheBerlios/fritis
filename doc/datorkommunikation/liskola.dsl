@@ -1,7 +1,7 @@
 <!--
 	liskola.dsl
 
-	Version: $Revision: 1.2 $
+	Version: $Revision: 1.3 $
 
 
 	Detta är en Style Sheet för böckerna som skrivs för projektet
@@ -108,32 +108,6 @@
   #f)
 
     
-;;
-;; Detta skall ge numrerade rader i ProgramListing, totalt otestat.
-;;
-(define %number-programlisting-lines%
-  ;; Enumerate lines in a 'ProgramListing'?
-  #t)
-
-(define %linenumber-length%
-  ;; Width of line numbers in enumerated environments
-  ;; Line numbers will be padded to %linenumber-length% characters.
-  0)
-
-
-(define %linenumber-mod%
-  ;; Controls line-number frequency in enumerated environments.
-  ;; Every %linenumber-mod% line will be enumerated.
-  1)
-
-
-(define %linenumber-padchar%
-  ;; Pad character in line numbers
-  ;; Line numbers will be padded (on the left) with %linenumber-padchar%
-  " ")
-
-
-
 
 </style-specification-body>
 </style-specification>
@@ -207,6 +181,33 @@
 ;;
 ;; Följande deklarationer gäller både html och print. 
 ;;
+
+;;
+;; Detta skall ge numrerade rader i ProgramListing, totalt otestat.
+;;
+(define %number-programlisting-lines%
+  ;; Enumerate lines in a 'ProgramListing'?
+  #t)
+
+(define %linenumber-length%
+  ;; Width of line numbers in enumerated environments
+  ;; Line numbers will be padded to %linenumber-length% characters.
+  0)
+
+
+(define %linenumber-mod%
+  ;; Controls line-number frequency in enumerated environments.
+  ;; Every %linenumber-mod% line will be enumerated.
+  1)
+
+
+(define %linenumber-padchar%
+  ;; Pad character in line numbers
+  ;; Line numbers will be padded (on the left) with %linenumber-padchar%
+  " ")
+
+
+
 
 
 ;;
