@@ -1,33 +1,3 @@
-<!--
-
-DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
-DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
-DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
-DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
-
-This is just a draft. This tranlation is not finished yet. Please do NOT
-use it in your work just yet.
-
-
-DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
-DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
-DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
-DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
-
-Comments regarding the markup in this version.
-
-I have user <sect1> instead of <section> the reason for this is that
-section renders as big as <title> in many DTDs.
-
-I have also included secion numbers in the secion titles. This is to
-eliminate the problem with section numbering starting at 1 instead of 0
-and broken references as result. So render the dokument without section
-numbering.
-
-
--->
-
-
 <appendix id="gfdl-sv">
 <title>GNU Free Documentation License</title>
 <subtitle>
@@ -644,7 +614,7 @@ numbering.
 
 	<para>
 		Om du har oföränderliga avsnitt, framsidestexter och
-		baksidestexter, byt ut "with...Texts."
+		baksidestexter, ersätt "with...Texts."
 		("utan...texter.") med följande:
 	</para>
 
