@@ -58,7 +58,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.5 2004/01/07 01:48:50 magnus Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.6 2004/01/07 09:08:11 rejas Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -638,7 +638,7 @@ class HelloWorld {
 			Man kan självklart skriva ett "Hello World!" program som enbart
 			använder sig av PHP och ingen HTML (dock utan den formatering som
 			kommer med HTML).
-			<exempel>
+			<example>
 				<title>Hello World i PHP utan HTML</title>
 				<programlisting>
 <![CDATA[
@@ -647,7 +647,7 @@ echo "Hallå Världen!";
 ?>
 ]]>
 				</programlisting>
-			</exempel>
+			</example>
 		</para>
 	</sect1>
 
