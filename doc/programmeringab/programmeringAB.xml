@@ -2,6 +2,8 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
  "/usr/share/sgml/docbook/dtd/4.2/docbookx.dtd" [
 <!ENTITY fdl-sv SYSTEM "fdl-sv.xml">
+<!ENTITY dtr1207 SYSTEM "dtr1207.xml">
+<!ENTITY dtr1208 SYSTEM "dtr1208.xml">
 ]>
 
 <book lang="sv">
@@ -40,12 +42,13 @@
 	<legalnotice>
 		<para>
 			Var och en äger rätt att kopiera, distribuera och/eller
-			modifiera detta dokument under villkoren i licensen "GNU
-			Free Documentation License", version 1.2 eller senare
-			publicerad av Free Software Foundation, utan invarianta
-			avsnitt, utan framsidestexter och utan baksidestexter.
-			En kopia av denna licens finns med i avsnittet med
-			titeln "GNU Free Documentation License".
+			modifiera detta dokument under villkoren i licensen "GNU Free
+			Documentation License", version 1.2 eller senare publicerad av
+			Free Software Foundation, med de invarianta avsnitten <xref
+			linkend="dtr1207"/> och <xref linkend="dtr1208"/>, utan
+			framsidestexter och utan baksidestexter.  En kopia av denna
+			licens finns med i avsnittet med titeln "GNU Free Documentation
+			License".
 		</para>
 
 		<para>
@@ -58,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.6 2004/01/07 09:08:11 rejas Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.7 2004/01/07 18:10:18 rejas Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -3018,7 +3021,13 @@ echo "$text1, $text2\n";
 
 </chapter>
 
+&dtr1207;
+
+&dtr1208;
+
 &fdl-sv;
+
+
 
 </book>
 
