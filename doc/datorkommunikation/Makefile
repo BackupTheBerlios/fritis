@@ -2,7 +2,7 @@
 #
 #
 #
-SOURCE_FILES=datorkommunikation.xml book.css docbook.dsl index.in Makefile outline.txt laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml kommandotabell.xml
+SOURCE_FILES=datorkommunikation.xml book.css docbook.dsl index.in Makefile outline.txt laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml kommandotabell.xml rfcer.xml
 TARGET=datorkommunikation
 
 LABORATIONS= #laborationer/lab1_hub_vs_switch.pdf
