@@ -94,7 +94,8 @@
 		</para>
 	</sect1>
 
-	<sect1><title>Hubb</title>
+	<sect1><title>Hubb<footnote><para>Se även brevet från Jan Johansson i
+	<xref linkend="brev"/></para></footnote></title>
 		<para>
 			En hubb, från engelskans hub = nav, är namnet på den centrala
 			knytpunkten, nätnavet, i ett stjärnnät. Det är också namnet på
@@ -145,7 +146,8 @@
 		</para>
 	</sect1>
 	
-	<sect1><title>Switch</title>
+	<sect1><title>Switch<footnote><para>Se även brevet från Jan Johansson i
+	<xref linkend="brev"/></para></footnote></title>
 		<para>
 			En switch är också en komponent som används som nätnav i ett
 			stjärnnät. Till skillnad från hubben så håller switchen reda på
@@ -195,7 +197,8 @@
 		</para>
 	</sect1>
 	
-	<sect1><title>Repeater</title>
+	<sect1><title>Repeater<footnote><para>Se även brevet från Jan Johansson i
+	<xref linkend="brev"/></para></footnote></title>
 		<para>
 			En repeater kan jämföras med en förstärkare. En repeater har
 			ingångar och utgångar, den lyssnar på ingångarna och förstärker
@@ -207,7 +210,8 @@
 		</para>
 	</sect1>
 	
-	<sect1><title>Brygga</title>
+	<sect1><title>Brygga<footnote><para>Se även brevet från Jan Johansson i
+	<xref linkend="brev"/></para></footnote></title>
 		<para>
 			En brygga fungerar ungefär som en repeater så tillvida att den
 			är en ganska enkel apparat med två anslutningar. Där slutar

@@ -89,10 +89,10 @@ Mvh
         <sect1><title>Brev fån Jan Johansson</title>
 		<screen>
 
-From: "Jan Johansson" <xxxxxx@xxxxxxx.se>
-To: <marcus@rejas.se>
-Subject: datorkommunikation
 Date: Tue, 30 Nov 2004 16:27:10 +0100
+From: "Jan Johansson" &lt;jan.johansson (snabel-a) ragunda.se&gt;
+To: marcus@rejas.se
+Subject: datorkommunikation
 
 Hej Marcus
 Jag har jobbat flera år som lärare och håller fullständigt med när det
@@ -118,10 +118,10 @@ med kablarna.
 
 Med stjärnnäten blev repetrarna var mans egendom eftersom det sitter en
 förstärkare (repeater) på varje port i en hubb. Vi skulle kunna säga att
-hubben är en   "multirepeater" som isolerar varje kabelsegment så att
-ett kabelfel (kortslutning, avbrott eller missanpassning) på ett ställe
-inte slår ut de andra anslutningarna (portarna) i hubben.
-                                                                                                                                                                
+hubben är en "multirepeater" som isolerar varje kabelsegment så att ett
+kabelfel (kortslutning, avbrott eller missanpassning) på ett ställe inte
+slår ut de andra anslutningarna (portarna) i hubben.
+
 Bryggor
 Har haft en lika tynande tillvaro som repeatrar men har nu börjat göra
 comeback i trådlösa nät. Bryggan används ofta för att minska onyttig
@@ -137,7 +137,7 @@ att sätta in än att dela nätet med en router.
 
 I nät med switchar uppstår inte behovet av att sätta in bryggor eftersom
 switchar har en bryggfunktion i varje port. Därför kan vi likna switchen
-vid en        "multibrygga". I dagens trådlösa nät har vi oftast en
+vid en "multibrygga". I dagens trådlösa nät har vi oftast en
 bryggfunktion inbygd i den trådlösa accesspunkten. Bryggan har i det
 fallet i uppgift att brygga samman  det trådade nätet med det trådlösa.
 
