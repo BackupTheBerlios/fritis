@@ -58,7 +58,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.2 2004/01/07 00:50:46 magnus Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.3 2004/01/07 01:03:52 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -1548,7 +1548,7 @@ echo 'Summan är $summa'; // Skriver ut: Summan är $summa
 			en sträng. Se följande exempel:
 
 			<example>
-				<title>Fnuttar i strängar</title>
+				<title>Citationstecken i strängar</title>
 				<programlisting>
 <![CDATA[
 <?php
