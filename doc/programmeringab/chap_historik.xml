@@ -1,6 +1,5 @@
 <chapter>
 	<title>Kort historik</title>
-
 	<sect1>
 		<title>Före 1900</title>
 
@@ -11,11 +10,14 @@
 			1832!  Den opererade på sexsiffriga nummer och kunde lösa
 			andragradspolynom med sex siffrors noggrannhet. Efter denna maskin
 			började Babbage på en ännu större maskin, the analytical engine.
-			Denna uppgift lyckades han aldrig lösa. Idag vet vi varför, det var en
-			enorm uppgift som inte gick att lösa med dåtidens kunskaper och
-			verktyg.  Babbage dog i 1871. Då var det inte många som visste vem
-			han var men nu nämns han i varenda kurs som innefattar
-			datorhistoria världen över.
+			Denna maskin var en enorm uppfinning som introducerade saker som
+			vi fortfarande känner igen i dagens datorer. Maskinen hade in- och
+			utmatningsenhet, minne samt kalkylator och kontrollenhet
+			(processor). Dessvärre fick han den aldrig att fungera. Idag vet
+			vi varför, det var en enorm uppgift som inte gick att lösa med
+			dåtidens kunskaper och verktyg.  Babbage dog i 1871. Då var det
+			inte många som visste vem han var men nu nämns han i varenda kurs
+			som innefattar datorhistoria världen över.
 		</para>
 
 		<para>
@@ -28,9 +30,11 @@
 		<title>1900-talet</title>
 
 		<para>
-			1936 skrev Alan Turing en rapport som beskriver hur en digital
-			dator skulle fungera. Rapporten beskrev hur programmen skulla
-			lagras och köras. Dessa kom sedan att kallas Turing-maskiner.
+			1936 skrev matematikern Alan Turing en rapport som bland annat
+			beskriver hur en digital dator skulle fungera. Rapporten beskriver
+			en matematisk maskin som kunde utföra logiska operationer och
+			läsa, skriva och radera binära symboler (1:or och 0:or) på en
+			oändlig remsa. Dessa kom sedan att kallas Turing-maskiner.
 		</para>
 
 		<para>
@@ -83,7 +87,7 @@ Local variables:
 mode: sgml
 tab-width: 3
 End:
-vim600: syn=xml fen fdm=syntax si
+vim600: syn=xml fen fdm=syntax si tw=75
 vim: noet sw=3 ts=3 syn=sgml
 vi: ts=3 sw=3
 -->
