@@ -41,7 +41,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/04/20 05:41:15 $</pubdate>
+	<pubdate>$Date: 2004/04/21 20:33:36 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -50,7 +50,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.44 $</revnumber>
+			<revnumber>$Revision: 1.45 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -4043,7 +4043,7 @@ Destination   Netmask          Gateway           Interface
 
 &chap_epost;
 
-<chapter id="chap_sakerhet"><title>Datasäkerhet</title>
+<chapter id="chap_sakerhet"><title>Datasäkerhet och lagstiftning</title>
 	<!--
 		Säkerhet
 		- Gällande datalagstiftning och förstå datasäkerhetens betydelse
@@ -4054,15 +4054,37 @@ Destination   Netmask          Gateway           Interface
 			Stora öppna nät som till exempel Internet är naturligtvis bra för
 			kommunikationen men det öppnar även för onda personer som kan
 			missbruka denna öppenhet. I detta kapitel behandlar vi
-			datasäkerhet. Hur farligt är Internet och vad kan man göra för att
-			skydda sig?
+			datasäkerhet. Hur farligt är Internet och vilka metoder finns
+			för att skydda sig. 
 		</para>
 		<para>
-			Detta kapitel är inte klart ännu. Kolla gärna på en
-			presentation om säkerhet jag jorde för ett par år sedan
-			http://rejas.se/kurser/sakB/sakB-1.1/
+			Säkerhet är de metoder och verktg som vi kan ta till för att
+			uppnå trygghet.
 		</para>
 	</abstract>
+
+	<sect1><title>Syftet med datasäkerhet</title>
+		<para>
+			Syftet med all säkerhet är att man skall skapa trygghet. En
+			stor bov i detta spel är faktiskt också trygghet. En människa
+			som känner sig väldigt trygg slutar ofta att tänka på
+			säkerheten. Det värsta är det vi kallar falsk trygghet.
+		</para>
+		<para>
+			Det finns flera exempel när tryggheten som man vill uppnå
+			motarbetar säkerheten i sig. Till exempel så kan ett brandlarm
+			göra att man struntar i att kontrollera att alla ljus är släkta
+			innan man går ock lägger sig. Risken att huset skall brinna ner
+			är då betydligt större än utan brandvaranare. Man har
+			intstallerat ett skyddssystem men inte skyddat sig mot själva
+			faran.
+		</para>
+		<para>
+			Falsk trygghet kan vara om till exempel brandvarnaren i
+			exemplet ovan inte fungerar. Du sjunker säkerheten i huset
+			avsevärt, men de som bor där känner sig tryggare än någonsin.
+		</para>
+	</sect1>
 
 	<sect1><title>Hur farligt är Internet?</title>
 		<para>
@@ -4150,10 +4172,104 @@ Destination   Netmask          Gateway           Interface
 				barn är det så kallade <emphasis>Cesars Chiffer</emphasis>.
 				Det går ut på att man helt enkelt byter ut bosktäverna i
 				alfabetet mot en annan bosktav x positioner längre fram i
-				alfabetet. Tillexempel så kan A bli D och G bli J om man
-				hoppar 3 steg. I det fallet ät krypteringsalgoritmen Cesars
+				alfabetet. Tillexempel så kan E bli H och R bli U om man
+				hoppar 3 steg. I det fallet är krypteringsalgoritmen Cesars
 				Chiffer och nyckeln är 3.
+				<screen>
+||| <- Nyckel = 3
+   ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ
+       |  |  |      |||       | 
+ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
+				</screen>
+				Krypterar man ordet <emphasis>säkerhet</emphasis> med denna
+				krypteringsalgoritm så blir det
+				<emphasis>vbnhukhw</emphasis>. Denna krypteringsalgoritm är
+				naturligtvis väldigt lätt att knäcka men man kan säga att
+				det är grundpricipen för hur kryptering fungerar.
 			</para>
+			<para>
+				En nackdel med Cesars Chiffer är att bokstaven S alltid blir
+				V om man krypterar enligt ovan. Det gör att chiffret blif
+				väldigt lätt att knäcka. Om man istället använder till
+				exempel 5 olika nycklar om varandra så blir det mycket
+				svårare att knäcka. Är det optimalt så bör bosktaven S bli
+				olika bokstäver varje gång den krypteras.
+			</para>
+			<sect3><title>Symetrisk och asymetrisk kryptering</title>
+				<para>
+					Det finns i huvudsak två olika sorters kryptering,
+					<emphasis>symetrisk</emphasis> och
+					<emphasis>asymetrisk</emphasis> kryptering. Symetrisk
+					kryptering använder en nyckel och asymetrisk två.
+				</para>
+				<para>
+					Cesars Chiffer som vi såg ovan använder sig av en nyckel
+					(3 i exemplet).  Det är ett så kallat symetriskt chiffer.
+					Man använder samma nyckel för att kryptera som man
+					använder för att dekryptera meddelandet.
+				</para>
+				<para>
+					Programvara som implementerar symmetriska
+					krypteringsalgoritmer kan göras väldigt snabba. Det är
+					relativt lätt att kryptera med symetrisk kryptering. Men
+					det finns ett stort problem, nämligen hur man skall dela
+					nyckeln mellan sändare och mottagare. Vill jag kunna ta
+					emot krypterade meddelanden från människor så måste jag
+					ju först träffa dem för att vi skall kunna komma överens
+					om en nyckel vi skall använda. Nyckeln måste vi ju båda
+					känna till och den är lika hemlig som meddelandet.
+					Nyckeln kan man ju också bara använda för att skicka
+					meddelanden mellan två personer. Skall man skicka ett
+					annat meddelande till en annan person så måste man skapa
+					en nyckel till och byta den på något sätt. Tillsut inser
+					man att om man måste byta en nyckel varje gång så kan man
+					lika gärna lämna meddelandet på en gång.
+				</para>
+				<para>
+					En lösning på detta är något som kallas asymetrisk
+					kryptering. Det går till så att man använder ett par av
+					nycklar. En för att kryptera och en för att dekryptera.
+					Med hjälp av denna förändring kan man lösa många av
+					problemen som vi visat på ovan.
+				</para>
+				<para>
+					Paret av nycklar använder man på så vis att man håller
+					den ena för sig själv och sprider den andra så att den är
+					väl tillgänglig för alla som vill ha den. Man kallar den
+					man skyddar för privat nyckel och den som alla kan nå
+					för publik nyckel. Eftersom den ena nyckeln krypterar och
+					den andra dekrypterar så kan en person som vill skicka
+					ett meddelande till mig använda min publika nyckel för
+					att kryptera meddelandet. När det är krypterat kan det
+					bara öppnas med min privata nyckel, alltså bara av mig.
+				</para>
+			</sect3>
+			<sect3><title>Signering</title>
+				<para>
+					Ofta behöver man inte kryptera meddelandet utan det
+					räcker med att signera det. En signatur är något som man
+					applicerar på sitt meddelande så att mottagaren vet att
+					det är du som skickat det.
+				</para>
+				<para>
+					Signering går att lösa med flera asymetriska
+					krypteringsalgoritmer. Eftersom nycklarna jobbar i par
+					där en kan kryptera och den andra kan
+					dekryptera<footnote><para>Det är inte alla asymetriska
+					krypteringsalgoritmer som har denna egenskap men de
+					vanligaste man använder i samband med till exempel e-post
+					har det.</para></footnote> så kan man välja att kryptera
+					meddelandet med sin hemliga nyckel. När man gjort det så
+					kan vem som helst dekryptera det med motsvarande publika
+					nyckel. Eftersom vem som helst kan dekryptera meddelandet
+					så är det inte skyddat för insyn. Men man kan vara säker
+					på att det kommer från den person det utges komma ifrån
+					för man vet vems publika nyckel man använder och då måste
+					det ju vara krypterat med motsvarande, hemliga nyckel.
+					Inte heller den här gången behöver man avslöja sin
+					hemliga nyckel.
+				</para>
+			</sect3>
 		</sect2>
 	</sect1>
 	
