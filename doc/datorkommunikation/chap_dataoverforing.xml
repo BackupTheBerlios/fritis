@@ -26,7 +26,7 @@
 			I <xref linkend="fig_telefonsamtal"/> visas en skiss på ett
 			sådant telefonsamtal. Det är inte meningen att förklara hur
 			telefonnätet fungerar. Häng inte upp dig på detaljerna utan
-			fokusera på principen med de olika lagren. I figuren är alla
+			fokusera på principen med de olika skikten. I figuren är alla
 			protokoll ritade som pilar. Tänk på att de olika delarna
 			upplever att de talar horisontellt med sin motpart på andra
 			sidan när de egentligen talar nedåt eller uppåt på sin egen
@@ -45,7 +45,7 @@
 				<textobject>
 					<phrase>
 						En figur som visar hur ett telefonsamtal mellan två
-						personer kan delas upp en mängd olika delar och lager.
+						personer kan delas upp en mängd olika delar och skikt.
 					</phrase>
 				</textobject>
 			</mediaobject>
@@ -53,10 +53,11 @@
 
 		<para>
 			Personerna som samtalar måste följa en mängd regler som båda
-			känner till för att samtalet skall ha någon mening. Till
-			exempel så måste de tala en i taget och tala ett språk som de
-			båda förstår och följa de regler som finns i detta språk. Man
-			kan säga att detta är det <emphasis>protokoll</emphasis> som de
+			känner till, och som de i förhand kommit överens om, för att
+			samtalet skall ha någon mening. Till exempel så måste de komma
+			överens om att tala en i taget och tala ett språk som de båda
+			förstår och följa de regler som finns i detta språk. Man kan
+			säga att detta är det <emphasis>protokoll</emphasis> som de
 			följer.
 		</para>
 		<para>
@@ -82,11 +83,11 @@
 
 	<sect1><title>Analog och digital överföring</title>
 		<para>
-			Data som förs över en ledning skickas som elektriska strömmar
+			Data som förs över en ledning skickas som elektriska pulser
 			eller signaler på ett eller annat vis. Beroende på vilket
-			protokoll som används så kan data packas in i dessa strömmar
-			på olika sätt. Till exempel så kan en hög spänning betyda en
-			sak och en låg spänning något annat.
+			protokoll som används så kan data packas in i dessa strömmar på
+			olika sätt. Till exempel så kan en hög spänning betyda en sak
+			och en låg spänning något annat.
 		</para>
 		<para>
 			I telefonexemplet så var det ljud som fördes från en telefon
