@@ -38,7 +38,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/25 17:19:10 $</pubdate>
+	<pubdate>$Date: 2004/01/26 09:16:37 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -47,7 +47,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.32 $</revnumber>
+			<revnumber>$Revision: 1.33 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -3244,6 +3244,14 @@
 				delar, precis som ett telefonnummer.
 			</para>
 			<para>
+				Man delar upp en IP-adress i datoradress (host address) och
+				nätverksadress (network address) för att, på samma sätt som
+				i telefonnätet, kunna dela upp nätverket (Internet) i mindre
+				delar. För att man skall hitta fram mellan de olika delarna
+				använder man en teknik som kallas routing. Vi kommer att
+				tala mer om det senare i denna bok.
+			</para>
+			<para>
 				En IP-adress består av ett tal som är 32 bitar stort. Detta
 				tal brukar delas upp i fyra delar om vardera 8 bitar. Man
 				brukar ange delarna decimalt. Det vill säga med basen tio
@@ -3317,19 +3325,21 @@
 				finfördelade klasser än A, B och C. Detta gör man redan idag
 				för att få få fler nätverk. Man kan till exempel ha nätverk
 				med bara 8 eller 32 IP-adresser. Läs med om detta i <xref
-				linkend="natmask"/>. Det finns också en teknik
-				som kallas NAT som gör att man kan gömma hela nätverk bakom
-				en enda IP-adress. Genom att använda denna teknik så kan man
-				ha samma IP-adresser på flera datorer bara de sitter på ett
-				nätverk som använder NAT för att komma ut på Internet. Läs
-				mer om detta i <xref linkend="sec_routing"/> Detta
-				är idag det vanligaste sättet att ansluta företagsnät. Det
-				har flera fördelar, till exempel så höjs säkerheten eftersom
-				datorerna inne på nätverket har adresser som inte finns på
-				Internet. En annan uppenbar fördel är att företaget bara
-				behöver några få publika IP-adresser. Det finns också
-				nackdelar med denna metod, till exempel om någon av
-				datorerna på det interna nätet av någon anledning behöver
+				linkend="natmask"/>. Det finns också en teknik som kallas
+				NAT <emphasis>Network Address Translation</emphasis> som gör
+				att man kan gömma hela nätverk bakom en enda IP-adress.
+				Genom att använda denna teknik så kan man ha samma
+				IP-adresser på flera datorer bara de sitter på ett nätverk
+				som använder NAT för att komma ut på Internet. Läs mer om
+				detta i <xref linkend="sec_routing"/>. Detta är idag det
+				vanligaste sättet att ansluta företagsnät. Det har flera
+				fördelar, till exempel så höjs säkerheten eftersom datorerna
+				inne på nätverket har adresser som inte finns på Internet.
+				Det finns speciella adress-serier för detta som vi ser i
+				<xref linkend="sec_routing"/>.  En annan uppenbar fördel är
+				att företaget bara behöver några få publika IP-adresser. Det
+				finns också nackdelar med denna metod, till exempel om någon
+				av datorerna på det interna nätet av någon anledning behöver
 				göras tillgänglig på Internet. Men det är som regel inget
 				som förekommer i lokala nät som drivs av säkerhetsmedvetna
 				administratörer.
@@ -3489,7 +3499,58 @@
 					XXXX XXXX
 				</para>
 			</sect3>
-
+			<sect3><title>NAT, Network Address Translation</title>
+				<para>
+					Som vi nämnt tidigare så finns det inte oändligt med
+					IP-adresser på dagens Internet. Det gör att företag idag
+					inte får hur många IP-adresser som helst. Ett sätt att
+					spara adresser är att använda sig av privata adresser på
+					sitt interna nätverk och sedan använda en router eller
+					gateway som har en publik adress på Internet. Denna
+					router översätter sedan de interna adresserna så att alla
+					datorer på den interna nätverket använder en och samma
+					adress när de ansluter tilll Internet.
+				</para>
+				<para>
+					Det finns, som nämnts tidigare, flera fördelar med detta
+					än att man sparar IP-adresser. En annan fördel är att
+					säkerheten höjs för de datorer som är på det interna
+					nätverket eftersom de har IP-adresser som inte syns på
+					Internet, de göms ju bakom routern.
+				</para>
+				<para>
+					Eftersom IP-adresserna på det interna nätverket aldrig
+					kommer att synas på Internet så kan dessa vara vilka
+					adresser som helst. För att man inte skall riskera att
+					använda adresser på det interna nätet som finns på
+					Internet (då skulle man ju inte komma åt den datorn
+					eftersom deras adresser skulla kollidera) så finns det
+					speciella adresser som bara är avsedda att användas på
+					Interna nät. Dessa kallas ibland för svarta adresser
+					eftersom man aldrig skall stöta på dessa på Internet.
+					Dessa adresser specificeras i RFC 1918 (se <xref
+					linkend="rfc"/>) och är:
+			
+					<literallayout>10.0.0.0        -   10.255.255.255  (10/8 prefix)
+	       			172.16.0.0      -   172.31.255.255  (172.16/12 prefix)
+			      	192.168.0.0     -   192.168.255.255 (192.168/16 prefix)
+					</literallayout>
+					
+					Som vi ser så är det olika stora nätverksklasser. Till
+					exempel så är det lämpligt att använda 10.X.X.X om man
+					behöver ett klass A nät, 172.16.x.x om man behöver ett
+					klass B nät och 192.168.0.x om man behöver ett klass A
+					nät. Men inget hindrar att man använder ett klass A nät
+					som börjar på 10 eftersom man gör som man vill med dessa
+					adresser.
+				</para>
+				<para>
+					Observera att vissa ISP:er använder dessa adresser i sina
+					nät. Till exempel använder telia 10.0.0.0 till sina
+					kunder. Tänk på att kolla detta innan du väljer att
+					använda dessa adresser.
+				</para>
+			</sect3>
 		</sect2>
 
 
