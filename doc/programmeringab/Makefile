@@ -3,7 +3,7 @@
 #
 #
 SOURCE=programmeringAB.xml 
-SOURCE_FILES=book.css docbook.dsl index.in Makefile outline.txt programmeringAB.xml style.dsl fdl-sv.xml dtr1207.xml dtr1208.xml
+SOURCE_FILES=book.css docbook.dsl index.in Makefile outline.txt programmeringAB.xml style.dsl fdl-sv.xml dtr1207.xml dtr1208.xml reserved_words.xml
 
 TITLE="Programmering i PHP"
 BASE_FILE_NAME="programmeringAB"
@@ -34,7 +34,7 @@ html:
 
 ps: programmeringAB.ps
 
-programmeringAB.ps: $(SOURCE) fdl-sv.xml dtr1207.xml dtr1208.xml
+programmeringAB.ps: $(SOURCE) fdl-sv.xml dtr1207.xml dtr1208.xml reserved_words.xml
 	docbook2ps $(SOURCE)
 
 pdf: programmeringAB.pdf

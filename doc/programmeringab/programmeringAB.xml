@@ -4,6 +4,7 @@
 <!ENTITY fdl-sv SYSTEM "fdl-sv.xml">
 <!ENTITY dtr1207 SYSTEM "dtr1207.xml">
 <!ENTITY dtr1208 SYSTEM "dtr1208.xml">
+<!ENTITY reserved_words SYSTEM "reserved_words.xml">
 ]>
 
 <book lang="sv">
@@ -61,7 +62,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.14 2004/01/08 19:53:19 magnus Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.15 2004/01/15 21:55:02 rejas Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -3023,6 +3024,8 @@ echo "Efter swap: text1: $text1, text2: $text2 <br>\n";
 &dtr1207;
 
 &dtr1208;
+
+&reserved_words;
 
 &fdl-sv;
 
