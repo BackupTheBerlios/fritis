@@ -32,7 +32,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/17 18:45:41 $</pubdate>
+<pubdate>$Date: 2004/01/18 12:07:04 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -41,15 +41,13 @@
 
 <legalnotice>
 	<para>
-	
-		Var och en äger rätt att kopiera, distribuera och/eller modifiera
-		detta dokument under villkoren i licensen "GNU Free Documentation
+		Var och en äger rätt att kopiera, sprida och/eller förändra detta
+		dokument under villkoren i licensen "GNU Free Documentation
 		License", version 1.2 eller senare publicerad av Free Software
-		Foundation, med det invarianta styckena <xref linkend="dtr1201"/>
-		och <xref linkend="forord"/>, utan framsidestexter och utan
-		baksidestexter.  En kopia av denna licens finns med i avsnittet
-		med titeln "GNU Free Documentation License".
-	
+		Foundation, med de oföränderliga avsnitten <xref
+		linkend="dtr1201"/> och <xref linkend="forord"/>, utan
+		framsidestexter och utan baksidestexter.  En kopia av denna licens
+		finns med i avsnittet med titeln "GNU Free Documentation License".
 	</para>
 	<para>
 	
@@ -63,7 +61,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.8 2004/01/17 18:45:41 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.9 2004/01/18 12:07:04 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
