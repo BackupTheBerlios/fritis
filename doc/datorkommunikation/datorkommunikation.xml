@@ -34,7 +34,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/22 13:17:20 $</pubdate>
+	<pubdate>$Date: 2004/01/22 13:35:11 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -43,7 +43,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.24 $</revnumber>
+			<revnumber>$Revision: 1.25 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -1597,12 +1597,6 @@
 </chapter>
 
 <chapter><title>Kablar och icke-kablar</title>
-	<abstract><para>
-		I det förra kapitlet tittade vi på hur man kan "förpacka" data för
-		att skicka det på olika sätt i olika kablar. I detta kapitel skall
-		vi titta mer på själva kablarna och lite på de trådlösa alternativ
-		som finns.
-	</para></abstract>
 	<!--Allmänt om kablar och icke-kablar
 		- Ledningsegenskaper och kapacitet samt deras praktiska innebörd
 		  vid datakommunikation
@@ -1610,6 +1604,12 @@
 			- För och nackdelar
 		- Olika sorters trådlösa alternativ
 	-->
+	<abstract><para>
+		Vi har tidigare tittat på hur man kan "förpacka" data för att
+		skicka det på olika sätt i olika kablar. I detta kapitel skall vi
+		titta mer på själva kablarna och lite på de trådlösa alternativ
+		som finns.
+	</para></abstract>
 	<sect1><title>Inledning</title>
 		<para>
 			Det finns massor av olika kablar. De flesta kablar finns
@@ -1706,11 +1706,15 @@
 
 		<sect2><title>USB-kabel</title>
 			<para>
-				USB är ett gränssnitt som blir allt vanligare. I många fall
-				ersätter det både seriekablar och parallellkablar. Både
-				modem, kameror och skrivare ansluts allt oftare via USB.
-
-				<!-- Mer om USB  -->
+				USB <emphasis>Universal Serial Bus</emphasis> är ett
+				gränssnitt som blir allt vanligare. I många fall ersätter
+				det både seriekablar och parallellkablar. Både modem,
+				kameror och skrivare ansluts allt oftare via USB. Det finns
+				flera skillnader mellan den vanliga seriekabeln och USB. Den
+				största skillnaden är att USB, som namnet antyder, är ett
+				bussystem. Det gör att man inte har en kommunikation bara
+				mellan två punkter utan man kan koppla in flera enheter på
+				samma uttag.
 			</para>
 		</sect2>
 	</sect1>
@@ -1805,9 +1809,11 @@
 				<para>
 					Fiberoptisk kabel är billig ochhar en enorm kapacitet som
 					vida överstiger de andra kablarna. Dock är fiberoptisk
-					kabel svårare att hantera. Ledaren är extremt känslig,
+					kabel svårare att hantera, till exempel behövs speciella
+					verktyg för att skarva kabeln. Ledaren är extremt känslig,
 					både för böjning och för slag. Fiberoptisk kabel skall
-					installeras av proffs.
+					installeras av proffs. Av någon anledning är fideroptisk
+					kabel nästan alltid grön.
 				</para>
 				<para>
 					Fiberoptisk kabel är det vanligaste alternativet idag vi
