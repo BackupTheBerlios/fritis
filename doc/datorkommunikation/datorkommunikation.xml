@@ -34,7 +34,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/20 12:45:48 $</pubdate>
+	<pubdate>$Date: 2004/01/21 15:07:09 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -43,7 +43,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.20 $</revnumber>
+			<revnumber>$Revision: 1.21 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -333,10 +333,10 @@
 		<figure id="fig_telefonsamtal"><title>Ett telefonsamtal</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/telefonsamtal.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/telefonsamtal.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -425,10 +425,10 @@
 			<title>Analoga och digitala signaler</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/analog-digital.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/analog-digital.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -858,10 +858,10 @@
 
 				<mediaobject>
   					<imageobject>
-      				<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      				<imagedata scalefit="1" fileref="bilder/asynkron.jpeg" format="JPEG" />
         			</imageobject>
   					<imageobject>
-      				<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+      				<imagedata scalefit="1" fileref="bilder/asynkron.eps" format="EPS" />
         			</imageobject>
 					<textobject>
 						<phrase>
@@ -1038,10 +1038,10 @@
 				<figure id="fig_bussnat"><title>Bussnät</title>
 					<mediaobject>
   						<imageobject>
-      					<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      					<imagedata scalefit="1" fileref="bilder/bussnat.jpeg" format="JPEG" />
         				</imageobject>
   						<imageobject>
-      					<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+      					<imagedata scalefit="1" fileref="bilder/bussnat.eps" format="EPS" />
         				</imageobject>
 						<textobject>
 							<phrase>
@@ -1087,10 +1087,10 @@
 				<figure id="fig_stjarnnat"><title>Stjärnnät</title>
 					<mediaobject>
   						<imageobject>
-      					<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      					<imagedata scalefit="1" fileref="bilder/stjarnnat.jpeg" format="JPEG" />
         				</imageobject>
   						<imageobject>
-      					<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+      					<imagedata scalefit="1" fileref="bilder/stjarnnat.eps" format="EPS" />
         				</imageobject>
 						<textobject>
 							<phrase>
@@ -1140,10 +1140,10 @@
 				<figure id="fig_ringnat"><title>Ringnät</title>
 					<mediaobject>
   						<imageobject>
-      					<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      					<imagedata scalefit="1" fileref="bilder/ringnat.jpeg" format="JPEG" />
         				</imageobject>
   						<imageobject>
-      					<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+      					<imagedata scalefit="1" fileref="bilder/ringnat.eps" format="EPS" />
         				</imageobject>
 						<textobject>
 							<phrase>
@@ -1372,10 +1372,10 @@
 			<figure id="fig_hubb"><title>Kommunikation över en hubb</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+						<imagedata scalefit="1" fileref="bilder/hubb.jpeg" format="JPEG" />
 					</imageobject>
 					<imageobject>
-						<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+						<imagedata scalefit="1" fileref="bilder/hubb.eps" format="EPS" />
 					</imageobject>
 					<textobject>
 						<phrase>
@@ -1420,10 +1420,10 @@
 		<figure id="fig_switch"><title>Kommunikation över en switch</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/switch.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/switch.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -1553,10 +1553,10 @@
 		<figure id="fig_natverk"><title>Exempel på nätverk</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/natvarksexempel.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/natvarksexempel.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -1987,10 +1987,12 @@
 
 					<mediaobject>
 						<imageobject>
-							<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+							<imagedata scalefit="1"
+							fileref="bilder/amplitudmodulering.jpeg" format="JPEG" />
 						</imageobject>
 						<imageobject>
-							<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+							<imagedata scalefit="1"
+							fileref="bilder/amplitudmodulering.eps" format="EPS" />
 						</imageobject>
 						<textobject>
 							<phrase>
@@ -2026,10 +2028,12 @@
 
 					<mediaobject>
 						<imageobject>
-							<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+							<imagedata scalefit="1"
+							fileref="bilder/frekvensmodulering.jpeg" format="JPEG" />
 						</imageobject>
 						<imageobject>
-							<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+							<imagedata scalefit="1"
+							fileref="bilder/frekvensmodulering.eps" format="EPS" />
 						</imageobject>
 						<textobject>
 							<phrase>
@@ -2064,10 +2068,12 @@
 
 					<mediaobject>
 						<imageobject>
-									<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+									<imagedata scalefit="1"
+									fileref="bilder/fasskiftesmodulering.jpeg" format="JPEG" />
 							</imageobject>
 						<imageobject>
-									<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+									<imagedata scalefit="1"
+									fileref="bilder/fasskiftesmodulering.eps" format="EPS" />
 							</imageobject>
 						<textobject>
 							<phrase>
@@ -2372,10 +2378,10 @@
 
 				<mediaobject>
 					<imageobject>
-						<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+						<imagedata scalefit="1" fileref="bilder/osi.jpeg" format="JPEG" />
 					</imageobject>
 					<imageobject>
-						<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+						<imagedata scalefit="1" fileref="bilder/osi.eps" format="EPS" />
 					</imageobject>
 					<textobject>
 						<phrase>
