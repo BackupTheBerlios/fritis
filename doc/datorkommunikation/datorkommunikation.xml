@@ -32,7 +32,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/17 18:30:14 $</pubdate>
+<pubdate>$Date: 2004/01/17 18:45:41 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -63,7 +63,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.7 2004/01/17 18:30:14 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.8 2004/01/17 18:45:41 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -2803,15 +2803,13 @@ Modeller, referensmodeller, standarder
 
 </para>
 <para>
-
-	Man kan till exempel koppla upp sig mot Internet via
-	kabel-tv-näten[D[D[D[D[D[D[D[[C[D[[C[C[C[C[C[C[C[C[Ctvnäten. Denna metod är relativt vanlig i de städer där
-	kabeltv finns. Man kan även på vissa ställen i landen använda
-	elnätet för att koppla upp sig. Man kan även använda radio för
-	att ansluta ett avlägset hus eller villaområde. På vissa ställen
-	kan man få fiberkabel ända in till huset eller till ett område
-	vilket ger en mycket snabb och bra Internetförbindelse.
-
+	Man kan till exempel koppla upp sig mot Internet via kabel-tv-näten.
+	Denna metod är relativt vanlig i de städer där kabeltv finns. Man kan
+	även på vissa ställen i landen använda elnätet för att koppla upp
+	sig. Man kan även använda radio för att ansluta ett avlägset hus
+	eller villaområde. På vissa ställen kan man få fiberkabel ända in
+	till huset eller till ett område vilket ger en mycket snabb och bra
+	Internetförbindelse.
 </para>
 
 <para>
