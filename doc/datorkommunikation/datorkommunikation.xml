@@ -14,6 +14,8 @@
 <!ENTITY services SYSTEM "services.xml">
 <!ENTITY topdomains SYSTEM "topdomains.xml">
 <!ENTITY brev SYSTEM "brev.xml">
+<!ENTITY chap_inledning SYSTEM "chap_inledning.xml">
+<!ENTITY chap_epost SYSTEM "chap_epost.xml">
 ]>
 
 <book lang="sv" status="draft">
@@ -39,7 +41,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/03/28 11:42:53 $</pubdate>
+	<pubdate>$Date: 2004/03/29 17:53:52 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -48,7 +50,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.41 $</revnumber>
+			<revnumber>$Revision: 1.42 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -209,102 +211,7 @@
 
 <toc/>
 
-<chapter id="chap_inledning"><title>Inledning</title>
-
-	<abstract>
-		<para>
-			I detta kapitel ges en liten introduktion till vad
-			datorkommunikation är och går igenom några grundläggande
-			begrepp.
-		</para>
-	</abstract>
-
-	<sect1><title>Vad är data och vad är dator?</title>
-		<para>
-			Det här är inte så lätt som man kan tro. Data är någon typ av
-			fakta eller värden som kan bearbetas av människor eller
-			maskiner men som ännu inte har tolkats. Till exempel så är en
-			ström av bokstäver data. Man kan titta på bokstäverna utan att
-			läsa ut vad de innebär, man kan flytta dem, skriva ut den,
-			kopiera dem och så vidare. Bokstäverna kan bilda en mening men
-			behöver inte nödvändigtvis göra detta för att vara data. På
-			samma sätt kan en tabell med siffror utgöra data. Rätt tolkade
-			kanske de utgör en viktig kalkyl för ett stort företag men utan
-			att tolka dem så är det data.
-		</para>
-		<para>
-			En dator är en maskin som vi använder för att behandla data,
-			till exempel en persondator eller en server i ett nätverk. Man
-			hör ofta att någon säger "Jag slog på datan." när de egentligen
-			menar, "Jag slog på datorn.", såvida de inte faktiskt stod och
-			slog på cd-skivan eller vad det nu kan vara för något som
-			innehåller data.
-		</para>
-	</sect1>
-
-	<sect1><title>Vad är information?</title>
-		<para>
-			Data som tolkats av en människa eller en dator kallas för
-			information. Till exempel så är en bild som sparats på en disk
-			data ända tills den presenterats av ett bildvisningsprogram för
-			en människa som förstår bilden, då först är det information. På
-			samma sätt så är strängen med bokstäver i exemplet ovan data
-			tills dess att de läses av en människa som kan tolka dem. Då
-			blir det information.
-		</para>
-		<para>
-			Alltså data som tolkats och givits en innebörd är information.
-			Information kan inte flyttas mellan två datorer men data kan.
-			Information kan inte sparas ned på en disk men data kan. Data
-			kan, om den är rätt utformad, tolkas till information.
-		</para>
-	</sect1>
-
-	<sect1><title>Vad är kommunikation?</title>
-		<para>
-			Kommunikation är ett vitt begrepp. Vi använder det för att
-			benämna till exempel ett samtal eller att vi själv förflyttar
-			oss med till exempel tåg eller buss. Kommunikation kommer från
-			det latinska ordet communicatio som betyder ungefär "att
-			utbyta" eller "att delge". Ordet kommunikation kan, som du vet,
-			användas på flera olika sätt och alla är riktiga. Men i denna
-			bok och i ämnesområdet datorkommunikation betyder kommunikation
-			att man utbyter information. Som vi konstaterat tidigare så
-			kan inte information skickas mellan två datorer men data kan.
-			Data plus regler för hur dessa data skall tolkas kan ju göras om
-			till information.
-		</para>
-	</sect1>
-
-	<sect1><title>Vad är datorkommunikation?</title>
-		<para>
-			Datorkommunikation är ju vad denna bok skall behandla, så vad
-			är det för något? Datorkommunikation är när människor utbyter
-			information med varandra med hjälp av datorer. Som vi sett så
-			kan bara datorerna utbyta data så det måste även finnas regler
-			för hur denna information skall kunna tolkas till information i
-			slutändan för att det skall vara någon mening med
-			kommunikationen. Under kommunikationens gång kan data
-			behandlas av system eller datorer som inte har vetskap om vad
-			dessa data betyder. Dessa är delar av datorkommunikationen men är
-			inte en part som kommunicerar. Till exempel så är telefonen en
-			del av ett telefonsamtal men det är inte telefonen som
-			kommunicerar utan det är du och den som håller i luren på andra
-			sidan som kommunicerar. Trots detta är telefonen, ledningar och
-			telefonväxlar ett led i kommunikationen.
-		</para>	
-	</sect1>
-
-	<sect1><title>Sammanfattning</title>
-		<para>
-			I detta kapitel har vi lärt oss vad några grundläggande begrepp
-			inom datorkommunikationsämnet står för. Detta kapitel avslutas,
-			liksom de resterande kapitlen i boken, med några kontrollfrågor
-			eller övningsuppgifter som du kan använda för att kontrollera
-			att du lärt dig det som kapitlet handlade om.
-		</para>
-	</sect1>
-</chapter>
+&chap_inledning;
 
 <chapter id="chap_dataoverforing"><title>Dataöverföring</title>
 	<abstract>
@@ -4134,180 +4041,7 @@ Destination   Netmask          Gateway           Interface
 	</sect1>
 </chapter>
 
-<chapter id="chap_epost"><title>E-post</title>
-	<abstract>
-		<para>
-			Från Wikipedia, den fria encyklopedin.
-		</para>
-		<para>
-			e-post, förkortning för "elektronisk post". En av de
-			ursprungliga typerna av meddelanden som vidarebefodras över
-			Internet och som kännetecknas av högre tillförlitlighet än
-			andra typer av elektroniska meddelanden. Tillkomsten av
-			fenomen som spam (oönskad skräppost) och datavirus har gjort
-			e-post mindre användbar på senare år, men den är fortfarande
-			den dominerande standarden för att skicka meddelanden över
-			Internet. 
-		</para>
-	</abstract>
-	<para>
-		<!-- smtp, pop, imap  -->
-		E-post är den tjänst som av många räknas som den viktigaste på
-		Internet. Utan e-post står många företag stilla. I detta avsnitt
-		skall vi behandla e-post och hur det fungerar lite närmare.
-	</para>
-	<para>
-		E-post var den tjänst som många såg som den mest användbara när
-		Internetliknande teknik presenterades i slutet på 60-talet. De
-		första e-postsystemen fungerade så att man hade en fil som
-		flera datorer kunde komma åt. I denna fil kunde man skriva
-		meddelanden som andra kunde läsa. Detta system var dock inte så
-		bra när man ville ha ett system där alla datorer skulle kunna
-		skicka meddlanden till varandra oavsett var de fanns och
-		oavsett vilket system de körde. Man utvecklade det i idag
-		kallar e-post.
-	</para>
-
-	<sect1><title>Flera protokoll</title>
-		<para>
-			När du skickar ett e-brev till någon så kommer flera protokoll
-			att ha används innan mottagaren har läst brevet. Förutom TCP/IP,
-			DNS med mera används även minst ett par olika protokoll för
-			själva brevskickandet.
-		</para>
-	</sect1>
-
-	<sect1><title>Simple Mail Transport Protocol, SMTP</title>
-		<para>
-			Det viktigaste protokollet som används är <emphasis>Simple Mail
-			Transport Protocol, SMTP</emphasis>. Det är med SMTP som brevet
-			transporteras över Internet från dig till mottagaren. Man kan
-			säga att det är med SMTP som man skickar e-post.
-		</para>
-		<para>
-			Du startar ditt e-postprogram på din dator. Normalt så har du
-			ingen SMTP-server på din dator utan när du skickar brevet så
-			pratar ditt e-postprogram med en SMTP-server på ditt nät som
-			antingen tillhandahålls av din ISP eller av IT-avdelningen på
-			det företag du jobbar. Det protokoll som används mellan
-			e-postprogram och servern är SMTP.
-		</para>
-		<para>
-			När brevet nått din SMTP-server måste det skickas vidare.
-			Mottagaren har ju inte tillgång till din SMTP-server, och även
-			om mottagaren hade det så kan han eller hon inte veta att post
-			väntar på just din server. Istället så skickar din SMTP-server
-			brevet vidare till den SMTP-server som hanterar posten för det
-			domännamn som du angav i mottagarens e-postadress (det som står
-			till höger om "@" i e-postadressen). Information om vilken
-			server som ansvarar för e-posten för just den aktuella domänen
-			får din server från DNS-systemet. När brevet kommit dit så finns
-			det förhoppningvis på en server som mottagaren har tillgång
-			till. I vissa fall så hoppar brevet flera steg till innan det
-			nått den servern som just din mottagare kommer åt.
-		</para>
-		<para>
-			Nu återstår det bara för din mottagare att hämta och läsa brevet
-			från dig. Det finns flera olika sätt att göra det. De vanligaste
-			sätten är via protokoll som POP eller IMAP, men det blir
-			vanligare och vanligare att man använder något som kalls för
-			webbmail som är ett system för att, med hjälp av en webbläsare
-			läsa sin post direkt från SMTP-servern.
-		</para>
-	</sect1>
-
-	<sect1><title>Post Office Protocol, POP</title>
-		<para>
-			Ett ganska gammalt, men fortfarande väldigt vanligt, sätt att
-			hämta sin e-post är att använda ett protokoll som heter
-			<emphasis>Post Office Protocol, POP</emphasis>. Med hjälp av POP
-			hämtar du posten från din POP-server till lokala dator. De
-			flesta e-postprogram klarar att hämta post med POP. Märk att
-			SMTP har används hela tiden för att transportera brevet men
-			sista biten används andra protokoll. I det här fallet POP.  När
-			brevet flyttats (kallas ibland för poppats) till din dator tas
-			det oftast bort från POP-servern och lagras nu lokalt på din
-			hårddisk.
-		</para>
-	</sect1>
-	
-	<sect1><title>IMAP</title>
-		<para>
-			IMAP är en forkortning för <emphasis>Internet Message
-			Access Protocol</emphasis> är ett protokoll för att läsa
-			e-posten med ett e-postprogram. Till skillnad från POP så är
-			IMAP avsett för att läsa, sortera och söka bland breven på
-			servern. (POP var ju avsett för att hämta breven från
-			servern till den lokala datorn.) Fördelarna med IMAP är
-			uppenbara, all e-post lagras lokalt. Användarna kan komma åt
-			från vilken plats som helst. Till skillnad från POP så kan
-			man med IMAP också skapa mappar på servern och sortera
-			breven i dem. Nackdelen är kanske också uppenbar, att man
-			läser breven från servern gör att man är beroende av denna
-			och måste ha en fungerande anslutning till den nät där
-			servern finns. Det finns program som löser detta program
-			gonom att spara en synkroniserad kompia på den lokala datorn
-			och synkronisera med server när programmet har kontakt med
-			den.
-		</para>
-	</sect1>
-
-	<sect1><title>Webmail</title>
-		<para>
-			En nackdel med POP och IMAP är att det krävs inställningar på
-			den dator man skall läsa sin post ifrån. Många vill idag kunna
-			läsa sin post på vilken dator som helst eftersom de ofta reser
-			eller använder flera olika datorer.
-		</para>
-		<para>
-			Det enklaste sättet att göra detta på är att använda sig av en
-			webbmail. Det är ett system då man istället för att hämta sin
-			post från leverantörens eller företagets SMTP-server med POP
-			eller IMAP, läser den direkt från servern med hjälp av en
-			webbmailprogramvara. Ved denna programvara gör är att möjliggöra
-			att man läser sin post via HTTP och ett vanlig webbläsare.
-			Eftersom nästan alla datorer idag har en webbläsare och är
-			anslutna till Internet kan man läsa sin post nästan varifrån som
-			helst.
-		</para>
-		<para>
-			Att kunna läsa sin post varifrån som helst och att slippa spara
-			sina brev på den egna datorn är stora fördelar som gör att många
-			använder webbmail. Det finns flera företag som använder gratis
-			webbmailtjänster som gör att du kan skaffa dig en e-postadress
-			alldeles gratis utan att ens ha en internetansluten dator. Men
-			det finns också nackdelar med webbmail.
-		</para>
-		<para>
-			Webbmail har flera nackdelar. Att hantera sin post med en
-			webbläsare är oftast krångligare och långsammare än att göra
-			det med ett vanligt e-postprogram. En annan nackdel är att du
-			måste vara uppkopplad hela tiden du skall läsa din post. Om du
-			hämtar posten med POP eller IMAP behöver du ju bara vara
-			ansluten till Internet just när du hämtar posten, sedan kan du
-			ju läsa den i lugn och ro även om du inte är uppkopplad. En
-			annan nackdel är att de flesta företag som erbjuder webbmail
-			har en gräns för hur mycket post du får spara på deras server.
-			Det gör att du men jämna mellanrum måste slänga dina brev för
-			att få plats med nya. Detta gäller i första han gratistjänster
-			men det är inte ovanligt att även sådana man betalar för eller
-			de inom företag har liknande gränser (om än oftast lite högre).
-		</para>
-	</sect1>
-
-	<sect1><title>E-post och säkerhet</title>
-		<para>
-			I nästa kapitel kommer vi att tala om säkerhet men det är ändå
-			på sin plats att tala lite om det redan nu när vi hanterar
-			e-post. E-post är nämligen en tjänst på Internet som skall
-			betraktas som osäker. En tumregel som är bra är att man inte
-			skall skriva någonting i ett e-brev som man inte skulle skriva
-			på ett vykort. Vill man skicka någonting som är lite hemligt
-			skall man använda sig av något verktyg för att kryptera sitt
-			brev så att obehöriga inte kan läsa det.
-		</para>
-	</sect1>
-</chapter>
+&chap_epost;
 
 <chapter id="chap_sakerhet"><title>Datasäkerhet</title>
 	<!--
