@@ -34,7 +34,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/21 15:07:09 $</pubdate>
+	<pubdate>$Date: 2004/01/22 11:31:48 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -43,7 +43,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.21 $</revnumber>
+			<revnumber>$Revision: 1.22 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -2628,7 +2628,7 @@
 			<para>
 				Idag är det vanligaste webbläsarna <emphasis>Internet
 				Explorer</emphasis>, <emphasis>Netscape</emphasis> och
-				Mozilla.
+				<emphasis>Mozilla</emphasis>.
 			</para>
 		</sect2>
 
@@ -2904,9 +2904,7 @@
 						</caption>
 					</mediaobject>
 				</figure>
-
 			</para>
-
 		</sect2>
 
 		<sect2><title>Filöverförning (FTP)</title>
@@ -2928,17 +2926,82 @@
 			</para>
 		</sect2>
 
-		<sect2><title>Nyhetsgrupper (NNTP)</title>
+		<sect2><title>Nyhetsgrupper, Usenet News (NNTP)</title>
 			<para>
-
-				
-
+				Usenet news eller nyhetsgrupper är ett hörn av Internet som
+				många glömmer bort. En nyhetsgrupp har inte så mycket med
+				med nyheter att göra utan handlar om diskussioner. Usenet
+				News fungerar lite som e-postlistor. Det finns
+				hundratusentals nyhetsgrupper världen över. De flesta
+				speglas mellan servrarna så på din newsserver kommer även
+				postningar från andra länder. Alla grupper har ett specifikt
+				ämne. Vissa har ett speciellt språk. Till exempel så finns
+				det grupper som behandlar olika datorsystem på svenska. Om
+				det inte framgör vilket språk som gäller så är det alltid
+				engelska.
+			</para>
+			<para>
+				Det går till så här. När någon postar ett meddelande i en
+				grupp så kan alla som prenumererar på gruppen se detta i
+				sitt nyhetsläsarprogram (många e-postprogram kan också
+				hantera news). De andra ser bara rubriken och kan själva
+				välja om de vill ladda ner och läsa meddelandet.
+			</para>
+			<para>
+				Usenet News eller nyhetsgrupper är faktiskt äldre än
+				Internet självt. Från början, innan Internet, användes ett
+				protokoll som heter UUCP (Unix to Unix Copy Protocol), men
+				detta ersattes senare med ett protokoll som var bättre
+				anpassat för Internet. Det protokollet heter NNTP (Network
+				News Transfer Protocol) och används än idag.
 			</para>
 		</sect2>
 
 		<sect2><title>Fjärrinloggning (TELNET/SSH)</title>
 			<para>
-
+				Unix byggdes från början med datorer med olika Unixsystem.
+				Unixsystemen utvecklades på samma gång väldigt mycket med
+				nätverk i åtanke. Det gör att Unixsystem fungerar väldigt
+				bra i nätverk. Till exempel så kan man på en Unixdator jobba
+				flera personer på samma gång och man kan göra det över
+				nätverket precis som om man satt direkt vid datorn. Låter
+				det modernt? Det har man kunnat i Unix sedan 1970-talet. En
+				modern Uniximplementation är Linux. Linux har ärvt dessa
+				egenskaper från sin föregångare och har alltså haft dessa
+				möjligheter från starten
+			</para>
+			<para>
+				För att kunna logga in på en server över nätverket måste man
+				naturligtvis ha ett protokoll för hur det skall fungera. Ett
+				vanligt, ganska gammalt, protokoll är telnet. Telnetklienter
+				följer med de flesta operativsystem.
+			</para>
+			<para>
+				Telnet används idag mindre och mindre. Den största
+				anldningen är att det är ett så kallat klartextprotokoll.
+				Informationen som skickas mellan server och klient krypteras
+				inte. Det gör att den kan avlyssnas. Det finns massor av
+				klartextprotokoll som används på Internet och i de flesta
+				gör det ingenting om trafiken kan avlyssnas. I fallet med
+				telnet däremot är trafiken väldigt känslig. Anledningen är
+				att användarnamn och lösenord skickas i början av en
+				sessoion. Om någon avlyssnar kommunikatinionen får får denne
+				kompletta kontouppgifter och kan logga in på servern.
+			</para>
+			<para>
+				Ett nyare protokoll som heter SSH (Secure SHell) som
+				erbjuder samma funktionalitet som telnet men som är mycket
+				säkrare. Klienter finns till de flesta operativsystem men
+				intstalleras inte alltid som standard vilket telnet ofta
+				gör.
+			</para>
+			<para>
+				Om nu SSH är så mycket säkrare, varför finns telnet kvar?
+				Telnet har fortfarande ett användningsområde. Till exempel
+				används ofta telnet för att konfigurera hårdvara, till
+				exempel switchar. Då används det på ett internt nätverk där
+				risken för avlyssning bedöms som liten. Till exempel en
+				ensam kabel mellan server och klient.
 			</para>
 		</sect2>
 	</sect1>
@@ -2946,7 +3009,41 @@
 
 	<sect1><title>Internets framtid</title>
 		<para>
-		
+			Vad som kommer att hända med Internet i framtiden är
+			naturligtvis svårt att säga. På sista tiden har de största
+			förändringarna skett bland rena konsumentprodukter såsom
+			fildelning och direktmeddelanden (IM, Instant Messaging).
+		</para>
+		<para>
+			Vad som kommer i framtiden går bara att gissa. Det har talats
+			om tekniska förändringar i Internets struktur. Bland annat
+			finns planer på att byta ut en så grundläggande del som IP
+			(Internet Protocol, se nästa kapitel) för att bland annat råda
+			bot på bristen på IP-adresser. Som det ser ut nu är detta inte
+			att vänta de närmaste åren. Utan nyheterna kommer högre upp i
+			strukturen, på applikationsnivån.
+		</para>
+		<para>
+			Det som "bubblar" nu är olika telefontjänster. Att man kan tala
+			med varandra över Internet. Det kommer som en naturlig
+			förlängning på IM-tjänsterna och kommer förmodligen att bli
+			väldigt vanligt.
+		</para>
+		<para>
+			Smarta-hemtjänster var väldigt hett för ett par år sedan men
+			blev ingen hit. Jag tror att dessa kommer att komma igen när
+			marknaden mognat. Exempel på tjänster är att till exempel kunna
+			titta in hemma med hjälp av kameror från jobbet eller på
+			semestern. Andra tjänster kan vara larmtjänster där man
+			meddelas via e-posts, SMS eller varför inte till sin
+			IM-programvara om något händer hemma.
+		</para>
+		<para>
+			En sak jag med säkerhet kan säga är dessa nya tjänster kommer
+			att kräva mer och mer bandbredd. Och mer bandbredd kommer att
+			finnas. Det kommer att bli enklare att koppla upp sig och med
+			mer bandbredd än vad vi är vana med idag. Snabba uppkopplingar
+			med mobila enheter kommer också att bli vanligare.
 		</para>
 	</sect1>
 </chapter>
