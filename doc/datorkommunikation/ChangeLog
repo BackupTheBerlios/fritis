@@ -1,3 +1,13 @@
+2004-05-31 00:10  rejas
+
+	Changed:
+		brev.xml (1.2), "Exp", lines: +45 -1
+		chap_epost.xml (1.2), "Exp", lines: +17 -16
+
+	Lade till ett brev med kommentarer från Pär Lindskog <lindskog
+	(snabel-a) imapcenter.net> angående IMAP. Jag kommer att föra in det
+	i texten sedan.
+
 2004-05-30 23:47  rejas
 
 	Changed:
