@@ -33,7 +33,7 @@
 
 	<sect1><title>Vad är information?</title>
 		<para>
-			Data som tolkats av en människa eller en dator kallas för
+			Data som tolkats och förståtts av en människa kallas för
 			information. Till exempel så är en bild som sparats på en disk
 			data ända tills den presenterats av ett bildvisningsprogram för
 			en människa som förstår bilden, då först är det information. På
@@ -42,7 +42,8 @@
 			blir det information.
 		</para>
 		<para>
-			Alltså data som tolkats och givits en innebörd är information.
+			Alltså data som presenteras (tolkats och givits en innebörd) på
+			ett sätt som direkt kan förstås av en människa är information.
 			Information kan inte flyttas mellan två datorer men data kan.
 			Information kan inte sparas ned på en disk men data kan. Data
 			kan, om den är rätt utformad, tolkas till information.
@@ -71,16 +72,16 @@
 			är det för något? Datorkommunikation är när människor utbyter
 			information med varandra med hjälp av datorer. Som vi sett så
 			kan bara datorerna utbyta data så det måste även finnas regler
-			för hur denna information skall kunna tolkas till information i
+			för hur denna data skall kunna tolkas till information i
 			slutändan för att det skall vara någon mening med
-			kommunikationen. Under kommunikationens gång kan data
-			behandlas av system eller datorer som inte har vetskap om vad
-			dessa data betyder. Dessa är delar av datorkommunikationen men är
-			inte en part som kommunicerar. Till exempel så är telefonen en
-			del av ett telefonsamtal men det är inte telefonen som
-			kommunicerar utan det är du och den som håller i luren på andra
-			sidan som kommunicerar. Trots detta är telefonen, ledningar och
-			telefonväxlar ett led i kommunikationen.
+			kommunikationen. Under kommunikationens gång kan data behandlas
+			av system eller datorer som inte har vetskap om vad dessa data
+			betyder. Dessa är en del av kommunikationsprocessen. Till
+			exempel så är telefonen en del av ett telefonsamtal men det är
+			inte telefonen som kommunicerar utan det är du och den som
+			håller i luren på andra sidan som kommunicerar. Trots detta är
+			telefonen, ledningar och telefonväxlar ett led i
+			kommunikationen.
 		</para>	
 	</sect1>
 
