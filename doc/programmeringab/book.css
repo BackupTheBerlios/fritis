@@ -7,6 +7,7 @@ body {
 	text-transform:	none;
 	font-size-adjust:	.48;
 	background-color: white;
+	width: 600px;
 }	
 		
 p, blockquote, ul, ol, dl, dd, li, dir, menu	{	
@@ -29,8 +30,8 @@ b {
 	font-family: arial, verdana, helvetica, sans-serif;
 }
 
-sup, sub {
-	font-size: 8px;
+sup {
+	font-size: 60%;
 }
 
 td {
