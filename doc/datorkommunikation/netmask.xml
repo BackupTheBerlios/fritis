@@ -75,7 +75,7 @@
 		C-nät. Prefixet 32 motsvarar en nodadress (host).
 	</para>
 	<para>
-		Tabellen <xref linkend="tab_netmask"/> visar alla SIDR nät. I
+		Tabellen <xref linkend="tab_netmask"/> visar alla CIDR nät. I
 		kolumnen med anatelt adresser bör man beakta att det som
 		regel "går bort" två adresser. Det är för att man
 		behöver en broadcastadress och en nätverksadress.
