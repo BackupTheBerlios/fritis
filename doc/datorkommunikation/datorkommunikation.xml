@@ -38,7 +38,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/26 14:41:39 $</pubdate>
+	<pubdate>$Date: 2004/01/27 19:21:00 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -47,7 +47,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.35 $</revnumber>
+			<revnumber>$Revision: 1.36 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -648,8 +648,27 @@
 			måste filerna vara likvärdiga för att en grupp bilar ska komma
 			fram samtidigt. Om en fil är långsammare än de andra så kommer
 			överföringen att bli långsammare och om det blir problem på en
-			fil så kommer överföringen naturligtvis att hindras.
+			fil så kommer överföringen naturligtvis att hindras. Se <xref
+			linkend="fig_parallell"/>.
 		</para>
+		<figure id="fig_parallell">
+			<title>Parallell överföring</title>
+
+			<mediaobject>
+  				<imageobject>
+      			<imagedata scalefit="1" fileref="bilder/parallell.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata scalefit="1" fileref="bilder/parallell.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						Bild på parallell överföring
+					</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
+		
 		<para>
 			När vi talar om datorkommunikation är det naturligtvis inte
 			filer på en motorväg vi talar om utan om ledningar. Ju fler
@@ -724,6 +743,23 @@
 			för trafik i den andra riktningen plus några ledare för
 			kontrollsignaler.
 		</para>
+		<figure id="fig_seriell">
+			<title>Seriell överföring</title>
+
+			<mediaobject>
+  				<imageobject>
+      			<imagedata scalefit="1" fileref="bilder/seriell.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata scalefit="1" fileref="bilder/seriell.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						Bild på seriell överföring
+					</phrase>
+				</textobject>
+			</mediaobject>
+		</figure>
 		<para>
 			Seriell överföring är normalt långsammare än parallell
 			överföring men är inte lika störningskänslig och man kan ha
@@ -2066,9 +2102,109 @@
 			</para>
 		</sect2>
 	</sect1>
+	<sect1><title>Handskakning</title>
+		<para>
+			Innan två modem kan börja tala med varandra (det är alltid två
+			modem) så måste modem komma överens om hur de skall skicka
+			information. Det gör de i en procedur som kallas
+			<emphasis>handskakning</emphasis> (eng. Handshake). I
+			handskakningen, som föregår det egentliga datautbytet, kommer
+			modemen överens om exempelvis överföringshastigheten.
+		</para>
+		<para>
+			För att ett modem skall kunna kommunicera med så många olika
+			modem som möjligt så kan de flesta modemen skicka och ta emot
+			data i en mängd olika hastigheter. När två modem kommer överens
+			om överföringshastigheten så är det alltid det långsammaste
+			modemet som bestämmer i vilken hastighet de skall utbyta data.
+		</para>
+	</sect1>
+	<sect1><title>Hayes-kommandon, (AT-kommandon)</title>
+		<para>
+			Modem avsedda för telenätet var oftast så kallade akustiska
+			modem.  De bestod av en liten låda med en sladd och en
+			telefonlursliknande sak med gummimuffar som passade på en
+			vanlig telefonlur. Modemet innehöll alltså ingen telefon utan
+			man ringde manuellt upp det nummer man skulle ringa och sedan
+			kopplade man på modemen på varje sida genom att montera
+			modemets mikrofon och högtalare på telefonluren. Detta var
+			naturligtvis inte speciellt praktiskt. Man ville ju kunna
+			programmera modemet från datorn så att datorn själv kunde till
+			exempel ringa upp ett annat modem. Modemet borde ju dessutom
+			kunna svara själv.
+		</para>
+		<para>
+			Det första modemet som kunde detta var ett modem från ett
+			företag som heter <emphasis>Hayes Communications</emphasis>.
+			Modemet hette <emphasis>Hayes Smartmodem</emphasis> och
+			lanserades 1981. Detta modem kunde man kontrollera helt från
+			datorn. Man kunde alltså ringa ett nummer, ändra inställningar,
+			lägga på luren med mera från datorn utan att röra modemet. I
+			övrigt var Smartmodem inget fartunder utan det skickade data i
+			blygsamma 300 bit/s vilket var ganska vanligt på den tiden.
+		</para>
+		<para>
+			För att styra modemet så införde företaget ett system med olika
+			kommandon som man använder för att säga åt modemet att göra
+			olika saker. Dessa kommandon började alla med
+			<emphasis>AT</emphasis> som är en förkortning för engelskans
+			"attention". På grund av detta kallas dessa kommandon för
+			AT-kommandon eller Hayes-kommandon. Det är ingen formell
+			standard men de flesta modem som finns idag är
+			<emphasis>Hayes-kompatibla</emphasis>. det vill säga de stöder
+			hela eller delar av Hayes uppsättning AT-kommandon.  Flera
+			modemtillverkare lägger till egna kommandon utöver de vanliga.
+			I <xref linkend="tab_hayes"/> listas några vanliga
+			AT-kommandon. Är du intresserad så finns det en mer komplett
+			lista på http://en.wikipedia.org/wiki/Hayes_command_set.
+
+			<table frame="all" id="tab_hayes">
+				<title>Vanliga Hayes-kommandon (AT-kommandon)</title>
+				<tgroup cols='2' align='left' colsep='1' rowsep='1'>
+					<thead><row>
+						<entry>Kommando: (AT+)</entry>	
+						<entry>Gör</entry>
+					</row></thead>
+					<tbody>
+					<row>
+						<entry>DT1111111</entry>
+						<entry>Ringer upp 1111111 med tonval</entry>
+					</row>
+					<row>
+						<entry>DP1111111</entry>
+						<entry>Ringer upp 1111111 med pulsval</entry>
+					</row>
+					<row>
+						<entry>M0</entry>
+						<entry>Stänger av modemets högtalare</entry>
+					</row>
+					<row>
+						<entry>H0</entry>
+						<entry>Lägger på luren</entry>
+					</row>
+					<row>
+						<entry>Z0</entry>
+						<entry>Återställer modemets sparade
+						konfiguration</entry>
+					</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</para>
+
+	</sect1>
 	<sect1><title>Sammanfattning</title>
 		<para>
-			
+			Modem är en gammal uppfinning. Modem är en förkortning för
+			<emphasis>Modulator/Demodulator</emphasis>. Sändande modem
+			modulerar och mottagande demodulerar. Man kan modulera på flera
+			sätt och det vanligaste idag är fasskiftesmodulering.
+		</para>
+		<para>
+			Innan två modem kan börja utbyta data kommer de överens
+			om i vilken hastighet detta skall ske. Denna procedur kallas
+			handskakning och det är alltid det långsammaste modemet som
+			bestämmer.
 		</para>
 	</sect1>
 </chapter>
