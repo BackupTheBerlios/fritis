@@ -2,6 +2,7 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
  "/usr/share/sgml/docbook/dtd/4.2/docbookx.dtd" [
 <!ENTITY fdl-sv SYSTEM "fdl-sv.xml">
+<!ENTITY fdl SYSTEM "fdl.xml">
 <!ENTITY dtr1201 SYSTEM "dtr1201.xml">
 <!ENTITY kommandotabell SYSTEM "kommandotabell.xml">
 <!ENTITY hextodectabell SYSTEM "hextodectabell.xml">
@@ -37,7 +38,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/25 15:53:14 $</pubdate>
+	<pubdate>$Date: 2004/01/25 17:19:10 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -46,7 +47,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.31 $</revnumber>
+			<revnumber>$Revision: 1.32 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -55,14 +56,24 @@
 
 	<legalnotice>
 		<para>
-			Var och en äger rätt att kopiera, sprida och/eller förändra
-			detta dokument under villkoren i licensen "GNU Free
-			Documentation License", version 1.2 eller senare publicerad av
-			Free Software Foundation, med de oföränderliga avsnitten <xref
-			linkend="dtr1201"/> och <xref linkend="forord"/>, utan
-			framsidestexter och utan baksidestexter.  En kopia av denna
-			licens finns med i avsnittet med titeln "GNU Free Documentation
-			License".
+			Permission is granted to copy, distribute and/or modify this
+			document under the terms of the GNU Free Documentation License,
+			Version 1.2 or any later version published by the Free Software
+			Foundation; with the Invariant Sections being <xref
+			linkend="dtr1201"/> and <xref linkend="forord"/>, no
+			Front-Cover Texts, and no Back-Cover Texts. A copy of the
+			license is included in the section entitled "GNU Free
+			Documentation License".
+		</para>
+		<para>
+			[Översättning:] Var och en äger rätt att kopiera, sprida
+			och/eller förändra detta dokument under villkoren i licensen
+			"GNU Free Documentation License", version 1.2 eller senare
+			publicerad av Free Software Foundation, med de oföränderliga
+			avsnitten <xref linkend="dtr1201"/> och <xref
+			linkend="forord"/>, utan framsidestexter och utan
+			baksidestexter.  En kopia av denna licens finns med i avsnittet
+			med titeln "GNU Free Documentation License".
 		</para>
 		<para>
 			Det vill säga, du kan fritt ladda ner, vidaredistribuera och
@@ -3972,6 +3983,8 @@
 &rfcer;
 
 &fdl-sv;
+
+&fdl;
 
 </book>
 
