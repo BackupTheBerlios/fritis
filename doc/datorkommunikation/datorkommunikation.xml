@@ -34,7 +34,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/19 06:58:57 $</pubdate>
+<pubdate>$Date: 2004/01/19 08:50:35 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -63,7 +63,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.12 2004/01/19 06:58:57 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.13 2004/01/19 08:50:35 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -2988,10 +2988,99 @@ Modeller, referensmodeller, standarder
 			protokoll som bygger upp Internet. TCP/IP står för
 			<emphasis>Transmission Control Protocol/Internet
 			protocol</emphasis>. Standarden TCP/IP har fått sitt namn av
-			två av dess ingående protokoll, nämligen TCP och IP.  Fler
-			protokoll ingår i standarden som vi kommer att se i detta
-			kapitel. 
+			två av dess ingående protokoll, nämligen TCP och IP. Andra
+			protokoll som ingår i standarden och som vi kommer att bekanta
+			oss med är UDP, ICMP och ARP. Vi kommer även att titta på
+			protokoll på lite högre nivå, till exempel FTP, HTTP, SMTP, och
+			DNS.
 		</para>
+		<para>
+			Precis som OSI-modellen (se <xref linkend="sect_osimodellen"/>)
+			så är TCP/IP-modellen uppdelad i lager enligt samma princip som
+			modellen från ISO. I TCP/IP-modellen har man slagit ihop några
+			av lagren för att få enklare implementationer. I <xref
+			linkend="fig_osi-vs-tcpip"/> visas en figur över modellerna ocg
+			hur deras lager är relaterade till varandra. Vi ser även
+			exempel på protokoll i de olika lagren.
+		</para>
+		<figure id="fig_osi-vs-tcpip"><title>OSI modellen kontra TCP/IP</title>
+			<mediaobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						En figur som visar de två modellerna bredvid varandra.
+						Man ser tydligt hur TCP/IP-modellens fyra lager
+						spänner över OSI-modellens 7 lager.
+					</phrase>
+				</textobject>
+				<caption>
+					<para>
+						Till vänster ser vi OSI-modellends sju lager. Till
+						höger ser vi att TCP/IP har 4 lager och hur de är
+						relaterade till OSI-modellen. I TCP/IP har även olika
+						protokoll ritats in för att det skall vara lätt att se
+						var de hör hemma.
+					</para>
+				</caption>
+			</mediaobject>
+		</figure>
+
+		<sect2><title>Några av protokollen i TCP/IP</title>
+		
+		<para>
+			I detta avsnitt behandlas de olika protokollen mycket
+			kortfattat. Vissa kommer inte att behandlas mer och andra
+			kommer vi att gå igen lite djupare på andra ställen i boken. Du
+			kan också komma att stöta på dem i laborationskursen.
+		</para>
+
+		<sect3><title>IP</title>
+			<para>
+				
+			</para>
+		</sect3>
+		<sect3><title>TCP</title>
+			<para>
+				
+			</para>
+		</sect3>
+		<sect3><title>UDP</title>
+			<para>
+				
+			</para>
+		</sect3>
+		<sect3><title>ICMP</title>
+			<para>
+				
+			</para>
+		</sect3>
+		<sect3><title>ARP</title>
+			<para>
+				ARP (Adress Resolution Protocol) använs för att en nod skall
+				kunna hitta MAC-adressen<footnote><para>MAC-adress kallas
+				även Fysisk adress eller hårdvaruadress</para></footnote>
+				till en annan nod. För att de skall kunna tala behöver noden
+				veta den andras IP-adress (mer om IP-adresser nedan) men för
+				att de faktiskt skall kunna prata måste den veta dess
+				MAC-adress.  För att hitta den används ARP. Det fungerar så
+				att den dator som skall sända skickar ut en
+				<emphasis>broadkast</emphasis>-förfrågan (en
+				broadkastförfrågan kommer till alla datorer på nätverket)
+				där den ber noden med den aktuella IP-adressen att svara.
+				När den svarar får den nod som skickar redan på dess
+				MAC-adress. För att varje no inte skall behöva göra
+				ARP-förfrågningar varje gång den skall sända sparas
+				MAC-adresserna i en tabell på varje nod.
+			</para>
+		</sect3>
+
+		</sect2>
+		
 
 		<sect2><title>IP-adresser</title>
 			<para>
@@ -3082,11 +3171,13 @@ Modeller, referensmodeller, standarder
 				detta. Ett sätt är att dela in adresserna i fler mer
 				finfördelade klasser än A, B och C. Detta gör man redan idag
 				för att få få fler nätverk. Man kan till exempel ha nätverk
-				med bara 8 eller 32 IP-adresser. Det finns också en teknik
+				med bara 8 eller 32 IP-adresser. Läs med om detta i <xref
+				linkend="natmask"/>. Det finns också en teknik
 				som kallas NAT som gör att man kan gömma hela nätverk bakom
 				en enda IP-adress. Genom att använda denna teknik så kan man
 				ha samma IP-adresser på flera datorer bara de sitter på ett
-				nätverk som använder NAT för att komma ut på Internet. Detta
+				nätverk som använder NAT för att komma ut på Internet. Läs
+				mer om detta i <xref linkend="sec_routing"/> Detta
 				är idag det vanligaste sättet att ansluta företagsnät. Det
 				har flera fördelar, till exempel så höjs säkerheten eftersom
 				datorerna inne på nätverket har adresser som inte finns på
@@ -3173,7 +3264,7 @@ Modeller, referensmodeller, standarder
 			</para>
 		</sect2>
 
-		<sect2><title>Routing</title>
+		<sect2 id="sec_routing"><title>Routing</title>
 			<para>
 				På Internet finns en otrolig mängd datorer. Du kan
 				blixtsnabbt läsa en sida på en dator i Australien för att
@@ -3246,12 +3337,6 @@ Modeller, referensmodeller, standarder
 				</para>
 			</sect3>
 
-		</sect2>
-
-		<sect2><title>ICMP</title>
-			<para>
-	
-			</para>
 		</sect2>
 
 
