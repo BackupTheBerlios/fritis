@@ -41,7 +41,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/04/19 20:59:20 $</pubdate>
+	<pubdate>$Date: 2004/04/20 05:41:15 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -50,7 +50,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.43 $</revnumber>
+			<revnumber>$Revision: 1.44 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -4057,6 +4057,11 @@ Destination   Netmask          Gateway           Interface
 			datasäkerhet. Hur farligt är Internet och vad kan man göra för att
 			skydda sig?
 		</para>
+		<para>
+			Detta kapitel är inte klart ännu. Kolla gärna på en
+			presentation om säkerhet jag jorde för ett par år sedan
+			http://rejas.se/kurser/sakB/sakB-1.1/
+		</para>
 	</abstract>
 
 	<sect1><title>Hur farligt är Internet?</title>
@@ -4131,7 +4136,8 @@ Destination   Netmask          Gateway           Interface
 			<para>
 				En sak som är grundläggande när det gäller att hålla saker
 				hemliga är kryptering. Kryptering har man användt i princip
-				lika länge som människor har kommunicerat. Man kallar även
+				lika länge som människor har kommunicerat. Man vet att vi
+				använt kryptering sedan minst 4000år. Man kallar även
 				att kryptera för att chiffrera som betyder att dölja något.
 				Den okrypterade texten brukar kallas för klartext och den
 				krypterade brukar kallas chiffer. För att kryptera och
