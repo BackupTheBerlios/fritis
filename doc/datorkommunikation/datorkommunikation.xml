@@ -37,7 +37,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/22 16:15:02 $</pubdate>
+	<pubdate>$Date: 2004/01/25 08:25:40 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -46,7 +46,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.29 $</revnumber>
+			<revnumber>$Revision: 1.30 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -195,7 +195,7 @@
 
 <toc/>
 
-<chapter><title>Inledning</title>
+<chapter id="chap_inledning"><title>Inledning</title>
 
 	<abstract>
 		<para>
@@ -292,7 +292,7 @@
 	</sect1>
 </chapter>
 
-<chapter><title>Dataöverföring</title>
+<chapter id="chap_dataoverforing"><title>Dataöverföring</title>
 	<abstract>
 		<para>
 			Detta kapitel behandlar hur data kan föras över mellan två
@@ -601,7 +601,7 @@
 
 </chapter>
 
-<chapter><title>Seriell och parallell kommunikation</title>
+<chapter id="chap_serpar"><title>Seriell och parallell kommunikation</title>
 	<abstract>
 		<para>
 			Här behandlas seriell och parallell dataöverföring. Vad skiljer
@@ -880,7 +880,7 @@
 	</sect1>
 </chapter>
 
-<chapter><title>Datornätverk</title>
+<chapter id="datornatverk"><title>Datornätverk</title>
 	<abstract>
 		<para>
 			Att ansluta datorer till nätverk är idag regel snarare än
@@ -1192,7 +1192,7 @@
 	</sect1>
 </chapter>	
 
-<chapter><title>Nätverkskomponenter</title>
+<chapter id="chap_natverkskomponenter"><title>Nätverkskomponenter</title>
 	<abstract>
 		<para>
 			För att kunna bygga de nätverk som beskrevs i det förra
@@ -1526,7 +1526,7 @@
 	</sect1>
 </chapter>
 
-<chapter><title>Kablar och icke-kablar</title>
+<chapter id="chap_kablar"><title>Kablar och icke-kablar</title>
 	<!--Allmänt om kablar och icke-kablar
 		- Ledningsegenskaper och kapacitet samt deras praktiska innebörd
 		  vid datakommunikation
@@ -1885,7 +1885,7 @@
 
 </chapter>
 
-<chapter><title>Modem</title>
+<chapter id="chap_modem"><title>Modem</title>
 	<abstract>
 		<para>
 			För bara några år sedan kom internet-boomen till Sverige. Alla
@@ -2062,7 +2062,7 @@
 	</sect1>
 </chapter>
 
-<chapter><title>Publika telenätet</title>
+<chapter id="chap_publtele"><title>Publika telenätet</title>
 	<abstract>
 		<para>
 			Över det publika telenätet kan man använda en hel del olika
@@ -2184,7 +2184,7 @@
 	</sect1>
 </chapter>
 
-<chapter><title>Protokoll</title>
+<chapter id="chap_protokoll"><title>Protokoll</title>
 	<!--	- Olika typer av överförings- transport- och
 		  transmissionsprotokoll
 		- Referensmodeller som beskriver struktur och funktion för
@@ -2655,7 +2655,7 @@
 				dokumenten. 
 			</para>
 			<para>
-				I <xref linkend="app_rfc"/> finns länkar till några av de
+				I <xref linkend="rfc"/> finns länkar till några av de
 				RFC:er som behandlar det vi tagit up i denna bok samlade.
 			</para>
 		</sect2>
@@ -3039,7 +3039,7 @@
 	</sect1>
 </chapter>
 
-<chapter><title>Mer om Internets teknik</title>
+<chapter id="chap_internetteknik"><title>Mer om Internets teknik</title>
 	<abstract>
 		<para>
 			Vi har i föregående kapitel tittat på Internet och hur det
