@@ -365,7 +365,7 @@ numbering.
 		nätverksadress för ett verk som är publicerat mer än
 		fyra år före dokumentet självt, eller om den
 		ursprunglige utgivaren vars verk nätverksadressen
-		hänvisar til ger sitt tillstånd.
+		hänvisar till ger sitt tillstånd.
 	</simpara></listitem>
 	<listitem><simpara>
 		För alla avsnitt med titlarna "tillkännagivanden" eller
@@ -476,18 +476,18 @@ numbering.
 		Du äger skapa en samling bestående av dokumentet och
 		andra dokument som är släppta under denna licens, och
 		ersätta individuella kopior i dokumenten av denna licens
-		med en enda kopia som inkluderas i samlingen, förutsatt
-		att du följer villkoren för ordagrann kopiering i denna
-		licens för varje inkluderat dokument i alla andra
-		avseenden.
+		med en enda kopia [av den engelska originalversionen]
+		som inkluderas i samlingen, förutsatt att du följer
+		villkoren för ordagrann kopiering i denna licens för
+		varje inkluderat dokument i alla andra avseenden.
 	</para>
 	<para>
 		Du äger lyfta ut ett dokument från en sådan samling, och
 		sprida det enskilt under denna licens, förutsatt att du
-		lägger till en kopia av denna licens i det utlyfta
-		dokumentet, och följer villkoren för ordagrann kopiering
-		i denna licens för det utlyfta dokumentet i alla andra
-		avseenden.
+		lägger till en kopia av denna licens [den engelska
+		originalversionen] i det utlyfta dokumentet, och följer
+		villkoren för ordagrann kopiering i denna licens för det
+		utlyfta dokumentet i alla andra avseenden.
 	</para>
 </sect1>
 
@@ -518,18 +518,19 @@ numbering.
 <sect1 id="gfdl-sv-8"><title>8. ÖVERSÄTTNING</title>
 	<para>
 		Översättning anses vara en sorts förändring, så du äger
-		sprida översättningar av dokumentet under de
-		villkor som sätts i paragraf 4. Oföränderliga avsnitt som
-		ersätts med översättningar kräver tillstånd från deras
+		sprida översättningar av dokumentet under de villkor som
+		sätts i paragraf 4. Oföränderliga avsnitt som ersätts
+		med översättningar kräver tillstånd från deras
 		upphovsrättsinnehavare, men du äger inkludera
 		översättningar av alla eller vissa av dessa
-		oföränderliga avsnitt tillsammans med originalversionerna
-		av dessa oföränderliga avsnitt. Du äger inkludera en
-		översättning av denna licens, och alla licensklausuler i
-		dokumentet, och alla garantiavsägelser, förutsatt
-		att du också innefattar den engelska originalversionen av
-		denna licens och originalversionerna av dessa klausuler.
-		Skulle det finnas skillnader mellan översättningen och
+		oföränderliga avsnitt tillsammans med
+		originalversionerna av dessa oföränderliga avsnitt. Du
+		äger inkludera en översättning av denna licens, och alla
+		licensklausuler i dokumentet, och alla
+		garantiavsägelser, förutsatt att du också innefattar den
+		engelska originalversionen av denna licens och
+		originalversionerna av dessa klausuler.  Skulle det
+		finnas skillnader mellan översättningen och
 		originalversionen av denna licens eller någon klausul så
 		gäller originalversionen.
 	</para>
