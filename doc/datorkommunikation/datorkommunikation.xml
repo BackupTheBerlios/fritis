@@ -14,71 +14,69 @@
 <book lang="sv" status="draft">
 <bookinfo>
 
-<title>Datorkommunikation</title>
+	<title>Datorkommunikation</title>
+
+	<author>
+		<firstname>Marcus</firstname> 
+		<surname>Rejås</surname>
+		<affiliation>
+			<orgname>Rejås Datakonsult</orgname>
+			<address><email>marcus@rejas.se</email></address>
+		</affiliation>
+	</author>
+	<!--
+	<othercredit>
+		<firstname>Johan</firstname>
+		<surname>Hammar</surname>
+		<contrib>
+			Mycket uppskattad korrekturläsning.
+		</contrib>
+	</othercredit>
+	-->
+
+	<pubdate>$Date: 2004/01/20 08:35:30 $</pubdate>
+
+	<copyright>
+		<year>2003, 2004</year>
+		<holder>Marcus Rejås</holder>
+	</copyright>
+
+	<revhistory>
+		<revision>
+			<revnumber>$Revision: 1.19 $</revnumber>
+			<date></date>
+			<revremark>Utvecklingsversion</revremark>
+		</revision>
+	</revhistory>
 
 
+	<legalnotice>
+		<para>
+			Var och en äger rätt att kopiera, sprida och/eller förändra
+			detta dokument under villkoren i licensen "GNU Free
+			Documentation License", version 1.2 eller senare publicerad av
+			Free Software Foundation, med de oföränderliga avsnitten <xref
+			linkend="dtr1201"/> och <xref linkend="forord"/>, utan
+			framsidestexter och utan baksidestexter.  En kopia av denna
+			licens finns med i avsnittet med titeln "GNU Free Documentation
+			License".
+		</para>
+		<para>
+			Det vill säga, du kan fritt ladda ner, vidaredistribuera och
+			kopiera denna bok. Du får ändra den om du vill (se
+			licenstexten).  Tryckta böcker kan köpas av TriNix AB i
+			Helsingborg, telefon 042-127800.
+		</para>
+	</legalnotice>
 
-<author>
-	<firstname>Marcus</firstname> 
-	<surname>Rejås</surname>
-	<affiliation>
-      		<orgname>Rejås Datakonsult</orgname>
-		<address><email>marcus@rejas.se</email></address>
-    	</affiliation>
-</author>
-<!--
-<othercredit>
-	<firstname>Johan</firstname>
-	<surname>Hammar</surname>
-	<contrib>
-		Mycket uppskattad korrekturläsning.
-	</contrib>
-</othercredit>
--->
-<pubdate>$Date: 2004/01/20 06:43:01 $</pubdate>
-
-<copyright>
-	<year>2003, 2004</year>
-	<holder>Marcus Rejås</holder>
-</copyright>
-
-<legalnotice>
-	<para>
-		Var och en äger rätt att kopiera, sprida och/eller förändra detta
-		dokument under villkoren i licensen "GNU Free Documentation
-		License", version 1.2 eller senare publicerad av Free Software
-		Foundation, med de oföränderliga avsnitten <xref
-		linkend="dtr1201"/> och <xref linkend="forord"/>, utan
-		framsidestexter och utan baksidestexter.  En kopia av denna licens
-		finns med i avsnittet med titeln "GNU Free Documentation License".
-	</para>
-	<para>
-	
-		Det vill säga, du kan fritt ladda ner, vidaredistribuera och
-		kopiera denna bok. Du får ändra den om du vill (se licenstexten).
-		Tryckta böcker kan köpas av TriNix AB i Helsingborg, telefon
-		042-127800.
-		
-	</para>
-</legalnotice>
-
-<revhistory>
-<revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.18 2004/01/20 06:43:01 rejas Exp $</revnumber>
-	<date></date>
-	<revremark>Utvecklingsversion</revremark>
-</revision>
-</revhistory>
-
-<abstract>
-<para>
-
-	Denna bok är anpassad för gymnasieskolans kurs datorkommunikation med
-	kurskoden DTR1201 (<xref linkend="dtr1201"/>). Den kan naturligtvis
-	användas även i andra sammanhang.
-
-</para>
-</abstract>
+	<abstract>
+		<para>
+			Denna bok är anpassad för gymnasieskolans kurs
+			datorkommunikation med kurskoden DTR1201 (<xref
+			linkend="dtr1201"/>). Den kan naturligtvis användas även i
+			andra sammanhang.
+		</para>
+	</abstract>
 
 </bookinfo>
 
@@ -556,6 +554,7 @@
 			13 skrivs alltså D hexadecimalt.
 		</para>
 	</sect1>
+
 	<sect1><title>Bit, Byte kByte, ...</title>
 		<para>
 			Inom matematiken har vi sedan länge lärt oss att prefixen kilo
@@ -1279,124 +1278,127 @@
 	</sect1>
 
 	<sect1><title>Datorer/Servrar</title>
-	<para>
-		Datorer kan anses som de viktigaste komponenterna i ett
-		datornätverk. Utan dem blir det inte mycket till nätverk. Det
-		minsta nätverk man kan bygga är med hjälp av två datorer med något
-		typ av kommunikationskort och en kabel.
-	</para>
-	<para>
-		Det vanligaste typen av kommunikationskort eller gränssnitt man
-		använder på en dator är ett <emphasis>nätverkskort</emphasis>. Det
-		vanligaste typen av nätverkkort idag är ethernet-kort. Dessa har
-		oftast ett uttag för en kabel med ett kontaktdon som kallas för
-		RJ-45. RJ-45 ser ungefär som den koppling som finns på en del
-		telefoner. Den kontakt som sitter på telefonen heter RJ-11 och har
-		fyra ledningar medan RJ-45 har åtta. RJ-11 kallas även för
-		modulärkontakt. RJ står för Registered Jack.
-	</para>
-	<para>
-		Varje nätverkskort har en unik adress. Denna kallas för kortets
-		<emphasis>hårdvaruadress</emphasis> eller
-		<emphasis>MAC-adress</emphasis>. MAC står för
-		<emphasis>Media Access Control</emphasis> och är nödvändig för att
-		kunna identifiera de olika datorerna på nätverket. MAC-adresserna
-		är alltså unika på alla nätverkskort som säljs. Detta samordnas
-		centralt av en organisation som heter <emphasis>IEEE</emphasis>.
-		IEEE (uttalas "i-triple-e") är en förkortning för Institute for
-		Electric and Electronic Engineers och är en organisation av
-		personer och företag inom elektricitet, elektronik och datorer.
-	</para>
-	<para>
-		En dator kan ha flera olika roller i ett nätverk. Den kan vara
-		till exempel en arbetsstation vid vilken någon sitter och jobbar.
-		Det kan också vara en <emphasis>server</emphasis>. En server är en
-		dator som förser nätverket med en eller flera tjänster (Eng.
-		services). Egentligen är en server inte en hårdvara utan själva
-		programvaran som implementerar tjänsten men det har blivit så att
-		man även kallar själva datorn som kör servern eller servrarna för
-		en server. Det finns speciella datorer som kallas servrar. Det som
-		skiljer dessa från vanliga datorer är att de brukar vara
-		kraftigare byggda och ha mer påkostade fläktar och diskar.
-		Funktionsmässigt är det ingen större skillnad så länge det rör sig
-		om samma datorarkitektur.
-	</para>
-	<para>
-		En dator kan också vara en <emphasis>terminal</emphasis>. En
-		terminal är brukar kallas för en "dum" terminal och är en dator
-		som inte själv har så mycket resurser utan är knuten till en
-		server vars tjänster terminalen är helt beroende av. Terminalerna
-		bestod tidigare av bara en skärm och ett tangentbord som var
-		kopplade direkt till en dator antingen via en vanlig kabel eller
-		via telefonnätet eller andra större nätverk. De hade alltså ingen
-		egen datorkapacitet. Idag är detta inte så vanligt. Använder man
-		terminalsystem idag så är det oftast så att man kör ett
-		terminalemulerningsprogram på sin PC. 
-	</para>
-	<para>
-		Det har dock på senare tid blivit vanligt med tunna klienter.
-		Dessa fungerar ungefär som terminalerna gjorde men en tunn klient
-		har lite egna resurser men kör alla program direkt från en server.
-		Det har flera fördelar. För det första så blir dessa tunna
-		klienter mycket billigare och har längre livslängd än PC-datorer.
-		En andra fördel är att service och uppgraderingar av programvaror
-		lättare kan skötas centralt. Alla klienter kör ju samma
-		programvaror från servern så om denna uppgraderas så har alla
-		klienter uppgraderats på en gång.
-	</para>
+		<para>
+			Datorer kan anses som de viktigaste komponenterna i ett
+			datornätverk. Utan dem blir det inte mycket till nätverk. Det
+			minsta nätverk man kan bygga är med hjälp av två datorer med
+			något typ av kommunikationskort och en kabel.
+		</para>
+		<para>
+			Det vanligaste typen av kommunikationskort eller gränssnitt man
+			använder på en dator är ett <emphasis>nätverkskort</emphasis>.
+			Det vanligaste typen av nätverkkort idag är ethernet-kort.
+			Dessa har oftast ett uttag för en kabel med ett kontaktdon som
+			kallas för RJ-45. RJ-45 ser ungefär som den koppling som finns
+			på en del telefoner. Den kontakt som sitter på telefonen heter
+			RJ-11 och har fyra ledningar medan RJ-45 har åtta. RJ-11 kallas
+			även för modulärkontakt. RJ står för Registered Jack.
+		</para>
+		<para>
+			Varje nätverkskort har en unik adress. Denna kallas för kortets
+			<emphasis>hårdvaruadress</emphasis> eller
+			<emphasis>MAC-adress</emphasis>. MAC står för <emphasis>Media
+			Access Control</emphasis> och är nödvändig för att kunna
+			identifiera de olika datorerna på nätverket. MAC-adresserna är
+			alltså unika på alla nätverkskort som säljs. Detta samordnas
+			centralt av en organisation som heter
+			<emphasis>IEEE</emphasis>.  IEEE (uttalas "i-triple-e") är en
+			förkortning för Institute for Electric and Electronic Engineers
+			och är en organisation av personer och företag inom
+			elektricitet, elektronik och datorer.
+		</para>
+		<para>
+			En dator kan ha flera olika roller i ett nätverk. Den kan vara
+			till exempel en arbetsstation vid vilken någon sitter och
+			jobbar.  Det kan också vara en <emphasis>server</emphasis>. En
+			server är en dator som förser nätverket med en eller flera
+			tjänster (Eng.  services). Egentligen är en server inte en
+			hårdvara utan själva programvaran som implementerar tjänsten
+			men det har blivit så att man även kallar själva datorn som kör
+			servern eller servrarna för en server. Det finns speciella
+			datorer som kallas servrar. Det som skiljer dessa från vanliga
+			datorer är att de brukar vara kraftigare byggda och ha mer
+			påkostade fläktar och diskar.  Funktionsmässigt är det ingen
+			större skillnad så länge det rör sig om samma datorarkitektur.
+		</para>
+		<para>
+			En dator kan också vara en <emphasis>terminal</emphasis>. En
+			terminal är brukar kallas för en "dum" terminal och är en dator
+			som inte själv har så mycket resurser utan är knuten till en
+			server vars tjänster terminalen är helt beroende av.
+			Terminalerna bestod tidigare av bara en skärm och ett
+			tangentbord som var kopplade direkt till en dator antingen via
+			en vanlig kabel eller via telefonnätet eller andra större
+			nätverk. De hade alltså ingen egen datorkapacitet. Idag är
+			detta inte så vanligt. Använder man terminalsystem idag så är
+			det oftast så att man kör ett terminalemulerningsprogram på sin
+			PC. 
+		</para>
+		<para>
+			Det har dock på senare tid blivit vanligt med tunna klienter.
+			Dessa fungerar ungefär som terminalerna gjorde men en tunn
+			klient har lite egna resurser men kör alla program direkt från
+			en server.  Det har flera fördelar. För det första så blir
+			dessa tunna klienter mycket billigare och har längre livslängd
+			än PC-datorer.  En andra fördel är att service och
+			uppgraderingar av programvaror lättare kan skötas centralt.
+			Alla klienter kör ju samma programvaror från servern så om
+			denna uppgraderas så har alla klienter uppgraderats på en gång.
+		</para>
 	</sect1>
 
 	<sect1><title>Hubb</title>
-	<para>
-		En hubb, från engelskans hub = nav, är namnet på den centrala
-		knytpunkten, nätnavet, i ett stjärnnät. Det är också namnet på en
-		nätverkskomponent som används just i detta syfte. En hubb fungerar
-		som en grenkoppling. Alla signaler som kommer in på ett uttag på
-		hubben skickas ut på alla andra uttag på samma gång. En nackdel
-		med detta är att bara en ansluten nod i taget kan sända. Sänder en
-		så skickas det till alla andra på en gång och hela nätet blir
-		således upptaget. Det är väldigt vanligt med kollisioner i ett nät
-		där man har just en hubb som nätnav. De flesta hubbar har en
-		lysdiod som indikerar när det är en kollision på nätet. Denna
-		lampa kan man använda som en indikator för att se hur mycket
-		kollisioner det är på nätverket. Mycket kollisioner gör att
-		nätverket får minskad kapacitet och upplevs som långsamt. Man kan
-		då välja att segmentera nätverket eller skaffa en switch (se nästa
-		stycke). Ett annat relaterat problem är att eftersom all trafik
-		kommer fram till alla datorer kan en ond användare ta del av
-		information som inte är avsedd för henne vilket är en
-		säkerhets-risk.
-		
-		<figure id="fig_hubb"><title>Kommunikation över en hubb</title>
-			<mediaobject>
-  				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
-        		</imageobject>
-  				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
-        		</imageobject>
-				<textobject>
-					<phrase>
-						Bild som visar hur trafik från en sändande dator
-						kommer fram till alla andra när de är anslutna till
-						ett stjärnnät med en hubb som nätnav.
-					</phrase>
-				</textobject>
-				<caption>
-					<para>
-						Kommunikation över en hubb. När dator B sänder data
-						över nätverket så når det inte bara avsedd mottagare
-						utan även alla andra anslutna till hubben. Det gör att
-						bara en kan sända i taget vilket gör att fler
-						kollisioner uppstår och att nätverket kan gå
-						långsammare.
-					</para>
-				</caption>
-			</mediaobject>
-		</figure>
-		
-		
-	</para>
+		<para>
+			En hubb, från engelskans hub = nav, är namnet på den centrala
+			knytpunkten, nätnavet, i ett stjärnnät. Det är också namnet på
+			en nätverkskomponent som används just i detta syfte. En hubb
+			fungerar som en grenkoppling. Alla signaler som kommer in på
+			ett uttag på hubben skickas ut på alla andra uttag på samma
+			gång. En nackdel med detta är att bara en ansluten nod i taget
+			kan sända. Sänder en så skickas det till alla andra på en gång
+			och hela nätet blir således upptaget. Det är väldigt vanligt
+			med kollisioner i ett nät där man har just en hubb som nätnav.
+			De flesta hubbar har en lysdiod som indikerar när det är en
+			kollision på nätet. Denna lampa kan man använda som en
+			indikator för att se hur mycket kollisioner det är på
+			nätverket. Mycket kollisioner gör att nätverket får minskad
+			kapacitet och upplevs som långsamt. Man kan då välja att
+			segmentera nätverket eller skaffa en switch (se nästa stycke).
+			Ett annat relaterat problem är att eftersom all trafik kommer
+			fram till alla datorer kan en ond användare ta del av
+			information som inte är avsedd för henne vilket är en
+			säkerhetsrisk.
+			
+			<figure id="fig_hubb"><title>Kommunikation över en hubb</title>
+				<mediaobject>
+					<imageobject>
+						<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+					</imageobject>
+					<imageobject>
+						<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+					</imageobject>
+					<textobject>
+						<phrase>
+							Bild som visar hur trafik från en sändande dator
+							kommer fram till alla andra när de är anslutna till
+							ett stjärnnät med en hubb som nätnav.
+						</phrase>
+					</textobject>
+					<caption>
+						<para>
+							Kommunikation över en hubb. När dator B sänder data
+							över nätverket så når det inte bara avsedd
+							mottagare utan även alla andra anslutna till
+							hubben. Det gör att bara en kan sända i taget
+							vilket gör att fler kollisioner uppstår och att
+							nätverket kan gå långsammare.
+						</para>
+					</caption>
+				</mediaobject>
+			</figure>
+			
+			
+		</para>
 	</sect1>
 	
 	<sect1><title>Switch</title>
@@ -1454,88 +1456,90 @@
 	</sect1>
 	
 	<sect1><title>Repeater</title>
-	<para>
-		En repeater kan jämföras med en förstärkare. En repeater har
-		ingångar och utgångar, den lyssnar på ingångarna och förstärker
-		signalerna och skickar dem på utgångarna. En repeater har ingen
-		intelligens alls utan förstärker bara det den hör och skickar
-		vidare. En repeater används vid kommunikation över större avstånd
-		och för att koppla ihop olika nätverkssegment i ett nätverk.
-	</para>
+		<para>
+			En repeater kan jämföras med en förstärkare. En repeater har
+			ingångar och utgångar, den lyssnar på ingångarna och förstärker
+			signalerna och skickar dem på utgångarna. En repeater har ingen
+			intelligens alls utan förstärker bara det den hör och skickar
+			vidare. En repeater används vid kommunikation över större
+			avstånd och för att koppla ihop olika nätverkssegment i ett
+			nätverk.
+		</para>
 	</sect1>
 	
 	<sect1><title>Brygga</title>
-	<para>
-		En brygga fungerar ungefär som en repeater med den skillnaden att
-		den kan konvertera mellan olika nätverksprotokoll och kablar. En
-		brygga används när man vill koppla ihop nätverkssegment av olika
-		slag.
-	</para>
+		<para>
+			En brygga fungerar ungefär som en repeater med den skillnaden
+			att den kan konvertera mellan olika nätverksprotokoll och
+			kablar. En brygga används när man vill koppla ihop
+			nätverkssegment av olika slag.
+		</para>
 	</sect1>
 	
 	<sect1><title>Brouter</title>
-	<para>
-		Namnet brouter är en lek med ord. Det är en sammanslagning av de
-		engelska orden Bridge (brygga) och Router. Det är en brygga som
-		också fungerar som en Router (se nedan).
-	</para>
+		<para>
+			Namnet brouter är en lek med ord. Det är en sammanslagning av
+			de engelska orden Bridge (brygga) och Router. Det är en brygga
+			som också fungerar som en Router (se nedan).
+		</para>
 	</sect1>
 	
 	<sect1><title>Router</title>
-	<para>
-		En router är en nätverkskomponent som kopplar samman olika
-		nätverk. Den kopplar inte samman näten så blint som en brygga
-		eller repeater utan en Router läser nätverkstrafiken och bedömer
-		vilken trafik som skall till vilket nät. En router kan vara
-		ansluten till flera nät. Att läsa nätverkstrafik och skicka den
-		vidare åt olika håll beroende på deras destination kallas för att
-		<emphasis>routa</emphasis> på klingande svengelska. För att veta
-		år vilket håll inkommen nätverkstrafik skall använder sig en
-		router av en <emphasis>routingtabell</emphasis> där det finns
-		listat var olika datorer och nätverk finns. Routingtabellen kan
-		vara statisk, det vill säga sparad på en disk i routern och ändras
-		inte, eller dynamisk. En dynamisk routingtabell uppdateras
-		automatiskt utifrån hur omgivningen ser ut.
-	</para>
+		<para>
+			En router är en nätverkskomponent som kopplar samman olika
+			nätverk. Den kopplar inte samman näten så blint som en brygga
+			eller repeater utan en Router läser nätverkstrafiken och
+			bedömer vilken trafik som skall till vilket nät. En router kan
+			vara ansluten till flera nät. Att läsa nätverkstrafik och
+			skicka den vidare åt olika håll beroende på deras destination
+			kallas för att <emphasis>routa</emphasis> på klingande
+			svengelska. För att veta år vilket håll inkommen nätverkstrafik
+			skall använder sig en router av en
+			<emphasis>routingtabell</emphasis> där det finns listat var
+			olika datorer och nätverk finns. Routingtabellen kan vara
+			statisk, det vill säga sparad på en disk i routern och ändras
+			inte, eller dynamisk. En dynamisk routingtabell uppdateras
+			automatiskt utifrån hur omgivningen ser ut.
+		</para>
 	</sect1>
 	
 	<sect1><title>Gateway</title>
-	<para>
-		En gateway finns på de flesta lokala nätverk och är oftast en väg
-		ut på ett större nät. En gateway kan precis som routern läsa
-		nätverkstrafiken och konvertera den men har en specifik uppgift
-		att koppla samman ett nät med ett annat. En router kan sitta på
-		ett nät och bara tala med andra routrar medan en gateway har
-		datorer åtminstone på sin ena sida.
-	</para>
+		<para>
+			En gateway finns på de flesta lokala nätverk och är oftast en
+			väg ut på ett större nät. En gateway kan precis som routern
+			läsa nätverkstrafiken och konvertera den men har en specifik
+			uppgift att koppla samman ett nät med ett annat. En router kan
+			sitta på ett nät och bara tala med andra routrar medan en
+			gateway har datorer åtminstone på sin ena sida.
+		</para>
 	</sect1>
 	
 	<sect1><title>Brandvägg</title>
-	<para>
-		En gateway mellan till exempel ett lokalt nätverk och Internet
-		kombineras ofta med en brandvägg (eng. Firewall). En brandvägg är
-		en speciell sorts router som bara routar vidare den trafik som
-		uppfyller vissa krav.  Trafik som inte uppfyller kraven kastas
-		bort vilket gör att mottagaren av den "förbjudna" trafiken skyddas
-		från den. 
-	</para>
-	<para>
-		Oftast har man en brandvägg mellan ett lokalt nätverk och Internet
-		men man kan även ha brandväggar på det interna nätet. Ibland har
-		man brandväggar på själva den datorn som skall skyddas. Den
-		fungerar på samma sätt som en vanlig brandvägg med den enda
-		skillnaden att den inte routar till och från ett helt nätverk utan
-		bara till och från den aktuella datorn.
-	</para>
-	<para>
-		Det som avgör om en viss trafik skall släppas igenom eller inte
-		kallas för <emphasis>brandväggsregler</emphasis> eller bara regler
-		om det inte råder några tvivel om vad man talar om.
-	</para>
-	<para>
-		Vi kommer att tala mer om brandväggar i <xref
-		linkend="chap_sakerhet"/>
-	</para>
+		<para>
+			En gateway mellan till exempel ett lokalt nätverk och Internet
+			kombineras ofta med en brandvägg (eng. Firewall). En brandvägg
+			är en speciell sorts router som bara routar vidare den trafik
+			som uppfyller vissa krav.  Trafik som inte uppfyller kraven
+			kastas bort vilket gör att mottagaren av den "förbjudna"
+			trafiken skyddas från den. 
+		</para>
+		<para>
+			Oftast har man en brandvägg mellan ett lokalt nätverk och
+			Internet men man kan även ha brandväggar på det interna nätet.
+			Ibland har man brandväggar på själva den datorn som skall
+			skyddas. Den fungerar på samma sätt som en vanlig brandvägg med
+			den enda skillnaden att den inte routar till och från ett helt
+			nätverk utan bara till och från den aktuella datorn.
+		</para>
+		<para>
+			Det som avgör om en viss trafik skall släppas igenom eller inte
+			kallas för <emphasis>brandväggsregler</emphasis> eller bara
+			regler om det inte råder några tvivel om vad man talar om.
+		</para>
+		<para>
+			Vi kommer att tala mer om brandväggar i <xref
+			linkend="chap_sakerhet"/>
+		</para>
 	</sect1>
 
 	<sect1><title>Sammanhängande exempel</title>
@@ -1928,170 +1932,163 @@
 </chapter>
 
 <chapter><title>Modem</title>
-<abstract><para>
-	I detta kapitel tittar vi närmare på modem. Vad ett modem är och
-	hur det fungerar.
-</para></abstract>
+	<abstract>
+		<para>
+			I detta kapitel tittar vi närmare på modem. Vad ett modem är
+			och hur det fungerar.
+		</para>
+	</abstract>
 
-<sect1><title>Introduktion</title>
-<para>
+	<sect1><title>Introduktion</title>
+		<para>
+			Som vi sagt tidigare så är vissa medier, till exempel
+			telefonnätet, gjorda för att transportera analoga signaler.
+			Ofta vill man transportera digital data över en analog
+			förbindelse.  Till detta används en utrustning som kallas för
+			<emphasis>modem</emphasis>. Modem är en förkortning för
+			<emphasis>Modulator/Demodulator</emphasis> och kommer från
+			modemets huvudsakliga funktion. Att modulera innebär att man
+			översätter digitala signaler till analoga och att demodulera
+			innebär att man reverserar processen genom att omvandla de
+			analoga signalerna tillbaka till digitala.
+		</para>
+		<para>
+			Modem har traditionellt varit det vanligaste sättet för
+			privatpersoner att ansluta sig till Internet. Alla
+			Internetleverantören (Internet Service Provider, ISP) erbjuder
+			tjänsten uppringt Internet, det vill säga Internet via ett
+			modem anslutet till telenätet. I dag blir detta dock allt
+			mindre vanligt då nya snabbare tjänster erbjuds. Mer som dessa
+			kommer i kapitlet om Internet (<xref
+			linkend="chap_internet"/>).
+		</para>
+	</sect1>
 
-	Som vi sagt tidigare så är vissa medier, till exempel
-	telefonnätet, gjorda för att transportera analoga signaler.
-	Ofta vill man transportera digital data över en analog
-	förbindelse. Till detta används en utrustning som kallas för
-	<emphasis>modem</emphasis>. Modem är en förkortning för
-	<emphasis>Modulator/Demodulator</emphasis> och kommer från
-	modemets huvudsakliga funktion. Att modulera innebär att man
-	översätter digitala signaler till analoga och att demodulera
-	innebär att man reverserar processen genom att omvandla de
-	analoga signalerna tillbaka till digitala.
+	<sect1><title>Olika sätt att modulera</title>
+		<para>
+			När ett modem modulerar en digital signal finns det flera olika
+			sätt att göra det på. I slutändan blir det någon typ av ljud
+			med olika egenskaper. Man kan välja att ändra den analoga
+			signalen på flera olika sätt för att kunna koda in digitala
+			signaler i den.
+		</para>
 
-</para>
+		<sect2><title>Amplitudmodulering</title>
+			<para>
+				Amplitudmodulering innebär att man genom att ändra
+				amplituden i signalen. Det vill säga 1:or ges en amplitud
+				och 0:or en annan.  Denna metod är inte så effektiv,
+				eftersom den till exempel är väldigt beroende av att
+				signalen inte dämpas på vägen, och användes i de första
+				modemen. 
 
-<para>
+				<figure id="fig_amplitudmodulering">
+					<title>Amplitudmodulering</title>
 
-	Modem har traditionellt varit det vanligaste sättet för
-	privatpersoner att ansluta sig till Internet. Alla
-	Internetleverantören (Internet Service Provider, ISP) erbjuder
-	tjänsten uppringt Internet, det vill säga Internet via ett modem
-	anslutet till telenätet. I dag blir detta dock allt mindre
-	vanligt då nya snabbare tjänster erbjuds. Mer som dessa kommer i
-	kapitlet om Internet (<xref linkend="chap_internet"/>).
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+						</imageobject>
+						<imageobject>
+							<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+						</imageobject>
+						<textobject>
+							<phrase>
+								Bild som visar en analog kurva som varierar i
+								amplitud där de olika amplituderna betyder 0:a
+								eller 1:a.
+							</phrase>
+						</textobject>
+						<caption>
+							<para>
+								Vid amplitudmodulering används olika amplituder för
+								att bära antingen 1:or eller 0:or. I figuren
+								innebär till exempel en högre amplitud en 1:a och
+								en lägre en 0:a. Denna metod är dock väldigt
+								känslig för till exempel att signalen blir dämpad
+								och användes bara i de första modemen.
+							</para>
+						</caption>
+					</mediaobject>
+				</figure>
+			</para>
+		</sect2>
 
-</para>
-</sect1>
+		<sect2><title>Frekvensmodulering</title>
+			<para>
 
-<sect1><title>Olika sätt att modulera</title>
-<para>
-	När ett modem modulerar en digital signal finns det flera olika
-	sätt att göra det på. I slutändan blir det någon typ av ljud med
-	olika egenskaper. Man kan välja att ändra den analoga signalen
-	på flera olika sätt för att kunna koda in digitala signaler i
-	den.
-</para>
+				Frekvensmudulering innebär att man skickar en signal med
+				konstant amplitud men att frekvensen ändras. Denna metod är
+				bättre än amplitudmodulering.
 
-<sect2><title>Amplitudmodulering</title>
-<para>
+				<figure id="fig_frekvensmodulering">
+					<title>Frekvensmodulering</title>
 
-	Amplitudmodulering innebär att man genom att ändra amplituden i
-	signalen. Det vill säga 1:or ges en amplitud och 0:or en annan.
-	Denna metod är inte så effektiv, eftersom den till exempel är
-	väldigt beroende av att signalen inte dämpas på vägen, och
-	användes i de första modemen. 
+					<mediaobject>
+						<imageobject>
+							<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+						</imageobject>
+						<imageobject>
+							<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+						</imageobject>
+						<textobject>
+							<phrase>
+								Bild som visar en analog kurva som varierar i
+								frekvens där de olika frekvenserna betyder 0:a
+								eller 1:a.
+							</phrase>
+						</textobject>
+						<caption><para>
+								Vid frekvensmodulering används olika frekvenser
+								för att bära antingen 1:or eller 0:or. I figuren
+								innebär till exempel en högre frekvens en 1:a
+								och en lägre en 0:a.
+						</para></caption>
+					</mediaobject>
+				</figure>
+			</para>
+		</sect2>
 
-	<figure id="fig_amplitudmodulering">
-	<title>Amplitudmodulering</title>
+		<sect2><title>Fasskiftesmodulering</title>
+			<para>
+				Ett tredje sätt att bädda in digitala signaler i en analog
+				är att använda sig av fasskiftesmodulering. Det innebär att
+				man utgår från en sinusformad signal och bestämmer att ett
+				fasskifte har en viss innebörd. Eftersom man kan välja att
+				byta fas vid olika ställen (vinklar) så kan man skicka mer
+				information än 1:or och 0:or. Till exempel kan man bestämma
+				att vissa lägen betyder 00, 01, 10 och 11.
 
-	<mediaobject>
-  		<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
-        	</imageobject>
-  		<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
-        	</imageobject>
-		<textobject>
-			<phrase>
-				Bild som visar en analog kurva som
-				varierar i amplitud där de olika
-				amplituderna betyder 0:a eller 1:a.
-			</phrase>
-		</textobject>
-		<caption><para>
-				Vid amplitudmodulering används olika
-				amplituder för att bära antingen 1:or
-				eller 0:or. I figuren innebär till
-				exempel en högre amplitud en 1:a och en
-				lägre en 0:a. Denna metod är dock
-				väldigt känslig för till exempel att
-				signalen blir dämpad och användes bara i
-				de första modemen.
-		</para></caption>
-	</mediaobject>
-	</figure>
-</para>
-</sect2>
+				<figure id="fig_fasskiftesmodulering">
+					<title>Fasskiftesmodulering</title>
 
-<sect2><title>Frekvensmodulering</title>
-<para>
-
-	Frekvensmudulering innebär att man skickar en signal med
-	konstant amplitud men att frekvensen ändras. Denna metod är
-	bättre än amplitudmodulering.
-
-	<figure id="fig_frekvensmodulering">
-	<title>Frekvensmodulering</title>
-
-	<mediaobject>
-  		<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
-        	</imageobject>
-  		<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
-        	</imageobject>
-		<textobject>
-			<phrase>
-				Bild som visar en analog kurva som
-				varierar i frekvens där de olika
-				frekvenserna betyder 0:a eller 1:a.
-			</phrase>
-		</textobject>
-		<caption><para>
-				Vid frekvensmodulering används olika
-				frekvenser för att bära antingen 1:or
-				eller 0:or. I figuren innebär till
-				exempel en högre frekvens en 1:a och en
-				lägre en 0:a.
-		</para></caption>
-	</mediaobject>
-	</figure>
-</para>
-</sect2>
-
-<sect2><title>Fasskiftesmodulering</title>
-<para>
-
-	Ett tredje sätt att bädda in digitala signaler i en analog är att
-	använda sig av fasskiftesmodulering. Det innebär att man utgår
-	från en sinusformad signal och bestämmer att ett fasskifte har
-	en viss innebörd. Eftersom man kan välja att byta fas vid olika
-	ställen (vinklar) så kan man skicka mer information än 1:or och
-	0:or. Till exempel kan man bestämma att vissa lägen betyder 00,
-	01, 10 och 11.
-
-	<figure id="fig_fasskiftesmodulering">
-	<title>Fasskiftesmodulering</title>
-
-	<mediaobject>
-  		<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
-        	</imageobject>
-  		<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
-        	</imageobject>
-		<textobject>
-			<phrase>
-				Bild som visar en analog kurva som
-				i vissa lägen byter fas.
-			</phrase>
-		</textobject>
-		<caption><para>
-				Vid fasskiftesmodulering utgår man från
-				en sinusformad kurva och låter den byta
-				fas vid bestämda lägen. Ett fasskifte på
-				ett visst ställe i cykeln betyder en
-				viss sak, till exempel en 1:a eller 0:a.
-				Det finns också utrymme för att
-				specificera följder av tecken, till
-				exempel 00, 01, 10 eller 11.
-		</para></caption>
-	</mediaobject>
-	</figure>
-</para>
-</sect2>
-
-</sect1>
-
+					<mediaobject>
+						<imageobject>
+									<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+							</imageobject>
+						<imageobject>
+									<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+							</imageobject>
+						<textobject>
+							<phrase>
+								Bild som visar en analog kurva som i vissa lägen
+								byter fas.
+							</phrase>
+						</textobject>
+						<caption><para>
+								Vid fasskiftesmodulering utgår man från en
+								sinusformad kurva och låter den byta fas vid
+								bestämda lägen. Ett fasskifte på ett visst
+								ställe i cykeln betyder en viss sak, till
+								exempel en 1:a eller 0:a.  Det finns också
+								utrymme för att specificera följder av tecken,
+								till exempel 00, 01, 10 eller 11.
+						</para></caption>
+					</mediaobject>
+				</figure>
+			</para>
+		</sect2>
+	</sect1>
 </chapter>
 
 <chapter><title>Publika telenätet</title>
