@@ -52,7 +52,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/07/14 21:01:13 $</pubdate>
+	<pubdate>$Date: 2004/08/17 06:28:22 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.49 $</revnumber>
+			<revnumber>$Revision: 1.50 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -113,9 +113,10 @@
 		<para>
 			Jag vill börja denna bok med att tacka alla som hjälpt mig med
 			den. Framför allt då <emphasis>Johan Hammar</emphasis> och
-			Kalevi Nyman som ställt upp med korrekturläsning och XXXX XXXX
-			som ritat alla fina bilder. Utan er hade boken inte varit så
-			bra som den är idag. Tack!
+			<emphasis>Kalevi Nyman</emphasis> som ställt upp med
+			korrekturläsning och <emphasis>XXXX XXXX</emphasis> som ritat
+			alla fina bilder. Utan er hade boken inte varit så bra som den
+			är idag. Tack!
 		</para>
 		<para>
 			Jag vill också tacka dig som läser denna bok. Hittar du något
@@ -126,17 +127,18 @@
 			läsare skall skicka mig kommentarer så att vi tillsammans kan
 			göra den mycket bättre än vad jag och kanske du skulle ensamma.
 			Några exempel på de som gjort detta är <emphasis>Bengt
-			Gördén</emphasis> som gett mycket bra feedback om NAT och Pär
-			Lindskog som gett bra feedback angående IMAP. Tack!
+			Gördén</emphasis> som gett mycket bra feedback om NAT och
+			<emphasis>Pär Lindskog</emphasis> som gett bra feedback
+			angående IMAP. Tack!
 		</para>
 		<para>
-			Sist vill jag tacka min Jenny som står ut med att ha en
-			datanörd hemmavid. Att skriva böcker för att ge bort dem samt
-			att engagera sig i en massa öppna projekt vid sidan om mer än
-			ett heltidsjobb tar sin tid och kräver mycket tålamod och
-			förståelse av de nära. Allt det ger Jenny mig vilket jag är
-			mycket tacksam för. Ni borde också tacka Jenny, utan Jenny --
-			ingen bok.
+			Sist vill jag tacka min <emphasis>Jenny</emphasis> som står ut
+			med att ha en datanörd hemmavid. Att skriva böcker för att ge
+			bort dem samt att engagera sig i en massa öppna projekt vid
+			sidan om mer än ett heltidsjobb tar sin tid och kräver mycket
+			tålamod och förståelse av de nära. Allt det ger Jenny mig
+			vilket jag är mycket tacksam för. Ni borde också tacka Jenny,
+			utan Jenny -- ingen bok.
 		</para>
 	</sect1>
 
