@@ -50,7 +50,11 @@
 	(normalize "set")  ;; sets are definitely chunks...
 	))
 
+(define %use-id-as-filename%
+ #t)
 
+(define %html-ext%
+  ".html")
 
 </style-specification-body>
 </style-specification>
