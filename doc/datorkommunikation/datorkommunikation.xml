@@ -34,7 +34,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/19 17:52:58 $</pubdate>
+<pubdate>$Date: 2004/01/19 19:09:57 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -63,7 +63,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.14 2004/01/19 17:52:58 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.15 2004/01/19 19:09:57 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -3023,9 +3023,9 @@ Modeller, referensmodeller, standarder
 					<para>
 						Till vänster ser vi OSI-modellends sju lager. Till
 						höger ser vi att TCP/IP har 4 lager och hur de är
-						relaterade till OSI-modellen. I TCP/IP har även olika
-						protokoll ritats in för att det skall vara lätt att se
-						var de hör hemma.
+						relaterade till OSI-modellen. Vissa delar upp
+						TCP/IP-stacken i 5 skikt. Då är det nederta lagret
+						uppdelat på samma sätt som i OSI-modellen.
 					</para>
 				</caption>
 			</mediaobject>
@@ -3645,6 +3645,22 @@ Modeller, referensmodeller, standarder
 		
 		<sect2><title>IMAP</title>
 			<para>
+				IMAP är en forkortning för <emphasis>Internet Message
+				Access Protocol</emphasis> är ett protokoll för att läsa
+				e-posten med ett e-postprogram. Till skillnad från POP så är
+				IMAP avsett för att läsa, sortera och söka bland breven på
+				servern. (POP var ju avsett för att hämta breven från
+				servern till den lokala datorn.) Fördelarna med IMAP är
+				uppenbara, all e-post lagras lokalt. Användarna kan komma åt
+				från vilken plats som helst. Till skillnad från POP så kan
+				man med IMAP också skapa mappar på servern och sortera
+				breven i dem. Nackdelen är kanske också uppenbar, att man
+				läser breven från servern gör att man är beroende av denna
+				och måste ha en fungerande anslutning till den nät där
+				servern finns. Det finns program som löser detta program
+				gonom att spara en synkroniserad kompia på den lokala datorn
+				och synkronisera med server när programmet har kontakt med
+				den.
 			</para>
 		</sect2>
 
