@@ -34,7 +34,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/22 13:35:11 $</pubdate>
+	<pubdate>$Date: 2004/01/22 13:45:41 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -43,7 +43,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.25 $</revnumber>
+			<revnumber>$Revision: 1.26 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -1951,6 +1951,16 @@
 <chapter><title>Modem</title>
 	<abstract>
 		<para>
+			För bara några år sedan kom internet-boomen till Sverige. Alla
+			skulle koppla upp sig. I början fanns det bara ett sätt att
+			skapa en förbindelse mellan kunderna och deras
+			internetleverantör (ISP, Internet Service Provider). Det var
+			genom att skicka digital datatrafik som analoga signaler över
+			telefonnätet. Till detta används en uppfining som är mycket
+			äldre än så och som använts i datorkommunikationssammanhang
+			sedan 1960-talet, nämligen modemet.
+		</para>
+		<para>
 			I detta kapitel tittar vi närmare på modem. Vad ett modem är
 			och hur det fungerar.
 		</para>
@@ -2035,14 +2045,11 @@
 
 		<sect2><title>Frekvensmodulering</title>
 			<para>
-
 				Frekvensmudulering innebär att man skickar en signal med
 				konstant amplitud men att frekvensen ändras. Denna metod är
 				bättre än amplitudmodulering.
-
 				<figure id="fig_frekvensmodulering">
 					<title>Frekvensmodulering</title>
-
 					<mediaobject>
 						<imageobject>
 							<imagedata scalefit="1"
@@ -2082,7 +2089,6 @@
 
 				<figure id="fig_fasskiftesmodulering">
 					<title>Fasskiftesmodulering</title>
-
 					<mediaobject>
 						<imageobject>
 									<imagedata scalefit="1"
