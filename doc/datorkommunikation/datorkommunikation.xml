@@ -5,6 +5,7 @@
 <!ENTITY dtr1201 SYSTEM "dtr1201.xml">
 <!ENTITY kommandotabell SYSTEM "kommandotabell.xml">
 <!ENTITY hextodectabell SYSTEM "hextodectabell.xml">
+<!ENTITY dectobintabell SYSTEM "dectobintabell.xml">
 <!ENTITY asciitabell SYSTEM "asciitabell.xml">
 ]>
 
@@ -32,7 +33,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/18 12:07:04 $</pubdate>
+<pubdate>$Date: 2004/01/18 13:18:25 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -61,7 +62,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.9 2004/01/18 12:07:04 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.10 2004/01/18 13:18:25 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -3599,6 +3600,8 @@ Modeller, referensmodeller, standarder
 &asciitabell;
 
 &hextodectabell;
+
+&dectobintabell;
 
 &kommandotabell;
 
