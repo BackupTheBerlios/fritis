@@ -1,0 +1,173 @@
+<chapter>
+	<title>Variabler</title>
+
+	<abstract>
+		<para>
+			Detta avsnitt beskriver vad variabler är och hur man använder dem i
+			ett PHP-script. Det tar även upp skillnaden mellan variabler i PHP
+			och i andra vanliga kompilerande språk.
+		</para>
+	</abstract>
+
+	<sect1>
+		<title>Vad är en variabel</title>
+		<para>
+			En variabel är en platshållare för ett värde som ändras under
+			programmets gång. Motsatsen till variabel är en konstant. En
+			konstant kan eller får inte ändras under programmets gång.
+		</para>
+
+		<para>
+			Ett exempel på en variabel kan vara termer i en addition. Tänk dig
+			att du vill göra ett program som skall ränka ut en summa. Man skulle
+			kunna göra programmet med bara konstanter, det skulle se ut så här:
+			<example>
+				<title>Exempel med variabler</title>
+				<programlisting>
+<![CDATA[
+<html>
+<head>
+   <title>Addition</title>
+</head>
+<body>
+   <?php
+      echo "Summan av talen 1 och 2 är: ", 1 + 2;
+   ?>
+</body>
+</html>
+]]>
+				</programlisting>
+			</example>
+			Som du kan se så räknar PHP ut vad 1 + 2 blir. Men vad har man för
+			nytta av ett program som bara räknar ut 1 + 2. Vi vill ju kunna
+			mata in vilka värden som helst för termerna.
+		</para>
+
+		<para>
+			Se nedanstående exempel:
+			<example>
+				<title>Exempel med variabler</title>
+				<programlisting>
+<![CDATA[
+<html>
+<head>
+   <title>Addition</title></head>
+<body>
+   <?php
+      echo "Summan av talen 1 och 2 är: ", $_GET['tal1'] + $_GET['tal2'];
+   ?>
+</body>
+</html>
+]]>
+				</programlisting>
+			</example>
+			Om du provar att köra programmet så kommer du nog att se att
+			resultatet blir lite torftigt. Vi måste på något sätt ge variablerna
+			$tal1 och $tal2 några väden. Prova att anropa programmet med
+			http://dinserver/programnamnet.php?tal1=100&amp;tal2=199.
+			Testa sedan andra ta och se vad som händer.
+		</para>
+
+		<para>
+			Du kanske provade att sätta ett av talen till någor annat än ett
+			tal, till exempel bosktäver?
+			I så fall såg du att PHP inte kan summera text. Observera att om du
+			matar in ett decimaltal så måste decimalpunkt och inte komma
+			användas.
+		</para>
+	</sect1>
+
+
+	<sect1>
+		<title>Datatyper</title>
+		<para>
+			Alla programmeringsspråk arbetar med olika datatyper. I PHP behöver
+			du inte ange vilken typ det är du jobbar med utan det listar
+			programtolken ut från innehållet. Det är dock väldigt viktigt att
+			man håller reda på vilka typer ens variabler har eftersom det kan bli
+			underliga fel annars.
+		</para>
+
+		<para>
+			Följande typer finns:
+		</para>
+
+		<sect2>
+			<title>Skalära</title>
+			<para>
+				<itemizedlist>
+					<listitem>
+						<para>boolean, bool (true, false)</para>
+					</listitem>
+					<listitem>
+						<para>integer, int (heltal)</para>
+					</listitem>
+					<listitem>
+						<para>float, double, real (reella tal)</para>
+					</listitem>
+					<listitem>
+						<para>string (Textsträngar)</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</sect2>
+
+		<sect2>
+			<title>Sammansatta</title>
+			<para>
+				<itemizedlist>
+					<listitem>
+						<para>
+							arrayer (En samling av värden som indexeras antingen av
+							en integer eller string).
+						</para>
+					</listitem>
+					<listitem>
+						<para>
+							objekt (Kommer inte att ingå i denna kurs, se manualen om
+							du är intresserad).
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</sect2>
+
+		<sect2>
+			<title>Övriga speciella</title>
+			<para>
+				<itemizedlist>
+					<listitem>
+						<para>NULL (Variabeln har inget värde alls).</para>
+					</listitem>
+					<listitem>
+						<para>
+							resource (Innehåller en referense till en extern
+							tillgång).
+						</para>
+					</listitem>
+				</itemizedlist>
+			</para>
+		</sect2>
+	</sect1>
+
+	<sect1>
+		<title>Övningar</title>
+
+			<sect2>
+				<title>Addition</title>
+				<para>
+					Skapa ett program som med hjälp av variabler summerar tre tal.
+				</para>
+			</sect2>
+	</sect1>
+</chapter>
+
+<!-- Keep this comment at the end of the file
+Local variables:
+mode: sgml
+tab-width: 3
+End:
+vim600: syn=xml fen fdm=syntax si
+vim: noet sw=3 ts=3 syn=sgml
+vi: ts=3 sw=3
+-->
