@@ -62,7 +62,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.15 2004/01/15 21:55:02 rejas Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.16 2004/06/15 15:04:35 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -330,7 +330,7 @@
 			<para>
 				C är ett av de mest utbredda språken. Det är en vidareutveckling
 				av språket B. Utvecklades vid AT&amp;T Bell Labs samtidigt med
-				operativsystemet UNIX. C anses som ett ganska maskinnära språk.
+				operativsystemet UNIX&reg;. C anses som ett ganska maskinnära språk.
 				Flera operativsystem är till stor det skrivna i C. Hello World
 				i C ser ut så här:
 			</para>
@@ -581,8 +581,8 @@ class HelloWorld {
 			Du kan använda vilken editor du vill för att skapa php-filer.
 			Notepad fungerar alldeles utmärkt men det finns de med fler
 			finesser. Vim är en av dem. Den har stöd bland annat för
-			färgläggning av kod och finns för både Linux och Windows att hämta
-			från deras hemsida:
+			färgläggning av kod och finns för både Linux&reg; och Windows att
+			hämta från deras hemsida:
 			<ulink url="http://vim.sf.net">
 				<citetitle>
 					http://vim.sf.net
@@ -1036,49 +1036,57 @@ $a -= 5; // Samma sak som $a = $a - 5
 							<row>
 								<entry>$a == $b</entry>
 								<entry>Lika med</entry>
-								<entry>Sant om $a är lika med $b</entry>
+								<entry>
+									Sant om $a är lika med $b.
+								</entry>
 							</row>
 							<row>
 								<entry>$a != $b</entry>
 								<entry>Inte lika med</entry>
-								<entry>Sant om $a inte är lika med $b </entry>
+								<entry>
+									Sant om $a inte är lika med $b.
+								</entry>
 							</row>
 							<row>
 								<entry>$a &lt; $b</entry>
 								<entry>Mindre än</entry>
-								<entry>Sant om  $a är mindre än $b </entry>
+								<entry>
+									Sant om $a är mindre än $b.
+								</entry>
 							</row>
 							<row>
 								<entry>$a &gt; $b</entry>
 								<entry>Större än</entry>
-								<entry>Sant om  $a är större än $b</entry>
+								<entry>
+									Sant om $a är större än $b.
+								</entry>
 							</row>
 							<row>
 								<entry>$a &lt;= $b</entry>
 								<entry>Mindre än eller lika med</entry>
 								<entry>
-									Sant om $a är mindre än eller lika med $b
+									Sant om $a är mindre än eller lika med $b.
 								</entry>
 							</row>
 							<row>
 								<entry>$a &gt;= $b</entry>
 								<entry>Större än eller lika med</entry>
 								<entry>
-									Sant om $a är större än eller lika med $b
+									Sant om $a är större än eller lika med $b.
 								</entry>
 							</row>
 							<row>
 								<entry>$a === $b</entry>
 								<entry>Identiska</entry>
 								<entry>
-									Sant om $a är lika med $b och båda är av samma typ
+									Sant om $a är lika med $b och båda är av samma typ.
 								</entry>
 							</row>
 							<row>
 								<entry>$a !== $b</entry>
 								<entry>Inte identiska</entry>
 								<entry>
-									Sant om $a inte är lika med $b eller att de inte
+									Sant om $a inte är lika med $b eller om de inte
 									är av samma typ.
 								</entry>
 							</row>
@@ -1115,24 +1123,30 @@ $a -= 5; // Samma sak som $a = $a - 5
 							<row>
 								<entry>$a and $b</entry>
 								<entry>Och</entry>
-								<entry>Sant om $a och $b är sanna</entry>
+								<entry>
+									Sant om $a och $b är sanna.
+								</entry>
 							</row>
 							<row>
 								<entry>$a or $b</entry>
 								<entry>Eller</entry>
-								<entry>Sant om $a eller $b är sanna</entry>
+								<entry>
+									Sant om $a eller $b är sanna.
+								</entry>
 							</row>
 							<row>
 								<entry>$a xor $b</entry>
 								<entry>Exklusivt eller</entry>
 								<entry>
-									Sant om $a eller $b är sanna men inte båda två
+									Sant om $a eller $b är sanna men inte båda två.
 								</entry>
 							</row>
 							<row>
 								<entry>!$a</entry>
 								<entry>Inte/Icke</entry>
-								<entry>Sant om $a inte är sant</entry>
+								<entry>
+									Sant om $a inte är sant.
+								</entry>
 							</row>
 						</tbody>
 					</tgroup>
@@ -1395,11 +1409,11 @@ while ($a < 10000) {
 		<para>
 			Den andra raden är starten på while-loopen (kallas även loop eftersom
 			den loopar om och om igen). Så länge som testet ($a &lt; 10000) är
-			sant so kommer satsen efter att repeteras. När $a är större ön eller
+			sant so kommer satsen efter att repeteras. När $a är större än eller
 			lika med 10000 kommer loopen att avbryts. Om man i loopen glömmer att
 			öka $a kommer testet alltid att vara sant och man kommer aldrig ur
 			loopen.  Detta kallas för en oändlig loop och är ett vanligt
-			programmeringsfel som gör att programmet hänger sig!
+			programmeringsfel som gör att programmet hänger sig eller kraschar.
 		</para>
 
 		<para>
@@ -1488,7 +1502,7 @@ do {
 <?php
 //Exempel på for-loop
 
-for ($i = 0; $i <= 10; $i = $i++) {
+for ($i = 0; $i <= 10; $i++) {
    echo "$i<br>\n";
 }
 ?>
@@ -1816,7 +1830,6 @@ $str3 = ucwords(strtolower($str1)); // str3 blir Kalle Anka
 			<title>strrev</title>
 
 			<para>
-
 				Detta är en väldigt trevlig lite funktion (STRing REVerse). Det
 				enda den gör är att den tar en sträng som argument och returnerar
 				samma sträng fast reverserad.
