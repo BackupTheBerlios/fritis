@@ -58,7 +58,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.1 2004/01/05 09:01:38 rejas Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.2 2004/01/07 00:50:46 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -91,21 +91,17 @@
 		<title>Före 1900</title>
 
 		<para>
-			Man började faktiskt att utveckla den metodiken
-			som används i dagens datorer redan på
-			1800-talet. Den första kalkylatorn som räknade
-			digitalt uppfann och byggde engelsmannen Charles
-			Babbage 1832!  Den opererade på sexsiffriga
-			nummer och kunde lösa andragradspolynom med sex
-			siffrors noggrannhet. Efter denna maskin började
-			Babbage på en ännu större maskin, the analytical
-			engine. Denna uppgift lyckades han aldrig lösa.
-			Idag vet vi varför, det var en enorm uppgift som
-			inte gick att lösa med dåtidens kunskaper och
-			verktyg.  Babbage dog i 1871. Då var det inte
-			många som visste vem han var men nu nämns han i
-			varenda kurs som innefattar datorhistoria
-			världen över.
+			Man började faktiskt att utveckla den metodiken som används i
+			dagens datorer redan på 1800-talet. Den första kalkylatorn som
+			räknade digitalt uppfann och byggde engelsmannen Charles Babbage
+			1832!  Den opererade på sexsiffriga nummer och kunde lösa
+			andragradspolynom med sex siffrors noggrannhet. Efter denna maskin
+			började Babbage på en ännu större maskin, the analytical engine.
+			Denna uppgift lyckades han aldrig lösa. Idag vet vi varför, det var en
+			enorm uppgift som inte gick att lösa med dåtidens kunskaper och
+			verktyg.  Babbage dog i 1871. Då var det inte många som visste vem
+			han var men nu nämns han i varenda kurs som innefattar
+			datorhistoria världen över.
 		</para>
 
 		<para>
@@ -467,8 +463,8 @@ class HelloWorld {
 		<para>
 			I detta avsnitt beskrivs vad en kompilator är och varför den
 			används. Detta ingår i kursen men används inte i PHP eftersom det
-			är ett så kallat skriptspråk. I fallet med PHP tar en tolkare
-			hand om allt detta på servern när programmet körs.
+			är ett så kallat skriptspråk. I fallet med PHP tar en tolkare hand om
+			allt detta på servern när programmet körs.
 		</para>
 	</abstract>
 
