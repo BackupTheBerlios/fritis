@@ -34,7 +34,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/22 13:45:41 $</pubdate>
+	<pubdate>$Date: 2004/01/22 13:48:33 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -43,7 +43,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.26 $</revnumber>
+			<revnumber>$Revision: 1.27 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -2239,6 +2239,18 @@
 </chapter>
 
 <chapter><title>Protokoll</title>
+	<!--	- Olika typer av överförings- transport- och
+		  transmissionsprotokoll
+		- Referensmodeller som beskriver struktur och funktion för
+		  datorkommunikation
+		  
+	Modeller, referensmodeller, standarder
+		- ISO/OSI
+		- SIS
+		- IEEE
+		- PTS
+		- m.fl.
+	-->
 	<abstract>
 		<para>
 			Protokoll är en uppsättning regler som de olika systemen måste
@@ -2505,22 +2517,7 @@
 				Vanliga enheter är Volt, Ampere och Herz.
 			</para>
 		</sect2>
-
-
 	</sect1>
-
-	<!--	- Olika typer av överförings- transport- och
-		  transmissionsprotokoll
-		- Referensmodeller som beskriver struktur och funktion för
-		  datorkommunikation
-		  
-	Modeller, referensmodeller, standarder
-		- ISO/OSI
-		- SIS
-		- IEEE
-		- PTS
-		- m.fl.
-	-->
 </chapter>
 
 <chapter id="chap_internet"><title>Internet</title>
