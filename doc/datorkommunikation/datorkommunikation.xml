@@ -38,7 +38,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/27 19:21:00 $</pubdate>
+	<pubdate>$Date: 2004/01/27 21:35:26 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -47,7 +47,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.36 $</revnumber>
+			<revnumber>$Revision: 1.37 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -1784,13 +1784,13 @@
 					registreras på andra sidan.
 				</para>
 				<para>
-					Fiberoptisk kabel är billig ochhar en enorm kapacitet som
-					vida överstiger de andra kablarna. Dock är fiberoptisk
-					kabel svårare att hantera, till exempel behövs speciella
-					verktyg för att skarva kabeln. Ledaren är extremt känslig,
-					både för böjning och för slag. Fiberoptisk kabel skall
-					installeras av proffs. Av någon anledning är fideroptisk
-					kabel nästan alltid grön.
+					Fiberoptisk kabel är billig och har en enorm kapacitet
+					som vida överstiger de andra kablarna. Dock är
+					fiberoptisk kabel svårare att hantera, till exempel
+					behövs speciella verktyg för att skarva kabeln. Ledaren
+					är extremt känslig, både för böjning och för slag.
+					Fiberoptisk kabel skall installeras av proffs. Av någon
+					anledning är fideroptisk kabel ofta grön.
 				</para>
 				<para>
 					Fiberoptisk kabel är det vanligaste alternativet idag vi
@@ -2357,14 +2357,15 @@
 
 	<sect1><title>Inledning</title>
 		<para>
-			Minns ni telefonsamtalet som var ett exempel tidigt i denna
-			bok?  För att telefonsamtalet skall fungera krävs att väldigt
-			många olika regler som måste följas. Man kan dela
-			kommunikationen i ett flertal olika lager. Om Kalle talar i
-			telefon med Kajsa så talar de ju enligt en uppsättning olika
-			regler. De måste vara överens om vilket språk de talar och även
-			inom vilket ämne de talar. Talar de om helt olika saker finns
-			det en stor risk att de missförstår varandra.
+			Minns ni telefonsamtalet (<xref linkend="fig_telefonsamtal"/>)
+			som var ett exempel tidigt i denna bok?  För att
+			telefonsamtalet skall fungera krävs att väldigt många olika
+			regler som måste följas. Man kan dela kommunikationen i ett
+			flertal olika lager. Om Kalle talar i telefon med Kajsa så
+			talar de ju enligt en uppsättning olika regler. De måste vara
+			överens om vilket språk de talar och även inom vilket ämne de
+			talar. Talar de om helt olika saker finns det en stor risk att
+			de missförstår varandra.
 		</para>
 		<para>
 			Om man studerar samtalet i detalj så ser man att Kalle
@@ -2374,9 +2375,10 @@
 			egentligen med en telefonväxel och så vidare. Varje nivå i vårt
 			exempel tror att de talar med en motpart på samma nivå medan de
 			egentligen talar med en nivå upp eller ner på sin sida av
-			figuren. Överallt i alla pilar i denna figur finns det regler
-			för hur det skall gå till för att allt skall fungera. Märk
-			också att de tvärgående pilarna fungerar precis lika även om de
+			figuren. Överallt i alla pilar i <xref
+			linkend="fig_telefonsamtal"/> finns det regler för hur det
+			skall gå till för att allt skall fungera. Märk också att de
+			tvärgående pilarna fungerar precis lika även om de
 			underliggande pilarna ändras. Till exempel så behöver inte
 			Kalle och Kajsa tala på ett annat sätt om samtalet går via
 			satellit istället för kopparkabel bara de lager det berör gör
@@ -2435,7 +2437,9 @@
 			protesterat inom en vis tid antas att RFC:n kan fungera som
 			standard. I dag som regel ett RFC-dokument klart redan när det
 			publiceras. Vi kommer att titta mer på Internet i <xref
-			linkend="chap_internet"/>.
+			linkend="chap_internet"/>, det finns också en tabell över
+			RFC:er som berör det vi talar om i denna bok i <xref
+			linkend="rfcer"/>.
 		</para>
 		<para>
 			Det finns naturligtvis även protokoll och standarder som
@@ -2452,6 +2456,24 @@
 			<emphasis>IEEE</emphasis> som är ett Amerikansk samling av
 			ingenjörer som tar fram standarder för bland annat lokala
 			nätverk.
+		</para>
+		<para>
+			Standarder som tas fram av oberoende organisationer kallas för
+			<emphasis>formella standarder</emphasis>. I de oberoende
+			organisationerna sitter ofta flera av de företag som berörs av
+			starndarderna men efersom de alla har samma tillgång till
+			standarderna så kallas de ändå oberoende. Ganska många
+			standarder tas fram på så sätt att ett företag utvecklar en
+			produtk som skall fungera på ett viss sätt. Blir denna populär
+			så kommer konkurrenterna att anamma samma format för att kunna
+			utbyta information med denna produkt. Till slut har man en
+			"standard" som alla följer men som ett enda företag (det som
+			inledningsvis tog fram det) kontrollerar och utvecklar. Dessa
+			standarder kallas för <emphasis>de-factostandarder</emphasis>
+			eller industristandarder och skall inte förväxlas med formella
+			standarder eftersom företagen inte konkurrerar på samma vilkor
+			kring en industristandard vilket de kan kring en formell
+			standard.
 		</para>
 	</sect1>
 
@@ -4265,6 +4287,24 @@ Destination   Netmask          Gateway           Interface
 		<para>
 			
 		</para>
+		<sect2><title>Personuppgiftelagen (PUL)</title>
+			<para>
+				<emphasis>Från Wikipedia, den fria encyklopedin.</emphasis>
+			</para>
+			<para>
+				PUL, eller Personuppgiftslag (1998:204) som den egentligen
+				heter, är den svenska implementationen av ett EU-direktiv.
+				Syftet med lagen är att skydda människor mot att deras
+				personliga integritet kränks genom behandling av
+				personuppgifter. Lagen gäller för personuppgiftsansvariga
+				som är etablerade i Sverige. Lagen tillämpas också när den
+				personuppgiftsansvarige är etablerad i tredje land men för
+				behandlingen av personuppgifter använder sig av utrustning
+				som finns i Sverige. Staffat är böter eller fängelse i högst
+				sex månader eller, om brottet är grovt, till fängelse i
+				högst två år.
+			</para>
+		</sect2>
 	</sect1>
 				
 	<sect1><title>Sammanfattning</title>
