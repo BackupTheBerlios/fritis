@@ -34,7 +34,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/18 22:16:54 $</pubdate>
+<pubdate>$Date: 2004/01/19 06:58:57 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -53,17 +53,17 @@
 	</para>
 	<para>
 	
-		Det vill säga, du kan fritt ladda ner, vidaredistribuera
-		och kopiera denna bok. Du får ändra den om du vill (se
-		licenstexten).  Tryckta böcker kan köpas av TriNix AB i
-		Helsingborg, telefon 042-127800.
+		Det vill säga, du kan fritt ladda ner, vidaredistribuera och
+		kopiera denna bok. Du får ändra den om du vill (se licenstexten).
+		Tryckta böcker kan köpas av TriNix AB i Helsingborg, telefon
+		042-127800.
 		
 	</para>
 </legalnotice>
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.11 2004/01/18 22:16:54 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.12 2004/01/19 06:58:57 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -72,9 +72,8 @@
 <abstract>
 <para>
 
-	Denna bok är anpassad för gymnasieskolans kurs
-	datorkommunikation med kurskoden DTR1201 (<xref
-	linkend="dtr1201"/> ). Den kan naturligtvis
+	Denna bok är anpassad för gymnasieskolans kurs datorkommunikation med
+	kurskoden DTR1201 (<xref linkend="dtr1201"/>). Den kan naturligtvis
 	användas även i andra sammanhang.
 
 </para>
