@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.13 2004/01/08 19:50:23 magnus Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.14 2004/01/08 19:53:19 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -2828,7 +2828,7 @@ $arr[0] = 10;
 $arr[1] = 20;
 $arr[2] = 30;
 
-echo $arr[2]; // Skriver ut 20
+echo $arr[2]; // Skriver ut 30
 ?>
 ]]>
 				</programlisting>
@@ -2995,9 +2995,11 @@ function swap (&$var1, &$var2) {
 $text1 = "Text1";
 $text2 = "Text2";
 
+echo "Före swap: text1: $text1, text2: $text2 <br>\n";
+
 swap($text1, $text2);
 
-echo "$text1, $text2\n";
+echo "Efter swap: text1: $text1, text2: $text2 <br>\n";
 ?>
 ]]>
 				</programlisting>
