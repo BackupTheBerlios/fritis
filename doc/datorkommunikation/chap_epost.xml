@@ -145,10 +145,10 @@
 			också skapa mappar på servern och sortera breven i dem.
 			Nackdelen är kanske också uppenbar, att man läser breven från
 			servern gör att man är beroende av denna och måste ha en
-			fungerande anslutning till den nät där servern finns. Det finns
-			program som löser detta program gonom att spara en
-			synkroniserad kompia på den lokala datorn och synkronisera med
-			server när programmet har kontakt med den.
+			fungerande anslutning till det nät där servern finns. Det finns
+			program som löser detta genom att spara en synkroniserad kopia
+			på den lokala datorn och synkronisera denna med servern när
+			programmet har kontakt med den.
 		</para>
 	</sect1>
 
