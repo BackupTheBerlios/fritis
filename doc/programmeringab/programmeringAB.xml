@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.8 2004/01/07 20:09:06 rejas Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.9 2004/01/08 19:12:27 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -795,7 +795,7 @@ echo "Hallå Världen!";
    <title>Addition</title></head>
 <body>
    <?php
-      echo "Summan av talen 1 och 2 är: ", $tal1 + $tal2;
+      echo "Summan av talen 1 och 2 är: ", $_GET['tal1'] + $_GET['tal2'];
    ?>
 </body>
 </html>
@@ -805,12 +805,7 @@ echo "Hallå Världen!";
 			Om du provar att köra programmet så kommer du nog att se att
 			resultatet blir lite torftigt. Vi måste på något sätt ge variablerna
 			$tal1 och $tal2 några väden. Prova att anropa programmet med
-			http://dinserver/programnamnet.php?tal1=100i&amp;tal2=199.
-			<!--
-			XXX: Förutsätt inte att webservrar kör med register_globals PÅSLAGET
-			     I så fall hade det kanske varit bättre att skriva shell
-				  applikationer med hjälp av PHP vilket fungerar alldeles utmärkt.
-			-->
+			http://dinserver/programnamnet.php?tal1=100&amp;tal2=199.
 			Testa sedan andra ta och se vad som händer.
 		</para>
 
@@ -1076,13 +1071,30 @@ $a -= 5 // Samma sak som $a = $a - 5
 									Sant om $a är större än eller lika med $b
 								</entry>
 							</row>
+							<row>
+								<entry>$a === $b</entry>
+								<entry>Identiska</entry>
+								<entry>
+									Sant om $a är lika med $b och båda är av samma typ
+								</entry>
+							</row>
+							<row>
+								<entry>$a !== $b</entry>
+								<entry>Inte identiska</entry>
+								<entry>
+									Sant om $a inte är lika med $b eller att de inte
+									är av samma typ.
+								</entry>
+							</row>
 						</tbody>
 					</tgroup>
 				</table>
 			</para>
 		</sect2>
 
-		<sect2><title>Logiska operatorer</title>
+		<sect2>
+			<title>Logiska operatorer</title>
+
 			<para>
 				Som jag sade ovan så returnerar alltid de jämförande operatorerna
 				av typen boolean och opererar på tal. Logiska operatorer
@@ -1135,8 +1147,8 @@ $a -= 5 // Samma sak som $a = $a - 5
 		<sect2>
 			<title>Strängoperatorer</title>
 			<para>
-				Det finns tre operatorer som operererar på strängar, den första
-				känner till sedan förut och det är tilldelningsoperatorn
+				Det finns tre operatorer som opererar på strängar, den första
+				känner ni till sedan förut och det är tilldelningsoperatorn
 				"tilldelas". Den fungerar lika på strängar som på tal. Sedan
 				finns det två till. Dessa beskrivs lättast med ett exempel:
 
