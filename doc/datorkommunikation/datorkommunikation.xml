@@ -32,7 +32,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/16 19:35:13 $</pubdate>
+<pubdate>$Date: 2004/01/17 18:30:14 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -63,7 +63,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.6 2004/01/16 19:35:13 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.7 2004/01/17 18:30:14 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -140,7 +140,7 @@
 			programvara som du får använda fritt i vilket syfte du vill och
 			vars källkod är öppen. Fri programvara har visat sig hålla
 			mycket hög kvalitet och funktionalitet. Exempel på fri
-			programvara är till exempel operativsystemet Linux, webservern
+			programvara är till exempel operativsystemet Linux, webbservern
 			Apache och kontorsprogramsviten OpenOffice.org. Alla dessa tre
 			har på sitt sätt hjälpt till att skapa och sprida denna bok.
 			Till denna bok har uteslutande fria programvaror använts.
@@ -254,7 +254,7 @@
 			utbyta" eller "att delge". Ordet kommunikation kan, som du vet,
 			användas på flera olika sätt och alla är riktiga. Men i denna
 			bok och i ämnesområdet datorkommunikation betyder kommunikation
-			att man kan utbyter information. Som vi konstaterat tidigare så
+			att man utbyter information. Som vi konstaterat tidigare så
 			kan inte information skickas mellan två datorer men data kan.
 			Data plus regler för hur dessa data skall tolkas kan ju göras om
 			till information.
@@ -381,7 +381,7 @@
 			direkt, utan de talar ju egentligen med sin telefon. Denna
 			telefon talar sedan med den andra telefonen med hjälp av en
 			mängd komponenter som till exempel växlar och kablar. Alla
-			dessa komponenter måste samarbeta enligt givna prototokoll för
+			dessa komponenter måste samarbeta enligt givna protokoll för
 			att det skall fungera. Telefonerna skickar och tar emot
 			elektriska strömmar som bildar ljud. Dessa måste se ut på ett
 			visst sätt för att telefonerna skall förstå dem. Vidare måste
@@ -413,14 +413,14 @@
 			att packa in dessa analoga data i ett binärt
 			format.</para></footnote>. Spänningen varierar beroende på
 			vilket ljud som kommer i mikrofonen på den ena telefonen och
-			spelas upp på mostvarande sätt i den andres hörtelefon. Man kan
+			spelas upp på motsvarande sätt i den andres hörtelefon. Man kan
 			jämföra analoga signaler med en vattenkran. Om man öppnar
 			mycket kommer mycket vatten och öppnar man den lite kommer det
 			lite vatten. Man kan variera exakt hur mycket vatten man vill
 			skall komma fram vid varje tidpunkt. Digitala signaler kan man
 			istället jämföra med en strömbrytare som antingen kan slå på
 			eller av strömmen. Man kan inte med en vanlig strömbrytare
-			sätta på strömmen litegrann.
+			sätta på strömmen lite grann.
 		</para>
 
 		<figure id="fig_analogadigitalasignaler">
@@ -495,7 +495,7 @@
 			från engelskans <emphasis>Binary Digit</emphasis> som betyder
 			binär siffra. Binär är samma sak som tvåfaldig. Men en bit har
 			man ingen större nytta av. Oftast klumpar man ihop några bitar
-			för att få en datamänd som är något större. Om man har en bit
+			för att få en datamängd som är något större. Om man har en bit
 			så finns det ju bara två alternativ (0 och 1), men har man 8
 			bitar så finns det betydligt fler alternativ (till exempel
 			11001010 och 01010111). Det är vanligt att man jobbar med just
@@ -521,7 +521,7 @@
 			Talet 13 kan beskrivas som
 			1*10<superscript>1</superscript>+3*10<superscript>0</superscript>=13.
 			Det vill säga ett 10-tal och 3 ental. I det binära talsystemet
-			har vi bara två siffror (0 och 1) och iställer för ental,
+			har vi bara två siffror (0 och 1) och istället för ental,
 			10-tal och så vidare så har vi ental, 2-tal, 4-tal, 8-tal,
 			16-tal och så vidare eller 2<superscript>0</superscript>,
 			2<superscript>1</superscript>, 2<superscript>2</superscript>,
@@ -546,7 +546,7 @@
 			hexadecimala tal som det kallas. Eftersom vi har talbasen 16
 			måste vi ha 16 stycken siffror. Våra vanliga siffror räcker
 			inte till utan man brukar lägga till bokstäverna A-F också och
-			behandla dem precis som om de vore siffror. Vi har altså
+			behandla dem precis som om de vore siffror. Vi har alltså
 			siffrorna 0123456789ABCDEF.  Vi bygger tal av ental, 16-tal,
 			256-tal, 4096-tal och så vidare.  Eller om vi uttrycker det som
 			ovan 16<superscript>0</superscript>,
@@ -606,7 +606,7 @@
 		<para>
 			I detta kapitel har vi behandlat på vilket sätt olika protokoll
 			kan jobba både beroende till varandra och oberoende av varandra
-			i en och samma kommuniktaionsmodell. Vi har också tittat på vad
+			i en och samma kommunikationsmodell. Vi har också tittat på vad
 			som menas med analog och digital överföring och vilka
 			karakteristiska egenskaper dessa har. Vi har lärt oss
 			ytterligare några begrepp och lite om matematiken med olika
@@ -669,8 +669,8 @@
 			eller 1. Men liknelsen fungerar i alla fall.
 		</para>
 		<para>
-			Seriell kommuniktation lämpar sig bäst då data skall
-			transporteras längre sträckor och parallell kommuniktation
+			Seriell kommunikation lämpar sig bäst då data skall
+			transporteras längre sträckor och parallell kommunikation
 			används bara för att transportera data kortare sträckor.
 		</para>
 	</sect1>
@@ -691,13 +691,13 @@
 		<para>
 			När vi talar om datorkommunikation är det naturligtvis inte
 			filer på en motorväg vi talar om utan om ledningar. Ju fler
-			ledninger i bredd desto snabbare dataöverföring. Eftersom
+			ledningar i bredd desto snabbare dataöverföring. Eftersom
 			parallell överföring lämpar sig bäst för korta avstånd är det
 			denna typ av kommunikation som används inuti en dator för att
 			flytta data mellan minnet, processorn och andra enheter som
 			till exempel diskar och minnen. Vanligtvis idag så har dessa
 			databussar, som det kallas, 32 ledningar i bredd men 64 blir
-			allt vanligare. Även 8 och 16 ledniningar förekommer men det är
+			allt vanligare. Även 8 och 16 ledningar förekommer men det är
 			inte lika vanligt. 
 		</para>
 		<para>
@@ -728,7 +728,7 @@
         		</imageobject>
 				<textobject>
 					<phrase>
-						Bild på en parallellport på en PC och mostvarande
+						Bild på en parallellport på en PC och motsvarande
 						kontakt.
 					</phrase>
 				</textobject>
@@ -747,7 +747,7 @@
 			Den största nackdelen med att ansluta utrustning till datorn
 			via en parallellkabel är att denna kabel måste hållas kort. För
 			skrivare som inte är så krävande kan den vara omkring 5 meter
-			medans den om man har mer krävande utrustningar som till
+			medan den om man har mer krävande utrustningar som till
 			exempel diskar bara kan ha en kabel på omkring en meters längd.
 		</para>
 
@@ -758,7 +758,7 @@
 			Till skillnad från parallell kommunikation så behövs det i
 			seriell kommunikation egentligen bara en ledare. I praktiken så
 			behövs det oftast åtminstone två men man kan se det som en.
-			Ofta har man en ledare för trafik i den ena riktiningen och en
+			Ofta har man en ledare för trafik i den ena riktningen och en
 			för trafik i den andra riktningen plus några ledare för
 			kontrollsignaler.
 		</para>
@@ -778,11 +778,11 @@
 		</para>
 		<para>
 			Något som blir vanligare och vanligare både på PC och bland
-			tillbehören är något som kallas för USB (Universal Serial Bus)
+			tillbehör är något som kallas för USB (Universal Serial Bus)
 			som används för att koppla tillbehör till en dator. Den har
 			mycket högre överföringskapacitet än den äldre RS-232. Även USB
 			finns i två utföranden. Den större är vanligast att man hittar
-			på datorer och i kopplingar medan den mindra ofta hittas på
+			på datorer och i kopplingar medan den mindre ofta hittas på
 			utrustningar som till exempel kameror, skannrar och diskar där
 			utrymmet ofta är mindre. I <xref linkend="fig_serieportar"/>
 			visas de vanligaste typerna av serieanslutningar och
@@ -867,7 +867,7 @@
 					<textobject>
 						<phrase>
 							Schematisk bild över hur ett tecken (11100110)
-							kodas vid asyncron överföring (0111001101).
+							kodas vid asynkron överföring (0111001101).
 						</phrase>
 					</textobject>
 					<caption>
@@ -920,7 +920,7 @@
 	<sect1><title>Övningsuppgifter</title>
 		<para>
 			I detta kapitel har vi tittat på seriell och parallell
-			komunikation.  Vi har lärt oss vad som skiljer dem åt och vilka
+			kommunikation.  Vi har lärt oss vad som skiljer dem åt och vilka
 			för- respektive nackdelar de har. Vi har läst oss att seriell
 			kommunikation i huvudsak kan gå till på två olika sätt och hur
 			dessa fungerar. Vi har också lärt oss begreppet overhead och
@@ -935,12 +935,12 @@
 			</listitem>
 			<listitem>
 				<para>
-					Vilka är fördelarna med asyncron överföring?
+					Vilka är fördelarna med asynkron överföring?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Hur lång tid tar det att föra öven en fil på 1MByte över
+					Hur lång tid tar det att föra över en fil på 1MByte över
 					en seriell förbindelse med kapaciteten 28800 bit/s om man
 					använder asynkron överföring med en stopp-bit och ingen
 					paritet?
@@ -1022,7 +1022,7 @@
 			sätt. Både logiskt och fysiskt kan man välja olika lösningar.
 			Hur ett nätverk strukturellt är uppbyggt kallar vi för
 			<emphasis>topologi</emphasis>. En topologi kan beskriva både
-			hur nätet ser ut fysikt (hur kablar är dragna) och hur det ser
+			hur nätet ser ut fysiskt (hur kablar är dragna) och hur det ser
 			ut logiskt. De topologierna som används är:
 			<emphasis>bussnät</emphasis>, <emphasis>stjärnnät</emphasis>
 			och <emphasis>ringnät</emphasis>.
@@ -1053,7 +1053,7 @@
 						<caption>
 							<para>
 								Schematisk bild av ett bussnät. Överst i bilden
-								är back-bonekabeln med terminatorer i ändarna.
+								är backbone-kabeln med terminatorer i ändarna.
 								Från den går så kallade drop-cables till de
 								olika datorerna på nätverket.
 							</para>
@@ -1082,7 +1082,7 @@
 				försvenskas till hubb, är engelska och betyder nav. I <xref
 				linkend="fig_stjarnnat"/> visas ett stjärnnät. Om man tittar
 				på bilden och jämför hubben med navet på ett hjul så förstår
-				man varför den kallas hub och varför topologin kallas
+				man varför den kallas hubb och varför topologin kallas
 				stjärnnät.
 	
 				<figure id="fig_stjarnnat"><title>Stjärnnät</title>
@@ -1206,7 +1206,7 @@
 			inte samtidigt. Collision Detection innebär att om två stycken
 			eller flera börjar sända samtidigt så skall detta detekteras
 			och de får sända en i taget. I praktiken så fungerar det så att
-			om en kollision upptäcks så slutar alla inblandande att sända
+			om en kollision upptäcks så slutar alla inblandade att sända
 			och väntar en slumpvis tidsperiod. På så sätt minimeras risken
 			att de börjar sända samtidigt igen. Naturligtvis gör
 			kollisioner att trafiken i systemet går långsammare. På hubbar
@@ -1226,7 +1226,7 @@
 		</para>
 		<para>
 			CSMA/CD och CSMA/CA passar när nätverket består av ett
-			gemensamt media, till exempel en kabel eller en hub. I fallet
+			gemensamt media, till exempel en kabel eller en hubb. I fallet
 			med ringnät passar inte detta eftersom det är olika kablar i de
 			olika delarna av nätverket (studera <xref
 			linkend="fig_stjarnnat"/>).  I ett ringnät kan man istället
@@ -1237,10 +1237,10 @@
 			en stafettpinne och bara den dator som har stafettpinnen får
 			sända data. Dessa data och stafettpinen skickas vidare. Alla
 			datorer skickar vidare och den som aktuella data är avsedd för
-			kopierari dessa  data och skickar vidare. När dessa data kommer
+			kopierar dessa  data och skickar vidare. När dessa data kommer
 			tillbaka (med stafettpinnen) till avsändaren tar den bort dessa
 			data från nätet och skickar stafettpinnen vidare. Detta gör att
-			kollisioner helt undviks. Token Passing används i
+			kollisioner helt kan undvikas. Token Passing används i
 			nätverksteknologin Token Ring från IBM.
 		</para>
 	</sect1>
@@ -1256,7 +1256,7 @@
 	<abstract>
 		<para>
 			För att kunna bygga de nätverk som beskrevs i det förra
-			kapitlet måste man ka något att bygga av. Nätverken byggs
+			kapitlet måste man ha något att bygga av. Nätverken byggs
 			naturligtvis upp av datorer, men även andra komponenter behövs
 			för att kunna, dels koppla ihop datorerna i nätverk och även
 			kunna koppla ihop olika nätverk med varandra.
@@ -1267,7 +1267,7 @@
 		<para>
 			Det kan vara på sin plats att först beskriva termen
 			<emphasis>nod</emphasis>. En nod är en generell
-			addresserbar nätverkskomponent, det kan vara en arbetsstation,
+			adresserbar nätverkskomponent, det kan vara en arbetsstation,
 			en router, en brandvägg eller något annat. Är den adresserbar i
 			nätverket så kallas den ofta för en nod.
 		</para>
@@ -1300,7 +1300,7 @@
 		<emphasis>MAC-adress</emphasis>. MAC står för
 		<emphasis>Media Access Control</emphasis> och är nödvändig för att
 		kunna identifiera de olika datorerna på nätverket. MAC-adresserna
-		är alltså unika på alla natverkskort som säljs. Detta samordnas
+		är alltså unika på alla nätverkskort som säljs. Detta samordnas
 		centralt av en organisation som heter <emphasis>IEEE</emphasis>.
 		IEEE (uttalas "i-triple-e") är en förkortning för Institute for
 		Electric and Electronic Engineers och är en organisation av
@@ -1324,10 +1324,10 @@
 		En dator kan också vara en <emphasis>terminal</emphasis>. En
 		terminal är brukar kallas för en "dum" terminal och är en dator
 		som inte själv har så mycket resurser utan är knuten till en
-		server vars tjänster terminalen är helt beroede av. Terminalerna
+		server vars tjänster terminalen är helt beroende av. Terminalerna
 		bestod tidigare av bara en skärm och ett tangentbord som var
 		kopplade direkt till en dator antingen via en vanlig kabel eller
-		via telefonnätet eller andra större nätverk. De hade allstå ingen
+		via telefonnätet eller andra större nätverk. De hade alltså ingen
 		egen datorkapacitet. Idag är detta inte så vanligt. Använder man
 		terminalsystem idag så är det oftast så att man kör ett
 		terminalemulerningsprogram på sin PC. 
@@ -1356,7 +1356,7 @@
 		så skickas det till alla andra på en gång och hela nätet blir
 		således upptaget. Det är väldigt vanligt med kollisioner i ett nät
 		där man har just en hubb som nätnav. De flesta hubbar har en
-		lysdiod som indikerar när det är en kollission på nätet. Denna
+		lysdiod som indikerar när det är en kollision på nätet. Denna
 		lampa kan man använda som en indikator för att se hur mycket
 		kollisioner det är på nätverket. Mycket kollisioner gör att
 		nätverket får minskad kapacitet och upplevs som långsamt. Man kan
@@ -1383,7 +1383,7 @@
 				</textobject>
 				<caption>
 					<para>
-						Kommunikaton över en hubb. När dator B sänder data
+						Kommunikation över en hubb. När dator B sänder data
 						över nätverket så når det inte bara avsedd mottagare
 						utan även alla andra anslutna till hubben. Det gör att
 						bara en kan sända i taget vilket gör att fler
@@ -1431,7 +1431,7 @@
 				</textobject>
 				<caption>
 					<para>
-						Kommunikaton över en switch. När dator B sänder data
+						Kommunikation över en switch. När dator B sänder data
 						över nätverket till C så når dessa data bara dator C.
 						Eftersom B och C får en egen kanal genom switchen kan
 						de kommunicera utan att resten av nätverket störs.
@@ -1455,7 +1455,7 @@
 	<sect1><title>Repeater</title>
 	<para>
 		En repeater kan jämföras med en förstärkare. En repeater har
-		ingångar och utångar, den lyssnar på ingångarna och förstärker
+		ingångar och utgångar, den lyssnar på ingångarna och förstärker
 		signalerna och skickar dem på utgångarna. En repeater har ingen
 		intelligens alls utan förstärker bara det den hör och skickar
 		vidare. En repeater används vid kommunikation över större avstånd
@@ -1512,7 +1512,7 @@
 	<sect1><title>Brandvägg</title>
 	<para>
 		En gateway mellan till exempel ett lokalt nätverk och Internet
-		kombineras ofta med en branvägg (eng. Firewall). En brandvägg är
+		kombineras ofta med en brandvägg (eng. Firewall). En brandvägg är
 		en speciell sorts router som bara routar vidare den trafik som
 		uppfyller vissa krav.  Trafik som inte uppfyller kraven kastas
 		bort vilket gör att mottagaren av den "förbjudna" trafiken skyddas
@@ -1539,7 +1539,7 @@
 
 	<sect1><title>Sammanhängande exempel</title>
 		<para>
-			I <xref linkend="fig_natverk"/> visas en en kanska krystad bild
+			I <xref linkend="fig_natverk"/> visas en en ganska krystad bild
 			på ett nätverk där de flesta av komponenterna vi behandlat
 			finns med. Switchen hade lika gärna kunnat vara en hubb. I
 			exemplet finns det en kombinerad gateway och brandvägg vilket
@@ -1621,7 +1621,7 @@
 	starkström mellan ett kärnkraftverk och någon typ av ställvärk
 	eller mellan två kontinenter har vid en första anblick inte
 	mycket gemensamt med en ledning mellan två olika delar i ett
-	elektroniskt armbansdur. Men om man tänker efter så är flera
+	elektroniskt armbandsur. Men om man tänker efter så är flera
 	olika saker direkt jämförbara även om deras mätvärden inte ens
 	kommer i närheten av varandra.
 
@@ -1694,7 +1694,7 @@
 
 <sect2><title>USB-kabel</title>
 <para>
-	USB är ett gränsnitt som blir allt vanligare. I många fall
+	USB är ett gränssnitt som blir allt vanligare. I många fall
 	ersätter det både seriekablar och parallellkablar. Både modem,
 	kameror och skrivare ansluts allt oftare via USB. XXXXX
 </para>
@@ -1726,10 +1726,10 @@
 
 	I en vanlig TP-kabel finns det 4 par kablar. Det finns dem med
 	bara två par också men de används inte så ofta för datornätverk
-	utan avnänds oftast bara till telefontrakik. Som namnet antyder
+	utan används oftast bara till telefontrafik. Som namnet antyder
 	är ledarna i varje par tvinnade om varandra. Man kan känna detta
 	om drar fingrarna längs en TP-kabel. Anledningen till att man
-	tvinnar dem är att minska känsligheten för störningar, böde för
+	tvinnar dem är att minska känsligheten för störningar, både för
 	störningar utifrån, så kallad interferens, och inre störningar i
 	kabeln, så kallad crosstalk. Kanske minns nu från fysiken hur
 	ett elektromagnetiskt fält vrider sig runt kabeln. Genom att
@@ -1751,7 +1751,7 @@
 
 		Oskärmad TP-kabel brukar kallas UTP. Det kommer från
 		engelskans Unshielded Twisted Pair. Den har normalt 8
-		ledningr (4 par). UTP kabel är mycket mjuk och följsam
+		ledningar (4 par). UTP kabel är mycket mjuk och följsam
 		vilket gör den lätt (billig) att installera i en byggnad. 
 
 	</para>
@@ -1766,7 +1766,7 @@
 		som UTP men har en skärm mellan ledarna och ytterhöljet.
 		Denna skärm består oftast av aluminiumfolie eller
 		kopparväv. STP blir, tack vara skärmen, lite stelare och
-		svårare att installera. Men den är andå relativt
+		svårare att installera. Men den är ändå relativt
 		lättinstallerad. STP är också dyrare är UTP.
 
 	</para>
@@ -1797,8 +1797,8 @@
 	kostar den att installera. Vidare är kablar svåra att dölja vid
 	en installation. Man vill ju inte ha kablar kors och tvärs
 	överallt i en lokal. Kablar är inte heller så flexibla för
-	användaren. Skall man gå från sitt skrivbort till soffan eller
-	fikabordet och vill ha sin laptop med sig blir det krångligt
+	användaren. Skall man gå från sitt skrivbord till soffan eller
+	fika-bordet och vill ha sin laptop med sig blir det krångligt
 	med sladdar. Har man trådlöst nätverk till sin dator underlättar
 	det avsevärt.
 </para>
@@ -1822,7 +1822,7 @@
 
 	Infrarött ljus kan användas för att överföra data mellan olika
 	enheter som stödjer detta. Vanligast är att det används för att föra
-	över infomration mellan små enheter som till exempel handdatorer. Det
+	över information mellan små enheter som till exempel handdatorer. Det
 	är också vanligt att det används för att ansluta pereferienheter,
 	framför allt skrivare, till bärbara datorer för att slippa hålla på
 	med kablar. Det går också att använda IR för att föra över filer
@@ -1838,9 +1838,9 @@
 <para>
 
 	Radio är det vanligaste alternativet när det gäller att sätta upp
-	trådläsa nätverk, så kallade <emphasis>Wireless LAN</emphasis> eller
+	trådlösa nätverk, så kallade <emphasis>Wireless LAN</emphasis> eller
 	<emphasis>WLAN</emphasis>. Eftersom man oftast använder radio till
-	dessa kallas de ibland för radiolan. De standarder som är vanligast
+	dessa kallas de ibland för radio-LAN. De standarder som är vanligast
 	inom detta område kommer från <emphasis>IEEE</emphasis>
 	(http://www.ieee.org/) och är en familj av protokoll under namnet
 	<emphasis>IEEE 802.11</emphasis> (http://www.ieee802.org/11/).
@@ -1854,7 +1854,7 @@
 <sect2><title>Bluetooth (Blåtand)</title>
 <para>
 
-	Bluetoth, eller blåtand som det också kallas, är en standard som från
+	Bluetooth, eller blåtand som det också kallas, är en standard som från
 	början togs fram av Ericsson. Nu styrs standarden av ett större organ
 	med över 100 medlemmar.
 
@@ -1863,13 +1863,13 @@
 <para>
 
 	Bluetooth är inte direkt menat för datornätverk även om det idag kan
-	användas till det. Bluetooth är avset för det som brukar kallas
+	användas till det. Bluetooth är avsett för det som brukar kallas
 	personliga nätverk. Det vill säga nätverk som bara används av en
 	person. Det kan vara till exempel mellan en telefon och ett headset,
 	mellan en handdator/ljudspelare och hörlurar eller mellan en dator
 	och en datormus. Eftersom det är avsett för dessa små nätverk har
 	Bluetooth väldigt begränsad räckvidd. Upp till 10 eller 100 meter
-	beroende på utrusning.
+	beroende på utrustning.
 
 </para>
 
@@ -1890,7 +1890,7 @@
 	dagsläget är det enda rimliga alternativet för detta att använda sig
 	av mobiltelefonnätet. Det finns flera sätt att ansluta till ett
 	datornätverk via mobiltelefonen. Till exempel kan man använda den som
-	en helt vanlig telefon och ringa upp ett modem pricis som med en
+	en helt vanlig telefon och ringa upp ett modem precis som med en
 	vanlig telefon. Dock skall man tänka på att hastigheten i det fallet
 	inte blir lika snabb som med en vanlig telefon eftersom
 	mobiltelefonnätet inte förmedlar lika mycket information (bandbredd).
@@ -1948,7 +1948,7 @@
 
 	Modem har traditionellt varit det vanligaste sättet för
 	privatpersoner att ansluta sig till Internet. Alla
-	Internetleverantören (Internet Service Proveider, ISP) erbjuder
+	Internetleverantören (Internet Service Provider, ISP) erbjuder
 	tjänsten uppringt Internet, det vill säga Internet via ett modem
 	anslutet till telenätet. I dag blir detta dock allt mindre
 	vanligt då nya snabbare tjänster erbjuds. Mer som dessa kommer i
@@ -2077,7 +2077,7 @@
 				ett visst ställe i cykeln betyder en
 				viss sak, till exempel en 1:a eller 0:a.
 				Det finns också utrymme för att
-				specifiera följder av tecken, till
+				specificera följder av tecken, till
 				exempel 00, 01, 10 eller 11.
 		</para></caption>
 	</mediaobject>
@@ -2116,12 +2116,12 @@
 	Man delar in det publika telenätet i två olika delarm
 	<emphasis>stamnät</emphasis> och <emphasis>accessnät</emphasis>.
 	Stamnät brukar man kalla stora nätverk som används som backbone i
-	natverkstrukturer och så är det även i fallet med telefonnätet.
+	nätverksstrukturer och så är det även i fallet med telefonnätet.
 	Stamnätet är alla de kablar som utgör telefonnätet mellan städer och
 	kopplingsstationer i Sverige. Accessnät kallas det nät som förbinder
-	alla abbonnenter med stamnätet. Det vill säga den kabeln som går från
+	alla abonnenter med stamnätet. Det vill säga den kabeln som går från
 	ditt telefonjack till kopplingsstationen. Stamnätet är väl utbyggt
-	och är i Sverige digitalicerat medan accessnätet till största delen
+	och är i Sverige digitaliserat medan accessnätet till största delen
 	utgörs av kopparkabel som i många fall är 50 år gammal. När man skall
 	bygga snabba datornät över telenätet är det oftast här man stöter på
 	problem.
@@ -2295,7 +2295,7 @@
 <para>
 	Det finns naturligtvis även protokoll och standarder som
 	kontrolleras av företag och organisationer på traditionellt vis.
-	Exempel på organisationer som hanterar stadarder är i Sverige
+	Exempel på organisationer som hanterar standarder är i Sverige
 	till exempel <emphasis>Post och Telestyrelsen, PTS</emphasis>
 	som kontrollerar bland annat radio och teletrafiken i Sverige
 	och <emphasis>Standardiseringen i Sverige, SIS</emphasis> som är
@@ -2305,7 +2305,7 @@
 	147<footnote><para>http://www.iso.ch/iso/en/aboutiso/introduction/</para></footnote>
 	länder. Ett annat organ som kan vara bra att känna till är
 	<emphasis>IEEE</emphasis> som är ett Amerikansk samling av
-	ingengörer som tar fram standarder för bland annat lokala
+	ingenjörer som tar fram standarder för bland annat lokala
 	nätverk.
 </para>
 
@@ -2390,7 +2390,7 @@
 
 
 	I figuren (<xref linkend="fig_osi-modell"/>) ser vi
-	OSI-modellens sju lager. Då ett meddlelande skall gå från den
+	OSI-modellens sju lager. Då ett meddelande skall gå från den
 	ena sidan till den andra börjar meddelandet högst upp på den ena
 	sidan. All data förbereds för att skickas till samma nivå på den
 	andra sidan och skickas sedan till lagret under. Detta lager
@@ -2413,7 +2413,7 @@
 <para>
 	Detta är lagret närmast programvarorna som användaren ser. Det
 	är med detta lager som program som använder nätverket jobbar.
-	Exemple på protokoll från detta lager är FTP, HTTP, och olika
+	Exempel på protokoll från detta lager är FTP, HTTP, och olika
 	protokoll för att dela filer.
 </para>
 </sect2>
@@ -2438,16 +2438,16 @@
 	I detta lager delas data i flera mindre paket. Det gör att
 	nätskiktet lättare kan arbeta. På mottagarsidan ansvara detta
 	lager för att sätta ihop paketen igen i rätt ordning så att
-	ursprungsstrukturen återfås. I detta skickt hittar vi TCP som
+	ursprungsstrukturen återfås. I detta skikt hittar vi TCP som
 	används flitigt på Internet och på LAN.
 </para>
 </sect2>
 
 <sect2><title>Nätverkslagret</title>
 <para>
-	Detta lager ansvarar för vägval och och vidarebefodring av
+	Detta lager ansvarar för vägval och och vidarebefordring av
 	paketen i datanätet. Här jobbbar till exempel routrar. Det finns
-	massor av protokoll i detta skickt och det viktigaste i dag
+	massor av protokoll i detta skikt och det viktigaste i dag
 	borde vara IP som används på Internet och i de flesta LAN.
 </para>
 </sect2>
@@ -2465,7 +2465,7 @@
 	Det fysiska lagret hanterar det fysiska. Det vill säga det som
 	man kan ta på. Här hittar vi kablar, kontakter, spänningar och
 	strömmar. Exempel på utrustning här är STP, UTP, Koax och RJ45.
-	Vanliga enheter är Volt, Ampere ich Herz.
+	Vanliga enheter är Volt, Ampere och Herz.
 </para>
 </sect2>
 
@@ -2534,7 +2534,7 @@ Modeller, referensmodeller, standarder
 	som utvecklades inom forskarvärlden. Man var sedan länge
 	beroende av kommunikationer över långa sträckor och hade börjat
 	fundera på hur dessa skulle kunna hållas fungerande under krig.
-	Det utlimata problemet man ställdes inför var dåtidens rädlsa
+	Det ultimata problemet man ställdes inför var dåtidens rädsla
 	för atombomber. 
 
 </para>
@@ -2552,7 +2552,7 @@ Modeller, referensmodeller, standarder
 
 <para>
 
-	Det första nätet som byggdes bygdes inom ett projekt som
+	Det första nätet som byggdes byggdes inom ett projekt som
 	kallades ARPANET. ARPANET var ett paketförmedlat nät, precis som
 	Internet, men från början mycket, mycket mindre. Vissa tjänster
 	utvecklades tidigt, till exempel så kom e-post att bli väldigt
@@ -2569,9 +2569,9 @@ Modeller, referensmodeller, standarder
 	ta hjälp från universiteten. Detta var en ovanlig situation för
 	en militär organisation där all utveckling i normala fall är
 	topphemlig. Allteftersom nätverket sprider sig blir det mer och
-	mer okntrollerbart och är till slut inte längre intressant för
+	mer okontrollerbart och är till slut inte längre intressant för
 	militären. De överger tillslut Internet och börjat utveckla ett
-	eget nätver som kommer att kallas MILNET.
+	eget nätverk som kommer att kallas MILNET.
 </para>
 </sect2>
 
@@ -2594,7 +2594,7 @@ Modeller, referensmodeller, standarder
 	en viss del av en text eller bild till en helt annan, men
 	relaterad, text eller bild antingen på samma server eller på ett
 	helt annat ställe, kanske på andra sidan jordklotet. Konceptet
-	med hypertext har funnits mycket länge, långt innan tänken på
+	med hypertext har funnits mycket länge, långt innan tanken på
 	Internet föddes, men har inte före Internet fått en så betydande
 	användning.
 
@@ -2609,7 +2609,7 @@ Modeller, referensmodeller, standarder
 	var så pass enkel att vem som helst skulle kunna använda den.
 	Ett mål med den, och hela Internet, var att det skulle fungera
 	oavsett vilken sorts dator man använde. Redan tidigt hade det
-	besämts att alla datorer skulle kunna ansluta till nätet bara de
+	bestämts att alla datorer skulle kunna ansluta till nätet bara de
 	följde de protokoll som gäller.
 
 </para>
@@ -2624,7 +2624,7 @@ Modeller, referensmodeller, standarder
 <sect2><title>Svensk Internethistoria</title>
 <para>
 
-	Hämrta infomraiton från bland annat:
+	Hämta information från bland annat:
 	http://www.susning.nu/Svensk_Internethistoria
 
 </para>
@@ -2644,7 +2644,7 @@ Modeller, referensmodeller, standarder
 	kommentarer" och det fungerade ungefär så här. En organisation,
 	företag eller forskare kommer på ett bra protokoll eller program
 	och skriver en RFC om detta. Denna RFC läses av alla
-	intressedade och de har möjlighet att kommentera den. Alla har,
+	intresserade och de har möjlighet att kommentera den. Alla har,
 	i demokratins anda, möjlighet att läsa, och kommentera,
 	dokumenten. Då ett dokument kommenterats och uppdaterats tills
 	alla ha blivit nöjda anses det vara en standard som gäller. 
@@ -2677,7 +2677,7 @@ Modeller, referensmodeller, standarder
 <para>
 
 	Som sagt så kan man  ansluta till Internet på en uppsjö av olika
-	sätt.  Man kan till exmpel använda ett vanligt telefonabbonemang
+	sätt.  Man kan till exempel använda ett vanligt telefonabonnemang
 	och en dator med modem. Denna metod kallas vardagligt för
 	uppringt Internet. Uppringt Internet är väldigt enkelt och
 	fungerar överallt där det finns telefon. Denna metod är väldigt
@@ -2690,7 +2690,7 @@ Modeller, referensmodeller, standarder
 
 	Nackdelen med uppringd Internet är att det är ganska långsamt
 	och att det oftast är förknippat med en samtalsavgift. Det vill
-	säfga du betalar för den tid du är ansluten till Internet även
+	säga du betalar för den tid du är ansluten till Internet även
 	om du inte använder anslutningen. Detta inbjuder till att man
 	kopplar ner sin anslutning till Internet när man inte använder
 	den. Ytterligare en nackdel är då att det tar en stund att
@@ -2729,7 +2729,7 @@ Modeller, referensmodeller, standarder
 	DSL tekniken är en modernare teknik än ISDN. Men den kräver
 	ytterligare lite till av telenätet och går därför inte att för
 	överallt där man kan få ISDN eller använda ett vanligt modem.
-	Den vanligaste varianden av DSL som använde i Sverige är ADSL
+	Den vanligaste varianten av DSL som använde i Sverige är ADSL
 	(Asymmetric Digital Subscriber Line) det innebär att hastigheten
 	man kan komma upp skiljer sig beroende på om man skickar eller
 	tar emot data. Vanligtvis så går det snabbare att hämta data
@@ -2771,7 +2771,7 @@ Modeller, referensmodeller, standarder
 	av Internetleverantörernas routrar och får på så sätt en stabil
 	koppling till Internet. Inte sällan har större företag två eller
 	flera kopplingar för att inte vara beroende av en ända. De kan
-	till exempel ha en förbindelse mellan två kontor i olka städer
+	till exempel ha en förbindelse mellan två kontor i olika städer
 	och sedan en Internetförbindelse i varje stad. Går den ena
 	Internetförbindelsen ner så märker inte användarna det utan
 	surfar vidare genom förbindelsen till det andra kontoret och ut
@@ -2781,7 +2781,7 @@ Modeller, referensmodeller, standarder
 <para>
 	
 	När det gäller kapaciteten på Inernetanslutningar för företag
-	och skolor så finns det igentligen inga begränsningar. Bara
+	och skolor så finns det egentligen inga begränsningar. Bara
 	priset sätter gränsen. Hur mycket man är villig att betala
 	beror naturligtvis på vilket behov man har. Behovet beräknas
 	utifrån vilken verksamhet man bedriver och hur många samtidiga
@@ -2804,8 +2804,8 @@ Modeller, referensmodeller, standarder
 </para>
 <para>
 
-	Man kan tillexmpel koppla upp sig mot Internet via
-	kabeltvnäten. Denna metod är relativt vanlig i de städer där
+	Man kan till exempel koppla upp sig mot Internet via
+	kabel-tv-näten[D[D[D[D[D[D[D[[C[D[[C[C[C[C[C[C[C[C[Ctvnäten. Denna metod är relativt vanlig i de städer där
 	kabeltv finns. Man kan även på vissa ställen i landen använda
 	elnätet för att koppla upp sig. Man kan även använda radio för
 	att ansluta ett avlägset hus eller villaområde. På vissa ställen
@@ -2819,7 +2819,7 @@ Modeller, referensmodeller, standarder
 	Även på det mobila området förekommer mycket nytänkande. Man kan
 	till exempel utan problem koppla upp sig mot Internet med de
 	flesta moderna mobiltelefoner. Man kan också i vissa butiker
-	koppla upp sig mot Internet via bluetooth eller radiolan.
+	koppla upp sig mot Internet via Bluetooth eller radio-LAN.
 
 </para>
 
@@ -2829,9 +2829,9 @@ Modeller, referensmodeller, standarder
 <sect1><title>Vanliga tjänster, program och protokoll på Internet</title>
 <para>
 
-	Det säjer sig självt att om så många datorer skall fungera ihop
+	Det säger sig självt att om så många datorer skall fungera ihop
 	så måste de använda ett och samma protokoll. Vidare verkar det
-	kanska uppenbart att ett så stort och mångfaldigt nätverk som
+	kanske uppenbart att ett så stort och mångfaldigt nätverk som
 	Internet måste ha flera protokoll. 
 
 </para>
@@ -2865,7 +2865,7 @@ Modeller, referensmodeller, standarder
 
 	Vi kommer inte att behandla TCP/IP så mycket i detta kapitel.
 	Det kommer mer om det längre fram i boken. Vi skall i detta
-	kapitel titta på de protkoll och program som används högre upp i
+	kapitel titta på de protokoll och program som används högre upp i
 	modellen.
 
 </para>
@@ -2876,9 +2876,9 @@ Modeller, referensmodeller, standarder
 <para>
 
 	World Wide Web (WWW) var det system som satte riktig fart på
-	Internet. WWW packeterades med snygga program som var lätta att
+	Internet. WWW paketerades med snygga program som var lätta att
 	använda. WWW är det system som vi använder när vi "surfar" på
-	nätet. Det verktyg som man använder kallar för webläsare (eng.
+	nätet. Det verktyg som man använder kallar för webbläsare (eng.
 	browser). Det protokoll som används heter <emphasis>Hypertext
 	Transport Protocol (HTTP)</emphasis>. Med hypertext menas text
 	som innehåller hyperlänkar. Men hyperlänk menas en koppling från
@@ -2889,7 +2889,7 @@ Modeller, referensmodeller, standarder
 <para>
 
 	Hypertext är inget som kommit till i och med Internet utan det
-	har funnits tidiare i vissa programvaror och begreppet som
+	har funnits tidigare i vissa programvaror och begreppet som
 	sådant har använts, om än inte i samma utbredning som nu, sedan
 	andra värdskriget.
 
@@ -2897,12 +2897,12 @@ Modeller, referensmodeller, standarder
 
 <para>
 
-	För att använda WWW måste man ha en webläsare. Vänliga websäsare
+	För att använda WWW måste man ha en webbläsare. Vänliga webbläsare
 	är Netscape Navigator, Internet Explorer och Mozilla. I <xref
-	linkend="fig_konqueror"/> visas en webläsare.
+	linkend="fig_konqueror"/> visas en webbläsare.
 	
 	<figure id="fig_konqueror">
-	<title>Den grafiska webläsaren Konqueror</title>
+	<title>Den grafiska webbläsaren Konqueror</title>
 
 	<mediaobject>
   		<imageobject>
@@ -2913,12 +2913,12 @@ Modeller, referensmodeller, standarder
         	</imageobject>
 		<textobject>
 			<phrase>
-				Bild som visar Konqueror, en grafisk webläsare.
+				Bild som visar Konqueror, en grafisk webbläsare.
 			</phrase>
 		</textobject>
 		<caption><para>
-				Konqueror är en grafisk webläsare.
-				Grafiska webläsare är enormt populära
+				Konqueror är en grafisk webbläsare.
+				Grafiska webbläsare är enormt populära
 				och finns till i princip alla
 				operativsystem. Den som visas på bilden
 				heter Konqueror.
@@ -2934,8 +2934,8 @@ Modeller, referensmodeller, standarder
 <para>
 
 	När man använder http (se ovan) så hämtar man ju filer från
-	servern för att visa dem i sin webläsare. Men eftersom http är
-	tänkt för att användas av webläsare så saknar det mycket av den
+	servern för att visa dem i sin webbläsare. Men eftersom http är
+	tänkt för att användas av webbläsare så saknar det mycket av den
 	funktionalitet som man vill ha i ett protokoll för
 	filöverföring. Till exempel så är det bökigt att ladda upp filer
 	till servern med http och det går inte att byta namn eller
@@ -2992,7 +2992,7 @@ Modeller, referensmodeller, standarder
 			<emphasis>Transmission Control Protocol/Internet
 			protocol</emphasis>. Standarden TCP/IP har fått sitt namn av
 			två av dess ingående protokoll, nämligen TCP och IP.  Fler
-			protokoll ingår i stadarden som vi kommer att se i detta
+			protokoll ingår i standarden som vi kommer att se i detta
 			kapitel. 
 		</para>
 
@@ -3006,7 +3006,7 @@ Modeller, referensmodeller, standarder
 				telefonnummer. Precis som i telefonfallet kan olika datorer
 				ha samma nummer men de kan inte sitta på samma nät. Två
 				telefoner kan ha nummer 12345 men de kan ju inte finnas på
-				samma riktnummer. Skulle de sitta på samma riktinummer så
+				samma riktnummer. Skulle de sitta på samma riktnummer så
 				får de inte finnas inom samma land utan måste skiljas åt med
 				olika landsnummer. Huvudsakligen är att det totala
 				telefonnummret är unikt. IP-adresserna byggs upp av olika
@@ -3023,7 +3023,7 @@ Modeller, referensmodeller, standarder
 				så består denna IP-adress av olika delar. En del är
 				datornamnet och en annan del är adressen till det nätverk
 				där datorn finns. Till skillnad från telefonnummer så är
-				avgränsningen mellan datornamn och natverksnamn lite mer
+				avgränsningen mellan datornamn och nätverksnamn lite mer
 				flytande och syns inte direkt i adressen. 
 			</para>
 			<para>
@@ -3085,7 +3085,7 @@ Modeller, referensmodeller, standarder
 				detta. Ett sätt är att dela in adresserna i fler mer
 				finfördelade klasser än A, B och C. Detta gör man redan idag
 				för att få få fler nätverk. Man kan till exempel ha nätverk
-				med bara 8 eller 32 ip-adresser. Det finns också en teknik
+				med bara 8 eller 32 IP-adresser. Det finns också en teknik
 				som kallas NAT som gör att man kan gömma hela nätverk bakom
 				en enda IP-adress. Genom att använda denna teknik så kan man
 				ha samma IP-adresser på flera datorer bara de sitter på ett
@@ -3103,7 +3103,7 @@ Modeller, referensmodeller, standarder
 			</para>
 			<para>
 				Det finns också en mer permanent lösning på problemet. Det
-				finns en helt ny verison av IP-protokollet som heter IP
+				finns en helt ny version av IP-protokollet som heter IP
 				version 6. Med IP version 6 kommer det inte att råda någon
 				brist på vare sig IP-adresser eller nätverksadresser.
 				Problemet är att bytet från nuvarande version, IP version 4,
@@ -3116,27 +3116,27 @@ Modeller, referensmodeller, standarder
 			<para>
 				Som vi sagt tidigare så kan en och samma dator
 				tillhandahålla en mängd olika tjänster. Till exempel så kan
-				en dator vara både webserver, e-postserver och DNS-server på
+				en dator vara både webbserver, e-postserver och DNS-server på
 				samma gång. För att inte trafiken till de olika tjänsterna
 				skall krocka med varandra så måste man på något sätt dela
-				upp den. Till exempel så förstår ju inte en webserver den
-				trafik som är menad till en epostserver även om de körs på
+				upp den. Till exempel så förstår ju inte en webbserver den
+				trafik som är menad till en e-postserver även om de körs på
 				samma dator. För att komma till rätta med detta så har man
 				infört i protokollet något som kallas för portar. Man skulle
 				kunna jämföra det med ett hyreshus. Hela huset är datorn och
 				varje lägenhetsdörr är en port. I varje lägenhet bor en
 				tjänst. I lägehet nummer 80 bor till exempel webbtjänsten så
 				om någon pratar med port 80 på datorn så pratar den bara med
-				webtjänsten. Portar är alltså inte något fysiskt på datorn
+				webbtjänsten. Portar är alltså inte något fysiskt på datorn
 				utan bara en logisk uppdelning av tjänsterna. Varje tjänst
 				är kopplad till en port på datorn. En dator kan ha ungefär
 				65000 portar.I lägehet nummer 80 bor till exempel
 				webbtjänsten så om någon pratar med port 80 på datorn så
-				pratar den bara med webtjänsten. Portar är alltså inte något
+				pratar den bara med webbtjänsten. Portar är alltså inte något
 				fysiskt på datorn utan bara en logisk uppdelning av
 				tjänsterna. I lägehet nummer 80 bor till exempel
 				webbtjänsten så om någon pratar med port 80 på datorn så
-				pratar den bara med webtjänsten. Portar är alltså inte något
+				pratar den bara med webbtjänsten. Portar är alltså inte något
 				fysiskt på datorn utan bara en logisk uppdelning av
 				tjänsterna.
 			</para>
@@ -3144,7 +3144,7 @@ Modeller, referensmodeller, standarder
 				För att man skall veta bakom vilken port som en viss tjänst
 				finns (jämför lägenhetsdörr) så har man kommit fram till
 				vissa standardportar som brukar användas. Till exempel så
-				körs nästan alltid webservern på port 80 och e-postservern
+				körs nästan alltid webbservern på port 80 och e-postservern
 				på port 25. I <xref linkend="services"/> finns en lista av
 				de vanligaste portarna och vad de används till. Där finns
 				även en referens till var man hittar fler.
@@ -3162,9 +3162,9 @@ Modeller, referensmodeller, standarder
 				<emphasis>://</emphasis>, i vårt fall
 				<emphasis>http</emphasis>. Http står för <emphasis>Hypertext
 				Transfer Protocol</emphasis> och används för att läsa
-				websidor från en webserver. Andra exempel på vanliga
+				webbsidor från en webbserver. Andra exempel på vanliga
 				protokoll i URL:er är ftp och https som är för filöverföring
-				respektive säker överföring av websidor. Den andra delen är
+				respektive säker överföring av webbsidor. Den andra delen är
 				datornamnet, se kapitlet om DNS längre fram i boken. Om
 				datornamnet har ett kolon i sig så är det som kommer efter
 				ett portnummer. Normalt sett så behöver man inte ange
@@ -3172,7 +3172,7 @@ Modeller, referensmodeller, standarder
 				standardport, men om den körs på en icke-standardport så
 				måste man tala om detta. Den sista delen är en adress till
 				något på den dator man ansluter till. I vårt fall en
-				websida.
+				webbsida.
 			</para>
 		</sect2>
 
@@ -3206,22 +3206,22 @@ Modeller, referensmodeller, standarder
 					små postkontor som tar emot paket från olika håll och
 					beroende på var de skall skickar dem vidare åt olika
 					håll. Varje router står i kontakt med andra routrar och
-					de sammarbetar så att varje router vet vilka delar av
+					de samarbetar så att varje router vet vilka delar av
 					nätet som varje router kan komma åt.  På så sätt kan en
 					router välja vilken av sina grannar som bäst kan förmedla
 					det aktuella paketet. Det finns flera alternativa väger
-					för at paket att komma fram så om någon router går ner så
+					för ett paket att komma fram så om någon router går ner så
 					märker dess granne detta och letar efter en annan router
 					som kan komma åt de delar av nätet som den som gick ned.
 					Det kan innebära att paketen får ta en liten omväg men de
 					kommer i alla fall fram. Det kan även hända att den
-					kortaste vägen för tillfållet är överbelastad. Då kan en
+					kortaste vägen för tillfället är överbelastad. Då kan en
 					router välja att skicka paketeten en annan väg.
 				</para>
 				<para>
 					Systemet består alltså av en mängd olika routrar som
 					känner till sin omgivning genom att med bestämda
-					protokoll sammarbetar med sina grannar om de olika
+					protokoll samarbetar med sina grannar om de olika
 					möjliga vägarna till olika mål och därefter tar emot och
 					skickar datapaket åt olika håll beroende på var de skall.
 				</para>
@@ -3230,11 +3230,11 @@ Modeller, referensmodeller, standarder
 			<sect3><title>Time to live (TTL)</title>
 				<para>
 					Man kan lätt tänka sig att det kan uppstå problem i detta
-					system. Tänk om någon router får fel infomration av någon
+					system. Tänk om någon router får fel information av någon
 					anledning och börjar att skicka paket åt fel håll eller
 					tänk om ett paket har en konstig adress som ingen vill
-					veta av. För att förhuindra att paket åker runt i all
-					eveighet på Internet så har varje paket ett fält med ett
+					veta av. För att förhindra att paket åker runt i all
+					evighet på Internet så har varje paket ett fält med ett
 					heltal som kallas för <emphasis>Time To Live
 					(TTL)</emphasis>. Detta fält börjar på ett tal och
 					minskas av varje router som tar i paketet med ett.  Om
@@ -3326,13 +3326,13 @@ Modeller, referensmodeller, standarder
 		<para>
 			Domännamnssystemets huvudsakliga uppgift är att översätta
 			datornamn (hostname), till exempel www.se.linux.org till en
-			ip-adress, 213.141.74.169. Den huvudsakliga anledningen till
+			IP-adress, 213.141.74.169. Den huvudsakliga anledningen till
 			detta är att det skall vara lätt för människor att komma ihåg
 			namnen på olika servrar. I exemplet så är ju datornamnet mycket
-			lättare för en människa att lägga på minnet än vad ip-adressen
+			lättare för en människa att lägga på minnet än vad IP-adressen
 			är. Dessutom är det bra att använda ett alias, datornamnet, när
 			man adresserar en dator eftersom man då kan flytta datorn,
-			vilket oftast medför en ny ip-adress, utan att man behöver
+			vilket oftast medför en ny IP-adress, utan att man behöver
 			uppdatera alla som skall använda datorn, det räcker ju att
 			uppdatera DNS-namnet.
 		</para>
@@ -3342,9 +3342,9 @@ Modeller, referensmodeller, standarder
 			man har ett mindre lokalt nätverk. Men så snart man skall
 			använda Internet eller skall hantera ett lite större nätverk så
 			är det väldigt bra att använda ett DNS-system. Från början på
-			Internet använde man så kallade hosts-filer på varja dator. I
-			denna fil fanns det en lista med datornamn och mostvarande
-			ip-adresser. Detta system kan man fortfarande använda om man
+			Internet använde man så kallade hosts-filer på varje dator. I
+			denna fil fanns det en lista med datornamn och motsvarande
+			IP-adresser. Detta system kan man fortfarande använda om man
 			vill men fungerar bara så länge som nätverket är litet. Det blir
 			snabbt ohållbart att hålla alla dessa hosts-filer uppdaterade
 			med varandra. Precis som man upptäckte så snart som Internet
@@ -3354,11 +3354,11 @@ Modeller, referensmodeller, standarder
 		<sect2><title>Hierarkiskt system</title>
 			<para>
 				DNS kan jämföras med en gigantisk distribuerad databas med
-				datornamn och ip-adresser. DNS är ett hierarkiskt system. Det
+				datornamn och IP-adresser. DNS är ett hierarkiskt system. Det
 				vill säga det finns en mängd olika nivåer där varje nivå har en
 				master. Det kan jämföras med en hierarkisk företagsstruktur med
 				en VD överst och under denne en rad chefer som under sig har
-				kankse andra chefer som under sig har arbetare. Varje chef
+				kanske andra chefer som under sig har arbetare. Varje chef
 				ansvarar för sina underhuggare och lyder närmast överliggande
 				chef. Ungefär på samma sätt fungerar DNS. 
 			</para>
@@ -3370,7 +3370,7 @@ Modeller, referensmodeller, standarder
 				och hantera frågor om dem.
 			</para>
 			<para>
-				DNS har inte en master eller top-chef utan i dagsläget 13
+				DNS har inte en master eller topp-chef utan i dagsläget 13
 				stycken (http://www.root-servers.org/). Under dessa finns alla
 				dns-servrar som hanterar <emphasis>topdomäner</emphasis>.
 			</para>
@@ -3383,7 +3383,7 @@ Modeller, referensmodeller, standarder
 				.org, och .net. Dessa kom till när Internet var litet och i
 				princip bara fanns i USA. Då var det mest logiskt att dela upp
 				datornamnen efter vilken funktion de tillhörde. Sedan när
-				Internet växte insåg man att man måste dela upp utterligare, då
+				Internet växte insåg man att man måste dela upp ytterligare, då
 				blev det mest logiska att dela upp efter land. Så kom de
 				nationella topdomänerna till. Exempel på nationella domäner ät
 				.se, .no, och .dk. Märk att de nationella domänerna är bundna
@@ -3404,15 +3404,15 @@ Modeller, referensmodeller, standarder
 		<sect2><title>Domännamnsförfrågan</title>
 			<para>
 				Som vi sa tidigare så ansvarar DNS för att översätta datornamn
-				till ip-adress. Så vad händer när du skall hitta en dator. Säg
+				till IP-adress. Så vad händer när du skall hitta en dator. Säg
 				att du vill kontakta datorn www.se.linux.org för att till
-				exempel titta på de webtjänster som den erbjuder. Du knappar in
+				exempel titta på de webbtjänster som den erbjuder. Du knappar in
 				http://www.se.linux.org i din browser, vad händer sedan?
 			</para>
 			<para>
 				Det första som händer är att din dator frågar den DNS-server som
 				du angett som standard, det är vanligtvis den server som är DNS
-				på ditt lokala nätverk eller den som din Internetleverantör
+				på ditt lokala nätverk eller den som din internetleverantör
 				tillhandahåller. Så din dator frågar alltså denna efter
 				www.se.linux.org. Vi antar att denna DNS inte vet vad
 				www.se.linux.org har för adress så denna DNS måste fråga någon
@@ -3428,7 +3428,7 @@ Modeller, referensmodeller, standarder
 				så hittas adressen till den dator du sökte. Varje fråga som
 				ställs sparas (cachas) i den maskin som ställde frågan så det
 				skall gå snabbare nästa gång. Så nästa gång du frågar så vet
-				redan din lokala dns vilken adress det är du söker. Utan denna
+				redan din lokala DNS vilken adress det är du söker. Utan denna
 				funktion skulle Internet snabbt svämma över av bara
 				namnförfrågningar.
 			</para>
@@ -3469,7 +3469,7 @@ Modeller, referensmodeller, standarder
 				Det viktigaste protokollet som används är <emphasis>Simple Mail
 				Transport Protocol, SMTP</emphasis>. Det är med SMTP som brevet
 				transporteras över Internet från dig till mottagaren. Man kan
-				säga at det är med SMTP som man skickar e-post.
+				säga att det är med SMTP som man skickar e-post.
 			</para>
 			<para>
 				Du startar ditt e-postprogram på din dator. Normalt så har du
@@ -3477,7 +3477,7 @@ Modeller, referensmodeller, standarder
 				pratar ditt e-postprogram med en SMTP-server på ditt nät som
 				antingen tillhandahålls av din ISP eller av IT-avdelningen på
 				det företag du jobbar. Det protokoll som används mellan
-				tille-postprogram och servern är SMTP.
+				e-postprogram och servern är SMTP.
 			</para>
 			<para>
 				När brevet nått din SMTP-server måste det skickas vidare.
@@ -3487,7 +3487,7 @@ Modeller, referensmodeller, standarder
 				brevet vidare till den SMTP-server som hanterar posten för det
 				domännamn som du angav i mottagarens e-postadress (det som står
 				till höger om "@" i e-postadressen). Information om vilken
-				server som anvsarar för e-posten för just den aktuella domänen
+				server som ansvarar för e-posten för just den aktuella domänen
 				får din server från DNS-systemet. När brevet kommit dit så finns
 				det förhoppningvis på en server som mottagaren har tillgång
 				till. I vissa fall så hoppar brevet flera steg till innan det
@@ -3510,7 +3510,7 @@ Modeller, referensmodeller, standarder
 				<emphasis>Post Office Protocol, POP</emphasis>. Med hjälp av POP
 				hämtar du posten från din POP-server till lokala dator. De
 				flesta e-postprogram klarar att hämta post med POP. Märk att
-				SMTP har änvänds hela tiden för att transportera brevet men
+				SMTP har används hela tiden för att transportera brevet men
 				sista biten används andra protokoll. I det här fallet POP.  När
 				brevet flyttats (kallas ibland för poppats) till din dator tas
 				det oftast bort från POP-servern och lagras nu lokalt på din
@@ -3532,10 +3532,10 @@ Modeller, referensmodeller, standarder
 			</para>
 			<para>
 				Det enklaste sättet att göra detta på är att använda sig av en
-				webmail. Det är ett system då man istället för att hämta sin
+				webbmail. Det är ett system då man istället för att hämta sin
 				post från leverantörens eller företagets SMTP-server med POP
 				eller IMAP, läser den direkt från servern med hjälp av en
-				webmailprogramvara. Ved denna programvara gör är att möjliggöra
+				webbmailprogramvara. Ved denna programvara gör är att möjliggöra
 				att man läser sin post via HTTP och ett vanlig webbläsare.
 				Eftersom nästan alla datorer idag har en webbläsare och är
 				anslutna till Internet kan man läsa sin post nästan varifrån som
@@ -3544,22 +3544,22 @@ Modeller, referensmodeller, standarder
 			<para>
 				Att kunna läsa sin post varifrån som helst och att slippa spara
 				sina brev på den egna datorn är stora fördelar som gör att många
-				använder webmail. Det finns flera företag som använder gratis
-				webmailtjänster som gör att du kan skaffa dig en e-postadress
-				alldeles gratis utan att ens ha en Internetansluten dator. Men
-				det finns ocskå nackdelar med webmail.
+				använder webbmail. Det finns flera företag som använder gratis
+				webbmailtjänster som gör att du kan skaffa dig en e-postadress
+				alldeles gratis utan att ens ha en internetansluten dator. Men
+				det finns också nackdelar med webbmail.
 			</para>
 			<para>
-				Webmail har flera nackdelar. Att hantera sin post med en
-				webbläsare är oftast krångligare och längsammare än att göra det
+				Webbmail har flera nackdelar. Att hantera sin post med en
+				webbläsare är oftast krångligare och långsammare än att göra det
 				med ett vanligt e-postprogram. En annan nackdel är att du måste
-				vara uppkopplad hela tiden su skall läsa din post. Om du hämtar
+				vara uppkopplad hela tiden du skall läsa din post. Om du hämtar
 				posten med POP eller IMAP behöver du ju bara vara ansluten till
 				Internet just när du hämtar posten, sedan kan du ju läsa den i
 				lugn och ro även om du inte är uppkopplad. En annan nackdel är
-				att de flesta företag som erbjuder webmail har en gräns för hur
+				att de flesta företag som erbjuder webbmail har en gräns för hur
 				mycket post du får spara på deras server. Det gör att du men
-				gämna mellanrum måste slänga dina brev för att få plats med
+				jämna mellanrum måste slänga dina brev för att få plats med
 				nya. Detta gäller i första han gratistjänster men det är inte
 				ovanligt att även sådana man betalar för eller de inom företag
 				har liknande gränser (om än oftast lite högre).
@@ -3574,7 +3574,7 @@ Modeller, referensmodeller, standarder
 			e-post. E-post är nämligen en tjänst på Internet som skall
 			betraktas som osäker. En tumregel som är bra är att man inte
 			skall skriva någonting i ett e-brev som man inte skulle skriva
-			på ett vykort. Vill man skicka någonting som är lite hemilgt
+			på ett vykort. Vill man skicka någonting som är lite hemligt
 			skall man använda sig av något verktyg för att kryptera sitt
 			brev så att obehöriga inte kan läsa det.
 		</para>
@@ -3585,8 +3585,8 @@ Modeller, referensmodeller, standarder
 	<abstract>
 		<para>
 			Stora öppna nät som till exempel Internet är naturligtvis bra för
-			kommunikatinonen men det öppnar även för onda personer som kan
-			missbruka denna öppenhet. I deta kapitel behandlar vi
+			kommunikationen men det öppnar även för onda personer som kan
+			missbruka denna öppenhet. I detta kapitel behandlar vi
 			datasäkerhet. Hur farligt är Internet och vad kan man göra för att
 			skydda sig?
 		</para>
@@ -3608,7 +3608,7 @@ Modeller, referensmodeller, standarder
 
 <appendix id="services"><title>Portnummer och tjänster</title>
 <para>
-I detta appendix listas en del tjänster och deras mostvarande
+I detta appendix listas en del tjänster och deras motsvarande
 portnummer i urval. Man kan naturligtvis köra tjänster på vilken port som helst
 men vill man göra det lätt för sina användare så använder man dessa
 portar. Vill du se flera skall du läsa RFC 1700.
