@@ -38,7 +38,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/02/02 10:07:58 $</pubdate>
+	<pubdate>$Date: 2004/02/05 08:31:23 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -47,7 +47,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.38 $</revnumber>
+			<revnumber>$Revision: 1.39 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -4048,6 +4048,18 @@ Destination   Netmask          Gateway           Interface
 				hindrar att landet säljer dessa till utlandet. På så sätt har
 				det till exempel blivit väldigt vanligt att svenskar använder
 				det nationella topdomännamnet .nu som tillhör landet Niue.
+			</para>
+			<para>
+				I Sverige har vi den nationella toppdomänen se. Den styrs av
+				ett företag som heter Nic-SE. Nic-SE ägs till 100% av en
+				stiftelse som heter <emphasis>Stiftelsen för
+				internetinfrastruktur (II-stiftelsen)</emphasis>. Fram till
+				april 2003 var det väldigt avancerat att få ett domännamn
+				under se-domänen, till exempel så måste man då ha ett
+				företag registrerat hos Patent och Registreringsverket
+				(PRV). Bland annat detta ledde till att toppdomänen nu blev
+				så populär bland svenskar. Nu är det betydligt enklare och
+				vem som helst kan skaffa en se-domän.
 			</para>
 			<para>
 				I <xref linkend="topdomains"/> finns en komplett lista över de
