@@ -13,6 +13,7 @@
 <!ENTITY ovningsuppgifter SYSTEM "ovningsuppgifter.xml">
 <!ENTITY services SYSTEM "services.xml">
 <!ENTITY topdomains SYSTEM "topdomains.xml">
+<!ENTITY brev SYSTEM "brev.xml">
 ]>
 
 <book lang="sv" status="draft">
@@ -38,7 +39,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/02/05 08:31:23 $</pubdate>
+	<pubdate>$Date: 2004/03/22 19:50:52 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -47,7 +48,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.39 $</revnumber>
+			<revnumber>$Revision: 1.40 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -111,6 +112,8 @@
 			genom att släppa denna bok fri förväntar jag mig att du som
 			läsare skall skicka mig kommentarer så att vi tillsammans kan
 			göra den mycket bättre än vad jag och kanske du skulle ensamma.
+			Ett exempel på en som gjort detta är <emphasis>Bengt
+			Gördén</emphasis> som gett mycket bra feedback om NAT.
 		</para>
 		<para>
 			Sist vill jag tacka min Jenny som står ut med att ha en
@@ -3486,7 +3489,6 @@
 				nätverksadressen och de som består av 0:or är datoradressen
 				(hosta ddress). Detta är en förenkling av verkligheten, se
 				<xref linkend="natmask"/> om du vill veta mer.
-
 			</para>
 			<para>
 				Den observanta läsaren har redan insett att antalet
@@ -3513,7 +3515,8 @@
 				av datorerna på det interna nätet av någon anledning behöver
 				göras tillgänglig på Internet. Men det är som regel inget
 				som förekommer i lokala nät som drivs av säkerhetsmedvetna
-				administratörer.
+				administratörer<footnote><para>Se även brevet från Bengt
+				Gördén i <xref linkend="brev"/></para></footnote>.
 			</para>
 			<para>
 				Det finns också en mer permanent lösning på problemet. Det
@@ -3772,7 +3775,9 @@ Destination   Netmask          Gateway           Interface
 				din dator.
 			</para>
 			</sect3>
-			<sect3><title>NAT, Network Address Translation</title>
+			<sect3><title>NAT, Network Address
+			Translation<footnote><para>Se även brevet från Bengt Gördén i
+			<xref linkend="brev"/></para></footnote></title>
 				<para>
 					Som vi nämnt tidigare så finns det inte oändligt med
 					IP-adresser på dagens Internet. Det gör att företag idag
@@ -3852,9 +3857,6 @@ Destination   Netmask          Gateway           Interface
 						</imageobject>
 					</mediaobject>
 				</figure>
-
-				
-				
 			</sect3>
 
 			<sect3><title>Ping</title>
@@ -4357,6 +4359,8 @@ Destination   Netmask          Gateway           Interface
 &netmask;
 
 &rfcer;
+
+&brev;
 
 &fdl-sv;
 
