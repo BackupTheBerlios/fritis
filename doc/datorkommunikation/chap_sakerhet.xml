@@ -13,7 +13,7 @@
 			för att skydda sig. 
 		</para>
 		<para>
-			Säkerhet är de metoder och verktg som vi kan ta till för att
+			Säkerhet är de metoder och verktyg som vi kan ta till för att
 			uppnå trygghet.
 		</para>
 	</abstract>
@@ -28,10 +28,10 @@
 		<para>
 			Det finns flera exempel när tryggheten som man vill uppnå
 			motarbetar säkerheten i sig. Till exempel så kan ett brandlarm
-			göra att man struntar i att kontrollera att alla ljus är släkta
+			göra att man struntar i att kontrollera att alla ljus är släckta
 			innan man går ock lägger sig. Risken att huset skall brinna ner
 			är då betydligt större än utan brandvaranare. Man har
-			intstallerat ett skyddssystem men inte skyddat sig mot själva
+			installerat ett skyddssystem men inte skyddat sig mot själva
 			faran.
 		</para>
 		<para>
@@ -39,6 +39,59 @@
 			exemplet ovan inte fungerar. Du sjunker säkerheten i huset
 			avsevärt, men de som bor där känner sig tryggare än någonsin.
 		</para>
+		<para>
+			För att skapa trygghet inom databehandling måste följande tre
+			krav vara uppfyllda.
+			<itemizedlist>
+				<listitem><para>Sekretess</para></listitem>
+				<listitem><para>Integritet</para></listitem>
+				<listitem><para>Tillgänglighet</para></listitem>
+			</itemizedlist>
+		</para>
+		<sect2><title>Sekretess</title>
+			<para>
+				Med sekretess menas att bara rätt personer skall kunna komma
+				åt en viss information. Informationen behöver inte vara
+				hemlig eller sekretessbelagd utan även annan information
+				kräver viss sekretess. Till exempel dina dokument på din
+				dator, de är inte sekretessbelagda, men en viss sekretess
+				vill du ändå ha på dem så att inte vem som helst kan läsa
+				dem. Inom vården, polismyndigheten och även företag
+				ställs det väldigt höga krav på sekretessen.
+			</para>
+		</sect2>
+		<sect2><title>Integritet</title>
+			<para>
+				Integritet i det är fallet handlar inte om människors
+				integritet utan om datas integritet. Med detta menas att
+				de data som finns i ett system skall vara riktiga och inte
+				förändrade av någon obehörig. Till exempel så måste polisen
+				och läkaren vara säker på att det som står i register och
+				journaler är riktigt och inte förändrat av någon. Detsamma
+				gäller naturligtvis även företagarens rapporter. Så god
+				sekretess förhindrar insyn och god integritet förhindrar
+				förändring. Se även spårbarhet nedan.
+			</para>
+		</sect2>
+		<sect2><title>Tillgänglighet</title>
+			<para>
+				Med tillgänglighet menas att data skall finnas tillhanda för
+				rätt personer i rätt tid och på rätt plats. Ett system är
+				värdelöst om det är så säkert att inte ens de legitima
+				användarna kan nyttja det.
+			</para>
+		</sect2>
+		<sect2><title>Spårbarhet</title>
+			<para>
+				Spårbarheten tar många upp som en egen punkt ovan. Jag gör
+				det inte eftersom jag tycker att den hänger ihop med den
+				andra punkten (Integritet). Med spårbarhet menas att man i
+				efterhand skall kunna reda ut vad som hänt med vissa data
+				och vad som hänt i ett system. Man skall kunna se vem som
+				gjort vad och när det hände. Detta gör man oftast med
+				hjälp av olika loggar.
+			</para>
+		</sect2>
 	</sect1>
 
 	<sect1><title>Hur farligt är Internet?</title>
@@ -67,7 +120,7 @@
 			</para>
 		</sect2>
 		
-		<sect2><title>Ladda hem saker från internet med försiktighet</title>
+		<sect2><title>Ladda hem saker från Internet med försiktighet</title>
 			<para>
 			</para>
 		</sect2>
@@ -81,21 +134,21 @@
 				används för att du skall kunna bevisa att du verkligen är
 				du. Detta kallas autenticering. Ibland behövs ingen
 				autenticering och ibland behövs det autenticering som är
-				starkare än bara ett användarnamn och ett läsenord. Ett
+				starkare än bara ett användarnamn och ett lösenord. Ett
 				lösenord är något som man <emphasis>vet</emphasis> ibland
-				kan det också kravas att man <emphasis>har</emphasis> något,
+				kan det också krävas att man <emphasis>har</emphasis> något,
 				till exempel ett kort eller en nyckel.
 			</para>
 			<para>
 				Ett system som använder lösenord är relativt säkert. Det
-				största problemet med ett sådant system är användarna och
-				de lösenord de väljer eller hur de hanskas med lösenorden.
+				största problemet med ett sådant system är användarna och de
+				lösenord de väljer eller hur de handskas med lösenorden.
 				Ett lösenord som är lätt att gissa eller som står uppskrivet
-				på skärmen eller under skrivbordunderlägget gör ingen stööre
-				nytta. En grundläggande regel som man kan jobba efter är
-				att: <emphasis>Lösenord skall man hantera som underkläder.
-				Man lånar inte ut dem, låter dem inte ligga framme, och
-				byter dem då och då.</emphasis>
+				på skärmen eller under skrivbordsunderlägget gör ingen
+				större nytta. En grundläggande regel som man kan jobba efter
+				är att: <emphasis>Lösenord skall man hantera som
+				underkläder.  Man lånar inte ut dem, låter dem inte ligga
+				framme, och byter dem då och då.</emphasis>
 			</para>
 			<para>
 				Hur hittar man då ett lösenord som man skall kunna komma
@@ -104,7 +157,7 @@
 				som är kopplat till ens person. Till exempel är namnet på
 				barn, barnbarn, hundar och katter extremt vanliga lösenord.
 				Helst skall man undvika alla ord och helst också blanda små
-				bokstäver, stora bosktäver och siffror. Ett bra lösenord är
+				bokstäver, stora bokstäver och siffror. Ett bra lösenord är
 				till exempel <emphasis>Jsk2KgP</emphasis> men hur skall man
 				komma ihåg ett sådant lösenord? Jo, det är enkelt.
 				Lösenordet är taget från frasen <emphasis>Jag skall köpa 2
@@ -127,7 +180,7 @@
 		<sect2><title>Kryptering</title>
 			<para>
 				En sak som är grundläggande när det gäller att hålla saker
-				hemliga är kryptering. Kryptering har man användt i princip
+				hemliga är kryptering. Kryptering har man använt i princip
 				lika länge som människor har kommunicerat. Man vet att vi
 				använt kryptering sedan minst 4000år. Man kallar även
 				att kryptera för att chiffrera som betyder att dölja något.
@@ -138,12 +191,12 @@
 				krypteringsalgoritm kan man klassa som helt skyddad.
 			</para>
 			<para>
-				En väldigt gammal kriperingsaloritm som de flesta använt som
-				barn är det så kallade <emphasis>Cesars Chiffer</emphasis>.
-				Det går ut på att man helt enkelt byter ut bosktäverna i
-				alfabetet mot en annan bosktav x positioner längre fram i
-				alfabetet. Tillexempel så kan E bli H och R bli U om man
-				hoppar 3 steg. I det fallet är krypteringsalgoritmen Cesars
+				En väldigt gammal krypteringsalgoritm som de flesta använt som
+				barn är det så kallade <emphasis>Caesars Chiffer</emphasis>.
+				Det går ut på att man helt enkelt byter ut bokstäverna i
+				alfabetet mot en annan bokstav x positioner längre fram i
+				alfabetet. Till exempel så kan E bli H och R bli U om man
+				hoppar 3 steg. I det fallet är krypteringsalgoritmen Caesars
 				Chiffer och nyckeln är 3.
 				<screen>
 ||| <- Nyckel = 3
@@ -155,33 +208,33 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 				krypteringsalgoritm så blir det
 				<emphasis>vbnhukhw</emphasis>. Denna krypteringsalgoritm är
 				naturligtvis väldigt lätt att knäcka men man kan säga att
-				det är grundpricipen för hur kryptering fungerar.
+				det är grundprincipen för hur kryptering fungerar.
 			</para>
 			<para>
-				En nackdel med Cesars Chiffer är att bokstaven S alltid blir
-				V om man krypterar enligt ovan. Det gör att chiffret blif
+				En nackdel med Caesars Chiffer är att bokstaven S alltid blir
+				V om man krypterar enligt ovan. Det gör att chiffret blir
 				väldigt lätt att knäcka. Om man istället använder till
 				exempel 5 olika nycklar om varandra så blir det mycket
-				svårare att knäcka. Är det optimalt så bör bosktaven S bli
+				svårare att knäcka. Är det optimalt så bör bokstaven S bli
 				olika bokstäver varje gång den krypteras.
 			</para>
-			<sect3><title>Symetrisk och asymetrisk kryptering</title>
+			<sect3><title>Symmetrisk och asymmetrisk kryptering</title>
 				<para>
 					Det finns i huvudsak två olika sorters kryptering,
-					<emphasis>symetrisk</emphasis> och
-					<emphasis>asymetrisk</emphasis> kryptering. Symetrisk
-					kryptering använder en nyckel och asymetrisk två.
+					<emphasis>symmetrisk</emphasis> och
+					<emphasis>asymmetrisk</emphasis> kryptering. Symmetrisk
+					kryptering använder en nyckel och asymmetrisk två.
 				</para>
 				<para>
-					Cesars Chiffer som vi såg ovan använder sig av en nyckel
-					(3 i exemplet).  Det är ett så kallat symetriskt chiffer.
+					Caesars Chiffer som vi såg ovan använder sig av en nyckel
+					(3 i exemplet).  Det är ett så kallat symmetriskt chiffer.
 					Man använder samma nyckel för att kryptera som man
 					använder för att dekryptera meddelandet.
 				</para>
 				<para>
 					Programvara som implementerar symmetriska
 					krypteringsalgoritmer kan göras väldigt snabba. Det är
-					relativt lätt att kryptera med symetrisk kryptering. Men
+					relativt lätt att kryptera med symmetrisk kryptering. Men
 					det finns ett stort problem, nämligen hur man skall dela
 					nyckeln mellan sändare och mottagare. Vill jag kunna ta
 					emot krypterade meddelanden från människor så måste jag
@@ -191,12 +244,12 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 					Nyckeln kan man ju också bara använda för att skicka
 					meddelanden mellan två personer. Skall man skicka ett
 					annat meddelande till en annan person så måste man skapa
-					en nyckel till och byta den på något sätt. Tillsut inser
+					en nyckel till och byta den på något sätt. Tillslut inser
 					man att om man måste byta en nyckel varje gång så kan man
 					lika gärna lämna meddelandet på en gång.
 				</para>
 				<para>
-					En lösning på detta är något som kallas asymetrisk
+					En lösning på detta är något som kallas asymmetrisk
 					kryptering. Det går till så att man använder ett par av
 					nycklar. En för att kryptera och en för att dekryptera.
 					Med hjälp av denna förändring kan man lösa många av
@@ -222,10 +275,10 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 					det är du som skickat det.
 				</para>
 				<para>
-					Signering går att lösa med flera asymetriska
+					Signering går att lösa med flera asymmetriska
 					krypteringsalgoritmer. Eftersom nycklarna jobbar i par
 					där en kan kryptera och den andra kan
-					dekryptera<footnote><para>Det är inte alla asymetriska
+					dekryptera<footnote><para>Det är inte alla asymmetriska
 					krypteringsalgoritmer som har denna egenskap men de
 					vanligaste man använder i samband med till exempel e-post
 					har det.</para></footnote> så kan man välja att kryptera
@@ -247,7 +300,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 		<para>
 			
 		</para>
-		<sect2><title>Personuppgiftelagen (PUL)</title>
+		<sect2><title>Personuppgiftslagen (PUL)</title>
 			<para>
 				<emphasis>Från Wikipedia, den fria encyklopedin.</emphasis>
 			</para>
@@ -260,7 +313,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 				som är etablerade i Sverige. Lagen tillämpas också när den
 				personuppgiftsansvarige är etablerad i tredje land men för
 				behandlingen av personuppgifter använder sig av utrustning
-				som finns i Sverige. Staffat är böter eller fängelse i högst
+				som finns i Sverige. Straffet är böter eller fängelse i högst
 				sex månader eller, om brottet är grovt, till fängelse i
 				högst två år.
 			</para>
