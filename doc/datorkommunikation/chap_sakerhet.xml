@@ -1,38 +1,35 @@
 <chapter id="chap_sakerhet"><title>Datasäkerhet och lagstiftning</title>
-	<!--
-		Säkerhet
-		- Gällande datalagstiftning och förstå datasäkerhetens betydelse
-		- Olika sätt att skydda information vid dataöverföringar
-	-->
 	<abstract>
 		<para>
-			Stora öppna nät som till exempel Internet är naturligtvis bra för
-			kommunikationen men det öppnar även för onda personer som kan
-			missbruka denna öppenhet. I detta kapitel behandlar vi
+			Stora öppna nät som till exempel Internet är naturligtvis bra
+			för kommunikationen men det öppnar även för onda personer som
+			kan missbruka denna öppenhet. I detta kapitel behandlar vi
 			datasäkerhet. Hur farligt är Internet och vilka metoder finns
-			för att skydda sig. 
+			för att skydda sig?
 		</para>
 		<para>
-			Säkerhet är de metoder och verktyg som vi kan ta till för att
-			uppnå trygghet.
+			Man kan säga att säkerhet är de metoder och verktyg som vi kan
+			ta till för att uppnå trygghet.
 		</para>
 	</abstract>
 
 	<sect1><title>Syftet med datasäkerhet</title>
 		<para>
-			Syftet med all säkerhet är att man skall skapa trygghet. En
-			stor bov i detta spel är faktiskt också trygghet. En människa
-			som känner sig väldigt trygg slutar ofta att tänka på
+			Syftet med all säkerhet är att man skall skapa trygghet. Alla
+			som berörs av systemet skall känna sig trygga med att den
+			information som ligger i sytemet bara kan komma i rätta händer.
+			En stor bov i detta spel är faktiskt också trygghet. En
+			människa som känner sig väldigt trygg slutar ofta att tänka på
 			säkerheten. Det värsta är det vi kallar falsk trygghet.
 		</para>
 		<para>
 			Det finns flera exempel när tryggheten som man vill uppnå
 			motarbetar säkerheten i sig. Till exempel så kan ett brandlarm
-			göra att man struntar i att kontrollera att alla ljus är släckta
-			innan man går ock lägger sig. Risken att huset skall brinna ner
-			är då betydligt större än utan brandvaranare. Man har
-			installerat ett skyddssystem men inte skyddat sig mot själva
-			faran.
+			göra att man struntar i att kontrollera att alla ljus är
+			släckta innan man går och lägger sig. Risken att huset skall
+			brinna ner är då betydligt större än utan brandvaranare. Man
+			har installerat ett skyddssystem men inte skyddat sig mot
+			själva faran.
 		</para>
 		<para>
 			Falsk trygghet kan vara om till exempel brandvarnaren i
@@ -56,8 +53,8 @@
 				kräver viss sekretess. Till exempel dina dokument på din
 				dator, de är inte sekretessbelagda, men en viss sekretess
 				vill du ändå ha på dem så att inte vem som helst kan läsa
-				dem. Inom vården, polismyndigheten och även företag
-				ställs det väldigt höga krav på sekretessen.
+				dem. Inom vården, polismyndigheten och även företag ställs
+				det väldigt höga krav på sekretessen.
 			</para>
 		</sect2>
 		<sect2><title>Integritet</title>
@@ -112,16 +109,33 @@
 	<sect1><title>Hur kan jag skydda mig?</title>
 		<para>
 			Det finns massor av sätt att skydda dig. Vanligt sunt förnuft
-			räcker väldigt långt. Här kommer ytterligare tips.
+			räcker väldigt långt. Här kommer ytterligare några tips.
 		</para>
 		
 		<sect2><title>Var försiktig med e-post och bilagor</title>
 			<para>
+				Med e-post finns möjligheten att skicka brev med bilagor.
+				Bilagorna kan vara till exempel en bild som illustrerar
+				innehållet i brevet. Det går också att bigoga filer som kan
+				vara program. Om du kör dessa program ger du programmet (och
+				då naturligtvis den som skrev det) samma rättigheter som du
+				själv har på din dator. Om du inte vet var programmet kommer
+				från skall du inte köra det. Öppna aldrig filer från
+				personer du inte känner. Även om du känner personen i fråga
+				så kan det vara fråga om ett virus. Kontrollera gärna en
+				extra gång med den personen som skickat brevet innan du
+				öppnar några bifogade filer.
 			</para>
 		</sect2>
 		
 		<sect2><title>Ladda hem saker från Internet med försiktighet</title>
 			<para>
+				Precis som med filerna i e-posten så måste man passa sig för
+				filer man får ner till sin dator på andra sätt. Det är på
+				samma sätt här, kör du filen så ger du den som gett dig
+				filen samma rättigheter på din dator som du själv har. Extra
+				farligt är så kallade filbytartjänster eller -nätverk, där
+				du inte alls vet vem som lagt upp de filer du tankar hem.
 			</para>
 		</sect2>
 		
@@ -177,128 +191,151 @@
 				skyddar det dig inte alls.
 			</para>
 		</sect2>
-		<sect2><title>Kryptering</title>
+		<sect2><title>Uppdatera ditt system</title>
 			<para>
-				En sak som är grundläggande när det gäller att hålla saker
-				hemliga är kryptering. Kryptering har man använt i princip
-				lika länge som människor har kommunicerat. Man vet att vi
-				använt kryptering sedan minst 4000år. Man kallar även
-				att kryptera för att chiffrera som betyder att dölja något.
-				Den okrypterade texten brukar kallas för klartext och den
-				krypterade brukar kallas chiffer. För att kryptera och
-				dekryptera använder man någon algoritm och i vissa fall en
-				eller flera nycklar. Information som är krypterad med en bra
-				krypteringsalgoritm kan man klassa som helt skyddad.
+				Datorsystem måste uppdateras för att vara säkra. Inget
+				system är säkert över tiden. Även om systemet var säkert när
+				du installerade det så hittas hela tiden nya
+				säkerhetsproblem. De flesta operativsystem har en funktion
+				för att uppdaterara sig automatiskt. Använd denna så håller
+				sig ditt system så säkert som möjligt. Detsamma gäller
+				naturligtvis antivirusprogram, brandväggar och andra
+				program.
 			</para>
+		</sect2>
+		<sect2><title>Välj inte de "dansande grisarna"</title>
 			<para>
-				En väldigt gammal krypteringsalgoritm som de flesta använt som
-				barn är det så kallade <emphasis>Caesars Chiffer</emphasis>.
-				Det går ut på att man helt enkelt byter ut bokstäverna i
-				alfabetet mot en annan bokstav x positioner längre fram i
-				alfabetet. Till exempel så kan E bli H och R bli U om man
-				hoppar 3 steg. I det fallet är krypteringsalgoritmen Caesars
-				Chiffer och nyckeln är 3.
-				<screen>
+				En säkerhetsexpert som heter Bruce Schneier har kostaterat
+				att användarna alltid kommer att välja dansande grisar före
+				säkerhet. Med detta menar han att hur mycket man än utbildar
+				de som använder systemen så kommer de så fort de ser något
+				lockande att göra tvärt emot. Så gör inte saker du vet är
+				fel!
+			</para>
+		</sect2>
+	</sect1>
+
+	<sect1><title>Kryptering</title>
+		<para>
+			En sak som är grundläggande när det gäller att hålla saker
+			hemliga är kryptering. Kryptering har man använt i princip
+			lika länge som människor har kommunicerat. Man vet att vi
+			använt kryptering sedan minst 4000år. Man kallar även
+			att kryptera för att chiffrera som betyder att dölja något.
+			Den okrypterade texten brukar kallas för klartext och den
+			krypterade brukar kallas chiffer. För att kryptera och
+			dekryptera använder man någon algoritm och i vissa fall en
+			eller flera nycklar. Information som är krypterad med en bra
+			krypteringsalgoritm kan man klassa som helt skyddad.
+		</para>
+		<para>
+			En väldigt gammal krypteringsalgoritm som de flesta använt som
+			barn är det så kallade <emphasis>Caesars Chiffer</emphasis>.
+			Det går ut på att man helt enkelt byter ut bokstäverna i
+			alfabetet mot en annan bokstav x positioner längre fram i
+			alfabetet. Till exempel så kan E bli H och R bli U om man
+			hoppar 3 steg. I det fallet är krypteringsalgoritmen Caesars
+			Chiffer och nyckeln är 3.
+			<screen>
 ||| <- Nyckel = 3
-   ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ
-       |  |  |      |||       | 
+ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ
+	 |  |  |      |||       | 
 ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
-				</screen>
-				Krypterar man ordet <emphasis>säkerhet</emphasis> med denna
-				krypteringsalgoritm så blir det
-				<emphasis>vbnhukhw</emphasis>. Denna krypteringsalgoritm är
-				naturligtvis väldigt lätt att knäcka men man kan säga att
-				det är grundprincipen för hur kryptering fungerar.
+			</screen>
+			Krypterar man ordet <emphasis>säkerhet</emphasis> med denna
+			krypteringsalgoritm så blir det
+			<emphasis>vbnhukhw</emphasis>. Denna krypteringsalgoritm är
+			naturligtvis väldigt lätt att knäcka men man kan säga att
+			det är grundprincipen för hur kryptering fungerar.
+		</para>
+		<para>
+			En nackdel med Caesars Chiffer är att bokstaven S alltid blir
+			V om man krypterar enligt ovan. Det gör att chiffret blir
+			väldigt lätt att knäcka. Om man istället använder till
+			exempel 5 olika nycklar om varandra så blir det mycket
+			svårare att knäcka. Är det optimalt så bör bokstaven S bli
+			olika bokstäver varje gång den krypteras.
+		</para>
+		<sect2><title>Symmetrisk och asymmetrisk kryptering</title>
+			<para>
+				Det finns i huvudsak två olika sorters kryptering,
+				<emphasis>symmetrisk</emphasis> och
+				<emphasis>asymmetrisk</emphasis> kryptering. Symmetrisk
+				kryptering använder en nyckel och asymmetrisk två.
 			</para>
 			<para>
-				En nackdel med Caesars Chiffer är att bokstaven S alltid blir
-				V om man krypterar enligt ovan. Det gör att chiffret blir
-				väldigt lätt att knäcka. Om man istället använder till
-				exempel 5 olika nycklar om varandra så blir det mycket
-				svårare att knäcka. Är det optimalt så bör bokstaven S bli
-				olika bokstäver varje gång den krypteras.
+				Caesars Chiffer som vi såg ovan använder sig av en nyckel
+				(3 i exemplet).  Det är ett så kallat symmetriskt chiffer.
+				Man använder samma nyckel för att kryptera som man
+				använder för att dekryptera meddelandet.
 			</para>
-			<sect3><title>Symmetrisk och asymmetrisk kryptering</title>
-				<para>
-					Det finns i huvudsak två olika sorters kryptering,
-					<emphasis>symmetrisk</emphasis> och
-					<emphasis>asymmetrisk</emphasis> kryptering. Symmetrisk
-					kryptering använder en nyckel och asymmetrisk två.
-				</para>
-				<para>
-					Caesars Chiffer som vi såg ovan använder sig av en nyckel
-					(3 i exemplet).  Det är ett så kallat symmetriskt chiffer.
-					Man använder samma nyckel för att kryptera som man
-					använder för att dekryptera meddelandet.
-				</para>
-				<para>
-					Programvara som implementerar symmetriska
-					krypteringsalgoritmer kan göras väldigt snabba. Det är
-					relativt lätt att kryptera med symmetrisk kryptering. Men
-					det finns ett stort problem, nämligen hur man skall dela
-					nyckeln mellan sändare och mottagare. Vill jag kunna ta
-					emot krypterade meddelanden från människor så måste jag
-					ju först träffa dem för att vi skall kunna komma överens
-					om en nyckel vi skall använda. Nyckeln måste vi ju båda
-					känna till och den är lika hemlig som meddelandet.
-					Nyckeln kan man ju också bara använda för att skicka
-					meddelanden mellan två personer. Skall man skicka ett
-					annat meddelande till en annan person så måste man skapa
-					en nyckel till och byta den på något sätt. Tillslut inser
-					man att om man måste byta en nyckel varje gång så kan man
-					lika gärna lämna meddelandet på en gång.
-				</para>
-				<para>
-					En lösning på detta är något som kallas asymmetrisk
-					kryptering. Det går till så att man använder ett par av
-					nycklar. En för att kryptera och en för att dekryptera.
-					Med hjälp av denna förändring kan man lösa många av
-					problemen som vi visat på ovan.
-				</para>
-				<para>
-					Paret av nycklar använder man på så vis att man håller
-					den ena för sig själv och sprider den andra så att den är
-					väl tillgänglig för alla som vill ha den. Man kallar den
-					man skyddar för privat nyckel och den som alla kan nå
-					för publik nyckel. Eftersom den ena nyckeln krypterar och
-					den andra dekrypterar så kan en person som vill skicka
-					ett meddelande till mig använda min publika nyckel för
-					att kryptera meddelandet. När det är krypterat kan det
-					bara öppnas med min privata nyckel, alltså bara av mig.
-				</para>
-			</sect3>
-			<sect3><title>Signering</title>
-				<para>
-					Ofta behöver man inte kryptera meddelandet utan det
-					räcker med att signera det. En signatur är något som man
-					applicerar på sitt meddelande så att mottagaren vet att
-					det är du som skickat det.
-				</para>
-				<para>
-					Signering går att lösa med flera asymmetriska
-					krypteringsalgoritmer. Eftersom nycklarna jobbar i par
-					där en kan kryptera och den andra kan
-					dekryptera<footnote><para>Det är inte alla asymmetriska
-					krypteringsalgoritmer som har denna egenskap men de
-					vanligaste man använder i samband med till exempel e-post
-					har det.</para></footnote> så kan man välja att kryptera
-					meddelandet med sin hemliga nyckel. När man gjort det så
-					kan vem som helst dekryptera det med motsvarande publika
-					nyckel. Eftersom vem som helst kan dekryptera meddelandet
-					så är det inte skyddat för insyn. Men man kan vara säker
-					på att det kommer från den person det utges komma ifrån
-					för man vet vems publika nyckel man använder och då måste
-					det ju vara krypterat med motsvarande, hemliga nyckel.
-					Inte heller den här gången behöver man avslöja sin
-					hemliga nyckel.
-				</para>
-			</sect3>
+			<para>
+				Programvara som implementerar symmetriska
+				krypteringsalgoritmer kan göras väldigt snabba. Det är
+				relativt lätt att kryptera med symmetrisk kryptering. Men
+				det finns ett stort problem, nämligen hur man skall dela
+				nyckeln mellan sändare och mottagare. Vill jag kunna ta
+				emot krypterade meddelanden från människor så måste jag
+				ju först träffa dem för att vi skall kunna komma överens
+				om en nyckel vi skall använda. Nyckeln måste vi ju båda
+				känna till och den är lika hemlig som meddelandet.
+				Nyckeln kan man ju också bara använda för att skicka
+				meddelanden mellan två personer. Skall man skicka ett
+				annat meddelande till en annan person så måste man skapa
+				en nyckel till och byta den på något sätt. Tillslut inser
+				man att om man måste byta en nyckel varje gång så kan man
+				lika gärna lämna meddelandet på en gång.
+			</para>
+			<para>
+				En lösning på detta är något som kallas asymmetrisk
+				kryptering. Det går till så att man använder ett par av
+				nycklar. En för att kryptera och en för att dekryptera.
+				Med hjälp av denna förändring kan man lösa många av
+				problemen som vi visat på ovan.
+			</para>
+			<para>
+				Paret av nycklar använder man på så vis att man håller
+				den ena för sig själv och sprider den andra så att den är
+				väl tillgänglig för alla som vill ha den. Man kallar den
+				man skyddar för privat nyckel och den som alla kan nå
+				för publik nyckel. Eftersom den ena nyckeln krypterar och
+				den andra dekrypterar så kan en person som vill skicka
+				ett meddelande till mig använda min publika nyckel för
+				att kryptera meddelandet. När det är krypterat kan det
+				bara öppnas med min privata nyckel, alltså bara av mig.
+			</para>
+		</sect2>
+		<sect2><title>Signering</title>
+			<para>
+				Ofta behöver man inte kryptera meddelandet utan det
+				räcker med att signera det. En signatur är något som man
+				applicerar på sitt meddelande så att mottagaren vet att
+				det är du som skickat det.
+			</para>
+			<para>
+				Signering går att lösa med flera asymmetriska
+				krypteringsalgoritmer. Eftersom nycklarna jobbar i par
+				där en kan kryptera och den andra kan
+				dekryptera<footnote><para>Det är inte alla asymmetriska
+				krypteringsalgoritmer som har denna egenskap men de
+				vanligaste man använder i samband med till exempel e-post
+				har det.</para></footnote> så kan man välja att kryptera
+				meddelandet med sin hemliga nyckel. När man gjort det så
+				kan vem som helst dekryptera det med motsvarande publika
+				nyckel. Eftersom vem som helst kan dekryptera meddelandet
+				så är det inte skyddat för insyn. Men man kan vara säker
+				på att det kommer från den person det utges komma ifrån
+				för man vet vems publika nyckel man använder och då måste
+				det ju vara krypterat med motsvarande, hemliga nyckel.
+				Inte heller den här gången behöver man avslöja sin
+				hemliga nyckel.
+			</para>
 		</sect2>
 	</sect1>
 	
 	<sect1><title>Relevanta lagar</title>
 		<para>
-			
+		
 		</para>
 		<sect2><title>Personuppgiftslagen (PUL)</title>
 			<para>
@@ -322,7 +359,18 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 				
 	<sect1><title>Sammanfattning</title>
 		<para>
-			
+			Datasäkerhet är viktigt. Tänk dig för när du läser e-post och
+			surfar på Internet. Man kan med hjälp av kryptering skicka
+			meddelanden eller annan data säkert över internet. Antingen
+			använder man symmetrisk kryptering där båda parterna har en
+			egen nyckel, eller så använder man en asymmetrisk då man har
+			olika nycklar och aldrig behöver avslöja den ena.
+		</para>
+		<para>
+			Håll dina system uppdaterade och var försiktig med filer du
+			laddar hem från Internet så kommer du att klara dig mycket
+			bättre från problem. Och du! Välj aldrig de dansande grisarna
+			före säkerheten.
 		</para>
 	</sect1>
 </chapter>

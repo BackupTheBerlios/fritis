@@ -21,7 +21,6 @@ pub: all
 	chmod -R o+r,g-rwxs *
 	chmod 705 laborationer
 	rsync -e "ssh -l rejas" --delete --rsync-path=/kunder/r/rejas.org/bin/rsync --recursive ./ rejas.org:liskola/$(TARGET)/
-#	echo -e "From: Marcus Rejås <marcus@rejas.se>\\nSubject: Ny version av ${TITLE} publicerad \\nNy version publicerad ${DATE}. \\nSe http://rejas.se/liskola/${TARGET}" | /usr/sbin/sendmail selinux-cvs-liskola@se.linux.org
 
 fdl-sv.xml: ../../licenses/fdl-sv.xml
 	cp ../../licenses/fdl-sv.xml fdl-sv.xml
