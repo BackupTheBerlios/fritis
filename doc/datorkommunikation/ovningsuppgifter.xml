@@ -2,10 +2,12 @@
 <appendix id="ovningsuppgifter">
 <title>Övningsuppgifter</title>
 	<abstract>
-		I detta appendix finns övningsuppgifter till alla kapitel i boken.
-		Har du förslag på fler uppgifter, gärna både lätta och
-		fördjupningsuppgifter så uppskattar jag om du skickar dem till
-		datorkommunikation@rejas.se.
+		<para>
+			I detta appendix finns övningsuppgifter till alla kapitel i
+			boken.  Har du förslag på fler uppgifter, gärna både lätta och
+			fördjupningsuppgifter så uppskattar jag om du skickar dem till
+			datorkommunikation@rejas.se.
+		</para>
 	</abstract>
 	
 	<sect1><title>Datorkommunikation: Inledning</title>
@@ -207,6 +209,9 @@
 	</sect1>
 
 	<sect1><title>Datorkommunikation: Internet</title>
+		<para>
+			Övningar kommer snart ...
+		</para>	
 	</sect1>
 
 	<sect1><title>Datorkommunikation: Mer om Internets teknik</title>
