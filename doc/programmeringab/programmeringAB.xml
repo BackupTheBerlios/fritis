@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.12 2004/01/08 19:38:18 magnus Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.13 2004/01/08 19:50:23 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -1911,7 +1911,7 @@ echo $str2;  // str2 är "Kajsa Anka är bäst"
 			genom att använda massor av anrop på str_replace. Till exempel:
 
 			<example>
-				<title>Men str_replace</title>
+				<title>Med str_replace</title>
 				<programlisting>
 <![CDATA[
 <?php
@@ -2060,7 +2060,7 @@ $domain = strstr($adress, "@"); // domain blir "@ankeborg.net"
 				<programlisting>
 <![CDATA[
 <?php
-if ($tal = 100) {
+if ($tal == 100) {
    echo "Talet är 100";
    $tal = $tal + 1;
 }
@@ -2078,7 +2078,7 @@ if ($tal = 100) {
 				<programlisting>
 <![CDATA[
 <?php
-if ($tal = 100)
+if ($tal == 100)
 {
    echo "Talet är 100";
    $tal = $tal + 1;
@@ -2097,7 +2097,7 @@ if ($tal = 100)
 <![CDATA[
 <?php
 if ($inloggad) {
-   if ($tal = 100) {
+   if ($tal == 100) {
       echo "Tal är hundra";
    } else {
       echo "Tal är inte hundra";
@@ -2151,7 +2151,7 @@ if ($inloggad) {
 					<programlisting>
 <![CDATA[
 <?php
-/* Detta är en kommentar*/
+/* Detta är en kommentar */
 // Detta är en kommentar
 $i = 1000; // Detta är också en kommetar
 ?>
@@ -2194,7 +2194,7 @@ $i = 1000; // Detta är också en kommetar
 
 $summa = 0;
 for ($i = $tal1; $i <= $tal2; $i++) {
-   $summa = summa + i;
+   $summa = summa + $i;
 }
 echo $summa;
 ?>
@@ -2326,11 +2326,6 @@ while ($tal <= 10) {    // Så länge som tal <= 10
 }
 */
 
-//
-// Märk att man kan nästla kommentarer av olika typ men inte av
-// samma.
-//
-
 echo "<hr>Detta är bara ett skript som demonstrerar kommentering.
 Titta på källkoden istället.";
 
@@ -2357,11 +2352,9 @@ Titta på källkoden istället.";
 		<para>
 			Funktioner används för att dela upp programmet i mindre små delar.
 			Det gör att programmeraren kan koncentrera sig på en del i taget
-			och löper mindre risk att göra fel.
-			<!--
-			XXX: Mindre duplikerad kod vilket gör det lättare att debugga och
-			     underhålla. Duplikation är EVOL!
-			-->
+			och löper mindre risk att göra fel. Man använder även funktioner
+			till kod som kan återfinnas på flera ställen för att minska
+			duplikation av kod.
 		</para>
 	</abstract>
 
@@ -2875,12 +2868,10 @@ $arr[1] = 2;
 $arr[2] = 3;
 
 $arr2 = array_reverse($arr);
-<!--
- XXX: Varför inte använda var_dump eller print_r() ?
--->
-echo $arr2[0]; // Skriver ut 3
-echo $arr2[1]; // Skriver ut 2
-echo $arr2[2]; // Skriver ut 1
+
+echo $arr2[0] ."\n"; // Skriver ut 3
+echo $arr2[1] ."\n"; // Skriver ut 2
+echo $arr2[2] ."\n"; // Skriver ut 1
 ?>
 ]]>
 						</programlisting>
