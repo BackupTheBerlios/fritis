@@ -31,7 +31,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/14 22:36:15 $</pubdate>
+<pubdate>$Date: 2004/01/15 19:52:57 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -62,7 +62,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.4 2004/01/14 22:36:15 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.5 2004/01/15 19:52:57 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -255,7 +255,7 @@
 			bok och i ämnesområdet datorkommunikation betyder kommunikation
 			att man kan utbyter information. Som vi konstaterat tidigare så
 			kan inte information skickas mellan två datorer men data kan.
-			Data plus regler för hur datan skall tolkas kan ju göras om
+			Data plus regler för hur dessa data skall tolkas kan ju göras om
 			till information.
 		</para>
 	</sect1>
@@ -268,9 +268,9 @@
 			kan bara datorerna utbyta data så det måste även finnas regler
 			för hur denna information skall kunna tolkas till information i
 			slutändan för att det skall vara någon mening med
-			kommunikationen. Under kommunikationens gång kan datan
+			kommunikationen. Under kommunikationens gång kan data
 			behandlas av system eller datorer som inte har vetskap om vad
-			datan betyder. Dessa är delar av datorkommunikationen men är
+			dessa data betyder. Dessa är delar av datorkommunikationen men är
 			inte en part som kommunicerar. Till exempel så är telefonen en
 			del av ett telefonsamtal men det är inte telefonen som
 			kommunicerar utan det är du och den som håller i luren på andra
@@ -400,7 +400,7 @@
 		<para>
 			Data som förs över en ledning skickas som elektriska strömmar
 			eller signaler på ett eller annat vis. Beroende på vilket
-			protokoll som används så kan datan packas in i dessa strömmar
+			protokoll som används så kan data packas in i dessa strömmar
 			på olika sätt. Till exempel så kan en hög spänning betyda en
 			sak och en låg spänning något annat.
 		</para>
@@ -409,7 +409,7 @@
 			till en annan. Ljud är exempel på analoga data
 			<footnote><para>Även analoga data kan överföras digitalt bara
 			man kommer överens om vilket protokoll som skall användas för
-			att packa in den analoga datan i ett binärt
+			att packa in dessa analoga data i ett binärt
 			format.</para></footnote>. Spänningen varierar beroende på
 			vilket ljud som kommer i mikrofonen på den ena telefonen och
 			spelas upp på mostvarande sätt i den andres hörtelefon. Man kan
@@ -815,7 +815,7 @@
 		</figure>
 
 		<para>
-			För att seriell överföring skall fungera så måste datan skickas
+			För att seriell överföring skall fungera så måste data skickas
 			på ett visst sätt genom kabeln. Annars fungerar det
 			naturligtvis inte. Man skiljer på två olika sätt att överföra
 			data seriellt, nämligen <emphasis>synkront</emphasis> och
@@ -883,10 +883,10 @@
 				I <xref linkend="fig_startostoppbit" /> visas hur ett tecken
 				som skall skickas över en asynkron seriell förbindelse kan
 				se ut.  Först kommer det en startbil som alltid är en 0:a,
-				sedan kommer de bitar som utgör själva datan, det är normalt
-				7 eller 8 stycken. Sist kommer eventuellt en paritetsbit om
-				vi kommer att behandla längre fram och en eller eventuellt
-				två stoppbitar.
+				sedan kommer de bitar som utgör det data som skall skickas,
+				det är normalt 7 eller 8 stycken. Sist kommer eventuellt en
+				paritetsbit om vi kommer att behandla längre fram och en
+				eller eventuellt två stoppbitar.
 			</para>
 			<para>
 				Om bara en start och en stoppbit används så kommer det att
@@ -1157,9 +1157,9 @@
 								Schematisk bild av ett ringnät.  Datorerna
 								bildar en cirkel. Varje dator har två kablar
 								till sig där varje kabel går till närmaste
-								granne. Datat i nätet cirkulerar runt om i
-								nätverket och snappas upp av den maskin som
-								skall ha informationen. 
+								granne. Data cirkulerar runt om i nätverket och
+								snappas upp av den maskin som skall ha
+								informationen. 
 							</para>
 						</caption>
 					</mediaobject>
@@ -1218,7 +1218,7 @@
 			som står för <emphasis>Collision Avoidance</emphasis>. Det
 			fungerar så att en dator innan den börjar sända skickar ut ett
 			litet meddelande för att kontrollera att nätverket är ledigt
-			och om det är det skickar ut riktig data. Det gör att
+			och om det är det skickar ut riktiga data. Det gör att
 			kollisioner inte behöver ske med riktiga data utan bara med de
 			små "provskotten".  CSMA/CA används i LocalTalk som är ett
 			nätverksprotokoll från Apple.
@@ -1234,13 +1234,13 @@
 			cirkulerar runt i nätverket ungefär som en stafettpinne, varje
 			dator får stafettpinnen och skickar den vidare. Det finns bara
 			en stafettpinne och bara den dator som har stafettpinnen får
-			sända data. Datat och stafettpinen skickas vidare. Alla datorer
-			skickar vidare och den som datan är avsedd för kopierar datan
-			och skickar vidare. När datan kommer tillbaka (med
-			stafettpinnen) till avsändaren tar den bort datan från nätet
-			och skickar stafettpinnen vidare. Detta gör att kollisioner
-			helt undviks. Token Passing används i nätverksteknologin Token
-			Ring från IBM.
+			sända data. Dessa data och stafettpinen skickas vidare. Alla
+			datorer skickar vidare och den som aktuella data är avsedd för
+			kopierari dessa  data och skickar vidare. När dessa data kommer
+			tillbaka (med stafettpinnen) till avsändaren tar den bort dessa
+			data från nätet och skickar stafettpinnen vidare. Detta gör att
+			kollisioner helt undviks. Token Passing används i
+			nätverksteknologin Token Ring från IBM.
 		</para>
 	</sect1>
 
@@ -1431,7 +1431,7 @@
 				<caption>
 					<para>
 						Kommunikaton över en switch. När dator B sänder data
-						över nätverket till C så når datan bara dator C.
+						över nätverket till C så når dessa data bara dator C.
 						Eftersom B och C får en egen kanal genom switchen kan
 						de kommunicera utan att resten av nätverket störs.
 						Samtidigt skulle A och D kunna kommunicera på samma
@@ -2524,7 +2524,7 @@ Modeller, referensmodeller, standarder
 	kommit på idén med ett världsomspännande nätverk. Han blev sedan
 	chef för ett forskningsprojekt som kallades
 	<emphasis>DARPA, Defense Advanced Research Projects
-	Agency</emphasis> som var ett projekt inom data forskningen där
+	Agency</emphasis> som var ett projekt inom dataforskningen där
 	han fick medel till att utvärdera och utveckla sina idéer.
 </para>
 <para>
