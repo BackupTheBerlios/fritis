@@ -58,7 +58,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.4 2004/01/07 01:24:57 magnus Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.5 2004/01/07 01:48:50 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -369,12 +369,12 @@ int main() {
 					<title>Hello World i C++</title>
 					<programlisting>
 <![CDATA[
-//
-// Hello World i C++
-//
+/*
+ * Hello World i C++
+ */
 #include <iostream>
 
-int main (int argc, char *argv[]) {
+int main () {
         cout << "Hello world" << endl;
 }
 ]]>
@@ -576,9 +576,9 @@ class HelloWorld {
 		<para>
 			Du kan använda vilken editor du vill för att skapa php-filer.
 			Notepad fungerar alldeles utmärkt men det finns de med fler
-			finesser. Vim är en bra editor som har stöd för färgläggning
-			av kod och finns för både Linux och Windows att hämta från
-			deras hemsida:
+			finesser. Vim är en av dem. Den har stöd bland annat för
+			färgläggning av kod och finns för både Linux och Windows att hämta
+			från deras hemsida:
 			<ulink url="http://vim.sf.net">
 				<citetitle>
 					http://vim.sf.net
@@ -633,6 +633,22 @@ class HelloWorld {
 			programmet slutar. En sats kan omfatta flera rader men avslutas
 			alltid av ett semikolon.
 		</para>
+
+		<para>
+			Man kan självklart skriva ett "Hello World!" program som enbart
+			använder sig av PHP och ingen HTML (dock utan den formatering som
+			kommer med HTML).
+			<exempel>
+				<title>Hello World i PHP utan HTML</title>
+				<programlisting>
+<![CDATA[
+<?php
+echo "Hallå Världen!";
+?>
+]]>
+				</programlisting>
+			</exempel>
+		</para>
 	</sect1>
 
 	<sect1>
@@ -657,56 +673,56 @@ class HelloWorld {
 </chapter>
 
 <chapter>
-	<title>Webbrowser, webserver och program</title>
+	<title>Webbrowser, webbserver och program</title>
 
 	<abstract>
 		<para>
 			När man skriver och kör ett PHP-program är det många delar som
 			skall samverka. Man skriver ett program som skall tolkas av en
-			PHP-tolk. Sedan skall uttdata av detta program hanteras av en
-			webläsare. Hur detta hänger ihop förklaras i detta kapitel.
+			PHP-tolk. Sedan skall utdata av detta program hanteras av en
+			webbläsare. Hur detta hänger ihop förklaras i detta kapitel.
 		</para>
 	</abstract>
 
 
 	<sect1>
-		<title>Webläsaren</title>
+		<title>Webbläsaren</title>
 
 		<para>
-			Webläsaren är den del av kedjan som är närmast användaren.
-			Webläsaren är det som du eller dina användare kommer i kontakt
-			med. För att webläsaren skall visa vettiga saker för användaren
+			Webbläsaren är den del av kedjan som är närmast användaren.
+			Webbläsaren är det som du eller dina användare kommer i kontakt
+			med. För att webbläsaren skall visa vettiga saker för användaren
 			gäller att den matas med vettiga saker från ditt program.
 		</para>
 
 		<para>
-			Webläsaren förstår HTML
+			Webbläsaren förstår HTML
 			<footnote>
 				<para>
-					Moderna webläsare förstår en massa annat också, men det
+					Moderna webbläsare förstår en massa annat också, men det
 					som är relevant i denna kurs är HTML
 				</para>
 			</footnote>
-			så det som skall komma till webläsaren är HTML. Webläsaren förstår
-			inte PHP-kod så PHP-koden måste tolkas av en PHP-tolk på webservern.
+			så det som skall komma till webbläsaren är HTML. Webbläsaren förstår
+			inte PHP-kod så PHP-koden måste tolkas av en PHP-tolk på webbservern.
 		</para>
 	</sect1>
 
 	<sect1>
-		<title>Webservern</title>
+		<title>Webbservern</title>
 
 		<para>
-			Webservern har till uppgift att serva webläsaren med websidor. Kör
-			man PHP så är det även på webservern som PHP-koden tolkas.
+			Webbservern har till uppgift att serva webbläsaren med webbsidor.
+			Kör man PHP så är det även på webbservern som PHP-koden tolkas.
 			PHP-tolken gör inget för att det som kommer ut ur PHP-koden skall
-			bli giltig HTML utan det är upp till dig som programmerare att fixa
-			detta.
+			bli giltig HTML utan det är upp till dig som programmerare att se
+			till att den är det.
 		</para>
 
 		<para>
-			Webservern har ofta en mängd olika funktioner beroende på vad den
+			Webbservern har ofta en mängd olika funktioner beroende på vad den
 			för tillfället skall göra. Du kan till exempel ha rena HTML-sidor
-			parallellt med din PHP-filer. Webservern vet vilka sidor som är
+			parallellt med din PHP-filer. Webbservern vet vilka sidor som är
 			PHP och vilka som är HTML och hanterar dem därefter.
 		</para>
 	</sect1>
@@ -715,7 +731,7 @@ class HelloWorld {
 		<title>Program</title>
 		<para>
 			Programmet, eller skriptet, skall fungera så att det skriver ut
-			HTML-kod som webservern kan skicka till användarens browser.
+			HTML-kod som webbservern kan skicka till användarens webbläsare.
 		</para>
 	</sect1>
 </chapter>
