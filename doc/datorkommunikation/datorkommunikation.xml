@@ -52,7 +52,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/08/17 06:28:22 $</pubdate>
+	<pubdate>$Date: 2005/01/17 07:15:52 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.50 $</revnumber>
+			<revnumber>$Revision: 1.51 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -127,9 +127,10 @@
 			läsare skall skicka mig kommentarer så att vi tillsammans kan
 			göra den mycket bättre än vad jag och kanske du skulle ensamma.
 			Några exempel på de som gjort detta är <emphasis>Bengt
-			Gördén</emphasis> som gett mycket bra feedback om NAT och
+			Gördén</emphasis> som gett mycket bra feedback om NAT,
 			<emphasis>Pär Lindskog</emphasis> som gett bra feedback
-			angående IMAP. Tack!
+			angående IMAP och <emphasis>Jan Johansson</emphasis> som
+			bidragit med stycken om bryggor och repeatrar. Tack!
 		</para>
 		<para>
 			Sist vill jag tacka min <emphasis>Jenny</emphasis> som står ut

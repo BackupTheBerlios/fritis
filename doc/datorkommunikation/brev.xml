@@ -86,4 +86,66 @@ Mvh
 		</screen>
 	</sect1>
 
+        <sect1><title>Brev fån Jan Johansson</title>
+		<screen>
+
+From: "Jan Johansson" <xxxxxx@xxxxxxx.se>
+To: <marcus@rejas.se>
+Subject: datorkommunikation
+Date: Tue, 30 Nov 2004 16:27:10 +0100
+
+Hej Marcus
+Jag har jobbat flera år som lärare och håller fullständigt med när det
+gäller svårigheten att hitta lämpliga böcker för kursen
+datorkommunikation. Kul att du har tagit detta initiativ! Boken är
+skriven på ett lättfattligt och lättläst sätt, men tenderar kanske att
+bli ytlig i en del avsnitt.                         
+
+Jag brukar ta upp lite mer när det gäller repeatrar och bryggor. Bryggan
+är viktig att förstå eftersom den är grunden till hur switchen fungerar.
+Fortsätter sedan med att ta upp layer 2 funktionen, broadcast, switchar
+finns i olika utföranden mm. Begreppen simplex, halv- och full-duplex
+måste också förklaras.      
+
+Repeatrar
+Är en kvarleva från bussnätens tid. Trots att koaxialkabeln i 10base2
+(thinnet) kunde sträckas ut nästan 200meter och 10base5 (thicknet) ca
+500 meter behövdes  signalerna i koaxialkablarna förstärkas med hjälp av
+repeatrar så att man kunde forsätta ännu längre sträckor. Eftersom det
+var glest mellan datorerna på den  tiden och de skulle dessutom
+sammanbindas med samma kabel blev det snabbt långa krokiga snirklingar
+med kablarna.
+
+Med stjärnnäten blev repetrarna var mans egendom eftersom det sitter en
+förstärkare (repeater) på varje port i en hubb. Vi skulle kunna säga att
+hubben är en   "multirepeater" som isolerar varje kabelsegment så att
+ett kabelfel (kortslutning, avbrott eller missanpassning) på ett ställe
+inte slår ut de andra anslutningarna (portarna) i hubben.
+                                                                                                                                                                
+Bryggor
+Har haft en lika tynande tillvaro som repeatrar men har nu börjat göra
+comeback i trådlösa nät. Bryggan används ofta för att minska onyttig
+trafik i nät där trafiken ökat för mycket. Egentligen så minskar man
+ej trafiken utan ser med bryggan till att hålla "onödig trafik" sk
+broadcast lokalt inom mindre områden. Genom att lagra nätverkskortens
+hårdvaruadresser "MAC-adresser" i ett litet minne, lär sig bryggan på
+vilken sida av bryggan som olika datorer finns. Bara den trafik som
+behöver komma till andra sidan av bryggan släpps sedan igenom. I nät med
+hubbar och Windows datorer kan broadcast och elections ta upp en stor
+del  av bandbredden. För att lätta upp situationen är en brygga lättare
+att sätta in än att dela nätet med en router.
+
+I nät med switchar uppstår inte behovet av att sätta in bryggor eftersom
+switchar har en bryggfunktion i varje port. Därför kan vi likna switchen
+vid en        "multibrygga". I dagens trådlösa nät har vi oftast en
+bryggfunktion inbygd i den trådlösa accesspunkten. Bryggan har i det
+fallet i uppgift att brygga samman  det trådade nätet med det trådlösa.
+
+Skall försöka återkomma med mera när jag får tid över. Du får
+använda/förändra som du vill.
+
+Mvh
+Jan Johansson
+		</screen>
+	</sect1>
 </appendix>
