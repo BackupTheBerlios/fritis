@@ -131,23 +131,24 @@
 	</sect1>
 	
 	<sect1><title>IMAP</title>
+		<para>Se även brevet från Pär Lindskog i i <xref linkend="brev"/>
+		angående IMAP.</para>
 		<para>
-			IMAP är en forkortning för <emphasis>Internet Message
-			Access Protocol</emphasis> är ett protokoll för att läsa
-			e-posten med ett e-postprogram. Till skillnad från POP så är
-			IMAP avsett för att läsa, sortera och söka bland breven på
-			servern. (POP var ju avsett för att hämta breven från
-			servern till den lokala datorn.) Fördelarna med IMAP är
-			uppenbara, all e-post lagras lokalt. Användarna kan komma åt
-			från vilken plats som helst. Till skillnad från POP så kan
-			man med IMAP också skapa mappar på servern och sortera
-			breven i dem. Nackdelen är kanske också uppenbar, att man
-			läser breven från servern gör att man är beroende av denna
-			och måste ha en fungerande anslutning till den nät där
-			servern finns. Det finns program som löser detta program
-			gonom att spara en synkroniserad kompia på den lokala datorn
-			och synkronisera med server när programmet har kontakt med
-			den.
+			IMAP är en forkortning för <emphasis>Internet Message Access
+			Protocol</emphasis> är ett protokoll för att läsa e-posten med
+			ett e-postprogram. Till skillnad från POP så är IMAP avsett för
+			att läsa, sortera och söka bland breven på servern. (POP var ju
+			avsett för att hämta breven från servern till den lokala
+			datorn.) Fördelarna med IMAP är uppenbara, all e-post lagras
+			centralt på en server. Användarna kan komma åt från vilken
+			plats som helst. Till skillnad från POP så kan man med IMAP
+			också skapa mappar på servern och sortera breven i dem.
+			Nackdelen är kanske också uppenbar, att man läser breven från
+			servern gör att man är beroende av denna och måste ha en
+			fungerande anslutning till den nät där servern finns. Det finns
+			program som löser detta program gonom att spara en
+			synkroniserad kompia på den lokala datorn och synkronisera med
+			server när programmet har kontakt med den.
 		</para>
 	</sect1>
 

@@ -4,7 +4,7 @@
 	<sect1><title>Brev från Bengt Gördén</title>
 		<screen>
 Date: Thu, 11 Mar 2004 23:42:25 +0100
-From: Bengt Gördén &lt;bengan@sunet.se&gt;
+From: Bengt Gördén &lt;bengan (snabel-a) sunet.se&gt;
 To: marcus@rejas.se
 Subject: ang. NAT
 
@@ -39,6 +39,50 @@ Jag vet inte om du har tänkt skriva något om detta i din kurs men som
 "Old Internet Fart" (tm) så skulle jag råda dig till att skriva in ett
 stycke där man förklarar just grunden för IP och varför det är dumt att
 slå sönder den.
+		</screen>
+	</sect1>
+	<sect1><title>Brev från Pär Lindskog </title>
+		<screen>
+Date: Sun, 30 May 2004 23:33:55 +0200
+From: Pär Lindskog &lt;lindskog (snabel-a) imapcenter.net&gt;
+To: marcus@rejas.se
+Subject: Rättelse/tillägg Datorkommunikation
+
+Hej
+
+Surfade runt lite på se.linux.org och fastnade en stund på din bok om
+datorkommunikation. Mycket bra skrivet, verkligen välgjord.
+Nu har jag inte läst hela boken (hoppas jag hinner till sommaren) men
+jag upptäckte en sak på kapitlet om E-post. Det står att med protokollet
+IMAP lagras all e-post lokalt... CENTRALT borde det vara? Sen har jag
+ett tillägg på IMAP-protokollet som kan vara värt att nämna, nämligen
+risken med backuper då mailen lagras centralt, man måste vara medveten
+om att man är helt och hållet i händerna på leverantören (motsv.) då det
+gäller backup av sina mail. Många av de leverantörer som specialicerat
+sig på IMAP har möjligheten att ladda ner allt innehåll i en mapp som
+tex. en zip-fil.
+
+En stor fördel med IMAP är möjligheten till ett kommando som heter IDLE,
+vilken ser till att "pusha" ut mailen istället för att ställa in
+mailprogrammet att aktivt "gå" och hämta nya mail med visst intervall
+(som POP-mail). Om IDLE supportas av servern och klienten har jag mailet
+i min mailklient samtidigt som det kommer till servern. Man kan
+visserligen ställa tiden för hämtning av POP-mail lågt men det tar
+ganska stora resurser i anspråk (logga in, kolla, logga ut) så det kan
+lätt bli överbelastning på servern om många gör det...
+
+Vidare under webmail står det att webmail ofta har begränsat utrymme på
+servern, som det står skrivet kan man tolka det som att utrymmet är
+obegränsat då man använder sig av någon mailklient (POP/IMAP), borde nog
+förtydligas lite, speciellt om man använder sig av IMAP då man måste
+rensa själv på servern.
+
+Ändra/lägg till det du önskar eller tycker är relevant i sammanhanget,
+jag återkommer säkert med fler synpunkter i framtiden.
+
+--
+Mvh
+/Pär Lindskog
 		</screen>
 	</sect1>
 
