@@ -1,8 +1,17 @@
 <appendix id="dectobintabell">
-<title>Tabell för att översätta mellan Decimala och binära tal</title>
+	<title>Tabell för att översätta mellan Decimala och binära tal</title>
 
-	<table frame="none" id="tab_dectobin"><title>Decimal -> Binära</title>
-		<tgroup cols='8' align='center' colsep='0' rowsep='0'>
+	<para>
+		Detta är en tabell för att översätta de första 256 talen
+		i vårt vanliga talsystem med basen tio till det binära
+		med basen två. I boken behandlas hur man, istället för
+		att hämta ur en tabell, räknar fram dessa värden. Det är
+		bättre att lära sig räkna fram dem. Använd denna tabell
+		på det sätt du tycker passar.
+	</para>
+
+	<table frame="all" id="tab_dectobin"><title>Decimal -> Binära</title>
+		<tgroup cols='8' align='center' colsep='1' rowsep='1'>
 			<thead>
 				<row>
 					<entry>Dec</entry>

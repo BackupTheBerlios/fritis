@@ -5,8 +5,8 @@
 
 </para>
 
-<table frame="none" id="tab_hextodec"><title>Hexadecimal -> Decimal</title>
-<tgroup cols='16' align='center' colsep='0' rowsep='0'>
+<table frame="all" id="tab_hextodec"><title>Hexadecimal -> Decimal</title>
+<tgroup cols='16' align='center' colsep='1' rowsep='1'>
 	<tbody>
 		<row>
 			<entry> </entry><entry>0</entry><entry>1</entry><entry>2</entry>

@@ -6,6 +6,7 @@
 <!ENTITY kommandotabell SYSTEM "kommandotabell.xml">
 <!ENTITY hextodectabell SYSTEM "hextodectabell.xml">
 <!ENTITY dectobintabell SYSTEM "dectobintabell.xml">
+<!ENTITY netmask SYSTEM "netmask.xml">
 <!ENTITY asciitabell SYSTEM "asciitabell.xml">
 ]>
 
@@ -33,7 +34,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/18 13:18:25 $</pubdate>
+<pubdate>$Date: 2004/01/18 22:16:54 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -62,7 +63,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.10 2004/01/18 13:18:25 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.11 2004/01/18 22:16:54 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -3963,6 +3964,8 @@ pop3s           995/udp    pop3 protocol over TLS/SSL (was spop3)
 
 
 </appendix>
+
+&netmask;
 
 &fdl-sv;
 

@@ -11,8 +11,9 @@
 </para>
 
 <table frame="all"><title>Kommandotabell</title>
-<tgroup cols='4' align='left' colsep='3' rowsep='3'>
+<tgroup cols='5' align='left' colsep='3' rowsep='3'>
 	<thead><row>
+		<entry>Kommando</entry>	
 		<entry>Linux/Unix</entry>
 		<entry>Windows 9x</entry>
 		<entry>Windows 2000/XP</entry>
@@ -20,36 +21,49 @@
 	</row></thead>
 	<tbody>
 	<row>
+		<entry>"Pinga" en adress</entry>
+		<entry>ping</entry>
+		<entry>ping</entry>
+		<entry>ping</entry>
+		<entry></entry>
+	</row>
+	<row>
+		<entry>Lista nätverksgränssnitt</entry>
 		<entry>ifconfig</entry>
 		<entry>ipconfig</entry>
 		<entry>ipconfig</entry>
 		<entry></entry>
 	</row>
 	<row>
+		<entry>Skriva ut routingtabellen</entry>
 		<entry>route</entry>
-		<entry>route</entry>
-		<entry>route</entry>
+		<entry>route /print</entry>
+		<entry>route /print</entry>
 		<entry></entry>
 	</row>
 	<row>
+		<entry>Spåra en rutt (route)</entry>
 		<entry>traceroute</entry>
 		<entry>tracert</entry>
 		<entry>tracert</entry>
 		<entry></entry>
 	</row>
 	<row>
-		<entry>host</entry>
-		<entry></entry>
-		<entry></entry>
-		<entry></entry>
-	</row>
-	<row>
-		<entry>arp</entry>
-		<entry>arp</entry>
-		<entry>arp</entry>
+		<entry>DNS-uppslag</entry>
+		<entry>host eller nslookup</entry>
+		<entry>nslookup</entry>
+		<entry>nslookup</entry>
 		<entry></entry>
 	</row>
 	<row>
+		<entry>Lista arp-tabell</entry>
+		<entry>arp -a</entry>
+		<entry>arp -a</entry>
+		<entry>arp -a</entry>
+		<entry></entry>
+	</row>
+	<row>
+		<entry>Lista aktiva nätverksanslutningar</entry>
 		<entry>netstat</entry>
 		<entry>netstat</entry>
 		<entry>netstat</entry>
