@@ -2,9 +2,7 @@
 #
 #
 #
-SOURCE=datorkommunikation.xml
-DOC_PARTS=fdl-sv.xml
-SOURCE_FILES=book.css docbook.dsl index.in Makefile outline.txt datorkommunikation.xml laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml
+SOURCE_FILES=datorkommunikation.xml book.css docbook.dsl index.in Makefile outline.txt laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml kommandotabell.xml
 TARGET=datorkommunikation
 
 LABORATIONS= #laborationer/lab1_hub_vs_switch.pdf
@@ -37,15 +35,13 @@ dist: $(TARGET).tar.gz
 
 laborations: $(LABORATIONS)
 
-html: $(SOURCE) #$(DOC_PARTS)
-	docbook2html -d docbook.dsl $(SOURCE)
-
-
+html: $(SOURCE_FILES)
+	docbook2html -d docbook.dsl $<
 
 ps: $(TARGET).ps
 
-$(TARGET).ps: $(SOURCE) #$(DOC_PARTS)
-	docbook2ps $(SOURCE)
+$(TARGET).ps: $(SOURCE_FILES)
+	docbook2ps $<
 
 pdf: $(TARGET).pdf
 
