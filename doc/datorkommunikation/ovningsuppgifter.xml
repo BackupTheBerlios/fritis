@@ -1,6 +1,12 @@
 
 <appendix id="ovningsuppgifter">
 <title>Övningsuppgifter</title>
+	<abstract>
+		I detta appendix finns övningsuppgifter till alla kapitel i boken.
+		Har du förslag på fler uppgifter, gärna både lätta och
+		fördjupningsuppgifter så uppskattar jag om du skickar dem till
+		datorkommunikation@rejas.se.
+	</abstract>
 	
 	<sect1><title>Datorkommunikation: Inledning</title>
 		<orderedlist>
@@ -23,16 +29,6 @@
 	</sect1>
 	
 	<sect1><title>Datorkommunikation: Dataöverföring</title>
-		<para>
-			I detta kapitel har vi behandlat på vilket sätt olika protokoll
-			kan jobba både beroende till varandra och oberoende av varandra
-			i en och samma kommunikationsmodell. Vi har också tittat på vad
-			som menas med analog och digital överföring och vilka
-			karakteristiska egenskaper dessa har. Vi har lärt oss
-			ytterligare några begrepp och lite om matematiken med olika
-			talbaser och varför man i datorvärlden så ofta uttrycker tal
-			hexadecimalt.
-		</para>
 		<orderedlist>
 			<listitem>
 				<para>
@@ -94,34 +90,114 @@
 
 
 	<sect1><title>Datorkommunikation: Datornätverk</title>
-		<para>
-			
-		</para>
+		<orderedlist>
+			<listitem>
+				<para>
+					Förklara begreppen LAN, WAN och MAN. Berätta vad de
+					betyder och vilka som är vanligast.
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad är en topologi?	
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Varför behövs terminatorer i ett bussnät?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad är en accessmetod (åtkomstmetod)?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Förklara accessmetoderna CSMA/CA och CSMA/CD.
+				</para>
+			</listitem>
+		</orderedlist>
 	</sect1>
 
 
 	<sect1><title>Datorkommunikation: Nätverkskomponenter</title>
-		<para>
-			Övningar kommer snart ...
-		</para>	
+		<orderedlist>
+			<listitem>
+				<para>
+					Förklara begreppen dator och server. Vad har de för
+					relation till varandra?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad är skillnaden mellan en hubb och en switch?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad är, och hur jobbar en router?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad är en brandvägg (i datorkommunikationssammanhang)?
+				</para>
+			</listitem>
+		</orderedlist>
 	</sect1>
 
 	<sect1><title>Datorkommunikation: kablar och icke-kablar</title>
-		<para>
-			Övningar kommer snart ...
-		</para>	
+		<orderedlist>
+			<listitem>
+				<para>
+					Av vilken anledning finns det två olika material till
+					kabelhöljen (pvc och plenum) att välja på?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vilken typ av kabel är det vi normalt kallar för
+					skrivarkabel?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad är skillnaden mellan UTP och STP?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vilka är för- och nackdelarna med trådlösa nätverk?
+				</para>
+			</listitem>
+		</orderedlist>
 	</sect1>
 
 	<sect1><title>Datorkommunikation: Modem</title>
-		<para>
-			Övningar kommer snart ...
-		</para>	
+		<orderedlist>
+			<listitem>
+				<para>
+					Vilken moduleringssform är vanligast idag?
+				</para>
+			</listitem>
+			<listitem>
+				<para>
+					Vad gör två modem under den så kallade handskakningen
+					(handshake)?
+				</para>
+			</listitem>
+		</orderedlist>
 	</sect1>
 
 	<sect1><title>Datorkommunikation: Publika telenätet</title>
-		<para>
-			Övningar kommer snart ...
-		</para>	
+		<orderedlist>
+			<listitem>
+				<para>
+					Vad är datapak?
+				</para>
+			</listitem>
+		</orderedlist>
 	</sect1>
 
 	<sect1><title>Datorkommunikation: Protokoll</title>
@@ -131,9 +207,6 @@
 	</sect1>
 
 	<sect1><title>Datorkommunikation: Internet</title>
-		<para>
-			Övningar kommer snart ...
-		</para>	
 	</sect1>
 
 	<sect1><title>Datorkommunikation: Mer om Internets teknik</title>
