@@ -2,7 +2,7 @@
 #
 #
 #
-SOURCE_FILES=datorkommunikation.xml book.css docbook.dsl index.in Makefile outline.txt laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml kommandotabell.xml rfcer.xml
+SOURCE_FILES=datorkommunikation.xml liskola.css liskola.dsl index.in Makefile outline.txt laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml fdl.xml kommandotabell.xml rfcer.xml asciitabell.xml dectobintabell.xml hextodectabell.xml netmask.xml ovningsuppgifter.xml services.xml topdomains.xml
 TARGET=datorkommunikation
 
 LABORATIONS= #laborationer/lab1_hub_vs_switch.pdf
@@ -37,12 +37,12 @@ dist: $(TARGET).tar.gz
 laborations: $(LABORATIONS)
 
 html: $(SOURCE_FILES) index.html
-	docbook2html -d docbook.dsl $<
+	docbook2html -d liskola.dsl#html $<
 
 ps: $(TARGET).ps
 
 $(TARGET).ps: $(SOURCE_FILES)
-	docbook2ps $<
+	docbook2ps -d liskola.dsl#print $<
 
 pdf: $(TARGET).pdf
 
