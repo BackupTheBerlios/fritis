@@ -58,7 +58,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.3 2004/01/07 01:03:52 magnus Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.4 2004/01/07 01:24:57 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -296,7 +296,7 @@
 						</entry>
 					</row>
 					<row>
-						<entry>Långamt att köra</entry>
+						<entry>Långsamt att köra</entry>
 						<entry>Snabb programmering</entry>
 					</row>
 					<row>
@@ -324,11 +324,11 @@
 		<sect2>
 			<title>C</title>
 			<para>
-				C är ett av de mest utbredda språken. Är en vidareutveckling av
-				språket B. Utvecklades vid AT&amp;T Bell Labs samtidigt med
+				C är ett av de mest utbredda språken. Det är en vidareutveckling
+				av språket B. Utvecklades vid AT&amp;T Bell Labs samtidigt med
 				operativsystemet UNIX. C anses som ett ganska maskinnära språk.
-				Flera operativsystem är skrivna (mestadels) i C. Hello World ser
-				ut så här:
+				Flera operativsystem är till stor det skrivna i C. Hello World
+				i C ser ut så här:
 			</para>
 
 			<para>
@@ -1903,14 +1903,11 @@ $html_string = str_replace("&gt;", "&amp;gt;", $html_string);
 
 			Men det finns bättre sätt att göra det på. Det finns (naturligtvis)
 			färdiga funktioner som gör HTML av strängar, till exempel
-			<!--
-			XXX: Formulera om nedanstående..
-			-->
-			htmlentities. Htmlentities är en funktion som tar ett argument (den
-			kan ta fler men det räcker med ett) som är en sträng. Den returnerar
-			samma sträng men med alla tecken som har speciella betydelser i HTML
-			översatta så att de skrivs ut i html som vanligt. Se följande
-			exempel:
+			htmlentities. htmlentities gör om en sträng så att alla tecken som har
+			en motsvarighet i HTML kod blir just, HTML kod.
+			Funktionen tar ett argument och har två stycken valfria argument som
+			du inte behöver ange, mer än om du t.ex. behöver använda en annan
+			teckensnittsuppsättning. Se följande exempel:
 
 			<example>
 				<title>Exempel med htmlentities</title>
