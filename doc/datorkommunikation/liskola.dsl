@@ -1,7 +1,7 @@
 <!--
 	liskola.dsl
 
-	Version: $Revision: 1.3 $
+	Version: $Revision: 1.4 $
 
 
 	Detta är en Style Sheet för böckerna som skrivs för projektet
@@ -57,6 +57,10 @@
 (define acceptable-mediaobject-notations
    (list "linespecific"))
 
+;;(element (figure caption para)
+;;	(make paragraph
+;;	    space-before: 8pt
+;;	    (process-children)))
 
 ;;
 ;; Fotnötter :) 

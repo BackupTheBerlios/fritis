@@ -22,6 +22,18 @@
 			finnas och följas för att kommunikationen skall fungera.
 		</para>
 
+		<para>
+			I <xref linkend="fig_telefonsamtal"/> visas en skiss på ett
+			sådant telefonsamtal. Det är inte meningen att förklara hur
+			telefonnätet fungerar. Häng inte upp dig på detaljerna utan
+			fokusera på principen med de olika lagren. I figuren är alla
+			protokoll ritade som pilar. Tänk på att de olika delarna
+			upplever att de talar horisontellt med sin motpart på andra
+			sidan när de egentligen talar nedåt eller uppåt på sin egen
+			sida.
+															
+		</para>
+
 		<figure id="fig_telefonsamtal"><title>Ett telefonsamtal</title>
 			<mediaobject>
   				<imageobject>
@@ -36,25 +48,6 @@
 						personer kan delas upp en mängd olika delar och lager.
 					</phrase>
 				</textobject>
-				<caption>
-					<para>
-						Schematisk bild över ett telefonsamtal.  Personerna
-						längst upp upplever det som att de talar med varandra
-						med egentligen talar de med var sin telefon.
-						Telefonerna tror i sin tur att de talar med varandra
-						medan de i själva verket talar med en telefonväxel
-						eller motsvarande och så vidare. Samtalet betyder bara
-						något för personerna och följer vissa regler som de
-						känner till.  Samma sak gäller varje del i modellen
-						där data överförs.
-					</para>
-					<para>
-						Det är med denna bild inte meningen att förklara hur
-						telefonnätet fungerar. Häng inte upp dig på
-						detaljerna utan fokusera på principen med de olika
-						lagren.
-					</para>
-				</caption>
 			</mediaobject>
 		</figure>
 
@@ -128,15 +121,6 @@
 						vänster och en kantig fyrkantsvåg till höger.
 					</phrase>
 				</textobject>
-				<caption>
-					<para>
-						Kurvan till vänster är ett exempel på en analog
-						signal. Den varierar mellan höga och låga signaler.
-						Den till höger är en digital signal.  Den kan bara
-						anta antingen ett högt eller ett lågt värde och får
-						därför en kantig form.
-					</para>
-				</caption>
 			</mediaobject>
 		</figure>
 

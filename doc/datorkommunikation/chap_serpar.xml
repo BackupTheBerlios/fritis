@@ -99,14 +99,6 @@
 						kontakt.
 					</phrase>
 				</textobject>
-				<caption>
-					<para>
-						Parallellporten, eller skrivarporten som den populärt
-						kallas används för att över en parallell ledning
-						ansluta utrustning till en dator. Till höger ser vi
-						även hur motsvarande kontakt ser ut.
-					</para>
-				</caption>
 			</mediaobject>
 		</figure>
 
@@ -170,7 +162,10 @@
 			utrustningar som till exempel kameror, skannrar och diskar där
 			utrymmet ofta är mindre. I <xref linkend="fig_serieportar"/>
 			visas de vanligaste typerna av serieanslutningar och
-			motsvarande kablar.
+			motsvarande kablar. De två uttagen till vänster är RS-232
+			portar.  Dessa kallas vanligvis bara för serieportar. De två
+			till höger är USB-anslutningar.  Under alla portar visas
+			motsvarande kabel.
 		</para>
 
 		<figure id="fig_serieportar">
@@ -188,14 +183,6 @@
 						Bild på olika seriella anslutningar och kontakter
 					</phrase>
 				</textobject>
-				<caption>
-					<para>
-						De två uttagen till vänster är RS-232 portar.  Dessa
-						kallas vanligvis bara för serieportar. De två till
-						höger är USB-anslutningar. Under alla portar visas
-						motsvarande kabel.
-					</para>
-				</caption>
 			</mediaobject>
 		</figure>
 
@@ -254,14 +241,11 @@
 							kodas vid asynkron överföring (0111001101).
 						</phrase>
 					</textobject>
-					<caption>
-						<para>
-							Schematisk bild över ett tecken . Den första biten
-							kallas startbit. Sedan kommer de databärande
-							bitarna och sist kommer det en stoppbit.
-							Startbiten och stoppbiten utgör overhead.
-						</para>
-					</caption>
+					<caption> <para> Schematisk bild över ett tecken . Den
+					första biten kallas startbit. Sedan kommer de databärande
+					bitarna och sist kommer det en stoppbit.  Startbiten och
+					stoppbiten utgör overhead.  
+					</para> </caption>
 				</mediaobject>
 			</figure>
 			<para>
@@ -271,7 +255,8 @@
 				sedan kommer de bitar som utgör det data som skall skickas,
 				det är normalt 7 eller 8 stycken. Sist kommer eventuellt en
 				paritetsbit om vi kommer att behandla längre fram och en
-				eller eventuellt två stoppbitar.
+				eller eventuellt två stoppbitar. Startbiten, stoppbiten och
+				eventuell paritetsbit utgör overhead.
 			</para>
 			<para>
 				Om bara en start och en stoppbit används så kommer det att

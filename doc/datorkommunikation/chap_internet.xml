@@ -392,7 +392,11 @@
 				För att använda WWW måste man ha en webbläsare. Vänliga
 				webbläsare är Netscape Navigator, Internet Explorer och
 				Mozilla. I <xref linkend="fig_konqueror"/> visas en
-				webbläsare.
+				webbläsare som heter Konqueror och är en grafisk webbläsare.
+				Grafiska webbläsare är enormt populära och finns till i
+				princip alla operativsystem.  Den som visas på bilden heter
+				Konqueror.
+																												
 				
 				<figure id="fig_konqueror">
 					<title>Den grafiska webbläsaren Konqueror</title>
@@ -409,14 +413,6 @@
 								Bild som visar Konqueror, en grafisk webbläsare.
 							</phrase>
 						</textobject>
-						<caption>
-							<para>
-								Konqueror är en grafisk webbläsare.  Grafiska
-								webbläsare är enormt populära och finns till i
-								princip alla operativsystem. Den som visas på
-								bilden heter Konqueror.
-							</para>
-						</caption>
 					</mediaobject>
 				</figure>
 			</para>

@@ -84,7 +84,10 @@
 				kopplade. Till den gemensamma kabeln (kallas för backbone)
 				kopplas datorerna med så kallade drop-cables. I <xref
 				linkend="fig_bussnat"/> visas en schematisk bild av ett
-				bussnät.
+				bussnät. Överst i bilden är backbone-kabeln med terminatorer
+				i ändarna.  Från den går så kallade drop-cables till de
+				olika datorerna på nätverket. 
+																												
 
 				<figure id="fig_bussnat"><title>Bussnät</title>
 					<mediaobject>
@@ -100,14 +103,6 @@
 								backbone-kabel och drop-cables till datorerna.
 							</phrase>
 						</textobject>
-						<caption>
-							<para>
-								Schematisk bild av ett bussnät. Överst i bilden
-								är backbone-kabeln med terminatorer i ändarna.
-								Från den går så kallade drop-cables till de
-								olika datorerna på nätverket.
-							</para>
-						</caption>
 					</mediaobject>
 				</figure>	
 			</para>
@@ -150,14 +145,6 @@
 								strålar ut från den som en stjärna.
 							</phrase>
 						</textobject>
-						<caption>
-							<para>
-								Schematisk bild av ett stjärnnät. I mitten ser
-								vi hubben dit alla datorer är anslutna. Eftersom
-								den är centrum i nätverket bildas en bild som
-								påminner och just en stjärna.
-							</para>
-						</caption>
 					</mediaobject>
 				</figure>	
 			</para>
@@ -208,16 +195,6 @@
 								till varje granne i ringen.
 							</phrase>
 						</textobject>
-						<caption>
-							<para>
-								Schematisk bild av ett ringnät.  Datorerna
-								bildar en cirkel. Varje dator har två kablar
-								till sig där varje kabel går till närmaste
-								granne. Data cirkulerar runt om i nätverket och
-								snappas upp av den maskin som skall ha
-								informationen. 
-							</para>
-						</caption>
 					</mediaobject>
 				</figure>
 			</para>

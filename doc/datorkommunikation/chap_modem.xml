@@ -58,6 +58,15 @@
 				eftersom den till exempel är väldigt beroende av att
 				signalen inte dämpas på vägen, och användes i de första
 				modemen. 
+			</para>
+
+			<para>
+				I <xref linkend="fig_amplitudmodulering"/> visas
+				amplitudmodulering.  I figuren innebär till exempel en högre
+				amplitud en 1:a och en lägre en 0:a. Denna metod är dock
+				väldigt känslig för till exempel att signalen blir dämpad
+				och användes bara i de första modemen.
+				
 
 				<figure id="fig_amplitudmodulering">
 					<title>Amplitudmodulering</title>
@@ -78,16 +87,6 @@
 								eller 1:a.
 							</phrase>
 						</textobject>
-						<caption>
-							<para>
-								Vid amplitudmodulering används olika amplituder för
-								att bära antingen 1:or eller 0:or. I figuren
-								innebär till exempel en högre amplitud en 1:a och
-								en lägre en 0:a. Denna metod är dock väldigt
-								känslig för till exempel att signalen blir dämpad
-								och användes bara i de första modemen.
-							</para>
-						</caption>
 					</mediaobject>
 				</figure>
 			</para>
@@ -98,6 +97,15 @@
 				Frekvensmudulering innebär att man skickar en signal med
 				konstant amplitud men att frekvensen ändras. Denna metod är
 				bättre än amplitudmodulering.
+			</para>
+			<para>
+				I <xref linkend="fig_frekvensmodulering"/> visas
+				frekvensmodulering. Vid frekvensmodulering används olika
+				frekvenser för att bära antingen 1:or eller 0:or. I figuren
+				innebär till exempel en högre frekvens en 1:a och en lägre
+				en 0:a.
+
+			
 				<figure id="fig_frekvensmodulering">
 					<title>Frekvensmodulering</title>
 					<mediaobject>
@@ -116,12 +124,6 @@
 								eller 1:a.
 							</phrase>
 						</textobject>
-						<caption><para>
-								Vid frekvensmodulering används olika frekvenser
-								för att bära antingen 1:or eller 0:or. I figuren
-								innebär till exempel en högre frekvens en 1:a
-								och en lägre en 0:a.
-						</para></caption>
 					</mediaobject>
 				</figure>
 			</para>
@@ -136,6 +138,16 @@
 				byta fas vid olika ställen (vinklar) så kan man skicka mer
 				information än 1:or och 0:or. Till exempel kan man bestämma
 				att vissa lägen betyder 00, 01, 10 och 11.
+			</para>
+
+			<para>
+				I <xref linkend="fig_fasskiftesmodulering"/> visas
+				fasskiftesmodulering. Vid fasskiftesmodulering utgår man
+				från en sinusformad kurva och låter den byta fas vid
+				bestämda lägen. Ett fasskifte på ett visst ställe i cykeln
+				betyder en viss sak, till exempel en 1:a eller 0:a.  Det
+				finns också utrymme för att specificera följder av tecken,
+				till exempel 00, 01, 10 eller 11.
 
 				<figure id="fig_fasskiftesmodulering">
 					<title>Fasskiftesmodulering</title>
@@ -154,15 +166,6 @@
 								byter fas.
 							</phrase>
 						</textobject>
-						<caption><para>
-								Vid fasskiftesmodulering utgår man från en
-								sinusformad kurva och låter den byta fas vid
-								bestämda lägen. Ett fasskifte på ett visst
-								ställe i cykeln betyder en viss sak, till
-								exempel en 1:a eller 0:a.  Det finns också
-								utrymme för att specificera följder av tecken,
-								till exempel 00, 01, 10 eller 11.
-						</para></caption>
 					</mediaobject>
 				</figure>
 			</para>

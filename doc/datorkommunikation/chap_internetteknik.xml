@@ -26,9 +26,14 @@
 			så är TCP/IP-modellen uppdelad i lager enligt samma princip som
 			modellen från ISO. I TCP/IP-modellen har man slagit ihop några
 			av lagren för att få enklare implementationer. I <xref
-			linkend="fig_osi-vs-tcpip"/> visas en figur över modellerna ocg
+			linkend="fig_osi-vs-tcpip"/> visas en figur över modellerna och
 			hur deras lager är relaterade till varandra. Vi ser även
-			exempel på protokoll i de olika lagren.
+			exempel på protokoll i de olika lagren. Till vänster ser vi
+			OSI-modellends sju lager. Till höger ser vi att TCP/IP har 4
+			lager och hur de är relaterade till OSI-modellen. Vissa delar
+			upp TCP/IP-stacken i 5 skikt. Då är det nedersta lagret uppdelat
+			på samma sätt som i OSI-modellen.
+			
 		</para>
 		<figure id="fig_osi-vs-tcpip"><title>OSI modellen kontra TCP/IP</title>
 			<mediaobject>
@@ -45,15 +50,6 @@
 						spänner över OSI-modellens 7 lager.
 					</phrase>
 				</textobject>
-				<caption>
-					<para>
-						Till vänster ser vi OSI-modellends sju lager. Till
-						höger ser vi att TCP/IP har 4 lager och hur de är
-						relaterade till OSI-modellen. Vissa delar upp
-						TCP/IP-stacken i 5 skikt. Då är det nederta lagret
-						uppdelat på samma sätt som i OSI-modellen.
-					</para>
-				</caption>
 			</mediaobject>
 		</figure>
 
@@ -80,13 +76,6 @@
 						olika protokoll och i vilka lager du hör hemma.
 					</phrase>
 				</textobject>
-				<caption>
-					<para>
-						I denna bild ser vi hur TCP/IP ser ut. Till vänster
-						står de olika lägren och till höger visas exempel på
-						olika protokll och var de hör hemma.
-					</para>
-				</caption>
 			</mediaobject>
 		</figure>
 

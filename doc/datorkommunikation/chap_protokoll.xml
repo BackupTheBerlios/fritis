@@ -188,7 +188,7 @@
 		</para>
 		<para>
 			Vi skall nu studera OSI-modellen lite mer i detalj. För att det
-			skall gå så lätt som möjligt så börjar vi med en liten figur.
+			skall gå så lätt som möjligt så börjar vi med en liten figur. 
 
 			<figure id="fig_osi-modell">
 				<title>OSI-modellen</title>
@@ -208,13 +208,6 @@
 							med samma lager på motstående sida.
 						</phrase>
 					</textobject>
-					<caption><para>
-							OSI-modellen består av sju lager. Varje lager
-							kommunicerar med motstående lager på andra sidan men
-							egentligen så talar det med ovanstående och
-							underliggande lager på samma sida. (Se mer utförlig
-							beskrivning i texten.)
-					</para></caption>
 				</mediaobject>
 			</figure>
 

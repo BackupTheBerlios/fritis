@@ -115,6 +115,15 @@
 			fram till alla datorer kan en ond användare ta del av
 			information som inte är avsedd för henne vilket är en
 			säkerhetsrisk.
+		</para>
+
+		<para>
+			I <xref linkend="fig_hubb"/> visas kommunikation över en hubb.
+			När dator B sänder data över nätverket så når det inte bara
+			avsedd mottagare utan även alla andra anslutna till hubben.
+			Det gör att bara en kan sända i taget vilket gör att fler
+			kollisioner uppstår och att nätverket kan gå långsammare.
+
 			
 			<figure id="fig_hubb"><title>Kommunikation över en hubb</title>
 				<mediaobject>
@@ -131,20 +140,8 @@
 							ett stjärnnät med en hubb som nätnav.
 						</phrase>
 					</textobject>
-					<caption>
-						<para>
-							Kommunikation över en hubb. När dator B sänder data
-							över nätverket så når det inte bara avsedd
-							mottagare utan även alla andra anslutna till
-							hubben. Det gör att bara en kan sända i taget
-							vilket gör att fler kollisioner uppstår och att
-							nätverket kan gå långsammare.
-						</para>
-					</caption>
 				</mediaobject>
 			</figure>
-			
-			
 		</para>
 	</sect1>
 	
@@ -162,8 +159,14 @@
 		</para>
 		<para>
 			Studera och jämför bilderna <xref linkend="fig_hubb"/> och
-			<xref linkend="fig_switch"/>.
+			<xref linkend="fig_switch"/>. I <xref linkend="fig_switch"/>
+			visas kommunikation över en switch. När dator B sänder data
+			över nätverket till C så når dessa data bara dator C.  Eftersom
+			B och C får en egen kanal genom switchen kan de kommunicera
+			utan att resten av nätverket störs.  Samtidigt skulle A och D
+			kunna kommunicera på samma sätt.
 		</para>
+
 		<figure id="fig_switch"><title>Kommunikation över en switch</title>
 			<mediaobject>
   				<imageobject>
@@ -179,16 +182,6 @@
 						ett stjärnnät med en switch som nätnav.
 					</phrase>
 				</textobject>
-				<caption>
-					<para>
-						Kommunikation över en switch. När dator B sänder data
-						över nätverket till C så når dessa data bara dator C.
-						Eftersom B och C får en egen kanal genom switchen kan
-						de kommunicera utan att resten av nätverket störs.
-						Samtidigt skulle A och D kunna kommunicera på samma
-						sätt.
-					</para>
-				</caption>
 			</mediaobject>
 		</figure>
 
@@ -312,15 +305,6 @@
 						som möjligt ....
 					</phrase>
 				</textobject>
-				<caption>
-					<para>
-						Ett exempel på ett nätverk med de flesta av de
-						komponenter vi studerat. Det är ett ganska överdrivet
-						exempel för att allt skulle få plats men
-						förhoppningsvis illustreras de olika komponenternas
-						plats.
-					</para>
-				</caption>
 			</mediaobject>
 		</figure>
 	</sect1>	
