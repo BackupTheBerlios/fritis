@@ -37,7 +37,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/25 08:25:40 $</pubdate>
+	<pubdate>$Date: 2004/01/25 15:53:14 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -46,7 +46,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.30 $</revnumber>
+			<revnumber>$Revision: 1.31 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -3074,10 +3074,10 @@
 		<figure id="fig_osi-vs-tcpip"><title>OSI modellen kontra TCP/IP</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/ositcpip.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/ositcpip.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -3106,6 +3106,30 @@
 			kommer vi att gå igen lite djupare på andra ställen i boken. Du
 			kan också komma att stöta på dem i laborationskursen.
 		</para>
+
+		<figure id="fig_tcpip"><title>OSI modellen kontra TCP/IP</title>
+			<mediaobject>
+  				<imageobject>
+      			<imagedata scalefit="1" fileref="bilder/tcpip.jpeg" format="JPEG" />
+        		</imageobject>
+  				<imageobject>
+      			<imagedata scalefit="1" fileref="bilder/tcpip.eps" format="EPS" />
+        		</imageobject>
+				<textobject>
+					<phrase>
+						En figur som visar TCP/IP. I bilden finns exempel på
+						olika protokoll och i vilka lager du hör hemma.
+					</phrase>
+				</textobject>
+				<caption>
+					<para>
+						I denna bild ser vi hur TCP/IP ser ut. Till vänster
+						står de olika lägren och till höger visas exempel på
+						olika protokll och var de hör hemma.
+					</para>
+				</caption>
+			</mediaobject>
+		</figure>
 
 		<sect3><title>IP</title>
 			<para>
@@ -3444,6 +3468,14 @@
 
 			<sect3><title>Statisk routing, default gw</title>
 				<para>
+					Vi har i tidigare kapitel talat om nätmasker (netmask).
+					Anledningen till att man har en sådan är just routing.
+					Man måste veta lite om det nätverk som man tillhör för
+					att veta om en dator eller nod man söker finns på det
+					nätet eller på ett annat.
+				</para>
+				<para>
+					XXXX XXXX
 				</para>
 			</sect3>
 
