@@ -251,7 +251,9 @@
 			<para>
 				I <xref linkend="fig_startostoppbit" /> visas hur ett tecken
 				som skall skickas över en asynkron seriell förbindelse kan
-				se ut.  Först kommer det en startbil som alltid är en 0:a,
+				se ut. Lägg märke till att bilden kan verka felvänd, den
+				första biten som skickas är den som är längst till höger i
+				bilden. Först skickas en startbil som alltid är en 0:a,
 				sedan kommer de bitar som utgör det data som skall skickas,
 				det är normalt 7 eller 8 stycken. Sist kommer eventuellt en
 				paritetsbit om vi kommer att behandla längre fram och en
