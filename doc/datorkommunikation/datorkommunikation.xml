@@ -38,7 +38,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/26 09:16:37 $</pubdate>
+	<pubdate>$Date: 2004/01/26 10:04:25 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -47,7 +47,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.33 $</revnumber>
+			<revnumber>$Revision: 1.34 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -3317,10 +3317,23 @@
 						</tbody>
 					</tgroup>
 				</table>
+				
+				Det är alltså med hjälp av nätmasken som man avgör hur stort
+				ett nätverk är. Med hjälp av IP-adressen och nätmasken kan
+				man lista ut vilken del av en IP-adress som är datoradress
+				(host address) och vilken del som är netverksadress (network
+				address). Ett förenklat sett att förklara det är att man
+				genom att titta på nätmasken kan se vad som är nätadress och
+				datoradress. Den del av IP-adressen som består av 255:or är
+				nätverksadressen och de som består av 0:or är datoradressen
+				(hosta ddress). Detta är en förenkling av verkligheten, se
+				<xref linkend="natmask"/> om du vill veta mer.
 
-				Den observanta läsaren ser direkt att antalet tillgängliga
-				nätverk inte riktigt kommer att räcka till till alla
-				datornät som finns på Internet. Det finns flera lösningar på
+			</para>
+			<para>
+				Den observanta läsaren har redan insett att antalet
+				tillgängliga nätverk inte kommer att räcka till alla
+				datorer som finns på Internet. Det finns flera lösningar på
 				detta. Ett sätt är att dela in adresserna i fler mer
 				finfördelade klasser än A, B och C. Detta gör man redan idag
 				för att få få fler nätverk. Man kan till exempel ha nätverk
@@ -3532,8 +3545,8 @@
 					linkend="rfc"/>) och är:
 			
 					<literallayout>10.0.0.0        -   10.255.255.255  (10/8 prefix)
-	       			172.16.0.0      -   172.31.255.255  (172.16/12 prefix)
-			      	192.168.0.0     -   192.168.255.255 (192.168/16 prefix)
+172.16.0.0      -   172.31.255.255  (172.16/12 prefix)
+192.168.0.0     -   192.168.255.255 (192.168/16 prefix)
 					</literallayout>
 					
 					Som vi ser så är det olika stora nätverksklasser. Till
