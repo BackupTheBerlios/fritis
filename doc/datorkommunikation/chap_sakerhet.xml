@@ -82,11 +82,14 @@
 			<para>
 				Spårbarheten tar många upp som en egen punkt ovan. Jag gör
 				det inte eftersom jag tycker att den hänger ihop med den
-				andra punkten (Integritet). Med spårbarhet menas att man i
-				efterhand skall kunna reda ut vad som hänt med vissa data
-				och vad som hänt i ett system. Man skall kunna se vem som
-				gjort vad och när det hände. Detta gör man oftast med
-				hjälp av olika loggar.
+				andra punkten (Integritet) och att det inte är ett
+				säkerhetsmål i sig. Data blir inte säkrare av spårbarhet,
+				men det är lättare att i efterhand verifiera data med hjälp
+				av spårbarhet. Med spårbarhet menas att man i efterhand
+				skall kunna reda ut vad som hänt med vissa data och vad som
+				hänt i ett system. Man skall kunna se vem som gjort vad och
+				när det hände. Detta gör man oftast med hjälp av olika
+				loggar.
 			</para>
 		</sect2>
 	</sect1>
