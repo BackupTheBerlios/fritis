@@ -34,7 +34,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/20 08:35:30 $</pubdate>
+	<pubdate>$Date: 2004/01/20 12:45:48 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -43,7 +43,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.19 $</revnumber>
+			<revnumber>$Revision: 1.20 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -333,10 +333,10 @@
 		<figure id="fig_telefonsamtal"><title>Ett telefonsamtal</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -425,10 +425,10 @@
 			<title>Analoga och digitala signaler</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -720,10 +720,10 @@
 
 			<mediaobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -793,10 +793,10 @@
 
 			<mediaobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
        	 	</imageobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -858,10 +858,10 @@
 
 				<mediaobject>
   					<imageobject>
-      				<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      				<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         			</imageobject>
   					<imageobject>
-      				<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      				<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         			</imageobject>
 					<textobject>
 						<phrase>
@@ -1038,10 +1038,10 @@
 				<figure id="fig_bussnat"><title>Bussnät</title>
 					<mediaobject>
   						<imageobject>
-      					<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      					<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         				</imageobject>
   						<imageobject>
-      					<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      					<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         				</imageobject>
 						<textobject>
 							<phrase>
@@ -1087,10 +1087,10 @@
 				<figure id="fig_stjarnnat"><title>Stjärnnät</title>
 					<mediaobject>
   						<imageobject>
-      					<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      					<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         				</imageobject>
   						<imageobject>
-      					<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      					<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         				</imageobject>
 						<textobject>
 							<phrase>
@@ -1140,10 +1140,10 @@
 				<figure id="fig_ringnat"><title>Ringnät</title>
 					<mediaobject>
   						<imageobject>
-      					<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      					<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         				</imageobject>
   						<imageobject>
-      					<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      					<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         				</imageobject>
 						<textobject>
 							<phrase>
@@ -1372,10 +1372,10 @@
 			<figure id="fig_hubb"><title>Kommunikation över en hubb</title>
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+						<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
 					</imageobject>
 					<imageobject>
-						<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+						<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
 					</imageobject>
 					<textobject>
 						<phrase>
@@ -1420,10 +1420,10 @@
 		<figure id="fig_switch"><title>Kommunikation över en switch</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -1553,10 +1553,10 @@
 		<figure id="fig_natverk"><title>Exempel på nätverk</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -1987,10 +1987,10 @@
 
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+							<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
 						</imageobject>
 						<imageobject>
-							<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+							<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
 						</imageobject>
 						<textobject>
 							<phrase>
@@ -2026,10 +2026,10 @@
 
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+							<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
 						</imageobject>
 						<imageobject>
-							<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+							<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
 						</imageobject>
 						<textobject>
 							<phrase>
@@ -2064,10 +2064,10 @@
 
 					<mediaobject>
 						<imageobject>
-									<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+									<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
 							</imageobject>
 						<imageobject>
-									<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+									<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
 							</imageobject>
 						<textobject>
 							<phrase>
@@ -2372,10 +2372,10 @@
 
 				<mediaobject>
 					<imageobject>
-						<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+						<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
 					</imageobject>
 					<imageobject>
-						<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+						<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
 					</imageobject>
 					<textobject>
 						<phrase>
@@ -2878,10 +2878,10 @@
 
 					<mediaobject>
 						<imageobject>
-							<imagedata fileref="bilder/konqueror.jpeg" format="JPEG" />
+							<imagedata scalefit="1" fileref="bilder/konqueror.jpeg" format="JPEG" />
 						</imageobject>
 						<imageobject>
-							<imagedata fileref="bilder/konqueror.eps" format="EPS" />
+							<imagedata scalefit="1" fileref="bilder/konqueror.eps" format="EPS" />
 						</imageobject>
 						<textobject>
 							<phrase>
@@ -2980,10 +2980,10 @@
 		<figure id="fig_osi-vs-tcpip"><title>OSI modellen kontra TCP/IP</title>
 			<mediaobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.jpeg" format="JPEG" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.jpeg" format="JPEG" />
         		</imageobject>
   				<imageobject>
-      			<imagedata fileref="bilder/ingen-bild.eps" format="EPS" />
+      			<imagedata scalefit="1" fileref="bilder/ingen-bild.eps" format="EPS" />
         		</imageobject>
 				<textobject>
 					<phrase>
@@ -3363,44 +3363,129 @@
 
 			<sect3><title>Ifconfig</title>
 				<para>
-
+					Ifconfig<footnote><para>Se <xref
+					linkend="commands"/> ifall du använder ett annat
+					operativsystem än Linux</para></footnote> är ett program
+					som visar, eller ändrar de nätverksgränssnitt som finns på
+					datorn. Vi skall i detta avsnitt inte ändra på
+					nätverkgränssnitten utan bara titta på dem.
 				</para>
+				<figure id="fig_ifconfig">
+					<title>Skärmdump: ifconfig på Linux</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/ifconfig.jpeg" format="JPEG" />
+						</imageobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/ifconfig.eps" format="EPS" />
+						</imageobject>
+					</mediaobject>
+				</figure>
+
+				
+				
 			</sect3>
 
 			<sect3><title>Ping</title>
 				<para>
 
 				</para>
+				<figure id="fig_ping">
+					<title>Skärmdump: ping på Linux</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/ping.jpeg" format="JPEG" />
+						</imageobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/ping.eps" format="EPS" />
+						</imageobject>
+					</mediaobject>
+				</figure>
 			</sect3>
 
 			<sect3><title>Route</title>
 				<para>
 
 				</para>
+				<figure id="fig_route">
+					<title>Skärmdump: route på Linux</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/route.jpeg" format="JPEG" />
+						</imageobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/route.eps" format="EPS" />
+						</imageobject>
+					</mediaobject>
+				</figure>
 			</sect3>
 
 			<sect3><title>Traceroute</title>
 				<para>
 
 				</para>
+				<figure id="fig_traceroute">
+					<title>Skärmdump: traceroute på Linux</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/traceroute.jpeg" format="JPEG" />
+						</imageobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/traceroute.eps" format="EPS" />
+						</imageobject>
+					</mediaobject>
+				</figure>
 			</sect3>
 
 			<sect3><title>Host</title>
 				<para>
 
 				</para>
+				<figure id="fig_host">
+					<title>Skärmdump: host på Linux</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/host.jpeg" format="JPEG" />
+						</imageobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/host.eps" format="EPS" />
+						</imageobject>
+					</mediaobject>
+				</figure>
 			</sect3>
 
 			<sect3><title>Arp</title>
 				<para>
 
 				</para>
+				<figure id="fig_apr">
+					<title>Skärmdump: arp på Linux</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/arp.jpeg" format="JPEG" />
+						</imageobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/arp.eps" format="EPS" />
+						</imageobject>
+					</mediaobject>
+				</figure>
 			</sect3>
 
 			<sect3><title>Netstat</title>
 				<para>
 
 				</para>
+				<figure id="fig_netstat">
+					<title>Skärmdump: netstat på Linux</title>
+					<mediaobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/netstat.jpeg" format="JPEG" />
+						</imageobject>
+						<imageobject>
+							<imagedata scalefit="1" fileref="bilder/netstat.eps" format="EPS" />
+						</imageobject>
+					</mediaobject>
+				</figure>
 			</sect3>
 
 		</sect2>

@@ -8,6 +8,7 @@ TARGET=datorkommunikation
 LABORATIONS= #laborationer/lab1_hub_vs_switch.pdf
 
 DATE=$(shell date +"%Y-%m-%d %H:%M:%S")
+VERSION=$(shell gawk '/<revnumber>.*<\/revnumber>/ { match($$0, />(.*)</, arr); print arr[1]}' ${TARGET}.xml)
 
 TITLE="Datorkommunikation"
 BASE_FILE_NAME=$(TARGET)
@@ -35,7 +36,7 @@ dist: $(TARGET).tar.gz
 
 laborations: $(LABORATIONS)
 
-html: $(SOURCE_FILES)
+html: $(SOURCE_FILES) index.html
 	docbook2html -d docbook.dsl $<
 
 ps: $(TARGET).ps
@@ -55,7 +56,8 @@ laborationer/lab1_hub_vs_switch.pdf: laborationer/lab1_hub_vs_switch.sxw
 index.html: index.in
 	cat index.in | sed s/__TITLE__/$(TITLE)/ | \
 	sed s/__BASE_FILE_NAME__/$(BASE_FILE_NAME)/g  | \
-	sed s/__DATE__/"$(DATE)"/g > index.html
+	sed s/__DATE__/'$(DATE)'/g | \
+	sed s/__VERSION__/'$(VERSION)'/g > index.html
 
 clean:
 	rm -f *.html $(TARGET).ps $(TARGET).pdf $(TARGET).tar.gz
