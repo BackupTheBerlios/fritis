@@ -1,11 +1,14 @@
 <appendix id="rfc">
-	<title>Tabell över några av de RFC:en som berör boken</title>
+	<title>Tabell över några av de RFC:er som berör boken</title>
 	<table frame="all" id="tab_rfc">
 		<title>Exmpel på RFC:er som är relaterade till boken</title>
 		<tgroup cols='3' align='center' colsep='1' rowsep='1'>
+		<colspec colname='c1'/>
+		<colspec colname='c2'colwidth="4*"/>
+		<colspec colname='c3'colwidth="4*"/>
 			<thead>
 				<row>
-					<entry>RFC nummer</entry>
+					<entry>RFC</entry>
 					<entry>Titel</entry>
 					<entry>URL</entry>
 				</row>

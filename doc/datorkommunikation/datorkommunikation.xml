@@ -41,7 +41,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/03/29 17:53:52 $</pubdate>
+	<pubdate>$Date: 2004/04/19 20:59:20 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -50,7 +50,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.42 $</revnumber>
+			<revnumber>$Revision: 1.43 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -4061,13 +4061,94 @@ Destination   Netmask          Gateway           Interface
 
 	<sect1><title>Hur farligt är Internet?</title>
 		<para>
-
+			Internet och andra stora nätverk är i sig är inte farliga. Det
+			är de som använder näten som potentiellt kan vara farliga. Det
+			är viktigt att tänka på vilka uppgifter man lämnar ifrån sig
+			och hur man skyddar sådant som man vill hålla för sig själv.
+		</para>
+		<para>
+			Människan är ofta rädd för det som är okänt. Det gör att man
+			kanske är mer rädd för att använda sitt kontokort på Internet
+			än vad man är för att använde det i en butik. I själva verket
+			är det lika farligt att använda det i en butik om den som står
+			bakom disken i butiken har onda avsikter.
 		</para>
 	</sect1>
 	<sect1><title>Hur kan jag skydda mig?</title>
-		<para>
-			
-		</para>
+		<sect2><title>Lösenord</title>
+			<para>
+				Den första kontakten de flesta har med datasäkerhet är
+				användarnamn och lösenord. Användarnamnet använder du för
+				att det aktuella systemet skall veta vad då får och inte får
+				göra och se. Det kallas får identifiering. Lösenordet
+				används för att du skall kunna bevisa att du verkligen är
+				du. Detta kallas autenticering. Ibland behövs ingen
+				autenticering och ibland behövs det autenticering som är
+				starkare än bara ett användarnamn och ett läsenord. Ett
+				lösenord är något som man <emphasis>vet</emphasis> ibland
+				kan det också kravas att man <emphasis>har</emphasis> något,
+				till exempel ett kort eller en nyckel.
+			</para>
+			<para>
+				Ett system som använder lösenord är relativt säkert. Det
+				största problemet med ett sådant system är användarna och
+				de lösenord de väljer eller hur de hanskas med lösenorden.
+				Ett lösenord som är lätt att gissa eller som står uppskrivet
+				på skärmen eller under skrivbordunderlägget gör ingen stööre
+				nytta. En grundläggande regel som man kan jobba efter är
+				att: <emphasis>Lösenord skall man hantera som underkläder.
+				Man lånar inte ut dem, låter dem inte ligga framme, och
+				byter dem då och då.</emphasis>
+			</para>
+			<para>
+				Hur hittar man då ett lösenord som man skall kunna komma
+				ihåg (det är aldrig bra att ha lösenord nedskrivna) men som
+				inte är lätt att gissa? En grundregel är att inte ta något
+				som är kopplat till ens person. Till exempel är namnet på
+				barn, barnbarn, hundar och katter extremt vanliga lösenord.
+				Helst skall man undvika alla ord och helst också blanda små
+				bokstäver, stora bosktäver och siffror. Ett bra lösenord är
+				till exempel <emphasis>Jsk2KgP</emphasis> men hur skall man
+				komma ihåg ett sådant lösenord? Jo, det är enkelt.
+				Lösenordet är taget från frasen <emphasis>Jag skall köpa 2
+				Kg Potatis</emphasis> som är lätt att komma ihåg. Ofta är
+				det lätt att komma ihåg fraser. Man kan också utgå från ord
+				och byta ut vissa tecken mot bokstäver, till exempel så kan
+				<emphasis>potatis</emphasis> bli
+				<emphasis>p0t4t1s</emphasis> som är ett bra lösenord.
+			</para>
+			<para>
+				Anledningen till att man skall ha bra lösenord är att det
+				finns vissa program som är till föra att knäcka lösenord
+				genom att testa alla möjliga tänkbara lösenord. Dessa
+				program utgår från listor med vanliga lösenord och tar sedan
+				ord från ordböcker och liknande. De kan utan problem testa
+				alla svenska ord. Har du då ett svenskt ord som lösenord så
+				skyddar det dig inte alls.
+			</para>
+		</sect2>
+		<sect2><title>Kryptering</title>
+			<para>
+				En sak som är grundläggande när det gäller att hålla saker
+				hemliga är kryptering. Kryptering har man användt i princip
+				lika länge som människor har kommunicerat. Man kallar även
+				att kryptera för att chiffrera som betyder att dölja något.
+				Den okrypterade texten brukar kallas för klartext och den
+				krypterade brukar kallas chiffer. För att kryptera och
+				dekryptera använder man någon algoritm och i vissa fall en
+				eller flera nycklar. Information som är krypterad med en bra
+				krypteringsalgoritm kan man klassa som helt skyddad.
+			</para>
+			<para>
+				En väldigt gammal kriperingsaloritm som de flesta använt som
+				barn är det så kallade <emphasis>Cesars Chiffer</emphasis>.
+				Det går ut på att man helt enkelt byter ut bosktäverna i
+				alfabetet mot en annan bosktav x positioner längre fram i
+				alfabetet. Tillexempel så kan A bli D och G bli J om man
+				hoppar 3 steg. I det fallet ät krypteringsalgoritmen Cesars
+				Chiffer och nyckeln är 3.
+			</para>
+		</sect2>
 	</sect1>
 	
 	<sect1><title>Relevanta lagar</title>
