@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.10 2004/01/08 19:18:54 magnus Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.11 2004/01/08 19:29:18 magnus Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -1377,7 +1377,7 @@ echo "<h1>Tiotusen ettor</h1>";
 
 $a = 0;
 while ($a < 10000) {
-	echo "1 ";
+   echo "1 ";
    $a++;
 }
 ?>
@@ -1543,9 +1543,9 @@ for ($i = 0; $i <= 10; $i = $i++) {
 
 		<para>
 			I PHP markeras en sträng av att den innesluts av enkla eller dubbla
-			fnuttar (citationstecken). Skillnaden är den att inom dubbla fnuttar
-			(vanliga citationstecken) kommer alla variabler i strängen att bytas
-			ut mot sitt värde. Se följande lilla exempel:
+			citationstecken. Skillnaden är den att inom dubbla citationstecken
+			kommer alla variabler i strängen att bytas ut mot sitt värde. Se
+			följande exempel:
 
 			<example>
 				<title>Exempel med strängar</title>
@@ -1561,7 +1561,7 @@ echo 'Summan är $summa'; // Skriver ut: Summan är $summa
 			</example>
 
 			Som du ser så sker ingen variabelsubstitution i den andra raden
-			eftersom den omges av enkla fnuttar.
+			eftersom den omges av enkla citationstecken.
 		</para>
 	</sect1>
 
@@ -1569,9 +1569,9 @@ echo 'Summan är $summa'; // Skriver ut: Summan är $summa
 		<title>Escape-tecken</title>
 
 		<para>
-			Som vi såg i förra stycket så omges en sträng av fnuttar. En naturlig
-			fråga man då ställer sig är vad som händer om jag vill ha fnuttar i
-			en sträng. Se följande exempel:
+			Som vi såg i förra stycket så omges en sträng av citationstecken.
+			En naturlig fråga man då ställer sig är vad som händer om jag vill
+			ha citationstecken i en sträng. Se följande exempel:
 
 			<example>
 				<title>Citationstecken i strängar</title>
@@ -1586,9 +1586,9 @@ echo "Tjenare din gamle "hacker"";
 
 			Man ser direkt att det inte kommer att bli bra. Hur skall tolkaren
 			kunna veta var strängen slutar? Det som kommer att ske är att
-			strängen börjar vid den första fnutten och slutar vid den andra.
-			Den bosktav (h) som kommer efter kommer att orsaka ett "pars error".
-			Hur gör man då?
+			strängen börjar vid det första citationstecknet och slutar vid den
+			andra. Den bosktav (h) som kommer efter kommer att orsaka ett
+			"parse error". Hur gör man då?
 			Jo om man vill infoga specialtecken i en sträng måste dessa föregås
 			av specialtecknet \ (bakvänt snedstreck eller backslash). Strängen
 			ovan blir då:
@@ -1648,8 +1648,8 @@ echo "Tjenare din gamle \"hacker\"";
 				</tgroup>
 			</table>
 
-			I strängar inom enkelfnuttar (') så substitueras bara "\'".
-			Alla andra representerar sig själva.
+			I strängar inom enkla citationstecken (') så substitueras bara
+			"\'". Alla andra representerar sig själva.
 		</para>
 	</sect1>
 
