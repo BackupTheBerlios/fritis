@@ -52,7 +52,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/05/30 21:47:29 $</pubdate>
+	<pubdate>$Date: 2004/07/14 21:01:13 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.48 $</revnumber>
+			<revnumber>$Revision: 1.49 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -112,10 +112,10 @@
 	<sect1><title>Tack till</title>
 		<para>
 			Jag vill börja denna bok med att tacka alla som hjälpt mig med
-			den. Framför allt då <emphasis>Johan Hammar</emphasis> som
-			ställt upp med korrekturläsning och XXXX XXXX som ritat alla
-			fina bilder. Utan er hade boken inte varit så bra som den är
-			idag. Tack!
+			den. Framför allt då <emphasis>Johan Hammar</emphasis> och
+			Kalevi Nyman som ställt upp med korrekturläsning och XXXX XXXX
+			som ritat alla fina bilder. Utan er hade boken inte varit så
+			bra som den är idag. Tack!
 		</para>
 		<para>
 			Jag vill också tacka dig som läser denna bok. Hittar du något
