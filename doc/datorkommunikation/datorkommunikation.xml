@@ -34,7 +34,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/22 13:48:33 $</pubdate>
+	<pubdate>$Date: 2004/01/22 14:51:48 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -43,7 +43,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.27 $</revnumber>
+			<revnumber>$Revision: 1.28 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -2521,6 +2521,13 @@
 </chapter>
 
 <chapter id="chap_internet"><title>Internet</title>
+	<!--
+		- Internets historik, uppbyggnad och kommunikationsteknik
+		- vanligaste protokollen och programmen på interne
+		- programvaror för enklare diagnostisering, spårning och
+		  felsökning på Internet
+	-->
+
 	<abstract>
 		<para>
 			Internet är utan tvekan det viktigaste datanätet som finns.
@@ -2537,16 +2544,16 @@
 			på Internet.
 		</para>
 	</abstract>
-	<!--
-		- Internets historik, uppbyggnad och kommunikationsteknik
-		- vanligaste protokollen och programmen på interne
-		- programvaror för enklare diagnostisering, spårning och
-		  felsökning på Internet
-	-->
-
+	
 	<sect1><title>Internets historia och utveckling</title>
 		<para>
-
+			Internet har en väldigt intressant historia i många avseenden.
+			För det första är det väldigt roligt att tala om historia när
+			hela Internet inte ens är 50 år gammalt. En intressant sak med
+			Internets utveckling och historia är att det har utvecklats på
+			ett öppen sätt med bidrag från massor av företag och
+			provatpersoner. Ingen äger internet och väldigt många ser till
+			att det fungerar.
 		</para>
 
 		<sect2><title>Internets historia</title>
@@ -2654,12 +2661,23 @@
 
 		<sect2><title>Svensk Internethistoria</title>
 			<para>
-				Hämta information från bland annat:
-				http://www.susning.nu/Svensk_Internethistoria
+				Man kan välja att börja den svenska internethistorien vid
+				lite olika tidpunkter. Den kanske mest logiska är att börja
+				den 1988 när <emphasis>SUNET</emphasis> kopplades upp mot
+				Internet. SUNET är en förkortning för <emphasis>Swedish
+				UNiversity computer NETwork</emphasis>. På den tiden vara
+				bara universitet och högskolor anslutna till SUNET. Sedan
+				anslöts några stora företag till Internet. 
 			</para>
-			</sect2>
+			<para>
+				Den stora internetboomen i Sverige kom senare. Det var i
+				mitten på 1990-talet då Tele2, precis före Telia, startade
+				ett kommersiellt nät, till vilket vem som helst kunde
+				ansluta sig.
+			</para>
+		</sect2>
 
-			<sect2><title>RFC-Dokument</title>
+		<sect2><title>RFC-Dokument</title>
 			<para>
 				Som sagts tidigare så måste alla aktörer och användare följa
 				samma regler. Eftersom ingen bestämmer enväldigt över
@@ -2691,7 +2709,6 @@
 				RFC:er som behandlar det vi tagit up i denna bok samlade.
 			</para>
 		</sect2>
-
 	</sect1>
 
 	<sect1><title>Att ansluta till Internet</title>
