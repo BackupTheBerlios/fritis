@@ -1,0 +1,45 @@
+<appendix id="brev">
+	<title>Kommentarer från läsare och experter</title>
+
+	<sect1><title>Brev från Bengt Gördén</title>
+		<screen>
+Date: Thu, 11 Mar 2004 23:42:25 +0100
+From: Bengt Gördén &lt;bengan@sunet.se&gt;
+To: marcus@rejas.se
+Subject: ang. NAT
+
+Hej!
+
+Ang. Datorkommunikation och kurs DTR1201.
+
+Trevlig läsning (även om jag inte lyckats ta mig genom allt :-).
+
+Nu till lite spörsmål ang. NAT.
+
+Ditt avsnitt om NAT är inte riktigt rättvisande, om man utgår från att
+kapittlet egentligen handlar om IP-routing. IETF har under flera år
+varit rejält bekymrade ang. NAT. Anledningen är helt enkelt att NAT slår
+sönder det fundament varpå IP bygger. Det finns några få kriterier som
+måste uppfyllas för att Internet skall fungera. Ett av dem är "unik
+adresserbarhet".  Genom att NAT (främst den varianten där man i hög grad
+bygger adresseringen på transportnivå) förhindrar detta så är det
+förkastligt att använda det.
+
+Det är för övrigt ingen fördel att spara adresser då man konserverar en
+modell och bygger dåliga lösningar runt den. Speciellt i USA och Europa
+har vi inget adressproblem. Det finns så mycket adresser att vi kan
+gödsla med dem. Att få ut nya adresser är heller inte svårt. Det är bara
+de stora ISP:erna som anför annledningen att det är dåligt med adresser
+så att de bara kan dela ut 1 till varje hushåll. Den egentliga
+annledningen är att de inte vill att du har mycket burkar på ditt hemnät
+som aggerar servrar. Och kanske framför allt inte att du ska köra
+IP-telefoni (de stora ISP:erna är ju egentligen telekombolag).
+
+Jag vet inte om du har tänkt skriva något om detta i din kurs men som
+"Old Internet Fart" (tm) så skulle jag råda dig till att skriva in ett
+stycke där man förklarar just grunden för IP och varför det är dumt att
+slå sönder den.
+		</screen>
+	</sect1>
+
+</appendix>
