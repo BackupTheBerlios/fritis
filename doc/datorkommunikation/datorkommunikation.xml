@@ -31,7 +31,7 @@
 	</contrib>
 </othercredit>
 -->
-<pubdate>$Date: 2004/01/14 12:38:30 $</pubdate>
+<pubdate>$Date: 2004/01/14 14:26:21 $</pubdate>
 
 <copyright>
 	<year>2003, 2004</year>
@@ -62,7 +62,7 @@
 
 <revhistory>
 <revision>
-	<revnumber>$Id: datorkommunikation.xml,v 1.1 2004/01/14 12:38:30 rejas Exp $</revnumber>
+	<revnumber>$Id: datorkommunikation.xml,v 1.2 2004/01/14 14:26:21 rejas Exp $</revnumber>
 	<date></date>
 	<revremark>Utvecklingsversion</revremark>
 </revision>
@@ -82,136 +82,112 @@
 </bookinfo>
 
 <preface id="forord"><title>Förord</title>
-<sect1><title>Tack till</title>
-<para>
+	<sect1><title>Tack till</title>
+		<para>
+			Jag vill börja denna bok med att tacka alla som hjälpt mig med
+			den. Framför allt då <emphasis>Johan Hammar</emphasis> som
+			ställt upp med korrekturläsning och XXXX XXXX som ritat alla
+			fina bilder. Utan er hade boken inte varit så bra som den är
+			idag. Tack!
+		</para>
+		<para>
+			Jag vill också tacka dig som läser denna bok. Hittar du något
+			som är fel eller som du tycker att man kan göra på något bättre
+			sätt så tveka inte att höra av dig till mig. Min adress står i
+			början av boken. Jag har mina begränsningar som författare men
+			genom att släppa denna bok fri förväntar jag mig att du som
+			läsare skall skicka mig kommentarer så att vi tillsammans kan
+			göra den mycket bättre än vad jag och kanske du skulle ensamma.
+		</para>
+		<para>
+			Sist vill jag tacka min Jenny som står ut med att ha en
+			datanörd hemmavid. Att skriva böcker för att ge bort dem samt
+			att engagera sig i en massa öppna projekt vid sidan om mer än
+			ett heltidsjobb tar sin tid och kräver mycket tålamod och
+			förståelse av de nära. Allt det ger Jenny mig vilket jag är
+			mycket tacksam för. Ni borde också tacka Jenny, utan Jenny --
+			ingen bok.
+		</para>
+	</sect1>
 
-	Jag vill börja denna bok med att tacka alla som hjälpt mig med
-	den. Framför allt då <emphasis>Johan Hammar</emphasis> som
-	ställt upp med korrekturläsning och XXXX XXXX som ritat alla
-	fina bilder. Utan er hade boken inte varit så bra som den är
-	idag. Tack!
-
-</para>
-
-<para>
-
-	Jag vill också tacka dig som läser denna bok. Hittar du något
-	som är fel eller som du tycker att man kan göra på något bättre
-	sätt så tveka inte att höra av dig till mig. Min adress står i
-	början av boken. Jag har mina begränsningar som författare men
-	genom att släppa denna bok fri förväntar jag mig att du som
-	läsare skall skicka mig kommentarer så att vi tillsammans kan
-	göra den mycket bättre än vad jag och kanske du skulle ensamma.
-
-</para>
-
-<para>
-
-	Sist vill jag tacka min Jenny som står ut med att ha en datanörd
-	hemmavid. Att skriva böcker för att ge bort dem samt att
-	engagera sig i en massa öppna projekt vid sidan om mer än ett
-	heltidsjobb tar sin tid och kräver mycket tålamod och förståelse
-	av de nära. Allt det ger Jenny mig vilket jag är mycket tacksam
-	för. Ni borde också tacka Jenny, utan Jenny -- ingen bok.
-
-</para>
-
-</sect1>
-
-<sect1><title>Några ord om denna bok</title>
-<para>
-
-	Jag vill också passa på att berätta lite om denna bok, varför
-	jag skriver den, varför jag släpper den helt fritt och kanske
-	varför den blev som den blev.
-
-</para>
-
-<para>
-
-	Det finns flera anledningar till att jag skriver denna bok. Den
-	största anledningen är att jag till vardags håller bland annat denna
-	kurs i en gymnasieskola. Jag har läst ett flertal böcker på området
-	och tycker inte att någon lägger upp kursen på det sätt jag vill och
-	vissa innehåller inte heller allt det som står i kursplanen. Jag har
-	utgått från kursplanen när jag gjort denna bok så allt skall vara
-	med. Man bör komplettera med labbar också eftersom kursplanen nämner
-	en del praktiska moment. Det finns labbar att hämta på denna boks
-	hemsida. Har du förslag på labbar, lektionsförslag, övningar eller
-	annat så tveka inte att skicka dem till mig. Tillsammans kan vi göra
-	ett suveränt kursmatrial som kan gagna både elever, lärare och skolor
-	i framtiden.
-
-</para>
-
-<para>
-
-	Hur kommer det sig då att jag släpper denna bok fritt på Internet,
-	med en licens som till och med låter andra ändra i den och/eller
-	sälja den för att tjäna pengar? Jag brinner för något som kallas fri
-	programvara. Fri programvara är programvara som du får använda fritt
-	i vilket syfte du vill och vars källkod är öppen. Fri programvara har
-	visat sig hålla mycket hög kvalitet och funktionalitet. Exempel på
-	fri programvara är till exempel operativsystemet Linux, webservern
-	Apache och kontorsprogramsviten OpenOffice.org. Alla dessa tre har på
-	sitt sätt till att skapa och sprida denna bok. Till denna bok har
-	uteslutande fria programvaror använts.
-
-</para>
-
-<para>
-
-	Även denna bok är fri. Du kan ladda ner den från internet. Även
-	de datafiler jag skrivit boken i finns där så att du kan
-	förbättra den om du vill. Om du väljer att göra det så vill jag
-	gärna veta det även om det inte är något tvång. Vad som däremot
-	är ett tvång är att om du bygger vidare på denna bok så måste du
-	släppa den lika fri som jag gjort (se licenstexten om du är
-	osäker). Eftersom denna bok är skriven för och med fria
-	programvaror så kommer de exempel som är i boken att vara i
-	operativsystemet Linux och de program som brukar finnas med det.
-	Använder du något annat operativsystem så kan du ändå ha nytta
-	av boken. 
-
-</para>
-
-<para>
-
-	Det finns naturligtvis andra skäl till att släppa en bok fritt
-	på detta sätt. Det självklara är att alla kan hjälpas åt att
-	göra den bättre, men det finns även mer praktiska fördelar. Det
-	står skolan fritt att köpa denna bok i tryckt format. Tycker man
-	att det är för dyrt eller tar för lång tid kan man trycka den
-	själv. Man kan även läsa den online om man vill. Har någon elev
-	glömt sin bok en dag så finns allt material fritt tillgängligt
-	på Internet. Man för fritt kopiera hela eller delar av boken.
-	Detta kan vara smidigt i händelse av att någon glömt sin bok
-	eller om man bara vill behandla en liten del av den i en kurs.
-	Hittas ett fel i boken kan detta rättas till och vara
-	studenterna till hands redan nästa dag om man vill.
-
-</para>
-
-<para>
-	
-	Men, som jag sagt, den största fördelen är att alla kan hjälpas
-	åt för att göra denna bok bättre. Jag hoppas nu när jag skriver
-	denna bok att det skall vara ett levande dokument som anpassas
-	efterhand som tekniken förändras. Därför vill jag uppmuntra dig
-	som läsare att skicka kommentarer, rättelser, nya avsnitt,
-	förändrade avsnitt, mm, mm till mig så för jag in dem i boken.
-	Tillsammans kan vi göra en bok mycket bättre än vad jag själv
-	skulle kunna åstadkomma. I gengäld får du ett bättre matrial och vad
-	som brukar kallas för "credit", det vill säga ett omnämnande i boken
-	för att visa vad du gjort. Att hjälpas åt på detta sätt för att göra
-	det som blir bäst för alla, det är det som allt detta handlar om.
-	
-</para>
-<para>
-	Marcus Rejås, Norrtälje 2004-01-11.
-</para>
-
-
+	<sect1><title>Några ord om denna bok</title>
+		<para>
+			Jag vill också passa på att berätta lite om denna bok, varför
+			jag skriver den, varför jag släpper den helt fritt och kanske
+			varför den blev som den blev.
+		</para>
+		<para>
+			Det finns flera anledningar till att jag skriver denna bok. Den
+			största anledningen är att jag till vardags håller bland annat
+			denna kurs i en gymnasieskola. Jag har läst ett flertal böcker
+			på området och tycker inte att någon lägger upp kursen på det
+			sätt jag vill och vissa innehåller inte heller allt det som
+			står i kursplanen. Jag har utgått från kursplanen när jag gjort
+			denna bok så allt skall vara med. Man bör komplettera med
+			labbar också eftersom kursplanen nämner en del praktiska
+			moment. Det finns labbar att hämta på denna boks hemsida. Har
+			du förslag på labbar, lektionsförslag, övningar eller annat så
+			tveka inte att skicka dem till mig. Tillsammans kan vi göra ett
+			suveränt kursmaterial som kan gagna både elever, lärare och
+			skolor i framtiden.
+		</para>
+		<para>
+			Hur kommer det sig då att jag släpper denna bok fritt på
+			Internet, med en licens som till och med låter andra ändra i
+			den och/eller sälja den för att tjäna pengar? Jag brinner för
+			något som kallas fri programvara. Fri programvara är
+			programvara som du får använda fritt i vilket syfte du vill och
+			vars källkod är öppen. Fri programvara har visat sig hålla
+			mycket hög kvalitet och funktionalitet. Exempel på fri
+			programvara är till exempel operativsystemet Linux, webservern
+			Apache och kontorsprogramsviten OpenOffice.org. Alla dessa tre
+			har på sitt sätt hjälpt till att skapa och sprida denna bok.
+			Till denna bok har uteslutande fria programvaror använts.
+		</para>
+		<para>
+			Även denna bok är fri. Du kan ladda ner den från Internet. Även
+			de datafiler jag skrivit boken i finns där så att du kan
+			förbättra den om du vill. Om du väljer att göra det så vill jag
+			gärna veta det även om det inte är något tvång. Vad som däremot
+			är ett tvång är att om du bygger vidare på denna bok så måste
+			du släppa den lika fri som jag gjort (se licenstexten om du är
+			osäker). Eftersom denna bok är skriven för och med fria
+			programvaror så kommer de exempel som är i boken att vara för 
+			operativsystemet Linux och de program som brukar finnas med
+			det.  Använder du något annat operativsystem så kan du ändå ha
+			nytta av boken. 
+		</para>
+		<para>
+			Det finns naturligtvis andra skäl till att släppa en bok fritt
+			på detta sätt. Det självklara är att alla kan hjälpas åt att
+			göra den bättre, men det finns även mer praktiska fördelar. Det
+			står skolan fritt att köpa denna bok i tryckt format. Tycker
+			man att det är för dyrt eller tar för lång tid kan man trycka
+			den själv. Man kan även läsa den online om man vill. Har någon
+			elev glömt sin bok en dag så finns allt material fritt
+			tillgängligt på Internet. Man får fritt kopiera hela eller
+			delar av boken.  Detta kan vara smidigt i händelse av att någon
+			glömt sin bok eller om man bara vill behandla en liten del av
+			den i en kurs.  Hittas ett fel i boken kan detta rättas till
+			och vara studenterna till hands redan nästa dag om man vill.
+		</para>
+		<para>
+			Men, som jag sagt, den största fördelen är att alla kan hjälpas
+			åt för att göra denna bok bättre. Jag hoppas nu när jag skriver
+			denna bok att det skall vara ett levande dokument som anpassas
+			efterhand som tekniken förändras. Därför vill jag uppmuntra dig
+			som läsare att skicka kommentarer, rättelser, nya avsnitt,
+			förändrade avsnitt, m.m., m.m. till mig så för jag in dem i
+			boken.  Tillsammans kan vi göra en bok mycket bättre än vad jag
+			själv skulle kunna åstadkomma. I gengäld får du ett bättre
+			material och vad som brukar kallas för "credit", det vill säga
+			ett omnämnande i boken för att visa vad du gjort. Att hjälpas
+			åt på detta sätt för att göra det som blir bäst för alla, det
+			är det som allt detta handlar om.
+		</para>
+		<para>
+			Marcus Rejås, Norrtälje 2004-01-11.
+		</para>
 </sect1>
 </preface>
 
@@ -221,7 +197,7 @@
 
 	<abstract>
 		<para>
-			I detta kapitel ges en liten intruduktion till vad
+			I detta kapitel ges en liten introduktion till vad
 			datorkommunikation är och går igenom några grundläggande
 			begrepp.
 		</para>
@@ -231,13 +207,13 @@
 		<para>
 			Det här är inte så lätt som man kan tro. Data är någon typ av
 			fakta eller värden som kan bearbetas av människor eller
-			maskiner men som inte ännu har tolkats. Till exempel så är en
+			maskiner men som ännu inte har tolkats. Till exempel så är en
 			ström av bokstäver data. Man kan titta på bokstäverna utan att
 			läsa ut vad de innebär, man kan flytta dem, skriva ut den,
 			kopiera dem och så vidare. Bokstäverna kan bilda en mening men
 			behöver inte nödvändigtvis göra detta för att vara data. På
 			samma sätt kan en tabell med siffror utgöra data. Rätt tolkade
-			kankse de utgör en viktig kalkyl för ett stort företag men utan
+			kanske de utgör en viktig kalkyl för ett stort företag men utan
 			att tolka dem så är det data.
 		</para>
 		<para>
@@ -270,17 +246,16 @@
 
 	<sect1><title>Vad är kommunikation?</title>
 		<para>
-			Kommunikation är ett vitt begrepp. Vi använder det till att
+			Kommunikation är ett vitt begrepp. Vi använder det för att
 			benämna till exempel ett samtal eller att vi själv förflyttar
 			oss med till exempel tåg eller buss. Kommunikation kommer från
-			att utbyta information till att själv förfytta sig.  det
-			latinska ordet communicatio som betyder ungefär "att utbyta"
-			eller "att delge". Ordet kommunikation kan, som du vet,
+			det latinska ordet communicatio som betyder ungefär "att
+			utbyta" eller "att delge". Ordet kommunikation kan, som du vet,
 			användas på flera olika sätt och alla är riktiga. Men i denna
-			bok och i ämnesområdet datakommunikation betyder kommunikation
+			bok och i ämnesområdet datorkommunikation betyder kommunikation
 			att man kan utbyter information. Som vi konstaterat tidigare så
 			kan inte information skickas mellan två datorer men data kan.
-			Och data plus regler för hur datat skall tolkas kan ju göras om
+			Data plus regler för hur datan skall tolkas kan ju göras om
 			till information.
 		</para>
 	</sect1>
@@ -293,9 +268,9 @@
 			kan bara datorerna utbyta data så det måste även finnas regler
 			för hur denna information skall kunna tolkas till information i
 			slutändan för att det skall vara någon mening med
-			kommunikationen. Under kommunikationens gång kan datat
+			kommunikationen. Under kommunikationens gång kan datan
 			behandlas av system eller datorer som inte har vetskap om vad
-			datat betyder. Dessa är delar av datorkommunikationen men är
+			datan betyder. Dessa är delar av datorkommunikationen men är
 			inte en part som kommunicerar. Till exempel så är telefonen en
 			del av ett telefonsamtal men det är inte telefonen som
 			kommunicerar utan det är du och den som håller i luren på andra
@@ -310,7 +285,7 @@
 			inom datorkommunikationsämnet står för. Detta kapitel avslutas,
 			liksom de resterande kapitlen i boken, med några kontrollfrågor
 			eller övningsuppgifter som du kan använda för att kontrollera
-			dig själv att du lärt dig det som kapitlet handlade om.
+			att du lärt dig det som kapitlet handlade om.
 		</para>
 		<orderedlist>
 			<listitem>
@@ -383,8 +358,8 @@
 						där data överförs.
 					</para>
 					<para>
-						Det är inte i denna bild meningen att förlklara hur
-						telefonnätet fungerar.  Häng inte upp dig på
+						Det är med denna bild inte meningen att förklara hur
+						telefonnätet fungerar. Häng inte upp dig på
 						detaljerna utan fokusera på principen med de olika
 						lagren.
 					</para>
@@ -425,7 +400,7 @@
 		<para>
 			Data som förs över en ledning skickas som elektriska strömmar
 			eller signaler på ett eller annat vis. Beroende på vilket
-			protokoll som används så kan datat packas in i dessa strömmar
+			protokoll som används så kan datan packas in i dessa strömmar
 			på olika sätt. Till exempel så kan en hög spänning betyda en
 			sak och en låg spänning något annat.
 		</para>
@@ -480,7 +455,7 @@
 		<para>
 			I <xref linkend="fig_analogadigitalasignaler"/> så ser vi
 			exempel på en analog och en digital signal. Vi ser att båda två
-			går upp och ned. I bland är de höga och ibland är de låga.
+			går upp och ned. Ibland är de höga och ibland är de låga.
 			Avståndet mellan det höga läget och det låga läget kallas för
 			signalens amplitud. I vilken enhet den mäts beror på vilken
 			enhet som finns på y-axeln i diagrammet. Vanligt är att den
@@ -533,13 +508,13 @@
 		<para>
 			Normalt när vi räknar och talar om siffror så menar vi
 			underförstått att vi använder talbasen 10. Vi bygger våra tal
-			av 10 olika siffror (0-9) och grupperar up ett tal i ental,
+			av 10 olika siffror (0-9) och grupperar upp ett tal i ental,
 			10-tal, 100-tal, 1000-tal och så vidare. 1, 10, 100 och 1000 är
 			potenser av 10 10<superscript>0</superscript>,
 			10<superscript>1</superscript>, 10<superscript>2</superscript>,
 			10<superscript>3</superscript>. Precis på samma sätt kan man
-			ränka med andra talbaser, till exemepel 2 (binärt), 8 oktalt
-			eller 16 hexadecimalt.
+			räkna med andra talbaser, till exempel 2 (binärt), 8 (oktalt)
+			eller 16 (hexadecimalt).
 		</para>
 		<para>
 			Talet 13 kan beskrivas som
@@ -563,8 +538,8 @@
 			går det ju utmärkt att konvertera mellan det binära talsystemet
 			och det vanliga decimala. Som vi också ser så är 1101 mycket
 			längre och svårare att överblicka än till exempel 13. Det gör
-			att man i praktiken sällan jobbar med binära tal. Ofta räkar
-			man istället med talabasen 8 eller 16. Dessa är fortfarande
+			att man i praktiken sällan jobbar med binära tal. Ofta räknar
+			man istället med talbasen 8 eller 16. Dessa är fortfarande
 			potenser av 2 och passar bra in i datorsammanhang men talen
 			blir mindre och enklare. Det vanligaste är talbasen 16 eller
 			hexadecimala tal som det kallas. Eftersom vi har talbasen 16
@@ -596,10 +571,10 @@
 			sammanhanget kByte istället 1024
 			(2<superscript>10</superscript>). Mega betyder 1024*1024 eller
 			2<superscript>20</superscript> eller som det blir decimalt,
-			1048576. Detta leder förståss till en del missförstånd, men
+			1048576. Detta leder förstås till en del missförstånd, men
 			eftersom talen ligger relativt nära varandra så blir det sällan
 			några större problem. Men det kan vara svårt att veta om man
-			till exemepel köpt en hårddisk på 1 GByte om den rymmer
+			till exempel köpt en hårddisk på 1 GByte om den rymmer
 			10<superscript>9</superscript>=1000000000 eller
 			2<superscript>30</superscript>=1073741824 bytes.
 		</para>
@@ -614,13 +589,15 @@
 	<sect1><title>ASCII-tabell</title>
 		<para>
 			Vi har nu sett att man binärt kan uttrycka tal. Till exempel så
-			var ju 1101 talet 13. Ofta så vill man instället för tal
+			var ju 1101 talet 13. Ofta så vill man istället för tal
 			representera text eller bokstäver. Detta går till på så sätt
 			att man låter olika tal representera olika bokstäver enligt en
-			tabell. Ett exempel på en sådan tabell är ASCII-tabellen. ASCII
-			är en standard för hur tecken skall representeras binärt i form
-			av siffror. Ett exempel på en ASCII-tabell visas i <xref
-			linkend="tab_ascii"/>.
+			tabell. Ett exempel på en sådan tabell är ASCII-tabellen.
+			ASCII står för <emphasis>American Standard Code for Information
+			Interchange</emphasis> och är en standard för hur tecken skall
+			representeras binärt i form av siffror från
+			standardiseringsorganet ANSI. Ett exempel på en (utökad)
+			ASCII-tabell visas i <xref linkend="tab_ascii"/>.
 		</para>
 	</sect1>
 
@@ -658,17 +635,12 @@
 			</listitem>
 			<listitem>
 				<para>
-					Vad är skillnaden mellan en bit och en byte?
-				</para>
-			</listitem>
-			<listitem>
-				<para>
 					Vad blir talet 36 hexadecimalt?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vilket talmotsvarar bokstaven A enligt ASCII-tabellen i
+					Vilket tal motsvarar bokstaven A enligt ASCII-tabellen i
 					<xref linkend="tab_ascii"/>?
 				</para>
 			</listitem>
@@ -690,7 +662,10 @@
 			Skillnaden mellan seriell och parallell kommunikation hörs
 			nästan i namnet. Vid seriell kommunikation skickas bitarna i en
 			rad efter varandra och vid parallell kommunikation skickas
-			flera bitar i bredd, samtidigt.
+			flera bitar i bredd, samtidigt. Det kan naturligtvis inte
+			finnas flera bitar på en ledning samtidigt utan de åtskiljs av
+			tiden. Ledningen kan ju bara i ett ögonblick vara antingen 0
+			eller 1. Men liknelsen fungerar i alla fall.
 		</para>
 		<para>
 			Seriell kommuniktation lämpar sig bäst då data skall
@@ -840,7 +815,7 @@
 		</figure>
 
 		<para>
-			För att seriell överföring skall fungera så måste datat skickas
+			För att seriell överföring skall fungera så måste datan skickas
 			på ett visst sätt genom kabeln. Annars fungerar det
 			naturligtvis inte. Man skiljer på två olika sätt att överföra
 			data seriellt, nämligen <emphasis>synkront</emphasis> och
@@ -908,7 +883,7 @@
 				I <xref linkend="fig_startostoppbit" /> visas hur ett tecken
 				som skall skickas över en asynkron seriell förbindelse kan
 				se ut.  Först kommer det en startbil som alltid är en 0:a,
-				sedan kommer de bitar som utgör själva datat, det är normalt
+				sedan kommer de bitar som utgör själva datan, det är normalt
 				7 eller 8 stycken. Sist kommer eventuellt en paritetsbit om
 				vi kommer att behandla längre fram och en eller eventuellt
 				två stoppbitar.
@@ -1257,9 +1232,9 @@
 	varje dator får stafettpinnen och skickar den vidare. Det finns
 	bara en stafettpinne och bara den dator som har stafettpinnen
 	får sända data. Datat och stafettpinen skickas vidare. Alla
-	datorer skickar vidare och den som datat är avsedd för kopierar
-	datat och skickar vidare. När datat kommer tillbaka (med
-	stafettpinnen) till avsändaren tar den bort datat från nätet och
+	datorer skickar vidare och den som datan är avsedd för kopierar
+	datan och skickar vidare. När datan kommer tillbaka (med
+	stafettpinnen) till avsändaren tar den bort datan från nätet och
 	skickar stafettpinnen vidare. Detta gör att kollisioner helt
 	undviks.
 
@@ -1643,8 +1618,8 @@
 
 	Modem har traditionellt varit det vanligaste sättet för
 	privatpersoner att ansluta sig till Internet. Alla
-	Internetleverantörer (Internet Service Proveider, ISP) erbjuder
-	tjänsten uppringt internet, det vill säga Internet via ett modem
+	Internetleverantören (Internet Service Proveider, ISP) erbjuder
+	tjänsten uppringt Internet, det vill säga Internet via ett modem
 	anslutet till telenätet. I dag blir detta dock allt mindre
 	vanligt då nya snabbare tjänster erbjuds. Mer som dessa kommer i
 	kapitlet om Internet (<xref linkend="chap_internet"/>).
@@ -1934,7 +1909,7 @@
 	eller annat sätt så måste de som kommunicerar göra det efter
 	vissa givna regler. Ett datornätverk skulle inte fungera om inte
 	alla enheter håll sig till en uppsättning regler. Hur skulle
-	alla 1:or och 0:or på internet kunna komma rätt om alla datorer
+	alla 1:or och 0:or på Internet kunna komma rätt om alla datorer
 	gjorde som de ville?
 </para>
 </sect1>
@@ -2185,8 +2160,8 @@ Modeller, referensmodeller, standarder
 <abstract><para>
 	Internet är utan tvekan det viktigaste datanätet som finns.
 	Internet kan man komma åt från världens alla hörn och tjänsterna
-	på internet blir fler och fler för varje dag. I detta kapitel
-	tittar vi på hur internet kom till, hur det fungerar och vad det
+	på Internet blir fler och fler för varje dag. I detta kapitel
+	tittar vi på hur Internet kom till, hur det fungerar och vad det
 	erbjuder.
 </para><para>
 	Internet är inte heller bara Internet. Den teknik som används på
@@ -2196,10 +2171,10 @@ Modeller, referensmodeller, standarder
 	Internet.
 </para></abstract>
 <!--
-	- internets historik, uppbyggnad och kommunikationsteknik
+	- Internets historik, uppbyggnad och kommunikationsteknik
 	- vanligaste protokollen och programmen på interne
 	- programvaror för enklare diagnostisering, spårning och
-	  felsökning på internet
+	  felsökning på Internet
 -->
 
 <sect1><title>Internets historia och utveckling</title>
@@ -2211,7 +2186,7 @@ Modeller, referensmodeller, standarder
 
 <para>
 
-	Det vi idag kallar för internet	har även det varit ett litet
+	Det vi idag kallar för Internet	har även det varit ett litet
 	projekt en gång i tiden. Alla har vi ju varit små. Internet
 	började sin bana som ett forskningsprojekt inom den amerikanska
 	universitetsvärlden. Syftet var att kunna ansluta datorer till
@@ -2329,7 +2304,7 @@ Modeller, referensmodeller, standarder
 <para>
 	
 	Som sagts tidigare så måste alla aktörer och användare följa
-	samma regler. Eftersom ingen bestämmer enväldigt över internet
+	samma regler. Eftersom ingen bestämmer enväldigt över Internet
 	så måste man på något sätt ta fram de regler som gäller. För att
 	styra upp Internet så har en rad organisationer upprättats som
 	organiserar olika delar av regelverket som styr Internet. I
@@ -2514,7 +2489,7 @@ Modeller, referensmodeller, standarder
 	Även på det mobila området förekommer mycket nytänkande. Man kan
 	till exempel utan problem koppla upp sig mot Internet med de
 	flesta moderna mobiltelefoner. Man kan också i vissa butiker
-	koppla upp sig mot internet via bluetooth eller radiolan.
+	koppla upp sig mot Internet via bluetooth eller radiolan.
 
 </para>
 
@@ -2672,7 +2647,7 @@ Modeller, referensmodeller, standarder
 <chapter><title>Mer om Internets teknik</title>
 <abstract>
 <para>
-	Vi har i föregående kapitel tittat på internet och hur det
+	Vi har i föregående kapitel tittat på Internet och hur det
 	används. I detta kapitel skall vi titta närmare på tekniken som
 	gör Internet möjligt. Efter att ha läst detta skall du förstå
 	hur Internet fungerar och kunna utföra enklare felsökning.
@@ -2776,7 +2751,7 @@ Modeller, referensmodeller, standarder
 
 	Den observanta läsaren ser direkt att antalet tillgängliga
 	nätverk inte riktigt kommer att räcka till till alla datornät
-	som finns på internet. Det finns flera lösningar på detta. Ett
+	som finns på Internet. Det finns flera lösningar på detta. Ett
 	sätt är att dela in adresserna i fler mer finfördelade klasser
 	än A, B och C. Detta gör man redan idag för att få få fler
 	nätverk. Man kan till exempel ha nätverk med bara 8 eller 32
@@ -3054,10 +3029,10 @@ Modeller, referensmodeller, standarder
 
 <para>
 
-	När internet inte var så stort behövde man inte använda något
+	När Internet inte var så stort behövde man inte använda något
 	system som DNS. På samma sätt behöver man inte använda det om
 	man har ett mindre lokalt nätverk. Men så snart man skall
-	använda internet eller skall hantera ett lite större nätverk så
+	använda Internet eller skall hantera ett lite större nätverk så
 	är det väldigt bra att använda ett DNS-system. Från början på
 	Internet använde man så kallade hosts-filer på varja dator. I
 	denna fil fanns det en lista med datornamn och mostvarande
@@ -3330,7 +3305,7 @@ Modeller, referensmodeller, standarder
 
 	I nästa kapitel kommer vi att tala om säkerhet men det är ändå
 	på sin plats att tala lite om det redan nu när vi hanterar
-	e-post. E-post är nämligen en tjänst på internet som skall
+	e-post. E-post är nämligen en tjänst på Internet som skall
 	betraktas som osäker. En tumregel som är bra är att man inte
 	skall skriva någonting i ett e-brev som man inte skulle skriva
 	på ett vykort. Vill man skicka någonting som är lite hemilgt
@@ -3349,7 +3324,7 @@ Modeller, referensmodeller, standarder
 	Stora öppna nät som till exempel Internet är naturligtvis bra
 	för kommunikatinonen men det öppnar även för onda personer som
 	kan missbruka denna öppenhet. I deta kapitel behandlar vi
-	datasäkerhet. Hur farligt är internet och vad kan man göra för
+	datasäkerhet. Hur farligt är Internet och vad kan man göra för
 	att skydda sig?
 </para></abstract>
 <!--
