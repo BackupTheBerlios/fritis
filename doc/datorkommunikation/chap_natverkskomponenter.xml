@@ -209,18 +209,22 @@
 	
 	<sect1><title>Brygga</title>
 		<para>
-			En brygga fungerar ungefär som en repeater med den skillnaden
-			att den kan konvertera mellan olika nätverksprotokoll och
-			kablar. En brygga används när man vill koppla ihop
-			nätverkssegment av olika slag.
+			En brygga fungerar ungefär som en repeater så tillvida att den
+			är en ganska enkel apparat med två anslutningar. Där slutar
+			dock likheten. En brygga används för att koppla ihop olika
+			nätverk, eller segment av samma nätverk. Bryggan släpper bara
+			igenom den trafik som skall till nätet på andra sidan. På så
+			sätt minskas onödig trafik i de båda näten eller segmenten.
 		</para>
 	</sect1>
 	
 	<sect1><title>Brouter</title>
 		<para>
 			Namnet brouter är en lek med ord. Det är en sammanslagning av
-			de engelska orden Bridge (brygga) och Router. Det är en brygga
-			som också fungerar som en Router (se nedan).
+			de engelska orden Bridge (brygga) och Router. Den fungerar som
+			en brygga men kan koppla ihop flera nätverk, eller
+			nätverkssegment, som en router (se nedan). Den är dock enklare
+			än en router och jobbar på samma nivå som en brygga.
 		</para>
 	</sect1>
 	
@@ -245,18 +249,17 @@
 	
 	<sect1><title>Gateway</title>
 		<para>
-			En gateway finns på de flesta lokala nätverk och är oftast en
-			väg ut på ett större nät. En gateway kan precis som routern
-			läsa nätverkstrafiken och konvertera den men har en specifik
-			uppgift att koppla samman ett nät med ett annat. En router kan
-			sitta på ett nät och bara tala med andra routrar medan en
-			gateway har datorer åtminstone på sin ena sida.
+			En gateway används för att koppla samman nätverk av olika typ.
+			Man kan se det som en konverterare. Namnet gateway används
+			ibland, felaktigt, på en maskin som som sitter mellan ett
+			lokalt nät och internet även om samma nätverksprotokoll
+			används. I det fallet är router en riktigare benämning.
 		</para>
 	</sect1>
 	
 	<sect1><title>Brandvägg</title>
 		<para>
-			En gateway mellan till exempel ett lokalt nätverk och Internet
+			En router mellan till exempel ett lokalt nätverk och Internet
 			kombineras ofta med en brandvägg (eng. Firewall). En brandvägg
 			är en speciell sorts router som bara routar vidare den trafik
 			som uppfyller vissa krav.  Trafik som inte uppfyller kraven
@@ -287,7 +290,7 @@
 			I <xref linkend="fig_natverk"/> visas en en ganska krystad bild
 			på ett nätverk där de flesta av komponenterna vi behandlat
 			finns med. Switchen hade lika gärna kunnat vara en hubb. I
-			exemplet finns det en kombinerad gateway och brandvägg vilket
+			exemplet finns det en kombinerad router och brandvägg vilket
 			inte alls är ovanligt.
 		</para>
 		<figure id="fig_natverk"><title>Exempel på nätverk</title>
@@ -313,7 +316,7 @@
 		<para>
 			I detta kapitel har vi gått igenom en mängd
 			nätverkskomponenter. Du skall nu känna till vad dessa gör och
-			hur de fungerar. Till exempel switch, gateway och brandvägg.
+			hur de fungerar. Till exempel switch, router och brandvägg.
 		</para>	
 	</sect1>
 </chapter>
