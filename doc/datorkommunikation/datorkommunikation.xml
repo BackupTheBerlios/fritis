@@ -34,7 +34,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2004/01/22 12:56:48 $</pubdate>
+	<pubdate>$Date: 2004/01/22 13:17:20 $</pubdate>
 
 	<copyright>
 		<year>2003, 2004</year>
@@ -43,7 +43,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.23 $</revnumber>
+			<revnumber>$Revision: 1.24 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -968,9 +968,12 @@
 	<sect1><title>Inledning</title>
 		<para>
 			I det förra kapitlet tittade vi på seriell och parallell
-			överföring. Oftast bygger man ovanpå dessa tekniker en mer
-			avancerad struktur som oftast kallas för datornätverk där
-			datorer efter givna regler kan kommunicera med varandra.
+			överföring. Vid sådan kommunikation är det alltid två parter
+			som talar med varandra. Det som vi kommer se i detta kapitel
+			som bygger man oftare mer avancerade kommunikationsnät med en mer
+			avancerad struktur där datorer efter givna regler kan
+			kommunicera med varandra. Dessa nät kallar vi kort och gott för
+			datornät.
 		</para>
 		<para>
 			Ett datornätverk är ett system som består av två eller flera
@@ -1135,7 +1138,12 @@
 				möjligt eftersom alla datorer har två anslutningar, en från
 				föregående dator och en till nästa dator. När cirkeln av
 				datorer är sluten har man fått en ring, därav namnet
-				ringnät. I <xref linkend="fig_ringnat"/>
+				ringnät. I <xref linkend="fig_ringnat"/> ser vi ett exempel
+				på ett ringnät. Observera att ringen ofta består av en så
+				kallad MUA, <emphasis>Media Access Unit</emphasis>. Denna
+				MUA innehåller en logisk ring och påminner till utseendet om
+				en hubb eller switch. Med en MUA får en ringnät samma
+				fysiska topologi om ett stjärnnät.
 
 				<figure id="fig_ringnat"><title>Ringnät</title>
 					<mediaobject>
@@ -1244,9 +1252,12 @@
 		</para>
 	</sect1>
 
-	<sect1><title>Övningsuppgifter</title>
+	<sect1><title>Sammanfattning</title>
 		<para>
-			Övningar kommer snart ...
+			I detta kapitel har du lärt dig vad ett datornätverk är. Du har
+			lärt dig de olika topologierna och hur de ser ut och fungerar.
+			Du skall även veta vad accessmetoder är, vad de vanligaste
+			heter och hur de fungerar.
 		</para>	
 	</sect1>
 </chapter>	

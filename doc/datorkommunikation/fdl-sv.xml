@@ -1,4 +1,19 @@
 <!--
+
+DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
+DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
+DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
+DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
+
+This is just a draft. This tranlation is not finished yet. Please do NOT
+use it in your work just yet.
+
+
+DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
+DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
+DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
+DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT DRAFT 
+
 Comments regarding the markup in this version.
 
 I have user <sect1> instead of <section> the reason for this is that
@@ -14,7 +29,7 @@ numbering.
 
 
 <appendix id="gfdl-sv">
-<title>GNU Free Documentation License (Översättning pågår ....)</title>
+<title>GNU Free Documentation License</title>
 <subtitle>
 	Version 1.2, November 2002.  Svensk översättning av Marcus Rejås
 	och Alexander Nordström, Januari 2004.
@@ -49,11 +64,13 @@ numbering.
 
 <blockquote id="gfdl-sv-fsf-copyright">
 	<para>
-		Copyright (C) 2000,2001,2002  Free Software Foundation,
-		Inc.  59 Temple Place, Suite 330, Boston, MA  02111-1307
-		USA Var och en äger kopiera och sprida ordagranna
-		kopior av detta licensavtal, men att ändra det är inte
-		tillåtet.
+		Originalet Copyright (C) 2000,2001,2002  Free Software
+		Foundation, Inc.  59 Temple Place, Suite 330, Boston, MA
+		02111-1307 USA. Denna översättning Copyright (C) 2004,
+		Svenska Linuxföreningen, info@se.linux.org. Var och en
+		äger kopiera och sprida ordagranna kopior av detta
+		licensavtal [originalet och denna översättning], men att
+		ändra det är inte tillåtet.
 	</para>
 </blockquote>
 
@@ -64,10 +81,9 @@ numbering.
 		som i frihet: att försäkra var och en den faktiska
 		friheten att kopiera och sprida det vidare, med eller
 		utan förändringar, antingen kommersiellt eller ideellt.
-		Sekundärt så bevarar denna licens ett sätt för
-		författaren och förläggaren att få ära för deras arbete
-		utan att anses vara ansvariga för förändringar gjorda av
-		andra.
+		Sekundärt bevarar denna licens ett sätt för författaren
+		och förläggaren att få ära för deras arbete utan att de
+		anses vara ansvariga för förändringar gjorda av andra.
 	</para>
 	<para>
 		Denna Licens är en sorts "copyleft", vilket betyder att
@@ -92,22 +108,24 @@ numbering.
 
 <sect1 id="gfdl-sv-1"><title>1. TILLÄMPNINGSOMRÅDE OCH DEFINITIONER</title>
 	<para id="gfdl-sv-doc">
-		Denna licens gäller för varje handbok eller annat verk,
-		oavsett uttrycksform, som innehåller ett meddelande där
-		upphovsrättsinnehavaren stadgat att verket kan spridas
-		enligt villkoren i denna licens.  Ett sådant meddelande
-		ger en internationell frihet utan krav på ersättning och
+		Denna licens [det engelska originalet] gäller för varje
+		handbok eller annat verk, oavsett uttrycksform, som
+		innehåller ett meddelande där upphovsrättsinnehavaren
+		stadgat att verket kan spridas enligt villkoren i GNU
+		Free Documentation License.  Ett sådant meddelande ger
+		en internationell frihet utan krav på ersättning och
 		utan tidsbegränsning att använda verket under villkoren
-		i denna licens. "Dokument" enligt nedan syftar på
-		godtycklig handbok eller verk. Var och en är
-		licenstagare och benämns som "du".  Du accepterar
-		villkoren i denna licens om du kopierar, modifierar
-		eller sprider verket på ett sådant sätt att det kräver
-		tillstånd enligt gällande upphovsrättslagstiftning.
+		i denna licens [det engelska originalet]. "Dokument"
+		nedan syftar på godtycklig handbok eller verk.  Var och
+		en är licenstagare och benämns som "du".  Du accepterar
+		villkoren i GNU Free Documentation License om du
+		kopierar, modifierar eller sprider verket på ett sådant
+		sätt att det kräver tillstånd enligt gällande
+		upphovsrättslagstiftning.
 	</para>
 	
 	<para id="gfdl-sv-mod-ver">
-		En "förändrad version" av dokumentet innebär varje verk
+		En "förändrad version" av dokumentet avser varje verk
 		som innehåller dokumentet eller en del av det, antingen
 		ordagranna kopior, eller med ändringar och/eller
 		översatt till ett annat språk.
@@ -131,20 +149,21 @@ numbering.
 		De "oföränderliga avsnitten" är sekundära avsnitt vars
 		titlar är angivna som oföränderliga avsnitt i
 		meddelandet som stadgar att dokumentet är utgivet under
-		denna licens. Om ett avsnitt inte infattas av den
-		ovanstående definitionen av sekundärt så är det inte
-		tillåtet att ange det som oföränderligt. Dokumentet
-		behöver inte innehålla några oföränderliga avsnitt. Om
-		dokumentet inte anger några oföränderliga avsnitt så
-		finns det inga.
+		denna licens [det engelska originalet]. Om ett avsnitt
+		inte innefattas av den ovanstående definitionen av
+		sekundärt så är det inte tillåtet att ange det som
+		oföränderligt. Dokumentet behöver inte innehålla några
+		oföränderliga avsnitt. Om dokumentet inte anger några
+		oföränderliga avsnitt så finns det inga.
 	</para>
 
 	<para id="gfdl-sv-cov-text">
 		"Omslagstexterna" är speciella korta ordföljder som är
 		listade som framsidestexter eller baksidestexter i
 		meddelandet som stadgar att dokumentet är utgivet under
-		denna licens. En framsidestext kan vara som mest 5 ord
-		och en baksidestext kan vara som mest 25 ord.
+		denna licens [det engelska originalet]. En framsidestext
+		kan vara som mest 5 ord och en baksidestext kan vara som
+		mest 25 ord.
 	</para>
 
 	<para id="gfdl-sv-transparent">
@@ -192,20 +211,24 @@ numbering.
 	</para>
 
 	<para id="gfdl-sv-entitled">
-		Ett avsnitt "med titeln XYZ" avser en namngiven del av
-		dokumentet vars titel är exakt XYZ eller innehåller XYZ
-		inom parentes efterföljande text som översätter XYZ till
-		ett annat språk. (Här står XYZ för ett speciellt namn på
-		ett avsnitt nedan, som till exempel "tillkännagivanden",
-		"dedikationer", "endossering" eller "historik".) Att
-		"bevara titeln" på ett sådant avsnitt när du ändrar
+		Ett avsnitt "med titeln ÅÄÖ (XYZ)" avser en namngiven
+		del av dokumentet vars titel är exakt XYZ eller
+		innehåller XYZ inom parentes efterföljande text som
+		översätter XYZ till ett annat språk. (Här står XYZ för
+		ett speciellt namn på ett avsnitt nedan, som till
+		exempel "Acknowledgements", "Dedications",
+		"Endorsements" eller "History" [och ÅÄÖ för lämplig
+		översättning, till exempel "tillkännagivanden",
+		"dedikationer", "endossering" respektive "historik"].)
+		Att "bevara titeln" på ett sådant avsnitt när du ändrar
 		dokumentet innebär att det förblir ett avsnitt "med
-		titeln XYZ" enligt denna definition.
+		titeln ÅÄÖ (XYZ)" enligt denna definition.
 	</para>
 	<para>
 		Dokumentet får innehålla garantiavsägelser invid
-		meddelandet om att denna licens gäller för dokumentet.
-		Dessa garantiavsägelser skall anses vara inkluderade per
+		meddelandet om att denna licens [det engelska
+		originalet] gäller för dokumentet.  Dessa
+		garantiavsägelser skall anses vara inkluderade per
 		referens i denna licens, men bara för att friskriva från
 		garantier. All annan innebörd dessa garantiavsägelser
 		kan ha är ogiltiga och påverkar inte på något sätt
@@ -217,13 +240,14 @@ numbering.
 	<para>
 		Du äger kopiera och sprida dokumentet på valfritt
 		medium, antingen kommersiellt eller ideellt, förutsatt
-		att denna licens, upphovsrättsklausul, och meddelandet
-		som stadgar att denna licens gäller för dokumentet finns
+		att denna licens [det engelska originalet],
+		upphovsrättsklausul, och meddelandet som stadgar att GNU
+		Free Documentation License gäller för dokumentet finns
 		med på alla kopior, och att du inte lägger till några
 		som helst andra villkor än de som ingår i denna licens.
-		Du får inte vidta tekniska åtgärder för att begränsa
+		Du äger inte vidta tekniska åtgärder för att begränsa
 		eller kontrollera läsande eller vidare kopiering av de
-		kopior du skapar eller sprider. Dock får du ta emot
+		kopior du skapar eller sprider. Dock äger du ta emot
 		kompensation i utbyte mot kopior. Om du sprider
 		tillräckligt många kopior måste du också följa villkoren
 		i paragraf 3.
@@ -267,7 +291,7 @@ numbering.
 		eller med varje opak kopia en nätverksadress som är
 		tillgänglig för den allmänna nätverksanvändande massan
 		där man, med öppet standardiserade protokoll, kan ladda
-		ner en komplett transparent kopia av dokument, utan
+		ner en komplett transparent kopia av dokumentet, utan
 		extra material. Om du väljer det senare alternativet,
 		måste du vidta skäliga åtgärder, när du börjar sprida
 		opaka kopior i kvantitet, för att denna transparenta
@@ -288,13 +312,13 @@ numbering.
 	<para>
 		Du äger kopiera och sprida en förändrad version av
 		dokumentet under de villkor som beskrivs i paragraf 2
-		och 3 ovan, förutsatt att du släpper den förändrade
-		versionen under exakt denna licens, och att den
-		förändrade versionen antar dokumentets roll, och således
-		medger spridning och förändring av den förändrade
-		versionen till envar som erhåller en kopia av den.
-		Utöver detta måste du göra följande med den ändrade
-		versionen:
+		och 3 av GNU Free Documentation License, förutsatt att
+		du släpper den förändrade versionen under exakt denna
+		licens, och att den förändrade versionen antar
+		dokumentets roll, och således medger spridning och
+		förändring av den förändrade versionen till envar som
+		erhåller en kopia av den.  Utöver detta måste du göra
+		följande med den ändrade versionen:
 	</para>
 
 	<orderedlist id="gfdl-sv-modif-cond" numeration="upperalpha">
@@ -302,7 +326,7 @@ numbering.
 		På titelsidan (och omslagen om det finns några) använda
 		en titel skild från den som [original]dokumentet har,
 		och skild från tidigare versioners titel (som skall, om
-		det finns några, finnas listade i historik-avsnittet i
+		det finns några, finnas listade i historikavsnittet i
 		dokumentet). Du äger använda samma titel som det
 		föregående dokumentet om den ursprungliga utgivaren ger
 		sitt tillstånd.
@@ -330,8 +354,8 @@ numbering.
 	<listitem><simpara>
 		Direkt efter upphovsrättsklausulerna innefatta ett
 		meddelande som ger allmänheten tillstånd att använda den
-		ändrade versionen under villkoren i denna licens i den
-		form som visas i <link
+		ändrade versionen under villkoren i denna licens [det
+		engelska originalet] i den form som visas i <link
 		linkend="gfdl-sv-addendum">Tillägg</link> nedan.
 	</simpara></listitem>
 	<listitem><simpara>
@@ -342,36 +366,37 @@ numbering.
 	</simpara></listitem>
 	<listitem><simpara>
 		Inkludera en oförändrad kopia av denna licens [Det är
-		den engelska originalverisonen som avses].
+		den engelska originalversionen som avses].
 	</simpara></listitem>
 	<listitem><simpara>
-		Bevara avsnittet med titeln "historik", bevara dess
-		titel och lägg i avsnittet till en post med åtminstone
-		titeln, året, nya författare och utgivaren av den
-		modifierade versionen så som angivet på titelsidan. Om
-		det inte finns något avsnitt med titeln "historik" i
-		dokumentet så skapa en med titeln, året, författare och
-		utgivaren av dokumentet så som det står på
-		[original]dokumentets titelsida. Lägg sedan till en post
-		som beskriver den förändrade versionen så som beskrivits
-		ovan.
+		Bevara avsnittet med titeln "historik (History)", bevara
+		dess titel och lägg i avsnittet till en post med
+		åtminstone titeln, året, nya författare och utgivaren av
+		den modifierade versionen så som angivet på titelsidan.
+		Om det inte finns något avsnitt med titeln "historik
+		(History)" i dokumentet så skapa en med titeln, året,
+		författare och utgivaren av dokumentet så som det står
+		på [original]dokumentets titelsida. Lägg sedan till en
+		post som beskriver den förändrade versionen så som
+		beskrivits ovan.
 	</simpara></listitem>
 	<listitem><simpara>
 		Bevara den nätverksadress, om det finns någon, angiven i
 		dokumentet till den allmänt tillgängliga transparenta
 		kopian av dokumentet, och likaså nätverksadresserna till
 		de föregående versioner som dokumentet baseras på. Dessa
-		får placeras i avsnittet "historik". Du får utelämna en
-		nätverksadress för ett verk som är publicerat mer än
-		fyra år före dokumentet självt, eller om den
-		ursprunglige utgivaren vars verk nätverksadressen
+		får placeras i avsnittet "historik (History)". Du äger
+		utelämna en nätverksadress för ett verk som är
+		publicerat mer än fyra år före dokumentet självt, eller
+		om den ursprunglige utgivaren vars verk nätverksadressen
 		hänvisar till ger sitt tillstånd.
 	</simpara></listitem>
 	<listitem><simpara>
-		För alla avsnitt med titlarna "tillkännagivanden" eller
-		"dedikationer", bevara titeln på avsnittet, och bevara
-		allt innehåll och prägel på alla tillkännagivanden
-		och/eller dedikationer gjorda av varje bidragare.
+		För alla avsnitt med titlarna "tillkännagivanden
+		(Acknowledgements)" eller "dedikationer (Dedications)",
+		bevara titeln på avsnittet, och bevara allt innehåll och
+		prägel på alla tillkännagivanden och/eller dedikationer
+		gjorda av varje bidragare.
 	</simpara></listitem>
 	<listitem><simpara>
 		Bevara alla oföränderliga avsnitt i dokumentet
@@ -379,17 +404,17 @@ numbering.
 		motsvarande anses inte tillhöra avsnittets titel.
 	</simpara></listitem>
 	<listitem><simpara>
-		Radera varje avsnitt med titeln "endossering". Ett
-		sådant avsnitt får inte inkluderas i en modifierad
-		version.
+		Radera varje avsnitt med titeln "endossering
+		(Endorsements)". Ett sådant avsnitt får inte inkluderas
+		i en modifierad version.
 	</simpara></listitem>
 	<listitem><simpara>
 		Inte byta titel på något existerande avsnitt så att det
-		blir "endossering" eller så att titeln kan förväxlas med
-		något oföränderligt avsnitt. 
+		blir "endossering (Endorsements)" eller så att titeln
+		kan förväxlas med något oföränderligt avsnitt. 
 	</simpara></listitem>
 	<listitem><simpara>
-		Bevarar varje garantiavsägelseklausul.
+		Bevara varje garantiavsägelseklausul.
 	</simpara></listitem>
 	</orderedlist>
 
@@ -405,27 +430,26 @@ numbering.
 		alla andra avsnitts titlar.
 	</para>
 	<para>
-		Du äger lägga till ett avsnitt med titeln
-		"endossering", förutsatt att det inte innehåller något
-		annat än endosseringar för din modifierade version
-		från olika aktörer -- till exempel, meddelanden om
-		utförd korrekturläsning eller att texten har godkänts
-		av en organisation som en officiell definition av en
-		standard.
+		Du äger lägga till ett avsnitt med titeln "endossering
+		(Endorsements)", förutsatt att det inte innehåller något
+		annat än endosseringar för din modifierade version från
+		olika aktörer -- till exempel, meddelanden om utförd
+		korrekturläsning eller att texten har godkänts av en
+		organisation som en officiell definition av en standard.
 	</para>
 	<para>
-		Du får lägga till ett textavsnitt på upp till fem ord
+		Du äger lägga till ett textavsnitt på upp till fem ord
 		som framsidestext, och ett textavsnitt på upp till 25
-		ord som baksidestext i listan med omslagstexter i den
+		ord som baksidestext i listan över omslagstexter i den
 		modifierade versionen. Bara ett textavsnitt med
 		framsidestexter och ett med baksidestexter får läggas
 		till av (eller genom försorg av) en enda juridisk
 		person. Om dokumentet redan innehåller en omlagstext för
 		något av omslagen, tidigare tillagd av dig eller genom
-		försorg av samma juridiska person som du företräder, får
-		du inte lägga till en till, men du får ändra den gamla
-		med tillstånd från den tidigare utgivaren som lade till
-		den förra.
+		försorg av samma juridiska person som du företräder,
+		äger du inte lägga till en till, men du äger ändra den
+		gamla med tillstånd från den tidigare utgivaren som lade
+		till den förra.
 	</para>
 	<para>
 		Författaren (författarna) och utgivaren (utgivarna) av
@@ -440,13 +464,13 @@ numbering.
 	<para>
 		Du äger kombinera dokumentet med andra dokument som är
 		utgivna under denna licens, under de villkor som
-		definieras i paragraf 4 här ovan för modifierade
-		versioner, förutsatt att du, i det kombinerade
-		dokumentet, innefattar alla oföränderliga avsnitt från
-		originaldokumenten, omodifierade, och listar dem som
-		oföränderliga avsnitt i ditt kombinerade verk i dess
-		licensklausul, och att du bevarar alla deras
-		garantiavsägelseklausuler.
+		definieras i paragraf 4 av GNU Free Documentation
+		License för modifierade versioner, förutsatt att du, i
+		det kombinerade dokumentet, innefattar alla
+		oföränderliga avsnitt från originaldokumenten,
+		omodifierade, och listar dem som oföränderliga avsnitt i
+		ditt kombinerade verk i dess licensklausul, och att du
+		bevarar alla deras garantiavsägelseklausuler.
 	</para>
 	<para>
 		Det kombinerade verket behöver bara innehålla en enstaka
@@ -463,31 +487,35 @@ numbering.
 	</para>
 	<para>
 		I det kombinerade verket måste du kombinera alla avsnitt
-		med titlarna "historik" i de ursprungliga dokumenten,
-		till ett avsnitt med titeln "historik"; på samma sätt
-		skall alla avsnitt med titlarna "tillkännagivelser",
-		alla avsnitt med titlarna "dedikationer" kombineras. Du
-		måste ta bort alla avsnitt med titlarna "endossering".
+		med titlarna "historik (History)" i de ursprungliga
+		dokumenten, till ett avsnitt med titeln "historik
+		(History)"; på samma sätt skall alla avsnitt med
+		titlarna "tillkännagivanden (Acknowledgements)", alla
+		avsnitt med titlarna "dedikationer (Dedications)"
+		kombineras. Du måste ta bort alla avsnitt med titlarna
+		"endossering (Endorsements)".
 	</para>
 </sect1>
 
 <sect1 id="gfdl-sv-6"><title>6. SAMLINGAR AV DOKUMENT</title>
 	<para>
 		Du äger skapa en samling bestående av dokumentet och
-		andra dokument som är släppta under denna licens, och
-		ersätta individuella kopior i dokumenten av denna licens
-		med en enda kopia [av den engelska originalversionen]
-		som inkluderas i samlingen, förutsatt att du följer
-		villkoren för ordagrann kopiering i denna licens för
-		varje inkluderat dokument i alla andra avseenden.
+		andra dokument som är släppta under GNU Free
+		Documentation License, och ersätta individuella kopior i
+		dokumenten av denna licens med en enda kopia [av den
+		engelska originalversionen] som inkluderas i samlingen,
+		förutsatt att du följer villkoren för ordagrann
+		kopiering i denna licens för varje inkluderat dokument i
+		alla andra avseenden.
 	</para>
 	<para>
 		Du äger lyfta ut ett dokument från en sådan samling, och
-		sprida det enskilt under denna licens, förutsatt att du
-		lägger till en kopia av denna licens [den engelska
-		originalversionen] i det utlyfta dokumentet, och följer
-		villkoren för ordagrann kopiering i denna licens för det
-		utlyfta dokumentet i alla andra avseenden.
+		sprida det enskilt under GNU Free Documentation License,
+		förutsatt att du lägger till en kopia av denna licens
+		[den engelska originalversionen] i det utlyfta
+		dokumentet, och följer villkoren för ordagrann kopiering
+		i denna licens för det utlyfta dokumentet i alla andra
+		avseenden.
 	</para>
 </sect1>
 
@@ -518,9 +546,9 @@ numbering.
 <sect1 id="gfdl-sv-8"><title>8. ÖVERSÄTTNING</title>
 	<para>
 		Översättning anses vara en sorts förändring, så du äger
-		sprida översättningar av dokumentet under de villkor som
-		sätts i paragraf 4. Oföränderliga avsnitt som ersätts
-		med översättningar kräver tillstånd från deras
+		sprida översättningar av dokumentet enligt de villkor
+		som sätts i paragraf 4. Oföränderliga avsnitt som
+		ersätts med översättningar kräver tillstånd från deras
 		upphovsrättsinnehavare, men du äger inkludera
 		översättningar av alla eller vissa av dessa
 		oföränderliga avsnitt tillsammans med
@@ -536,21 +564,21 @@ numbering.
 	</para>
 	<para>
 		Om ett avsnitt i dokumentet har titeln
-		"tillkännagivanden", "dedikationer", eller "historik",
-		kommer kravet (paragraf 4) att bevara dess titel
-		(paragraf 1) vanligtvis att kräva att själva titeln
-		ändras.
+		"tillkännagivanden (Acknowledgements)", "dedikationer
+		(Dedications)", eller "historik (History)", kommer
+		kravet (paragraf 4) att bevara dess titel (paragraf 1)
+		vanligtvis att kräva att själva titeln ändras.
 	</para>
 </sect1>
 
 <sect1 id="gfdl-sv-9"><title>9. UPPHÖRANDE</title>
 	<para>
 		Du äger inte kopiera, förändra, omlicensiera eller
-		sprida dokumentet annat än enligt villkoren i denna
-		licens.  Alla övriga försök att, kopiera, modifiera,
-		omlicensiera, eller sprida dokumentet är ogiltigt och
-		kommer automatiskt medföra att du förlorar dina
-		rättigheter enligt denna licens. Tredje man som har
+		sprida dokumentet annat än enligt villkoren i GNU Free
+		Documentation License. Alla övriga försök att kopiera,
+		modifiera, omlicensiera, eller sprida dokumentet är
+		ogiltiga och kommer automatiskt medföra att du förlorar
+		dina rättigheter enligt denna licens. Tredje man som har
 		mottagit kopior eller rättigheter från dig enligt dessa
 		licensvillkor kommer dock inte att förlora sina
 		rättigheter så länge de följer licensvillkoren.
@@ -568,8 +596,8 @@ numbering.
 	</para>
 	<para>
 		Varje version av licensen ges ett unikt versionsnummer.
-		Om dokumentet utger att en specifik numrerad version av
-		denna licens "eller valfri senare version" gäller för
+		Om dokumentet stadgar att en specifik numrerad version
+		av denna licens "eller valfri senare version" gäller för
 		det, så äger du rätten att följa villkoren enligt
 		antingen den angivna versionen eller vilken senare
 		version som helst som publicerats (inte som utkast) av
@@ -586,13 +614,24 @@ numbering.
 	</title>
 
 	<para>
-		För att använda denna licens för ett dokument du har
-		skrivit, inkludera en kopia av licensen i dokumentet och
-		placera följande copyrightklausul omedelbart efter
-		titelsidan:
+		För att använda GNU Free Documentation License för ett
+		dokument du har skrivit, inkludera en kopia av licensen
+		[det engelska originalet] i dokumentet och placera
+		följande copyrightklausul omedelbart efter titelsidan:
 	</para>
 
 	<blockquote id="copyright-sample-sv"><para>
+		Copyright (c) ÅRTAL DITT NAMN. 
+		Permission is granted to copy, distribute and/or modify
+		this document under the terms of the GNU Free
+		Documentation License, Version 1.2 or any later version
+		published by the Free Software Foundation; with no
+		Invariant Sections, no Front-Cover Texts, and no
+		Back-Cover Texts. A copy of the license is included in
+		the section entitled "GNU Free Documentation License".
+	</para>
+	<para>
+		[Översättning:]
 		Copyright (c)  ÅRTAL  DITT NAMN.
 		Var och en äger rätt att kopiera, sprida och/eller
 		förändra detta dokument under villkoren i licensen "GNU
@@ -605,18 +644,25 @@ numbering.
 
 	<para>
 		Om du har oföränderliga avsnitt, framsidestexter och
-		baksidestexter, byt ut "utan...texter." med följande:
+		baksidestexter, byt ut "with...Texts."
+		("utan...texter.") med följande:
 	</para>
 
 	<blockquote id="inv-cover-sample-sv"><para>
-		med de oföränderliga avsnitten LISTA DERAS TITLAR, med
-		framsidestexterna LISTA, och med baksidestexterna LISTA.
+		with the Invariant Sections being LISTA DERAS TITLAR,
+		with the Front-Cover Texts being LISTA, and with the
+		Back-Cover Texts being LISTA.
+	</para>         
+	<para>
+		[Översättning:] med de oföränderliga avsnitten LISTA
+		DERAS TITLAR, med framsidestexterna LISTA, och med
+		baksidestexterna LISTA.
 	</para></blockquote>
 
 	<para>
 		Om du har oföränderliga avsnitt utan omslagstexter,
-		eller någon annan kombination av de tre, så samman dessa
-		två alternativ så att det passar den uppkomna
+		eller någon annan kombination av de tre, slå samman
+		dessa två alternativ så att det passar den uppkomna
 		situationen.
 	</para>
 	<para>
