@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.7 2004/01/07 18:10:18 rejas Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.8 2004/01/07 20:09:06 rejas Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -2828,8 +2828,7 @@ $arr[0] = 10;
 $arr[1] = 20;
 $arr[2] = 30;
 
-echo $arr[3]; <!-- XXX: This makes no sense =P
-          ^- varför 3 dära ? */ -->
+echo $arr[2]; // Skriver ut 20
 ?>
 ]]>
 				</programlisting>
