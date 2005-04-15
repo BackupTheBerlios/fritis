@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="iso-8859-15"?>
+<!-- textkodningen ändrades till iso-8859-15, å,ä,ö blev skadade. måste fixa //-->
+<chapter id="villkor"><title>Villkor</title>
+<abstract>
+<para>
+  Med <command>if</command> och <command>else</command> kan du styra händelser i ditt program. Beroende på vad användaren gör så kan du utföra vissa saker.
+</para>
+</abstract>
+
+<sect1 id="uppbyggnaden"><title>Uppbyggnaden</title>
+<para>
+  <emphasis>if-satser</emphasis> skriver du så här <command>if( villkoret )</command>. Efter if-satsen kan du skriva kod i ett block, se <xref linkend="ifsatsen" /> där vi har villkoret <emphasis>två är stärre än tre</emphasis>.
+</para>
+<example id="ifsatsen">
+<title>En enkel if-sats</title>
+<programlisting>
+<![CDATA[
+if( 2 > 3 )
+{
+  cout << "2 är stärre än 3!" << endl;
+}
+]]>
+</programlisting>
+</example>
+
+Om villkoret i <xref linkend="ifsatsen" /> är <emphasis>SANN</emphasis> kommer if-satsen att gå vidare till <command>cout</command> och skriva ut texten, är villkoret <emphasis>FALSKT</emphasis> (vilket det är i exemplet) kommer if-satsen att hoppa över kodblocket och gå vidare i programmet.
+
+<sect2 id="ifforenklad">
+<title>Förenkla if-satsen</title>
+<para>
+  Om du bara skall använda ett kommando, som i <xref linkend="ifsatsen" />, efter en if-sats kan du färenkla den som i <xref linkend="ifsatsenenkel" />.
+</para>
+
+<example id="ifsatsenenkel">
+<title>En enklare if-sats</title>
+<programlisting>
+<![CDATA[
+if( 2 > 3 )
+  cout << "Tvä är stärre än tre!" << endl;
+]]>
+</programlisting>
+</example>
+
+<para>
+  <xref linkend="ifsatsenenkel" /> gör precis samma sak som <xref linkend="ifsatsen" />.
+</para>
+
+<note>
+<title>Tänk på!</title>
+<para>
+  En enkel if-sats kan du bara använda om du enbart skall köra <emphasis>ett</emphasis> kommando om villkoret är <emphasis>SANT</emphasis>. I alla andra fall skall du använda kodblocket.
+</para>
+</note>
+
+</sect2>
+
+</sect1>
+
+<sect1 id="villkor">
+<title>Villkor</title>
+
+<para>
+  Villkor du kan använda i if-satser är:
+</para>
+
+== lika med
+!= skiljt från, inte lika med
+&gt;  större än
+&lt;  mindre än
+&gt;= större än eller lika med
+&lt;= mindre än eller lika med
+%  modulus
+
+</sect1>
+
+<sect1 id="ifelse">
+Ibland vill man testa flera vilkor, till exempel <emphasis>om 10 är mindre än 20 eller 10 är mindre än 15</emphasis>. Då använder vi <command>if... else...</command>. 
+
+<![CDATA[
+if( tal1 > 20 )
+{
+  cout "Talet är större än 20" << endl;
+}
+else
+{
+  cout "Talet är mindre än 20" << endl;
+}
+]]>
+</sect1>
+
+<sect1 id="ifeleseif">
+Du kan använda <command>if.. else if..</command> för att testa flera villkor.
+
+<![CDATA[
+if( tal1 > 20 )
+{
+  cout << "talet är större än 20" << endl;
+}
+else if( tal1 > 10 )
+{
+  cout << "Talet är större än 10" << endl;
+}
+else
+{
+  cout << "Talet är mindre än 10" << endl;
+}
+]]>
+</sect1>
+
+<sect1 id="ifiif"><title>If-satser i if-satser</title>
+
+<para>
+  Ibland vill vi kontrollera att flera villkor är uppfyllda, det kan vi göra genom att skriva flera if-satser i varann.
+</para>
+
+<![CDATA[
+if( tal1 > 20 )
+{
+  if( tal2 > 30 )
+  {
+    cout << "Tal1 är större än 20 och tal2 är större än 30." << endl;
+  }
+  cout << "Tal1 är större än 20 och tal2 är mindre än 30." << endl;
+}
+]]>
+</sect1>
+</chapter>

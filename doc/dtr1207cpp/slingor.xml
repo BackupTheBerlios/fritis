@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<chapter>
+<title>Slingor</title>
+<section>
+<title>Uppbyggnaden</title>
+<para>Det finns flera sätt att åstadkomma upprepning i C++. <command>for</command>, <command>while</command>, <command>do-while</command>, <command>goto</command> och rekursion. Vi hoppar över goto och rekursion tillsvidare.</para>
+<section>
+<title>for</title>
+<para>En for-slinga (for-loop) är den vanligaste formen av slinga i C++. Formen är for (tilldelning av startvärde; test; stegning) { kodblock } Efter for-satsen skriven man ett block (precis som i if-satsen) där man lägger koden som skall exekveras för varje varv. </para>
+<example>
+<title>exempel på for-sats</title>
+<programlisting>for (int i=0; i&lt;2; ++i) { cout &lt;&lt; i &lt;&lt; endl; }</programlisting>
+<para>Denna kod skriver ut heltalen 0 t.om. 2.</para>
+</example>
+<note>
+<para>Testen i villkorssatsen görs <emphasis>innan</emphasis> varje varv påbörjas så en for-slinga kan upprepas 0 gånger. Villkoret kan vara vilket C++-uttryck som helst som kan tolkas som ett sanningsvärde, dvs sant eller falskt. Stegningen utförs sist i varje varv, dvs efter (och om) kodblocket exekverats.</para>
+</note>
+<orderedlist>
+<listitem>
+<para>int i=0;</para>
+<para>En variabel i deklareras och ges ett värde.</para>
+</listitem>
+<listitem>
+<para>i&lt;2</para>
+<para>Nu testas om i är mindre än fem, vilket det är. Alltså skall slingan köras</para>
+</listitem>
+<listitem>
+<para>cout &lt;&lt; i &lt;&lt; endl;</para>
+<para>Skriver ut värdet av i, dvs 0</para>
+</listitem>
+<listitem>
+<para>++i</para>
+<para>öka i (med ett), dvs nu är i==1</para>
+</listitem>
+<listitem>
+<para>i&lt;2</para>
+<para>i har värdet 1, så i&lt;2 är sant</para>
+</listitem>
+<listitem>
+<para>cout &lt;&lt; i &lt;&lt; endl;</para>
+<para>Skriver ut värdet av i, dvs 1</para>
+</listitem>
+<listitem>
+<para>++i</para>
+<para>öka i (med ett), dvs nu är i==2</para>
+</listitem>
+<listitem>
+<para>i&lt;2</para>
+<para>i har värdet 2, så i&lt;2 är falskt. </para>
+<para>Slingan avslutas.</para>
+</listitem>
+</orderedlist>
+<para>Eftersom variabeln i deklarerades i själva for-satsen upphör den att existera efter kodblocket i for-satsen.<footnote>
+<para>I gamla kompilatorer fortsätter i att vara definierade efter for-sastse och har då sitt sista värde. För att vara kompatibel med både gamla och nya kompilatorer kan man deklarera sling-variabeln separat, men det anses vara god stil att initialisera variabler direkt i deklarationen.</para>
+</footnote></para>
+</section>
+<section>
+<title>while</title>
+<para>while är en enklare typ av slinga än for. Formen för while är while (villkor) { kodblock }. Till skillnad från for-satsen finns ingen initialisering inbyggd utan det får man sköta separat. </para>
+<example>
+<title>exempel på wile-sats</title>
+<programlisting>int i=0;
+while (i&lt;2) {
+    cout &lt;&lt; i &lt;&lt; endl;
+    ++i;
+}</programlisting>
+<para>Den här koden gör exakt samma sak som for-satsen tidigare.</para>
+</example>
+</section>
+<section>
+<title>do-while</title>
+<para/>
+</section>
+</section>
+</chapter>
