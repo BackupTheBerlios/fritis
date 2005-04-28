@@ -9,6 +9,7 @@
 <!ENTITY introprog SYSTEM "introprog.xml">
 <!ENTITY forstaprog SYSTEM "forstaprog.xml">
 <!ENTITY inutmatning SYSTEM "inutmatning.xml">
+<!ENTITY slingor SYSTEM "slingor.xml">
 <!ENTITY flyttal SYSTEM "flyttal.xml">
 <!ENTITY dtr1207 SYSTEM "dtr1207.xml">
 <!ENTITY gnu-fdl SYSTEM "fdl-sv.xml">
@@ -68,6 +69,7 @@
 &introprog;
 &forstaprog;
 &inutmatning;
+&slingor;
 &flyttal;
 
 &dtr1207;
