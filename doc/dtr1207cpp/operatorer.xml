@@ -47,7 +47,7 @@ summa = tal1 + tal2 + tal3 + 20;
 </sect1>
 <sect1 id="subtraktion">
 <title>Subtraktion</title>
-<para>Subtraktion anger du med minustecknet ( <keycap>-</keycap> ) och fungerar på samma sätt som addition. Därför visar jag enbart ett exempel och hänvisar till <xref endlink="addition"></xref> för mer information.</para>
+<para>Subtraktion anger du med minustecknet ( <keycap>-</keycap> ) och fungerar på samma sätt som addition. Därför visar jag enbart ett exempel och hänvisar till <xref linkend="addition"></xref> för mer information.</para>
 <example id="op_sub1">
 <title>tal1 - tal2 - 10 = summa</title>
 <programlisting>

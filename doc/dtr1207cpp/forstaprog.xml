@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="ISO-8859-15"?>
 <chapter id="forstaprog">
-  <title id="ettforstaprogram">Ett fÃ¶rsta program</title>
+  <title id="ettforstaprogram">Ett första program</title>
 
-  <para>Nu Ã¤r det dags att skriva vÃ¥rt fÃ¶rsta riktiga program, som i alla
-  programmeringssprÃ¥k bÃ¶rjar vi med Hej VÃ¤rlden!. Skriv programmet i <xref
+  <para>Nu är det dags att skriva vårt första riktiga program, som i alla
+  programmeringsspråk börjar vi med Hej Världen!. Skriv programmet i <xref
   linkend="kod_helloworld" /> och kompilera med din kompilator.</para>
 
   <example id="kod_helloworld">
@@ -13,7 +13,7 @@
 
 int main()
 {
-    std::cout &lt;&lt; "Hej VÃ¤rlden!" &lt;&lt; std::endl;
+    std::cout &lt;&lt; "Hej Världen!" &lt;&lt; std::endl;
     return 0;
 }
 </programlisting>
@@ -25,51 +25,51 @@ int main()
 
   <para>I <xref linkend="kod_helloworld" /> ser du hur vi inkluderar
   biblioteksfilen iostream och skapar en main-funktion. I mainfunktionen
-  anvÃ¤nder vi <function>std::cout</function> fÃ¶r att skriva ut text pÃ¥ skÃ¤rmen
-  och slutligen returnerar vi vÃ¤rdet noll ( 0 ) . <function>std</function> Ã¤r
-  namnet pÃ¥ C++ standardnamnrymd och det Ã¤r den vi kommer arbeta med i denna
+  använder vi <function>std::cout</function> för att skriva ut text på skärmen
+  och slutligen returnerar vi värdet noll ( 0 ) . <function>std</function> är
+  namnet på C++ standardnamnrymd och det är den vi kommer arbeta med i denna
   kurs. Anledningen till att vi anger <function>std</function> innan
-  <function>cout</function> Ã¤r att det kan finnas flera
+  <function>cout</function> är att det kan finnas flera
   <function>cout</function> ( vi kan till och med skapa egna ) och kompilatorn
-  vill gÃ¤rna veta vilken <function>cout</function> vi vill anvÃ¤nda.</para>
+  vill gärna veta vilken <function>cout</function> vi vill använda.</para>
 
   <para>I <function>std</function> hittar vi bland annat
-  <function>cout</function> och <function>endl</function> som vi anvÃ¤nder i
-  <xref linkend="kod_helloworld" /> . <function>cout</function> anvÃ¤nder vi
-  fÃ¶r att skriva ut text till bland annat skÃ¤rmen. <function>endl</function>
-  anvÃ¤nder vi fÃ¶r att skriva ut en radbrytning, sÃ¥ nÃ¤sta text hamnar pÃ¥ raden
-  under. NÃ¤stan alla rader i C++ skall avslutas med semikolontecken (
+  <function>cout</function> och <function>endl</function> som vi använder i
+  <xref linkend="kod_helloworld" /> . <function>cout</function> använder vi
+  för att skriva ut text till bland annat skärmen. <function>endl</function>
+  använder vi för att skriva ut en radbrytning, så nästa text hamnar på raden
+  under. Nästan alla rader i C++ skall avslutas med semikolontecken (
   <keycap>;</keycap> ).</para>
 
-  <para>Prova nu att lÃ¤gga till en rad under raden med <emphasis>std::cout
-  &lt;&lt; "Hej VÃ¤rlden!" &lt;&lt; std::endl;</emphasis> . GÃ¶r sÃ¥ att
-  programmet skriver ut Hej och ditt namn ocksÃ¥. Spara filen och kompilera om.
-  Testa sedan att kÃ¶ra den och se vad som hÃ¤nder.</para>
+  <para>Prova nu att lägga till en rad under raden med <emphasis>std::cout
+  &lt;&lt; "Hej Världen!" &lt;&lt; std::endl;</emphasis> . Gör så att
+  programmet skriver ut Hej och ditt namn också. Spara filen och kompilera om.
+  Testa sedan att köra den och se vad som händer.</para>
 
-  <para>Ã–va lite grann pÃ¥ att Ã¤ndra i kÃ¤llkodsfilen och kompilera om. Se till
-  att du fÃ¶rstÃ¥r vad du gÃ¶r.</para>
+  <para>Öva lite grann på att ändra i källkodsfilen och kompilera om. Se till
+  att du förstår vad du gör.</para>
 
   <section>
-    <title>Skriva ut berÃ¤kningar</title>
+    <title>Skriva ut beräkningar</title>
 
-    <para>Nu skall vi prova att gÃ¶ra berÃ¤kningar i C++ och skriva ut
-    resultaten. Skapa en ny fil och skriv in kÃ¤llkoden i <xref
+    <para>Nu skall vi prova att göra beräkningar i C++ och skriva ut
+    resultaten. Skapa en ny fil och skriv in källkoden i <xref
     linkend="kod_rakna_cpp" /> . Spara filen och kompilera den med
-    <command>g++</command> . Testa att kÃ¶ra programmet.<example>
+    <command>g++</command> . Testa att köra programmet.<example>
         <title id="kod_rakna_cpp">rakna.cpp</title>
 
         <programlisting>#include &lt;iostream&gt;
 
 int main()
 {
-    std::cout &lt;&lt; "Summan av 2 och 7 Ã¤r " &lt;&lt; 2 + 7 &lt;&lt; std::endl;
+    std::cout &lt;&lt; "Summan av 2 och 7 är " &lt;&lt; 2 + 7 &lt;&lt; std::endl;
     return 0;
 }
 </programlisting>
 
-        <para>I <xref linkend="kod_rakna_cpp" /> anvÃ¤nder vi addition fÃ¶r att
-        rÃ¤kna ut summan av 2 och 7. Vi kan naturligtvis anvÃ¤nda subraktion,
-        multiplikation och division fÃ¶r att rÃ¤kna ocksÃ¥.</para>
+        <para>I <xref linkend="kod_rakna_cpp" /> använder vi addition för att
+        räkna ut summan av 2 och 7. Vi kan naturligtvis använda subraktion,
+        multiplikation och division för att räkna också.</para>
       </example></para>
 
     <para></para>
