@@ -2,18 +2,20 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
  "/usr/share/sgml/docbook/xml-dtd-4.2/docbookx.dtd" [
 <!ENTITY VERSION "0.1.20040821">
-<!ENTITY introduktion SYSTEM "introduktion.xml">
 <!ENTITY datatyper SYSTEM "datatyper.xml">
 <!ENTITY varochkonst SYSTEM "varochkonst.xml">
 <!ENTITY operatorer SYSTEM "operatorer.xml">
 <!ENTITY introprog SYSTEM "introprog.xml">
 <!ENTITY forstaprog SYSTEM "forstaprog.xml">
 <!ENTITY inutmatning SYSTEM "inutmatning.xml">
+<!ENTITY villkor SYSTEM "villkor.xml">
+<!ENTITY logiskaoperatorer SYSTEM "logiskaoperatorer.xml">
 <!ENTITY slingor SYSTEM "slingor.xml">
 <!ENTITY flyttal SYSTEM "flyttal.xml">
+<!ENTITY enklaposter SYSTEM "enklaposter.xml">
 <!ENTITY dtr1207 SYSTEM "dtr1207.xml">
-<!ENTITY gnu-fdl SYSTEM "fdl-sv.xml">
-]>
+<!ENTITY gnu-fdl SYSTEM "fdl-sv.xml">]
+>
 <book lang="sv" status="draft">
     <bookinfo>
         <title>Programmering A - C++</title>
@@ -69,9 +71,11 @@
 &introprog;
 &forstaprog;
 &inutmatning;
+&villkor;
+&logiskaoperatorer;
 &slingor;
 &flyttal;
-
+&enklaposter;
 &dtr1207;
 &gnu-fdl;
 </book>
