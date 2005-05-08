@@ -2,10 +2,17 @@ Teckenkodning
 -------------
 Använd ISO-8859-15 när du spara. docbook2pdf är ett sgml-baserad verktyg som inte förstår UTF-8. Kolla inställningarn för den editor du anvönder. Kör kommandot "grep encoding *.xml" för att verifiera att det är rätt.
 
+
 Indentering
--------------
+-----------
 Använd inställningar så att det är "lätt" att se vad som ändrats mellan versioner. Det gör det också möjligt att "merga" mindre ändringar.
 För XML-minds editor gäller "Kodning=ISO-8859-15, Indentera, Indentering=0(!), och inget kryss för att lägga in "open lines".
+
+
+Skrivtips
+---------
+Denna guide kan användas som hjälp för att veta vilka taggar man skall använda: http://infohost.nmt.edu/tcc/help/pubs/docbook/writing.pdf
+
 
 Kostiga fel när du försöker skapa PDF med docbook2pdf
 -----------------------------------------------------
