@@ -5,19 +5,6 @@
 <para>Det finns några begrepp som är viktiga för <quote>finliret</quote> i
 C++. </para>
 
-<section id="block">
-<title>Block</title>
-
-<para>Ett block är en grupp satser omgivna av vågklamrar. De vanlgaste
-exemplen är en funktions kropp eller innehållet i en if-sats. Ett block kan
-också stå för sig själv och har då endast en begränsanden funktion för
-deklarationers synlighet och livslängd. </para>
-
-<programlisting>{
-    // detta är ett block
-}</programlisting>
-</section>
-
 <section>
 <title>Sekvenspunkt</title>
 
