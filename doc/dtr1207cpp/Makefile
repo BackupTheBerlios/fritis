@@ -19,6 +19,10 @@ else
 dtr1207cpp.pdf: $(SOURCES)
 	$(DOCBOOK2PDF) $(SOURCE)
 	mv boken.pdf dtr1207cpp.pdf
+
+dtr1207cpp-a5.pdf: $(SOURCES)
+	SGML_OPTIONS="paper-type=A5" $(DOCBOOK2PDF) $(SOURCE)
+	mv boken.pdf dtr1207cpp-a5.pdf
 endif
 
 ifeq ($(DOCBOOK2HTML),"")
