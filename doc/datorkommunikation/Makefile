@@ -22,8 +22,8 @@ pub: all
 	chmod 705 laborationer
 	rsync -e "ssh -l rejas" --delete --rsync-path=/kunder/r/rejas.org/bin/rsync --recursive ./ rejas.org:liskola/$(TARGET)/
 
-fdl-sv.xml: ../../licenses/fdl-sv.xml
-	cp ../../licenses/fdl-sv.xml fdl-sv.xml
+fdl-sv.xml: ../../../licenses/fdl-sv.xml
+	cp ../../../licenses/fdl-sv.xml fdl-sv.xml
 
 $(TARGET).tar.gz: $(SOURCE_FILES)
 	mkdir $(TARGET)
