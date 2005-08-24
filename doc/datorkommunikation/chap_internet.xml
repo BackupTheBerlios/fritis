@@ -470,16 +470,16 @@
 
 		<sect2><title>Fjärrinloggning (TELNET/SSH)</title>
 			<para>
-				Unix byggdes från början med datorer med olika Unixsystem.
-				Unixsystemen utvecklades på samma gång väldigt mycket med
-				nätverk i åtanke. Det gör att Unixsystem fungerar väldigt
-				bra i nätverk. Till exempel så kan man på en Unixdator jobba
-				flera personer på samma gång och man kan göra det över
-				nätverket precis som om man satt direkt vid datorn. Låter
-				det modernt? Det har man kunnat i Unix sedan 1970-talet. En
-				modern Uniximplementation är Linux. Linux har ärvt dessa
-				egenskaper från sin föregångare och har alltså haft dessa
-				möjligheter från starten
+				Ett operativsystem som utvecklades väldigt mycket på samma
+				tid som Internet och med nätverk i åtanke var Unix. Det gör
+				att Unixsystem fungerar väldigt bra i nätverk. Till exempel
+				så kan man på en Unixdator jobba flera personer på samma
+				gång och man kan göra det över nätverket precis som om man
+				satt direkt vid datorn. Låter det modernt? Det har man
+				kunnat i Unix sedan 1970-talet. En modern Uniximplementation
+				är Linux. Linux har ärvt dessa egenskaper från sin
+				föregångare och har alltså haft dessa möjligheter från
+				starten
 			</para>
 			<para>
 				För att kunna logga in på en server över nätverket måste man
@@ -489,14 +489,14 @@
 			</para>
 			<para>
 				Telnet används idag mindre och mindre. Den största
-				anldningen är att det är ett så kallat klartextprotokoll.
+				anledningen är att det är ett så kallat klartextprotokoll.
 				Informationen som skickas mellan server och klient krypteras
 				inte. Det gör att den kan avlyssnas. Det finns massor av
 				klartextprotokoll som används på Internet och i de flesta
 				gör det ingenting om trafiken kan avlyssnas. I fallet med
 				telnet däremot är trafiken väldigt känslig. Anledningen är
 				att användarnamn och lösenord skickas i början av en
-				sessoion. Om någon avlyssnar kommunikatinionen får får denne
+				sessioon. Om någon avlyssnar kommunikationen får får denne
 				kompletta kontouppgifter och kan logga in på servern.
 			</para>
 			<para>
