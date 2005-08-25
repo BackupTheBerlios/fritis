@@ -16,7 +16,7 @@ all: html index.html ps pdf dist
 
 pub: all
 	chmod -R o+r,g-rwxs *
-	rsync -e "ssh -l rejas" --delete --rsync-path=/kunder/r/rejas.org/bin/rsync --recursive ./ rejas.org:liskola/programmeringab/
+	rsync -e "ssh -l rejas" --delete --recursive ./ namatj.rejas.se:www.rejas.se/static/liskola/programmeringab/
 	echo -e "From: Marcus Rejås <marcus@rejas.se>\\nSubject: Ny version av ${TITLE} publicerad \\nNy version publicerad ${DATE}. \\nSe http://rejas.se/liskola/programmeringab " | /usr/sbin/sendmail selinux-cvs-liskola@se.linux.org
 
 programmeringAB.tar.gz: $(SOURCE_FILES)
