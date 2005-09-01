@@ -64,7 +64,7 @@
 ]]>
 				</programlisting>
 			</example>
-		<para>
+			
 			I exemplet ovan använder vi två variabler, $tal1 och $tal2. I
 			PHP börjar alla variabelnamn med ett dollartecken. Programmet
 			ovan är dock lika statiskt som det fösta programmet. Våra
