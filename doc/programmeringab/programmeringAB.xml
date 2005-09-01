@@ -79,7 +79,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.20 2005/09/01 09:25:22 rejas Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.21 2005/09/01 09:38:41 rejas Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -105,13 +105,13 @@
 <preface id="forord"><title>Förord</title>
 	<sect1><title>Tack till</title>
 		<para>
-			Vi vill börja denna bok med att tacka alla som hjälpt mig med
+			Vi vill börja denna bok med att tacka alla som hjälpt oss med
 			den. Till exempel Micke Karlsson som föreslagit förbättringar.
 			Tack!
 		</para>
 		<para>
 			Vi vill också tacka dig som läser denna bok. Hittar du något
-			som är fel eller som du tycker att man kan göra på något bättre
+			som är fel eller som du tycker att vi kan göra på något bättre
 			sätt så tveka inte att höra av dig till oss. Våra adresser står
 			i början av boken. Vi har våra begränsningar som författare men
 			genom att släppa denna bok fri förväntar vi oss att du som

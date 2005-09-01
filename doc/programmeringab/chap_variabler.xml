@@ -26,14 +26,14 @@
 				<programlisting>
 <![CDATA[
 <html>
-<head>
-   <title>Addition</title>
-</head>
-<body>
-   <?php
-      echo "Summan av talen 1 och 2 är: ", 1 + 2;
-   ?>
-</body>
+	<head>
+   	<title>Addition</title>
+	</head>
+	<body>
+   	<?php
+      	echo "Summan av talen 1 och 2 är: ", 1 + 2;
+   	?>
+	</body>
 </html>
 ]]>
 				</programlisting>
@@ -50,13 +50,14 @@
 				<programlisting>
 <![CDATA[
 <html>
-<head>
-   <title>Addition</title></head>
-<body>
-   <?php
-      echo "Summan av talen 1 och 2 är: ", $_GET['tal1'] + $_GET['tal2'];
-   ?>
-</body>
+	<head>
+		<title>Addition</title>
+	</head>
+	<body>
+		<?php
+			echo "Summan av talen 1 och 2 är: ", $_GET['tal1'] + $_GET['tal2'];
+		?>
+	</body>
 </html>
 ]]>
 				</programlisting>
