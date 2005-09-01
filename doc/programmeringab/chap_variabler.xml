@@ -22,7 +22,7 @@
 			att du vill göra ett program som skall ränka ut en summa. Man skulle
 			kunna göra programmet med bara konstanter, det skulle se ut så här:
 			<example>
-				<title>Exempel med variabler</title>
+				<title>Exempel med konstanter</title>
 				<programlisting>
 <![CDATA[
 <html>
@@ -55,17 +55,53 @@
 	</head>
 	<body>
 		<?php
-			echo "Summan av talen är: ", $_GET['tal1'] + $_GET['tal2'];
+			$tal1 = 2;
+			$tal2 = 3;
+			echo "Summan av talen $tal1 och $tal2 är: ", $tal1 + $tal2;
 		?>
 	</body>
 </html>
 ]]>
 				</programlisting>
 			</example>
-			Om du provar att köra programmet så kommer du nog att se att
-			resultatet blir lite torftigt. Vi måste på något sätt ge variablerna
-			$tal1 och $tal2 några väden. Prova att anropa programmet med
-			http://dinserver/programnamnet.php?tal1=100&amp;tal2=199.
+		<para>
+			I exemplet ovan använder vi två variabler, $tal1 och $tal2. I
+			PHP börjar alla variabelnamn med ett dollartecken. Programmet
+			ovan är dock lika statiskt som det fösta programmet. Våra
+			variabler får ju samma värde (2 och 3) varje gång programmet
+			körs. De kan inte påverkas av något.
+		</para>
+
+		<para>
+			Vi tar ytterligare ett exempel:
+			<example>
+				<title>Exempel med variabler och $_GET</title>
+				<programlisting>
+<![CDATA[
+<html>
+	<head>
+		<title>Addition</title>
+	</head>
+	<body>
+		<?php
+			$tal1 = $_GET['tal1'];
+			$tal2 = $_GET['tal2'];
+			echo "Summan av talen $tal1 och $tal2 är: ", $tal1 + $tal2;
+		?>
+	</body>
+</html>
+]]>
+				</programlisting>
+			</example>
+			I exemplet ovan hämtar vi värdena till $tal1 och $tal2 från en
+			speciell variabel som heter $_GET. I $_GET finns det data som
+			ges till programmet via URL:en. Till exempel så kommer
+			programmet om det anropas som
+			http://dinserver/programnamnet.php?tal1=100&amp;tal2=199 att
+			skriva ut "Summan av talen 100 och 199 = 299".
+		</para>
+		
+		<para>
 			Testa sedan andra tal och se vad som händer.
 		</para>
 
