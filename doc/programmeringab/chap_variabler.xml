@@ -65,7 +65,7 @@
 			resultatet blir lite torftigt. Vi måste på något sätt ge variablerna
 			$tal1 och $tal2 några väden. Prova att anropa programmet med
 			http://dinserver/programnamnet.php?tal1=100&amp;tal2=199.
-			Testa sedan andra ta och se vad som händer.
+			Testa sedan andra tal och se vad som händer.
 		</para>
 
 		<para>
@@ -141,7 +141,7 @@
 					</listitem>
 					<listitem>
 						<para>
-							resource (Innehåller en referense till en extern
+							resource (Innehåller en referens till en extern
 							tillgång).
 						</para>
 					</listitem>
