@@ -166,7 +166,7 @@ $filhandtag = fopen("/home/rejas/data/testfil", "a");
 <![CDATA[
 <?php
 $fh = fopen("/home/rejas/data/testfil", "a");
-frite($fh, "Hej på dig\n");
+fwrite($fh, "Hej på dig\n");
 fclose($fh);
 ?>
 ]]>
