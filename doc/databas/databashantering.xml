@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="iso-8859-15" ?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
  "/usr/share/sgml/db42xml/docbookx.dtd" []>
  
@@ -6,7 +6,7 @@
 <bookinfo>
 	<title>Databashantering</title>
 <author>
-<firstname>Jonas</firstname> <surname>Bj&ouml;rk</surname>
+<firstname>Jonas</firstname> <surname>Björk</surname>
 <affiliation>
 	<address><email>jonas@trinix.se</email></address>
 </affiliation>
@@ -15,14 +15,14 @@
 
 <copyright>
 	<year>2003</year>
-	<holder>Jonas Bj&ouml;rk</holder>
+	<holder>Jonas Björk</holder>
 </copyright>
 <legalnotice>
 	<para>
-	Boken Databashantering f&aring;r distribueras fritt i elektroniskt format.
+	Boken Databashantering får distribueras fritt i elektroniskt format.
 	</para>
 	<para>
-	Tryckta b&ouml;cker kan k&ouml;pas av TriNix AB i Helsingborg, telefon 042-127800.
+	Tryckta böcker kan köpas av TriNix AB i Helsingborg, telefon 042-127800.
 	</para>
 	<para>
 	<email>jonas@trinix.se</email>
@@ -35,7 +35,7 @@
 	<revnumber>0.2.1</revnumber>
 	<date>2003-09-23</date>
 	<authorinitials>jb</authorinitials>
-	<revremark>Lagt till DELETE, ordnat datatyper s&aring; de ligger i tabeller, la in JOIN (ej klart)</revremark>
+	<revremark>Lagt till DELETE, ordnat datatyper så de ligger i tabeller, la in JOIN (ej klart)</revremark>
 </revision>
 
 <revision>
@@ -49,23 +49,23 @@
 	<revnumber>0.1</revnumber>
 	<date>2003-09-16</date>
 	<authorinitials>jb</authorinitials>
-	<revremark>F&ouml;rsta versionen</revremark>
+	<revremark>Första versionen</revremark>
 </revision>
 </revhistory>
 
 <abstract>
 <para>
-Denna bok &auml;r anpassad f&ouml;r gymnasieskolornas kurs Databashantering med kurskod
-DTR1211 men kan naturligtvis anv&auml;ndas av vem som helst som vill l&auml;ra sig
+Denna bok är anpassad för gymnasieskolornas kurs Databashantering med kurskod
+DTR1211 men kan naturligtvis användas av vem som helst som vill lära sig
 databashantering.
 </para>
 
 <para>
-Boken arbetar utifr&aring;n MySQL version 3.23.55 i SuSE 8.2 Professional och &auml;r testad under MySQL p&aring; Microsoft Windows 2000.
+Boken arbetar utifrån MySQL version 3.23.55 i SuSE 8.2 Professional och är testad under MySQL på Microsoft Windows 2000.
 </para>
 
 <para>
-Delar av materialet kommer fr&aring;n andra k&auml;llor, se <xref linkend="referenser" /> f&ouml;r komplett k&auml;llf&ouml;rteckning.
+Delar av materialet kommer från andra källor, se <xref linkend="referenser" /> för komplett källförteckning.
 </para>
 </abstract>
 
@@ -77,19 +77,19 @@ Delar av materialet kommer fr&aring;n andra k&auml;llor, se <xref linkend="refer
 <title>Introduktion</title>
 
 <para>
-Data &auml;r uppgifter av olika slag. Ibland skiljer man data fr&aring;n information, som &auml;r data som man gett en tolkning. Allts&aring; &auml;r <emphasis>23</emphasis> ett exempel p&aring; data, medan det &auml;r information om vi vet att <emphasis>det &auml;r 23 grader varmt ute</emphasis>.
+Data är uppgifter av olika slag. Ibland skiljer man data från information, som är data som man gett en tolkning. Alltså är <emphasis>23</emphasis> ett exempel på data, medan det är information om vi vet att <emphasis>det är 23 grader varmt ute</emphasis>.
 </para>
 
 <para>
-Med ordet <emphasis>databas</emphasis> brukar man mena: en samling data som h&ouml;r ihop, som 	modellerar en del av v&auml;rlden och &auml;r persistent. Det vill s&auml;ga data f&ouml;rsvinner inte n&auml;r man avslutar programmet eller st&auml;nger av datorn.
+Med ordet <emphasis>databas</emphasis> brukar man mena: en samling data som hör ihop, som 	modellerar en del av världen och är persistent. Det vill säga data försvinner inte när man avslutar programmet eller stänger av datorn.
 </para>
 
 <para>
-Om man skall f&ouml;rst&aring; f&ouml;rdelarna med att anv&auml;nda databasteknik m&aring;ste man j&auml;mf&ouml;ra med alternativet. Alternativet &auml;r f&ouml;r det mesta att ha en eller flera vanliga filer med data. Genom att skriva ett program som klarar av att hantera dessa filer kan vi l&auml;tt skapa en egen databas. Nackdelen &auml;r att en databas med &ouml;ver 100 poster blir l&auml;tt ohanterlig och d&auml;rf&ouml;r anv&auml;nder vi en databashanterare (som i och f&ouml;r sig ocks&aring; &auml;r ett program).
+Om man skall förstå fördelarna med att använda databasteknik måste man jämföra med alternativet. Alternativet är för det mesta att ha en eller flera vanliga filer med data. Genom att skriva ett program som klarar av att hantera dessa filer kan vi lätt skapa en egen databas. Nackdelen är att en databas med över 100 poster blir lätt ohanterlig och därför använder vi en databashanterare (som i och för sig också är ett program).
 </para>
 
 <para>
-Om vi till exempel skulle vilja skapa ett kundregister i programmeringsspr&aring;ket C skulle det kunna se ut s&aring; h&auml;r:
+Om vi till exempel skulle vilja skapa ett kundregister i programmeringsspråket C skulle det kunna se ut så här:
 
 <programlisting>
 struct kund {
@@ -102,25 +102,25 @@ struct kund {
 </para>
 
 <para>
-Sedan forts&auml;tter vi med ungef&auml;r 2000 rader programkod, som sk&ouml;ter dialogen med 	anv&auml;ndaren och som l&auml;ser och skriver datafilen med kunder.
+Sedan fortsätter vi med ungefär 2000 rader programkod, som sköter dialogen med 	användaren och som läser och skriver datafilen med kunder.
 </para>
 
 <para>
-Det finns m&aring;nga f&ouml;rdelar med att i st&auml;llet anv&auml;nda en databashanterare. De 	viktigaste f&ouml;rdelarna &auml;r: <emphasis>enkelt</emphasis>, <emphasis>kraftfullt</emphasis> och 	<emphasis>flexibelt</emphasis>.
+Det finns många fördelar med att i stället använda en databashanterare. De 	viktigaste fördelarna är: <emphasis>enkelt</emphasis>, <emphasis>kraftfullt</emphasis> och 	<emphasis>flexibelt</emphasis>.
 </para>
 
 <sect1 id="enkelt">
 <title>Enkelt</title>
 
 <para>
-M&aring;nga databashanterare erbjuder ett textbaserat gr&auml;nssnitt. Starta databashanteraren och skriv:
+Många databashanterare erbjuder ett textbaserat gränssnitt. Starta databashanteraren och skriv:
 <screen>
 <command>CREATE TABLE kund (nummer INT, namn CHAR(50), adress CHAR(50));</command>
 </screen>
 </para>
 
 <para>
-Sedan fyller vi tabellen med n&aring;gra poster:
+Sedan fyller vi tabellen med några poster:
 <screen>
 <command>INSERT INTO kund(nummer,namn,adress) VALUES ('1','jonas','helsingborg');</command>
 <command>INSERT INTO kund(nummer,namn,adress) VALUES ('2','stefan','klippan');</command>
@@ -129,7 +129,7 @@ Sedan fyller vi tabellen med n&aring;gra poster:
 </para>
 
 <para>
-Nu har vi en tabell som ser ut s&aring; h&auml;r:
+Nu har vi en tabell som ser ut så här:
 <screen>
 +--------+---------+-------------+
 | nummer | namn    | adress      |
@@ -142,14 +142,14 @@ Nu har vi en tabell som ser ut s&aring; h&auml;r:
 </para>
 
 <para>
-Den f&aring;r du fram genom att skriva:
+Den får du fram genom att skriva:
 <screen>
 <command>SELECT * FROM kund;</command>
 </screen>
 </para>
 
 <para>
-Uppgifterna i tabellen kallar vi f&ouml;r <emphasis>data</emphasis>. Tabellens utseende, det vill s&auml;ga vilka kolumner som finns kallas f&ouml;r <emphasis>schema</emphasis>. Schemat best&auml;mmer vilka data som kan lagras i databasen.
+Uppgifterna i tabellen kallar vi för <emphasis>data</emphasis>. Tabellens utseende, det vill säga vilka kolumner som finns kallas för <emphasis>schema</emphasis>. Schemat bestämmer vilka data som kan lagras i databasen.
 </para>
 
 </sect1>
@@ -158,20 +158,20 @@ Uppgifterna i tabellen kallar vi f&ouml;r <emphasis>data</emphasis>. Tabellens u
 <title>Kraftfullt</title>
 
 <para>
-Att ett system &auml;r <emphasis>kraftfullt</emphasis> betyder att komplicerade saker kan g&ouml;ras
-p&aring; ett enkelt s&auml;tt.
+Att ett system är <emphasis>kraftfullt</emphasis> betyder att komplicerade saker kan göras
+på ett enkelt sätt.
 </para>
 
 <para>
-Antag att vi vill ha reda p&aring; alla kunder som har namn som b&ouml;rjar med <emphasis role="strong">j</emphasis> och f&aring; dem utskrivna i bokstavsordning efter adressen. D&aring; skriver
-	vi s&aring; h&auml;r:
+Antag att vi vill ha reda på alla kunder som har namn som börjar med <emphasis role="strong">j</emphasis> och få dem utskrivna i bokstavsordning efter adressen. Då skriver
+	vi så här:
 <screen>
 <command>SELECT * FROM kund WHERE namn LIKE 'j%' ORDER BY address;</command>
 </screen>
 </para>
 
 <para>
-Vill du veta hur m&aring;nga kunder du har i Helsingborg? Enkelt:
+Vill du veta hur många kunder du har i Helsingborg? Enkelt:
 <screen>
 <command>SELECT address, COUNT(*) FROM kund WHERE adress='helsingborg' GROUP BY address;</command>
 </screen>
@@ -184,12 +184,12 @@ Vill du veta hur m&aring;nga kunder du har i Helsingborg? Enkelt:
 <title>Flexibelt</title>
 
 <para>
-Att ett system &auml;r <emphasis>flexibelt</emphasis> betyder att det &auml;r l&auml;tt att &auml;ndra.
+Att ett system är <emphasis>flexibelt</emphasis> betyder att det är lätt att ändra.
 </para>
 
 <para>
-Kommer du p&aring; att du vill ha med dina kunders telefonnummer i databasen ocks&aring;?
-Det &auml;r enkelt att ordna:
+Kommer du på att du vill ha med dina kunders telefonnummer i databasen också?
+Det är enkelt att ordna:
 
 <screen>
 <command>ALTER TABLE kund ADD telefon char(10);</command>
@@ -197,69 +197,69 @@ Det &auml;r enkelt att ordna:
 </para>
 
 <para>
-Nu har du lagt till en kolumn f&ouml;r telefonnummer i tabellen kund.
+Nu har du lagt till en kolumn för telefonnummer i tabellen kund.
 </para>
 
 <para>
-Att det g&aring;r att &auml;ndra den logiska strukturen p&aring; datat s&aring; h&auml;r, utan att man
-m&aring;ste skriva om en massa program kallas <emphasis>logiskt dataoberoende</emphasis>.
+Att det går att ändra den logiska strukturen på datat så här, utan att man
+måste skriva om en massa program kallas <emphasis>logiskt dataoberoende</emphasis>.
 </para>
 
 <para>
-N&auml;r du anv&auml;nt kundregistret ett tag och det inneh&aring;ller m&aring;nga kunder kommer det
-att ta l&aring;ng att s&ouml;ka i databasen.
+När du använt kundregistret ett tag och det innehåller många kunder kommer det
+att ta lång att söka i databasen.
 <screen>
 <command>create index foo on kund(namn);</command>
 </screen>
 </para>
 
 <para>
-Nu har vi &auml;ndrat den fysiska lagringsstrukturen s&aring; att det g&aring;r snabbare att
-s&ouml;ka efter ett visst namn. Tabellen ser fortfarande likadan ut, men
-s&ouml;kningarna p&aring; namn g&aring;r snabbare. Databashanteraren utnyttjar automatiskt den
+Nu har vi ändrat den fysiska lagringsstrukturen så att det går snabbare att
+söka efter ett visst namn. Tabellen ser fortfarande likadan ut, men
+sökningarna på namn går snabbare. Databashanteraren utnyttjar automatiskt den
 nya lagringsstrukturen.
 </para>
 
 <para>
-Att man kan &auml;ndra p&aring; den fysiska lagringsstrukturen p&aring; datat, utan att man
-m&aring;ste skriva om en massa program kallas <emphasis>fysiskt dataoberoende</emphasis>.
+Att man kan ändra på den fysiska lagringsstrukturen på datat, utan att man
+måste skriva om en massa program kallas <emphasis>fysiskt dataoberoende</emphasis>.
 </para>
 
 </sect1>
 
 <sect1 id="andrafordelar">
-<title>Andra f&ouml;rdelar</title>
+<title>Andra fördelar</title>
 
 <para>
-Det finns flera saker som &auml;r mycket besv&auml;rliga att f&aring; att fungera om man
-skriver ett program sj&auml;lv, men som finns inbyggda i de flesta
+Det finns flera saker som är mycket besvärliga att få att fungera om man
+skriver ett program själv, men som finns inbyggda i de flesta
 databashanterare.
 </para>
 
 <para>
-Om flera anv&auml;ndare samtidigt h&aring;ller p&aring; och &auml;ndrar i kundregistret &auml;r det l&auml;tt
-h&auml;nt att en anv&auml;ndare skriver &ouml;ver en &auml;ndring en annan anv&auml;ndare precis
-gjort. En databashanterare ser till att det inte blir n&aring;gra skadliga krockar.
+Om flera användare samtidigt håller på och ändrar i kundregistret är det lätt
+hänt att en användare skriver över en ändring en annan användare precis
+gjort. En databashanterare ser till att det inte blir några skadliga krockar.
 </para>
 
 <para>
-Vad h&auml;nder om str&ouml;mmen g&aring;r? Om ditt program l&auml;ser in datafilen i prim&auml;rminnet
-och skriver tillbaka filen n&auml;r man jobbet klart s&aring; kommer du f&ouml;rlora de
-&auml;ndringar du gjort i filen. &Auml;nnu v&auml;rre &auml;r att om du precis h&ouml;ll p&aring; att spara
-n&auml;r str&ouml;mmen gick, kanske en del av de data som finns p&aring; disken &auml;r de nya och
-en del &auml;r de gamla. Man vet aldrig vilka som &auml;r vilka.
+Vad händer om strömmen går? Om ditt program läser in datafilen i primärminnet
+och skriver tillbaka filen när man jobbet klart så kommer du förlora de
+ändringar du gjort i filen. Ännu värre är att om du precis höll på att spara
+när strömmen gick, kanske en del av de data som finns på disken är de nya och
+en del är de gamla. Man vet aldrig vilka som är vilka.
 </para>
 
 <para>
-Med en databas hanterare slipper man s&aring;dana problem. Den ser till att inga
-data n&aring;gonsin f&ouml;rsvinner, hur olyckligt ett str&ouml;mavbrott &auml;n skulle komma.
+Med en databas hanterare slipper man sådana problem. Den ser till att inga
+data någonsin försvinner, hur olyckligt ett strömavbrott än skulle komma.
 </para>
 
 <para>
-I de flesta databashanterare kan man ge olika anv&auml;ndare olika r&auml;ttigheter i
-databasen f&ouml;r att skydda data mot obeh&ouml;rig &aring;tkomst. Till exempel kan vi ge en
-anv&auml;ndare r&auml;tt att &auml;ndra i vissa delar av databasen och s&ouml;ka i andra delar,
-medan hon inte alls f&aring;r se andra delar av databasen.
+I de flesta databashanterare kan man ge olika användare olika rättigheter i
+databasen för att skydda data mot obehörig åtkomst. Till exempel kan vi ge en
+användare rätt att ändra i vissa delar av databasen och söka i andra delar,
+medan hon inte alls får se andra delar av databasen.
 </para>
 
 </sect1>
@@ -268,21 +268,21 @@ medan hon inte alls f&aring;r se andra delar av databasen.
 <title>Nackdelar med databaser</title>
 
 <para>
-	Databasteknik passar inte f&ouml;r alla till&auml;mpningar. Exempelvis brukar all den
-	d&auml;r enkelheten och flexibiliteten som vi n&auml;mnt tidigare g&ouml;ra att en
-	databashanterare kr&auml;ver mycket mer resurser &auml;n ett specialskrivet program. Det
-	g&aring;r &aring;t mer minne och diskutrymme, kanske g&aring;r det ocks&aring; l&aring;ngsammare att k&ouml;ra.
+	Databasteknik passar inte för alla tillämpningar. Exempelvis brukar all den
+	där enkelheten och flexibiliteten som vi nämnt tidigare göra att en
+	databashanterare kräver mycket mer resurser än ett specialskrivet program. Det
+	går åt mer minne och diskutrymme, kanske går det också långsammare att köra.
 </para>
 
 </sect1>
 
 <sect1 id="anvandningsomraden">
-<title>Anv&auml;ndningsomr&aring;den</title>
+<title>Användningsområden</title>
 
 <para>
-	Allt. Tro inte att det bara &auml;r kundregister, videoregister och cdregister man
-	kan anv&auml;nda databaser till. Databaser anv&auml;nds ocks&aring; i CAD-system,
-	telefonv&auml;xlar och mycket annat.
+	Allt. Tro inte att det bara är kundregister, videoregister och cdregister man
+	kan använda databaser till. Databaser används också i CAD-system,
+	telefonväxlar och mycket annat.
 </para>
 
 </sect1>
@@ -293,7 +293,7 @@ medan hon inte alls f&aring;r se andra delar av databasen.
 <title>Datamodeller</title>
 
 <para>
-Datamodellen man anv&auml;nder best&auml;mmer hur schemat f&aring;r se ut. Schemat best&auml;mmer i sin tur vilka data som skall lagras i databasen.
+Datamodellen man använder bestämmer hur schemat får se ut. Schemat bestämmer i sin tur vilka data som skall lagras i databasen.
 </para>
 
 <para>
@@ -302,30 +302,30 @@ Man brukar dela in datamodellerna i tre klasser:
 <itemizedlist>
 <listitem>
 <para>
-	<emphasis>Konceptuella</emphasis> eller <emphasis>begreppsm&auml;ssiga</emphasis> datamodeller. Om man skall
+	<emphasis>Konceptuella</emphasis> eller <emphasis>begreppsmässiga</emphasis> datamodeller. Om man skall
 	skapa en databas som beskriver en del av verkligheten, till exempel ett
-	f&ouml;retag, brukar man b&ouml;rja med att g&ouml;ra en beskrivning av hur den delen av
-	verkligheten ser ut och fungerar. Till det kan man anv&auml;nda en konceptuell
+	företag, brukar man börja med att göra en beskrivning av hur den delen av
+	verkligheten ser ut och fungerar. Till det kan man använda en konceptuell
 	datamodell.
 </para>
 </listitem>
 
 <listitem>
 <para>
-	<emphasis>Implementationsmodeller</emphasis> &auml;r de datamodeller som anv&auml;nds i
-	databashanterare. Om man vill skapa en databas m&aring;ste den beskrivning man
-	gjort med hj&auml;lp av en konceptuell datamodell &ouml;vers&auml;ttas till n&aring;got som g&aring;r
-	att anv&auml;nda i en dator -- en beskrivning enligt en implementationsmodell.
+	<emphasis>Implementationsmodeller</emphasis> är de datamodeller som används i
+	databashanterare. Om man vill skapa en databas måste den beskrivning man
+	gjort med hjälp av en konceptuell datamodell översättas till något som går
+	att använda i en dator -- en beskrivning enligt en implementationsmodell.
 </para>
 <para>
-	De vanligaste implementationsmodellerna &auml;r <emphasis>relationsmodellen</emphasis> och
+	De vanligaste implementationsmodellerna är <emphasis>relationsmodellen</emphasis> och
 	olika <emphasis>objektorienterade modeller</emphasis>.
 </para>
 </listitem>
 
 <listitem>
 <para>
-	<emphasis>Fysiska datamodeller</emphasis> som anv&auml;nds f&ouml;r att beskriva hur data lagras
+	<emphasis>Fysiska datamodeller</emphasis> som används för att beskriva hur data lagras
 	fysiskt.
 </para>
 </listitem>
@@ -338,32 +338,32 @@ Man brukar dela in datamodellerna i tre klasser:
 <title>Tre-schema-arkitekturen</title>
 
 <para>
-	Det kan vara praktiskt att betrakta sin databas p&aring; tre olika niv&aring;er. Det &auml;r
-	hela tiden samma data, men man anv&auml;nder tre olika scheman f&ouml;r att beskriva
+	Det kan vara praktiskt att betrakta sin databas på tre olika nivåer. Det är
+	hela tiden samma data, men man använder tre olika scheman för att beskriva
 	dem:
 
 <itemizedlist>
 <listitem>
 <para>
-Den <emphasis>externa</emphasis> niv&aring;n beskriver hur anv&auml;ndaren ser
+Den <emphasis>externa</emphasis> nivån beskriver hur användaren ser
   databasen. Detta beskrivs av det <emphasis>externa schemat</emphasis>.
 </para>
 </listitem>
 
 <listitem>
 <para>
-	Den <emphasis>logiska</emphasis> niv&aring;n beskriver hela databasen, utrryckt i den
-	implementationsmodell som databashanteraren anv&auml;nder. I en relationsdatabas
-	best&aring;r den logiska niv&aring;n av alla tabellerna i databasen. Detta beskrivs av
+	Den <emphasis>logiska</emphasis> nivån beskriver hela databasen, utrryckt i den
+	implementationsmodell som databashanteraren använder. I en relationsdatabas
+	består den logiska nivån av alla tabellerna i databasen. Detta beskrivs av
 	det <emphasis>logiska schemat</emphasis>.
 </para>
 </listitem>
 
 <listitem>
 <para>
-	Den <emphasis>interna</emphasis> eller <emphasis>fysiska</emphasis> niv&aring;n beskriver hur datat
-	&auml;r lagrat. Som anv&auml;ndare m&auml;rker man n&auml;stan aldrig av denna niv&aring;. Den fysiska
-	niv&aring;n beskrivs av det <emphasis>fysiska schemat</emphasis>.
+	Den <emphasis>interna</emphasis> eller <emphasis>fysiska</emphasis> nivån beskriver hur datat
+	är lagrat. Som användare märker man nästan aldrig av denna nivå. Den fysiska
+	nivån beskrivs av det <emphasis>fysiska schemat</emphasis>.
 </para>
 </listitem>
 
@@ -378,15 +378,15 @@ Den <emphasis>externa</emphasis> niv&aring;n beskriver hur anv&auml;ndaren ser
 <itemizedlist>
 <listitem>
 <para>
-	<emphasis>Logiskt dataoberoende</emphasis> inneb&auml;r att man kan &auml;ndra i det
-	logiska schemat, utan att det externa schemat p&aring;verkas.
+	<emphasis>Logiskt dataoberoende</emphasis> innebär att man kan ändra i det
+	logiska schemat, utan att det externa schemat påverkas.
 </para>
 </listitem>
 
 <listitem>
 <para>
-	<emphasis>Fysiskt dataoberoende</emphasis> inneb&auml;r att man kan &auml;ndra i det
-	fysiska schemat, utan att det logiska schemat p&aring;verkas.
+	<emphasis>Fysiskt dataoberoende</emphasis> innebär att man kan ändra i det
+	fysiska schemat, utan att det logiska schemat påverkas.
 </para>
 </listitem>
 
@@ -395,47 +395,47 @@ Den <emphasis>externa</emphasis> niv&aring;n beskriver hur anv&auml;ndaren ser
 </sect1>
 
 <sect1 id="olikaanvandare">
-<title>Olika typer av anv&auml;ndare</title>
+<title>Olika typer av användare</title>
 
 <para>
-	Ibland skiljer man p&aring; olika typer av anv&auml;ndare, det vill s&auml;ga personer som
+	Ibland skiljer man på olika typer av användare, det vill säga personer som
 	arbetar med databasen:
 
 <itemizedlist>
 <listitem>
 <para>
-	<emphasis>Expertanv&auml;ndaren</emphasis> anv&auml;nder databasen ofta, kanske
-	dagligen. De &auml;r v&auml;l insatta i databasens uppbyggnad och databashanterarens
-	funktion och sitter kanske och skriver SQL-fr&aring;gor.
+	<emphasis>Expertanvändaren</emphasis> använder databasen ofta, kanske
+	dagligen. De är väl insatta i databasens uppbyggnad och databashanterarens
+	funktion och sitter kanske och skriver SQL-frågor.
 </para>
 </listitem>
 
 <listitem>
 <para>
-	<emphasis>Tillf&auml;lliga anv&auml;ndare</emphasis> kan inte lika mycket om databasen,
-	kanske f&ouml;r att de anv&auml;nder den mer s&auml;llan. De beh&ouml;ver enklare och mer
-	nyb&ouml;rjarv&auml;nliga verktyg &auml;n experterna. Man kan inte kr&auml;va att
-	biljettf&ouml;rs&auml;ljare p&aring; SJ skall l&auml;ra sig SQL.
+	<emphasis>Tillfälliga användare</emphasis> kan inte lika mycket om databasen,
+	kanske för att de använder den mer sällan. De behöver enklare och mer
+	nybörjarvänliga verktyg än experterna. Man kan inte kräva att
+	biljettförsäljare på SJ skall lära sig SQL.
 </para>
 </listitem>
 
 <listitem>
 <para>
-	<emphasis>Databasadministrat&ouml;ren (DBA)</emphasis> ansvarar f&ouml;r databasens
-	drift. F&ouml;r stora och viktiga databaser finns det ofta en hel grupp
-	databasadministrat&ouml;rer som utformar och f&ouml;r&auml;ndrar databasschemat, registerar
-	nya anv&auml;ndare och ser till att databasen fungerar bra och effektivt.
+	<emphasis>Databasadministratören (DBA)</emphasis> ansvarar för databasens
+	drift. För stora och viktiga databaser finns det ofta en hel grupp
+	databasadministratörer som utformar och förändrar databasschemat, registerar
+	nya användare och ser till att databasen fungerar bra och effektivt.
 </para>
 </listitem>
 
 <listitem>
 <para>
-	<emphasis>Andra datorprogram</emphasis>. Det &auml;r inte ovanligt att en del av
-	databasens anv&auml;ndare &auml;r andra datorprogram som h&auml;mtar data fr&aring;n databasen
-	och skickar data till den. En del databaser har inga m&auml;nskliga anv&auml;ndare
-	alls, utan det &auml;r ett eller flera datorprogram som anv&auml;nder sig av
-	dem. Kanske kommunicerar de datorprogrammen sen i sin tur med m&auml;nniskor, men
-	inte ens det &auml;r s&auml;kert.
+	<emphasis>Andra datorprogram</emphasis>. Det är inte ovanligt att en del av
+	databasens användare är andra datorprogram som hämtar data från databasen
+	och skickar data till den. En del databaser har inga mänskliga användare
+	alls, utan det är ett eller flera datorprogram som använder sig av
+	dem. Kanske kommunicerar de datorprogrammen sen i sin tur med människor, men
+	inte ens det är säkert.
 </para>
 </listitem>
 
@@ -444,8 +444,8 @@ Den <emphasis>externa</emphasis> niv&aring;n beskriver hur anv&auml;ndaren ser
 </para>
 
 <para>
-	Om jag samlar mina kakrecept i en databas i min hemdator &auml;r det antagligen jag
-	sj&auml;lv som spelar alla dessa roller. I stora system, som en stor
+	Om jag samlar mina kakrecept i en databas i min hemdator är det antagligen jag
+	själv som spelar alla dessa roller. I stora system, som en stor
 	biljettbokningsdatabas kan det finnas hundratals eller tusentals personer som
 	jobbar med databasen samtidigt.
 </para>
@@ -458,15 +458,15 @@ Den <emphasis>externa</emphasis> niv&aring;n beskriver hur anv&auml;ndaren ser
 <title>Databashanterare</title>
 
 <para>
-En databashanterare &auml;r ofta ett stort och komplicerat program, eller ett helt system av program. F&ouml;rutom sj&auml;lva <emphasis>k&auml;rnan</emphasis> i databashanteraren, som hanterar den lagrade databasen, finns det ofta olika anv&auml;ndargr&auml;nssnitt. Dessa anv&auml;nder anv&auml;ndaren f&ouml;r att s&ouml;ka eller &auml;ndra i databasen. Det brukar finnas ett eller flera fr&aring;gespr&aring;k som SQL, men ocks&aring; grafiska verktyg. Olika gr&auml;nssnitt passar f&ouml;r olika anv&auml;ndare och anv&auml;ndningsomr&aring;den.
+En databashanterare är ofta ett stort och komplicerat program, eller ett helt system av program. Förutom själva <emphasis>kärnan</emphasis> i databashanteraren, som hanterar den lagrade databasen, finns det ofta olika användargränssnitt. Dessa använder användaren för att söka eller ändra i databasen. Det brukar finnas ett eller flera frågespråk som SQL, men också grafiska verktyg. Olika gränssnitt passar för olika användare och användningsområden.
 </para>
 
 <para>
-Det &auml;r ocks&aring; vanligt att en databashanterare inneh&aring;ller verktyg f&ouml;r att skapa applikationer. En applikation &auml;r ett program som &auml;r avsett f&ouml;r ett specifikt &auml;ndam&aring;l, till exempel f&ouml;r SJ's biljettbokning. I det sammanhanget lagras data i en databas som hanteras av en databashanterare och applikationen kommunicerar med databashanteraren. Applikationen, d&auml;r anv&auml;ndaren kan klicka p&aring; knappar f&ouml;r att v&auml;lja resm&aring;l &auml;r enklare f&ouml;r anv&auml;ndaren att hantera &auml;n databashanteraren.
+Det är också vanligt att en databashanterare innehåller verktyg för att skapa applikationer. En applikation är ett program som är avsett för ett specifikt ändamål, till exempel för SJ's biljettbokning. I det sammanhanget lagras data i en databas som hanteras av en databashanterare och applikationen kommunicerar med databashanteraren. Applikationen, där användaren kan klicka på knappar för att välja resmål är enklare för användaren att hantera än databashanteraren.
 </para>
 
 <para>
-N&auml;r man installerat en databashanterare p&aring; sin dator kan den ofta hantera flera olika databaser samtidigt. Varje databas best&aring;r egentligen av tv&aring; samlingar data: dels databasens inneh&aring;ll, dels schemat. Schemat kallas ocks&aring; <emphasis>datakatalog</emphasis> eller <emphasis>meta-data</emphasis> vilket betyder <emphasis>data om data</emphasis>.
+När man installerat en databashanterare på sin dator kan den ofta hantera flera olika databaser samtidigt. Varje databas består egentligen av två samlingar data: dels databasens innehåll, dels schemat. Schemat kallas också <emphasis>datakatalog</emphasis> eller <emphasis>meta-data</emphasis> vilket betyder <emphasis>data om data</emphasis>.
 </para>
 
 </chapter>
@@ -478,17 +478,17 @@ N&auml;r man installerat en databashanterare p&aring; sin dator kan den ofta han
 <title>Databas</title>
 
 <para>
-	Datorer anv&auml;nds ofta f&ouml;r att hantera register av olika slag, s&aring;dana register
-	kallas databaser. Folkbokf&ouml;ringen och telefonkatalogen &auml;r exempel p&aring; stora
-	databaser som inneh&aring;ller mycket information. Idrottsf&ouml;reningens
-	medlemsregister, din cd- eller dvdsamling &auml;r exempel p&aring; mindre databaser.
+	Datorer används ofta för att hantera register av olika slag, sådana register
+	kallas databaser. Folkbokföringen och telefonkatalogen är exempel på stora
+	databaser som innehåller mycket information. Idrottsföreningens
+	medlemsregister, din cd- eller dvdsamling är exempel på mindre databaser.
 </para>
 
 <para>
-	F&ouml;r att kunna hantera s&aring;dana register i datorn beh&ouml;ver du en
-	<emphasis>databashanterare</emphasis>. Vanliga databashanterare i persondatormilj&ouml; &auml;r
-	Claris FileMaker, Microsoft Access och Borlands dBase. F&ouml;r st&ouml;rre register
-	anv&auml;nder man databasservrar (SQL-server), som till exempel IBM DB2, MySQL,
+	För att kunna hantera sådana register i datorn behöver du en
+	<emphasis>databashanterare</emphasis>. Vanliga databashanterare i persondatormiljö är
+	Claris FileMaker, Microsoft Access och Borlands dBase. För större register
+	använder man databasservrar (SQL-server), som till exempel IBM DB2, MySQL,
 	Microsoft SQL och Oracle.
 </para>
 
@@ -497,30 +497,30 @@ N&auml;r man installerat en databashanterare p&aring; sin dator kan den ofta han
 <sect1 id="tabell">
 <title>Tabell</title>
 <para>
-Databasen byggs upp av tabeller, dessa inneh&aring;ller posterna d&auml;r du lagrar informationen.
+Databasen byggs upp av tabeller, dessa innehåller posterna där du lagrar informationen.
 </para>
 </sect1>
 
 <sect1 id="post">
 <title>Post</title>
 <para>
-Varje objekt i databasen (&quot;rad i tabellen&quot;) kallas f&ouml;r <emphasis>post</emphasis>, posten inneh&aring;ller i sin tur f&auml;lten.
+Varje objekt i databasen (&quot;rad i tabellen&quot;) kallas för <emphasis>post</emphasis>, posten innehåller i sin tur fälten.
 </para>
 </sect1>
 
 <sect1 id="falt">
-<title>F&auml;lt</title>
+<title>Fält</title>
 
 <para>
-F&auml;ltet &auml;r den minsta best&aring;ndsdelen i databasen, den inneh&aring;ller informationen som du vill lagra. Varje enskilt f&auml;lt har ocks&aring; <emphasis>attribut</emphasis> som beskriver vilken typ av data som f&aring;r lagras i f&auml;ltet.
+Fältet är den minsta beståndsdelen i databasen, den innehåller informationen som du vill lagra. Varje enskilt fält har också <emphasis>attribut</emphasis> som beskriver vilken typ av data som får lagras i fältet.
 </para>
 
 </sect1>
 
 <sect1 id="fraga">
-<title>Fr&aring;ga</title>
+<title>Fråga</title>
 <para>
-Fr&aring;gor du st&auml;ller till databaser g&ouml;r du i ett spr&aring;k som kallas <emphasis>Structured Query Language</emphasis> (SQL). Fr&aring;gan kan h&auml;mta information, lagra information eller manipulera information i databasen beroende p&aring; hur fr&aring;gan st&auml;lls.
+Frågor du ställer till databaser gör du i ett språk som kallas <emphasis>Structured Query Language</emphasis> (SQL). Frågan kan hämta information, lagra information eller manipulera information i databasen beroende på hur frågan ställs.
 </para>
 </sect1>
 
@@ -528,11 +528,11 @@ Fr&aring;gor du st&auml;ller till databaser g&ouml;r du i ett spr&aring;k som ka
 <title>Nycklar</title>
 
 <para>
-Varje post i tabellen skall ha ett f&auml;lt som inneh&aring;ller ett unikt v&auml;rde s&aring; att man kan s&auml;rskilja olika poster fr&aring;n varandra. En tabell som inneh&aring;ller kunder kan ha ett f&auml;lt f&ouml;r kundnummer, medan en tabell f&ouml;r best&auml;llningar kan inneh&aring;lla ett f&auml;lt f&ouml;r best&auml;llningsnummer.
+Varje post i tabellen skall ha ett fält som innehåller ett unikt värde så att man kan särskilja olika poster från varandra. En tabell som innehåller kunder kan ha ett fält för kundnummer, medan en tabell för beställningar kan innehålla ett fält för beställningsnummer.
 </para>
 
 <para>
-Det f&auml;lt som man anv&auml;nder f&ouml;r att s&auml;rskilja de olika posterna fr&aring;n varandra i en tabell kallas f&ouml;r prim&auml;rnyckel. Man anv&auml;nder prim&auml;rnyckeln f&ouml;r att hitta en viss post, utan en prim&auml;rnyckel blir det mycket sv&aring;rt att uppdatera eller ta bort specifika poster i en tabell.
+Det fält som man använder för att särskilja de olika posterna från varandra i en tabell kallas för primärnyckel. Man använder primärnyckeln för att hitta en viss post, utan en primärnyckel blir det mycket svårt att uppdatera eller ta bort specifika poster i en tabell.
 </para>
 
 </sect1>
@@ -541,7 +541,7 @@ Det f&auml;lt som man anv&auml;nder f&ouml;r att s&auml;rskilja de olika postern
 <title>Metadata</title>
 
 <para>
-Metadata &auml;r data om data, det vill s&auml;ga data som beskriver en annan data. Med beskrivning avses datats egenskaper (datatyp, storlek och s&aring; vidare), datastruktur och regler eller begr&auml;nsningar man st&auml;ller upp. Metadata kallas ocks&aring; databasschema, systemkatalog eller <emphasis>data dictionary</emphasis>. Nyttan med ett separat schema f&ouml;r beskrivningen ger program-data oberoende en stor f&ouml;rdel i dagens programutveckling.
+Metadata är data om data, det vill säga data som beskriver en annan data. Med beskrivning avses datats egenskaper (datatyp, storlek och så vidare), datastruktur och regler eller begränsningar man ställer upp. Metadata kallas också databasschema, systemkatalog eller <emphasis>data dictionary</emphasis>. Nyttan med ett separat schema för beskrivningen ger program-data oberoende en stor fördel i dagens programutveckling.
 </para>
 
 </sect1>
@@ -553,17 +553,17 @@ Metadata &auml;r data om data, det vill s&auml;ga data som beskriver en annan da
 <chapter id="relationsdatabaser"><title>Relationsdatabaser</title>
 
 <para>
-	Relationsmodellen &auml;r en av flera datamodeller, det vill s&auml;ga s&auml;tt att organisera data. Relationsmodellen &auml;r den helt dominerande datamodell i dagens databashanterare och g&aring;r, enkelt uttryckt, ut p&aring; att man lagrar data i tabeller.
+	Relationsmodellen är en av flera datamodeller, det vill säga sätt att organisera data. Relationsmodellen är den helt dominerande datamodell i dagens databashanterare och går, enkelt uttryckt, ut på att man lagrar data i tabeller.
 </para>
 
 <sect1 id="relationer"><title>Relationer</title>
 
 <para>
-	Relationsmodellen g&aring;r ut p&aring; att data lagras som <emphasis>relationer</emphasis>. En relation &auml;r samma sak som en <emphasis>tabell</emphasis> med <emphasis>poster</emphasis> (rader) och namngivna <emphasis>f&auml;lt</emphasis> (kolumner). Egentligen heter posterna <emphasis>tupler</emphasis> och f&auml;lten <emphasis>attribut</emphasis>, men vi beh&ouml;ver inte g&ouml;ra det sv&aring;rare &auml;n s&aring; h&auml;r.
+	Relationsmodellen går ut på att data lagras som <emphasis>relationer</emphasis>. En relation är samma sak som en <emphasis>tabell</emphasis> med <emphasis>poster</emphasis> (rader) och namngivna <emphasis>fält</emphasis> (kolumner). Egentligen heter posterna <emphasis>tupler</emphasis> och fälten <emphasis>attribut</emphasis>, men vi behöver inte göra det svårare än så här.
 </para>
 
 <para>
-	Titta p&aring; <xref linkend="tblmedlem" />, som inneh&aring;ller data om medlemmarna i en f&ouml;rening.
+	Titta på <xref linkend="tblmedlem" />, som innehåller data om medlemmarna i en förening.
 
 <table id="tblmedlem" frame="all">
 <title>Medlem</title>
@@ -603,45 +603,45 @@ Metadata &auml;r data om data, det vill s&auml;ga data som beskriver en annan da
 </para>
 
 <para>
-Varje post inneh&aring;ller data om en medlem i f&ouml;reningen och varje f&auml;lt anger en viss egenskap som medlemen har.
+Varje post innehåller data om en medlem i föreningen och varje fält anger en viss egenskap som medlemen har.
 </para>
 
 <para>
-Posterna i en tabell utg&ouml;r en <emphasis>m&auml;ngd</emphasis>. Det betyder att posterna inte
-har n&aring;gon speciell ordning, utan kan skrivas i vilken ordning som helst. Det
-kan inte heller f&ouml;rekomma <emphasis>dubletter</emphasis>, det vill s&auml;ga poster med samma
-data som en annan post i alla f&auml;lt.
+Posterna i en tabell utgör en <emphasis>mängd</emphasis>. Det betyder att posterna inte
+har någon speciell ordning, utan kan skrivas i vilken ordning som helst. Det
+kan inte heller förekomma <emphasis>dubletter</emphasis>, det vill säga poster med samma
+data som en annan post i alla fält.
 </para>
 
 <para>
-Ibland definerar man en eller flera <emphasis>nycklar</emphasis>. En nyckel &auml;r ett f&auml;lt, eller en kombination av flera f&auml;lt, vars v&auml;rden &auml;r unika. Om man har en nyckel i en relation s&aring; kan det inte finnas flera poster med samma v&auml;rde i det f&auml;ltet. Nyckeln anv&auml;nds d&auml;rf&ouml;r f&ouml;r att skapa <emphasis>unikhet</emphasis> hos posterna. I <xref linkend="tblmedlem" /> skulle vi kunna s&auml;tta f&auml;ltet <emphasis role="strong">Medlemsnummer</emphasis> som nyckel eftersom att vi vet att det bara finns en medlem med ett specifikt medlemsnummer. F&auml;lten <emphasis role="strong">Namn</emphasis> och <emphasis role="strong">Telefonnummer</emphasis> kan vi inte anv&auml;nda som nycklar, eftersom vi vet att namn p&aring; personer inte &auml;r unika och flera medlemmar kan bo p&aring; samma adress och ha samma telefonnummer.
+Ibland definerar man en eller flera <emphasis>nycklar</emphasis>. En nyckel är ett fält, eller en kombination av flera fält, vars värden är unika. Om man har en nyckel i en relation så kan det inte finnas flera poster med samma värde i det fältet. Nyckeln används därför för att skapa <emphasis>unikhet</emphasis> hos posterna. I <xref linkend="tblmedlem" /> skulle vi kunna sätta fältet <emphasis role="strong">Medlemsnummer</emphasis> som nyckel eftersom att vi vet att det bara finns en medlem med ett specifikt medlemsnummer. Fälten <emphasis role="strong">Namn</emphasis> och <emphasis role="strong">Telefonnummer</emphasis> kan vi inte använda som nycklar, eftersom vi vet att namn på personer inte är unika och flera medlemmar kan bo på samma adress och ha samma telefonnummer.
 </para>
 
 <para>
-Relationen inneh&aring;ller bara <emphasis>enkla</emphasis> och <emphasis>atom&auml;ra</emphasis> v&auml;rden. Att v&auml;rdena &auml;r enkla betyder att vi inte kan ha mer &auml;n ett enda v&auml;rde per f&auml;lt. Om en medlem i <xref linkend="tblmedlem" /> har tv&aring; olika telefonnummer kan vi inte ange b&aring;da i samma post. Vi m&aring;ste anv&auml;nda tv&aring; poster f&ouml;r att kunna lagra b&aring;da telefonnumren (eller skriva om v&aring;rt schema). Att v&auml;rdena &auml;r atom&auml;ra betyder att vi bara arbetar med hela datat och inte delar av det. Att relationen har enkla och atom&auml;ra v&auml;rden kallas <emphasis>f&ouml;rsta normalformen</emphasis>.
+Relationen innehåller bara <emphasis>enkla</emphasis> och <emphasis>atomära</emphasis> värden. Att värdena är enkla betyder att vi inte kan ha mer än ett enda värde per fält. Om en medlem i <xref linkend="tblmedlem" /> har två olika telefonnummer kan vi inte ange båda i samma post. Vi måste använda två poster för att kunna lagra båda telefonnumren (eller skriva om vårt schema). Att värdena är atomära betyder att vi bara arbetar med hela datat och inte delar av det. Att relationen har enkla och atomära värden kallas <emphasis>första normalformen</emphasis>.
 </para>
 
 <para>
-Det finns ocks&aring; n&aring;got som kallas <emphasis>nullv&auml;rden</emphasis>. Om en person inte har n&aring;gon telefon, eller om vi inte vet telefonnumret, kan vi ange v&auml;rdet <emphasis role="strong">null</emphasis> i det f&auml;ltet. Null &auml;r inte samma sak som noll (0). Om till exempel en temperaturangivelse satts till null betyder det att det inte finns n&aring;gon temperatur och det &auml;r ju inte samma sak som en temperatur p&aring; noll (0) grader.
+Det finns också något som kallas <emphasis>nullvärden</emphasis>. Om en person inte har någon telefon, eller om vi inte vet telefonnumret, kan vi ange värdet <emphasis role="strong">null</emphasis> i det fältet. Null är inte samma sak som noll (0). Om till exempel en temperaturangivelse satts till null betyder det att det inte finns någon temperatur och det är ju inte samma sak som en temperatur på noll (0) grader.
 </para>
 
 </sect1>
 
 <sect1 id="schemaochinnehall">
-<title>Schema och inneh&aring;ll</title>
+<title>Schema och innehåll</title>
 <para>
-I databassammanhang brukar man skilja p&aring; <emphasis>schemat</emphasis>, som beskriver vad som kan finnas i databasen, och det <emphasis>inneh&aring;ll</emphasis> som finns i databasen.
+I databassammanhang brukar man skilja på <emphasis>schemat</emphasis>, som beskriver vad som kan finnas i databasen, och det <emphasis>innehåll</emphasis> som finns i databasen.
 </para>
 
 <para>
-D&auml;rf&ouml;r talar man om <emphasis>relationens schema</emphasis> och <emphasis>relationens inneh&aring;ll</emphasis>. I schemat ing&aring;r bland annat vilka f&auml;lt som relationen har, deras   <emphasis>dom&auml;ner</emphasis> (vilka v&auml;rden de kan inneh&aring;lla), och vilka nycklar som finns.
+Därför talar man om <emphasis>relationens schema</emphasis> och <emphasis>relationens innehåll</emphasis>. I schemat ingår bland annat vilka fält som relationen har, deras   <emphasis>domäner</emphasis> (vilka värden de kan innehålla), och vilka nycklar som finns.
 </para>
 </sect1>
 
 <sect1 id="olikanycklar">
 <title>Olika sorters nycklar</title>
 <para>
-Vi b&ouml;rjar med att kalla ett f&auml;lt, eller en kombination av f&auml;lt, vars v&auml;rden garanterat &auml;r unika f&ouml;r en <emphasis>supernyckel</emphasis>. En supernyckel kan inneh&aring;lla on&ouml;digt m&aring;nga f&auml;lt. I relationen Medlem (<xref linkend="tblmedlem" />) finns det fyra supernycklar:
+Vi börjar med att kalla ett fält, eller en kombination av fält, vars värden garanterat är unika för en <emphasis>supernyckel</emphasis>. En supernyckel kan innehålla onödigt många fält. I relationen Medlem (<xref linkend="tblmedlem" />) finns det fyra supernycklar:
 
 <itemizedlist>
 <listitem>
@@ -660,15 +660,15 @@ Vi b&ouml;rjar med att kalla ett f&auml;lt, eller en kombination av f&auml;lt, v
 </para>
 
 <para>
-En <emphasis>kandidatnyckel</emphasis> &auml;r en minimal supernyckel, det vill s&auml;ga en supernyckel d&auml;r man <emphasis>inte kan ta bort n&aring;gra f&auml;lt</emphasis> om den fortfarande skall vara garanterat unik. I relationen Medlem finns bara en kandidatnyckel, n&auml;mligen f&auml;ltet Medlemsnummer (men en kandidatnyckel kan vara sammansatt av flera f&auml;lt, om alla beh&ouml;vs f&ouml;r att den skall bli unik).
+En <emphasis>kandidatnyckel</emphasis> är en minimal supernyckel, det vill säga en supernyckel där man <emphasis>inte kan ta bort några fält</emphasis> om den fortfarande skall vara garanterat unik. I relationen Medlem finns bara en kandidatnyckel, nämligen fältet Medlemsnummer (men en kandidatnyckel kan vara sammansatt av flera fält, om alla behövs för att den skall bli unik).
 </para>
 
 <para>
-Det finns alltid minst en supernyckel och minst en kandidatnyckel i varje relation. Samtliga f&auml;lt tillsammans utg&ouml;r alltid en supernyckel, f&ouml;r det kan inte finnas tv&aring; poster med samma v&auml;rden i alla f&auml;lt. Allts&aring; &auml;r kombinationen av alla f&auml;lten garanterat unik - och d&auml;rf&ouml;r en supernyckel. Kandidatnycklarna heter kandidatnycklar eftersom att det &auml;r bland dessa kandidater som vi v&auml;ljer en <emphasis>prim&auml;rnyckel</emphasis>. Vi v&auml;ljer alltid en prim&auml;rnyckel i varje relation och det &auml;r prim&auml;rnyckeln som oftast anv&auml;nds f&ouml;r att identifiera poster i tabellen.
+Det finns alltid minst en supernyckel och minst en kandidatnyckel i varje relation. Samtliga fält tillsammans utgör alltid en supernyckel, för det kan inte finnas två poster med samma värden i alla fält. Alltså är kombinationen av alla fälten garanterat unik - och därför en supernyckel. Kandidatnycklarna heter kandidatnycklar eftersom att det är bland dessa kandidater som vi väljer en <emphasis>primärnyckel</emphasis>. Vi väljer alltid en primärnyckel i varje relation och det är primärnyckeln som oftast används för att identifiera poster i tabellen.
 </para>
 
 <para>
-De &ouml;vriga kandidatnycklarna, som inte valdes som prim&auml;rnyckel, kallas <emphasis>alternativnycklar</emphasis> eller <emphasis>sekund&auml;rnycklar</emphasis>.
+De övriga kandidatnycklarna, som inte valdes som primärnyckel, kallas <emphasis>alternativnycklar</emphasis> eller <emphasis>sekundärnycklar</emphasis>.
 </para>
 
 </sect1>
@@ -676,7 +676,7 @@ De &ouml;vriga kandidatnycklarna, som inte valdes som prim&auml;rnyckel, kallas 
 <sect1 id="kopplingar">
 <title>Kopplingar mellan relationer</title>
 <para>
-L&aring;t oss nu ut&ouml;ka v&aring;r databas, som &auml;n s&aring; l&auml;nge bara inneh&aring;ller relationen Medlem (<xref linkend="tblmedlem" />), med ytterligare tv&aring; relationer. F&ouml;rst skapar vi relationen <emphasis role="strong">Sektion</emphasis> (<xref linkend="tblsektion" />) som inneh&aring;ller data om olika sektioner inom f&ouml;reningen.
+Låt oss nu utöka vår databas, som än så länge bara innehåller relationen Medlem (<xref linkend="tblmedlem" />), med ytterligare två relationer. Först skapar vi relationen <emphasis role="strong">Sektion</emphasis> (<xref linkend="tblsektion" />) som innehåller data om olika sektioner inom föreningen.
 </para>
 
 <para>
@@ -694,22 +694,22 @@ L&aring;t oss nu ut&ouml;ka v&aring;r databas, som &auml;n s&aring; l&auml;nge b
 <tbody>
 	<row><entry>A</entry><entry>Programmering</entry><entry>3</entry></row>
 	<row><entry>B</entry><entry>Webbdesign</entry><entry>2</entry></row>
-	<row><entry>C</entry><entry>N&auml;tverk</entry><entry>4</entry></row>
+	<row><entry>C</entry><entry>Nätverk</entry><entry>4</entry></row>
 </tbody>
 </tgroup>
 </table>
 </para>
 
 <para>
-Vi antar att <emphasis role="strong">Sektionskod</emphasis> &auml;r prim&auml;rnyckel, med <emphasis role="strong">Namn</emphasis> som alternativnyckel.
+Vi antar att <emphasis role="strong">Sektionskod</emphasis> är primärnyckel, med <emphasis role="strong">Namn</emphasis> som alternativnyckel.
 </para>
 
 <para>
-F&auml;ltet <emphasis role="strong">Ledare</emphasis> &auml;r en <emphasis>fr&auml;mmande nyckel</emphasis>, &auml;ven kallad <emphasis>referensattribut</emphasis>, till relationen <emphasis role="strong">Medlem</emphasis>. En fr&auml;mmande nyckel refererar alltid till prim&auml;rnyckeln i en annan (eller samma) relation. Vi ser till exempel att ledaren f&ouml;r Programmeringsektionen &auml;r medlem nummer 3. Allts&aring; g&aring;r vi till relationen <emphasis role="strong">Medlem</emphasis>, letar r&auml;tt p&aring; medlem nummer 3 och ser att det &auml;r <emphasis role="strong">Lennart</emphasis>.
+Fältet <emphasis role="strong">Ledare</emphasis> är en <emphasis>främmande nyckel</emphasis>, även kallad <emphasis>referensattribut</emphasis>, till relationen <emphasis role="strong">Medlem</emphasis>. En främmande nyckel refererar alltid till primärnyckeln i en annan (eller samma) relation. Vi ser till exempel att ledaren för Programmeringsektionen är medlem nummer 3. Alltså går vi till relationen <emphasis role="strong">Medlem</emphasis>, letar rätt på medlem nummer 3 och ser att det är <emphasis role="strong">Lennart</emphasis>.
 </para>
 
 <para>
-Om det st&aring;r att medlem nummer 3 leder en sektion, s&aring; m&aring;ste det ocks&aring; finnas en medlem nummer 3 i medlemstabellen. Detta villkor kallas <emphasis>referensintegritet</emphasis>.
+Om det står att medlem nummer 3 leder en sektion, så måste det också finnas en medlem nummer 3 i medlemstabellen. Detta villkor kallas <emphasis>referensintegritet</emphasis>.
 </para>
 
 <para>
@@ -740,7 +740,7 @@ vilka medlemmar som deltar i vilka sektioner.
 </para>
 
 <para>
-<emphasis role="strong">Medlem</emphasis> &auml;r fr&auml;mmande nyckel till relationen <emphasis role="strong">Medlem</emphasis> och <emphasis role="strong">Sektion</emphasis> &auml;r fr&auml;mmande nyckel till relationen <emphasis role="strong">Sektion</emphasis>. <emphasis role="strong">Medlem</emphasis> och <emphasis role="strong">Sektion</emphasis> utg&ouml;r tillsammans den enda kandidatnyckeln och blir d&auml;rf&ouml;r automatiskt prim&auml;rnyckel.
+<emphasis role="strong">Medlem</emphasis> är främmande nyckel till relationen <emphasis role="strong">Medlem</emphasis> och <emphasis role="strong">Sektion</emphasis> är främmande nyckel till relationen <emphasis role="strong">Sektion</emphasis>. <emphasis role="strong">Medlem</emphasis> och <emphasis role="strong">Sektion</emphasis> utgör tillsammans den enda kandidatnyckeln och blir därför automatiskt primärnyckel.
 </para>
 
 </sect1>
@@ -750,12 +750,12 @@ vilka medlemmar som deltar i vilka sektioner.
 <chapter id="reservord">
 <title>Reserverade ord</title>
 <para>
-Det &auml;r viktigt att k&auml;nna till de reserverade orden som anv&auml;nds av SQL eftersom
-att de inte f&aring;r anv&auml;ndas f&ouml;r att namnge tabeller eller poster.
+Det är viktigt att känna till de reserverade orden som används av SQL eftersom
+att de inte får användas för att namnge tabeller eller poster.
 </para>
 
 <sect1 id="listaresord">
-<title>Lista &ouml;ver reserverade ord</title>
+<title>Lista över reserverade ord</title>
 
 <para>
 add, all, alter, analyse, and, as, asc, asensitive, auto_increment
@@ -868,22 +868,22 @@ zerofill
 <title>Satsbyggnad</title>
 
 <para>
-N&auml;r du jobbar mot en SQL-server skriver du kommandon, dessa kommandon m&aring;ste
-f&ouml;lja en strikt syntax annars f&ouml;rst&aring;r inte SQL-servern vad du vill. Normalt
-skriver du kommandot du vill att SQL-servern skall utf&ouml;ra och avslutar med ett
-semikolon (;) f&ouml;ljt av enter.
+När du jobbar mot en SQL-server skriver du kommandon, dessa kommandon måste
+följa en strikt syntax annars förstår inte SQL-servern vad du vill. Normalt
+skriver du kommandot du vill att SQL-servern skall utföra och avslutar med ett
+semikolon (;) följt av enter.
 </para>
 
 <para>
-Syntaxen f&ouml;r select ser ut s&aring; h&auml;r:
+Syntaxen för select ser ut så här:
 
 <programlisting>
 SELECT [STRAIGHT_JOIN] [SQL_SMALL_RESULT] [SQL_BIG_RESULT] [SQL_BUFFER_RESULT]
 [SQL_CACHE | SQL_NO_CACHE] [SQL_CALC_FOUND_ROWS] [HIGH_PRIORITY]
 [DISTINCT | DISTINCTROW | ALL] utrycket, ... [INTO (OUTFILE | DUMPFILE)
   'filnamn' export_val] [FROM tabell [WHERE definition] [GROUP BY (unsigned
-    int | f&auml;ltnamn | formel) [ASC | DESC], ... [WITH ROLLUP]] [HAVING
-    definition] [ORDER BY (unsigned int | f&auml;ltnamn | formel) [ASC | DESC],
+    int | fältnamn | formel) [ASC | DESC], ... [WITH ROLLUP]] [HAVING
+    definition] [ORDER BY (unsigned int | fältnamn | formel) [ASC | DESC],
     ...] [LIMIT [offset,] rader | rader OFFSET offset] [PROCEDURE
     procedure_namn(argument lista)] [FOR UPDATE | LOCK IN SHARE MODE]]
 </programlisting>
@@ -891,25 +891,25 @@ SELECT [STRAIGHT_JOIN] [SQL_SMALL_RESULT] [SQL_BIG_RESULT] [SQL_BUFFER_RESULT]
 </para>
 
 <para>
-Inte s&aring; sv&aring;rt, eller hur?
+Inte så svårt, eller hur?
 </para>
 
 <para>
-Du kan om&ouml;jligt l&auml;ra dig alla kommandonas syntax utantill, men du skall f&ouml;rst&aring;
-vad syntaxen &auml;r och vart du hittar den. P&aring; MySQL's hemsida finns referenser
-till alla SQL-kommandonas syntax. Leta upp syntaxen f&ouml;r insert och update och
+Du kan omöjligt lära dig alla kommandonas syntax utantill, men du skall förstå
+vad syntaxen är och vart du hittar den. På MySQL's hemsida finns referenser
+till alla SQL-kommandonas syntax. Leta upp syntaxen för insert och update och
 titta igenom dem.
 </para>
 
 <para>
-Nu anv&auml;nder vi v&aring;r syntax f&ouml;r att bygga ett kommando:
+Nu använder vi vår syntax för att bygga ett kommando:
 <screen>
 <command>select * from folkbokforing where ort='helsingborg' and alder > 20 limit 10;</command>
 </screen>
 </para>
 
 <para>
-Vad tror du ovanst&aring;ende select g&ouml;r?
+Vad tror du ovanstående select gör?
 </para>
 
 </sect1>
@@ -918,8 +918,8 @@ Vad tror du ovanst&aring;ende select g&ouml;r?
 <title>Inbyggda funktioner</title>
 
 <para>
-I SQL finns en massa olika funktioner som du kan anv&auml;nda, vi g&aring;r igenom en del
-av dessa. Denna f&ouml;rteckning &auml;r inte alls komplett, men tar upp de vanligaste
+I SQL finns en massa olika funktioner som du kan använda, vi går igenom en del
+av dessa. Denna förteckning är inte alls komplett, men tar upp de vanligaste
 funktionerna, som du faktiskt kan ha nytta av.
 </para>
 
@@ -955,7 +955,7 @@ Vill du veta vilken veckodag ett speciellt datum var?
 </para>
 
 <para>
-Hur m&aring;nga timmar, minuter och sekunder &auml;r 130389 sekunder?
+Hur många timmar, minuter och sekunder är 130389 sekunder?
 <screen>
 <command>select sec_to_time('130389');</command>
 </screen>
@@ -967,7 +967,7 @@ Hur m&aring;nga timmar, minuter och sekunder &auml;r 130389 sekunder?
 <title>Matematiska funktioner</title>
 
 <para>
-pi() returnerar v&auml;rdet av pi.
+pi() returnerar värdet av pi.
 <screen>
 <command>select pi();</command>
 </screen>
@@ -981,14 +981,14 @@ round(n, d) avrundar n, och ger det d antal decimaler.
 </para>
 
 <para>
-Eller varf&ouml;r inte avrunda pi till tv&aring; decimaler?
+Eller varför inte avrunda pi till två decimaler?
 <screen>
 <command>select round(pi(), 2);</command>
 </screen>
 </para>
 
 <para>
-Med bin(n) kan du konvertera decimala tal till bin&auml;ra:
+Med bin(n) kan du konvertera decimala tal till binära:
 <screen>
 <command>select bin(214);</command>
 </screen>
@@ -1004,11 +1004,11 @@ Med hex(n) kan du konvertera decimala tal till hexadecimala:
 </sect2>
 
 <sect2 id="strangfunk">
-<title>Str&auml;ngfunktioner</title>
+<title>Strängfunktioner</title>
 
 <para>
-ascii(c) returnerar asciiv&auml;rdet f&ouml;r tecknet c. char(n) returnerar tecknet
-n&auml;r du ger den ett asciiv&auml;rde.
+ascii(c) returnerar asciivärdet för tecknet c. char(n) returnerar tecknet
+när du ger den ett asciivärde.
 
 <screen>
 <command>select ascii('z');
@@ -1017,73 +1017,73 @@ select char(122);</command>
 </para>
 
 <para>
-concat(s1, s2, ...) s&auml;tter ihop flera str&auml;ngar till en.
+concat(s1, s2, ...) sätter ihop flera strängar till en.
 <screen>
 <command>select concat('hello ', 'world');</command>
 </screen>
 </para>
 
 <para>
-lcase(s) converterar str&auml;ngen s till gemener.
+lcase(s) converterar strängen s till gemener.
 <screen>
 <command>select lcase('HELLO WORLD');</command>
 </screen>
 </para>
 
 <para>
-length(s) returnerar storleken p&aring; str&auml;ngen s.
+length(s) returnerar storleken på strängen s.
 <screen>
 <command>select length('HELLO WORLD');</command>
 </screen>
 </para>
 
 <para>
-like anv&auml;nds tillsammans med where f&ouml;r att ange jokertecken. I exemplet
-nedanf&ouml;r kommer vi f&aring; tillbaka alla poster i tabellen tabell d&auml;r f&auml;ltet adress
-b&ouml;rjar med bokstaven h.
+like används tillsammans med where för att ange jokertecken. I exemplet
+nedanför kommer vi få tillbaka alla poster i tabellen tabell där fältet adress
+börjar med bokstaven h.
 <screen>
 <command>select * from tabell where adress like 'h%';</command>
 </screen>
 </para>
 
 <para>
-lpad(s,n,c) anv&auml;nds f&ouml;r att klippa en str&auml;ng <emphasis>s</emphasis> till <emphasis>n</emphasis> antal tecken, om str&auml;ngen &auml;r kortare &auml;n <emphasis>n</emphasis> s&aring; fylls den upp med tecknet <emphasis>c</emphasis> fr&aring;n v&auml;nster.
+lpad(s,n,c) används för att klippa en sträng <emphasis>s</emphasis> till <emphasis>n</emphasis> antal tecken, om strängen är kortare än <emphasis>n</emphasis> så fylls den upp med tecknet <emphasis>c</emphasis> från vänster.
 <screen>
 <command>select lpad('data', 10, '-');</command>
 </screen>
 </para>
 
 <para>
-ltrim(s) tar bort blanktecken till v&auml;nster om str&auml;ngen <emphasis>s</emphasis>.
+ltrim(s) tar bort blanktecken till vänster om strängen <emphasis>s</emphasis>.
 <screen>
 <command>select ltrim('          hello');</command>
 </screen>
 </para>
 
 <para>
-reverse(s) kastar om str&auml;ngen <emphasis>s</emphasis> s&aring; att den l&auml;ses bakl&auml;nges.
+reverse(s) kastar om strängen <emphasis>s</emphasis> så att den läses baklänges.
 <screen>
 <command>select reverse('dallas');</command>
 </screen>
 </para>
 
 <para>
-rpad(s,n,c) fungerar precis som lpad med den skillnad att den arbetar fr&aring;n
-h&ouml;ger.
+rpad(s,n,c) fungerar precis som lpad med den skillnad att den arbetar från
+höger.
 <screen>
 <command>select rpad('data', 10, '-');</command>
 </screen>
 </para>
 
 <para>
-rtrim(s) fungerar som ltrim, men arbetar fr&aring;n h&ouml;ger.
+rtrim(s) fungerar som ltrim, men arbetar från höger.
 <screen>
 <command>select rtrim('hello         ');</command>
 </screen>
 </para>
 
 <para>
-ucase(s) konverterar str&auml;ngen <emphasis>s</emphasis> till versaler.
+ucase(s) konverterar strängen <emphasis>s</emphasis> till versaler.
 <screen>
 <command>select ucase('hello world');</command>
 </screen>
@@ -1092,61 +1092,61 @@ ucase(s) konverterar str&auml;ngen <emphasis>s</emphasis> till versaler.
 </sect2>
 
 <sect2 id="ovrigafunk">
-<title>&ouml;vriga funktioner</title>
+<title>övriga funktioner</title>
 
 <para>
-database() returnerar namnet p&aring; den databas som du jobbar med f&ouml;r tillf&auml;llet.
+database() returnerar namnet på den databas som du jobbar med för tillfället.
 <screen>
 <command>select database();</command>
 </screen>
 </para>
 
 <para>
-encrypt(s, salt) krypterar str&auml;ngen <emphasis>s</emphasis> med valfri <emphasis>salt</emphasis>. Om du
-anv&auml;nder samma str&auml;ng, men byter ut salt f&aring;r du olika krypterade str&auml;ngar. S&auml;g
-att vi vill spara ett l&ouml;senord f&ouml;r anv&auml;ndare i en databas. Vi anv&auml;nder deras
-anv&auml;ndarnamn som str&auml;ng och deras l&ouml;senord som salt. I databasen lagrar vi
-anv&auml;ndarnamnet i klartext och den krypterade str&auml;ngen vi f&aring;r fr&aring;n encrypt. F&ouml;r
-att verifiera sig m&aring;ste anv&auml;ndaren ange r&auml;tt anv&auml;ndarnamn och l&ouml;senord och v&aring;r
-applikation anv&auml;nder dessa f&ouml;r att skapa en ny krypterad str&auml;ng, om vi f&aring;r
-samma krypterade str&auml;ng har anv&auml;ndaren angett r&auml;tt l&ouml;senord.
+encrypt(s, salt) krypterar strängen <emphasis>s</emphasis> med valfri <emphasis>salt</emphasis>. Om du
+använder samma sträng, men byter ut salt får du olika krypterade strängar. Säg
+att vi vill spara ett lösenord för användare i en databas. Vi använder deras
+användarnamn som sträng och deras lösenord som salt. I databasen lagrar vi
+användarnamnet i klartext och den krypterade strängen vi får från encrypt. För
+att verifiera sig måste användaren ange rätt användarnamn och lösenord och vår
+applikation använder dessa för att skapa en ny krypterad sträng, om vi får
+samma krypterade sträng har användaren angett rätt lösenord.
 </para>
 
 <para>
-F&ouml;rdel? L&ouml;senordet lagras inte i klartext i databasen och det g&aring;r inte att f&aring;
-fram det med hj&auml;lp av anv&auml;ndarnamnet och den lagrade krypterade str&auml;ngen.
+Fördel? Lösenordet lagras inte i klartext i databasen och det går inte att få
+fram det med hjälp av användarnamnet och den lagrade krypterade strängen.
 <screen>
 <command>select encrypt('data','world');</command>
 </screen>
 </para>
 
 <para>
-md5(s) returnerar en md5summa f&ouml;r str&auml;ngen <emphasis>s</emphasis>. md5 &auml;r ett s&auml;tt att
-ber&auml;kna kontrollsummor p&aring; data. Med hj&auml;lp av md5-funktionen kan vi kontrollera
-integritet i databasen, att inte data som lagras f&ouml;r&auml;ndrats p&aring; n&aring;got otill&aring;tet
-s&auml;tt.
+md5(s) returnerar en md5summa för strängen <emphasis>s</emphasis>. md5 är ett sätt att
+beräkna kontrollsummor på data. Med hjälp av md5-funktionen kan vi kontrollera
+integritet i databasen, att inte data som lagras förändrats på något otillåtet
+sätt.
 <screen>
 <command>select md5('data');</command>
 </screen>
 </para>
 
 <para>
-password(s) returnerar en krypterad str&auml;ng av str&auml;ngen <emphasis>s</emphasis>. Kan
-anv&auml;ndas p&aring; samma s&auml;tt som encrypt.
+password(s) returnerar en krypterad sträng av strängen <emphasis>s</emphasis>. Kan
+användas på samma sätt som encrypt.
 <screen>
 <command>select password('data');</command>
 </screen>
 </para>
 
 <para>
-version() returnerar vilken version av MySQL du anv&auml;nder.
+version() returnerar vilken version av MySQL du använder.
 <screen>
 <command>select version();</command>
 </screen>
 </para>
 
 <para>
-count(x) returnerar hur m&aring;nga poster det finns i tabellen i f&auml;lt <emphasis>x</emphasis>.
+count(x) returnerar hur många poster det finns i tabellen i fält <emphasis>x</emphasis>.
 <screen>
 <command>select count(*) from elev;
 select count(*) as elever from elev;</command>
@@ -1154,7 +1154,7 @@ select count(*) as elever from elev;</command>
 </para>
 
 <para>
-count(distinct x) returnerar antalet unika poster det finns i tabellen i f&auml;lt
+count(distinct x) returnerar antalet unika poster det finns i tabellen i fält
 <emphasis>x</emphasis>.
 <screen>
 <command>select count(distinct namn) from elev;</command>
@@ -1162,28 +1162,28 @@ count(distinct x) returnerar antalet unika poster det finns i tabellen i f&auml;
 </para>
 
 <para>
-avg(x) returnerar medelv&auml;rdet fr&aring;n f&auml;ltet <emphasis>x</emphasis> i tabellen.
+avg(x) returnerar medelvärdet från fältet <emphasis>x</emphasis> i tabellen.
 <screen>
 <command>select avg(alder) from elev;</command>
 </screen>
 </para>
 
 <para>
-min(x) returnerar det minsta v&auml;rdet fr&aring;n f&auml;ltet <emphasis>x</emphasis> i tabellen.
+min(x) returnerar det minsta värdet från fältet <emphasis>x</emphasis> i tabellen.
 <screen>
 <command>select min(alder) from elev;</command>
 </screen>
 </para>
 
 <para>
-max(x) returnerar det h&ouml;gsta v&auml;rdet fr&aring;n f&auml;ltet <emphasis>x</emphasis> i tabellen.
+max(x) returnerar det högsta värdet från fältet <emphasis>x</emphasis> i tabellen.
 <screen>
 <command>select max(alder) from elev;</command>
 </screen>
 </para>
 
 <para>
-sum(x) returnerar summan av alla v&auml;rden i f&auml;ltet <emphasis>x</emphasis> i tabellen.
+sum(x) returnerar summan av alla värden i fältet <emphasis>x</emphasis> i tabellen.
 <screen>
 <command>select sum(alder) from elev;</command>
 </screen>
@@ -1197,23 +1197,23 @@ sum(x) returnerar summan av alla v&auml;rden i f&auml;ltet <emphasis>x</emphasis
 
 
 <!-- kapitel: Anvanda databasservern //-->
-<chapter id="anvandadatabasservern"><title>Anv&auml;nda databasservern</title>
+<chapter id="anvandadatabasservern"><title>Använda databasservern</title>
 
 <para>
-I detta kapitel g&aring;r vi igenom de vanligaste kommandona i SQL. Jag anv&auml;nder
-MySQL och kommandona kan skilja sig lite &aring;t om du anv&auml;nder en annan
+I detta kapitel går vi igenom de vanligaste kommandona i SQL. Jag använder
+MySQL och kommandona kan skilja sig lite åt om du använder en annan
 SQL-server.
 </para>
 
 <para>
-MySQL utvecklas av MySQL AB som &auml;r ett svenskt f&ouml;retag och de erbjuder MySQL
-fritt under LGPL-licensen. Klart v&auml;rt att titta p&aring; om du vill l&auml;ra dig
-SQL. MySQL finns tillg&auml;nglig till n&auml;stan alla plattformer, varav Linux,
-FreeBSD och Microsoft Windows &auml;r n&aring;gra.
+MySQL utvecklas av MySQL AB som är ett svenskt företag och de erbjuder MySQL
+fritt under LGPL-licensen. Klart värt att titta på om du vill lära dig
+SQL. MySQL finns tillgänglig till nästan alla plattformer, varav Linux,
+FreeBSD och Microsoft Windows är några.
 </para>
 
 <para>
-Databashanteraren f&ouml;r MySQL heter <command>mysql</command> och du ansluter till din
+Databashanteraren för MySQL heter <command>mysql</command> och du ansluter till din
 MySQL-server genom att skriva:
 
 <screen>
@@ -1222,7 +1222,7 @@ MySQL-server genom att skriva:
 </para>
 
 <para>
-D&auml;r <emphasis>jonas</emphasis> &auml;r anv&auml;ndarnamnet du har i databasservern och <emphasis>-p</emphasis> betyder att du vill ange ett l&ouml;senord.
+Där <emphasis>jonas</emphasis> är användarnamnet du har i databasservern och <emphasis>-p</emphasis> betyder att du vill ange ett lösenord.
 </para>
 
 <para>
@@ -1242,8 +1242,8 @@ Nu kan du visa alla databaser som finns i din server genom att skriva:
 <title>Skapa databasen (CREATE DATABASE)</title>
 
 <para>
-F&ouml;r att kunna h&auml;mta data m&aring;ste vi ha data att h&auml;mta, s&aring; vi skapar en databas i
-v&aring;r MySQL-server:
+För att kunna hämta data måste vi ha data att hämta, så vi skapar en databas i
+vår MySQL-server:
 <screen>
 <command>CREATE DATABASE medlemsreg;</command>
 <computeroutput>Query OK, 1 row affected (0.00 sec)</computeroutput>
@@ -1251,13 +1251,13 @@ v&aring;r MySQL-server:
 </para>
 
 <para>
-Du skall f&aring; svaret <emphasis>Query OK</emphasis>, annars har n&aring;got g&aring;tt fel. Se efter i
-felmeddelandet vad som kan vara fel, ofta f&aring;r man fel f&ouml;r att man saknar
-r&auml;ttigheter att skapa databaser eller att man stavar kommandon fel.
+Du skall få svaret <emphasis>Query OK</emphasis>, annars har något gått fel. Se efter i
+felmeddelandet vad som kan vara fel, ofta får man fel för att man saknar
+rättigheter att skapa databaser eller att man stavar kommandon fel.
 </para>
 
 <para>
-Innan vi forts&auml;tter med att arbeta mot v&aring;r nya databas m&aring;ste vi ber&auml;tta f&ouml;r databashanteraren att vi vill anv&auml;nda databasen medlemsreg som vi precis skapade. F&ouml;r att arbeta mot din nya databas skriver du:
+Innan vi fortsätter med att arbeta mot vår nya databas måste vi berätta för databashanteraren att vi vill använda databasen medlemsreg som vi precis skapade. För att arbeta mot din nya databas skriver du:
 <screen>
 <command>USE medlemsreg;</command>
 <computeroutput>Database changed</computeroutput>
@@ -1272,7 +1272,7 @@ Innan vi forts&auml;tter med att arbeta mot v&aring;r nya databas m&aring;ste vi
 <title>Skapa en tabell (CREATE TABLE)</title>
 
 <para>
-Innan vi b&ouml;rjar lagra data i v&aring;r databas skall vi skapa ett databasschema. Det g&ouml;r vi med kommandot CREATE TABLE. N&auml;r vi skapar ett databasschema anger vi vilka f&auml;lt vi vill ha och vilken typ av data f&auml;lten skall inneh&aring;lla. Nu kan vi skapa en tabell i v&aring;r nya databas.
+Innan vi börjar lagra data i vår databas skall vi skapa ett databasschema. Det gör vi med kommandot CREATE TABLE. När vi skapar ett databasschema anger vi vilka fält vi vill ha och vilken typ av data fälten skall innehålla. Nu kan vi skapa en tabell i vår nya databas.
 </para>
 
 <para>
@@ -1283,14 +1283,14 @@ Innan vi b&ouml;rjar lagra data i v&aring;r databas skall vi skapa ett databassc
 </para>
 
 <para>
-H&auml;r skapar vi tabellen <emphasis>medlem</emphasis> som kommer att ha f&auml;lten id, fnamn, enamn,
-address, postnr, ort och telefon. Datatyperna vi anger &auml;r <emphasis>INT</emphasis> som &auml;r
-ett heltal och <emphasis>CHAR</emphasis> som &auml;r ett tecken. Till char anger vi ocks&aring; hur
-m&aring;nga tecken som skall kunna lagras, det g&ouml;r vi inom paranteserna.
+Här skapar vi tabellen <emphasis>medlem</emphasis> som kommer att ha fälten id, fnamn, enamn,
+address, postnr, ort och telefon. Datatyperna vi anger är <emphasis>INT</emphasis> som är
+ett heltal och <emphasis>CHAR</emphasis> som är ett tecken. Till char anger vi också hur
+många tecken som skall kunna lagras, det gör vi inom paranteserna.
 </para>
 
 <para>
-Till f&auml;ltet <emphasis>id</emphasis> s&auml;tter vi ocks&aring; egenskaperna <emphasis>AUTO_INCREMENT</emphasis> och <emphasis>PRIMARY KEY</emphasis>. De egenskaperna g&ouml;r att f&auml;ltet automatiskt r&auml;knas upp f&ouml;r varje post som skapas och att f&auml;ltet &auml;r prim&auml;rnyckel.
+Till fältet <emphasis>id</emphasis> sätter vi också egenskaperna <emphasis>AUTO_INCREMENT</emphasis> och <emphasis>PRIMARY KEY</emphasis>. De egenskaperna gör att fältet automatiskt räknas upp för varje post som skapas och att fältet är primärnyckel.
 </para>
 
 <para>
@@ -1304,7 +1304,7 @@ Fler datatyper hittar du i <xref linkend="datatyper" /> i slutet av denna bok.
 <title>Lagra data (INSERT)</title>
 
 <para>
-Med kommandot <command>INSERT</command> kan vi lagra data i v&aring;r tabell. Vi l&auml;gger in lite medlemmar i v&aring;rt register.
+Med kommandot <command>INSERT</command> kan vi lagra data i vår tabell. Vi lägger in lite medlemmar i vårt register.
 </para>
 
 <para>
@@ -1316,14 +1316,14 @@ Med kommandot <command>INSERT</command> kan vi lagra data i v&aring;r tabell. Vi
 </para>
 
 <para>
-H&auml;r ber&auml;ttar vi f&ouml;r SQL-servern att vi vill l&auml;gga till data i tabellen medlem
-och i f&auml;lten id, fnamn, enamn, adress, postnr, ort och telefon. VALUES anger
-vilka v&auml;rden vi vill lagra i dessa f&auml;lt. Att vi l&auml;gger in tomma data ('') i f&auml;ltet
-id beror p&aring; att den r&auml;knas upp automatiskt av databashanteraren (f&auml;ltet har egenskapen AUTO_INCREMENT).
+Här berättar vi för SQL-servern att vi vill lägga till data i tabellen medlem
+och i fälten id, fnamn, enamn, adress, postnr, ort och telefon. VALUES anger
+vilka värden vi vill lagra i dessa fält. Att vi lägger in tomma data ('') i fältet
+id beror på att den räknas upp automatiskt av databashanteraren (fältet har egenskapen AUTO_INCREMENT).
 </para>
 
 <para>
-Vi kan v&auml;lja att inte ange f&auml;lten som datat skall lagras i och skriva s&aring; h&auml;r:
+Vi kan välja att inte ange fälten som datat skall lagras i och skriva så här:
 </para>
 
 <para>
@@ -1334,16 +1334,16 @@ Vi kan v&auml;lja att inte ange f&auml;lten som datat skall lagras i och skriva 
 </para>
 
 <para>
-Nackdelen med att inte ange f&auml;ltnamn &auml;r att om vi &auml;ndrar databasschemat f&aring;r vi problem med fr&aring;gorna. Data kommer att lagras i fel f&auml;lt.
+Nackdelen med att inte ange fältnamn är att om vi ändrar databasschemat får vi problem med frågorna. Data kommer att lagras i fel fält.
 </para>
 
 <para>
-Ibland vill vi bara lagra data i ett par av f&auml;lten, d&aring; skriver vi s&aring; h&auml;r:
+Ibland vill vi bara lagra data i ett par av fälten, då skriver vi så här:
 </para>
 
 <para>
 <screen>
-<command>INSERT INTO medlem(fnamn, enamn, ort) VALUES ('Kurt','Bengtsson','&Ouml;rkelljunga');</command>
+<command>INSERT INTO medlem(fnamn, enamn, ort) VALUES ('Kurt','Bengtsson','Örkelljunga');</command>
 <computeroutput>Query OK, 1 row affected (0.00 sec)</computeroutput>
 </screen>
 </para>
@@ -1355,17 +1355,17 @@ Skapa nu ett par fiktiva medlemar i din databas.
 <para>
 <screen>
 <command>INSERT INTO medlem(id, fnamn, enamn, adress, postnr, ort, telefon) VALUES
-('','Johan','Andersson','Lill&aring;stigen 3','23423','Lillby','012-123344');</command>
+('','Johan','Andersson','Lillåstigen 3','23423','Lillby','012-123344');</command>
 <computeroutput>Query OK, 1 row affected (0.00 sec)</computeroutput>
 <command>INSERT INTO medlem(id, fnamn, enamn, adress, postnr, ort, telefon) VALUES
-('','Jill','Jonsson','Sommarv&auml;gen 72','54333','&ouml;sterberg','043-156789');</command>
+('','Jill','Jonsson','Sommarvägen 72','54333','österberg','043-156789');</command>
 <computeroutput>Query OK, 1 row affected (0.00 sec)</computeroutput>
 </screen>
 </para>
 
 
 <para>
-Nu kan du titta p&aring; dina data genom att skriva:
+Nu kan du titta på dina data genom att skriva:
 </para>
 
 <para>
@@ -1375,25 +1375,25 @@ Nu kan du titta p&aring; dina data genom att skriva:
 | id | fnamn | enamn     | address        | postnr | ort         | telefon    |
 +----+-------+-----------+----------------+--------+-------------+------------+
 |  1 | Kalle | Svensson  | Storgatan 42   |  12345 | Storstad    | 011-121212 |
-|  2 | Kurt  | Bengtsson | NULL           |   NULL | &Ouml;rkelljunga | NULL       |
-|  3 | Johan | Andersson | Lill&aring;stigen 3  |  23423 | Lillby      | 012-123344 |
-|  4 | Jill  | Jonsson   | Sommarv&auml;gen 72 |  54333 | &Ouml;sterberg   | 043-156789 |
+|  2 | Kurt  | Bengtsson | NULL           |   NULL | Örkelljunga | NULL       |
+|  3 | Johan | Andersson | Lillåstigen 3  |  23423 | Lillby      | 012-123344 |
+|  4 | Jill  | Jonsson   | Sommarvägen 72 |  54333 | Österberg   | 043-156789 |
 +----+-------+-----------+----------------+--------+-------------+------------+
 4 rows in set (0.46 sec)</computeroutput>
 </screen>
 </para>
 
 <para>
-Vi anv&auml;nder en stj&auml;rna (*) som f&auml;ltnamn i selectsatsen. Stj&auml;rnan betyder <emphasis>alla f&auml;lt</emphasis>. Som du ser ovanf&ouml;r har raden med id 2 tre f&auml;lt som har v&auml;rdet NULL. NULL inneb&auml;r att det inte finns n&aring;gon data lagrad i f&auml;ltet.
+Vi använder en stjärna (*) som fältnamn i selectsatsen. Stjärnan betyder <emphasis>alla fält</emphasis>. Som du ser ovanför har raden med id 2 tre fält som har värdet NULL. NULL innebär att det inte finns någon data lagrad i fältet.
 </para>
 
 <sect2 id="tabellavgifter">
 <title>Tabellen avgifter</title>
 
 <para>
-Nu har vi ett adressregister &ouml;ver medlemmar i en f&ouml;rening. Kanske &auml;r det en
-bra ide att ha ett register &ouml;ver vilka som betalat medlemsavgiften ocks&aring;? F&ouml;r
-detta f&aring;r vi skapa en ny tabell. Skapa tabellen <emphasis role="strong">avgifter</emphasis>:
+Nu har vi ett adressregister över medlemmar i en förening. Kanske är det en
+bra ide att ha ett register över vilka som betalat medlemsavgiften också? För
+detta får vi skapa en ny tabell. Skapa tabellen <emphasis role="strong">avgifter</emphasis>:
 </para>
 
 <para>
@@ -1404,14 +1404,14 @@ detta f&aring;r vi skapa en ny tabell. Skapa tabellen <emphasis role="strong">av
 </para>
 
 <para>
-Tabellen avgifter inneh&aring;ller tre f&auml;lt: medlem som &auml;r av datatypen INT, avgift som &auml;r av datatypen INT och f&auml;ltet datum som &auml;r av datatypen DATE.
+Tabellen avgifter innehåller tre fält: medlem som är av datatypen INT, avgift som är av datatypen INT och fältet datum som är av datatypen DATE.
 
-Tanken &auml;r att f&auml;ltet medlem skall kopplas mot f&auml;ltet id i tabellen medlem.
+Tanken är att fältet medlem skall kopplas mot fältet id i tabellen medlem.
 </para>
 
 <para>
-Sedan l&auml;gger vi in medlemsavgifterna f&ouml;r medlemmarna, Kalle har betalat in 200
-kronor och hans medlemsskap upph&ouml;r den 29 maj 2003, Kurt's medlemsskap upph&ouml;r den 19 juni 2003, Johan's medlemsskap upph&ouml;r den 2 augusti 2003 och Jill's medlemsskap upph&ouml;r den 2 december 2003.
+Sedan lägger vi in medlemsavgifterna för medlemmarna, Kalle har betalat in 200
+kronor och hans medlemsskap upphör den 29 maj 2003, Kurt's medlemsskap upphör den 19 juni 2003, Johan's medlemsskap upphör den 2 augusti 2003 och Jill's medlemsskap upphör den 2 december 2003.
 </para>
 
 <para>
@@ -1432,9 +1432,9 @@ kronor och hans medlemsskap upph&ouml;r den 29 maj 2003, Kurt's medlemsskap upph
 </sect1>
 
 <sect1 id="stallafragor">
-<title>St&auml;lla fr&aring;gor (SELECT)</title>
+<title>Ställa frågor (SELECT)</title>
 
-<para>När vi använder select för att hämta data måste vi ange minst två saker. Först vad man vill välja (vilket fält) och sedan varifrån vi vill välja det (vilken tabell).
+<para>N?r vi anv?nder select f?r att h?mta data m?ste vi ange minst tv? saker. F?rst vad man vill v?lja (vilket f?lt) och sedan varifr?n vi vill v?lja det (vilken tabell).
 </para>
 
 <para>
@@ -1445,12 +1445,12 @@ Nu kan vi se alla avgifter genom att skriva:
 </para>
 
 <para>
-Selectsatsen ovanför hämtar fältet <emphasis role="strong">datum</emphasis> från tabellen <emphasis role="strong">avgifter</emphasis>. Fältnamnet anges direkt efter SELECT och namnet på tabellen som vi vill hämta data från anges efter FROM.
+Selectsatsen ovanf?r h?mtar f?ltet <emphasis role="strong">datum</emphasis> fr?n tabellen <emphasis role="strong">avgifter</emphasis>. F?ltnamnet anges direkt efter SELECT och namnet p? tabellen som vi vill h?mta data fr?n anges efter FROM.
 </para>
 
 <para>
-Det &auml;r kanske inte s&aring; anv&auml;ndbart, men trots allt -- det &auml;r data. Lite mer
-anv&auml;ndbart f&ouml;r oss &auml;r denna fr&aring;ga:
+Det är kanske inte så användbart, men trots allt -- det är data. Lite mer
+användbart för oss är denna fråga:
 </para>
 
 <para>
@@ -1469,13 +1469,13 @@ anv&auml;ndbart f&ouml;r oss &auml;r denna fr&aring;ga:
 </para>
 
 <para>
-Lite mer anv&auml;ndbart. Vad vi g&ouml;r i fr&aring;gan &auml;r att vi s&auml;ger att vi vill ha data
-fr&aring;n f&auml;lten fnamn, enamn och datum fr&aring;n tabellerna medlem och avgift, men bara
-d&auml;r f&auml;ltet id &auml;r det samma som f&auml;ltet medlem.
+Lite mer användbart. Vad vi gör i frågan är att vi säger att vi vill ha data
+från fälten fnamn, enamn och datum från tabellerna medlem och avgift, men bara
+där fältet id är det samma som fältet medlem.
 </para>
 
 <para>
-Skall man vara riktigt korrekt b&ouml;r man skriva fr&aring;gan s&aring; h&auml;r:
+Skall man vara riktigt korrekt bör man skriva frågan så här:
 <screen>
 <command>SELECT medlem.fnamn,medlem.enamn,avgifter.datum FROM medlem,avgifter WHERE
 medlem.id=avgifter.medlem;</command>
@@ -1483,11 +1483,11 @@ medlem.id=avgifter.medlem;</command>
 </para>
 
 <para>
-H&auml;r anger vi vilken tabell f&auml;ltet tillh&ouml;r ocks&aring;.
+Här anger vi vilken tabell fältet tillhör också.
 </para>
 
 <para>
-Vilka har inte betalat sin medlemsavgift? Det f&aring;r vi reda p&aring; genom att skriva:
+Vilka har inte betalat sin medlemsavgift? Det får vi reda på genom att skriva:
 
 <screen>
 <command>SELECT fnamn,enamn,datum FROM medlem,avgifter WHERE id=medlem and datum < '2003-08-11';</command>
@@ -1495,11 +1495,11 @@ Vilka har inte betalat sin medlemsavgift? Det f&aring;r vi reda p&aring; genom a
 </para>
 
 <para>
-I ovanst&aring;ende fr&aring;ga h&auml;mtar vi data fr&aring;n tv&aring; tabeller, <emphasis>medlem</emphasis> och <emphasis>avgifter</emphasis>.
+I ovanstående fråga hämtar vi data från två tabeller, <emphasis>medlem</emphasis> och <emphasis>avgifter</emphasis>.
 </para>
 
 <para>
-Svaret vi f&aring;r fram &auml;r:
+Svaret vi får fram är:
 
 <programlisting>
 +-------+----------+------------+
@@ -1511,7 +1511,7 @@ Svaret vi f&aring;r fram &auml;r:
 </para>
 
 <sect2>
-<title>St&auml;lla fr&aring;gor med JOIN</title>
+<title>Ställa frågor med JOIN</title>
 <para>
 join
 </para>
@@ -1521,20 +1521,20 @@ join
 </sect1>
 
 <sect1 id="andradata">
-<title>&Auml;ndra data (UPDATE)</title>
+<title>Ändra data (UPDATE)</title>
 
 <para>
-Kalle betalar sin medlemsavgift och vi m&aring;ste &auml;ndra datumet i databasen. Det
-g&ouml;r vi genom att skriva:
+Kalle betalar sin medlemsavgift och vi måste ändra datumet i databasen. Det
+gör vi genom att skriva:
 <screen>
 <command>UPDATE avgifter SET datum='2004-08-30' WHERE medlem='1';</command>
 </screen>
 </para>
 
 <para>
-Vill du uppdatera flera f&auml;lt i en post skriver du:
+Vill du uppdatera flera fält i en post skriver du:
 <screen>
-<command>UPDATE tabell SET f&auml;lt1='data', f&auml;lt2='merdata' WHERE medlem='1';</command>
+<command>UPDATE tabell SET fält1='data', fält2='merdata' WHERE medlem='1';</command>
 </screen>
 </para>
 
@@ -1545,12 +1545,12 @@ Vill du uppdatera flera f&auml;lt i en post skriver du:
 
 <warning>
 <para>
-Kommandot DELETE &auml;r ett destruktivt kommando! Om du tar bort en post med delete kommer den f&ouml;rsvinna f&ouml;r alltid!
+Kommandot DELETE är ett destruktivt kommando! Om du tar bort en post med delete kommer den försvinna för alltid!
 </para>
 </warning>
 
 <para>
-Om du vill ta bort poster fr&aring;n din databas anv&auml;nder du kommandot <command>DELETE</command>. S&auml;g att medlem 2 (Johan Andersson) inte hade betalat sin medlemsavgift. Vi m&aring;ste ta bort denna uppgift fr&aring;n databasen och skriver:
+Om du vill ta bort poster från din databas använder du kommandot <command>DELETE</command>. Säg att medlem 2 (Johan Andersson) inte hade betalat sin medlemsavgift. Vi måste ta bort denna uppgift från databasen och skriver:
 <screen>
 <command>DELETE FROM avgifter WHERE id='2';</command>
 </screen>
@@ -1559,17 +1559,17 @@ Om du vill ta bort poster fr&aring;n din databas anv&auml;nder du kommandot <com
 </sect1>
 
 <sect1 id="summaavfalt">
-<title>Summa av f&auml;lt (SUM)</title>
+<title>Summa av fält (SUM)</title>
 
 <para>
-En sista fr&aring;ga d&aring;, hur mycket medlemsavgifter har vi f&aring;tt in?
+En sista fråga då, hur mycket medlemsavgifter har vi fått in?
 <screen>
 <command>SELECT SUM(avgift) FROM avgifter;</command>
 </screen>
 </para>
 
 <para>
-Databasen ber&auml;ttar f&ouml;r oss att vi f&aring;tt in 600 kronor i medlemsavgifter.
+Databasen berättar för oss att vi fått in 600 kronor i medlemsavgifter.
 </para>
 
 </sect1>
@@ -1587,7 +1587,7 @@ Databasen ber&auml;ttar f&ouml;r oss att vi f&aring;tt in 600 kronor i medlemsav
 
 <para>Kommandot <command>SHOW DATABASES</command> visar alla databaser som finns i databasservern.</para>
 
-<para>En nyinstallerad MySQL-server har tv&aring; databaser installerade: mysql och test.</para>
+<para>En nyinstallerad MySQL-server har två databaser installerade: mysql och test.</para>
 
 <screen>
 <command>SHOW DATABASES;</command>
@@ -1604,7 +1604,7 @@ Databasen ber&auml;ttar f&ouml;r oss att vi f&aring;tt in 600 kronor i medlemsav
 <sect1 id="dataskapadatabasen">
 <title>Skapa databasen (CREATE DATABASE)</title>
 
-<para>Kommandot <command>CREATE DATABASE</command> skapar en databas i databasservern. Med hj&auml;lp av <command>IF NOT EXISTS</command> kontrollerar du att databasen inte redan finns. Du anv&auml;nder naturligtvis bara en av dessa CREATE DATABASE f&ouml;r att skapa en databas.</para>
+<para>Kommandot <command>CREATE DATABASE</command> skapar en databas i databasservern. Med hjälp av <command>IF NOT EXISTS</command> kontrollerar du att databasen inte redan finns. Du använder naturligtvis bara en av dessa CREATE DATABASE för att skapa en databas.</para>
 
 <screen>
 <command>CREATE DATABASE mindatabas;</command>
@@ -1622,11 +1622,11 @@ Databasen ber&auml;ttar f&ouml;r oss att vi f&aring;tt in 600 kronor i medlemsav
 
 <warning>
 <para>
-Kommandot DROP DATABASE &auml;r ett destruktivt kommando! Om du tar bort en databas med DROP kommer den f&ouml;rsvinna f&ouml;r alltid! Detta &auml;r s&auml;rskilt viktigt att t&auml;nka p&aring; n&auml;r det g&auml;ller databasen <emphasis>mysql</emphasis> som inneh&aring;ller information om anv&auml;ndare och deras r&auml;ttigheter i databasen! <emphasis role="strong">Ta inte bort databasen mysql !</emphasis>
+Kommandot DROP DATABASE är ett destruktivt kommando! Om du tar bort en databas med DROP kommer den försvinna för alltid! Detta är särskilt viktigt att tänka på när det gäller databasen <emphasis>mysql</emphasis> som innehåller information om användare och deras rättigheter i databasen! <emphasis role="strong">Ta inte bort databasen mysql !</emphasis>
 </para>
 </warning>
 
-<para>Ibland vill vi ta bort databaser fr&aring;n servern, detta g&ouml;r vi med kommandot <command>DROP DATABASE</command>. Se exemplen nedanf&ouml;r. Du anv&auml;nder naturligtvis en av dessa f&ouml;r att ta bort en databas, inte b&aring;da samtidigt.</para>
+<para>Ibland vill vi ta bort databaser från servern, detta gör vi med kommandot <command>DROP DATABASE</command>. Se exemplen nedanför. Du använder naturligtvis en av dessa för att ta bort en databas, inte båda samtidigt.</para>
 
 <screen>
 <command>DROP DATABASE mindatabas;</command>
@@ -1655,30 +1655,30 @@ Kommandot DROP DATABASE &auml;r ett destruktivt kommando! Om du tar bort en data
 [table_options] [select_statement]</computeroutput>
 </screen>
 
-<para>Det &auml;r vid create_statement du anger kolumnnamn och datatyper, prim&auml;rnyckel, index och restriktioner.</para>
+<para>Det är vid create_statement du anger kolumnnamn och datatyper, primärnyckel, index och restriktioner.</para>
 
-<para>AUTO_INCREMENT anv&auml;nder vi f&ouml;r att f&aring; f&auml;lt att automatiskt r&auml;kna upp v&auml;rden. Ett f&auml;lt som &auml;r satt som AUTO_INCREMENT m&aring;ste ocks&aring; vara nyckelf&auml;lt och du kan bara ha ett f&auml;lt som &auml;r AUTO_INCREMENT. N&auml;r du lagrar data i en kolumn som &auml;r AUTO_INCREMENT tar databasen det senaste v&auml;rdet som lagrats i kolumnen och adderar det v&auml;rdet med ett (1). Som standard b&ouml;rjar databasen att r&auml;kna fr&aring;n siffran ett (1), men du kan naturligtvis &auml;ndra detta n&auml;r du skapar tabellen.</para>
+<para>AUTO_INCREMENT använder vi för att få fält att automatiskt räkna upp värden. Ett fält som är satt som AUTO_INCREMENT måste också vara nyckelfält och du kan bara ha ett fält som är AUTO_INCREMENT. När du lagrar data i en kolumn som är AUTO_INCREMENT tar databasen det senaste värdet som lagrats i kolumnen och adderar det värdet med ett (1). Som standard börjar databasen att räkna från siffran ett (1), men du kan naturligtvis ändra detta när du skapar tabellen.</para>
 
 <screen><command>CREATE TABLE exempel (ID INT AUTO_INCREMENT PRIMARY KEY, namn CHAR(10));</command>
 <computeroutput>Query OK, 0 rows affected (0.19 sec)</computeroutput>
 </screen>
 
-<para>Ovanst&aring;ende fr&aring;ga skapar tabellen <emphasis>exempel</emphasis>. Tabellen best&aring;r av tv&aring; f&auml;lt: <emphasis>ID</emphasis> som &auml;r av datatypen int (heltal) och har egenskaperna AUTO_INCREMENT och prim&auml;rnyckel och f&auml;ltet <emphasis>namn</emphasis> som &auml;r av datatypen char (tecken) och vi s&auml;ger &aring;t databasen att vi som mest kommer att lagra tio (10) tecken i f&auml;ltet.</para>
+<para>Ovanstående fråga skapar tabellen <emphasis>exempel</emphasis>. Tabellen består av två fält: <emphasis>ID</emphasis> som är av datatypen int (heltal) och har egenskaperna AUTO_INCREMENT och primärnyckel och fältet <emphasis>namn</emphasis> som är av datatypen char (tecken) och vi säger åt databasen att vi som mest kommer att lagra tio (10) tecken i fältet.</para>
 
 <screen><command>CREATE TABLE exempel2 (ID INT AUTO_INCREMENT PRIMARY KEY, namn CHAR(10)) AUTO_INCREMENT=20;</command>
 <computeroutput>Query OK, 0 rows affected (0.19 sec)</computeroutput>
 </screen>
 
-<para>I ovanst&aring;ende fr&aring;ga g&ouml;r vi samma sak som innan, med skillnaden att vi s&auml;ger att AUTO_INCREMENT skall b&ouml;rja r&auml;kna fr&aring;n 20.</para>
+<para>I ovanstående fråga gör vi samma sak som innan, med skillnaden att vi säger att AUTO_INCREMENT skall börja räkna från 20.</para>
 
 <tip>
-<para>N&auml;r man anv&auml;nder AUTO_INCREMENT g&ouml;r man det s&aring; gott som alltid p&aring; f&auml;lt av heltalstyp (int).</para>
+<para>När man använder AUTO_INCREMENT gör man det så gott som alltid på fält av heltalstyp (int).</para>
 </tip>
 
 </sect1>
 
 <sect1 id="andratabeller">
-<title>&Auml;ndra tabeller (ALTER TABLE)</title>
+<title>Ändra tabeller (ALTER TABLE)</title>
 
 <para>
 
@@ -1689,60 +1689,60 @@ Kommandot DROP DATABASE &auml;r ett destruktivt kommando! Om du tar bort en data
 </chapter>
 
 <!-- kapitel: Databasprogrammering //-->
-<chapter id="databasprogrammering"><title>Anv&auml;nda databaser i programmering (formul&auml;r)</title>
+<chapter id="databasprogrammering"><title>Använda databaser i programmering (formulär)</title>
 
 <abstract>
-	<para>Detta kapitel visar hur du med enkelhet kan anv&auml;nda dina databaskunskaper i programmeringsspr&aring;ket PHP. PHP anv&auml;nder du f&ouml;r att skapa dynamiska webbsidor f&ouml;r Internet och kan man f&aring; mer dynamik i webbsidorna &auml;n att anv&auml;nda en databashanterare som datalagrare?
+	<para>Detta kapitel visar hur du med enkelhet kan använda dina databaskunskaper i programmeringsspråket PHP. PHP använder du för att skapa dynamiska webbsidor för Internet och kan man få mer dynamik i webbsidorna än att använda en databashanterare som datalagrare?
 	</para>
 </abstract>
 
 <para>
-Du beh&ouml;ver inte kunna skriva webbsidor sedan tidigare, &auml;ven om det underl&auml;ttar om du kan lite XHTML.
+Du behöver inte kunna skriva webbsidor sedan tidigare, även om det underlättar om du kan lite XHTML.
 </para>
 
 <tip><para>
-Faktum &auml;r att kombinationen Apache (webbserver), MySQL (databashanterare) och PHP (skriptspr&aring;k) &auml;r mer anv&auml;nd &auml;n Microsoft IIS/ASP/SQL p&aring; Internet. K&auml;lla: <ulink url="http://www.netcraft.com"><citetitle>www.netcraft.com</citetitle></ulink> .
+Faktum är att kombinationen Apache (webbserver), MySQL (databashanterare) och PHP (skriptspråk) är mer använd än Microsoft IIS/ASP/SQL på Internet. Källa: <ulink url="http://www.netcraft.com"><citetitle>www.netcraft.com</citetitle></ulink> .
 </para></tip>
 
 <sect1 id="PHPfunktioner">
 <title>SQL-funktioner i PHP</title>
 
 <para>
-De vanligaste funktionerna som du kommer att beh&ouml;va f&ouml;r att kommunicera med din MySQL-server fr&aring;n PHP.
+De vanligaste funktionerna som du kommer att behöva för att kommunicera med din MySQL-server från PHP.
 </para>
 
 <sect2 id="mysql_connect">
 <title>mysql_connect</title>
 
-<abstract><para>mysql_connect() - skapar f&ouml;rbindelsen med MySQL-servern</para></abstract>
+<abstract><para>mysql_connect() - skapar förbindelsen med MySQL-servern</para></abstract>
 
 <para>
-resurs <command>mysql_connect</command>( [str&auml;ng server [, str&auml;ng anvÃ¤ndarnamn [, str&auml;ng l&ouml;senord [, bool nyl&auml;nk [, int klient_flaggor]]]]])
+resurs <command>mysql_connect</command>( [sträng server [, sträng användarnamn [, sträng lösenord [, bool nylänk [, int klient_flaggor]]]]])
 </para>
 
 <para>
-<command>mysql_connect()</command> skapar en f&ouml;rbindelse med MySQL-servern s&aring; att vi kan arbeta med den fr&aring;n v&aring;rt PHP-skript. Om vi inte anger n&aring;gra v&auml;rden &auml;r <command>mysql_connect</command> inst&auml;lld p&aring; att anv&auml;nda f&ouml;ljande v&auml;rden: <emphasis>server =</emphasis> localhost:3306, <emphasis>anv&auml;ndarnamn =</emphasis> den anv&auml;ndare som k&ouml;r skriptet (oftast webbserverns anv&auml;ndare; www eller apache) och <emphasis>l&ouml;senord =</emphasis> tomt l&ouml;senord. localhost &auml;r den lokala datorn (den som skriptet k&ouml;rs p&aring;) och 3306 &auml;r standardporten f&ouml;r MySQL-servern.
+<command>mysql_connect()</command> skapar en förbindelse med MySQL-servern så att vi kan arbeta med den från vårt PHP-skript. Om vi inte anger några värden är <command>mysql_connect</command> inställd på att använda följande värden: <emphasis>server =</emphasis> localhost:3306, <emphasis>användarnamn =</emphasis> den användare som kör skriptet (oftast webbserverns användare; www eller apache) och <emphasis>lösenord =</emphasis> tomt lösenord. localhost är den lokala datorn (den som skriptet körs på) och 3306 är standardporten för MySQL-servern.
 </para>
 
 <para>
-Mysql_connect returnerar en MYSQL-l&auml;nk om den lyckas ansluta. Misslyckas den returneras FALSE.
+Mysql_connect returnerar en MYSQL-länk om den lyckas ansluta. Misslyckas den returneras FALSE.
 </para>
 
 <para>
-F&ouml;rbindelsen med MYSQL-servern d&ouml;r s&aring; snart PHP-skriptet k&ouml;rts, eller n&auml;r du anropar mysql_close()-funktionen.
+Förbindelsen med MYSQL-servern dör så snart PHP-skriptet körts, eller när du anropar mysql_close()-funktionen.
 </para>
 
 <para>
-I <xref linkend="ex_mysql_connect" /> skapar vi en anslutning (<varname>$conn</varname>) till MySQL-servern p&aring; <emphasis>localhost</emphasis>, vi loggar in p&aring; den som anv&auml;ndaren <emphasis>kalle</emphasis> med l&auml;senordet <emphasis>hemligt</emphasis>. Om anslutningen misslyckas avslutar vi skriptet med <emphasis>or die...</emphasis>, d&auml;r vi anropar funktionen <command>mysql_error()</command> som skriver ut varf&auml;r anslutningen misslyckades. Om anslutningen lyckades skriver vi ut (<command>print</command>) lite text och avslutar f&auml;rbindelsen med <command>mysql_close()</command>-funktionen.
+I <xref linkend="ex_mysql_connect" /> skapar vi en anslutning (<varname>$conn</varname>) till MySQL-servern på <emphasis>localhost</emphasis>, vi loggar in på den som användaren <emphasis>kalle</emphasis> med läsenordet <emphasis>hemligt</emphasis>. Om anslutningen misslyckas avslutar vi skriptet med <emphasis>or die...</emphasis>, där vi anropar funktionen <command>mysql_error()</command> som skriver ut varfär anslutningen misslyckades. Om anslutningen lyckades skriver vi ut (<command>print</command>) lite text och avslutar färbindelsen med <command>mysql_close()</command>-funktionen.
 </para>
 
 <para>
-I <xref linkend="ex_mysql_connect2" /> skapar samma anslutning som i <xref linkend="ex_mysql_connect" /> med en enda skillnad: vi har lagrat servernamnet, anv&auml;ndarnamnet och l&ouml;senordet i variabler. Variabeln <varname>$host</varname> anger vilken MySQL-server vi vill ansluta till, <varname>$user</varname> anger vilken anv&auml;ndare vi vill ansluta som och <varname>$pass</varname> anger vilket l&ouml;senord vi vill anv&auml;nda.
+I <xref linkend="ex_mysql_connect2" /> skapar samma anslutning som i <xref linkend="ex_mysql_connect" /> med en enda skillnad: vi har lagrat servernamnet, användarnamnet och lösenordet i variabler. Variabeln <varname>$host</varname> anger vilken MySQL-server vi vill ansluta till, <varname>$user</varname> anger vilken användare vi vill ansluta som och <varname>$pass</varname> anger vilket lösenord vi vill använda.
 </para>
 
 <note>
 <para>
-&Auml;ven om vi inte beh&ouml;ver avsluta f&ouml;rbindelsen till MySQL-servern (f&ouml;rbindelsen avslutas automatiskt n&auml;r skriptet k&ouml;rts) b&ouml;r vi g&ouml;ra det. Om inget annat ser det snyggare ut i koden.
+Även om vi inte behöver avsluta förbindelsen till MySQL-servern (förbindelsen avslutas automatiskt när skriptet körts) bör vi göra det. Om inget annat ser det snyggare ut i koden.
 </para>
 </note>
 
@@ -1784,21 +1784,21 @@ I <xref linkend="ex_mysql_connect2" /> skapar samma anslutning som i <xref linke
 <title>mysql_close</title>
 
 <para>
-Med funktionen mysql_close st&auml;nger du f&ouml;rbindelsen med MYSQL-servern.
+Med funktionen mysql_close stänger du förbindelsen med MYSQL-servern.
 </para>
 
 <para>
 <screen>
-<command>mysql_close ( [ l&auml;nkid ] )</command>
+<command>mysql_close ( [ länkid ] )</command>
 </screen>
 </para>
 
 <para>
-	Funktionen returnerar <varname>TRUE</varname> om den lyckades st&auml;nga f&ouml;rbindelsen och <varname>FALSE</varname> om den misslyckades. Se <xref linkend="ex_mysql_connect" /> och <xref linkend="ex_mysql_connect2" /> f&ouml;r exempel.
+	Funktionen returnerar <varname>TRUE</varname> om den lyckades stänga förbindelsen och <varname>FALSE</varname> om den misslyckades. Se <xref linkend="ex_mysql_connect" /> och <xref linkend="ex_mysql_connect2" /> för exempel.
 </para>
 
 <para>
-	Se <xref linkend="ex_mysql_connect" /> f&ouml;r exempel.
+	Se <xref linkend="ex_mysql_connect" /> för exempel.
 </para>
 
 </sect2>
@@ -1806,32 +1806,32 @@ Med funktionen mysql_close st&auml;nger du f&ouml;rbindelsen med MYSQL-servern.
 <sect2 id="mysql_query"><title>mysql_query</title>
 
 <abstract>
-	<para>resurs <command>mysql_query</command> ( fråga [, resursid] )</para>
+	<para>resurs <command>mysql_query</command> ( fr?ga [, resursid] )</para>
 </abstract>
 
 <para>
-	<command>mysql_query</command> anv&auml;nder du f&ouml;r att st&auml;lla fr&aring;gor till databasen fr&aring;n PHP. Om du inte anger ett <emphasis>resursid</emphasis> kommer PHP att anv&auml;nda den senast &ouml;ppnade l&auml;nken till en databas. Svaret fr&aring;n databasfr&aring;gan buffras i minnet och du kan anv&auml;nda till exempel <xref linkend="mysql_fetch_row" /> f&ouml;r att h&auml;mta datat.
+	<command>mysql_query</command> använder du för att ställa frågor till databasen från PHP. Om du inte anger ett <emphasis>resursid</emphasis> kommer PHP att använda den senast öppnade länken till en databas. Svaret från databasfrågan buffras i minnet och du kan använda till exempel <xref linkend="mysql_fetch_row" /> för att hämta datat.
 </para>
 
 <note>
 <para>
-	Du skall inte anv&auml;nda semikolon (<emphasis>;</emphasis>) i SQL-fr&aring;gorna du st&auml;ller med <command>mysql_query</command> !
+	Du skall inte använda semikolon (<emphasis>;</emphasis>) i SQL-frågorna du ställer med <command>mysql_query</command> !
 </para>
 </note>
 
 <para>
-	<command>mysql_query</command> returnerar <varname>TRUE</varname> om fr&aring;gan lyckas, och <varname>FALSE</varname> om den misslyckas med fr&aring;gan. Orsaker till misslyckande kan vara: du anger felaktigt namn p&aring; tabeller och poster, du saknar beh&ouml;righet till databasen eller att det saknas en f&ouml;rbindelse till databasen.
+	<command>mysql_query</command> returnerar <varname>TRUE</varname> om frågan lyckas, och <varname>FALSE</varname> om den misslyckas med frågan. Orsaker till misslyckande kan vara: du anger felaktigt namn på tabeller och poster, du saknar behörighet till databasen eller att det saknas en förbindelse till databasen.
 </para>
 
 <para>
-	Om fr&aring;gan lyckas kan du anv&auml;nda <command>mysql_num_rows()</command> f&ouml;r att f&aring; reda p&aring; hur m&aring;nga poster den returnerade (detta g&auml;ller enbart select-fr&aring;gor). <command>mysql_affected_rows()</command> returnerar p&aring; samma s&auml;tt antalet poster som anv&auml;ndes av en delete-, insert-, replace- eller updatefråga.
+	Om frågan lyckas kan du använda <command>mysql_num_rows()</command> för att få reda på hur många poster den returnerade (detta gäller enbart select-frågor). <command>mysql_affected_rows()</command> returnerar på samma sätt antalet poster som användes av en delete-, insert-, replace- eller updatefråga.
 </para>
 
 <para>
-	Om du st&auml;ller fr&aring;gor av typen SELECT, SHOW, DESCRIBE eller EXPLAIN kommer <command>mysql_query()</command> returnera en l&auml;nk som du kan anv&auml;nda i <command>mysql_fetch_array()</command>. N&auml;r du &auml;r klar med behandlingen av datat kan du frig&ouml;ra resurserna med hj&auml;lp av <command>mysql_free_result()</command>. Detta sker automatiskt n&auml;r skriptet avslutats.
+	Om du ställer frågor av typen SELECT, SHOW, DESCRIBE eller EXPLAIN kommer <command>mysql_query()</command> returnera en länk som du kan använda i <command>mysql_fetch_array()</command>. När du är klar med behandlingen av datat kan du frigöra resurserna med hjälp av <command>mysql_free_result()</command>. Detta sker automatiskt när skriptet avslutats.
 </para>
 
-<example id="ex_mysql_query"><title>St&auml;lla fr&aring;gor med mysql_query</title>
+<example id="ex_mysql_query"><title>Ställa frågor med mysql_query</title>
 <programlisting>
 <![CDATA[
 <?php
@@ -1879,32 +1879,32 @@ while($tmp = mysql_fetch_row($query))
 </abstract>
 
 <para>
-	<command>mysql_fetch_array</command> h&auml;mtar SQL-fr&aring;gan och lagrar den som en tabell, en numerisk tabell eller båda.
+	<command>mysql_fetch_array</command> hämtar SQL-frågan och lagrar den som en tabell, en numerisk tabell eller b?da.
 </para>
 
 <para>
-	Returnerar en tabell baserad på en post, eller <varname>FALSE</varname> om det inte finns några poster kvar.
+	Returnerar en tabell baserad p? en post, eller <varname>FALSE</varname> om det inte finns n?gra poster kvar.
 </para>
 
 <para>
-	<command>mysql_fetch_array()</command> är en utökad version av <command>mysql_fetch_row()</command>. Skillnaden mellan dem är att med <command>mysql_fetch_array()</command> kan du komma åt dina fält med deras namn och inte bara numeriska värden.
+	<command>mysql_fetch_array()</command> ?r en ut?kad version av <command>mysql_fetch_row()</command>. Skillnaden mellan dem ?r att med <command>mysql_fetch_array()</command> kan du komma ?t dina f?lt med deras namn och inte bara numeriska v?rden.
 </para>
 
 <para>
-	Om två, eller fler, fält har samma namn kommer den sista att gälla. För att komma åt fältet innan måste du använda det numeriska värdet, eller skapa ett alias för fältet.
+	Om tv?, eller fler, f?lt har samma namn kommer den sista att g?lla. F?r att komma ?t f?ltet innan m?ste du anv?nda det numeriska v?rdet, eller skapa ett alias f?r f?ltet.
 </para>
 
 <para>
-	<emphasis>Resultattypen</emphasis> kan vara <varname>MYSQL_ASSOC</varname>, <varname>MYSQL_NUM</varname> eller <varname>MYSQL_BOTH</varname> och anger vilken typ av array vi vill ha som svar. <varname>MYSQL_ASSOC</varname> ger oss en array d&auml;r vi kan anv&auml;nda <varname>$var['namn']</varname>, d&auml;r <varname>$var</varname> &auml;r namnet p&aring; den array vi har och <varname>['namn']</varname> anger vilket f&auml;lt vi vill anv&auml;nda.
+	<emphasis>Resultattypen</emphasis> kan vara <varname>MYSQL_ASSOC</varname>, <varname>MYSQL_NUM</varname> eller <varname>MYSQL_BOTH</varname> och anger vilken typ av array vi vill ha som svar. <varname>MYSQL_ASSOC</varname> ger oss en array där vi kan använda <varname>$var['namn']</varname>, där <varname>$var</varname> är namnet på den array vi har och <varname>['namn']</varname> anger vilket fält vi vill använda.
 </para>
 
 <para>
-	<varname>MYSQL_NUM</varname> numrerar f&auml;lten i arrayen s&aring; att du kommer &aring;t dem genom <varname>$var[0]</varname>, <varname>$var[1]</varname> ... Denna metod kr&auml;ver att du k&auml;nner till din databas v&auml;l, eftersom att du m&aring;ste veta ordningen p&aring; f&auml;lten. F&auml;lten b&ouml;rjar r&auml;knas fr&aring;n noll (0), till exempel <varname>$var[0]</varname>.
+	<varname>MYSQL_NUM</varname> numrerar fälten i arrayen så att du kommer åt dem genom <varname>$var[0]</varname>, <varname>$var[1]</varname> ... Denna metod kräver att du känner till din databas väl, eftersom att du måste veta ordningen på fälten. Fälten börjar räknas från noll (0), till exempel <varname>$var[0]</varname>.
 </para>
 
 <note>
 	<para>
-		F&auml;ltnamnen är skifl&auml;gesk&auml;nsliga !
+		Fältnamnen ?r skiflägeskänsliga !
 	</para>
 </note>
 
@@ -1941,42 +1941,38 @@ while( $row = mysql_fetch_array( $query, MYSQL_ASSOC ) )
 <sect2 id="mysql_select_db"><title>mysql_select_db</title>
 <abstract>
 <para>
-	<command>mysql_select_db</command> - V&auml;ljer vilken databas du vill arbeta mot.
+	<command>mysql_select_db</command> - Väljer vilken databas du vill arbeta mot.
 </para>
 
 </abstract>
 
 <para>
-	bool <command>mysql_select_db</command> ( sträng databasnamn [, resurs länkid] )
+	bool <command>mysql_select_db</command> ( str?ng databasnamn [, resurs l?nkid] )
 </para>
 
 <para>
-	<command>mysql_select_db</command> returnerar <varname>TRUE</varname> om den lyckas och <varname>FALSE</varname> om den misslyckas med att v&auml;lja databasen.
+	<command>mysql_select_db</command> returnerar <varname>TRUE</varname> om den lyckas och <varname>FALSE</varname> om den misslyckas med att välja databasen.
 </para>
 
 <para>
-	Med <command>mysql_select_db</command> v&auml;ljer du vilken databas du vill arbeta med p&aring; den aktiva MySQL-servern. Om du inte anger <varname>l&auml;nkid</varname> kommer den att anv&auml;nda den databas du senast &ouml;ppnade med <command>mysql_connect</command>, om du inte har n&aring;gon aktiv databasl&auml;nk kommer den att f&ouml;rs&ouml;ka att &ouml;ppna en genom att anropa <command>mysql_connect</command> utan argument.
+	Med <command>mysql_select_db</command> väljer du vilken databas du vill arbeta med på den aktiva MySQL-servern. Om du inte anger <varname>länkid</varname> kommer den att använda den databas du senast öppnade med <command>mysql_connect</command>, om du inte har någon aktiv databaslänk kommer den att försöka att öppna en genom att anropa <command>mysql_connect</command> utan argument.
 </para>
 
 <para>
-	Alla f&ouml;ljande <command>mysql_query</command> i koden kommer att arbeta mot den databas du v&auml;ljer med <command>mysql_select_db</command>.
+	Alla följande <command>mysql_query</command> i koden kommer att arbeta mot den databas du väljer med <command>mysql_select_db</command>.
 </para>
 
 <example id="ex_mysql_select_db">
 <title>mysql_select_db</title>
-<programlisting>
-<![CDATA[
+<programlisting><![CDATA[
 <?php
-
 	$lank = mysql_connect( "localhost", "användare", "lösenord" ) or
 		die( "Inte ansluten till servern: " . mysql_error() );
 
 	mysql_select_db( "mindatabas" ) or 
 		die( "Kunde inte välja databasen : " . mysql_error() );
-
 ?>
-]]>
-</programlisting>
+]]></programlisting>
 </example>
 
 </sect2>
@@ -1992,17 +1988,17 @@ while( $row = mysql_fetch_array( $query, MYSQL_ASSOC ) )
 </para>
 
 <para>
-	<command>mysql_affected_rows()</command> returnerar antalet poster som berördes av den senaste <command>INSERT</command>-, <command>UPDATE</command>- eller <command>DELETE</command>-frågan. Du använder <command>link_identifier</command> för att specificera vilken MySQL-koppling du vill arbeta med. Om ingen koppling anges, kommer den som senast skapades med <command>mysql_connect()</command> att användas.
+	<command>mysql_affected_rows()</command> returnerar antalet poster som ber?rdes av den senaste <command>INSERT</command>-, <command>UPDATE</command>- eller <command>DELETE</command>-fr?gan. Du anv?nder <command>link_identifier</command> f?r att specificera vilken MySQL-koppling du vill arbeta med. Om ingen koppling anges, kommer den som senast skapades med <command>mysql_connect()</command> att anv?ndas.
 </para>
 
 <warning>
 	<para>
-		Om den senaste frågan var en <command>DELETE</command> utan <command>WHERE</command> har alla posterna raderats. Trots detta kommer <command>mysql_affected_rows()</command> returnera noll (0).
+		Om den senaste fr?gan var en <command>DELETE</command> utan <command>WHERE</command> har alla posterna raderats. Trots detta kommer <command>mysql_affected_rows()</command> returnera noll (0).
 	</para>
 </warning>
 
 <para>
-	<command>mysql_affected_rows()</command> fungerar inte med <command>SELECT</command> eftersom att en <command>SELECT</command>-fråga inte ändrar posterna. För att veta hur många poster en <command>SELECT</command>-fråga returnerar använder du <command>mysql_num_rows()</command>.
+	<command>mysql_affected_rows()</command> fungerar inte med <command>SELECT</command> eftersom att en <command>SELECT</command>-fr?ga inte ?ndrar posterna. F?r att veta hur m?nga poster en <command>SELECT</command>-fr?ga returnerar anv?nder du <command>mysql_num_rows()</command>.
 </para>
 
 </sect2>
@@ -2020,6 +2016,15 @@ while( $row = mysql_fetch_array( $query, MYSQL_ASSOC ) )
 	<command>mysql_num_rows()</command> returnerar antalet poster en fråga ger som svar. Funktionen fungerar enbart för <command>SELECT</command>-frågor, om du vill veta hur många poster en <command>INSERT</command>, <command>UPDATE</command> eller <command>DELETE</command>-fråga returnerar använder du <command>mysql_affected_rows()</command>.
 </para>
 
+<example id="ex_mysqlnumrows">
+<title>Ett exempel med mysql_num_rows</title>
+<programlisting><![CDATA[
+	$sql = "SELECT namn FROM anvandare WHERE alder > '20'";
+	$query = mysql_query($sql);
+	echo "Det finns ".mysql_num_rows($query)." personer som är över 20 år.";
+]]></programlisting>
+</example>
+
 <sect2 id="mysql_errno"><title>mysql_errno</title>
 <para>...</para>
 </sect2>
@@ -2033,16 +2038,24 @@ while( $row = mysql_fetch_array( $query, MYSQL_ASSOC ) )
 </sect2>
 
 <sect2 id="mysql_insert_id"><title>mysql_insert_id</title>
-<para>...</para>
+<para>Ibland är det bra att veta vilket ID en fråga fick, kanske vill du koppla ID-numret i en annan tabell? ID kommer från det fält i din tabell som har <function>auto_increment</function> satt.</para>
+<example id="ex_mysqlinsertid"><title>mysql_insert_id</title>
+<programlisting><![CDATA[
+	$sql = "INSERT INTO anvandare(namn,enamn) VALUES('jonas','bjork')";
+	$query = mysql_query($sql);
+	echo "Frågan fick ID-numret: ".mysql_insert_id($query)";
+]]></programlisting>
+</example>
+
 </sect2>
 
 </sect1>
 
 <sect1 id="formular_ovningar">
-<title>&Ouml;vningar</title>
+<title>Övningar</title>
 <abstract>
 	<para>
-	H&auml;r kommer lite &ouml;vningar p&aring; kapitlet.
+	Här kommer lite övningar på kapitlet.
 	</para>
 </abstract>
 
@@ -2057,11 +2070,11 @@ while( $row = mysql_fetch_array( $query, MYSQL_ASSOC ) )
 <title>Heltal</title>
 
 <para>
-Alla heltalstyper kan du anv&auml;nda med zerofill och unsigned. Zerofill fyller
-talet med nollor till v&auml;nster om talet, om du tillexempel skapar en int(4)
-zerofill och lagrar siffran 12 i det f&auml;ltet kommer det att bli 0012. Unsigned
-inneb&auml;r att du inte kan anv&auml;nda negativa heltal och p&aring; s&aring; s&auml;tt kan du f&aring;
-mycket h&ouml;gre positiva heltal. Om du anv&auml;nder zerofill kommer f&auml;ltet
+Alla heltalstyper kan du använda med zerofill och unsigned. Zerofill fyller
+talet med nollor till vänster om talet, om du tillexempel skapar en int(4)
+zerofill och lagrar siffran 12 i det fältet kommer det att bli 0012. Unsigned
+innebär att du inte kan använda negativa heltal och på så sätt kan du få
+mycket högre positiva heltal. Om du använder zerofill kommer fältet
 automatiskt bli unsigned.
 </para>
 
@@ -2069,13 +2082,13 @@ automatiskt bli unsigned.
 <title>bigint</title>
 
 <para>
-Bigint &auml;r den st&ouml;rsta heltalstypen. Du kan anv&auml;nda talen -9223372036854775808
+Bigint är den största heltalstypen. Du kan använda talen -9223372036854775808
 till 9223372036854775807 signed eller 0 till 18446744073709551615 unsigned.
 </para>
 
 <para>
-Du kan ange hur m&aring;nga siffror du vill till&aring;ta genom att skriva
-bigint(<emphasis>p</emphasis>), d&auml;r p anger hur m&aring;nga siffror (max 20 stycken).
+Du kan ange hur många siffror du vill tillåta genom att skriva
+bigint(<emphasis>p</emphasis>), där p anger hur många siffror (max 20 stycken).
 </para>
 
 </sect2>
@@ -2088,8 +2101,8 @@ Int ger dig talen -2147483648 till 2147483647 signed och 0 till 4294967295 unsig
 </para>
 
 <para>
-Du kan ange hur m&aring;nga siffror du vill till&aring;ta genom att skriva
-int(<emphasis>p</emphasis>), d&auml;r p anger antal siffor (max tio stycken).
+Du kan ange hur många siffror du vill tillåta genom att skriva
+int(<emphasis>p</emphasis>), där p anger antal siffor (max tio stycken).
 </para>
 
 </sect2>
@@ -2103,7 +2116,7 @@ unsigned.
 </para>
 
 <para>
-mediumint(<emphasis>p</emphasis>) anger hur m&aring;nga siffror du vill till&aring;ta (max &aring;tta stycken).
+mediumint(<emphasis>p</emphasis>) anger hur många siffror du vill tillåta (max åtta stycken).
 </para>
 
 </sect2>
@@ -2116,7 +2129,7 @@ Smallint ger dig talen -32768 till 32767 signed och 0 till 65535 unsigned.
 </para>
 
 <para>
-smallint(<emphasis>p</emphasis>) anger hur m&aring;nga siffror du vill till&aring;ta (max fem stycken).
+smallint(<emphasis>p</emphasis>) anger hur många siffror du vill tillåta (max fem stycken).
 </para>
 </sect2>
 
@@ -2124,12 +2137,12 @@ smallint(<emphasis>p</emphasis>) anger hur m&aring;nga siffror du vill till&arin
 <title>tinyint</title>
 
 <para>
-Tinyint &auml;r det minsta heltalet och ger dig talen -128 till 127 signed och
+Tinyint är det minsta heltalet och ger dig talen -128 till 127 signed och
 0-255 unsigned.
 </para>
 
 <para>
-tinyint(<emphasis>p</emphasis>) anger hur m&aring;nga siffror du vill till&aring;ta (max tre stycken).
+tinyint(<emphasis>p</emphasis>) anger hur många siffror du vill tillåta (max tre stycken).
 </para>
 
 </sect2>
@@ -2140,21 +2153,21 @@ tinyint(<emphasis>p</emphasis>) anger hur m&aring;nga siffror du vill till&aring
 <title>Flyttal</title>
 
 <para>
-Precis som heltaltyperna kan flyttalstyperna ocks&aring; ha zerofill och unsigned
-till&auml;ggen.
+Precis som heltaltyperna kan flyttalstyperna också ha zerofill och unsigned
+tilläggen.
 </para>
 
 <sect2 id="float">
 <title>float</title>
 
 <para>
-Floatdatatypen &auml;r den minsta av de tre datatyperna f&ouml;r att hantera flyttal. Talen kan vara mellan -3.402823466 * 10<superscript>38</superscript> till -1.175494351 * 10<superscript>-38</superscript> f&ouml;r negativa tal och mellan 1.175494351 * 10<superscript>-38</superscript> till 3.402823466 * 10<superscript>38</superscript> f&ouml;r positiva tal.
+Floatdatatypen är den minsta av de tre datatyperna för att hantera flyttal. Talen kan vara mellan -3.402823466 * 10<superscript>38</superscript> till -1.175494351 * 10<superscript>-38</superscript> för negativa tal och mellan 1.175494351 * 10<superscript>-38</superscript> till 3.402823466 * 10<superscript>38</superscript> för positiva tal.
 </para>
 
 <para>
-float(<emphasis>p</emphasis>, <emphasis>m</emphasis>), d&auml;r m anger hur m&aring;nga siffror som skall
-anv&auml;ndas f&ouml;r decimalerna och p anger precisionen av talet, hur m&aring;nga siffror
-som skall anv&auml;ndas totalt.
+float(<emphasis>p</emphasis>, <emphasis>m</emphasis>), där m anger hur många siffror som skall
+användas för decimalerna och p anger precisionen av talet, hur många siffror
+som skall användas totalt.
 </para>
 
 </sect2>
@@ -2163,15 +2176,15 @@ som skall anv&auml;ndas totalt.
 <title>decimal</title>
 
 <para>
-Decimal erbjuder samma talomr&aring;de som double men lagrar talen som en str&auml;ng,
-ungef&auml;r som char. Talomr&aring;det &auml;r -1.7976931348623157 * 10<superscript>308</superscript> till -2.2250738585072014 * 10<superscript>-308</superscript> f&ouml;r de negativa talen och
-2.2250738585072014 * 10<superscript>-308</superscript> till 1.7976931348623157 * 10<superscript>308</superscript> f&ouml;r de positiva talen.
+Decimal erbjuder samma talområde som double men lagrar talen som en sträng,
+ungefär som char. Talområdet är -1.7976931348623157 * 10<superscript>308</superscript> till -2.2250738585072014 * 10<superscript>-308</superscript> för de negativa talen och
+2.2250738585072014 * 10<superscript>-308</superscript> till 1.7976931348623157 * 10<superscript>308</superscript> för de positiva talen.
 </para>
 
 <para>
-decimal(<emphasis>p</emphasis>, <emphasis>m</emphasis>), d&auml;r m anger hur m&aring;nga siffror som skall
-anv&auml;ndas f&ouml;r decimalerna och p anger precisionen av talet, hur m&aring;nga siffror
-som skall anv&auml;ndas totalt.
+decimal(<emphasis>p</emphasis>, <emphasis>m</emphasis>), där m anger hur många siffror som skall
+användas för decimalerna och p anger precisionen av talet, hur många siffror
+som skall användas totalt.
 </para>
 
 </sect2>
@@ -2180,15 +2193,15 @@ som skall anv&auml;ndas totalt.
 <title>double</title>
 
 <para>
-Double har samma talomr&aring;de som decimal men lagrar talen i bin&auml;rt
-format. Talomr&aring;det &auml;r -1.7976931348623157 * 10<superscript>308</superscript> till
--2.2250738585072014 * 10<superscript>-308</superscript> f&ouml;r de negativa talen och
-2.2250738585072014 * 10<superscript>-308</superscript> till 1.7976931348623157 * 10<superscript>308</superscript> f&ouml;r de positiva talen.
+Double har samma talområde som decimal men lagrar talen i binärt
+format. Talområdet är -1.7976931348623157 * 10<superscript>308</superscript> till
+-2.2250738585072014 * 10<superscript>-308</superscript> för de negativa talen och
+2.2250738585072014 * 10<superscript>-308</superscript> till 1.7976931348623157 * 10<superscript>308</superscript> för de positiva talen.
 </para>
 
 <para>
-double(<emphasis>p</emphasis>, <emphasis>m</emphasis>), d&auml;r m anger hur m&aring;nga siffror som skall anv&auml;ndas f&ouml;r decimalerna och p anger precisionen av talet, hur m&aring;nga siffror
-som skall anv&auml;ndas totalt.
+double(<emphasis>p</emphasis>, <emphasis>m</emphasis>), där m anger hur många siffror som skall användas för decimalerna och p anger precisionen av talet, hur många siffror
+som skall användas totalt.
 </para>
 
 </sect2>
@@ -2198,27 +2211,27 @@ som skall anv&auml;ndas totalt.
 <sect1 id="datumformat">
 <title>Datumformat</title>
 <para>
-Datumtyperna har hand om alla tidsformat i MySQL. Den st&ouml;rsta skillnaden
-mellan datumtyperna och de &ouml;vriga numeriska datatyperna i MySQL &auml;r hur den
-hanterar nollv&auml;rden. Datumtyperna returnerar hela datumet &auml;ven n&auml;r du har ett
-nollv&auml;rde, datet returnerar 0000-00-00 och time returnerar 00:00:00 om du har
-ett nollv&auml;rde.
+Datumtyperna har hand om alla tidsformat i MySQL. Den största skillnaden
+mellan datumtyperna och de övriga numeriska datatyperna i MySQL är hur den
+hanterar nollvärden. Datumtyperna returnerar hela datumet även när du har ett
+nollvärde, datet returnerar 0000-00-00 och time returnerar 00:00:00 om du har
+ett nollvärde.
 </para>
 
 <sect2 id="date">
 <title>date</title>
 <para>
-Date representerar ett helt kalenderdatum i formatet &aring;&aring;&aring;&aring;-MM-DD. Giltiga
-v&auml;rden f&ouml;r date &auml;r 1000-01-01 till 9999-12-31. Ogiltiga v&auml;rden resulterar i
-v&auml;rdet 0000-00-00.
+Date representerar ett helt kalenderdatum i formatet åååå-MM-DD. Giltiga
+värden för date är 1000-01-01 till 9999-12-31. Ogiltiga värden resulterar i
+värdet 0000-00-00.
 </para>
 </sect2>
 
 <sect2 id="datetime">
 <title>datetime</title>
 <para>
-Datetime &auml;r likv&auml;rdig med date, med den skillnaden att den ocks&aring; lagrar
-klockslaget. Formatet &auml;r &aring;&aring;&aring;&aring;-MM-DD TT:MM:SS. Giltiga v&auml;rden &auml;r 1000-01-01 00:00:00 till 9999-12-31 23:59:59 och ogiltiga v&auml;rden resulterar i v&auml;rdet
+Datetime är likvärdig med date, med den skillnaden att den också lagrar
+klockslaget. Formatet är åååå-MM-DD TT:MM:SS. Giltiga värden är 1000-01-01 00:00:00 till 9999-12-31 23:59:59 och ogiltiga värden resulterar i värdet
 0000-00-00 00:00:00.
 </para>
 </sect2>
@@ -2227,15 +2240,15 @@ klockslaget. Formatet &auml;r &aring;&aring;&aring;&aring;-MM-DD TT:MM:SS. Gilti
 <title>timestamp</title>
 
 <para>
-Timestamp &auml;r en str&auml;ng som representerar Unix timestamp, som i sin tur kommer
-fr&aring;n tidsformatet som kallas Epoch. Epoch utg&aring;r fr&aring;n att tidr&auml;kningen b&ouml;rjade
-den 1 januari 1970. Giltiga v&auml;rden f&ouml;r timestamp &auml;r 1970-01-01 00:00:00 till
-2038-01-19 03:14:07 och ett ogiltigt v&auml;rde resulterar i 0000-00-00 00:00:00 .
+Timestamp är en sträng som representerar Unix timestamp, som i sin tur kommer
+från tidsformatet som kallas Epoch. Epoch utgår från att tidräkningen började
+den 1 januari 1970. Giltiga värden för timestamp är 1970-01-01 00:00:00 till
+2038-01-19 03:14:07 och ett ogiltigt värde resulterar i 0000-00-00 00:00:00 .
 </para>
 
 <para>
-timestamp(<emphasis>p</emphasis>), d&auml;r p anger hur m&aring;nga siffror som skall anv&auml;ndas f&ouml;r tiden (maximalt 14, som ocks&aring; &auml;r standardinst&auml;llningen). Om du anger att udda
-tal (till exempel 3) kommer du att f&aring; tal+1. Se <xref linkend="tbldatatimestamp" /> f&ouml;r mer information.
+timestamp(<emphasis>p</emphasis>), där p anger hur många siffror som skall användas för tiden (maximalt 14, som också är standardinställningen). Om du anger att udda
+tal (till exempel 3) kommer du att få tal+1. Se <xref linkend="tbldatatimestamp" /> för mer information.
 </para>
 
 <para>
@@ -2244,38 +2257,38 @@ tal (till exempel 3) kommer du att f&aring; tal+1. Se <xref linkend="tbldatatime
 <tgroup cols="2">
 <thead>
 <row>
-	<entry>V&auml;rde</entry>
+	<entry>Värde</entry>
 	<entry>Format</entry>
 </row>
 </thead>
 <tbody>
 <row>
 	<entry>2</entry>
-	<entry>&Aring;&Aring;</entry>
+	<entry>ÅÅ</entry>
 </row>
 <row>
 	<entry>4</entry>
-	<entry>&Aring;&Aring;MM</entry>
+	<entry>ÅÅMM</entry>
 </row>
 <row>
 	<entry>6</entry>
-	<entry>&Aring;&Aring;MMDD</entry>
+	<entry>ÅÅMMDD</entry>
 </row>
 <row>
 	<entry>8</entry>
-	<entry>&Aring;&Aring;&Aring;&Aring;MMDD</entry>
+	<entry>ÅÅÅÅMMDD</entry>
 </row>
 <row>
 	<entry>10</entry>
-	<entry>&Aring;&Aring;MMDDTTMM</entry>
+	<entry>ÅÅMMDDTTMM</entry>
 </row>
 <row>
 	<entry>12</entry>
-	<entry>&Aring;&Aring;MMDDTTMMSS</entry>
+	<entry>ÅÅMMDDTTMMSS</entry>
 </row>
 <row>
 	<entry>14</entry>
-	<entry>&Aring;&Aring;&Aring;&Aring;MMDDTTMMSS</entry>
+	<entry>ÅÅÅÅMMDDTTMMSS</entry>
 </row>
 </tbody>
 </tgroup>
@@ -2289,9 +2302,9 @@ tal (till exempel 3) kommer du att f&aring; tal+1. Se <xref linkend="tbldatatime
 <title>time</title>
 
 <para>
-Time &auml;r en generell representation av tidv&auml;rden i timmar, minuter och
-sekunder. Time visar v&auml;rdet i 24-timmarsformat och klarar av att representera
-tidv&auml;rden i b&aring;de d&aring;tid och framtid. Giltiga v&auml;rden &auml;r -839:59:59 till
+Time är en generell representation av tidvärden i timmar, minuter och
+sekunder. Time visar värdet i 24-timmarsformat och klarar av att representera
+tidvärden i både dåtid och framtid. Giltiga värden är -839:59:59 till
 838:59:59.
 </para>
 
@@ -2300,11 +2313,11 @@ tidv&auml;rden i b&aring;de d&aring;tid och framtid. Giltiga v&auml;rden &auml;r
 <sect2 id="year">
 <title>year</title>
 <para>
-Year anv&auml;nds f&ouml;r att representera kalender&aring;r med tv&aring; eller fyra siffror. I
-fyrasiffrors-formatet kan du anv&auml;nda v&auml;rdena 1901 till 2155 eller 0000. I
-tv&aring;siffrorsformatet kan du anv&auml;nda talen 1970 till 2069, representerade av
-talen 70 till 69. Ogiltiga v&auml;rden blir 0000 och i tv&aring;siffrorsformatet &auml;r en
-enkel nolla (0) ett ogiltigt v&auml;rde. &aring;r 2000 m&aring;ste vara 00.
+Year används för att representera kalenderår med två eller fyra siffror. I
+fyrasiffrors-formatet kan du använda värdena 1901 till 2155 eller 0000. I
+tvåsiffrorsformatet kan du använda talen 1970 till 2069, representerade av
+talen 70 till 69. Ogiltiga värden blir 0000 och i tvåsiffrorsformatet är en
+enkel nolla (0) ett ogiltigt värde. år 2000 måste vara 00.
 </para>
 </sect2>
 
@@ -2312,9 +2325,9 @@ enkel nolla (0) ett ogiltigt v&auml;rde. &aring;r 2000 m&aring;ste vara 00.
 
 
 <sect1 id="strangar">
-<title>Str&auml;ngar</title>
+<title>Strängar</title>
 <para>
-Str&auml;ngtyperna anv&auml;nds f&ouml;r textdata. Om en str&auml;ng som lagras &auml;r l&auml;ngre &auml;n vad du angett som giltigt kommer den att klippas i slutet av str&auml;ngen.
+Strängtyperna används för textdata. Om en sträng som lagras är längre än vad du angett som giltigt kommer den att klippas i slutet av strängen.
 </para>
 
 <sect2 id="blob">
@@ -2325,11 +2338,11 @@ Str&auml;ngtyperna anv&auml;nds f&ouml;r textdata. Om en str&auml;ng som lagras 
 </para>
 
 <para>
-Blob &auml;r str&auml;ngtypen f&ouml;r bin&auml;r data. Blob &auml;r case-sensitive, vilket inneb&auml;r att om du lagrat <emphasis role="strong">min text</emphasis> och s&ouml;ker efter <emphasis role="strong">MIN TEXT</emphasis> kommer du inte hitta f&ouml;rekomsten.
+Blob är strängtypen för binär data. Blob är case-sensitive, vilket innebär att om du lagrat <emphasis role="strong">min text</emphasis> och söker efter <emphasis role="strong">MIN TEXT</emphasis> kommer du inte hitta förekomsten.
 </para>
 
 <para>
-Du har lite olika blobtyper att v&auml;lja p&aring;, skillnaden mellan dem &auml;r hur m&aring;nga
+Du har lite olika blobtyper att välja på, skillnaden mellan dem är hur många
 tecken (<emphasis>bytes</emphasis>) de kan lagra. Se <xref linkend="tbldatablob" /> för mer information.
 </para>
 
@@ -2371,7 +2384,7 @@ tecken (<emphasis>bytes</emphasis>) de kan lagra. Se <xref linkend="tbldatablob"
 <sect2 id="char">
 <title>char</title>
 <para>
-Char anv&auml;nds f&ouml;r att lagra textstr&auml;ngar. char(<emphasis>p</emphasis>), d&auml;r p anger hur m&aring;nga tecken det skall finnas plats f&ouml;r (max 255). Char reserverar alltid <emphasis>p</emphasis> antal tecken i databasen, &auml;ven om du bara anv&auml;nder h&auml;lften av dem.
+Char används för att lagra textsträngar. char(<emphasis>p</emphasis>), där p anger hur många tecken det skall finnas plats för (max 255). Char reserverar alltid <emphasis>p</emphasis> antal tecken i databasen, även om du bara använder hälften av dem.
 </para>
 </sect2>
 
@@ -2382,14 +2395,14 @@ Char anv&auml;nds f&ouml;r att lagra textstr&auml;ngar. char(<emphasis>p</emphas
 </para>
 
 <para>
-Texttyperna anv&auml;nds som blob, med skillnaden att de anv&auml;nds f&ouml;r textdata och
-inte bin&auml;rdata. Text &auml;r inte heller case-sensitive, vilket inneb&auml;r att om du
-lagrat <emphasis role="strong">min text</emphasis> och s&ouml;ker efter <emphasis role="strong">MIN TEXT</emphasis> s&aring; hittar du f&ouml;rekomsten.
+Texttyperna används som blob, med skillnaden att de används för textdata och
+inte binärdata. Text är inte heller case-sensitive, vilket innebär att om du
+lagrat <emphasis role="strong">min text</emphasis> och söker efter <emphasis role="strong">MIN TEXT</emphasis> så hittar du förekomsten.
 </para>
 
 <para>
-Det finns flera olika texttyper att v&auml;lja p&aring;, skillnaden mellan dem &auml;r hur
-m&aring;nga tecken de kan lagra. Se <xref linkend="tbldatatext" /> f&ouml;r mer information.
+Det finns flera olika texttyper att välja på, skillnaden mellan dem är hur
+många tecken de kan lagra. Se <xref linkend="tbldatatext" /> för mer information.
 </para>
 
 <para>
@@ -2430,14 +2443,14 @@ m&aring;nga tecken de kan lagra. Se <xref linkend="tbldatatext" /> f&ouml;r mer 
 <sect2 id="varchar">
 <title>varchar</title>
 <para>
-Varchar anv&auml;nds som chartypen men hanterar data lite annorlunda. Medan char
-fyller upp utrymmet med blanktecken, s&aring; klipper varchar dem. Detta leder till
-att du anv&auml;nder mindre lagringsplats f&ouml;r dina str&auml;ngar som &auml;r kortare &auml;n det
-reserverade omr&aring;det.
+Varchar används som chartypen men hanterar data lite annorlunda. Medan char
+fyller upp utrymmet med blanktecken, så klipper varchar dem. Detta leder till
+att du använder mindre lagringsplats för dina strängar som är kortare än det
+reserverade området.
 </para>
 
 <para>
-varchar(<emphasis>p</emphasis>) reserverar p antal tecken f&ouml;r varje
+varchar(<emphasis>p</emphasis>) reserverar p antal tecken för varje
 varchar som lagras (max 255).
 </para>
 
@@ -2455,7 +2468,7 @@ varchar som lagras (max 255).
 </para>
 
 <para>
-SQL p&aring; 10 minuter, <ulink url="http://www.pcboken.com/">PC Boken</ulink>
+SQL på 10 minuter, <ulink url="http://www.pcboken.com/">PC Boken</ulink>
 </para>
 
 <para>
