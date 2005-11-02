@@ -50,7 +50,7 @@
 			<title>Assemblering</title>
 
 			<para>
-				Assemleraren översätter assemblrerkoden till maskinkod. Denna
+				Assemleraren översätter assemblerkoden till maskinkod. Denna
 				kod är relokerbar, det vill säga den är inte bunden till
 				fasta adresser i minnet. Dessa relokerbara adresser måste
 				dock ändras innan programmet kan köras, det gör laddaren

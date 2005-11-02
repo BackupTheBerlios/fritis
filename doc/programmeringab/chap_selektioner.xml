@@ -50,7 +50,7 @@
 			Vill man att det skall vara flera satser som utförs om testet blir
 			sant kan man slå ihop dem till ett block med hjälp av { och }
 			(måsvingar). I exemplet ovan använder jag måsvingarna fast de
-			egentligen inte behövs. Som regel är det bäst att alltid sätte dit
+			egentligen inte behövs. Som regel är det bäst att alltid sätta dit
 			måsvingarna ifall man vill stoppa in en rad till inom if-satsen
 			sedan så glömmer man dem inte.
 		</para>
@@ -106,17 +106,18 @@ if ($tal > 100) {
 		<title>if-elseif</title>
 
 		<para>
-			If-elseif är också en valig kunstruktion. Den används ofta till
-			sammans med else och blir då en if-elseif-else sats. Man kan ha
-			flera elseif i en konstruktion men bara en else. Det som kommer
-			efter det första sanna uttrycket utförs och inget annat. Om inget
-			är sant kommer det som står efter else (annars) att utföras.
+			If-elseif är också en valig kunstruktion. Den används ofta
+			tillsammans med else och blir då en if-elseif-else sats. Man
+			kan ha flera elseif i en konstruktion men bara en else. Det som
+			kommer efter det första sanna uttrycket utförs och inget annat.
+			Om inget är sant kommer det som står efter else (annars) att
+			utföras.
 		</para>
 
 		<para>
 			Vi tittar på vårt exempel igen. Talet man anger kan ju vara större
 			eller mindre än 100. Är det inte det så måste det ju vara talet 100
-			som angets. Vi testar igen.
+			som angetts. Vi testar igen.
 
 			<example>
 				<title>if-elseif-else</title>
@@ -145,7 +146,7 @@ if ($tal > 100) {
 				</programlisting>
 			</example>
 
-			Som vi ser så är den inte helt olik de anda konstruktionerna med if.
+			Som vi ser så är den inte helt olik de andra konstruktionerna med if.
 			Den fungerar så att om det första testet är sant så utförs satsen
 			efter det. Om inte görs testen efter elseif. Är denna sann så utförs
 			satsen efter den. Om inget test har varit sant utförs det som kommer
