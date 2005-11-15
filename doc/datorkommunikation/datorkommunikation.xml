@@ -52,16 +52,16 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2005/08/24 13:21:58 $</pubdate>
+	<pubdate>$Date: 2005/11/15 12:54:07 $</pubdate>
 
 	<copyright>
-		<year>2003, 2004</year>
+		<year>2003 - 2005</year>
 		<holder>Marcus Rejås</holder>
 	</copyright>
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.52 $</revnumber>
+			<revnumber>$Revision: 1.53 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
