@@ -20,7 +20,7 @@ all: html index.html ps pdf dist laborations
 pub: all
 	chmod -R o+r,g-rwxs *
 	chmod 705 laborationer
-	rsync -e "ssh -l rejas" --delete --rsync-path=/kunder/r/rejas.org/bin/rsync --recursive ./ rejas.org:liskola/$(TARGET)/
+	rsync -e "ssh -l rejas" --delete --recursive ./ namatj.rejas.se:www.rejas.se/static/fritis/$(TARGET)/
 
 fdl-sv.xml: ../../../licenses/fdl-sv.xml
 	cp ../../../licenses/fdl-sv.xml fdl-sv.xml
