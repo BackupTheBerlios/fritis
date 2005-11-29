@@ -62,7 +62,7 @@
 			kan också komma att stöta på dem i laborationskursen.
 		</para>
 
-		<figure id="fig_tcpip"><title>OSI modellen kontra TCP/IP</title>
+		<figure id="fig_tcpip"><title>Några av protokollen i TCP/IP</title>
 			<mediaobject>
   				<imageobject>
       			<imagedata scalefit="1" fileref="bilder/tcpip.jpeg" format="JPEG" />
@@ -84,7 +84,7 @@
 				IP är en förkortning för <emphasis>Internet
 				Protocol</emphasis>. IP är det protokoll som ser till att
 				data kommer från en nod till en annan. IP är vad man brukar
-				kalla fer ett <emphasis>connectionless</emphasis> protokoll.
+				kalla för ett <emphasis>connectionless</emphasis> protokoll.
 				Det innebär att det inte finns en koppling mellan sändare
 				och mottagare utan paketen skickas ut i nätet och kommer
 				fram om det kommer fram. Man kan jämföra det med att skicka
