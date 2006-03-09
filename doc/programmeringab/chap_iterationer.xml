@@ -1,4 +1,4 @@
-<chapter>
+<chapter id="chap_iterationer">
 	<title>Iterationer (Upprepningar, loopar)</title>
 
 	<abstract>
@@ -169,7 +169,7 @@ for ($i = 0; $i <= 10; $i++) {
 	</sect1>
 </chapter>
 
-<chapter>
+<chapter id="chap_pseudokod">
 	<title>Pseudokod</title>
 
 	<abstract>
@@ -188,7 +188,7 @@ for ($i = 0; $i <= 10; $i++) {
 	</sect1>
 </chapter>
 
-<chapter>
+<chapter id="chap_indentering">
 	<title>Indentering</title>
 
 	<abstract>
