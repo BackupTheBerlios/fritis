@@ -79,7 +79,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Id: programmeringAB.xml,v 1.21 2005/09/01 09:38:41 rejas Exp $</revnumber>
+			<revnumber>$Id: programmeringAB.xml,v 1.22 2006/03/09 08:45:44 rejas Exp $</revnumber>
 			<date></date>
 			<revremark>*** Utvecklingsversion ***</revremark>
 		</revision>
@@ -87,17 +87,16 @@
 
 	<abstract>
 		<para>
-			Denna bok är anpassad för gymnasieskolans kurser
-			Programmering A och B med kurskoderna DTR1207 och
-			DTR1208 (PPHP1408). Den kan naturligtvis användas även i
-			andra sammanhang, till exempel självstudier,
-			studiecirklar eller annan lärarledd utbildning.
+			Denna bok är anpassad för gymnasieskolans kurser Programmering
+			A och B med kurskoderna DTR1207 och DTR1208 (PPHP1408). Den kan
+			naturligtvis användas även i andra sammanhang, till exempel
+			självstudier, studiecirklar eller annan lärarledd utbildning.
 		</para>
 
 		<para>
-			Till boken kommer att finnas förslag på övningar man kan
-			utföra för att praktiskt utöva de färdigheter man
-			skaffar sig under studierna.
+			Till boken kommer att finnas förslag på övningar man kan utföra
+			för att praktiskt utöva de färdigheter man skaffar sig under
+			studierna.
 		</para>
 	</abstract>
 </bookinfo>
@@ -106,8 +105,8 @@
 	<sect1><title>Tack till</title>
 		<para>
 			Vi vill börja denna bok med att tacka alla som hjälpt oss med
-			den. Till exempel Micke Karlsson som föreslagit förbättringar.
-			Tack!
+			den. Till exempel Micke Karlsson som föreslagit förbättringar
+			och Jerry Segerholm som hittat stavfel.  Tack!
 		</para>
 		<para>
 			Vi vill också tacka dig som läser denna bok. Hittar du något

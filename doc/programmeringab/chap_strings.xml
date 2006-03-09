@@ -213,7 +213,7 @@ if (strcmp($password, "Hemligt") == 0) {
 			eller gemener. Eller att man vill byta något ord mot ett annat.
 			PHP har massor av funktioner för detta. Vanliga saker man vill
 			göra med strängar är att byta ut en förekomst av ett ord mot ett
-			annat eller att göra alla tecken till små eller stora bosktäver
+			annat eller att göra alla tecken till små eller stora bokstäver
 			eller ta bort tomma tecken.
 		</para>
 

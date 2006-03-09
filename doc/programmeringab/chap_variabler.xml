@@ -107,7 +107,7 @@
 
 		<para>
 			Du kanske provade att sätta ett av talen till någor annat än ett
-			tal, till exempel bosktäver?
+			tal, till exempel bokstäver?
 			I så fall såg du att PHP inte kan summera text. Observera att om du
 			matar in ett decimaltal så måste decimalpunkt och inte komma
 			användas.
