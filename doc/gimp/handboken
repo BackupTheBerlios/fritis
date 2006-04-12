@@ -12,7 +12,7 @@
 			<address><email>Xxxx@xxx.xx</email></address>
 		</affiliation>
 	</author>
-	<pubdate>$Date: 2006/04/12 20:04:19 $</pubdate>
+	<pubdate>$Date: 2006/04/12 20:26:45 $</pubdate>
 
 	<copyright>
 		<year>2005-2006</year>
@@ -21,7 +21,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.5 $</revnumber>
+			<revnumber>$Revision: 1.6 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -515,7 +515,7 @@ inställningar måste du gå in under 'Arkiv -&gt; Inställningar -&gt; Utseende
 	på ungefär 500x500 pixlar med vit bakgrund, skapa ett nytt lager och gör en 
 	svart kvadrat som fyller ut nästan hela bilden. Högerklicka sedan på ditt nya lager
 	i lagerväljaren och välj alternativet "Lägg till lagermask..."(Bild 6)(Bild. lager-exempel-6.png), 
-
+<!--
 	<figure id="fig_lager-6">
 		<title>Exempel med lager</title>
 
@@ -531,11 +531,12 @@ inställningar måste du gå in under 'Arkiv -&gt; Inställningar -&gt; Utseende
 			</imageobject>
 		</mediaobject>
 	</figure>
-    
+-->
 
 	
 	detta ger oss en dialogruta (Bild 7)(Bild. lager-exempel-7.png). 
 	
+<!--
 	<figure id="fig_lager-7">
 		<title>Exempel med lager</title>
 
@@ -550,6 +551,7 @@ inställningar måste du gå in under 'Arkiv -&gt; Inställningar -&gt; Utseende
 			</imageobject>
 		</mediaobject>
 	</figure>
+-->    
     
 	
 	
@@ -561,6 +563,7 @@ inställningar måste du gå in under 'Arkiv -&gt; Inställningar -&gt; Utseende
 	att ingen ändring gjordes på lagret utan det enda som dök upp var en extra ruta bredvid
 	lagerrutan i lagerväljaren(Bild 8)(Bild. lager-exempel-8.png) och att denna är vit. 
 	
+<!--
 	<figure id="fig_lager-8">
 		<title>Exempel med lager</title>
 
@@ -575,6 +578,7 @@ inställningar måste du gå in under 'Arkiv -&gt; Inställningar -&gt; Utseende
 			</imageobject>
 		</mediaobject>
 	</figure>
+-->    
     
 	
 	
@@ -585,6 +589,7 @@ inställningar måste du gå in under 'Arkiv -&gt; Inställningar -&gt; Utseende
 	ungefär som vår vita bakgrund med svart fyrkant. Välj färgtoningsverktyget och ha svart som 
 	förgrundsfärg, välj sedan att dra färgtonen svart till transparent(Bild 9)(Bild lager-exempel-9.png).
 
+<!--
 	<figure id="fig_lager-9">
 		<title>Exempel med lager</title>
 
@@ -599,6 +604,7 @@ inställningar måste du gå in under 'Arkiv -&gt; Inställningar -&gt; Utseende
 			</imageobject>
 		</mediaobject>
 	</figure>
+-->    
     
 
 
@@ -607,6 +613,7 @@ inställningar måste du gå in under 'Arkiv -&gt; Inställningar -&gt; Utseende
 	en färgtoning från övre vänstra hörnet till det nedre högra. Detta borde ge något i stil med vad 
 	vi får i Bild 10(Bild lager-exempel-10.png).
 	
+<!--
 	<figure id="fig_lager-10">
 		<title>Exempel med lager</title>
 
@@ -622,7 +629,7 @@ inställningar måste du gå in under 'Arkiv -&gt; Inställningar -&gt; Utseende
 			</imageobject>
 		</mediaobject>
 	</figure>
-    
+-->    
 	
 	
 	</para>
