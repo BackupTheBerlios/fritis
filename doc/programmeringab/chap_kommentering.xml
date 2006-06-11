@@ -222,7 +222,7 @@ Titta på källkoden istället.";
 		<para>
 			Svensk text med massor av exempel på indentering och
 			kommentering, samt länkar till mer info på engelska:
-			http://www.phpsidan.nu/res_articles.php?view=art\&id=48
+			http://www.phpsidan.nu/res_articles.php?view=art&amp;id=48
 		</para>
 	</sect1>
 </chapter>
