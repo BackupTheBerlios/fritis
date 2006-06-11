@@ -257,7 +257,7 @@ echo "\n\$str3: ". $str3 ."\n";
 				att känna till. De kan användas till exempel om man vill snygga
 				till användarinmatad data. Vad de gör är att göra den första
 				bokstaven i en sträng (ucfirst) eller första bokstaven i varje
-				ord i strängen (ucwords) till gemen. Observera att dessa
+				ord i strängen (ucwords) till versal. Observera att dessa
 				funktioner bara verkar på de tecken det gäller och inte de
 				övriga. Se följande exempel:
 
@@ -381,7 +381,7 @@ echo $str2;  // str2 är "Kajsa Anka är bäst"
 		<title>Hantera oönskad HTML i strängar</title>
 
 		<para>
-			I PHP hanterar man av naturliga själ ofta strängar som skall
+			I PHP hanterar man av naturliga skäl ofta strängar som skall
 			presenteras i en webläsare. Flera av dessa strängar kommer vanligtvis
 			från användare eller andra osäkra källor. Då vill man gärna
 			kontrollera så att inte användaren kan mata in data som förstör
@@ -413,7 +413,7 @@ $html_string = str_replace("&gt;", "&amp;gt;", $html_string);
 			en motsvarighet i HTML kod blir just, HTML kod.
 			Funktionen tar ett argument och har två stycken valfria argument som
 			du inte behöver ange, mer än om du t.ex. behöver använda en annan
-			teckensnittsuppsättning. Se följande exempel:
+			teckenuppsättning. Se följande exempel:
 
 			<example>
 				<title>Exempel med htmlentities</title>

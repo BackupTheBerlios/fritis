@@ -23,6 +23,8 @@ table, tbody, tr, td, th	{
 	font-size: 12px;
 	font-size-adjust:	.48;
 	margin-bottom: 0.5em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }	
 	
 

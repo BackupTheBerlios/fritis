@@ -20,7 +20,7 @@
 			med andra program.
 			Ett exempel:
 			<example>
-				<title>Indentering</title>
+				<title>Funktioner</title>
 				<programlisting>
 <![CDATA[
 <?php
@@ -113,11 +113,11 @@ print_html_header_stop();
 			två talen som argument. Se följande exempel:
 
 			<example>
-				<title>Indentering</title>
+				<title>Argument till funktioner</title>
 				<programlisting>
 <![CDATA[
 <?php
-funtion summa($tal1, $tal2) {
+function summa($tal1, $tal2) {
         return ($tal1 + $tal2);
 }
 
@@ -143,12 +143,16 @@ echo summa(5,6);
 			ut så här:
 
 			<example>
-				<title>Indentering</title>
+				<title>Retur från funktioner</title>
 				<programlisting>
 <![CDATA[
 <?php
 function is_logged_in ($name, $pass) {
-        return (($name == "kalle") and ($pass="ankeborg));
+        if ($name == "kalle") && ($pass == "ankeborg")) {
+                return true;
+        } else {
+                return false;
+        }
 }
 ?>
 ]]>

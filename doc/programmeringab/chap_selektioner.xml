@@ -106,7 +106,7 @@ if ($tal > 100) {
 		<title>if-elseif</title>
 
 		<para>
-			If-elseif är också en valig kunstruktion. Den används ofta
+			If-elseif är också en vanlig konstruktion. Den används ofta
 			tillsammans med else och blir då en if-elseif-else sats. Man
 			kan ha flera elseif i en konstruktion men bara en else. Det som
 			kommer efter det första sanna uttrycket utförs och inget annat.

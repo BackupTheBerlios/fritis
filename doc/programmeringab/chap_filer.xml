@@ -47,14 +47,14 @@
 	</sect1>
 
 	<sect1>
-		<title>fopen</title>
+		<title>Funktionen fopen</title>
 
 		<para>
-			Fopen är en funktion som tar två argument och returnerar ett
+			Funktionen fopen tar två argument och returnerar ett
 			filhandtag.  Så här kan ett anrop till fopen se ut:
 
 			<example>
-				<title>Indentering</title>
+				<title>Funktionen fopen</title>
 				<programlisting>
 <![CDATA[
 <?php
@@ -149,11 +149,11 @@ $filhandtag = fopen("/home/rejas/data/testfil", "a");
 	</sect1>
 
 	<sect1>
-		<title>fwrite</title>
+		<title>Funktionen fwrite</title>
 
 		<para>
-			fwrite är en funktion som använda för att skriva till en fil. Den
-			tar två argument, ett filhandtag och så det som skall skrivas till
+			Funktionen fwrite använda för att skriva till en fil. Den tar
+			två argument, ett filhandtag och så det som skall skrivas till
 			filen.
 		</para>
 
@@ -161,7 +161,7 @@ $filhandtag = fopen("/home/rejas/data/testfil", "a");
 			Ett exmpel:
 
 			<example>
-				<title>Exempel med fwrite</title>
+				<title>Funktionen fwrite</title>
 				<programlisting>
 <![CDATA[
 <?php
@@ -173,12 +173,12 @@ fclose($fh);
 				</programlisting>
 			</example>
 
-			Funktionen fopen returnerar false om det skulle vara så att den
+			Funktionen fwrite returnerar false om det skulle vara så att den
 			inte kan skriva till filen så det kan vara bra att kolla att det
 			går bra.
 
 			<example>
-				<title>Fwrite med felkontrol</title>
+				<title>Funktionen fwrite med felkontrol</title>
 				<programlisting>
 <![CDATA[
 <?php
@@ -260,7 +260,7 @@ readfile($filename);
 
 		<para>
 			Mer information om funktioner för att hantera filer och filsystem
-			finns hära:
+			finns här:
 			<ulink url="http://se.php.net/manual/en/ref.filesystem.php">
 				<citetitle>
 					http://www.php.net/manual/en/ref.filesystem.php
