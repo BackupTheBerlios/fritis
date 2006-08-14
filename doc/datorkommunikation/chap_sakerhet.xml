@@ -218,6 +218,107 @@
 		</sect2>
 	</sect1>
 
+	<sect1><title>Brandväggar</title>
+		<sect2><title>Allmänt</title>
+		<para>
+			Brandväggar är en central del i ett säkert datornätverk. Man
+			skall dock passa sig för att ge dem en allt för central roll.
+			Det finns risk att man när man har installerat en brandvägg
+			känner sig trygg och slarvar med säkerheten på det interna
+			nätverket. Det kan leda till att många nätverk till och med
+			blir osäkrare efter att man har installerat en brandvägg. Men
+			rätt använd är en brandvägg oumbärlig när det gäller att skydda
+			sin dator eller sitt nätverk från oönskad trafik.
+		</para>
+		<para>
+			Namnet brandvägg kommer naturligtvis från det som vi kallar
+			brandväggar i eller mellan två byggnader. En brandvägg är en,
+			oftast murad eller gjuten, vägg och den får inte ha några hål.
+			Dess syfte är att hindra att en brand sprids mellan husen eller
+			delar av ett hus. 
+		</para>
+		<para>
+			Brandväggar kan arbeta på olika lager i OSI-modellen. De
+			vanligaste jobbar i nätverksskiktet och kallas för
+			paketfiltrerande brandväggar. En annan typ kallas proxy-servrar
+			och de jobbar i applikationslagret. De som jobbar på
+			nätverkslagret kan naturligtvis bara titta på ip-adresser och
+			portar medan de som jobbar högre upp i OSI-modellen även kan
+			titta på den trafik som är i paketen. Inte sällan kombinerar
+			man båda typerna i en och samma brandvägg.
+		</para>
+		</sect2>
+		<sect2><title>Paketfiltrerande</title>
+		<para>
+			En paketfiltrerande brandvägg tittar bara på ip-adresser och
+			portar. Den arbetar på nätverkslagret och kan därför inte säga
+			något om innehållet i trafiken. Det finns två typer av
+			paketfiltrerande brandväggar, de som är
+			<emphasis>stateful</emphasis> och de som är
+			<emphasis>stateless</emphasis>. De som är stateful kommer ihåg
+			de paket den har behandlat och kan sätta in paketen i ett
+			sammanhang medan de som är stateless ser varje paket som en
+			egen händelse.
+		</para>
+		<para>
+			Paketfiltrerande brandväggar kombineras oftast med en router.
+			De har två eller fler gränssnitt mellan vilka trafiken
+			dirigeras med en routingtabell. Utöver detta finns det även
+			brandväggsregler som säger vilken trafik som får passera
+			branvädggen. Ett enkelt sådant regelverk kan vara:
+			<screen>
+Tillåt trafik från insidan till webbservrar (port tcp/80) på utsidan
+Tillåt trafik från insidan till dnsservrar  (port udp/53) på utsidan
+Tillåt trafik till 84.243.2.149 port tcp/6667 (selinux, irc)
+Tillåt ingen annan trafik från insidan till utsidan
+			</screen>
+		En paketfiltrerande brandvägg har sina begränsningar men är
+		väldigt effektiv och används idag på i proncip alla nätverk och
+		nästan alla datorer som används på Internet.
+		</para>
+		
+		</sect2>
+		<sect2><title>Proxies</title>
+			<para>
+				En proxyserver är också en typ av brandvägg men den jobbar
+				ända uppe på applikationsnivån i OSI-modellen. Det gör att
+				den har andra möjligheter än en paketfiltrerande brandvägg.
+				En proxyserver kan till exempel titta på url:er och till och
+				med på innehåll i http-trafik (surfning).
+			</para>
+			<para>
+				Man kan alltså kontrollera vilka webbplatser som kan besökas
+				och man kan till och med kontrollera vilka filnamn som kan
+				hämtas. Man kan filtrera på innehåll och till exempel
+				sortera bort sidor som innehåller vissa ord. 
+			</para>
+			<para>
+				Inte sällan kombineras en patetfiltrerande branvägg med en
+				proxy. En nackdel med proxyservern är att den är något
+				långsammare eftersom den måste ända upp i applikationslagret
+				och dessutom har ett mer avancerat regelverk.
+			</para>
+		</sect2>
+		<sect2><title>Personlig brandvägg</title>
+			<para>
+				Det är ganska vanligt att man utrustar även klientdatorerna,
+				alltså de som användarna sitter vid, med lokala brandväggar
+				och till och med proxys. Detta för att de skall vara
+				skyddade mot varandra och när de flyttas runt mellan olika
+				nät. Det är en bra säkerhetsprincip att varje nod skall i
+				sig vara säker. Man skall aldrig lita på att något runt om
+				kring är säkert.
+			</para>
+			<para>
+				Man skall heller aldrig lite för mycket på en brandvägg.
+				Tänk på hur fungerar och att de i princip inte alls fungerar
+				mot virus och trojaner och annat som kan lista sig in i din
+				dator utan att du vet om det, men enligt brandväggens
+				regler.
+			</para>
+		</sect2>
+	</sect1>
+
 	<sect1><title>Kryptering</title>
 		<para>
 			En sak som är grundläggande när det gäller att hålla saker
@@ -241,8 +342,8 @@
 			Chiffer och nyckeln är 3.
 			<screen>
 ||| <- Nyckel = 3
-ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ
-	 |  |  |      |||       | 
+   ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ
+       |  |  |      |||       | 
 ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 			</screen>
 			Krypterar man ordet <emphasis>säkerhet</emphasis> med denna
@@ -261,10 +362,10 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 		</para>
 		<sect2><title>Symmetrisk och asymmetrisk kryptering</title>
 			<para>
-				Det finns i huvudsak två olika sorters kryptering,
-				<emphasis>symmetrisk</emphasis> och
-				<emphasis>asymmetrisk</emphasis> kryptering. Symmetrisk
-				kryptering använder en nyckel och asymmetrisk två.
+				Det går att dela in vanliga krytperingsalgoritmer i två
+				famljer, <emphasis>symmetrisk</emphasis> och
+				<emphasis>asymmetrisk</emphasis>. Symmetrisk kryptering
+				använder en nyckel och asymmetrisk två.
 			</para>
 			<para>
 				Caesars Chiffer som vi såg ovan använder sig av en nyckel
@@ -277,24 +378,24 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 				krypteringsalgoritmer kan göras väldigt snabba. Det är
 				relativt lätt att kryptera med symmetrisk kryptering. Men
 				det finns ett stort problem, nämligen hur man skall dela
-				nyckeln mellan sändare och mottagare. Vill jag kunna ta
-				emot krypterade meddelanden från människor så måste jag
-				ju först träffa dem för att vi skall kunna komma överens
-				om en nyckel vi skall använda. Nyckeln måste vi ju båda
-				känna till och den är lika hemlig som meddelandet.
-				Nyckeln kan man ju också bara använda för att skicka
-				meddelanden mellan två personer. Skall man skicka ett
-				annat meddelande till en annan person så måste man skapa
-				en nyckel till och byta den på något sätt. Tillslut inser
-				man att om man måste byta en nyckel varje gång så kan man
+				nyckeln mellan sändare och mottagare. Vill jag kunna ta emot
+				krypterade meddelanden från människor så måste jag ju först
+				träffa dem för att vi skall kunna komma överens om en nyckel
+				vi skall använda. Nyckeln måste vi ju båda känna till och
+				den är lika hemlig som meddelandet.  Nyckeln kan man ju
+				också bara använda för att skicka meddelanden mellan två
+				personer. Skall man skicka ett annat meddelande till en
+				annan person så måste man skapa en nyckel till och byta den
+				på något sätt. Till slut inser man att om man måste byta en
+				nyckel varje gång man skall skicka ett meddelande så kan man
 				lika gärna lämna meddelandet på en gång.
 			</para>
 			<para>
 				En lösning på detta är något som kallas asymmetrisk
 				kryptering. Det går till så att man använder ett par av
-				nycklar. En för att kryptera och en för att dekryptera.
-				Med hjälp av denna förändring kan man lösa många av
-				problemen som vi visat på ovan.
+				nycklar. En för att kryptera och en för att dekryptera.  Med
+				hjälp av denna förändring kan man lösa många av problemen
+				som vi visat på ovan.
 			</para>
 			<para>
 				Paret av nycklar använder man på så vis att man håller

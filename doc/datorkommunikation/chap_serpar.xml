@@ -284,6 +284,11 @@
 				paritetsbiten.  Om den inte stämmer överens med det
 				förväntade har något fel inträffat i överföringen.
 			</para>
+			<para>
+				En enklare form av paritet kallas etta eller nolla. Då
+				lägger man till en paritetsbit som alltid är en etta eller
+				nolla.
+			</para>
 
 		</sect2>
 
