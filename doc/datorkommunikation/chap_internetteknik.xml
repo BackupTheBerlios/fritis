@@ -462,8 +462,8 @@
 						<phrase>
 							Bild på ett nätverk. Till vänster syns ett lokalt
 							bätverk med adressrymden 192.168.0.0/255.255.255.0.
-							Det har en gateway som har adressen 192.168.0.254
-							på insidan och 10.0.0.9 på utsidan. Den är kopplad
+							Det har en router som har adressen 192.168.0.254 på
+							insidan och 10.0.0.9 på utsidan. Den är kopplad
 							till Internet där till exempel www.se.linux.org
 							finns.
 						</phrase>
@@ -474,11 +474,11 @@
 							nätverk. Det har nätverksadressen 192.168.0.0 och
 							nätmasken 255.255.255.0. På det nätverket finns
 							maskinerna 192.168.0.1 och 192.168.0.2 samt en
-							gateway på 192.168.0.254. Denna gateway har en
-							publik IP-adress som är 10.0.0.9. Gatewayen är
-							kopplad till Internet (eller i själva verket till
-							ytterligare en router) och där, på Internet, finns
-							bland annat datorn se.linux.org (213.141.74.169).
+							router på 192.168.0.254. Denna router har en publik
+							IP-adress som är 10.0.0.9. Routern är kopplad till
+							Internet (eller i själva verket till ytterligare en
+							router) och där, på Internet, finns bland annat
+							datorn se.linux.org (213.141.74.169).
 						</para>
 					</caption>
 				</mediaobject>
