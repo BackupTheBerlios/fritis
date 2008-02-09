@@ -2,7 +2,7 @@
 #
 #
 #
-SOURCE_FILES=datorkommunikation.xml liskola.css liskola.dsl index.in Makefile outline.txt laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml fdl.xml kommandotabell.xml rfcer.xml asciitabell.xml dectobintabell.xml hextodectabell.xml netmask.xml ovningsuppgifter.xml services.xml topdomains.xml chap_sakerhet.xml chap_epost.xml
+SOURCE_FILES=datorkommunikation.xml .htaccess fritis.css fritis.dsl index.in Makefile outline.txt laborationer/lab1_hub_vs_switch.sxw fdl-sv.xml fdl.xml kommandotabell.xml rfcer.xml asciitabell.xml dectobintabell.xml hextodectabell.xml netmask.xml ovningsuppgifter.xml services.xml topdomains.xml chap_sakerhet.xml chap_epost.xml
 TARGET=datorkommunikation
 
 LABORATIONS= #laborationer/lab1_hub_vs_switch.pdf
@@ -18,9 +18,9 @@ BASE_FILE_NAME=$(TARGET)
 all: html index.html ps pdf dist laborations
 
 pub: all
-	chmod -R o+r,g-rwxs *
+	chmod -R o+r,g-rwxs * .htaccess
 	chmod 705 laborationer
-	rsync -e "ssh -l rejas" --delete --recursive ./ namatj.rejas.se:www.rejas.se/static/fritis/$(TARGET)/
+	rsync -e "ssh -l rejas" --recursive ./ joakim.vaddo.rejas.se:/var/www/www.rejas.se/static/fritis/$(TARGET)/
 
 fdl-sv.xml: ../../../licenses/fdl-sv.xml
 	cp ../../../licenses/fdl-sv.xml fdl-sv.xml
@@ -35,13 +35,13 @@ dist: $(TARGET).tar.gz
 
 laborations: $(LABORATIONS)
 
-html: $(SOURCE_FILES) index.html
-	docbook2html -d liskola.dsl#html $<
+html: $(SOURCE_FILES) book1.html
+	docbook2html -d fritis.dsl#html $<
 
 ps: $(TARGET).ps
 
 $(TARGET).ps: $(SOURCE_FILES)
-	docbook2ps -d liskola.dsl#print $<
+	docbook2ps -d fritis.dsl#print $<
 
 pdf: $(TARGET).pdf
 

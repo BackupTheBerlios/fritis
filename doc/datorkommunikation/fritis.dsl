@@ -1,11 +1,11 @@
 <!--
-	liskola.dsl
+	fritis.dsl
 
-	Version: $Revision: 1.4 $
+	Version: $Revision: 1.1 $
 
 
 	Detta är en Style Sheet för böckerna som skrivs för projektet
-	Linux i Skolan som drivs av Svenska Linuxföreningen.
+	Fritis - Fri IT i skolan.
 
 	Frågor eller kommentarer skickas till marcus@rejas.se
 -->
@@ -34,7 +34,7 @@
 ;; Följande deklarationer gäller bara för print. Det vill säga när denna
 ;; fil anropas med exempelvis:
 ;; 
-;; docbook2ps -d liskola.dsl#print filnamn.xml
+;; docbook2ps -d fritis.dsl#print filnamn.xml
 ;;
 
 
@@ -122,18 +122,19 @@
 ;; Följande deklarationer gäller bara för html. Det vill säga när denna
 ;; fil anropas med exempelvis:
 ;; 
-;; docbook2html -d liskola.dsl#html filnamn.xml
+;; docbook2html -d fritis.dsl#html filnamn.xml
 ;;
 
 
 ;;
 ;; Vi formaterar HTML-koden med hjälp av CSS. Följande definierar vilken
-;; CSS-fil som skall användas. Default: liskola.css
+;; CSS-fil som skall användas. Default: fritis.css
 ;;
 (define %html-header-tags% 
    '(("LINK" ("REL" "stylesheet")
-      ("HREF" "./liskola.css") 
+      ("HREF" "./fritis.css") 
       ("TYPE" "text/css"))))
+
 
 
 ;;
