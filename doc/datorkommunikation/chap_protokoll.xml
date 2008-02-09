@@ -1,7 +1,7 @@
 <chapter id="chap_protokoll"><title>Protokoll</title>
-	<!--	- Olika typer av överförings- transport- och
+	<!--	- Olika typer av Ã¶verfÃ¶rings- transport- och
 		  transmissionsprotokoll
-		- Referensmodeller som beskriver struktur och funktion för
+		- Referensmodeller som beskriver struktur och funktion fÃ¶r
 		  datorkommunikation
 		  
 	Modeller, referensmodeller, standarder
@@ -13,11 +13,11 @@
 	-->
 	<abstract>
 		<para>
-			Protokoll är en uppsättning regler som de olika systemen måste
-			känna till för att kunna kommunicera med varandra. Man kan säga
-			att ett protokoll är det språk på vilket kommunikationen sker.
-			Jag skriver detta på Svenska. Eftersom du känner till de regler
-			som gäller för Svenska så förstår du vad jag skriver. Vi
+			Protokoll Ã¤r en uppsÃ¤ttning regler som de olika systemen mÃ¥ste
+			kÃ¤nna till fÃ¶r att kunna kommunicera med varandra. Man kan sÃ¤ga
+			att ett protokoll Ã¤r det sprÃ¥k pÃ¥ vilket kommunikationen sker.
+			Jag skriver detta pÃ¥ Svenska. Eftersom du kÃ¤nner till de regler
+			som gÃ¤ller fÃ¶r Svenska sÃ¥ fÃ¶rstÃ¥r du vad jag skriver. Vi
 			kommunicerar med Svenska som protokoll.
 		</para>
 	</abstract>
@@ -25,120 +25,120 @@
 	<sect1><title>Inledning</title>
 		<para>
 			Minns ni telefonsamtalet (<xref linkend="fig_telefonsamtal"/>)
-			som var ett exempel tidigt i denna bok?  För att
-			telefonsamtalet skall fungera krävs att väldigt många olika
-			regler som måste följas. Man kan dela kommunikationen i ett
-			flertal olika lager. Om Kalle talar i telefon med Kajsa så
-			talar de ju enligt en uppsättning olika regler. De måste vara
-			överens om vilket språk de talar och även inom vilket ämne de
+			som var ett exempel tidigt i denna bok?  FÃ¶r att
+			telefonsamtalet skall fungera krÃ¤vs att vÃ¤ldigt mÃ¥nga olika
+			regler som mÃ¥ste fÃ¶ljas. Man kan dela kommunikationen i ett
+			flertal olika lager. Om Kalle talar i telefon med Kajsa sÃ¥
+			talar de ju enligt en uppsÃ¤ttning olika regler. De mÃ¥ste vara
+			Ã¶verens om vilket sprÃ¥k de talar och Ã¤ven inom vilket Ã¤mne de
 			talar. Talar de om helt olika saker finns det en stor risk att
-			de missförstår varandra.
+			de missfÃ¶rstÃ¥r varandra.
 		</para>
 		<para>
-			Om man studerar samtalet i detalj så ser man att Kalle
-			egentligen inte talar med Kajsa. För honom är det som om han
-			gör det men egentligen så talar han med sin telefon. Telefonen
+			Om man studerar samtalet i detalj sÃ¥ ser man att Kalle
+			egentligen inte talar med Kajsa. FÃ¶r honom Ã¤r det som om han
+			gÃ¶r det men egentligen sÃ¥ talar han med sin telefon. Telefonen
 			i sin tur tror att den "talar" med Kajsas telefon men den talar
-			egentligen med en telefonväxel och så vidare. Varje nivå i vårt
-			exempel tror att de talar med en motpart på samma nivå medan de
-			egentligen talar med en nivå upp eller ner på sin sida av
-			figuren. Överallt i alla pilar i <xref
-			linkend="fig_telefonsamtal"/> finns det regler för hur det
-			skall gå till för att allt skall fungera. Märk också att de
-			tvärgående pilarna fungerar precis lika även om de
-			underliggande pilarna ändras. Till exempel så behöver inte
-			Kalle och Kajsa tala på ett annat sätt om samtalet går via
-			satellit istället för kopparkabel bara de lager det berör gör
+			egentligen med en telefonvÃ¤xel och sÃ¥ vidare. Varje nivÃ¥ i vÃ¥rt
+			exempel tror att de talar med en motpart pÃ¥ samma nivÃ¥ medan de
+			egentligen talar med en nivÃ¥ upp eller ner pÃ¥ sin sida av
+			figuren. Ã–verallt i alla pilar i <xref
+			linkend="fig_telefonsamtal"/> finns det regler fÃ¶r hur det
+			skall gÃ¥ till fÃ¶r att allt skall fungera. MÃ¤rk ocksÃ¥ att de
+			tvÃ¤rgÃ¥ende pilarna fungerar precis lika Ã¤ven om de
+			underliggande pilarna Ã¤ndras. Till exempel sÃ¥ behÃ¶ver inte
+			Kalle och Kajsa tala pÃ¥ ett annat sÃ¤tt om samtalet gÃ¥r via
+			satellit istÃ¤llet fÃ¶r kopparkabel bara de lager det berÃ¶r gÃ¶r
 			sitt.
 		</para>
 		<para>
-			Kort sagt så kan man säga att om man skall kommunicera på ett
-			eller annat sätt så måste de som kommunicerar göra det efter
-			vissa givna regler. Ett datornätverk skulle inte fungera om
-			inte alla enheter håll sig till en uppsättning regler. Hur
-			skulle alla 1:or och 0:or på Internet kunna komma rätt om alla
+			Kort sagt sÃ¥ kan man sÃ¤ga att om man skall kommunicera pÃ¥ ett
+			eller annat sÃ¤tt sÃ¥ mÃ¥ste de som kommunicerar gÃ¶ra det efter
+			vissa givna regler. Ett datornÃ¤tverk skulle inte fungera om
+			inte alla enheter hÃ¥ll sig till en uppsÃ¤ttning regler. Hur
+			skulle alla 1:or och 0:or pÃ¥ Internet kunna komma rÃ¤tt om alla
 			datorer gjorde som de ville?
 		</para>
 	</sect1>
 
 	<sect1><title>Olika protokoll till olika saker</title>
 		<para>
-			Nu är det inte så att det bara finns ett protokoll. Det finns
-			inte heller bara ett protokoll per nätverk utan det finns
-			massor av protokoll, i alla delar av kommunikationen. Tänk på
-			telefonsamtalet igen. Kalle och Kajsa talar ett språk med
-			varandra, det är ett protokoll. Den som ringde upp slog ett
+			Nu Ã¤r det inte sÃ¥ att det bara finns ett protokoll. Det finns
+			inte heller bara ett protokoll per nÃ¤tverk utan det finns
+			massor av protokoll, i alla delar av kommunikationen. TÃ¤nk pÃ¥
+			telefonsamtalet igen. Kalle och Kajsa talar ett sprÃ¥k med
+			varandra, det Ã¤r ett protokoll. Den som ringde upp slog ett
 			nummer med sin telefon, detta nummer tolkades av en
-			telefonväxel enligt ett visst protokoll, osv. På samma sätt är
-			det ett virrvarr av protokoll i ett datornätverk och även
-			mellan datorer och tillbehör, som till exempel skrivare.
+			telefonvÃ¤xel enligt ett visst protokoll, osv. PÃ¥ samma sÃ¤tt Ã¤r
+			det ett virrvarr av protokoll i ett datornÃ¤tverk och Ã¤ven
+			mellan datorer och tillbehÃ¶r, som till exempel skrivare.
 		</para>
 		<para>
 			Protokoll finns mellan alla parter som utbyte av data sker.
-			Detta gäller både horisontellt och vertikalt i vår
+			Detta gÃ¤ller bÃ¥de horisontellt och vertikalt i vÃ¥r
 			telefonmodell (<xref linkend="fig_telefonsamtal"/>). Vi har ju
-			tidigare tittat på till exempel hur data kan skickas över en
-			seriell förbindelse som är ett exempel på ett protokoll.
+			tidigare tittat pÃ¥ till exempel hur data kan skickas Ã¶ver en
+			seriell fÃ¶rbindelse som Ã¤r ett exempel pÃ¥ ett protokoll.
 		</para>
 		<para>
-			Följer alla sina protokoll så kommer det att fungera. För att
-			alla skall kunna följa samma protokoll så måste ju dessa
-			protokoll finnas tillgängliga för alla som vill vara med och
-			prata. Dessutom måste det ju finnas någon som ser till att
-			protokollen hålls uppdaterade och att de är korrekta.
+			FÃ¶ljer alla sina protokoll sÃ¥ kommer det att fungera. FÃ¶r att
+			alla skall kunna fÃ¶lja samma protokoll sÃ¥ mÃ¥ste ju dessa
+			protokoll finnas tillgÃ¤ngliga fÃ¶r alla som vill vara med och
+			prata. Dessutom mÃ¥ste det ju finnas nÃ¥gon som ser till att
+			protokollen hÃ¥lls uppdaterade och att de Ã¤r korrekta.
 		</para>
 	</sect1>
 
-	<sect1><title>Vem styr över protokollen och hur tillkommer nya?</title>
+	<sect1><title>Vem styr Ã¶ver protokollen och hur tillkommer nya?</title>
 		<para>
-			Det finns flera företag och organisationer som hanterar olika
-			standarder. De flesta välanvända protokoll finns dokumenterade
-			i någon typ av standard. När det gäller Internet så har flera
-			standarder kommit till på ett lite annorlunda sätt. Internet är
-			ju ett öppet nät som inte någon kontrollerar, därför har
-			standarder under Internets uppväxt kommit till på i den andan.
-			På Internet finns en typ av dokument som heter
+			Det finns flera fÃ¶retag och organisationer som hanterar olika
+			standarder. De flesta vÃ¤lanvÃ¤nda protokoll finns dokumenterade
+			i nÃ¥gon typ av standard. NÃ¤r det gÃ¤ller Internet sÃ¥ har flera
+			standarder kommit till pÃ¥ ett lite annorlunda sÃ¤tt. Internet Ã¤r
+			ju ett Ã¶ppet nÃ¤t som inte nÃ¥gon kontrollerar, dÃ¤rfÃ¶r har
+			standarder under Internets uppvÃ¤xt kommit till pÃ¥ i den andan.
+			PÃ¥ Internet finns en typ av dokument som heter
 			<emphasis>Request For Comments, RFC</emphasis>. RFC-Dokument
-			fungerar så att någon publicerar ett RFC som beskriver något
-			protokoll eller annat som kan beröra flera. Om inte någon
+			fungerar sÃ¥ att nÃ¥gon publicerar ett RFC som beskriver nÃ¥got
+			protokoll eller annat som kan berÃ¶ra flera. Om inte nÃ¥gon
 			protesterat inom en vis tid antas att RFC:n kan fungera som
-			standard. I dag som regel ett RFC-dokument klart redan när det
-			publiceras. Vi kommer att titta mer på Internet i <xref
-			linkend="chap_internet"/>, det finns också en tabell över
-			RFC:er som berör det vi talar om i denna bok i <xref
+			standard. I dag som regel ett RFC-dokument klart redan nÃ¤r det
+			publiceras. Vi kommer att titta mer pÃ¥ Internet i <xref
+			linkend="chap_internet"/>, det finns ocksÃ¥ en tabell Ã¶ver
+			RFC:er som berÃ¶r det vi talar om i denna bok i <xref
 			linkend="rfc"/>.
 		</para>
 		<para>
-			Det finns naturligtvis även protokoll och standarder som
-			kontrolleras av företag och organisationer på traditionellt
-			vis.  Exempel på organisationer som hanterar standarder är i
+			Det finns naturligtvis Ã¤ven protokoll och standarder som
+			kontrolleras av fÃ¶retag och organisationer pÃ¥ traditionellt
+			vis.  Exempel pÃ¥ organisationer som hanterar standarder Ã¤r i
 			Sverige till exempel <emphasis>Post och Telestyrelsen,
 			PTS</emphasis> som kontrollerar bland annat radio och
 			teletrafiken i Sverige och <emphasis>Standardiseringen i
-			Sverige, SIS</emphasis> som är en del av <emphasis>ISO,
+			Sverige, SIS</emphasis> som Ã¤r en del av <emphasis>ISO,
 			International Organization for Standardization</emphasis> som
-			är en organisation som lyder under FN och har medlemmar från
+			Ã¤r en organisation som lyder under FN och har medlemmar frÃ¥n
 			147<footnote><para>http://www.iso.ch/iso/en/aboutiso/introduction/</para></footnote>
-			länder. Ett annat organ som kan vara bra att känna till är
-			<emphasis>IEEE</emphasis> som är ett Amerikansk samling av
-			ingenjörer som tar fram standarder för bland annat lokala
-			nätverk.
+			lÃ¤nder. Ett annat organ som kan vara bra att kÃ¤nna till Ã¤r
+			<emphasis>IEEE</emphasis> som Ã¤r ett Amerikansk samling av
+			ingenjÃ¶rer som tar fram standarder fÃ¶r bland annat lokala
+			nÃ¤tverk.
 		</para>
 		<para>
-			Standarder som tas fram av oberoende organisationer kallas för
+			Standarder som tas fram av oberoende organisationer kallas fÃ¶r
 			<emphasis>formella standarder</emphasis>. I de oberoende
-			organisationerna sitter ofta flera av de företag som berörs av
-			starndarderna men efersom de alla har samma tillgång till
-			standarderna så kallas de ändå oberoende. Ganska många
-			standarder tas fram på så sätt att ett företag utvecklar en
-			produtk som skall fungera på ett viss sätt. Blir denna populär
-			så kommer konkurrenterna att anamma samma format för att kunna
+			organisationerna sitter ofta flera av de fÃ¶retag som berÃ¶rs av
+			starndarderna men efersom de alla har samma tillgÃ¥ng till
+			standarderna sÃ¥ kallas de Ã¤ndÃ¥ oberoende. Ganska mÃ¥nga
+			standarder tas fram pÃ¥ sÃ¥ sÃ¤tt att ett fÃ¶retag utvecklar en
+			produtk som skall fungera pÃ¥ ett viss sÃ¤tt. Blir denna populÃ¤r
+			sÃ¥ kommer konkurrenterna att anamma samma format fÃ¶r att kunna
 			utbyta information med denna produkt. Till slut har man en
-			"standard" som alla följer men som ett enda företag (det som
+			"standard" som alla fÃ¶ljer men som ett enda fÃ¶retag (det som
 			inledningsvis tog fram det) kontrollerar och utvecklar. Dessa
-			standarder kallas för <emphasis>de-factostandarder</emphasis>
-			eller industristandarder och skall inte förväxlas med formella
-			standarder eftersom företagen inte konkurrerar på samma vilkor
+			standarder kallas fÃ¶r <emphasis>de-factostandarder</emphasis>
+			eller industristandarder och skall inte fÃ¶rvÃ¤xlas med formella
+			standarder eftersom fÃ¶retagen inte konkurrerar pÃ¥ samma vilkor
 			kring en industristandard vilket de kan kring en formell
 			standard.
 		</para>
@@ -146,49 +146,49 @@
 
 	<sect1 id="sect_osimodellen"><title>OSI-modellen</title>
 		<para>
-			I de fall där man skall implementera datorkommunikation så
-			stöter man oftast på problem som är väldigt likartade. Oftast
-			så kan man specificera problemet i en modell som inte är helt
-			olik den i vårt telefonsamtal (<xref
-			linkend="fig_telefonsamtal"/>).  Likheten är att man kan dela
-			upp kommunikationen i olika lager med samma lager på både
-			sändar- och mottagarsidan. Precis som i telefonsamtalet
+			I de fall dÃ¤r man skall implementera datorkommunikation sÃ¥
+			stÃ¶ter man oftast pÃ¥ problem som Ã¤r vÃ¤ldigt likartade. Oftast
+			sÃ¥ kan man specificera problemet i en modell som inte Ã¤r helt
+			olik den i vÃ¥rt telefonsamtal (<xref
+			linkend="fig_telefonsamtal"/>).  Likheten Ã¤r att man kan dela
+			upp kommunikationen i olika lager med samma lager pÃ¥ bÃ¥de
+			sÃ¤ndar- och mottagarsidan. Precis som i telefonsamtalet
 			upplever varje lager som om det kommunicerar med motsvarande
-			lager på andra sidan när det i själva verket egentligen bara
-			talar med det underliggande och överliggande lagret.
+			lager pÃ¥ andra sidan nÃ¤r det i sjÃ¤lva verket egentligen bara
+			talar med det underliggande och Ã¶verliggande lagret.
 		</para>
 		<para>
-			På under slutet av 1970- och början på 1980-talet kom den
-			internationella standardiseringsorganisationen, ISO på en
-			modell för att på ett standardiserat sätt beskriva hur
-			datorkommunikation går till.  Anledningen till detta är att
+			PÃ¥ under slutet av 1970- och bÃ¶rjan pÃ¥ 1980-talet kom den
+			internationella standardiseringsorganisationen, ISO pÃ¥ en
+			modell fÃ¶r att pÃ¥ ett standardiserat sÃ¤tt beskriva hur
+			datorkommunikation gÃ¥r till.  Anledningen till detta Ã¤r att
 			alla som jobbar med datorkommunikation skall ha en gemensam
-			modell att jobba kring. Modellen som ISO togs fram kallas för
+			modell att jobba kring. Modellen som ISO togs fram kallas fÃ¶r
 			<emphasis>Open Systems Interconnect (OSI)</emphasis>.
 		</para>
 		<para>
-			OSI-modellen har sju lager. Den nedersta lagret är närmast
-			hårdvaran och det översta närmast användaren. Man numrerar
-			lagren från 1 till 7 och börjar nerifrån. Så här ser lagren ut.
+			OSI-modellen har sju lager. Den nedersta lagret Ã¤r nÃ¤rmast
+			hÃ¥rdvaran och det Ã¶versta nÃ¤rmast anvÃ¤ndaren. Man numrerar
+			lagren frÃ¥n 1 till 7 och bÃ¶rjar nerifrÃ¥n. SÃ¥ hÃ¤r ser lagren ut.
 
 			<literallayout>7. Applikation (Application)
 				6. Presentation (Presentation)
 				5. Session (Session)
 				4. Transport (Transport)
-				3. Nätverk (Network)
-				2. Datalänk (Datalink)
+				3. NÃ¤tverk (Network)
+				2. DatalÃ¤nk (Datalink)
 				1. Fysiska (Physical)
 			</literallayout>
 
-			För att komma ihåg de olika lagren är det smidigt att lära sig
-			en lite ramsa. Den ramsa jag lärde mig en gång i tiden var
+			FÃ¶r att komma ihÃ¥g de olika lagren Ã¤r det smidigt att lÃ¤ra sig
+			en lite ramsa. Den ramsa jag lÃ¤rde mig en gÃ¥ng i tiden var
 			<emphasis>Please Do Not Teach Such Petty Acronyms</emphasis>
-			men du kan hitta på en egen ramsa eller leta efter en på
+			men du kan hitta pÃ¥ en egen ramsa eller leta efter en pÃ¥
 			Internet, det finns massor.
 		</para>
 		<para>
-			Vi skall nu studera OSI-modellen lite mer i detalj. För att det
-			skall gå så lätt som möjligt så börjar vi med en liten figur. 
+			Vi skall nu studera OSI-modellen lite mer i detalj. FÃ¶r att det
+			skall gÃ¥ sÃ¥ lÃ¤tt som mÃ¶jligt sÃ¥ bÃ¶rjar vi med en liten figur. 
 
 			<figure id="fig_osi-modell">
 				<title>OSI-modellen</title>
@@ -203,9 +203,9 @@
 					<textobject>
 						<phrase>
 							Bild som visar OSI-modellens 7 lager och hur
-							kommunikation går uppåt och nedåt på varje sida medan
+							kommunikation gÃ¥r uppÃ¥t och nedÃ¥t pÃ¥ varje sida medan
 							de olika skikten/lagren upplever det som om de talade
-							med samma lager på motstående sida.
+							med samma lager pÃ¥ motstÃ¥ende sida.
 						</phrase>
 					</textobject>
 				</mediaobject>
@@ -213,45 +213,45 @@
 
 
 			I figuren (<xref linkend="fig_osi-modell"/>) ser vi
-			OSI-modellens sju lager. Då ett meddelande skall gå från den
-			ena sidan till den andra börjar meddelandet högst upp på den
-			ena sidan. All data förbereds för att skickas till samma nivå
-			på den andra sidan och skickas sedan till lagret under. Detta
-			lager lägger på den information som skall till motsvarande
-			lager på andra sidan och skickar nedåt. Så fortsätter
-			meddelandet på sändarsidan tills det nått det nedersta lagret.
-			Det nedersta lagret ser till att meddelandet hamnar längst ned
-			på mottagarsidan. Nu har meddelandet en resa framför sig upp på
+			OSI-modellens sju lager. DÃ¥ ett meddelande skall gÃ¥ frÃ¥n den
+			ena sidan till den andra bÃ¶rjar meddelandet hÃ¶gst upp pÃ¥ den
+			ena sidan. All data fÃ¶rbereds fÃ¶r att skickas till samma nivÃ¥
+			pÃ¥ den andra sidan och skickas sedan till lagret under. Detta
+			lager lÃ¤gger pÃ¥ den information som skall till motsvarande
+			lager pÃ¥ andra sidan och skickar nedÃ¥t. SÃ¥ fortsÃ¤tter
+			meddelandet pÃ¥ sÃ¤ndarsidan tills det nÃ¥tt det nedersta lagret.
+			Det nedersta lagret ser till att meddelandet hamnar lÃ¤ngst ned
+			pÃ¥ mottagarsidan. Nu har meddelandet en resa framfÃ¶r sig upp pÃ¥
 			mottagarsidan. Varje lager behandlar den information som var
-			avsedd för det lagret (från sin kompis på andra sidan) och tar
-			bort denna information innan meddelandet skickas uppåt. Så
-			fortgår det tills meddelandet nått toppen på mottagarsidan och
-			ser ut som det gjorde innan det började sin resa.
+			avsedd fÃ¶r det lagret (frÃ¥n sin kompis pÃ¥ andra sidan) och tar
+			bort denna information innan meddelandet skickas uppÃ¥t. SÃ¥
+			fortgÃ¥r det tills meddelandet nÃ¥tt toppen pÃ¥ mottagarsidan och
+			ser ut som det gjorde innan det bÃ¶rjade sin resa.
 		</para>
 		<para>
-			Vi skall ni titta lite närmare på varje lager:
+			Vi skall ni titta lite nÃ¤rmare pÃ¥ varje lager:
 		</para>
 		
 		<sect2><title>Applikationslagret</title>
 			<para>
-				Detta är lagret närmast programvarorna som användaren ser. Det
-				är med detta lager som program som använder nätverket jobbar.
-				Exempel på protokoll från detta lager är FTP, HTTP, och olika
-				protokoll för att dela filer.
+				Detta Ã¤r lagret nÃ¤rmast programvarorna som anvÃ¤ndaren ser. Det
+				Ã¤r med detta lager som program som anvÃ¤nder nÃ¤tverket jobbar.
+				Exempel pÃ¥ protokoll frÃ¥n detta lager Ã¤r FTP, HTTP, och olika
+				protokoll fÃ¶r att dela filer.
 			</para>
 		</sect2>
 		
 		<sect2><title>Presentationslagret</title>
 			<para>
-				Används inte så ofta. I detta lager formateras data om utan att
-				förändras. Till exempel om man skall kryptera eller komprimera
-				data i överföringen så sker det i detta lager.
+				AnvÃ¤nds inte sÃ¥ ofta. I detta lager formateras data om utan att
+				fÃ¶rÃ¤ndras. Till exempel om man skall kryptera eller komprimera
+				data i Ã¶verfÃ¶ringen sÃ¥ sker det i detta lager.
 			</para>
 		</sect2>
 
 		<sect2><title>Sessionslagret</title>
 			<para>
-				Detta lager används inte så ofta. Detta lager håller reda på hur
+				Detta lager anvÃ¤nds inte sÃ¥ ofta. Detta lager hÃ¥ller reda pÃ¥ hur
 				sessioner startas och avslutas. En session kan till exempel vara
 				att ett program har en koppling till en terminal eller databas.
 			</para>
@@ -259,37 +259,37 @@
 
 		<sect2><title>Transportlagret</title>
 			<para>
-				I detta lager delas data i flera mindre paket. Det gör att
-				nätskiktet lättare kan arbeta. På mottagarsidan ansvara detta
-				lager för att sätta ihop paketen igen i rätt ordning så att
-				ursprungsstrukturen återfås. I detta skikt hittar vi TCP som
-				används flitigt på Internet och på LAN.
+				I detta lager delas data i flera mindre paket. Det gÃ¶r att
+				nÃ¤tskiktet lÃ¤ttare kan arbeta. PÃ¥ mottagarsidan ansvara detta
+				lager fÃ¶r att sÃ¤tta ihop paketen igen i rÃ¤tt ordning sÃ¥ att
+				ursprungsstrukturen Ã¥terfÃ¥s. I detta skikt hittar vi TCP som
+				anvÃ¤nds flitigt pÃ¥ Internet och pÃ¥ LAN.
 			</para>
 		</sect2>
 
-		<sect2><title>Nätverkslagret</title>
+		<sect2><title>NÃ¤tverkslagret</title>
 			<para>
-				Detta lager ansvarar för vägval och och vidarebefordring av
-				paketen i datanätet. Här jobbbar till exempel routrar. Det finns
+				Detta lager ansvarar fÃ¶r vÃ¤gval och och vidarebefordring av
+				paketen i datanÃ¤tet. HÃ¤r jobbbar till exempel routrar. Det finns
 				massor av protokoll i detta skikt och det viktigaste i dag
-				borde vara IP som används på Internet och i de flesta LAN.
+				borde vara IP som anvÃ¤nds pÃ¥ Internet och i de flesta LAN.
 			</para>
 		</sect2>
 
-		<sect2><title>Datalänklagret</title>
+		<sect2><title>DatalÃ¤nklagret</title>
 			<para>
-				Här hittar vi det accessmetoder vi lärt oss. Till exempel
-				CSMA/CD och Token Passing. Utrustning som jobbar här är till
+				HÃ¤r hittar vi det accessmetoder vi lÃ¤rt oss. Till exempel
+				CSMA/CD och Token Passing. Utrustning som jobbar hÃ¤r Ã¤r till
 				exempel bryggor.
 			</para>
 		</sect2>
 
 		<sect2><title>Fysiska lagret</title>
 			<para>
-				Det fysiska lagret hanterar det fysiska. Det vill säga det som
-				man kan ta på. Här hittar vi kablar, kontakter, spänningar och
-				strömmar. Exempel på utrustning här är STP, UTP, Koax och RJ45.
-				Vanliga enheter är Volt, Ampere och Herz.
+				Det fysiska lagret hanterar det fysiska. Det vill sÃ¤ga det som
+				man kan ta pÃ¥. HÃ¤r hittar vi kablar, kontakter, spÃ¤nningar och
+				strÃ¶mmar. Exempel pÃ¥ utrustning hÃ¤r Ã¤r STP, UTP, Koax och RJ45.
+				Vanliga enheter Ã¤r Volt, Ampere och Herz.
 			</para>
 		</sect2>
 	</sect1>

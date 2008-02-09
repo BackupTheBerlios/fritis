@@ -1,9 +1,9 @@
-<appendix id="services"><title>Portnummer och tjänster</title>
+<appendix id="services"><title>Portnummer och tjÃ¤nster</title>
 <para>
-I detta appendix listas en del tjänster och deras motsvarande
-portnummer i urval. Man kan naturligtvis köra tjänster på vilken port som helst
-men vill man göra det lätt för sina användare så använder man dessa
-portar. Vill du se flera skall du läsa RFC 1700.
+I detta appendix listas en del tjÃ¤nster och deras motsvarande
+portnummer i urval. Man kan naturligtvis kÃ¶ra tjÃ¤nster pÃ¥ vilken port som helst
+men vill man gÃ¶ra det lÃ¤tt fÃ¶r sina anvÃ¤ndare sÃ¥ anvÃ¤nder man dessa
+portar. Vill du se flera skall du lÃ¤sa RFC 1700.
 
 <screen>
 Keyword         Decimal    Description 

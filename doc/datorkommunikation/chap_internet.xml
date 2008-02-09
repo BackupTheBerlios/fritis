@@ -1,137 +1,137 @@
 <chapter id="chap_internet"><title>Internet</title>
 	<!--
 		- Internets historik, uppbyggnad och kommunikationsteknik
-		- vanligaste protokollen och programmen på interne
-		- programvaror för enklare diagnostisering, spårning och
-		  felsökning på Internet
+		- vanligaste protokollen och programmen pÃ¥ interne
+		- programvaror fÃ¶r enklare diagnostisering, spÃ¥rning och
+		  felsÃ¶kning pÃ¥ Internet
 	-->
 
 	<abstract>
 		<para>
-			Internet är utan tvekan det viktigaste datanätet som finns.
-			Internet kan man komma åt från världens alla hörn och
-			tjänsterna på Internet blir fler och fler för varje dag. I
-			detta kapitel tittar vi på hur Internet kom till, hur det
+			Internet Ã¤r utan tvekan det viktigaste datanÃ¤tet som finns.
+			Internet kan man komma Ã¥t frÃ¥n vÃ¤rldens alla hÃ¶rn och
+			tjÃ¤nsterna pÃ¥ Internet blir fler och fler fÃ¶r varje dag. I
+			detta kapitel tittar vi pÃ¥ hur Internet kom till, hur det
 			fungerar och vad det erbjuder.
 		</para>
 		<para>
-			Internet är inte heller bara Internet. Den teknik som används
-			på Internet blir allt vanligare även i andra betydligt mindre
-			datornät. Till exempel är det vanligaste nätverksprotokollet i
-			lokala nätverk idag TCP/IP som är samma protokoll som används
-			på Internet.
+			Internet Ã¤r inte heller bara Internet. Den teknik som anvÃ¤nds
+			pÃ¥ Internet blir allt vanligare Ã¤ven i andra betydligt mindre
+			datornÃ¤t. Till exempel Ã¤r det vanligaste nÃ¤tverksprotokollet i
+			lokala nÃ¤tverk idag TCP/IP som Ã¤r samma protokoll som anvÃ¤nds
+			pÃ¥ Internet.
 		</para>
 	</abstract>
 	
 	<sect1><title>Internets historia och utveckling</title>
 		<para>
-			Internet har en väldigt intressant historia i många avseenden.
-			För det första är det väldigt roligt att tala om historia när
-			hela Internet inte ens är 50 år gammalt. En intressant sak med
-			Internets utveckling och historia är att det har utvecklats på
-			ett öppen sätt med bidrag från massor av företag och
-			provatpersoner. Ingen äger internet och väldigt många ser till
+			Internet har en vÃ¤ldigt intressant historia i mÃ¥nga avseenden.
+			FÃ¶r det fÃ¶rsta Ã¤r det vÃ¤ldigt roligt att tala om historia nÃ¤r
+			hela Internet inte ens Ã¤r 50 Ã¥r gammalt. En intressant sak med
+			Internets utveckling och historia Ã¤r att det har utvecklats pÃ¥
+			ett Ã¶ppen sÃ¤tt med bidrag frÃ¥n massor av fÃ¶retag och
+			provatpersoner. Ingen Ã¤ger internet och vÃ¤ldigt mÃ¥nga ser till
 			att det fungerar.
 		</para>
 
 		<sect2><title>Internets historia</title>
 			<para>
-				Det vi idag kallar för Internet	har även det varit ett
-				litet projekt en gång i tiden. Alla har vi ju varit små.
-				Internet började sin bana som ett forskningsprojekt inom den
-				amerikanska universitetsvärlden. Syftet var att kunna
-				ansluta datorer till varandra över ett stort avstånd. I
-				mitten på 1960-talet var en av pionjärerna J.C.R. Licklider
-				som anses vara den första som kommit på idén med ett
-				världsomspännande nätverk. Han blev sedan chef för ett
+				Det vi idag kallar fÃ¶r Internet	har Ã¤ven det varit ett
+				litet projekt en gÃ¥ng i tiden. Alla har vi ju varit smÃ¥.
+				Internet bÃ¶rjade sin bana som ett forskningsprojekt inom den
+				amerikanska universitetsvÃ¤rlden. Syftet var att kunna
+				ansluta datorer till varandra Ã¶ver ett stort avstÃ¥nd. I
+				mitten pÃ¥ 1960-talet var en av pionjÃ¤rerna J.C.R. Licklider
+				som anses vara den fÃ¶rsta som kommit pÃ¥ idÃ©n med ett
+				vÃ¤rldsomspÃ¤nnande nÃ¤tverk. Han blev sedan chef fÃ¶r ett
 				forskningsprojekt som kallades <emphasis>DARPA, Defense
 				Advanced Research Projects Agency</emphasis> som var ett
-				projekt inom dataforskningen där han fick medel till att
-				utvärdera och utveckla sina idéer.
+				projekt inom dataforskningen dÃ¤r han fick medel till att
+				utvÃ¤rdera och utveckla sina idÃ©er.
 			</para>
 			<para>
-				Inom det Amerikanska försvaret hade man liknande tankar som
-				de som utvecklades inom forskarvärlden. Man var sedan länge
-				beroende av kommunikationer över långa sträckor och hade
-				börjat fundera på hur dessa skulle kunna hållas fungerande
-				under krig.  Det ultimata problemet man ställdes inför var
-				dåtidens rädsla för atombomber. 
+				Inom det Amerikanska fÃ¶rsvaret hade man liknande tankar som
+				de som utvecklades inom forskarvÃ¤rlden. Man var sedan lÃ¤nge
+				beroende av kommunikationer Ã¶ver lÃ¥nga strÃ¤ckor och hade
+				bÃ¶rjat fundera pÃ¥ hur dessa skulle kunna hÃ¥llas fungerande
+				under krig.  Det ultimata problemet man stÃ¤lldes infÃ¶r var
+				dÃ¥tidens rÃ¤dsla fÃ¶r atombomber. 
 			</para>
 			<para>
-				Man insåg att kretskopplade nät som till exempel telenäten
-				var väldigt känsliga för störningar. Klipper man av en kabel
-				så försvinner förbindelsen. Kunde man uppfinna ett nätverk
-				där data kunde delas upp i mindre delar och sedan skickas ut
-				i ett nätverk där det fanns flera olika vägar fram och
-				tekniken själv ser till att alla paket kommer fram, även om
-				det innebär att paketeten tar olika vägar. På så sätt kan
-				systemet hämta sig även om några kommunikationsvägar slås
+				Man insÃ¥g att kretskopplade nÃ¤t som till exempel telenÃ¤ten
+				var vÃ¤ldigt kÃ¤nsliga fÃ¶r stÃ¶rningar. Klipper man av en kabel
+				sÃ¥ fÃ¶rsvinner fÃ¶rbindelsen. Kunde man uppfinna ett nÃ¤tverk
+				dÃ¤r data kunde delas upp i mindre delar och sedan skickas ut
+				i ett nÃ¤tverk dÃ¤r det fanns flera olika vÃ¤gar fram och
+				tekniken sjÃ¤lv ser till att alla paket kommer fram, Ã¤ven om
+				det innebÃ¤r att paketeten tar olika vÃ¤gar. PÃ¥ sÃ¥ sÃ¤tt kan
+				systemet hÃ¤mta sig Ã¤ven om nÃ¥gra kommunikationsvÃ¤gar slÃ¥s
 				ut.
 			</para>
 			<para>
-				Det första nätet som byggdes byggdes inom ett projekt som
-				kallades ARPANET. ARPANET var ett paketförmedlat nät, precis
-				som Internet, men från början mycket, mycket mindre. Vissa
-				tjänster utvecklades tidigt, till exempel så kom e-post att
-				bli väldigt populärt i början av 1970-talet.
+				Det fÃ¶rsta nÃ¤tet som byggdes byggdes inom ett projekt som
+				kallades ARPANET. ARPANET var ett paketfÃ¶rmedlat nÃ¤t, precis
+				som Internet, men frÃ¥n bÃ¶rjan mycket, mycket mindre. Vissa
+				tjÃ¤nster utvecklades tidigt, till exempel sÃ¥ kom e-post att
+				bli vÃ¤ldigt populÃ¤rt i bÃ¶rjan av 1970-talet.
 			</para>
 			<para>
-				Allt fler intresserade sig för ARPANET och fler datorer och
-				nätverk anslöts. Ju större det blev desto mer intressant
-				blev det och fler och fler ville ansluta sig. Försvaret hade
-				redan tidigt bestämt sig för att nätverket skulle utvecklas
-				öppet. De hade nämligen inga resurser att utveckla det
-				själva utan måste ta hjälp från universiteten. Detta var en
-				ovanlig situation för en militär organisation där all
-				utveckling i normala fall är topphemlig. Allteftersom
-				nätverket sprider sig blir det mer och mer okontrollerbart
-				och är till slut inte längre intressant för militären. De
-				överger tillslut Internet och börjat utveckla ett eget
-				nätverk som kommer att kallas MILNET.
+				Allt fler intresserade sig fÃ¶r ARPANET och fler datorer och
+				nÃ¤tverk anslÃ¶ts. Ju stÃ¶rre det blev desto mer intressant
+				blev det och fler och fler ville ansluta sig. FÃ¶rsvaret hade
+				redan tidigt bestÃ¤mt sig fÃ¶r att nÃ¤tverket skulle utvecklas
+				Ã¶ppet. De hade nÃ¤mligen inga resurser att utveckla det
+				sjÃ¤lva utan mÃ¥ste ta hjÃ¤lp frÃ¥n universiteten. Detta var en
+				ovanlig situation fÃ¶r en militÃ¤r organisation dÃ¤r all
+				utveckling i normala fall Ã¤r topphemlig. Allteftersom
+				nÃ¤tverket sprider sig blir det mer och mer okontrollerbart
+				och Ã¤r till slut inte lÃ¤ngre intressant fÃ¶r militÃ¤ren. De
+				Ã¶verger tillslut Internet och bÃ¶rjat utveckla ett eget
+				nÃ¤tverk som kommer att kallas MILNET.
 			</para>
 		</sect2>
 
 		<sect2><title>Word wide web, WWW</title>
 			<para>
-				Det som många idag förknippar med Internet är <emphasis>Word
-				wide web</emphasis> eller WWW som det brukar förkortas eller
-				webben som det populärt kallas. Webben är egentligen bara en
-				funktion av väldigt många på Internet men för många är den,
-				parallellt med e-post, den funktion som är viktigast. När
-				man talar om att "surfa på nätet" är det WWW som man avser.
+				Det som mÃ¥nga idag fÃ¶rknippar med Internet Ã¤r <emphasis>Word
+				wide web</emphasis> eller WWW som det brukar fÃ¶rkortas eller
+				webben som det populÃ¤rt kallas. Webben Ã¤r egentligen bara en
+				funktion av vÃ¤ldigt mÃ¥nga pÃ¥ Internet men fÃ¶r mÃ¥nga Ã¤r den,
+				parallellt med e-post, den funktion som Ã¤r viktigast. NÃ¤r
+				man talar om att "surfa pÃ¥ nÃ¤tet" Ã¤r det WWW som man avser.
 			</para>
 			<para>
-				Ett centralt begrepp på webben är hypertext. Hypertext är
-				text som innehåller hyperlänkar. En hyperlänk är en koppling
+				Ett centralt begrepp pÃ¥ webben Ã¤r hypertext. Hypertext Ã¤r
+				text som innehÃ¥ller hyperlÃ¤nkar. En hyperlÃ¤nk Ã¤r en koppling
 				mellan en viss del av en text eller bild till en helt annan,
-				men relaterad, text eller bild antingen på samma server
-				eller på ett helt annat ställe, kanske på andra sidan
+				men relaterad, text eller bild antingen pÃ¥ samma server
+				eller pÃ¥ ett helt annat stÃ¤lle, kanske pÃ¥ andra sidan
 				jordklotet. Konceptet med hypertext har funnits mycket
-				länge, långt innan tanken på Internet föddes, men har inte
-				före Internet fått en så betydande användning.
+				lÃ¤nge, lÃ¥ngt innan tanken pÃ¥ Internet fÃ¶ddes, men har inte
+				fÃ¶re Internet fÃ¥tt en sÃ¥ betydande anvÃ¤ndning.
 			</para>
 			<para>
-				Som WWW's fader anses Tim Berners-Lee. Han var forskare på
-				CERN när han hittade på de första prototyperna av HTTP och
+				Som WWW's fader anses Tim Berners-Lee. Han var forskare pÃ¥
+				CERN nÃ¤r han hittade pÃ¥ de fÃ¶rsta prototyperna av HTTP och
 				HTML. Han bildade sedare (1994) W3C (http://www.w3.org).
-				W3C, som är en förkortning för <emphasis>World Wide Web
-				Consortium</emphasis> är ett konsortium som jobbar med
-				standarder och protokoll för webben.
+				W3C, som Ã¤r en fÃ¶rkortning fÃ¶r <emphasis>World Wide Web
+				Consortium</emphasis> Ã¤r ett konsortium som jobbar med
+				standarder och protokoll fÃ¶r webben.
 			</para>
 			<para>
-				Det största som hänt Internet bör vara när den första
-				grafiska webbläsaren, <emphasis>Mosaic</emphasis>, skapades.
-				Den gjorde det möjligt att på ett enkelt sätt navigera brand
-				all den information som gjordes tillgänglig på Internet.
-				Programvaran var så pass enkel att vem som helst skulle
-				kunna använda den.  Ett mål med den, och hela Internet, var
+				Det stÃ¶rsta som hÃ¤nt Internet bÃ¶r vara nÃ¤r den fÃ¶rsta
+				grafiska webblÃ¤saren, <emphasis>Mosaic</emphasis>, skapades.
+				Den gjorde det mÃ¶jligt att pÃ¥ ett enkelt sÃ¤tt navigera brand
+				all den information som gjordes tillgÃ¤nglig pÃ¥ Internet.
+				Programvaran var sÃ¥ pass enkel att vem som helst skulle
+				kunna anvÃ¤nda den.  Ett mÃ¥l med den, och hela Internet, var
 				att det skulle fungera oavsett vilken sorts dator man
-				använde. Redan tidigt hade det bestämts att alla datorer
-				skulle kunna ansluta till nätet bara de följde de protokoll
-				som gäller.
+				anvÃ¤nde. Redan tidigt hade det bestÃ¤mts att alla datorer
+				skulle kunna ansluta till nÃ¤tet bara de fÃ¶ljde de protokoll
+				som gÃ¤ller.
 			</para>
 			<para>
-				Idag är det vanligaste webbläsarna <emphasis>Internet
+				Idag Ã¤r det vanligaste webblÃ¤sarna <emphasis>Internet
 				Explorer</emphasis>, <emphasis>Netscape</emphasis> och
 				<emphasis>Mozilla</emphasis>.
 			</para>
@@ -139,51 +139,51 @@
 
 		<sect2><title>Svensk Internethistoria</title>
 			<para>
-				Man kan välja att börja den svenska internethistorien vid
-				lite olika tidpunkter. Den kanske mest logiska är att börja
-				den 1988 när <emphasis>SUNET</emphasis> kopplades upp mot
-				Internet. SUNET är en förkortning för <emphasis>Swedish
-				UNiversity computer NETwork</emphasis>. På den tiden vara
-				bara universitet och högskolor anslutna till SUNET. Sedan
-				anslöts några stora företag till Internet. 
+				Man kan vÃ¤lja att bÃ¶rja den svenska internethistorien vid
+				lite olika tidpunkter. Den kanske mest logiska Ã¤r att bÃ¶rja
+				den 1988 nÃ¤r <emphasis>SUNET</emphasis> kopplades upp mot
+				Internet. SUNET Ã¤r en fÃ¶rkortning fÃ¶r <emphasis>Swedish
+				UNiversity computer NETwork</emphasis>. PÃ¥ den tiden vara
+				bara universitet och hÃ¶gskolor anslutna till SUNET. Sedan
+				anslÃ¶ts nÃ¥gra stora fÃ¶retag till Internet. 
 			</para>
 			<para>
 				Den stora internetboomen i Sverige kom senare. Det var i
-				mitten på 1990-talet då Tele2, precis före Telia, startade
-				ett kommersiellt nät, till vilket vem som helst kunde
+				mitten pÃ¥ 1990-talet dÃ¥ Tele2, precis fÃ¶re Telia, startade
+				ett kommersiellt nÃ¤t, till vilket vem som helst kunde
 				ansluta sig.
 			</para>
 		</sect2>
 
 		<sect2><title>RFC-Dokument</title>
 			<para>
-				Som sagts tidigare så måste alla aktörer och användare följa
-				samma regler. Eftersom ingen bestämmer enväldigt över
-				Internet så måste man på något sätt ta fram de regler som
-				gäller. För att styra upp Internet så har en rad
-				organisationer upprättats som organiserar olika delar av
-				regelverket som styr Internet. I början var den huvudsakliga
-				vägen att styra regelverket på Internet de så kallade
-				<emphasis>RFC-dokumenten</emphasis>. RFC står för Request
-				For Comments som betyder ungefär "Förfrågan om kommentarer"
-				och det fungerade ungefär så här. En organisation, företag
-				eller forskare kommer på ett bra protokoll eller program och
-				skriver en RFC om detta. Denna RFC läses av alla
-				intresserade och de har möjlighet att kommentera den. Alla
-				har, i demokratins anda, möjlighet att läsa, och kommentera,
-				dokumenten. Då ett dokument kommenterats och uppdaterats
-				tills alla ha blivit nöjda anses det vara en standard som
-				gäller. 
+				Som sagts tidigare sÃ¥ mÃ¥ste alla aktÃ¶rer och anvÃ¤ndare fÃ¶lja
+				samma regler. Eftersom ingen bestÃ¤mmer envÃ¤ldigt Ã¶ver
+				Internet sÃ¥ mÃ¥ste man pÃ¥ nÃ¥got sÃ¤tt ta fram de regler som
+				gÃ¤ller. FÃ¶r att styra upp Internet sÃ¥ har en rad
+				organisationer upprÃ¤ttats som organiserar olika delar av
+				regelverket som styr Internet. I bÃ¶rjan var den huvudsakliga
+				vÃ¤gen att styra regelverket pÃ¥ Internet de sÃ¥ kallade
+				<emphasis>RFC-dokumenten</emphasis>. RFC stÃ¥r fÃ¶r Request
+				For Comments som betyder ungefÃ¤r "FÃ¶rfrÃ¥gan om kommentarer"
+				och det fungerade ungefÃ¤r sÃ¥ hÃ¤r. En organisation, fÃ¶retag
+				eller forskare kommer pÃ¥ ett bra protokoll eller program och
+				skriver en RFC om detta. Denna RFC lÃ¤ses av alla
+				intresserade och de har mÃ¶jlighet att kommentera den. Alla
+				har, i demokratins anda, mÃ¶jlighet att lÃ¤sa, och kommentera,
+				dokumenten. DÃ¥ ett dokument kommenterats och uppdaterats
+				tills alla ha blivit nÃ¶jda anses det vara en standard som
+				gÃ¤ller. 
 			</para>
 			<para>
 				Idag fungerar det lite annorlunda. De RFC:er som publiceras
-				idag är oftast redan färdiga standarder men likväl kan de
-				läsas av alla så att alla skall ha samma chans att skriva
-				programvaror som följer de standarder som specificeras i
+				idag Ã¤r oftast redan fÃ¤rdiga standarder men likvÃ¤l kan de
+				lÃ¤sas av alla sÃ¥ att alla skall ha samma chans att skriva
+				programvaror som fÃ¶ljer de standarder som specificeras i
 				dokumenten. 
 			</para>
 			<para>
-				I <xref linkend="rfc"/> finns länkar till några av de
+				I <xref linkend="rfc"/> finns lÃ¤nkar till nÃ¥gra av de
 				RFC:er som behandlar det vi tagit up i denna bok samlade.
 			</para>
 		</sect2>
@@ -191,215 +191,215 @@
 
 	<sect1><title>Att ansluta till Internet</title>
 		<para>
-			Det finns idag så många sätt att ansluta till Internet att man
-			kan tycka att det är svårt att välja. I praktiken är det dock
-			nästan aldrig några problem eftersom urvalet kraftigt styrs av
-			var du bor eller var företaget ligger och hur mycket man är
-			villig att betala, det vill säga vilket behov man har.
+			Det finns idag sÃ¥ mÃ¥nga sÃ¤tt att ansluta till Internet att man
+			kan tycka att det Ã¤r svÃ¥rt att vÃ¤lja. I praktiken Ã¤r det dock
+			nÃ¤stan aldrig nÃ¥gra problem eftersom urvalet kraftigt styrs av
+			var du bor eller var fÃ¶retaget ligger och hur mycket man Ã¤r
+			villig att betala, det vill sÃ¤ga vilket behov man har.
 		</para>
 
-		<sect2><title>Privatpersoner och mindre företag</title>
+		<sect2><title>Privatpersoner och mindre fÃ¶retag</title>
 			<para>
-				Som sagt så kan man  ansluta till Internet på en uppsjö av
-				olika sätt.  Man kan till exempel använda ett vanligt
+				Som sagt sÃ¥ kan man  ansluta till Internet pÃ¥ en uppsjÃ¶ av
+				olika sÃ¤tt.  Man kan till exempel anvÃ¤nda ett vanligt
 				telefonabonnemang och en dator med modem. Denna metod kallas
-				vardagligt för uppringt Internet. Uppringt Internet är
-				väldigt enkelt och fungerar överallt där det finns telefon.
-				Denna metod är väldigt vanlig bland de som inte använder
-				Internet så ofta eller av dem som bor på ett ställe där inga
-				alternativ ges.  Använder man Internet väldigt lite är detta
-				det i särklass billigaste sättet.
+				vardagligt fÃ¶r uppringt Internet. Uppringt Internet Ã¤r
+				vÃ¤ldigt enkelt och fungerar Ã¶verallt dÃ¤r det finns telefon.
+				Denna metod Ã¤r vÃ¤ldigt vanlig bland de som inte anvÃ¤nder
+				Internet sÃ¥ ofta eller av dem som bor pÃ¥ ett stÃ¤lle dÃ¤r inga
+				alternativ ges.  AnvÃ¤nder man Internet vÃ¤ldigt lite Ã¤r detta
+				det i sÃ¤rklass billigaste sÃ¤ttet.
 			</para>
 			<para>
-				Nackdelen med uppringd Internet är att det är ganska
-				långsamt och att det oftast är förknippat med en
-				samtalsavgift. Det vill säga du betalar för den tid du är
-				ansluten till Internet även om du inte använder
+				Nackdelen med uppringd Internet Ã¤r att det Ã¤r ganska
+				lÃ¥ngsamt och att det oftast Ã¤r fÃ¶rknippat med en
+				samtalsavgift. Det vill sÃ¤ga du betalar fÃ¶r den tid du Ã¤r
+				ansluten till Internet Ã¤ven om du inte anvÃ¤nder
 				anslutningen. Detta inbjuder till att man kopplar ner sin
-				anslutning till Internet när man inte använder den.
-				Ytterligare en nackdel är då att det tar en stund att koppla
-				upp sig igen. För inte alls många år sedan var detta det
-				ända sättet en privatperson kunde ansluta sin dator till
-				Internet. Den maximala anslutningshastigeheten ligger på
-				ungefär 56 kbit/s med ett vanligt modem.
+				anslutning till Internet nÃ¤r man inte anvÃ¤nder den.
+				Ytterligare en nackdel Ã¤r dÃ¥ att det tar en stund att koppla
+				upp sig igen. FÃ¶r inte alls mÃ¥nga Ã¥r sedan var detta det
+				Ã¤nda sÃ¤ttet en privatperson kunde ansluta sin dator till
+				Internet. Den maximala anslutningshastigeheten ligger pÃ¥
+				ungefÃ¤r 56 kbit/s med ett vanligt modem.
 			</para>
 			<para>
-				Det finns snabbare sätt att ansluta till Internet via
-				telefonlinjen. Men till skillnad från modemet ovan så
-				ställer dessa metoder mer krav på telefonförbindelsen och
-				kräver installationer såväl i hemmet som i telefonsystemet.
-				De metoder som avses är ISDN (Integrated Services Digital
+				Det finns snabbare sÃ¤tt att ansluta till Internet via
+				telefonlinjen. Men till skillnad frÃ¥n modemet ovan sÃ¥
+				stÃ¤ller dessa metoder mer krav pÃ¥ telefonfÃ¶rbindelsen och
+				krÃ¤ver installationer sÃ¥vÃ¤l i hemmet som i telefonsystemet.
+				De metoder som avses Ã¤r ISDN (Integrated Services Digital
 				Network) och olika varianter av DSL (Digital Subscriber
 				Line).  De vanligaste ISDN linjer man ansluter hemma kallas
-				för en basanslutning. Den gör så att man får två stycken
-				linjer till sitt jack (som måste vara ett specialjack) dessa
-				två kan man antingen använda till data eller till samtal.
-				Använder man en till data klarar den maximalt 64 kbit/s och
-				använder man båda till data så kommer man upp i maximalt 128
-				kbit/s. Använder man bara den ena så kan man tala i
-				telefonen samtidigt som man använder Internet men det går
-				naturligtvis långsammare än om man använder båda. ISDN är
-				oftast, precis som med ett vanligt modem, förknippat med en
-				avgift som är beroende på hur länge man är uppkopplad men
-				till skillnad från vanliga modem så går en uppkoppling med
-				ISDN väldigt fort. Det gör att man kan koppla upp och ner
-				mer frekvent med ISDN. En annan fördel med ISDN är att det
-				är något snabbare än ett vanligt modem.
+				fÃ¶r en basanslutning. Den gÃ¶r sÃ¥ att man fÃ¥r tvÃ¥ stycken
+				linjer till sitt jack (som mÃ¥ste vara ett specialjack) dessa
+				tvÃ¥ kan man antingen anvÃ¤nda till data eller till samtal.
+				AnvÃ¤nder man en till data klarar den maximalt 64 kbit/s och
+				anvÃ¤nder man bÃ¥da till data sÃ¥ kommer man upp i maximalt 128
+				kbit/s. AnvÃ¤nder man bara den ena sÃ¥ kan man tala i
+				telefonen samtidigt som man anvÃ¤nder Internet men det gÃ¥r
+				naturligtvis lÃ¥ngsammare Ã¤n om man anvÃ¤nder bÃ¥da. ISDN Ã¤r
+				oftast, precis som med ett vanligt modem, fÃ¶rknippat med en
+				avgift som Ã¤r beroende pÃ¥ hur lÃ¤nge man Ã¤r uppkopplad men
+				till skillnad frÃ¥n vanliga modem sÃ¥ gÃ¥r en uppkoppling med
+				ISDN vÃ¤ldigt fort. Det gÃ¶r att man kan koppla upp och ner
+				mer frekvent med ISDN. En annan fÃ¶rdel med ISDN Ã¤r att det
+				Ã¤r nÃ¥got snabbare Ã¤n ett vanligt modem.
 			</para>
 			<para>
-				DSL tekniken är en modernare teknik än ISDN. Men den kräver
-				ytterligare lite till av telenätet och går därför inte att
-				för överallt där man kan få ISDN eller använda ett vanligt
-				modem.  Den vanligaste varianten av DSL som använde i
-				Sverige är ADSL (Asymmetric Digital Subscriber Line) det
-				innebär att hastigheten man kan komma upp skiljer sig
-				beroende på om man skickar eller tar emot data. Vanligtvis
-				så går det snabbare att hämta data från Internet än vad det
-				gör att skicka data till Internet.  Eftersom man oftast
-				hämtar data från Internet så har detta oftast ingen större
-				praktisk betydelse. Hur snabbt det kan gå med ADSL beror på
-				hur långt ledning du har från ditt hem till en telestation.
-				Ledningens kvalitet påverkar också. Med ADSL ligger
-				hastigheten för nedladdning någonstans mellan 1 och 8 mbit/s
-				och uppladdning någonstans mellan 0,5 och 1 mbit/s.
-				Observera att din Internetleverantör (ISP) kan sätta en
-				lägre hastighet än den teoretisk möjliga.
+				DSL tekniken Ã¤r en modernare teknik Ã¤n ISDN. Men den krÃ¤ver
+				ytterligare lite till av telenÃ¤tet och gÃ¥r dÃ¤rfÃ¶r inte att
+				fÃ¶r Ã¶verallt dÃ¤r man kan fÃ¥ ISDN eller anvÃ¤nda ett vanligt
+				modem.  Den vanligaste varianten av DSL som anvÃ¤nde i
+				Sverige Ã¤r ADSL (Asymmetric Digital Subscriber Line) det
+				innebÃ¤r att hastigheten man kan komma upp skiljer sig
+				beroende pÃ¥ om man skickar eller tar emot data. Vanligtvis
+				sÃ¥ gÃ¥r det snabbare att hÃ¤mta data frÃ¥n Internet Ã¤n vad det
+				gÃ¶r att skicka data till Internet.  Eftersom man oftast
+				hÃ¤mtar data frÃ¥n Internet sÃ¥ har detta oftast ingen stÃ¶rre
+				praktisk betydelse. Hur snabbt det kan gÃ¥ med ADSL beror pÃ¥
+				hur lÃ¥ngt ledning du har frÃ¥n ditt hem till en telestation.
+				Ledningens kvalitet pÃ¥verkar ocksÃ¥. Med ADSL ligger
+				hastigheten fÃ¶r nedladdning nÃ¥gonstans mellan 1 och 8 mbit/s
+				och uppladdning nÃ¥gonstans mellan 0,5 och 1 mbit/s.
+				Observera att din InternetleverantÃ¶r (ISP) kan sÃ¤tta en
+				lÃ¤gre hastighet Ã¤n den teoretisk mÃ¶jliga.
 			</para>
 			<para>
-				Med DSL-teknik är man normalt uppkopplad hela tiden med
+				Med DSL-teknik Ã¤r man normalt uppkopplad hela tiden med
 				samma hastighet. Man betalar antingen ett fast pris per
-				månad eller så betalar man beroende på hur mycket man
-				använder anslutningen, det vill säga hur mycket data man
-				skickar och hämtar.
+				mÃ¥nad eller sÃ¥ betalar man beroende pÃ¥ hur mycket man
+				anvÃ¤nder anslutningen, det vill sÃ¤ga hur mycket data man
+				skickar och hÃ¤mtar.
 			</para>
 		</sect2>
 		
-		<sect2><title>Företag</title>
+		<sect2><title>FÃ¶retag</title>
 			<para>
-				Det sätt vi behandlat hittills passar privatpersoner. De kan
-				naturligtvis även användas av företag som företaget inte har
-				större behov. Företag har annars flera andra sätt att
-				ansluta till Internet beroende på vilka behov de har.  
+				Det sÃ¤tt vi behandlat hittills passar privatpersoner. De kan
+				naturligtvis Ã¤ven anvÃ¤ndas av fÃ¶retag som fÃ¶retaget inte har
+				stÃ¶rre behov. FÃ¶retag har annars flera andra sÃ¤tt att
+				ansluta till Internet beroende pÃ¥ vilka behov de har.  
 			</para>
 			<para>
-				Oftast använder företag någon typ av fast förbindelse till
-				Internet. Det vill säga att de har en konstant koppling till
-				en av Internetleverantörernas routrar och får på så sätt en
-				stabil koppling till Internet. Inte sällan har större
-				företag två eller flera kopplingar för att inte vara
-				beroende av en ända. De kan till exempel ha en förbindelse
-				mellan två kontor i olika städer och sedan en
-				Internetförbindelse i varje stad. Går den ena
-				Internetförbindelsen ner så märker inte användarna det utan
-				surfar vidare genom förbindelsen till det andra kontoret och
-				ut på Internet via deras Internetförbindelse.
+				Oftast anvÃ¤nder fÃ¶retag nÃ¥gon typ av fast fÃ¶rbindelse till
+				Internet. Det vill sÃ¤ga att de har en konstant koppling till
+				en av InternetleverantÃ¶rernas routrar och fÃ¥r pÃ¥ sÃ¥ sÃ¤tt en
+				stabil koppling till Internet. Inte sÃ¤llan har stÃ¶rre
+				fÃ¶retag tvÃ¥ eller flera kopplingar fÃ¶r att inte vara
+				beroende av en Ã¤nda. De kan till exempel ha en fÃ¶rbindelse
+				mellan tvÃ¥ kontor i olika stÃ¤der och sedan en
+				InternetfÃ¶rbindelse i varje stad. GÃ¥r den ena
+				InternetfÃ¶rbindelsen ner sÃ¥ mÃ¤rker inte anvÃ¤ndarna det utan
+				surfar vidare genom fÃ¶rbindelsen till det andra kontoret och
+				ut pÃ¥ Internet via deras InternetfÃ¶rbindelse.
 			</para>
 			<para>
-				När det gäller kapaciteten på Inernetanslutningar för
-				företag och skolor så finns det egentligen inga
-				begränsningar. Bara priset sätter gränsen. Hur mycket man är
-				villig att betala beror naturligtvis på vilket behov man
-				har. Behovet beräknas utifrån vilken verksamhet man bedriver
-				och hur många samtidiga användare man har. Anslutningar från
-				10mbit/s och upp till hundratals mbit/s är vanliga.
+				NÃ¤r det gÃ¤ller kapaciteten pÃ¥ Inernetanslutningar fÃ¶r
+				fÃ¶retag och skolor sÃ¥ finns det egentligen inga
+				begrÃ¤nsningar. Bara priset sÃ¤tter grÃ¤nsen. Hur mycket man Ã¤r
+				villig att betala beror naturligtvis pÃ¥ vilket behov man
+				har. Behovet berÃ¤knas utifrÃ¥n vilken verksamhet man bedriver
+				och hur mÃ¥nga samtidiga anvÃ¤ndare man har. Anslutningar frÃ¥n
+				10mbit/s och upp till hundratals mbit/s Ã¤r vanliga.
 			</para>
 		</sect2>
 
 		<sect2><title>Ytterligare metoder att ansluta till Internet</title>
 			<para>
-				Det har länge funnits ett behov av snabba billiga
-				Internetanslutningar i Sverige. Ett stort behov medför många
-				förslag på hur det skall tillgodoses. Detta gör att det
-				finns ett otal andra sätt att ansluta sig till Internet.
+				Det har lÃ¤nge funnits ett behov av snabba billiga
+				Internetanslutningar i Sverige. Ett stort behov medfÃ¶r mÃ¥nga
+				fÃ¶rslag pÃ¥ hur det skall tillgodoses. Detta gÃ¶r att det
+				finns ett otal andra sÃ¤tt att ansluta sig till Internet.
 			</para>
 			<para>
 				Man kan till exempel koppla upp sig mot Internet via
-				kabel-tv-näten.  Denna metod är relativt vanlig i de städer
-				där kabeltv finns. Man kan även på vissa ställen i landen
-				använda elnätet för att koppla upp sig. Man kan även använda
-				radio för att ansluta ett avlägset hus eller villaområde. På
-				vissa ställen kan man få fiberkabel ända in till huset eller
-				till ett område vilket ger en mycket snabb och bra
-				Internetförbindelse.
+				kabel-tv-nÃ¤ten.  Denna metod Ã¤r relativt vanlig i de stÃ¤der
+				dÃ¤r kabeltv finns. Man kan Ã¤ven pÃ¥ vissa stÃ¤llen i landen
+				anvÃ¤nda elnÃ¤tet fÃ¶r att koppla upp sig. Man kan Ã¤ven anvÃ¤nda
+				radio fÃ¶r att ansluta ett avlÃ¤gset hus eller villaomrÃ¥de. PÃ¥
+				vissa stÃ¤llen kan man fÃ¥ fiberkabel Ã¤nda in till huset eller
+				till ett omrÃ¥de vilket ger en mycket snabb och bra
+				InternetfÃ¶rbindelse.
 			</para>
 			<para>
-				Även på det mobila området förekommer mycket nytänkande. Man
+				Ã„ven pÃ¥ det mobila omrÃ¥det fÃ¶rekommer mycket nytÃ¤nkande. Man
 				kan till exempel utan problem koppla upp sig mot Internet
-				med de flesta moderna mobiltelefoner. Man kan också i vissa
+				med de flesta moderna mobiltelefoner. Man kan ocksÃ¥ i vissa
 				butiker koppla upp sig mot Internet via Bluetooth eller
 				radio-LAN.
 			</para>
 		</sect2>
 	</sect1>
 
-	<sect1><title>Vanliga tjänster, program och protokoll på Internet</title>
+	<sect1><title>Vanliga tjÃ¤nster, program och protokoll pÃ¥ Internet</title>
 		<para>
-			Det säger sig självt att om så många datorer skall fungera ihop
-			så måste de använda ett och samma protokoll. Vidare verkar det
-			kanske uppenbart att ett så stort och mångfaldigt nätverk som
-			Internet måste ha flera protokoll. 
+			Det sÃ¤ger sig sjÃ¤lvt att om sÃ¥ mÃ¥nga datorer skall fungera ihop
+			sÃ¥ mÃ¥ste de anvÃ¤nda ett och samma protokoll. Vidare verkar det
+			kanske uppenbart att ett sÃ¥ stort och mÃ¥ngfaldigt nÃ¤tverk som
+			Internet mÃ¥ste ha flera protokoll. 
 		</para>
 		<para> 
-			En annan sak som säger sig självt är att när en massa datorer
-			kopplas ihop och en massa människor börja använda dem så skapas
-			en marknad för en mängd olika tjänster. Dessa tjänster kräver i
+			En annan sak som sÃ¤ger sig sjÃ¤lvt Ã¤r att nÃ¤r en massa datorer
+			kopplas ihop och en massa mÃ¤nniskor bÃ¶rja anvÃ¤nda dem sÃ¥ skapas
+			en marknad fÃ¶r en mÃ¤ngd olika tjÃ¤nster. Dessa tjÃ¤nster krÃ¤ver i
 			sin tur sina egna program och sina egna protokoll.
 		</para>
 
 		<sect2><title>TCP/IP</title>
 			<para>
-				Det protokoll som är absolut viktigast på Internet är
-				TCP/IP.  TCP/IP är standardprotokollet på Internet. Namnet
-				TCP/IP är egentligen en hel familj protokoll. Namnet TCP/IP
-				kommer från två av de ingående protokollen, nämligen IP och
-				TCP. IP står för Internet Protocol och är det protokoll som
-				ansvarar för hur alla datorer skall hitta varandra på
-				Internet. Alla datorer på Internet har en så kallad
-				IP-adress. Denna adress är unik och det är tack vare denna
+				Det protokoll som Ã¤r absolut viktigast pÃ¥ Internet Ã¤r
+				TCP/IP.  TCP/IP Ã¤r standardprotokollet pÃ¥ Internet. Namnet
+				TCP/IP Ã¤r egentligen en hel familj protokoll. Namnet TCP/IP
+				kommer frÃ¥n tvÃ¥ av de ingÃ¥ende protokollen, nÃ¤mligen IP och
+				TCP. IP stÃ¥r fÃ¶r Internet Protocol och Ã¤r det protokoll som
+				ansvarar fÃ¶r hur alla datorer skall hitta varandra pÃ¥
+				Internet. Alla datorer pÃ¥ Internet har en sÃ¥ kallad
+				IP-adress. Denna adress Ã¤r unik och det Ã¤r tack vare denna
 				som paket som skall till din dator kommer fram just till din
-				dator. Om vi jämför med OSI-modellen (<xref
-				linkend="sect_osimodellen"/>) som vi tittat på tidigare så
-				ligger IP i nätverksskiktet.
+				dator. Om vi jÃ¤mfÃ¶r med OSI-modellen (<xref
+				linkend="sect_osimodellen"/>) som vi tittat pÃ¥ tidigare sÃ¥
+				ligger IP i nÃ¤tverksskiktet.
 			</para>
 			<para>
-				Vi kommer inte att behandla TCP/IP så mycket i detta
-				kapitel.  Det kommer mer om det längre fram i boken. Vi
-				skall i detta kapitel titta på de protokoll och program som
-				används högre upp i modellen.
+				Vi kommer inte att behandla TCP/IP sÃ¥ mycket i detta
+				kapitel.  Det kommer mer om det lÃ¤ngre fram i boken. Vi
+				skall i detta kapitel titta pÃ¥ de protokoll och program som
+				anvÃ¤nds hÃ¶gre upp i modellen.
 			</para>
 		</sect2>
 
 		<sect2><title>WWW (HTTP)</title>
 			<para>
-				World Wide Web (WWW) var det system som satte riktig fart på
-				Internet. WWW paketerades med snygga program som var lätta
-				att använda. WWW är det system som vi använder när vi
-				"surfar" på nätet. Det verktyg som man använder kallar för
-				webbläsare (eng.  browser). Det protokoll som används heter
+				World Wide Web (WWW) var det system som satte riktig fart pÃ¥
+				Internet. WWW paketerades med snygga program som var lÃ¤tta
+				att anvÃ¤nda. WWW Ã¤r det system som vi anvÃ¤nder nÃ¤r vi
+				"surfar" pÃ¥ nÃ¤tet. Det verktyg som man anvÃ¤nder kallar fÃ¶r
+				webblÃ¤sare (eng.  browser). Det protokoll som anvÃ¤nds heter
 				<emphasis>Hypertext Transport Protocol (HTTP)</emphasis>.
-				Med hypertext menas text som innehåller hyperlänkar. Men
-				hyperlänk menas en koppling från det man läser till
-				relaterad text någon annanstans. Det är genom att följa
-				hyperlänkar som man surfar på nätet.
+				Med hypertext menas text som innehÃ¥ller hyperlÃ¤nkar. Men
+				hyperlÃ¤nk menas en koppling frÃ¥n det man lÃ¤ser till
+				relaterad text nÃ¥gon annanstans. Det Ã¤r genom att fÃ¶lja
+				hyperlÃ¤nkar som man surfar pÃ¥ nÃ¤tet.
 			</para>
 			<para>
-				Hypertext är inget som kommit till i och med Internet utan
+				Hypertext Ã¤r inget som kommit till i och med Internet utan
 				det har funnits tidigare i vissa programvaror och begreppet
-				som sådant har använts, om än inte i samma utbredning som
-				nu, sedan andra värdskriget.
+				som sÃ¥dant har anvÃ¤nts, om Ã¤n inte i samma utbredning som
+				nu, sedan andra vÃ¤rdskriget.
 			</para>
 			<para>
-				För att använda WWW måste man ha en webbläsare. Vänliga
-				webbläsare är Netscape Navigator, Internet Explorer och
+				FÃ¶r att anvÃ¤nda WWW mÃ¥ste man ha en webblÃ¤sare. VÃ¤nliga
+				webblÃ¤sare Ã¤r Netscape Navigator, Internet Explorer och
 				Mozilla. I <xref linkend="fig_konqueror"/> visas en
-				webbläsare som heter Konqueror och är en grafisk webbläsare.
-				Grafiska webbläsare är enormt populära och finns till i
-				princip alla operativsystem.  Den som visas på bilden heter
+				webblÃ¤sare som heter Konqueror och Ã¤r en grafisk webblÃ¤sare.
+				Grafiska webblÃ¤sare Ã¤r enormt populÃ¤ra och finns till i
+				princip alla operativsystem.  Den som visas pÃ¥ bilden heter
 				Konqueror.
 																												
 				
 				<figure id="fig_konqueror">
-					<title>Den grafiska webbläsaren Konqueror</title>
+					<title>Den grafiska webblÃ¤saren Konqueror</title>
 
 					<mediaobject>
 						<imageobject>
@@ -410,7 +410,7 @@
 						</imageobject>
 						<textobject>
 							<phrase>
-								Bild som visar Konqueror, en grafisk webbläsare.
+								Bild som visar Konqueror, en grafisk webblÃ¤sare.
 							</phrase>
 						</textobject>
 					</mediaobject>
@@ -418,100 +418,100 @@
 			</para>
 		</sect2>
 
-		<sect2><title>Filöverförning (FTP)</title>
+		<sect2><title>FilÃ¶verfÃ¶rning (FTP)</title>
 			<para>
-				När man använder http (se ovan) så hämtar man ju filer från
-				servern för att visa dem i sin webbläsare. Men eftersom http
-				är tänkt för att användas av webbläsare så saknar det mycket
-				av den funktionalitet som man vill ha i ett protokoll för
-				filöverföring. Till exempel så är det bökigt att ladda upp
-				filer till servern med http och det går inte att byta namn
-				eller radera en fil på servern med http. Eftersom man tidigt
-				kom fram till att man vill flytta filer mellan datorer på
-				ett nätverk så skapades ett speciellt protokoll för detta.
-				Man kallade protokollet för <emphasis>File Transfer Protocol
-				(FTP)</emphasis>. Ftp har stöd för alla funktioner man
-				förknippar med att flytta filer mellan datorer. Det finns
-				flera program för att använda ftp och ftp stöds dessutom av
+				NÃ¤r man anvÃ¤nder http (se ovan) sÃ¥ hÃ¤mtar man ju filer frÃ¥n
+				servern fÃ¶r att visa dem i sin webblÃ¤sare. Men eftersom http
+				Ã¤r tÃ¤nkt fÃ¶r att anvÃ¤ndas av webblÃ¤sare sÃ¥ saknar det mycket
+				av den funktionalitet som man vill ha i ett protokoll fÃ¶r
+				filÃ¶verfÃ¶ring. Till exempel sÃ¥ Ã¤r det bÃ¶kigt att ladda upp
+				filer till servern med http och det gÃ¥r inte att byta namn
+				eller radera en fil pÃ¥ servern med http. Eftersom man tidigt
+				kom fram till att man vill flytta filer mellan datorer pÃ¥
+				ett nÃ¤tverk sÃ¥ skapades ett speciellt protokoll fÃ¶r detta.
+				Man kallade protokollet fÃ¶r <emphasis>File Transfer Protocol
+				(FTP)</emphasis>. Ftp har stÃ¶d fÃ¶r alla funktioner man
+				fÃ¶rknippar med att flytta filer mellan datorer. Det finns
+				flera program fÃ¶r att anvÃ¤nda ftp och ftp stÃ¶ds dessutom av
 				flera vanliga filhanterare.
 			</para>
 		</sect2>
 
 		<sect2><title>Nyhetsgrupper, Usenet News (NNTP)</title>
 			<para>
-				Usenet news eller nyhetsgrupper är ett hörn av Internet som
-				många glömmer bort. En nyhetsgrupp har inte så mycket med
-				med nyheter att göra utan handlar om diskussioner. Usenet
+				Usenet news eller nyhetsgrupper Ã¤r ett hÃ¶rn av Internet som
+				mÃ¥nga glÃ¶mmer bort. En nyhetsgrupp har inte sÃ¥ mycket med
+				med nyheter att gÃ¶ra utan handlar om diskussioner. Usenet
 				News fungerar lite som e-postlistor. Det finns
-				hundratusentals nyhetsgrupper världen över. De flesta
-				speglas mellan servrarna så på din newsserver kommer även
-				postningar från andra länder. Alla grupper har ett specifikt
-				ämne. Vissa har ett speciellt språk. Till exempel så finns
-				det grupper som behandlar olika datorsystem på svenska. Om
-				det inte framgör vilket språk som gäller så är det alltid
+				hundratusentals nyhetsgrupper vÃ¤rlden Ã¶ver. De flesta
+				speglas mellan servrarna sÃ¥ pÃ¥ din newsserver kommer Ã¤ven
+				postningar frÃ¥n andra lÃ¤nder. Alla grupper har ett specifikt
+				Ã¤mne. Vissa har ett speciellt sprÃ¥k. Till exempel sÃ¥ finns
+				det grupper som behandlar olika datorsystem pÃ¥ svenska. Om
+				det inte framgÃ¶r vilket sprÃ¥k som gÃ¤ller sÃ¥ Ã¤r det alltid
 				engelska.
 			</para>
 			<para>
-				Det går till så här. När någon postar ett meddelande i en
-				grupp så kan alla som prenumererar på gruppen se detta i
-				sitt nyhetsläsarprogram (många e-postprogram kan också
-				hantera news). De andra ser bara rubriken och kan själva
-				välja om de vill ladda ner och läsa meddelandet.
+				Det gÃ¥r till sÃ¥ hÃ¤r. NÃ¤r nÃ¥gon postar ett meddelande i en
+				grupp sÃ¥ kan alla som prenumererar pÃ¥ gruppen se detta i
+				sitt nyhetslÃ¤sarprogram (mÃ¥nga e-postprogram kan ocksÃ¥
+				hantera news). De andra ser bara rubriken och kan sjÃ¤lva
+				vÃ¤lja om de vill ladda ner och lÃ¤sa meddelandet.
 			</para>
 			<para>
-				Usenet News eller nyhetsgrupper är faktiskt äldre än
-				Internet självt. Från början, innan Internet, användes ett
+				Usenet News eller nyhetsgrupper Ã¤r faktiskt Ã¤ldre Ã¤n
+				Internet sjÃ¤lvt. FrÃ¥n bÃ¶rjan, innan Internet, anvÃ¤ndes ett
 				protokoll som heter UUCP (Unix to Unix Copy Protocol), men
-				detta ersattes senare med ett protokoll som var bättre
-				anpassat för Internet. Det protokollet heter NNTP (Network
-				News Transfer Protocol) och används än idag.
+				detta ersattes senare med ett protokoll som var bÃ¤ttre
+				anpassat fÃ¶r Internet. Det protokollet heter NNTP (Network
+				News Transfer Protocol) och anvÃ¤nds Ã¤n idag.
 			</para>
 		</sect2>
 
-		<sect2><title>Fjärrinloggning (TELNET/SSH)</title>
+		<sect2><title>FjÃ¤rrinloggning (TELNET/SSH)</title>
 			<para>
-				Ett operativsystem som utvecklades väldigt mycket på samma
-				tid som Internet och med nätverk i åtanke var Unix. Det gör
-				att Unixsystem fungerar väldigt bra i nätverk. Till exempel
-				så kan man på en Unixdator jobba flera personer på samma
-				gång och man kan göra det över nätverket precis som om man
-				satt direkt vid datorn. Låter det modernt? Det har man
+				Ett operativsystem som utvecklades vÃ¤ldigt mycket pÃ¥ samma
+				tid som Internet och med nÃ¤tverk i Ã¥tanke var Unix. Det gÃ¶r
+				att Unixsystem fungerar vÃ¤ldigt bra i nÃ¤tverk. Till exempel
+				sÃ¥ kan man pÃ¥ en Unixdator jobba flera personer pÃ¥ samma
+				gÃ¥ng och man kan gÃ¶ra det Ã¶ver nÃ¤tverket precis som om man
+				satt direkt vid datorn. LÃ¥ter det modernt? Det har man
 				kunnat i Unix sedan 1970-talet. En modern Uniximplementation
-				är Linux. Linux har ärvt dessa egenskaper från sin
-				föregångare och har alltså haft dessa möjligheter från
+				Ã¤r Linux. Linux har Ã¤rvt dessa egenskaper frÃ¥n sin
+				fÃ¶regÃ¥ngare och har alltsÃ¥ haft dessa mÃ¶jligheter frÃ¥n
 				starten
 			</para>
 			<para>
-				För att kunna logga in på en server över nätverket måste man
-				naturligtvis ha ett protokoll för hur det skall fungera. Ett
-				vanligt, ganska gammalt, protokoll är telnet. Telnetklienter
-				följer med de flesta operativsystem.
+				FÃ¶r att kunna logga in pÃ¥ en server Ã¶ver nÃ¤tverket mÃ¥ste man
+				naturligtvis ha ett protokoll fÃ¶r hur det skall fungera. Ett
+				vanligt, ganska gammalt, protokoll Ã¤r telnet. Telnetklienter
+				fÃ¶ljer med de flesta operativsystem.
 			</para>
 			<para>
-				Telnet används idag mindre och mindre. Den största
-				anledningen är att det är ett så kallat klartextprotokoll.
+				Telnet anvÃ¤nds idag mindre och mindre. Den stÃ¶rsta
+				anledningen Ã¤r att det Ã¤r ett sÃ¥ kallat klartextprotokoll.
 				Informationen som skickas mellan server och klient krypteras
-				inte. Det gör att den kan avlyssnas. Det finns massor av
-				klartextprotokoll som används på Internet och i de flesta
-				gör det ingenting om trafiken kan avlyssnas. I fallet med
-				telnet däremot är trafiken väldigt känslig. Anledningen är
-				att användarnamn och lösenord skickas i början av en
-				sessioon. Om någon avlyssnar kommunikationen får får denne
-				kompletta kontouppgifter och kan logga in på servern.
+				inte. Det gÃ¶r att den kan avlyssnas. Det finns massor av
+				klartextprotokoll som anvÃ¤nds pÃ¥ Internet och i de flesta
+				gÃ¶r det ingenting om trafiken kan avlyssnas. I fallet med
+				telnet dÃ¤remot Ã¤r trafiken vÃ¤ldigt kÃ¤nslig. Anledningen Ã¤r
+				att anvÃ¤ndarnamn och lÃ¶senord skickas i bÃ¶rjan av en
+				sessioon. Om nÃ¥gon avlyssnar kommunikationen fÃ¥r fÃ¥r denne
+				kompletta kontouppgifter och kan logga in pÃ¥ servern.
 			</para>
 			<para>
 				Ett nyare protokoll som heter SSH (Secure SHell) som
-				erbjuder samma funktionalitet som telnet men som är mycket
-				säkrare. Klienter finns till de flesta operativsystem men
+				erbjuder samma funktionalitet som telnet men som Ã¤r mycket
+				sÃ¤krare. Klienter finns till de flesta operativsystem men
 				intstalleras inte alltid som standard vilket telnet ofta
-				gör.
+				gÃ¶r.
 			</para>
 			<para>
-				Om nu SSH är så mycket säkrare, varför finns telnet kvar?
-				Telnet har fortfarande ett användningsområde. Till exempel
-				används ofta telnet för att konfigurera hårdvara, till
-				exempel switchar. Då används det på ett internt nätverk där
-				risken för avlyssning bedöms som liten. Till exempel en
+				Om nu SSH Ã¤r sÃ¥ mycket sÃ¤krare, varfÃ¶r finns telnet kvar?
+				Telnet har fortfarande ett anvÃ¤ndningsomrÃ¥de. Till exempel
+				anvÃ¤nds ofta telnet fÃ¶r att konfigurera hÃ¥rdvara, till
+				exempel switchar. DÃ¥ anvÃ¤nds det pÃ¥ ett internt nÃ¤tverk dÃ¤r
+				risken fÃ¶r avlyssning bedÃ¶ms som liten. Till exempel en
 				ensam kabel mellan server och klient.
 			</para>
 		</sect2>
@@ -520,41 +520,41 @@
 
 	<sect1><title>Internets framtid</title>
 		<para>
-			Vad som kommer att hända med Internet i framtiden är
-			naturligtvis svårt att säga. På sista tiden har de största
-			förändringarna skett bland rena konsumentprodukter såsom
+			Vad som kommer att hÃ¤nda med Internet i framtiden Ã¤r
+			naturligtvis svÃ¥rt att sÃ¤ga. PÃ¥ sista tiden har de stÃ¶rsta
+			fÃ¶rÃ¤ndringarna skett bland rena konsumentprodukter sÃ¥som
 			fildelning och direktmeddelanden (IM, Instant Messaging).
 		</para>
 		<para>
-			Vad som kommer i framtiden går bara att gissa. Det har talats
-			om tekniska förändringar i Internets struktur. Bland annat
-			finns planer på att byta ut en så grundläggande del som IP
-			(Internet Protocol, se nästa kapitel) för att bland annat råda
-			bot på bristen på IP-adresser. Som det ser ut nu är detta inte
-			att vänta de närmaste åren. Utan nyheterna kommer högre upp i
-			strukturen, på applikationsnivån.
+			Vad som kommer i framtiden gÃ¥r bara att gissa. Det har talats
+			om tekniska fÃ¶rÃ¤ndringar i Internets struktur. Bland annat
+			finns planer pÃ¥ att byta ut en sÃ¥ grundlÃ¤ggande del som IP
+			(Internet Protocol, se nÃ¤sta kapitel) fÃ¶r att bland annat rÃ¥da
+			bot pÃ¥ bristen pÃ¥ IP-adresser. Som det ser ut nu Ã¤r detta inte
+			att vÃ¤nta de nÃ¤rmaste Ã¥ren. Utan nyheterna kommer hÃ¶gre upp i
+			strukturen, pÃ¥ applikationsnivÃ¥n.
 		</para>
 		<para>
-			Det som "bubblar" nu är olika telefontjänster. Att man kan tala
-			med varandra över Internet. Det kommer som en naturlig
-			förlängning på IM-tjänsterna och kommer förmodligen att bli
-			väldigt vanligt.
+			Det som "bubblar" nu Ã¤r olika telefontjÃ¤nster. Att man kan tala
+			med varandra Ã¶ver Internet. Det kommer som en naturlig
+			fÃ¶rlÃ¤ngning pÃ¥ IM-tjÃ¤nsterna och kommer fÃ¶rmodligen att bli
+			vÃ¤ldigt vanligt.
 		</para>
 		<para>
-			Smarta-hemtjänster var väldigt hett för ett par år sedan men
-			blev ingen hit. Jag tror att dessa kommer att komma igen när
-			marknaden mognat. Exempel på tjänster är att till exempel kunna
-			titta in hemma med hjälp av kameror från jobbet eller på
-			semestern. Andra tjänster kan vara larmtjänster där man
-			meddelas via e-posts, SMS eller varför inte till sin
-			IM-programvara om något händer hemma.
+			Smarta-hemtjÃ¤nster var vÃ¤ldigt hett fÃ¶r ett par Ã¥r sedan men
+			blev ingen hit. Jag tror att dessa kommer att komma igen nÃ¤r
+			marknaden mognat. Exempel pÃ¥ tjÃ¤nster Ã¤r att till exempel kunna
+			titta in hemma med hjÃ¤lp av kameror frÃ¥n jobbet eller pÃ¥
+			semestern. Andra tjÃ¤nster kan vara larmtjÃ¤nster dÃ¤r man
+			meddelas via e-posts, SMS eller varfÃ¶r inte till sin
+			IM-programvara om nÃ¥got hÃ¤nder hemma.
 		</para>
 		<para>
-			En sak jag med säkerhet kan säga är dessa nya tjänster kommer
-			att kräva mer och mer bandbredd. Och mer bandbredd kommer att
+			En sak jag med sÃ¤kerhet kan sÃ¤ga Ã¤r dessa nya tjÃ¤nster kommer
+			att krÃ¤va mer och mer bandbredd. Och mer bandbredd kommer att
 			finnas. Det kommer att bli enklare att koppla upp sig och med
-			mer bandbredd än vad vi är vana med idag. Snabba uppkopplingar
-			med mobila enheter kommer också att bli vanligare.
+			mer bandbredd Ã¤n vad vi Ã¤r vana med idag. Snabba uppkopplingar
+			med mobila enheter kommer ocksÃ¥ att bli vanligare.
 		</para>
 	</sect1>
 	<sect1><title>Sammanfattning</title>

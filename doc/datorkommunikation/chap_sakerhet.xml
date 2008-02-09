@@ -1,319 +1,319 @@
-<chapter id="chap_sakerhet"><title>Datasäkerhet och lagstiftning</title>
+<chapter id="chap_sakerhet"><title>DatasÃ¤kerhet och lagstiftning</title>
 	<abstract>
 		<para>
-			Stora öppna nät som till exempel Internet är naturligtvis bra
-			för kommunikationen men det öppnar även för onda personer som
-			kan missbruka denna öppenhet. I detta kapitel behandlar vi
-			datasäkerhet. Hur farligt är Internet och vilka metoder finns
-			för att skydda sig?
+			Stora Ã¶ppna nÃ¤t som till exempel Internet Ã¤r naturligtvis bra
+			fÃ¶r kommunikationen men det Ã¶ppnar Ã¤ven fÃ¶r onda personer som
+			kan missbruka denna Ã¶ppenhet. I detta kapitel behandlar vi
+			datasÃ¤kerhet. Hur farligt Ã¤r Internet och vilka metoder finns
+			fÃ¶r att skydda sig?
 		</para>
 		<para>
-			Man kan säga att säkerhet är de metoder och verktyg som vi kan
-			ta till för att uppnå trygghet.
+			Man kan sÃ¤ga att sÃ¤kerhet Ã¤r de metoder och verktyg som vi kan
+			ta till fÃ¶r att uppnÃ¥ trygghet.
 		</para>
 	</abstract>
 
-	<sect1><title>Syftet med datasäkerhet</title>
+	<sect1><title>Syftet med datasÃ¤kerhet</title>
 		<para>
-			Syftet med all säkerhet är att man skall skapa trygghet. Alla
-			som berörs av systemet skall känna sig trygga med att den
-			information som ligger i sytemet bara kan komma i rätta händer.
-			En stor bov i detta spel är faktiskt också trygghet. En
-			människa som känner sig väldigt trygg slutar ofta att tänka på
-			säkerheten. Det värsta är det vi kallar falsk trygghet.
+			Syftet med all sÃ¤kerhet Ã¤r att man skall skapa trygghet. Alla
+			som berÃ¶rs av systemet skall kÃ¤nna sig trygga med att den
+			information som ligger i sytemet bara kan komma i rÃ¤tta hÃ¤nder.
+			En stor bov i detta spel Ã¤r faktiskt ocksÃ¥ trygghet. En
+			mÃ¤nniska som kÃ¤nner sig vÃ¤ldigt trygg slutar ofta att tÃ¤nka pÃ¥
+			sÃ¤kerheten. Det vÃ¤rsta Ã¤r det vi kallar falsk trygghet.
 		</para>
 		<para>
-			Det finns flera exempel när tryggheten som man vill uppnå
-			motarbetar säkerheten i sig. Till exempel så kan ett brandlarm
-			göra att man struntar i att kontrollera att alla ljus är
-			släckta innan man går och lägger sig. Risken att huset skall
-			brinna ner är då betydligt större än utan brandvaranare. Man
+			Det finns flera exempel nÃ¤r tryggheten som man vill uppnÃ¥
+			motarbetar sÃ¤kerheten i sig. Till exempel sÃ¥ kan ett brandlarm
+			gÃ¶ra att man struntar i att kontrollera att alla ljus Ã¤r
+			slÃ¤ckta innan man gÃ¥r och lÃ¤gger sig. Risken att huset skall
+			brinna ner Ã¤r dÃ¥ betydligt stÃ¶rre Ã¤n utan brandvaranare. Man
 			har installerat ett skyddssystem men inte skyddat sig mot
-			själva faran.
+			sjÃ¤lva faran.
 		</para>
 		<para>
 			Falsk trygghet kan vara om till exempel brandvarnaren i
-			exemplet ovan inte fungerar. Du sjunker säkerheten i huset
-			avsevärt, men de som bor där känner sig tryggare än någonsin.
+			exemplet ovan inte fungerar. Du sjunker sÃ¤kerheten i huset
+			avsevÃ¤rt, men de som bor dÃ¤r kÃ¤nner sig tryggare Ã¤n nÃ¥gonsin.
 		</para>
 		<para>
-			För att skapa trygghet inom databehandling måste följande tre
+			FÃ¶r att skapa trygghet inom databehandling mÃ¥ste fÃ¶ljande tre
 			krav vara uppfyllda.
 			<itemizedlist>
 				<listitem><para>Sekretess</para></listitem>
 				<listitem><para>Integritet</para></listitem>
-				<listitem><para>Tillgänglighet</para></listitem>
+				<listitem><para>TillgÃ¤nglighet</para></listitem>
 			</itemizedlist>
 		</para>
 		<sect2><title>Sekretess</title>
 			<para>
-				Med sekretess menas att bara rätt personer skall kunna komma
-				åt en viss information. Informationen behöver inte vara
-				hemlig eller sekretessbelagd utan även annan information
-				kräver viss sekretess. Till exempel dina dokument på din
-				dator, de är inte sekretessbelagda, men en viss sekretess
-				vill du ändå ha på dem så att inte vem som helst kan läsa
-				dem. Inom vården, polismyndigheten och även företag ställs
-				det väldigt höga krav på sekretessen.
+				Med sekretess menas att bara rÃ¤tt personer skall kunna komma
+				Ã¥t en viss information. Informationen behÃ¶ver inte vara
+				hemlig eller sekretessbelagd utan Ã¤ven annan information
+				krÃ¤ver viss sekretess. Till exempel dina dokument pÃ¥ din
+				dator, de Ã¤r inte sekretessbelagda, men en viss sekretess
+				vill du Ã¤ndÃ¥ ha pÃ¥ dem sÃ¥ att inte vem som helst kan lÃ¤sa
+				dem. Inom vÃ¥rden, polismyndigheten och Ã¤ven fÃ¶retag stÃ¤lls
+				det vÃ¤ldigt hÃ¶ga krav pÃ¥ sekretessen.
 			</para>
 		</sect2>
 		<sect2><title>Integritet</title>
 			<para>
-				Integritet i det är fallet handlar inte om människors
+				Integritet i det Ã¤r fallet handlar inte om mÃ¤nniskors
 				integritet utan om datas integritet. Med detta menas att
 				de data som finns i ett system skall vara riktiga och inte
-				förändrade av någon obehörig. Till exempel så måste polisen
-				och läkaren vara säker på att det som står i register och
-				journaler är riktigt och inte förändrat av någon. Detsamma
-				gäller naturligtvis även företagarens rapporter. Så god
-				sekretess förhindrar insyn och god integritet förhindrar
-				förändring. Se även spårbarhet nedan.
+				fÃ¶rÃ¤ndrade av nÃ¥gon obehÃ¶rig. Till exempel sÃ¥ mÃ¥ste polisen
+				och lÃ¤karen vara sÃ¤ker pÃ¥ att det som stÃ¥r i register och
+				journaler Ã¤r riktigt och inte fÃ¶rÃ¤ndrat av nÃ¥gon. Detsamma
+				gÃ¤ller naturligtvis Ã¤ven fÃ¶retagarens rapporter. SÃ¥ god
+				sekretess fÃ¶rhindrar insyn och god integritet fÃ¶rhindrar
+				fÃ¶rÃ¤ndring. Se Ã¤ven spÃ¥rbarhet nedan.
 			</para>
 		</sect2>
-		<sect2><title>Tillgänglighet</title>
+		<sect2><title>TillgÃ¤nglighet</title>
 			<para>
-				Med tillgänglighet menas att data skall finnas tillhanda för
-				rätt personer i rätt tid och på rätt plats. Ett system är
-				värdelöst om det är så säkert att inte ens de legitima
-				användarna kan nyttja det.
+				Med tillgÃ¤nglighet menas att data skall finnas tillhanda fÃ¶r
+				rÃ¤tt personer i rÃ¤tt tid och pÃ¥ rÃ¤tt plats. Ett system Ã¤r
+				vÃ¤rdelÃ¶st om det Ã¤r sÃ¥ sÃ¤kert att inte ens de legitima
+				anvÃ¤ndarna kan nyttja det.
 			</para>
 		</sect2>
-		<sect2><title>Spårbarhet</title>
+		<sect2><title>SpÃ¥rbarhet</title>
 			<para>
-				Spårbarheten tar många upp som en egen punkt ovan. Jag gör
-				det inte eftersom jag tycker att den hänger ihop med den
-				andra punkten (Integritet) och att det inte är ett
-				säkerhetsmål i sig. Data blir inte säkrare av spårbarhet,
-				men det är lättare att i efterhand verifiera data med hjälp
-				av spårbarhet. Med spårbarhet menas att man i efterhand
-				skall kunna reda ut vad som hänt med vissa data och vad som
-				hänt i ett system. Man skall kunna se vem som gjort vad och
-				när det hände. Detta gör man oftast med hjälp av olika
+				SpÃ¥rbarheten tar mÃ¥nga upp som en egen punkt ovan. Jag gÃ¶r
+				det inte eftersom jag tycker att den hÃ¤nger ihop med den
+				andra punkten (Integritet) och att det inte Ã¤r ett
+				sÃ¤kerhetsmÃ¥l i sig. Data blir inte sÃ¤krare av spÃ¥rbarhet,
+				men det Ã¤r lÃ¤ttare att i efterhand verifiera data med hjÃ¤lp
+				av spÃ¥rbarhet. Med spÃ¥rbarhet menas att man i efterhand
+				skall kunna reda ut vad som hÃ¤nt med vissa data och vad som
+				hÃ¤nt i ett system. Man skall kunna se vem som gjort vad och
+				nÃ¤r det hÃ¤nde. Detta gÃ¶r man oftast med hjÃ¤lp av olika
 				loggar.
 			</para>
 		</sect2>
 	</sect1>
 
-	<sect1><title>Hur farligt är Internet?</title>
+	<sect1><title>Hur farligt Ã¤r Internet?</title>
 		<para>
-			Internet och andra stora nätverk är i sig är inte farliga. Det
-			är de som använder näten som potentiellt kan vara farliga. Det
-			är viktigt att tänka på vilka uppgifter man lämnar ifrån sig
-			och hur man skyddar sådant som man vill hålla för sig själv.
+			Internet och andra stora nÃ¤tverk Ã¤r i sig Ã¤r inte farliga. Det
+			Ã¤r de som anvÃ¤nder nÃ¤ten som potentiellt kan vara farliga. Det
+			Ã¤r viktigt att tÃ¤nka pÃ¥ vilka uppgifter man lÃ¤mnar ifrÃ¥n sig
+			och hur man skyddar sÃ¥dant som man vill hÃ¥lla fÃ¶r sig sjÃ¤lv.
 		</para>
 		<para>
-			Människan är ofta rädd för det som är okänt. Det gör att man
-			kanske är mer rädd för att använda sitt kontokort på Internet
-			än vad man är för att använde det i en butik. I själva verket
-			är det lika farligt att använda det i en butik om den som står
+			MÃ¤nniskan Ã¤r ofta rÃ¤dd fÃ¶r det som Ã¤r okÃ¤nt. Det gÃ¶r att man
+			kanske Ã¤r mer rÃ¤dd fÃ¶r att anvÃ¤nda sitt kontokort pÃ¥ Internet
+			Ã¤n vad man Ã¤r fÃ¶r att anvÃ¤nde det i en butik. I sjÃ¤lva verket
+			Ã¤r det lika farligt att anvÃ¤nda det i en butik om den som stÃ¥r
 			bakom disken i butiken har onda avsikter.
 		</para>
 	</sect1>
 	<sect1><title>Hur kan jag skydda mig?</title>
 		<para>
-			Det finns massor av sätt att skydda dig. Vanligt sunt förnuft
-			räcker väldigt långt. Här kommer ytterligare några tips.
+			Det finns massor av sÃ¤tt att skydda dig. Vanligt sunt fÃ¶rnuft
+			rÃ¤cker vÃ¤ldigt lÃ¥ngt. HÃ¤r kommer ytterligare nÃ¥gra tips.
 		</para>
 		
-		<sect2><title>Var försiktig med e-post och bilagor</title>
+		<sect2><title>Var fÃ¶rsiktig med e-post och bilagor</title>
 			<para>
-				Med e-post finns möjligheten att skicka brev med bilagor.
+				Med e-post finns mÃ¶jligheten att skicka brev med bilagor.
 				Bilagorna kan vara till exempel en bild som illustrerar
-				innehållet i brevet. Det går också att bigoga filer som kan
-				vara program. Om du kör dessa program ger du programmet (och
-				då naturligtvis den som skrev det) samma rättigheter som du
-				själv har på din dator. Om du inte vet var programmet kommer
-				från skall du inte köra det. Öppna aldrig filer från
-				personer du inte känner. Även om du känner personen i fråga
-				så kan det vara fråga om ett virus. Kontrollera gärna en
-				extra gång med den personen som skickat brevet innan du
-				öppnar några bifogade filer.
+				innehÃ¥llet i brevet. Det gÃ¥r ocksÃ¥ att bigoga filer som kan
+				vara program. Om du kÃ¶r dessa program ger du programmet (och
+				dÃ¥ naturligtvis den som skrev det) samma rÃ¤ttigheter som du
+				sjÃ¤lv har pÃ¥ din dator. Om du inte vet var programmet kommer
+				frÃ¥n skall du inte kÃ¶ra det. Ã–ppna aldrig filer frÃ¥n
+				personer du inte kÃ¤nner. Ã„ven om du kÃ¤nner personen i frÃ¥ga
+				sÃ¥ kan det vara frÃ¥ga om ett virus. Kontrollera gÃ¤rna en
+				extra gÃ¥ng med den personen som skickat brevet innan du
+				Ã¶ppnar nÃ¥gra bifogade filer.
 			</para>
 		</sect2>
 		
-		<sect2><title>Ladda hem saker från Internet med försiktighet</title>
+		<sect2><title>Ladda hem saker frÃ¥n Internet med fÃ¶rsiktighet</title>
 			<para>
-				Precis som med filerna i e-posten så måste man passa sig för
-				filer man får ner till sin dator på andra sätt. Det är på
-				samma sätt här, kör du filen så ger du den som gett dig
-				filen samma rättigheter på din dator som du själv har. Extra
-				farligt är så kallade filbytartjänster eller -nätverk, där
+				Precis som med filerna i e-posten sÃ¥ mÃ¥ste man passa sig fÃ¶r
+				filer man fÃ¥r ner till sin dator pÃ¥ andra sÃ¤tt. Det Ã¤r pÃ¥
+				samma sÃ¤tt hÃ¤r, kÃ¶r du filen sÃ¥ ger du den som gett dig
+				filen samma rÃ¤ttigheter pÃ¥ din dator som du sjÃ¤lv har. Extra
+				farligt Ã¤r sÃ¥ kallade filbytartjÃ¤nster eller -nÃ¤tverk, dÃ¤r
 				du inte alls vet vem som lagt upp de filer du tankar hem.
 			</para>
 		</sect2>
 		
-		<sect2><title>Använd bra lösenord</title>
+		<sect2><title>AnvÃ¤nd bra lÃ¶senord</title>
 			<para>
-				Den första kontakten de flesta har med datasäkerhet är
-				användarnamn och lösenord. Användarnamnet använder du för
-				att det aktuella systemet skall veta vad då får och inte får
-				göra och se. Det kallas får identifiering. Lösenordet
-				används för att du skall kunna bevisa att du verkligen är
-				du. Detta kallas autenticering. Ibland behövs ingen
-				autenticering och ibland behövs det autenticering som är
-				starkare än bara ett användarnamn och ett lösenord. Ett
-				lösenord är något som man <emphasis>vet</emphasis> ibland
-				kan det också krävas att man <emphasis>har</emphasis> något,
+				Den fÃ¶rsta kontakten de flesta har med datasÃ¤kerhet Ã¤r
+				anvÃ¤ndarnamn och lÃ¶senord. AnvÃ¤ndarnamnet anvÃ¤nder du fÃ¶r
+				att det aktuella systemet skall veta vad dÃ¥ fÃ¥r och inte fÃ¥r
+				gÃ¶ra och se. Det kallas fÃ¥r identifiering. LÃ¶senordet
+				anvÃ¤nds fÃ¶r att du skall kunna bevisa att du verkligen Ã¤r
+				du. Detta kallas autenticering. Ibland behÃ¶vs ingen
+				autenticering och ibland behÃ¶vs det autenticering som Ã¤r
+				starkare Ã¤n bara ett anvÃ¤ndarnamn och ett lÃ¶senord. Ett
+				lÃ¶senord Ã¤r nÃ¥got som man <emphasis>vet</emphasis> ibland
+				kan det ocksÃ¥ krÃ¤vas att man <emphasis>har</emphasis> nÃ¥got,
 				till exempel ett kort eller en nyckel.
 			</para>
 			<para>
-				Ett system som använder lösenord är relativt säkert. Det
-				största problemet med ett sådant system är användarna och de
-				lösenord de väljer eller hur de handskas med lösenorden.
-				Ett lösenord som är lätt att gissa eller som står uppskrivet
-				på skärmen eller under skrivbordsunderlägget gör ingen
-				större nytta. En grundläggande regel som man kan jobba efter
-				är att: <emphasis>Lösenord skall man hantera som
-				underkläder.  Man lånar inte ut dem, låter dem inte ligga
-				framme, och byter dem då och då.</emphasis>
+				Ett system som anvÃ¤nder lÃ¶senord Ã¤r relativt sÃ¤kert. Det
+				stÃ¶rsta problemet med ett sÃ¥dant system Ã¤r anvÃ¤ndarna och de
+				lÃ¶senord de vÃ¤ljer eller hur de handskas med lÃ¶senorden.
+				Ett lÃ¶senord som Ã¤r lÃ¤tt att gissa eller som stÃ¥r uppskrivet
+				pÃ¥ skÃ¤rmen eller under skrivbordsunderlÃ¤gget gÃ¶r ingen
+				stÃ¶rre nytta. En grundlÃ¤ggande regel som man kan jobba efter
+				Ã¤r att: <emphasis>LÃ¶senord skall man hantera som
+				underklÃ¤der.  Man lÃ¥nar inte ut dem, lÃ¥ter dem inte ligga
+				framme, och byter dem dÃ¥ och dÃ¥.</emphasis>
 			</para>
 			<para>
-				Hur hittar man då ett lösenord som man skall kunna komma
-				ihåg (det är aldrig bra att ha lösenord nedskrivna) men som
-				inte är lätt att gissa? En grundregel är att inte ta något
-				som är kopplat till ens person. Till exempel är namnet på
-				barn, barnbarn, hundar och katter extremt vanliga lösenord.
-				Helst skall man undvika alla ord och helst också blanda små
-				bokstäver, stora bokstäver och siffror. Ett bra lösenord är
+				Hur hittar man dÃ¥ ett lÃ¶senord som man skall kunna komma
+				ihÃ¥g (det Ã¤r aldrig bra att ha lÃ¶senord nedskrivna) men som
+				inte Ã¤r lÃ¤tt att gissa? En grundregel Ã¤r att inte ta nÃ¥got
+				som Ã¤r kopplat till ens person. Till exempel Ã¤r namnet pÃ¥
+				barn, barnbarn, hundar och katter extremt vanliga lÃ¶senord.
+				Helst skall man undvika alla ord och helst ocksÃ¥ blanda smÃ¥
+				bokstÃ¤ver, stora bokstÃ¤ver och siffror. Ett bra lÃ¶senord Ã¤r
 				till exempel <emphasis>Jsk2KgP</emphasis> men hur skall man
-				komma ihåg ett sådant lösenord? Jo, det är enkelt.
-				Lösenordet är taget från frasen <emphasis>Jag skall köpa 2
-				Kg Potatis</emphasis> som är lätt att komma ihåg. Ofta är
-				det lätt att komma ihåg fraser. Man kan också utgå från ord
-				och byta ut vissa tecken mot bokstäver, till exempel så kan
+				komma ihÃ¥g ett sÃ¥dant lÃ¶senord? Jo, det Ã¤r enkelt.
+				LÃ¶senordet Ã¤r taget frÃ¥n frasen <emphasis>Jag skall kÃ¶pa 2
+				Kg Potatis</emphasis> som Ã¤r lÃ¤tt att komma ihÃ¥g. Ofta Ã¤r
+				det lÃ¤tt att komma ihÃ¥g fraser. Man kan ocksÃ¥ utgÃ¥ frÃ¥n ord
+				och byta ut vissa tecken mot bokstÃ¤ver, till exempel sÃ¥ kan
 				<emphasis>potatis</emphasis> bli
-				<emphasis>p0t4t1s</emphasis> som är ett bra lösenord.
+				<emphasis>p0t4t1s</emphasis> som Ã¤r ett bra lÃ¶senord.
 			</para>
 			<para>
-				Anledningen till att man skall ha bra lösenord är att det
-				finns vissa program som är till föra att knäcka lösenord
-				genom att testa alla möjliga tänkbara lösenord. Dessa
-				program utgår från listor med vanliga lösenord och tar sedan
-				ord från ordböcker och liknande. De kan utan problem testa
-				alla svenska ord. Har du då ett svenskt ord som lösenord så
+				Anledningen till att man skall ha bra lÃ¶senord Ã¤r att det
+				finns vissa program som Ã¤r till fÃ¶ra att knÃ¤cka lÃ¶senord
+				genom att testa alla mÃ¶jliga tÃ¤nkbara lÃ¶senord. Dessa
+				program utgÃ¥r frÃ¥n listor med vanliga lÃ¶senord och tar sedan
+				ord frÃ¥n ordbÃ¶cker och liknande. De kan utan problem testa
+				alla svenska ord. Har du dÃ¥ ett svenskt ord som lÃ¶senord sÃ¥
 				skyddar det dig inte alls.
 			</para>
 		</sect2>
 		<sect2><title>Uppdatera ditt system</title>
 			<para>
-				Datorsystem måste uppdateras för att vara säkra. Inget
-				system är säkert över tiden. Även om systemet var säkert när
-				du installerade det så hittas hela tiden nya
-				säkerhetsproblem. De flesta operativsystem har en funktion
-				för att uppdaterara sig automatiskt. Använd denna så håller
-				sig ditt system så säkert som möjligt. Detsamma gäller
-				naturligtvis antivirusprogram, brandväggar och andra
+				Datorsystem mÃ¥ste uppdateras fÃ¶r att vara sÃ¤kra. Inget
+				system Ã¤r sÃ¤kert Ã¶ver tiden. Ã„ven om systemet var sÃ¤kert nÃ¤r
+				du installerade det sÃ¥ hittas hela tiden nya
+				sÃ¤kerhetsproblem. De flesta operativsystem har en funktion
+				fÃ¶r att uppdaterara sig automatiskt. AnvÃ¤nd denna sÃ¥ hÃ¥ller
+				sig ditt system sÃ¥ sÃ¤kert som mÃ¶jligt. Detsamma gÃ¤ller
+				naturligtvis antivirusprogram, brandvÃ¤ggar och andra
 				program.
 			</para>
 		</sect2>
-		<sect2><title>Välj inte de "dansande grisarna"</title>
+		<sect2><title>VÃ¤lj inte de "dansande grisarna"</title>
 			<para>
-				En säkerhetsexpert som heter Bruce Schneier har kostaterat
-				att användarna alltid kommer att välja dansande grisar före
-				säkerhet. Med detta menar han att hur mycket man än utbildar
-				de som använder systemen så kommer de så fort de ser något
-				lockande att göra tvärt emot. Så gör inte saker du vet är
+				En sÃ¤kerhetsexpert som heter Bruce Schneier har kostaterat
+				att anvÃ¤ndarna alltid kommer att vÃ¤lja dansande grisar fÃ¶re
+				sÃ¤kerhet. Med detta menar han att hur mycket man Ã¤n utbildar
+				de som anvÃ¤nder systemen sÃ¥ kommer de sÃ¥ fort de ser nÃ¥got
+				lockande att gÃ¶ra tvÃ¤rt emot. SÃ¥ gÃ¶r inte saker du vet Ã¤r
 				fel!
 			</para>
 		</sect2>
 	</sect1>
 
-	<sect1><title>Brandväggar</title>
-		<sect2><title>Allmänt</title>
+	<sect1><title>BrandvÃ¤ggar</title>
+		<sect2><title>AllmÃ¤nt</title>
 		<para>
-			Brandväggar är en central del i ett säkert datornätverk. Man
-			skall dock passa sig för att ge dem en allt för central roll.
-			Det finns risk att man när man har installerat en brandvägg
-			känner sig trygg och slarvar med säkerheten på det interna
-			nätverket. Det kan leda till att många nätverk till och med
-			blir osäkrare efter att man har installerat en brandvägg. Men
-			rätt använd är en brandvägg oumbärlig när det gäller att skydda
-			sin dator eller sitt nätverk från oönskad trafik.
+			BrandvÃ¤ggar Ã¤r en central del i ett sÃ¤kert datornÃ¤tverk. Man
+			skall dock passa sig fÃ¶r att ge dem en allt fÃ¶r central roll.
+			Det finns risk att man nÃ¤r man har installerat en brandvÃ¤gg
+			kÃ¤nner sig trygg och slarvar med sÃ¤kerheten pÃ¥ det interna
+			nÃ¤tverket. Det kan leda till att mÃ¥nga nÃ¤tverk till och med
+			blir osÃ¤krare efter att man har installerat en brandvÃ¤gg. Men
+			rÃ¤tt anvÃ¤nd Ã¤r en brandvÃ¤gg oumbÃ¤rlig nÃ¤r det gÃ¤ller att skydda
+			sin dator eller sitt nÃ¤tverk frÃ¥n oÃ¶nskad trafik.
 		</para>
 		<para>
-			Namnet brandvägg kommer naturligtvis från det som vi kallar
-			brandväggar i eller mellan två byggnader. En brandvägg är en,
-			oftast murad eller gjuten, vägg och den får inte ha några hål.
-			Dess syfte är att hindra att en brand sprids mellan husen eller
+			Namnet brandvÃ¤gg kommer naturligtvis frÃ¥n det som vi kallar
+			brandvÃ¤ggar i eller mellan tvÃ¥ byggnader. En brandvÃ¤gg Ã¤r en,
+			oftast murad eller gjuten, vÃ¤gg och den fÃ¥r inte ha nÃ¥gra hÃ¥l.
+			Dess syfte Ã¤r att hindra att en brand sprids mellan husen eller
 			delar av ett hus. 
 		</para>
 		<para>
-			Brandväggar kan arbeta på olika lager i OSI-modellen. De
-			vanligaste jobbar i nätverksskiktet och kallas för
-			paketfiltrerande brandväggar. En annan typ kallas proxy-servrar
-			och de jobbar i applikationslagret. De som jobbar på
-			nätverkslagret kan naturligtvis bara titta på ip-adresser och
-			portar medan de som jobbar högre upp i OSI-modellen även kan
-			titta på den trafik som är i paketen. Inte sällan kombinerar
-			man båda typerna i en och samma brandvägg.
+			BrandvÃ¤ggar kan arbeta pÃ¥ olika lager i OSI-modellen. De
+			vanligaste jobbar i nÃ¤tverksskiktet och kallas fÃ¶r
+			paketfiltrerande brandvÃ¤ggar. En annan typ kallas proxy-servrar
+			och de jobbar i applikationslagret. De som jobbar pÃ¥
+			nÃ¤tverkslagret kan naturligtvis bara titta pÃ¥ ip-adresser och
+			portar medan de som jobbar hÃ¶gre upp i OSI-modellen Ã¤ven kan
+			titta pÃ¥ den trafik som Ã¤r i paketen. Inte sÃ¤llan kombinerar
+			man bÃ¥da typerna i en och samma brandvÃ¤gg.
 		</para>
 		</sect2>
 		<sect2><title>Paketfiltrerande</title>
 		<para>
-			En paketfiltrerande brandvägg tittar bara på ip-adresser och
-			portar. Den arbetar på nätverkslagret och kan därför inte säga
-			något om innehållet i trafiken. Det finns två typer av
-			paketfiltrerande brandväggar, de som är
-			<emphasis>stateful</emphasis> och de som är
-			<emphasis>stateless</emphasis>. De som är stateful kommer ihåg
-			de paket den har behandlat och kan sätta in paketen i ett
-			sammanhang medan de som är stateless ser varje paket som en
-			egen händelse.
+			En paketfiltrerande brandvÃ¤gg tittar bara pÃ¥ ip-adresser och
+			portar. Den arbetar pÃ¥ nÃ¤tverkslagret och kan dÃ¤rfÃ¶r inte sÃ¤ga
+			nÃ¥got om innehÃ¥llet i trafiken. Det finns tvÃ¥ typer av
+			paketfiltrerande brandvÃ¤ggar, de som Ã¤r
+			<emphasis>stateful</emphasis> och de som Ã¤r
+			<emphasis>stateless</emphasis>. De som Ã¤r stateful kommer ihÃ¥g
+			de paket den har behandlat och kan sÃ¤tta in paketen i ett
+			sammanhang medan de som Ã¤r stateless ser varje paket som en
+			egen hÃ¤ndelse.
 		</para>
 		<para>
-			Paketfiltrerande brandväggar kombineras oftast med en router.
-			De har två eller fler gränssnitt mellan vilka trafiken
-			dirigeras med en routingtabell. Utöver detta finns det även
-			brandväggsregler som säger vilken trafik som får passera
-			branvädggen. Ett enkelt sådant regelverk kan vara:
+			Paketfiltrerande brandvÃ¤ggar kombineras oftast med en router.
+			De har tvÃ¥ eller fler grÃ¤nssnitt mellan vilka trafiken
+			dirigeras med en routingtabell. UtÃ¶ver detta finns det Ã¤ven
+			brandvÃ¤ggsregler som sÃ¤ger vilken trafik som fÃ¥r passera
+			branvÃ¤dggen. Ett enkelt sÃ¥dant regelverk kan vara:
 			<screen>
-Tillåt trafik från insidan till webbservrar (port tcp/80) på utsidan
-Tillåt trafik från insidan till dnsservrar  (port udp/53) på utsidan
-Tillåt trafik till 84.243.2.149 port tcp/6667 (selinux, irc)
-Tillåt ingen annan trafik från insidan till utsidan
+TillÃ¥t trafik frÃ¥n insidan till webbservrar (port tcp/80) pÃ¥ utsidan
+TillÃ¥t trafik frÃ¥n insidan till dnsservrar  (port udp/53) pÃ¥ utsidan
+TillÃ¥t trafik till 84.243.2.149 port tcp/6667 (selinux, irc)
+TillÃ¥t ingen annan trafik frÃ¥n insidan till utsidan
 			</screen>
-		En paketfiltrerande brandvägg har sina begränsningar men är
-		väldigt effektiv och används idag på i proncip alla nätverk och
-		nästan alla datorer som används på Internet.
+		En paketfiltrerande brandvÃ¤gg har sina begrÃ¤nsningar men Ã¤r
+		vÃ¤ldigt effektiv och anvÃ¤nds idag pÃ¥ i proncip alla nÃ¤tverk och
+		nÃ¤stan alla datorer som anvÃ¤nds pÃ¥ Internet.
 		</para>
 		
 		</sect2>
 		<sect2><title>Proxies</title>
 			<para>
-				En proxyserver är också en typ av brandvägg men den jobbar
-				ända uppe på applikationsnivån i OSI-modellen. Det gör att
-				den har andra möjligheter än en paketfiltrerande brandvägg.
-				En proxyserver kan till exempel titta på url:er och till och
-				med på innehåll i http-trafik (surfning).
+				En proxyserver Ã¤r ocksÃ¥ en typ av brandvÃ¤gg men den jobbar
+				Ã¤nda uppe pÃ¥ applikationsnivÃ¥n i OSI-modellen. Det gÃ¶r att
+				den har andra mÃ¶jligheter Ã¤n en paketfiltrerande brandvÃ¤gg.
+				En proxyserver kan till exempel titta pÃ¥ url:er och till och
+				med pÃ¥ innehÃ¥ll i http-trafik (surfning).
 			</para>
 			<para>
-				Man kan alltså kontrollera vilka webbplatser som kan besökas
+				Man kan alltsÃ¥ kontrollera vilka webbplatser som kan besÃ¶kas
 				och man kan till och med kontrollera vilka filnamn som kan
-				hämtas. Man kan filtrera på innehåll och till exempel
-				sortera bort sidor som innehåller vissa ord. 
+				hÃ¤mtas. Man kan filtrera pÃ¥ innehÃ¥ll och till exempel
+				sortera bort sidor som innehÃ¥ller vissa ord. 
 			</para>
 			<para>
-				Inte sällan kombineras en patetfiltrerande branvägg med en
-				proxy. En nackdel med proxyservern är att den är något
-				långsammare eftersom den måste ända upp i applikationslagret
+				Inte sÃ¤llan kombineras en patetfiltrerande branvÃ¤gg med en
+				proxy. En nackdel med proxyservern Ã¤r att den Ã¤r nÃ¥got
+				lÃ¥ngsammare eftersom den mÃ¥ste Ã¤nda upp i applikationslagret
 				och dessutom har ett mer avancerat regelverk.
 			</para>
 		</sect2>
-		<sect2><title>Personlig brandvägg</title>
+		<sect2><title>Personlig brandvÃ¤gg</title>
 			<para>
-				Det är ganska vanligt att man utrustar även klientdatorerna,
-				alltså de som användarna sitter vid, med lokala brandväggar
-				och till och med proxys. Detta för att de skall vara
-				skyddade mot varandra och när de flyttas runt mellan olika
-				nät. Det är en bra säkerhetsprincip att varje nod skall i
-				sig vara säker. Man skall aldrig lita på att något runt om
-				kring är säkert.
+				Det Ã¤r ganska vanligt att man utrustar Ã¤ven klientdatorerna,
+				alltsÃ¥ de som anvÃ¤ndarna sitter vid, med lokala brandvÃ¤ggar
+				och till och med proxys. Detta fÃ¶r att de skall vara
+				skyddade mot varandra och nÃ¤r de flyttas runt mellan olika
+				nÃ¤t. Det Ã¤r en bra sÃ¤kerhetsprincip att varje nod skall i
+				sig vara sÃ¤ker. Man skall aldrig lita pÃ¥ att nÃ¥got runt om
+				kring Ã¤r sÃ¤kert.
 			</para>
 			<para>
-				Man skall heller aldrig lite för mycket på en brandvägg.
-				Tänk på hur fungerar och att de i princip inte alls fungerar
+				Man skall heller aldrig lite fÃ¶r mycket pÃ¥ en brandvÃ¤gg.
+				TÃ¤nk pÃ¥ hur fungerar och att de i princip inte alls fungerar
 				mot virus och trojaner och annat som kan lista sig in i din
-				dator utan att du vet om det, men enligt brandväggens
+				dator utan att du vet om det, men enligt brandvÃ¤ggens
 				regler.
 			</para>
 		</sect2>
@@ -321,117 +321,117 @@ Tillåt ingen annan trafik från insidan till utsidan
 
 	<sect1><title>Kryptering</title>
 		<para>
-			En sak som är grundläggande när det gäller att hålla saker
-			hemliga är kryptering. Kryptering har man använt i princip
-			lika länge som människor har kommunicerat. Man vet att vi
-			använt kryptering sedan minst 4000år. Man kallar även
-			att kryptera för att chiffrera som betyder att dölja något.
-			Den okrypterade texten brukar kallas för klartext och den
-			krypterade brukar kallas chiffer. För att kryptera och
-			dekryptera använder man någon algoritm och i vissa fall en
-			eller flera nycklar. Information som är krypterad med en bra
+			En sak som Ã¤r grundlÃ¤ggande nÃ¤r det gÃ¤ller att hÃ¥lla saker
+			hemliga Ã¤r kryptering. Kryptering har man anvÃ¤nt i princip
+			lika lÃ¤nge som mÃ¤nniskor har kommunicerat. Man vet att vi
+			anvÃ¤nt kryptering sedan minst 4000Ã¥r. Man kallar Ã¤ven
+			att kryptera fÃ¶r att chiffrera som betyder att dÃ¶lja nÃ¥got.
+			Den okrypterade texten brukar kallas fÃ¶r klartext och den
+			krypterade brukar kallas chiffer. FÃ¶r att kryptera och
+			dekryptera anvÃ¤nder man nÃ¥gon algoritm och i vissa fall en
+			eller flera nycklar. Information som Ã¤r krypterad med en bra
 			krypteringsalgoritm kan man klassa som helt skyddad.
 		</para>
 		<para>
-			En väldigt gammal krypteringsalgoritm som de flesta använt som
-			barn är det så kallade <emphasis>Caesars Chiffer</emphasis>.
-			Det går ut på att man helt enkelt byter ut bokstäverna i
-			alfabetet mot en annan bokstav x positioner längre fram i
-			alfabetet. Till exempel så kan E bli H och R bli U om man
-			hoppar 3 steg. I det fallet är krypteringsalgoritmen Caesars
-			Chiffer och nyckeln är 3.
+			En vÃ¤ldigt gammal krypteringsalgoritm som de flesta anvÃ¤nt som
+			barn Ã¤r det sÃ¥ kallade <emphasis>Caesars Chiffer</emphasis>.
+			Det gÃ¥r ut pÃ¥ att man helt enkelt byter ut bokstÃ¤verna i
+			alfabetet mot en annan bokstav x positioner lÃ¤ngre fram i
+			alfabetet. Till exempel sÃ¥ kan E bli H och R bli U om man
+			hoppar 3 steg. I det fallet Ã¤r krypteringsalgoritmen Caesars
+			Chiffer och nyckeln Ã¤r 3.
 			<screen>
 ||| <- Nyckel = 3
-   ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ
+   ABCDEFGHIJKLMNOPQRSTUVWXYZÃ…Ã„Ã–
        |  |  |      |||       | 
-ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
+ABCDEFGHIJKLMNOPQRSTUVWXYZÃ…Ã„Ã–ABC
 			</screen>
-			Krypterar man ordet <emphasis>säkerhet</emphasis> med denna
-			krypteringsalgoritm så blir det
-			<emphasis>vbnhukhw</emphasis>. Denna krypteringsalgoritm är
-			naturligtvis väldigt lätt att knäcka men man kan säga att
-			det är grundprincipen för hur kryptering fungerar.
+			Krypterar man ordet <emphasis>sÃ¤kerhet</emphasis> med denna
+			krypteringsalgoritm sÃ¥ blir det
+			<emphasis>vbnhukhw</emphasis>. Denna krypteringsalgoritm Ã¤r
+			naturligtvis vÃ¤ldigt lÃ¤tt att knÃ¤cka men man kan sÃ¤ga att
+			det Ã¤r grundprincipen fÃ¶r hur kryptering fungerar.
 		</para>
 		<para>
-			En nackdel med Caesars Chiffer är att bokstaven S alltid blir
-			V om man krypterar enligt ovan. Det gör att chiffret blir
-			väldigt lätt att knäcka. Om man istället använder till
-			exempel 5 olika nycklar om varandra så blir det mycket
-			svårare att knäcka. Är det optimalt så bör bokstaven S bli
-			olika bokstäver varje gång den krypteras.
+			En nackdel med Caesars Chiffer Ã¤r att bokstaven S alltid blir
+			V om man krypterar enligt ovan. Det gÃ¶r att chiffret blir
+			vÃ¤ldigt lÃ¤tt att knÃ¤cka. Om man istÃ¤llet anvÃ¤nder till
+			exempel 5 olika nycklar om varandra sÃ¥ blir det mycket
+			svÃ¥rare att knÃ¤cka. Ã„r det optimalt sÃ¥ bÃ¶r bokstaven S bli
+			olika bokstÃ¤ver varje gÃ¥ng den krypteras.
 		</para>
 		<sect2><title>Symmetrisk och asymmetrisk kryptering</title>
 			<para>
-				Det går att dela in vanliga krytperingsalgoritmer i två
+				Det gÃ¥r att dela in vanliga krytperingsalgoritmer i tvÃ¥
 				famljer, <emphasis>symmetrisk</emphasis> och
 				<emphasis>asymmetrisk</emphasis>. Symmetrisk kryptering
-				använder en nyckel och asymmetrisk två.
+				anvÃ¤nder en nyckel och asymmetrisk tvÃ¥.
 			</para>
 			<para>
-				Caesars Chiffer som vi såg ovan använder sig av en nyckel
-				(3 i exemplet).  Det är ett så kallat symmetriskt chiffer.
-				Man använder samma nyckel för att kryptera som man
-				använder för att dekryptera meddelandet.
+				Caesars Chiffer som vi sÃ¥g ovan anvÃ¤nder sig av en nyckel
+				(3 i exemplet).  Det Ã¤r ett sÃ¥ kallat symmetriskt chiffer.
+				Man anvÃ¤nder samma nyckel fÃ¶r att kryptera som man
+				anvÃ¤nder fÃ¶r att dekryptera meddelandet.
 			</para>
 			<para>
 				Programvara som implementerar symmetriska
-				krypteringsalgoritmer kan göras väldigt snabba. Det är
-				relativt lätt att kryptera med symmetrisk kryptering. Men
-				det finns ett stort problem, nämligen hur man skall dela
-				nyckeln mellan sändare och mottagare. Vill jag kunna ta emot
-				krypterade meddelanden från människor så måste jag ju först
-				träffa dem för att vi skall kunna komma överens om en nyckel
-				vi skall använda. Nyckeln måste vi ju båda känna till och
-				den är lika hemlig som meddelandet.  Nyckeln kan man ju
-				också bara använda för att skicka meddelanden mellan två
+				krypteringsalgoritmer kan gÃ¶ras vÃ¤ldigt snabba. Det Ã¤r
+				relativt lÃ¤tt att kryptera med symmetrisk kryptering. Men
+				det finns ett stort problem, nÃ¤mligen hur man skall dela
+				nyckeln mellan sÃ¤ndare och mottagare. Vill jag kunna ta emot
+				krypterade meddelanden frÃ¥n mÃ¤nniskor sÃ¥ mÃ¥ste jag ju fÃ¶rst
+				trÃ¤ffa dem fÃ¶r att vi skall kunna komma Ã¶verens om en nyckel
+				vi skall anvÃ¤nda. Nyckeln mÃ¥ste vi ju bÃ¥da kÃ¤nna till och
+				den Ã¤r lika hemlig som meddelandet.  Nyckeln kan man ju
+				ocksÃ¥ bara anvÃ¤nda fÃ¶r att skicka meddelanden mellan tvÃ¥
 				personer. Skall man skicka ett annat meddelande till en
-				annan person så måste man skapa en nyckel till och byta den
-				på något sätt. Till slut inser man att om man måste byta en
-				nyckel varje gång man skall skicka ett meddelande så kan man
-				lika gärna lämna meddelandet på en gång.
+				annan person sÃ¥ mÃ¥ste man skapa en nyckel till och byta den
+				pÃ¥ nÃ¥got sÃ¤tt. Till slut inser man att om man mÃ¥ste byta en
+				nyckel varje gÃ¥ng man skall skicka ett meddelande sÃ¥ kan man
+				lika gÃ¤rna lÃ¤mna meddelandet pÃ¥ en gÃ¥ng.
 			</para>
 			<para>
-				En lösning på detta är något som kallas asymmetrisk
-				kryptering. Det går till så att man använder ett par av
-				nycklar. En för att kryptera och en för att dekryptera.  Med
-				hjälp av denna förändring kan man lösa många av problemen
-				som vi visat på ovan.
+				En lÃ¶sning pÃ¥ detta Ã¤r nÃ¥got som kallas asymmetrisk
+				kryptering. Det gÃ¥r till sÃ¥ att man anvÃ¤nder ett par av
+				nycklar. En fÃ¶r att kryptera och en fÃ¶r att dekryptera.  Med
+				hjÃ¤lp av denna fÃ¶rÃ¤ndring kan man lÃ¶sa mÃ¥nga av problemen
+				som vi visat pÃ¥ ovan.
 			</para>
 			<para>
-				Paret av nycklar använder man på så vis att man håller
-				den ena för sig själv och sprider den andra så att den är
-				väl tillgänglig för alla som vill ha den. Man kallar den
-				man skyddar för privat nyckel och den som alla kan nå
-				för publik nyckel. Eftersom den ena nyckeln krypterar och
-				den andra dekrypterar så kan en person som vill skicka
-				ett meddelande till mig använda min publika nyckel för
-				att kryptera meddelandet. När det är krypterat kan det
-				bara öppnas med min privata nyckel, alltså bara av mig.
+				Paret av nycklar anvÃ¤nder man pÃ¥ sÃ¥ vis att man hÃ¥ller
+				den ena fÃ¶r sig sjÃ¤lv och sprider den andra sÃ¥ att den Ã¤r
+				vÃ¤l tillgÃ¤nglig fÃ¶r alla som vill ha den. Man kallar den
+				man skyddar fÃ¶r privat nyckel och den som alla kan nÃ¥
+				fÃ¶r publik nyckel. Eftersom den ena nyckeln krypterar och
+				den andra dekrypterar sÃ¥ kan en person som vill skicka
+				ett meddelande till mig anvÃ¤nda min publika nyckel fÃ¶r
+				att kryptera meddelandet. NÃ¤r det Ã¤r krypterat kan det
+				bara Ã¶ppnas med min privata nyckel, alltsÃ¥ bara av mig.
 			</para>
 		</sect2>
 		<sect2><title>Signering</title>
 			<para>
-				Ofta behöver man inte kryptera meddelandet utan det
-				räcker med att signera det. En signatur är något som man
-				applicerar på sitt meddelande så att mottagaren vet att
-				det är du som skickat det.
+				Ofta behÃ¶ver man inte kryptera meddelandet utan det
+				rÃ¤cker med att signera det. En signatur Ã¤r nÃ¥got som man
+				applicerar pÃ¥ sitt meddelande sÃ¥ att mottagaren vet att
+				det Ã¤r du som skickat det.
 			</para>
 			<para>
-				Signering går att lösa med flera asymmetriska
+				Signering gÃ¥r att lÃ¶sa med flera asymmetriska
 				krypteringsalgoritmer. Eftersom nycklarna jobbar i par
-				där en kan kryptera och den andra kan
-				dekryptera<footnote><para>Det är inte alla asymmetriska
+				dÃ¤r en kan kryptera och den andra kan
+				dekryptera<footnote><para>Det Ã¤r inte alla asymmetriska
 				krypteringsalgoritmer som har denna egenskap men de
-				vanligaste man använder i samband med till exempel e-post
-				har det.</para></footnote> så kan man välja att kryptera
-				meddelandet med sin hemliga nyckel. När man gjort det så
+				vanligaste man anvÃ¤nder i samband med till exempel e-post
+				har det.</para></footnote> sÃ¥ kan man vÃ¤lja att kryptera
+				meddelandet med sin hemliga nyckel. NÃ¤r man gjort det sÃ¥
 				kan vem som helst dekryptera det med motsvarande publika
 				nyckel. Eftersom vem som helst kan dekryptera meddelandet
-				så är det inte skyddat för insyn. Men man kan vara säker
-				på att det kommer från den person det utges komma ifrån
-				för man vet vems publika nyckel man använder och då måste
+				sÃ¥ Ã¤r det inte skyddat fÃ¶r insyn. Men man kan vara sÃ¤ker
+				pÃ¥ att det kommer frÃ¥n den person det utges komma ifrÃ¥n
+				fÃ¶r man vet vems publika nyckel man anvÃ¤nder och dÃ¥ mÃ¥ste
 				det ju vara krypterat med motsvarande, hemliga nyckel.
-				Inte heller den här gången behöver man avslöja sin
+				Inte heller den hÃ¤r gÃ¥ngen behÃ¶ver man avslÃ¶ja sin
 				hemliga nyckel.
 			</para>
 		</sect2>
@@ -443,38 +443,38 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖABC
 		</para>
 		<sect2><title>Personuppgiftslagen (PUL)</title>
 			<para>
-				<emphasis>Från Wikipedia, den fria encyklopedin.</emphasis>
+				<emphasis>FrÃ¥n Wikipedia, den fria encyklopedin.</emphasis>
 			</para>
 			<para>
 				PUL, eller Personuppgiftslag (1998:204) som den egentligen
-				heter, är den svenska implementationen av ett EU-direktiv.
-				Syftet med lagen är att skydda människor mot att deras
-				personliga integritet kränks genom behandling av
-				personuppgifter. Lagen gäller för personuppgiftsansvariga
-				som är etablerade i Sverige. Lagen tillämpas också när den
-				personuppgiftsansvarige är etablerad i tredje land men för
-				behandlingen av personuppgifter använder sig av utrustning
-				som finns i Sverige. Straffet är böter eller fängelse i högst
-				sex månader eller, om brottet är grovt, till fängelse i
-				högst två år.
+				heter, Ã¤r den svenska implementationen av ett EU-direktiv.
+				Syftet med lagen Ã¤r att skydda mÃ¤nniskor mot att deras
+				personliga integritet krÃ¤nks genom behandling av
+				personuppgifter. Lagen gÃ¤ller fÃ¶r personuppgiftsansvariga
+				som Ã¤r etablerade i Sverige. Lagen tillÃ¤mpas ocksÃ¥ nÃ¤r den
+				personuppgiftsansvarige Ã¤r etablerad i tredje land men fÃ¶r
+				behandlingen av personuppgifter anvÃ¤nder sig av utrustning
+				som finns i Sverige. Straffet Ã¤r bÃ¶ter eller fÃ¤ngelse i hÃ¶gst
+				sex mÃ¥nader eller, om brottet Ã¤r grovt, till fÃ¤ngelse i
+				hÃ¶gst tvÃ¥ Ã¥r.
 			</para>
 		</sect2>
 	</sect1>
 				
 	<sect1><title>Sammanfattning</title>
 		<para>
-			Datasäkerhet är viktigt. Tänk dig för när du läser e-post och
-			surfar på Internet. Man kan med hjälp av kryptering skicka
-			meddelanden eller annan data säkert över internet. Antingen
-			använder man symmetrisk kryptering där båda parterna har en
-			egen nyckel, eller så använder man en asymmetrisk då man har
-			olika nycklar och aldrig behöver avslöja den ena.
+			DatasÃ¤kerhet Ã¤r viktigt. TÃ¤nk dig fÃ¶r nÃ¤r du lÃ¤ser e-post och
+			surfar pÃ¥ Internet. Man kan med hjÃ¤lp av kryptering skicka
+			meddelanden eller annan data sÃ¤kert Ã¶ver internet. Antingen
+			anvÃ¤nder man symmetrisk kryptering dÃ¤r bÃ¥da parterna har en
+			egen nyckel, eller sÃ¥ anvÃ¤nder man en asymmetrisk dÃ¥ man har
+			olika nycklar och aldrig behÃ¶ver avslÃ¶ja den ena.
 		</para>
 		<para>
-			Håll dina system uppdaterade och var försiktig med filer du
-			laddar hem från Internet så kommer du att klara dig mycket
-			bättre från problem. Och du! Välj aldrig de dansande grisarna
-			före säkerheten.
+			HÃ¥ll dina system uppdaterade och var fÃ¶rsiktig med filer du
+			laddar hem frÃ¥n Internet sÃ¥ kommer du att klara dig mycket
+			bÃ¤ttre frÃ¥n problem. Och du! VÃ¤lj aldrig de dansande grisarna
+			fÃ¶re sÃ¤kerheten.
 		</para>
 	</sect1>
 </chapter>

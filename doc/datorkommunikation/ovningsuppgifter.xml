@@ -1,11 +1,11 @@
 
 <appendix id="ovningsuppgifter">
-<title>Övningsuppgifter</title>
+<title>Ã–vningsuppgifter</title>
 	<abstract>
 		<para>
-			I detta appendix finns övningsuppgifter till alla kapitel i
-			boken.  Har du förslag på fler uppgifter, gärna både lätta och
-			fördjupningsuppgifter så uppskattar jag om du skickar dem till
+			I detta appendix finns Ã¶vningsuppgifter till alla kapitel i
+			boken.  Har du fÃ¶rslag pÃ¥ fler uppgifter, gÃ¤rna bÃ¥de lÃ¤tta och
+			fÃ¶rdjupningsuppgifter sÃ¥ uppskattar jag om du skickar dem till
 			datorkommunikation@rejas.se.
 		</para>
 	</abstract>
@@ -14,12 +14,12 @@
 		<orderedlist>
 			<listitem>
 				<para>
-					Förklara skillnaden mellan data och dator.
+					FÃ¶rklara skillnaden mellan data och dator.
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Förklara skillnaden mellan data och information.
+					FÃ¶rklara skillnaden mellan data och information.
 				</para>
 			</listitem>
 			<listitem>
@@ -30,26 +30,26 @@
 		</orderedlist>
 	</sect1>
 	
-	<sect1><title>Datorkommunikation: Dataöverföring</title>
+	<sect1><title>Datorkommunikation: DataÃ¶verfÃ¶ring</title>
 		<orderedlist>
 			<listitem>
 				<para>
-					Vad är skillnaden mellan digitala och analoga signaler?
+					Vad Ã¤r skillnaden mellan digitala och analoga signaler?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vad är skillnaden mellan en bit och en byte?
+					Vad Ã¤r skillnaden mellan en bit och en byte?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Hur många bitar går det på en byte?
+					Hur mÃ¥nga bitar gÃ¥r det pÃ¥ en byte?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Hur många värden kan en byte respektive en bit anta?
+					Hur mÃ¥nga vÃ¤rden kan en byte respektive en bit anta?
 				</para>
 			</listitem>
 			<listitem>
@@ -70,20 +70,20 @@
 		<orderedlist>
 			<listitem>
 				<para>
-					Vad är skillnaden mellan parallell och seriell
+					Vad Ã¤r skillnaden mellan parallell och seriell
 					kommunikation?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vilka är fördelarna med asynkron överföring?
+					Vilka Ã¤r fÃ¶rdelarna med asynkron Ã¶verfÃ¶ring?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Hur lång tid tar det att föra över en fil på 1MByte över
-					en seriell förbindelse med kapaciteten 28800 bit/s om man
-					använder asynkron överföring med en stopp-bit och ingen
+					Hur lÃ¥ng tid tar det att fÃ¶ra Ã¶ver en fil pÃ¥ 1MByte Ã¶ver
+					en seriell fÃ¶rbindelse med kapaciteten 28800 bit/s om man
+					anvÃ¤nder asynkron Ã¶verfÃ¶ring med en stopp-bit och ingen
 					paritet?
 				</para>
 			</listitem>
@@ -91,59 +91,59 @@
 	</sect1>
 
 
-	<sect1><title>Datorkommunikation: Datornätverk</title>
+	<sect1><title>Datorkommunikation: DatornÃ¤tverk</title>
 		<orderedlist>
 			<listitem>
 				<para>
-					Förklara begreppen LAN, WAN och MAN. Berätta vad de
-					betyder och vilka som är vanligast.
+					FÃ¶rklara begreppen LAN, WAN och MAN. BerÃ¤tta vad de
+					betyder och vilka som Ã¤r vanligast.
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vad är en topologi?	
+					Vad Ã¤r en topologi?	
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Varför behövs terminatorer i ett bussnät?
+					VarfÃ¶r behÃ¶vs terminatorer i ett bussnÃ¤t?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vad är en accessmetod (åtkomstmetod)?
+					Vad Ã¤r en accessmetod (Ã¥tkomstmetod)?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Förklara accessmetoderna CSMA/CA och CSMA/CD.
+					FÃ¶rklara accessmetoderna CSMA/CA och CSMA/CD.
 				</para>
 			</listitem>
 		</orderedlist>
 	</sect1>
 
 
-	<sect1><title>Datorkommunikation: Nätverkskomponenter</title>
+	<sect1><title>Datorkommunikation: NÃ¤tverkskomponenter</title>
 		<orderedlist>
 			<listitem>
 				<para>
-					Förklara begreppen dator och server. Vad har de för
+					FÃ¶rklara begreppen dator och server. Vad har de fÃ¶r
 					relation till varandra?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vad är skillnaden mellan en hubb och en switch?
+					Vad Ã¤r skillnaden mellan en hubb och en switch?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vad är, och hur jobbar en router?
+					Vad Ã¤r, och hur jobbar en router?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vad är en brandvägg (i datorkommunikationssammanhang)?
+					Vad Ã¤r en brandvÃ¤gg (i datorkommunikationssammanhang)?
 				</para>
 			</listitem>
 		</orderedlist>
@@ -153,24 +153,24 @@
 		<orderedlist>
 			<listitem>
 				<para>
-					Av vilken anledning finns det två olika material till
-					kabelhöljen (pvc och plenum) att välja på?
+					Av vilken anledning finns det tvÃ¥ olika material till
+					kabelhÃ¶ljen (pvc och plenum) att vÃ¤lja pÃ¥?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vilken typ av kabel är det vi normalt kallar för
+					Vilken typ av kabel Ã¤r det vi normalt kallar fÃ¶r
 					skrivarkabel?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vad är skillnaden mellan UTP och STP?
+					Vad Ã¤r skillnaden mellan UTP och STP?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vilka är för- och nackdelarna med trådlösa nätverk?
+					Vilka Ã¤r fÃ¶r- och nackdelarna med trÃ¥dlÃ¶sa nÃ¤tverk?
 				</para>
 			</listitem>
 		</orderedlist>
@@ -180,23 +180,23 @@
 		<orderedlist>
 			<listitem>
 				<para>
-					Vilken moduleringssform är vanligast idag?
+					Vilken moduleringssform Ã¤r vanligast idag?
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					Vad gör två modem under den så kallade handskakningen
+					Vad gÃ¶r tvÃ¥ modem under den sÃ¥ kallade handskakningen
 					(handshake)?
 				</para>
 			</listitem>
 		</orderedlist>
 	</sect1>
 
-	<sect1><title>Datorkommunikation: Publika telenätet</title>
+	<sect1><title>Datorkommunikation: Publika telenÃ¤tet</title>
 		<orderedlist>
 			<listitem>
 				<para>
-					Vad är datapak?
+					Vad Ã¤r datapak?
 				</para>
 			</listitem>
 		</orderedlist>
@@ -204,25 +204,25 @@
 
 	<sect1><title>Datorkommunikation: Protokoll</title>
 		<para>
-			Övningar kommer snart ...
+			Ã–vningar kommer snart ...
 		</para>	
 	</sect1>
 
 	<sect1><title>Datorkommunikation: Internet</title>
 		<para>
-			Övningar kommer snart ...
+			Ã–vningar kommer snart ...
 		</para>	
 	</sect1>
 
 	<sect1><title>Datorkommunikation: Mer om Internets teknik</title>
 		<para>
-			Övningar kommer snart ...
+			Ã–vningar kommer snart ...
 		</para>	
 	</sect1>
 
-	<sect1><title>Datorkommunikation: Datasäkerhet</title>
+	<sect1><title>Datorkommunikation: DatasÃ¤kerhet</title>
 		<para>
-			Övningar kommer snart ...
+			Ã–vningar kommer snart ...
 		</para>	
 	</sect1>
 

@@ -1,13 +1,13 @@
-<appendix id="commands"><title>Tabell över kommandon i olika operativsystem</title>
+<appendix id="commands"><title>Tabell Ã¶ver kommandon i olika operativsystem</title>
 <para>
-	I denna bok utgår vi från att du har tillgång till ett Linux
-	eller Unixsystem. Har du inte det så finns det i detta kapitel
-	en tabell över alla kommandon som nämnts i boken och deras
+	I denna bok utgÃ¥r vi frÃ¥n att du har tillgÃ¥ng till ett Linux
+	eller Unixsystem. Har du inte det sÃ¥ finns det i detta kapitel
+	en tabell Ã¶ver alla kommandon som nÃ¤mnts i boken och deras
 	motsvarighet i olika operativsystem.
 </para>
 <para>
-	För att få reda på exakt hur de fungerar så rekommenderas att du
-	läser manualen till just ditt operativsystem.
+	FÃ¶r att fÃ¥ reda pÃ¥ exakt hur de fungerar sÃ¥ rekommenderas att du
+	lÃ¤ser manualen till just ditt operativsystem.
 </para>
 
 <table frame="all"><title>Kommandotabell</title>
@@ -28,7 +28,7 @@
 		<entry></entry>
 	</row>
 	<row>
-		<entry>Lista nätverksgränssnitt</entry>
+		<entry>Lista nÃ¤tverksgrÃ¤nssnitt</entry>
 		<entry>ifconfig</entry>
 		<entry>ipconfig</entry>
 		<entry>ipconfig</entry>
@@ -42,7 +42,7 @@
 		<entry></entry>
 	</row>
 	<row>
-		<entry>Spåra en rutt (route)</entry>
+		<entry>SpÃ¥ra en rutt (route)</entry>
 		<entry>traceroute</entry>
 		<entry>tracert</entry>
 		<entry>tracert</entry>
@@ -63,7 +63,7 @@
 		<entry></entry>
 	</row>
 	<row>
-		<entry>Lista aktiva nätverksanslutningar</entry>
+		<entry>Lista aktiva nÃ¤tverksanslutningar</entry>
 		<entry>netstat</entry>
 		<entry>netstat</entry>
 		<entry>netstat</entry>

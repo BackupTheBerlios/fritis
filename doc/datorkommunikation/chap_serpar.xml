@@ -1,44 +1,44 @@
 <chapter id="chap_serpar"><title>Seriell och parallell kommunikation</title>
 	<abstract>
 		<para>
-			Här behandlas seriell och parallell dataöverföring. Vad skiljer
-			dem åt och hur fungerar det.
+			HÃ¤r behandlas seriell och parallell dataÃ¶verfÃ¶ring. Vad skiljer
+			dem Ã¥t och hur fungerar det.
 		</para>
 	</abstract>
 
 	<sect1><title>Seriell och parallell kommunikation</title>
 		<para>
-			Skillnaden mellan seriell och parallell kommunikation hörs
-			nästan i namnet. Vid seriell kommunikation skickas bitarna i en
+			Skillnaden mellan seriell och parallell kommunikation hÃ¶rs
+			nÃ¤stan i namnet. Vid seriell kommunikation skickas bitarna i en
 			rad efter varandra och vid parallell kommunikation skickas
 			flera bitar i bredd, samtidigt. Det kan naturligtvis inte
-			finnas flera bitar på en ledning samtidigt utan de åtskiljs av
-			tiden. Ledningen kan ju bara i ett ögonblick vara antingen 0
+			finnas flera bitar pÃ¥ en ledning samtidigt utan de Ã¥tskiljs av
+			tiden. Ledningen kan ju bara i ett Ã¶gonblick vara antingen 0
 			eller 1. Men liknelsen fungerar i alla fall.
 		</para>
 		<para>
-			Seriell kommunikation lämpar sig bäst då data skall
-			transporteras längre sträckor och parallell kommunikation
-			används bara för att transportera data kortare sträckor.
+			Seriell kommunikation lÃ¤mpar sig bÃ¤st dÃ¥ data skall
+			transporteras lÃ¤ngre strÃ¤ckor och parallell kommunikation
+			anvÃ¤nds bara fÃ¶r att transportera data kortare strÃ¤ckor.
 		</para>
 	</sect1>
 
 	<sect1 id="sect_parallell_kommunikation"><title>Parallell kommunikation</title>
 		<para>
-			Parallell kommunikation innebär som tidigare nämnts att
-			data-bitarna skickas parallellt i grupper. Detta innebär att
-			några förutsättningar måste finnas. Får det första så måste det
-			finnas en ledning för varje bit som skall åka i bredd. Tänk på
-			en motorväg, fyra bilar lastade med ettor eller nollor kan bara
-			åka parallellt om det finns fyra filer på vägen. Vidare så
-			måste filerna vara likvärdiga för att en grupp bilar ska komma
-			fram samtidigt. Om en fil är långsammare än de andra så kommer
-			överföringen att bli långsammare och om det blir problem på en
-			fil så kommer överföringen naturligtvis att hindras. Se <xref
+			Parallell kommunikation innebÃ¤r som tidigare nÃ¤mnts att
+			data-bitarna skickas parallellt i grupper. Detta innebÃ¤r att
+			nÃ¥gra fÃ¶rutsÃ¤ttningar mÃ¥ste finnas. FÃ¥r det fÃ¶rsta sÃ¥ mÃ¥ste det
+			finnas en ledning fÃ¶r varje bit som skall Ã¥ka i bredd. TÃ¤nk pÃ¥
+			en motorvÃ¤g, fyra bilar lastade med ettor eller nollor kan bara
+			Ã¥ka parallellt om det finns fyra filer pÃ¥ vÃ¤gen. Vidare sÃ¥
+			mÃ¥ste filerna vara likvÃ¤rdiga fÃ¶r att en grupp bilar ska komma
+			fram samtidigt. Om en fil Ã¤r lÃ¥ngsammare Ã¤n de andra sÃ¥ kommer
+			Ã¶verfÃ¶ringen att bli lÃ¥ngsammare och om det blir problem pÃ¥ en
+			fil sÃ¥ kommer Ã¶verfÃ¶ringen naturligtvis att hindras. Se <xref
 			linkend="fig_parallell"/>.
 		</para>
 		<figure id="fig_parallell">
-			<title>Parallell överföring</title>
+			<title>Parallell Ã¶verfÃ¶ring</title>
 
 			<mediaobject>
   				<imageobject>
@@ -49,35 +49,35 @@
         		</imageobject>
 				<textobject>
 					<phrase>
-						Bild på parallell överföring
+						Bild pÃ¥ parallell Ã¶verfÃ¶ring
 					</phrase>
 				</textobject>
 			</mediaobject>
 		</figure>
 		
 		<para>
-			När vi talar om datorkommunikation är det naturligtvis inte
-			filer på en motorväg vi talar om utan om ledningar. Ju fler
-			ledningar i bredd desto snabbare dataöverföring. Eftersom
-			parallell överföring lämpar sig bäst för korta avstånd är det
-			denna typ av kommunikation som används inuti en dator för att
+			NÃ¤r vi talar om datorkommunikation Ã¤r det naturligtvis inte
+			filer pÃ¥ en motorvÃ¤g vi talar om utan om ledningar. Ju fler
+			ledningar i bredd desto snabbare dataÃ¶verfÃ¶ring. Eftersom
+			parallell Ã¶verfÃ¶ring lÃ¤mpar sig bÃ¤st fÃ¶r korta avstÃ¥nd Ã¤r det
+			denna typ av kommunikation som anvÃ¤nds inuti en dator fÃ¶r att
 			flytta data mellan minnet, processorn och andra enheter som
-			till exempel diskar och minnen. Vanligtvis idag så har dessa
+			till exempel diskar och minnen. Vanligtvis idag sÃ¥ har dessa
 			databussar, som det kallas, 32 ledningar i bredd men 64 blir
-			allt vanligare. Även 8 och 16 ledningar förekommer men det är
+			allt vanligare. Ã„ven 8 och 16 ledningar fÃ¶rekommer men det Ã¤r
 			inte lika vanligt. 
 		</para>
 		<para>
-			Eftersom en ledning med 32 kablar i bredd kan överföra 32 bitar
-			i taget brukar en sådan ledning kallas för en 32-bitars buss.
+			Eftersom en ledning med 32 kablar i bredd kan Ã¶verfÃ¶ra 32 bitar
+			i taget brukar en sÃ¥dan ledning kallas fÃ¶r en 32-bitars buss.
 		</para>
 		<para>
-			Som nämnts tidigare så används parallella anslutningar oftast
-			inom datorn men det kan också användas för att ansluta yttre
+			Som nÃ¤mnts tidigare sÃ¥ anvÃ¤nds parallella anslutningar oftast
+			inom datorn men det kan ocksÃ¥ anvÃ¤ndas fÃ¶r att ansluta yttre
 			enheter. Vanligaste enheten som ansluts till en dator
-			parallellt är en skrivare men även lagringsenheter, skannrar
-			och annat förekommer med parallell anslutning. Den parallella
-			anslutning som finns på de flesta PC kallas normalt för
+			parallellt Ã¤r en skrivare men Ã¤ven lagringsenheter, skannrar
+			och annat fÃ¶rekommer med parallell anslutning. Den parallella
+			anslutning som finns pÃ¥ de flesta PC kallas normalt fÃ¶r
 			parallellport eller skrivarport. <xref
 			linkend="fig_parallellport"/> visar hur en parallellport eller
 			skrivarport ser ut.
@@ -95,7 +95,7 @@
         		</imageobject>
 				<textobject>
 					<phrase>
-						Bild på en parallellport på en PC och motsvarande
+						Bild pÃ¥ en parallellport pÃ¥ en PC och motsvarande
 						kontakt.
 					</phrase>
 				</textobject>
@@ -103,26 +103,26 @@
 		</figure>
 
 		<para>
-			Den största nackdelen med att ansluta utrustning till datorn
-			via en parallellkabel är att denna kabel måste hållas kort. För
-			skrivare som inte är så krävande kan den vara omkring 5 meter
-			medan den om man har mer krävande utrustningar som till
-			exempel diskar bara kan ha en kabel på omkring en meters längd.
+			Den stÃ¶rsta nackdelen med att ansluta utrustning till datorn
+			via en parallellkabel Ã¤r att denna kabel mÃ¥ste hÃ¥llas kort. FÃ¶r
+			skrivare som inte Ã¤r sÃ¥ krÃ¤vande kan den vara omkring 5 meter
+			medan den om man har mer krÃ¤vande utrustningar som till
+			exempel diskar bara kan ha en kabel pÃ¥ omkring en meters lÃ¤ngd.
 		</para>
 
 	</sect1>
 
 	<sect1><title>Seriell kommunikation</title>
 		<para>
-			Till skillnad från parallell kommunikation så behövs det i
-			seriell kommunikation egentligen bara en ledare. I praktiken så
-			behövs det oftast åtminstone två men man kan se det som en.
-			Ofta har man en ledare för trafik i den ena riktningen och en
-			för trafik i den andra riktningen plus några ledare för
+			Till skillnad frÃ¥n parallell kommunikation sÃ¥ behÃ¶vs det i
+			seriell kommunikation egentligen bara en ledare. I praktiken sÃ¥
+			behÃ¶vs det oftast Ã¥tminstone tvÃ¥ men man kan se det som en.
+			Ofta har man en ledare fÃ¶r trafik i den ena riktningen och en
+			fÃ¶r trafik i den andra riktningen plus nÃ¥gra ledare fÃ¶r
 			kontrollsignaler.
 		</para>
 		<figure id="fig_seriell">
-			<title>Seriell överföring</title>
+			<title>Seriell Ã¶verfÃ¶ring</title>
 
 			<mediaobject>
   				<imageobject>
@@ -133,38 +133,38 @@
         		</imageobject>
 				<textobject>
 					<phrase>
-						Bild på seriell överföring
+						Bild pÃ¥ seriell Ã¶verfÃ¶ring
 					</phrase>
 				</textobject>
 			</mediaobject>
 		</figure>
 		<para>
-			Seriell överföring är normalt långsammare än parallell
-			överföring men är inte lika störningskänslig och man kan ha
-			kablar som är upp till 40 meter långa.
+			Seriell Ã¶verfÃ¶ring Ã¤r normalt lÃ¥ngsammare Ã¤n parallell
+			Ã¶verfÃ¶ring men Ã¤r inte lika stÃ¶rningskÃ¤nslig och man kan ha
+			kablar som Ã¤r upp till 40 meter lÃ¥nga.
 		</para>
 		<para>
-			På en PC kan det finnas lite olika seriella portar. En lite
-			äldre som normalt kallas en serieport eller som den lite mer
-			strikt heter RS-232 (Recommended Standard 232, från ett
-			Amerikanskt standardiseringsförbund). Denna kan se ut på två
-			olika sätt, antingen med 9 poler eller med 25. Dessa två
+			PÃ¥ en PC kan det finnas lite olika seriella portar. En lite
+			Ã¤ldre som normalt kallas en serieport eller som den lite mer
+			strikt heter RS-232 (Recommended Standard 232, frÃ¥n ett
+			Amerikanskt standardiseringsfÃ¶rbund). Denna kan se ut pÃ¥ tvÃ¥
+			olika sÃ¤tt, antingen med 9 poler eller med 25. Dessa tvÃ¥
 			fungerar likadant men ser olika ut. Den med 25 poler blir
-			mindre och mindre förekommande eftersom den tar större plats.
+			mindre och mindre fÃ¶rekommande eftersom den tar stÃ¶rre plats.
 		</para>
 		<para>
-			Något som blir vanligare och vanligare både på PC och bland
-			tillbehör är något som kallas för USB (Universal Serial Bus)
-			som används för att koppla tillbehör till en dator. Den har
-			mycket högre överföringskapacitet än den äldre RS-232. Även USB
-			finns i två utföranden. Den större är vanligast att man hittar
-			på datorer och i kopplingar medan den mindre ofta hittas på
-			utrustningar som till exempel kameror, skannrar och diskar där
-			utrymmet ofta är mindre. I <xref linkend="fig_serieportar"/>
+			NÃ¥got som blir vanligare och vanligare bÃ¥de pÃ¥ PC och bland
+			tillbehÃ¶r Ã¤r nÃ¥got som kallas fÃ¶r USB (Universal Serial Bus)
+			som anvÃ¤nds fÃ¶r att koppla tillbehÃ¶r till en dator. Den har
+			mycket hÃ¶gre Ã¶verfÃ¶ringskapacitet Ã¤n den Ã¤ldre RS-232. Ã„ven USB
+			finns i tvÃ¥ utfÃ¶randen. Den stÃ¶rre Ã¤r vanligast att man hittar
+			pÃ¥ datorer och i kopplingar medan den mindre ofta hittas pÃ¥
+			utrustningar som till exempel kameror, skannrar och diskar dÃ¤r
+			utrymmet ofta Ã¤r mindre. I <xref linkend="fig_serieportar"/>
 			visas de vanligaste typerna av serieanslutningar och
-			motsvarande kablar. De två uttagen till vänster är RS-232
-			portar.  Dessa kallas vanligvis bara för serieportar. De två
-			till höger är USB-anslutningar.  Under alla portar visas
+			motsvarande kablar. De tvÃ¥ uttagen till vÃ¤nster Ã¤r RS-232
+			portar.  Dessa kallas vanligvis bara fÃ¶r serieportar. De tvÃ¥
+			till hÃ¶ger Ã¤r USB-anslutningar.  Under alla portar visas
 			motsvarande kabel.
 		</para>
 
@@ -180,49 +180,49 @@
         		</imageobject>
 				<textobject>
 					<phrase>
-						Bild på olika seriella anslutningar och kontakter
+						Bild pÃ¥ olika seriella anslutningar och kontakter
 					</phrase>
 				</textobject>
 			</mediaobject>
 		</figure>
 
 		<para>
-			För att seriell överföring skall fungera så måste data skickas
-			på ett visst sätt genom kabeln. Annars fungerar det
-			naturligtvis inte. Man skiljer på två olika sätt att överföra
-			data seriellt, nämligen <emphasis>synkront</emphasis> och
-			<emphasis>asynkront</emphasis>. Att skicka data asynkront är
+			FÃ¶r att seriell Ã¶verfÃ¶ring skall fungera sÃ¥ mÃ¥ste data skickas
+			pÃ¥ ett visst sÃ¤tt genom kabeln. Annars fungerar det
+			naturligtvis inte. Man skiljer pÃ¥ tvÃ¥ olika sÃ¤tt att Ã¶verfÃ¶ra
+			data seriellt, nÃ¤mligen <emphasis>synkront</emphasis> och
+			<emphasis>asynkront</emphasis>. Att skicka data asynkront Ã¤r
 			det vanligaste.
 		</para>
 
-		<sect2><title>Synkron överföring</title>
+		<sect2><title>Synkron Ã¶verfÃ¶ring</title>
 			<para>
-				Synkron överföring innebär att databitarna skickas i så
-				kallade datablock. Varje datablock kan innehålla hundratals
-				bitar. Hur många framgår av de regler (protokoll) som gäller
-				för överföringen. För att de parter som utbyter data på en
-				synkron förbindelse skall veta var de är så måste de ha en
-				gemensam klocka så att parterna kan hålla takten. Vidare så
-				måste båda parterna ha tillgång till ett buffertminne för
+				Synkron Ã¶verfÃ¶ring innebÃ¤r att databitarna skickas i sÃ¥
+				kallade datablock. Varje datablock kan innehÃ¥lla hundratals
+				bitar. Hur mÃ¥nga framgÃ¥r av de regler (protokoll) som gÃ¤ller
+				fÃ¶r Ã¶verfÃ¶ringen. FÃ¶r att de parter som utbyter data pÃ¥ en
+				synkron fÃ¶rbindelse skall veta var de Ã¤r sÃ¥ mÃ¥ste de ha en
+				gemensam klocka sÃ¥ att parterna kan hÃ¥lla takten. Vidare sÃ¥
+				mÃ¥ste bÃ¥da parterna ha tillgÃ¥ng till ett buffertminne fÃ¶r
 				att kunna samla upp datablock och kontrollera dem. Parterna
-				måste också kunna förbereda ett datablock för sändning. 
+				mÃ¥ste ocksÃ¥ kunna fÃ¶rbereda ett datablock fÃ¶r sÃ¤ndning. 
 			</para>
 		</sect2>
-		<sect2><title>Asynkron överföring</title>
+		<sect2><title>Asynkron Ã¶verfÃ¶ring</title>
 			<para>
-				Det vanligaste när man talar om seriell kommunikation är
-				asynkron överföring. Med asynkron överföring skickas data
-				tecken för tecken och inte block för block. Det ger lite
-				större <emphasis>overhead</emphasis> eftersom varje tecken
-				måste kontrolleras. Med overhead menas sådan trafik som inte
-				direkt är nyttig men som krävs för överföringen. Mycket
-				overhead ger större slöseri med bandbredd än lite overhead.
-				Man kanske kan jämföra med ett lastfartyg. Skall man flytta
-				säd eller kaffe över jorden måste man även transportera
-				bränsle till fartyget och mat till besättningen. Denna last
-				måste vara med för att skeppet skall komma fram men ingår
-				inte i den last för vilken någon betalar. Bränslet och maten
-				utgör då overhead.
+				Det vanligaste nÃ¤r man talar om seriell kommunikation Ã¤r
+				asynkron Ã¶verfÃ¶ring. Med asynkron Ã¶verfÃ¶ring skickas data
+				tecken fÃ¶r tecken och inte block fÃ¶r block. Det ger lite
+				stÃ¶rre <emphasis>overhead</emphasis> eftersom varje tecken
+				mÃ¥ste kontrolleras. Med overhead menas sÃ¥dan trafik som inte
+				direkt Ã¤r nyttig men som krÃ¤vs fÃ¶r Ã¶verfÃ¶ringen. Mycket
+				overhead ger stÃ¶rre slÃ¶seri med bandbredd Ã¤n lite overhead.
+				Man kanske kan jÃ¤mfÃ¶ra med ett lastfartyg. Skall man flytta
+				sÃ¤d eller kaffe Ã¶ver jorden mÃ¥ste man Ã¤ven transportera
+				brÃ¤nsle till fartyget och mat till besÃ¤ttningen. Denna last
+				mÃ¥ste vara med fÃ¶r att skeppet skall komma fram men ingÃ¥r
+				inte i den last fÃ¶r vilken nÃ¥gon betalar. BrÃ¤nslet och maten
+				utgÃ¶r dÃ¥ overhead.
 			</para>
 
 			<figure id="fig_startostoppbit">
@@ -237,56 +237,56 @@
         			</imageobject>
 					<textobject>
 						<phrase>
-							Schematisk bild över hur ett tecken (11100110)
-							kodas vid asynkron överföring (0111001101).
+							Schematisk bild Ã¶ver hur ett tecken (11100110)
+							kodas vid asynkron Ã¶verfÃ¶ring (0111001101).
 						</phrase>
 					</textobject>
-					<caption> <para> Schematisk bild över ett tecken . Den
-					första biten kallas startbit. Sedan kommer de databärande
+					<caption> <para> Schematisk bild Ã¶ver ett tecken . Den
+					fÃ¶rsta biten kallas startbit. Sedan kommer de databÃ¤rande
 					bitarna och sist kommer det en stoppbit.  Startbiten och
-					stoppbiten utgör overhead.  
+					stoppbiten utgÃ¶r overhead.  
 					</para> </caption>
 				</mediaobject>
 			</figure>
 			<para>
 				I <xref linkend="fig_startostoppbit" /> visas hur ett tecken
-				som skall skickas över en asynkron seriell förbindelse kan
-				se ut. Lägg märke till att bilden kan verka felvänd, den
-				första biten som skickas är den som är längst till höger i
-				bilden. Först skickas en startbil som alltid är en 0:a,
-				sedan kommer de bitar som utgör det data som skall skickas,
-				det är normalt 7 eller 8 stycken. Sist kommer eventuellt en
-				paritetsbit om vi kommer att behandla längre fram och en
-				eller eventuellt två stoppbitar. Startbiten, stoppbiten och
-				eventuell paritetsbit utgör overhead.
+				som skall skickas Ã¶ver en asynkron seriell fÃ¶rbindelse kan
+				se ut. LÃ¤gg mÃ¤rke till att bilden kan verka felvÃ¤nd, den
+				fÃ¶rsta biten som skickas Ã¤r den som Ã¤r lÃ¤ngst till hÃ¶ger i
+				bilden. FÃ¶rst skickas en startbil som alltid Ã¤r en 0:a,
+				sedan kommer de bitar som utgÃ¶r det data som skall skickas,
+				det Ã¤r normalt 7 eller 8 stycken. Sist kommer eventuellt en
+				paritetsbit om vi kommer att behandla lÃ¤ngre fram och en
+				eller eventuellt tvÃ¥ stoppbitar. Startbiten, stoppbiten och
+				eventuell paritetsbit utgÃ¶r overhead.
 			</para>
 			<para>
-				Om bara en start och en stoppbit används så kommer det att
-				innebära att två bitar ber byte är overhead. Det är ganska
-				mycket men de fördelar som finns, bland annat billiga
-				utrustningar och möjligheter att ha långa kablar, gör att
-				det ändå är värt denna overhead.
+				Om bara en start och en stoppbit anvÃ¤nds sÃ¥ kommer det att
+				innebÃ¤ra att tvÃ¥ bitar ber byte Ã¤r overhead. Det Ã¤r ganska
+				mycket men de fÃ¶rdelar som finns, bland annat billiga
+				utrustningar och mÃ¶jligheter att ha lÃ¥nga kablar, gÃ¶r att
+				det Ã¤ndÃ¥ Ã¤r vÃ¤rt denna overhead.
 			</para>
 			<para>
-				Man kan använda sig av något som kallas
-				<emphasis>paritet</emphasis>. Syftet med paritet är att
-				lägga till en enkel felkontroll på överföringen.  Det
-				fungerar så att man läggar till en bit innan stoppbiten
-				eller stoppbitarna. Man skiljer på <emphasis>udda</emphasis>
-				och <emphasis>jämn paritet</emphasis>. Vid jämn paritet
-				skall alla ettor, inklusive paritetsbiten utgöra ett jämnt
+				Man kan anvÃ¤nda sig av nÃ¥got som kallas
+				<emphasis>paritet</emphasis>. Syftet med paritet Ã¤r att
+				lÃ¤gga till en enkel felkontroll pÃ¥ Ã¶verfÃ¶ringen.  Det
+				fungerar sÃ¥ att man lÃ¤ggar till en bit innan stoppbiten
+				eller stoppbitarna. Man skiljer pÃ¥ <emphasis>udda</emphasis>
+				och <emphasis>jÃ¤mn paritet</emphasis>. Vid jÃ¤mn paritet
+				skall alla ettor, inklusive paritetsbiten utgÃ¶ra ett jÃ¤mnt
 				tal och vid udda paritet ett udda tal.
 			</para>
 
 			<para>	
-				Sändaren beräknar och lägger till paritetsbiten när tecknet
-				skickas och mottagaren beräknar och kontrollerar
-				paritetsbiten.  Om den inte stämmer överens med det
-				förväntade har något fel inträffat i överföringen.
+				SÃ¤ndaren berÃ¤knar och lÃ¤gger till paritetsbiten nÃ¤r tecknet
+				skickas och mottagaren berÃ¤knar och kontrollerar
+				paritetsbiten.  Om den inte stÃ¤mmer Ã¶verens med det
+				fÃ¶rvÃ¤ntade har nÃ¥got fel intrÃ¤ffat i Ã¶verfÃ¶ringen.
 			</para>
 			<para>
-				En enklare form av paritet kallas etta eller nolla. Då
-				lägger man till en paritetsbit som alltid är en etta eller
+				En enklare form av paritet kallas etta eller nolla. DÃ¥
+				lÃ¤gger man till en paritetsbit som alltid Ã¤r en etta eller
 				nolla.
 			</para>
 
@@ -295,11 +295,11 @@
 	</sect1>
 	<sect1><title>Sammanfattning</title>
 		<para>
-			I detta kapitel har vi tittat på seriell och parallell
-			kommunikation.  Vi har lärt oss vad som skiljer dem åt och vilka
-			för- respektive nackdelar de har. Vi har läst oss att seriell
-			kommunikation i huvudsak kan gå till på två olika sätt och hur
-			dessa fungerar. Vi har också lärt oss begreppet overhead och
+			I detta kapitel har vi tittat pÃ¥ seriell och parallell
+			kommunikation.  Vi har lÃ¤rt oss vad som skiljer dem Ã¥t och vilka
+			fÃ¶r- respektive nackdelar de har. Vi har lÃ¤st oss att seriell
+			kommunikation i huvudsak kan gÃ¥ till pÃ¥ tvÃ¥ olika sÃ¤tt och hur
+			dessa fungerar. Vi har ocksÃ¥ lÃ¤rt oss begreppet overhead och
 			dess betydelse vid seriell kommunikation.
 		</para>	
 	</sect1>

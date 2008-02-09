@@ -1,132 +1,132 @@
-<chapter id="chap_natverkskomponenter"><title>Nätverkskomponenter</title>
+<chapter id="chap_natverkskomponenter"><title>NÃ¤tverkskomponenter</title>
 	<abstract>
 		<para>
-			För att kunna bygga de nätverk som beskrevs i det förra
-			kapitlet måste man ha något att bygga av. Nätverken byggs
-			naturligtvis upp av datorer, men även andra komponenter behövs
-			för att kunna, dels koppla ihop datorerna i nätverk och även
-			kunna koppla ihop olika nätverk med varandra.
+			FÃ¶r att kunna bygga de nÃ¤tverk som beskrevs i det fÃ¶rra
+			kapitlet mÃ¥ste man ha nÃ¥got att bygga av. NÃ¤tverken byggs
+			naturligtvis upp av datorer, men Ã¤ven andra komponenter behÃ¶vs
+			fÃ¶r att kunna, dels koppla ihop datorerna i nÃ¤tverk och Ã¤ven
+			kunna koppla ihop olika nÃ¤tverk med varandra.
 		</para>
 	</abstract>
 
 	<sect1><title>Noder</title>
 		<para>
-			Det kan vara på sin plats att först beskriva termen
-			<emphasis>nod</emphasis>. En nod är en generell
-			adresserbar nätverkskomponent, det kan vara en arbetsstation,
-			en router, en brandvägg eller något annat. Är den adresserbar i
-			nätverket så kallas den ofta för en nod. En nod kallas också
-			för <emphasis>host</emphasis> eller <emphasis>värd</emphasis>.
+			Det kan vara pÃ¥ sin plats att fÃ¶rst beskriva termen
+			<emphasis>nod</emphasis>. En nod Ã¤r en generell
+			adresserbar nÃ¤tverkskomponent, det kan vara en arbetsstation,
+			en router, en brandvÃ¤gg eller nÃ¥got annat. Ã„r den adresserbar i
+			nÃ¤tverket sÃ¥ kallas den ofta fÃ¶r en nod. En nod kallas ocksÃ¥
+			fÃ¶r <emphasis>host</emphasis> eller <emphasis>vÃ¤rd</emphasis>.
 		</para>
 		<para>
-			Man kan säga att ett nätverk byggs upp av noder som i sin tur
-			är olika komponenter.
+			Man kan sÃ¤ga att ett nÃ¤tverk byggs upp av noder som i sin tur
+			Ã¤r olika komponenter.
 		</para>
 	</sect1>
 
 	<sect1><title>Datorer/Servrar</title>
 		<para>
 			Datorer kan anses som de viktigaste komponenterna i ett
-			datornätverk. Utan dem blir det inte mycket till nätverk. Det
-			minsta nätverk man kan bygga är med hjälp av två datorer med
-			något typ av kommunikationskort och en kabel.
+			datornÃ¤tverk. Utan dem blir det inte mycket till nÃ¤tverk. Det
+			minsta nÃ¤tverk man kan bygga Ã¤r med hjÃ¤lp av tvÃ¥ datorer med
+			nÃ¥got typ av kommunikationskort och en kabel.
 		</para>
 		<para>
-			Det vanligaste typen av kommunikationskort eller gränssnitt man
-			använder på en dator är ett <emphasis>nätverkskort</emphasis>.
-			Det vanligaste typen av nätverkkort idag är ethernet-kort.
-			Dessa har oftast ett uttag för en kabel med ett kontaktdon som
-			kallas för RJ-45. RJ-45 ser ungefär som den koppling som finns
-			på en del telefoner. Den kontakt som sitter på telefonen heter
-			RJ-11 och har fyra ledningar medan RJ-45 har åtta. RJ-11 kallas
-			även för modulärkontakt. RJ står för Registered Jack.
+			Det vanligaste typen av kommunikationskort eller grÃ¤nssnitt man
+			anvÃ¤nder pÃ¥ en dator Ã¤r ett <emphasis>nÃ¤tverkskort</emphasis>.
+			Det vanligaste typen av nÃ¤tverkkort idag Ã¤r ethernet-kort.
+			Dessa har oftast ett uttag fÃ¶r en kabel med ett kontaktdon som
+			kallas fÃ¶r RJ-45. RJ-45 ser ungefÃ¤r som den koppling som finns
+			pÃ¥ en del telefoner. Den kontakt som sitter pÃ¥ telefonen heter
+			RJ-11 och har fyra ledningar medan RJ-45 har Ã¥tta. RJ-11 kallas
+			Ã¤ven fÃ¶r modulÃ¤rkontakt. RJ stÃ¥r fÃ¶r Registered Jack.
 		</para>
 		<para>
-			Varje nätverkskort har en unik adress. Denna kallas för kortets
-			<emphasis>hårdvaruadress</emphasis> eller
-			<emphasis>MAC-adress</emphasis>. MAC står för <emphasis>Media
-			Access Control</emphasis> och är nödvändig för att kunna
-			identifiera de olika datorerna på nätverket. MAC-adresserna är
-			alltså unika på alla nätverkskort som säljs. Detta samordnas
+			Varje nÃ¤tverkskort har en unik adress. Denna kallas fÃ¶r kortets
+			<emphasis>hÃ¥rdvaruadress</emphasis> eller
+			<emphasis>MAC-adress</emphasis>. MAC stÃ¥r fÃ¶r <emphasis>Media
+			Access Control</emphasis> och Ã¤r nÃ¶dvÃ¤ndig fÃ¶r att kunna
+			identifiera de olika datorerna pÃ¥ nÃ¤tverket. MAC-adresserna Ã¤r
+			alltsÃ¥ unika pÃ¥ alla nÃ¤tverkskort som sÃ¤ljs. Detta samordnas
 			centralt av en organisation som heter
-			<emphasis>IEEE</emphasis>.  IEEE (uttalas "i-triple-e") är en
-			förkortning för Institute for Electric and Electronic Engineers
-			och är en organisation av personer och företag inom
+			<emphasis>IEEE</emphasis>.  IEEE (uttalas "i-triple-e") Ã¤r en
+			fÃ¶rkortning fÃ¶r Institute for Electric and Electronic Engineers
+			och Ã¤r en organisation av personer och fÃ¶retag inom
 			elektricitet, elektronik och datorer.
 		</para>
 		<para>
-			En dator kan ha flera olika roller i ett nätverk. Den kan vara
-			till exempel en arbetsstation vid vilken någon sitter och
-			jobbar.  Det kan också vara en <emphasis>server</emphasis>. En
-			server är en dator som förser nätverket med en eller flera
-			tjänster (Eng.  services). Egentligen är en server inte en
-			hårdvara utan själva programvaran som implementerar tjänsten
-			men det har blivit så att man även kallar själva datorn som kör
-			servern eller servrarna för en server. Det finns speciella
-			datorer som kallas servrar. Det som skiljer dessa från vanliga
-			datorer är att de brukar vara kraftigare byggda och ha mer
-			påkostade fläktar och diskar.  Funktionsmässigt är det ingen
-			större skillnad så länge det rör sig om samma datorarkitektur.
+			En dator kan ha flera olika roller i ett nÃ¤tverk. Den kan vara
+			till exempel en arbetsstation vid vilken nÃ¥gon sitter och
+			jobbar.  Det kan ocksÃ¥ vara en <emphasis>server</emphasis>. En
+			server Ã¤r en dator som fÃ¶rser nÃ¤tverket med en eller flera
+			tjÃ¤nster (Eng.  services). Egentligen Ã¤r en server inte en
+			hÃ¥rdvara utan sjÃ¤lva programvaran som implementerar tjÃ¤nsten
+			men det har blivit sÃ¥ att man Ã¤ven kallar sjÃ¤lva datorn som kÃ¶r
+			servern eller servrarna fÃ¶r en server. Det finns speciella
+			datorer som kallas servrar. Det som skiljer dessa frÃ¥n vanliga
+			datorer Ã¤r att de brukar vara kraftigare byggda och ha mer
+			pÃ¥kostade flÃ¤ktar och diskar.  FunktionsmÃ¤ssigt Ã¤r det ingen
+			stÃ¶rre skillnad sÃ¥ lÃ¤nge det rÃ¶r sig om samma datorarkitektur.
 		</para>
 		<para>
-			En dator kan också vara en <emphasis>terminal</emphasis>. En
-			terminal är brukar kallas för en "dum" terminal och är en dator
-			som inte själv har så mycket resurser utan är knuten till en
-			server vars tjänster terminalen är helt beroende av.
-			Terminalerna bestod tidigare av bara en skärm och ett
+			En dator kan ocksÃ¥ vara en <emphasis>terminal</emphasis>. En
+			terminal Ã¤r brukar kallas fÃ¶r en "dum" terminal och Ã¤r en dator
+			som inte sjÃ¤lv har sÃ¥ mycket resurser utan Ã¤r knuten till en
+			server vars tjÃ¤nster terminalen Ã¤r helt beroende av.
+			Terminalerna bestod tidigare av bara en skÃ¤rm och ett
 			tangentbord som var kopplade direkt till en dator antingen via
-			en vanlig kabel eller via telefonnätet eller andra större
-			nätverk. De hade alltså ingen egen datorkapacitet. Idag är
-			detta inte så vanligt. Använder man terminalsystem idag så är
-			det oftast så att man kör ett terminalemulerningsprogram på sin
+			en vanlig kabel eller via telefonnÃ¤tet eller andra stÃ¶rre
+			nÃ¤tverk. De hade alltsÃ¥ ingen egen datorkapacitet. Idag Ã¤r
+			detta inte sÃ¥ vanligt. AnvÃ¤nder man terminalsystem idag sÃ¥ Ã¤r
+			det oftast sÃ¥ att man kÃ¶r ett terminalemulerningsprogram pÃ¥ sin
 			PC. 
 		</para>
 		<para>
-			Det har dock på senare tid blivit vanligt med tunna klienter.
-			Dessa fungerar ungefär som terminalerna gjorde men en tunn
-			klient har lite egna resurser men kör alla program direkt från
-			en server.  Det har flera fördelar. För det första så blir
-			dessa tunna klienter mycket billigare och har längre livslängd
-			än PC-datorer.  En andra fördel är att service och
-			uppgraderingar av programvaror lättare kan skötas centralt.
-			Alla klienter kör ju samma programvaror från servern så om
-			denna uppgraderas så har alla klienter uppgraderats på en gång.
+			Det har dock pÃ¥ senare tid blivit vanligt med tunna klienter.
+			Dessa fungerar ungefÃ¤r som terminalerna gjorde men en tunn
+			klient har lite egna resurser men kÃ¶r alla program direkt frÃ¥n
+			en server.  Det har flera fÃ¶rdelar. FÃ¶r det fÃ¶rsta sÃ¥ blir
+			dessa tunna klienter mycket billigare och har lÃ¤ngre livslÃ¤ngd
+			Ã¤n PC-datorer.  En andra fÃ¶rdel Ã¤r att service och
+			uppgraderingar av programvaror lÃ¤ttare kan skÃ¶tas centralt.
+			Alla klienter kÃ¶r ju samma programvaror frÃ¥n servern sÃ¥ om
+			denna uppgraderas sÃ¥ har alla klienter uppgraderats pÃ¥ en gÃ¥ng.
 		</para>
 	</sect1>
 
-	<sect1><title>Hubb<footnote><para>Se även brevet från Jan Johansson i
+	<sect1><title>Hubb<footnote><para>Se Ã¤ven brevet frÃ¥n Jan Johansson i
 	<xref linkend="brev"/></para></footnote></title>
 		<para>
-			En hubb, från engelskans hub = nav, är namnet på den centrala
-			knytpunkten, nätnavet, i ett stjärnnät. Det är också namnet på
-			en nätverkskomponent som används just i detta syfte. En hubb
-			fungerar som en grenkoppling. Alla signaler som kommer in på
-			ett uttag på hubben skickas ut på alla andra uttag på samma
-			gång. En nackdel med detta är att bara en ansluten nod i taget
-			kan sända. Sänder en så skickas det till alla andra på en gång
-			och hela nätet blir således upptaget. Det är väldigt vanligt
-			med kollisioner i ett nät där man har just en hubb som nätnav.
-			De flesta hubbar har en lysdiod som indikerar när det är en
-			kollision på nätet. Denna lampa kan man använda som en
-			indikator för att se hur mycket kollisioner det är på
-			nätverket. Mycket kollisioner gör att nätverket får minskad
-			kapacitet och upplevs som långsamt. Man kan då välja att
-			segmentera nätverket eller skaffa en switch (se nästa stycke).
-			Ett annat relaterat problem är att eftersom all trafik kommer
-			fram till alla datorer kan en ond användare ta del av
-			information som inte är avsedd för henne vilket är en
-			säkerhetsrisk.
+			En hubb, frÃ¥n engelskans hub = nav, Ã¤r namnet pÃ¥ den centrala
+			knytpunkten, nÃ¤tnavet, i ett stjÃ¤rnnÃ¤t. Det Ã¤r ocksÃ¥ namnet pÃ¥
+			en nÃ¤tverkskomponent som anvÃ¤nds just i detta syfte. En hubb
+			fungerar som en grenkoppling. Alla signaler som kommer in pÃ¥
+			ett uttag pÃ¥ hubben skickas ut pÃ¥ alla andra uttag pÃ¥ samma
+			gÃ¥ng. En nackdel med detta Ã¤r att bara en ansluten nod i taget
+			kan sÃ¤nda. SÃ¤nder en sÃ¥ skickas det till alla andra pÃ¥ en gÃ¥ng
+			och hela nÃ¤tet blir sÃ¥ledes upptaget. Det Ã¤r vÃ¤ldigt vanligt
+			med kollisioner i ett nÃ¤t dÃ¤r man har just en hubb som nÃ¤tnav.
+			De flesta hubbar har en lysdiod som indikerar nÃ¤r det Ã¤r en
+			kollision pÃ¥ nÃ¤tet. Denna lampa kan man anvÃ¤nda som en
+			indikator fÃ¶r att se hur mycket kollisioner det Ã¤r pÃ¥
+			nÃ¤tverket. Mycket kollisioner gÃ¶r att nÃ¤tverket fÃ¥r minskad
+			kapacitet och upplevs som lÃ¥ngsamt. Man kan dÃ¥ vÃ¤lja att
+			segmentera nÃ¤tverket eller skaffa en switch (se nÃ¤sta stycke).
+			Ett annat relaterat problem Ã¤r att eftersom all trafik kommer
+			fram till alla datorer kan en ond anvÃ¤ndare ta del av
+			information som inte Ã¤r avsedd fÃ¶r henne vilket Ã¤r en
+			sÃ¤kerhetsrisk.
 		</para>
 
 		<para>
-			I <xref linkend="fig_hubb"/> visas kommunikation över en hubb.
-			När dator B sänder data över nätverket så når det inte bara
-			avsedd mottagare utan även alla andra anslutna till hubben.
-			Det gör att bara en kan sända i taget vilket gör att fler
-			kollisioner uppstår och att nätverket kan gå långsammare.
+			I <xref linkend="fig_hubb"/> visas kommunikation Ã¶ver en hubb.
+			NÃ¤r dator B sÃ¤nder data Ã¶ver nÃ¤tverket sÃ¥ nÃ¥r det inte bara
+			avsedd mottagare utan Ã¤ven alla andra anslutna till hubben.
+			Det gÃ¶r att bara en kan sÃ¤nda i taget vilket gÃ¶r att fler
+			kollisioner uppstÃ¥r och att nÃ¤tverket kan gÃ¥ lÃ¥ngsammare.
 
 			
-			<figure id="fig_hubb"><title>Kommunikation över en hubb</title>
+			<figure id="fig_hubb"><title>Kommunikation Ã¶ver en hubb</title>
 				<mediaobject>
 					<imageobject>
 						<imagedata scalefit="1" fileref="bilder/hubb.jpeg" format="JPEG" />
@@ -136,9 +136,9 @@
 					</imageobject>
 					<textobject>
 						<phrase>
-							Bild som visar hur trafik från en sändande dator
-							kommer fram till alla andra när de är anslutna till
-							ett stjärnnät med en hubb som nätnav.
+							Bild som visar hur trafik frÃ¥n en sÃ¤ndande dator
+							kommer fram till alla andra nÃ¤r de Ã¤r anslutna till
+							ett stjÃ¤rnnÃ¤t med en hubb som nÃ¤tnav.
 						</phrase>
 					</textobject>
 				</mediaobject>
@@ -146,30 +146,30 @@
 		</para>
 	</sect1>
 	
-	<sect1><title>Switch<footnote><para>Se även brevet från Jan Johansson i
+	<sect1><title>Switch<footnote><para>Se Ã¤ven brevet frÃ¥n Jan Johansson i
 	<xref linkend="brev"/></para></footnote></title>
 		<para>
-			En switch är också en komponent som används som nätnav i ett
-			stjärnnät. Till skillnad från hubben så håller switchen reda på
-			vilka datorer som sitter på vilket uttag och skickar bara
-			informationen till den dator som den är avsedd för. Det gör att
-			inte nätet fylls med trafik så fort någon av datorerna skickar
-			data. Alltså kan kommunikation ske mellan två par datorer
-			oberoende av varandra på samma gång på samma switch. Säkerheten
-			ökas också eftersom det blir svårare att komma åt information
-			som inte är avsedd för den aktuella datorn.
+			En switch Ã¤r ocksÃ¥ en komponent som anvÃ¤nds som nÃ¤tnav i ett
+			stjÃ¤rnnÃ¤t. Till skillnad frÃ¥n hubben sÃ¥ hÃ¥ller switchen reda pÃ¥
+			vilka datorer som sitter pÃ¥ vilket uttag och skickar bara
+			informationen till den dator som den Ã¤r avsedd fÃ¶r. Det gÃ¶r att
+			inte nÃ¤tet fylls med trafik sÃ¥ fort nÃ¥gon av datorerna skickar
+			data. AlltsÃ¥ kan kommunikation ske mellan tvÃ¥ par datorer
+			oberoende av varandra pÃ¥ samma gÃ¥ng pÃ¥ samma switch. SÃ¤kerheten
+			Ã¶kas ocksÃ¥ eftersom det blir svÃ¥rare att komma Ã¥t information
+			som inte Ã¤r avsedd fÃ¶r den aktuella datorn.
 		</para>
 		<para>
-			Studera och jämför bilderna <xref linkend="fig_hubb"/> och
+			Studera och jÃ¤mfÃ¶r bilderna <xref linkend="fig_hubb"/> och
 			<xref linkend="fig_switch"/>. I <xref linkend="fig_switch"/>
-			visas kommunikation över en switch. När dator B sänder data
-			över nätverket till C så når dessa data bara dator C.  Eftersom
-			B och C får en egen kanal genom switchen kan de kommunicera
-			utan att resten av nätverket störs.  Samtidigt skulle A och D
-			kunna kommunicera på samma sätt.
+			visas kommunikation Ã¶ver en switch. NÃ¤r dator B sÃ¤nder data
+			Ã¶ver nÃ¤tverket till C sÃ¥ nÃ¥r dessa data bara dator C.  Eftersom
+			B och C fÃ¥r en egen kanal genom switchen kan de kommunicera
+			utan att resten av nÃ¤tverket stÃ¶rs.  Samtidigt skulle A och D
+			kunna kommunicera pÃ¥ samma sÃ¤tt.
 		</para>
 
-		<figure id="fig_switch"><title>Kommunikation över en switch</title>
+		<figure id="fig_switch"><title>Kommunikation Ã¶ver en switch</title>
 			<mediaobject>
   				<imageobject>
       			<imagedata scalefit="1" fileref="bilder/switch.jpeg" format="JPEG" />
@@ -179,125 +179,125 @@
         		</imageobject>
 				<textobject>
 					<phrase>
-						Bild som visar hur trafik från en sändande dator
-						bara kommer fram till avsedd dator när de är anslutna till
-						ett stjärnnät med en switch som nätnav.
+						Bild som visar hur trafik frÃ¥n en sÃ¤ndande dator
+						bara kommer fram till avsedd dator nÃ¤r de Ã¤r anslutna till
+						ett stjÃ¤rnnÃ¤t med en switch som nÃ¤tnav.
 					</phrase>
 				</textobject>
 			</mediaobject>
 		</figure>
 
 		<para>
-			I mer avancerade switchar kan man konfigurera exakt på vilket
-			sätt olika noder får tala med varandra. Man kan skapa så
-			kallade <emphasis>virtuella LAN</emphasis> (VLAN) på en switch.
-			Det går till så att man kopplar ihop portar i grupper så att
-			varje grupp fungerar som en egen switch. Det finns även flera
-			funktioner på dyrare switchar.
+			I mer avancerade switchar kan man konfigurera exakt pÃ¥ vilket
+			sÃ¤tt olika noder fÃ¥r tala med varandra. Man kan skapa sÃ¥
+			kallade <emphasis>virtuella LAN</emphasis> (VLAN) pÃ¥ en switch.
+			Det gÃ¥r till sÃ¥ att man kopplar ihop portar i grupper sÃ¥ att
+			varje grupp fungerar som en egen switch. Det finns Ã¤ven flera
+			funktioner pÃ¥ dyrare switchar.
 		</para>
 	</sect1>
 	
-	<sect1><title>Repeater<footnote><para>Se även brevet från Jan Johansson i
+	<sect1><title>Repeater<footnote><para>Se Ã¤ven brevet frÃ¥n Jan Johansson i
 	<xref linkend="brev"/></para></footnote></title>
 		<para>
-			En repeater kan jämföras med en förstärkare. En repeater har
-			ingångar och utgångar, den lyssnar på ingångarna och förstärker
-			signalerna och skickar dem på utgångarna. En repeater har ingen
-			intelligens alls utan förstärker bara det den hör och skickar
-			vidare. En repeater används vid kommunikation över större
-			avstånd och för att koppla ihop olika nätverkssegment i ett
-			nätverk.
+			En repeater kan jÃ¤mfÃ¶ras med en fÃ¶rstÃ¤rkare. En repeater har
+			ingÃ¥ngar och utgÃ¥ngar, den lyssnar pÃ¥ ingÃ¥ngarna och fÃ¶rstÃ¤rker
+			signalerna och skickar dem pÃ¥ utgÃ¥ngarna. En repeater har ingen
+			intelligens alls utan fÃ¶rstÃ¤rker bara det den hÃ¶r och skickar
+			vidare. En repeater anvÃ¤nds vid kommunikation Ã¶ver stÃ¶rre
+			avstÃ¥nd och fÃ¶r att koppla ihop olika nÃ¤tverkssegment i ett
+			nÃ¤tverk.
 		</para>
 	</sect1>
 	
-	<sect1><title>Brygga<footnote><para>Se även brevet från Jan Johansson i
+	<sect1><title>Brygga<footnote><para>Se Ã¤ven brevet frÃ¥n Jan Johansson i
 	<xref linkend="brev"/></para></footnote></title>
 		<para>
-			En brygga fungerar ungefär som en repeater så tillvida att den
-			är en ganska enkel apparat med två anslutningar. Där slutar
-			dock likheten. En brygga används för att koppla ihop olika
-			nätverk, eller segment av samma nätverk. Bryggan släpper bara
-			igenom den trafik som skall till nätet på andra sidan. På så
-			sätt minskas onödig trafik i de båda näten eller segmenten.
+			En brygga fungerar ungefÃ¤r som en repeater sÃ¥ tillvida att den
+			Ã¤r en ganska enkel apparat med tvÃ¥ anslutningar. DÃ¤r slutar
+			dock likheten. En brygga anvÃ¤nds fÃ¶r att koppla ihop olika
+			nÃ¤tverk, eller segment av samma nÃ¤tverk. Bryggan slÃ¤pper bara
+			igenom den trafik som skall till nÃ¤tet pÃ¥ andra sidan. PÃ¥ sÃ¥
+			sÃ¤tt minskas onÃ¶dig trafik i de bÃ¥da nÃ¤ten eller segmenten.
 		</para>
 	</sect1>
 	
 	<sect1><title>Brouter</title>
 		<para>
-			Namnet brouter är en lek med ord. Det är en sammanslagning av
+			Namnet brouter Ã¤r en lek med ord. Det Ã¤r en sammanslagning av
 			de engelska orden Bridge (brygga) och Router. Den fungerar som
-			en brygga men kan koppla ihop flera nätverk, eller
-			nätverkssegment, som en router (se nedan). Den är dock enklare
-			än en router och jobbar på samma nivå som en brygga.
+			en brygga men kan koppla ihop flera nÃ¤tverk, eller
+			nÃ¤tverkssegment, som en router (se nedan). Den Ã¤r dock enklare
+			Ã¤n en router och jobbar pÃ¥ samma nivÃ¥ som en brygga.
 		</para>
 	</sect1>
 	
 	<sect1><title>Router</title>
 		<para>
-			En router är en nätverkskomponent som kopplar samman olika
-			nätverk. Den kopplar inte samman näten så blint som en brygga
-			eller repeater utan en Router läser nätverkstrafiken och
-			bedömer vilken trafik som skall till vilket nät. En router kan
-			vara ansluten till flera nät. Att läsa nätverkstrafik och
-			skicka den vidare åt olika håll beroende på deras destination
-			kallas för att <emphasis>routa</emphasis> på klingande
-			svengelska. För att veta år vilket håll inkommen nätverkstrafik
-			skall använder sig en router av en
-			<emphasis>routingtabell</emphasis> där det finns listat var
-			olika datorer och nätverk finns. Routingtabellen kan vara
-			statisk, det vill säga sparad på en disk i routern och ändras
+			En router Ã¤r en nÃ¤tverkskomponent som kopplar samman olika
+			nÃ¤tverk. Den kopplar inte samman nÃ¤ten sÃ¥ blint som en brygga
+			eller repeater utan en Router lÃ¤ser nÃ¤tverkstrafiken och
+			bedÃ¶mer vilken trafik som skall till vilket nÃ¤t. En router kan
+			vara ansluten till flera nÃ¤t. Att lÃ¤sa nÃ¤tverkstrafik och
+			skicka den vidare Ã¥t olika hÃ¥ll beroende pÃ¥ deras destination
+			kallas fÃ¶r att <emphasis>routa</emphasis> pÃ¥ klingande
+			svengelska. FÃ¶r att veta Ã¥r vilket hÃ¥ll inkommen nÃ¤tverkstrafik
+			skall anvÃ¤nder sig en router av en
+			<emphasis>routingtabell</emphasis> dÃ¤r det finns listat var
+			olika datorer och nÃ¤tverk finns. Routingtabellen kan vara
+			statisk, det vill sÃ¤ga sparad pÃ¥ en disk i routern och Ã¤ndras
 			inte, eller dynamisk. En dynamisk routingtabell uppdateras
-			automatiskt utifrån hur omgivningen ser ut.
+			automatiskt utifrÃ¥n hur omgivningen ser ut.
 		</para>
 	</sect1>
 	
 	<sect1><title>Gateway</title>
 		<para>
-			En gateway används för att koppla samman nätverk av olika typ.
-			Man kan se det som en konverterare. Namnet gateway används
-			ibland, felaktigt, på en maskin som som sitter mellan ett
-			lokalt nät och internet även om samma nätverksprotokoll
-			används. I det fallet är router en riktigare benämning.
+			En gateway anvÃ¤nds fÃ¶r att koppla samman nÃ¤tverk av olika typ.
+			Man kan se det som en konverterare. Namnet gateway anvÃ¤nds
+			ibland, felaktigt, pÃ¥ en maskin som som sitter mellan ett
+			lokalt nÃ¤t och internet Ã¤ven om samma nÃ¤tverksprotokoll
+			anvÃ¤nds. I det fallet Ã¤r router en riktigare benÃ¤mning.
 		</para>
 	</sect1>
 	
-	<sect1><title>Brandvägg</title>
+	<sect1><title>BrandvÃ¤gg</title>
 		<para>
-			En router mellan till exempel ett lokalt nätverk och Internet
-			kombineras ofta med en brandvägg (eng. Firewall). En brandvägg
-			är en speciell sorts router som bara routar vidare den trafik
+			En router mellan till exempel ett lokalt nÃ¤tverk och Internet
+			kombineras ofta med en brandvÃ¤gg (eng. Firewall). En brandvÃ¤gg
+			Ã¤r en speciell sorts router som bara routar vidare den trafik
 			som uppfyller vissa krav.  Trafik som inte uppfyller kraven
-			kastas bort vilket gör att mottagaren av den "förbjudna"
-			trafiken skyddas från den. 
+			kastas bort vilket gÃ¶r att mottagaren av den "fÃ¶rbjudna"
+			trafiken skyddas frÃ¥n den. 
 		</para>
 		<para>
-			Oftast har man en brandvägg mellan ett lokalt nätverk och
-			Internet men man kan även ha brandväggar på det interna nätet.
-			Ibland har man brandväggar på själva den datorn som skall
-			skyddas. Den fungerar på samma sätt som en vanlig brandvägg med
-			den enda skillnaden att den inte routar till och från ett helt
-			nätverk utan bara till och från den aktuella datorn.
+			Oftast har man en brandvÃ¤gg mellan ett lokalt nÃ¤tverk och
+			Internet men man kan Ã¤ven ha brandvÃ¤ggar pÃ¥ det interna nÃ¤tet.
+			Ibland har man brandvÃ¤ggar pÃ¥ sjÃ¤lva den datorn som skall
+			skyddas. Den fungerar pÃ¥ samma sÃ¤tt som en vanlig brandvÃ¤gg med
+			den enda skillnaden att den inte routar till och frÃ¥n ett helt
+			nÃ¤tverk utan bara till och frÃ¥n den aktuella datorn.
 		</para>
 		<para>
-			Det som avgör om en viss trafik skall släppas igenom eller inte
-			kallas för <emphasis>brandväggsregler</emphasis> eller bara
-			regler om det inte råder några tvivel om vad man talar om.
+			Det som avgÃ¶r om en viss trafik skall slÃ¤ppas igenom eller inte
+			kallas fÃ¶r <emphasis>brandvÃ¤ggsregler</emphasis> eller bara
+			regler om det inte rÃ¥der nÃ¥gra tvivel om vad man talar om.
 		</para>
 		<para>
-			Vi kommer att tala mer om brandväggar i <xref
+			Vi kommer att tala mer om brandvÃ¤ggar i <xref
 			linkend="chap_sakerhet"/>
 		</para>
 	</sect1>
 
-	<sect1><title>Sammanhängande exempel</title>
+	<sect1><title>SammanhÃ¤ngande exempel</title>
 		<para>
 			I <xref linkend="fig_natverk"/> visas en en ganska krystad bild
-			på ett nätverk där de flesta av komponenterna vi behandlat
-			finns med. Switchen hade lika gärna kunnat vara en hubb. I
-			exemplet finns det en kombinerad router och brandvägg vilket
-			inte alls är ovanligt.
+			pÃ¥ ett nÃ¤tverk dÃ¤r de flesta av komponenterna vi behandlat
+			finns med. Switchen hade lika gÃ¤rna kunnat vara en hubb. I
+			exemplet finns det en kombinerad router och brandvÃ¤gg vilket
+			inte alls Ã¤r ovanligt.
 		</para>
-		<figure id="fig_natverk"><title>Exempel på nätverk</title>
+		<figure id="fig_natverk"><title>Exempel pÃ¥ nÃ¤tverk</title>
 			<mediaobject>
   				<imageobject>
       			<imagedata scalefit="1" fileref="bilder/natvarksexempel.jpeg" format="JPEG" />
@@ -307,9 +307,9 @@
         		</imageobject>
 				<textobject>
 					<phrase>
-						Ganska krystad bild som visar ett nätverk där så många
-						komponenter som möjligt för trängas på så liten yta
-						som möjligt ....
+						Ganska krystad bild som visar ett nÃ¤tverk dÃ¤r sÃ¥ mÃ¥nga
+						komponenter som mÃ¶jligt fÃ¶r trÃ¤ngas pÃ¥ sÃ¥ liten yta
+						som mÃ¶jligt ....
 					</phrase>
 				</textobject>
 			</mediaobject>
@@ -318,9 +318,9 @@
 
 	<sect1><title>Sammanfattning</title>
 		<para>
-			I detta kapitel har vi gått igenom en mängd
-			nätverkskomponenter. Du skall nu känna till vad dessa gör och
-			hur de fungerar. Till exempel switch, router och brandvägg.
+			I detta kapitel har vi gÃ¥tt igenom en mÃ¤ngd
+			nÃ¤tverkskomponenter. Du skall nu kÃ¤nna till vad dessa gÃ¶r och
+			hur de fungerar. Till exempel switch, router och brandvÃ¤gg.
 		</para>	
 	</sect1>
 </chapter>

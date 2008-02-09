@@ -1,210 +1,210 @@
 <chapter id="chap_epost"><title>E-post</title>
 	<abstract>
 		<para>
-			Från Wikipedia, den fria encyklopedin.
+			FrÃ¥n Wikipedia, den fria encyklopedin.
 		</para>
 		<para>
-			E-post, förkortning för "elektronisk post". En av de
-			ursprungliga typerna av meddelanden som vidarebefodras över
-			Internet och som kännetecknas av högre tillförlitlighet än
+			E-post, fÃ¶rkortning fÃ¶r "elektronisk post". En av de
+			ursprungliga typerna av meddelanden som vidarebefodras Ã¶ver
+			Internet och som kÃ¤nnetecknas av hÃ¶gre tillfÃ¶rlitlighet Ã¤n
 			andra typer av elektroniska meddelanden. Tillkomsten av
-			fenomen som spam (oönskad skräppost) och datavirus har gjort
-			e-post mindre användbar på senare år, men den är fortfarande
-			den dominerande standarden för att skicka meddelanden över
+			fenomen som spam (oÃ¶nskad skrÃ¤ppost) och datavirus har gjort
+			e-post mindre anvÃ¤ndbar pÃ¥ senare Ã¥r, men den Ã¤r fortfarande
+			den dominerande standarden fÃ¶r att skicka meddelanden Ã¶ver
 			Internet. 
 		</para>
 	</abstract>
 
 	<sect1><title>E-post</title>
 		<para>
-			E-post är den tjänst som av många räknas som den viktigaste på
-			Internet. Utan e-post står många företag stilla. I detta avsnitt
-			skall vi behandla e-post och hur det fungerar lite närmare.
+			E-post Ã¤r den tjÃ¤nst som av mÃ¥nga rÃ¤knas som den viktigaste pÃ¥
+			Internet. Utan e-post stÃ¥r mÃ¥nga fÃ¶retag stilla. I detta avsnitt
+			skall vi behandla e-post och hur det fungerar lite nÃ¤rmare.
 		</para>
 		<para>
-			I svenskt tal och skrift bör man använda ordet e-post före till
-			exempel e-mail eller bara mail. Framför allt bara mail eller
-			försvenskat till mejl är olyckligt eftersom det redan har en
-			annan betydelse på engelska, nämligen papperspost. Ytteligare
+			I svenskt tal och skrift bÃ¶r man anvÃ¤nda ordet e-post fÃ¶re till
+			exempel e-mail eller bara mail. FramfÃ¶r allt bara mail eller
+			fÃ¶rsvenskat till mejl Ã¤r olyckligt eftersom det redan har en
+			annan betydelse pÃ¥ engelska, nÃ¤mligen papperspost. Ytteligare
 			information om detta finns hos Svenska
 			Datatermgruppen<footnote><para>http://www.nada.kth.se/dataterm/</para></footnote>.
 		</para>
 		<para>
-			E-post var den tjänst som många såg som den mest användbara när
-			Internetliknande teknik presenterades i slutet på 60-talet. De
-			första e-postsystemen fungerade så att man hade en fil som
-			flera datorer kunde komma åt. I denna fil kunde man skriva
-			meddelanden som andra kunde läsa. Detta system var dock inte så
-			bra när man ville ha ett system där alla datorer skulle kunna
+			E-post var den tjÃ¤nst som mÃ¥nga sÃ¥g som den mest anvÃ¤ndbara nÃ¤r
+			Internetliknande teknik presenterades i slutet pÃ¥ 60-talet. De
+			fÃ¶rsta e-postsystemen fungerade sÃ¥ att man hade en fil som
+			flera datorer kunde komma Ã¥t. I denna fil kunde man skriva
+			meddelanden som andra kunde lÃ¤sa. Detta system var dock inte sÃ¥
+			bra nÃ¤r man ville ha ett system dÃ¤r alla datorer skulle kunna
 			skicka meddlanden till varandra oavsett var de fanns och
-			oavsett vilket system de körde. Man utvecklade det i idag
+			oavsett vilket system de kÃ¶rde. Man utvecklade det i idag
 			kallar e-post.
 		</para>
 		<para>
-			Från början när det inte fanns så många datorer skickade man
-			breven till en viss användare på en viss dator. Efter ett tag, när
-			e-posten utvecklades kom man på den notation som vi fortfarande
-			använder i e-post adresser. Den med ett @ mellan användarnamnet
-			och datornamnet. Från början så var det just ett användarnamn och
-			ett datornamn som avsågs. Då hittade man som regel den man sökte
-			på en viss dator i systemet. I dag är det oftast så att det som
-			står före @ mostvarar ett namn och det som står efter @ är i regel
-			ett domännamn som mostvarar ett företag eller en ISP.
+			FrÃ¥n bÃ¶rjan nÃ¤r det inte fanns sÃ¥ mÃ¥nga datorer skickade man
+			breven till en viss anvÃ¤ndare pÃ¥ en viss dator. Efter ett tag, nÃ¤r
+			e-posten utvecklades kom man pÃ¥ den notation som vi fortfarande
+			anvÃ¤nder i e-post adresser. Den med ett @ mellan anvÃ¤ndarnamnet
+			och datornamnet. FrÃ¥n bÃ¶rjan sÃ¥ var det just ett anvÃ¤ndarnamn och
+			ett datornamn som avsÃ¥gs. DÃ¥ hittade man som regel den man sÃ¶kte
+			pÃ¥ en viss dator i systemet. I dag Ã¤r det oftast sÃ¥ att det som
+			stÃ¥r fÃ¶re @ mostvarar ett namn och det som stÃ¥r efter @ Ã¤r i regel
+			ett domÃ¤nnamn som mostvarar ett fÃ¶retag eller en ISP.
 		</para>
 		<para>
-			E-postadresserna så som vi är vana att se dem idag kom till
-			1971. Den som hittade på det var Raymond Tomlinson (1941-). Han
-			kom på det när han jobbade med att anpassa dåtidens e-post till
+			E-postadresserna sÃ¥ som vi Ã¤r vana att se dem idag kom till
+			1971. Den som hittade pÃ¥ det var Raymond Tomlinson (1941-). Han
+			kom pÃ¥ det nÃ¤r han jobbade med att anpassa dÃ¥tidens e-post till
 			Arpanet.
 		</para>
 		<para>
-			Vad är då @? Detta tecken kallas för "at" på engelska. Det
-			betyder ungefär "på" eller "vid". Adressen rejas@se.linux.org
-			skulle då utläsas "rejas på se.linux.org" vilket stämmer bra.
-			På svenska kallas @ för snabel-a men den har också en mängd
-			olika smeknamn<footnote><para>Se svenska datatermgruppen på
+			Vad Ã¤r dÃ¥ @? Detta tecken kallas fÃ¶r "at" pÃ¥ engelska. Det
+			betyder ungefÃ¤r "pÃ¥" eller "vid". Adressen rejas@se.linux.org
+			skulle dÃ¥ utlÃ¤sas "rejas pÃ¥ se.linux.org" vilket stÃ¤mmer bra.
+			PÃ¥ svenska kallas @ fÃ¶r snabel-a men den har ocksÃ¥ en mÃ¤ngd
+			olika smeknamn<footnote><para>Se svenska datatermgruppen pÃ¥
 			http://www.nada.kth.se/dataterm/rek.html#a17</para></footnote>.
 		</para>
 	</sect1>
 
 	<sect1><title>Flera protokoll</title>
 		<para>
-			När du skickar ett e-brev till någon så kommer flera protokoll
-			att ha används innan mottagaren har läst brevet. Förutom TCP/IP,
-			DNS med mera används även minst ett par olika protokoll för
-			själva brevskickandet.
+			NÃ¤r du skickar ett e-brev till nÃ¥gon sÃ¥ kommer flera protokoll
+			att ha anvÃ¤nds innan mottagaren har lÃ¤st brevet. FÃ¶rutom TCP/IP,
+			DNS med mera anvÃ¤nds Ã¤ven minst ett par olika protokoll fÃ¶r
+			sjÃ¤lva brevskickandet.
 		</para>
 	</sect1>
 
 	<sect1><title>Simple Mail Transport Protocol, SMTP</title>
 		<para>
-			Det viktigaste protokollet som används är <emphasis>Simple Mail
-			Transport Protocol, SMTP</emphasis>. Det är med SMTP som brevet
-			transporteras över Internet från dig till mottagaren. Man kan
-			säga att det är med SMTP som man skickar e-post.
+			Det viktigaste protokollet som anvÃ¤nds Ã¤r <emphasis>Simple Mail
+			Transport Protocol, SMTP</emphasis>. Det Ã¤r med SMTP som brevet
+			transporteras Ã¶ver Internet frÃ¥n dig till mottagaren. Man kan
+			sÃ¤ga att det Ã¤r med SMTP som man skickar e-post.
 		</para>
 		<para>
-			Du startar ditt e-postprogram på din dator. Normalt så har du
-			ingen SMTP-server på din dator utan när du skickar brevet så
-			pratar ditt e-postprogram med en SMTP-server på ditt nät som
-			antingen tillhandahålls av din ISP eller av IT-avdelningen på
-			det företag du jobbar. Det protokoll som används mellan
-			e-postprogram och servern är SMTP.
+			Du startar ditt e-postprogram pÃ¥ din dator. Normalt sÃ¥ har du
+			ingen SMTP-server pÃ¥ din dator utan nÃ¤r du skickar brevet sÃ¥
+			pratar ditt e-postprogram med en SMTP-server pÃ¥ ditt nÃ¤t som
+			antingen tillhandahÃ¥lls av din ISP eller av IT-avdelningen pÃ¥
+			det fÃ¶retag du jobbar. Det protokoll som anvÃ¤nds mellan
+			e-postprogram och servern Ã¤r SMTP.
 		</para>
 		<para>
-			När brevet nått din SMTP-server måste det skickas vidare.
-			Mottagaren har ju inte tillgång till din SMTP-server, och även
-			om mottagaren hade det så kan han eller hon inte veta att post
-			väntar på just din server. Istället så skickar din SMTP-server
-			brevet vidare till den SMTP-server som hanterar posten för det
-			domännamn som du angav i mottagarens e-postadress (det som står
-			till höger om "@" i e-postadressen). Information om vilken
-			server som ansvarar för e-posten för just den aktuella domänen
-			får din server från DNS-systemet. När brevet kommit dit så finns
-			det förhoppningvis på en server som mottagaren har tillgång
-			till. I vissa fall så hoppar brevet flera steg till innan det
-			nått den servern som just din mottagare kommer åt.
+			NÃ¤r brevet nÃ¥tt din SMTP-server mÃ¥ste det skickas vidare.
+			Mottagaren har ju inte tillgÃ¥ng till din SMTP-server, och Ã¤ven
+			om mottagaren hade det sÃ¥ kan han eller hon inte veta att post
+			vÃ¤ntar pÃ¥ just din server. IstÃ¤llet sÃ¥ skickar din SMTP-server
+			brevet vidare till den SMTP-server som hanterar posten fÃ¶r det
+			domÃ¤nnamn som du angav i mottagarens e-postadress (det som stÃ¥r
+			till hÃ¶ger om "@" i e-postadressen). Information om vilken
+			server som ansvarar fÃ¶r e-posten fÃ¶r just den aktuella domÃ¤nen
+			fÃ¥r din server frÃ¥n DNS-systemet. NÃ¤r brevet kommit dit sÃ¥ finns
+			det fÃ¶rhoppningvis pÃ¥ en server som mottagaren har tillgÃ¥ng
+			till. I vissa fall sÃ¥ hoppar brevet flera steg till innan det
+			nÃ¥tt den servern som just din mottagare kommer Ã¥t.
 		</para>
 		<para>
-			Nu återstår det bara för din mottagare att hämta och läsa brevet
-			från dig. Det finns flera olika sätt att göra det. De vanligaste
-			sätten är via protokoll som POP eller IMAP, men det blir
-			vanligare och vanligare att man använder något som kalls för
-			webbmail som är ett system för att, med hjälp av en webbläsare
-			läsa sin post direkt från SMTP-servern.
+			Nu Ã¥terstÃ¥r det bara fÃ¶r din mottagare att hÃ¤mta och lÃ¤sa brevet
+			frÃ¥n dig. Det finns flera olika sÃ¤tt att gÃ¶ra det. De vanligaste
+			sÃ¤tten Ã¤r via protokoll som POP eller IMAP, men det blir
+			vanligare och vanligare att man anvÃ¤nder nÃ¥got som kalls fÃ¶r
+			webbmail som Ã¤r ett system fÃ¶r att, med hjÃ¤lp av en webblÃ¤sare
+			lÃ¤sa sin post direkt frÃ¥n SMTP-servern.
 		</para>
 	</sect1>
 
 	<sect1><title>Post Office Protocol, POP</title>
 		<para>
-			Ett ganska gammalt, men fortfarande väldigt vanligt, sätt att
-			hämta sin e-post är att använda ett protokoll som heter
-			<emphasis>Post Office Protocol, POP</emphasis>. Med hjälp av POP
-			hämtar du posten från din POP-server till lokala dator. De
-			flesta e-postprogram klarar att hämta post med POP. Märk att
-			SMTP har används hela tiden för att transportera brevet men
-			sista biten används andra protokoll. I det här fallet POP.  När
-			brevet flyttats (kallas ibland för poppats) till din dator tas
-			det oftast bort från POP-servern och lagras nu lokalt på din
-			hårddisk.
+			Ett ganska gammalt, men fortfarande vÃ¤ldigt vanligt, sÃ¤tt att
+			hÃ¤mta sin e-post Ã¤r att anvÃ¤nda ett protokoll som heter
+			<emphasis>Post Office Protocol, POP</emphasis>. Med hjÃ¤lp av POP
+			hÃ¤mtar du posten frÃ¥n din POP-server till lokala dator. De
+			flesta e-postprogram klarar att hÃ¤mta post med POP. MÃ¤rk att
+			SMTP har anvÃ¤nds hela tiden fÃ¶r att transportera brevet men
+			sista biten anvÃ¤nds andra protokoll. I det hÃ¤r fallet POP.  NÃ¤r
+			brevet flyttats (kallas ibland fÃ¶r poppats) till din dator tas
+			det oftast bort frÃ¥n POP-servern och lagras nu lokalt pÃ¥ din
+			hÃ¥rddisk.
 		</para>
 	</sect1>
 	
 	<sect1><title>IMAP</title>
-		<para>Se även brevet från Pär Lindskog i i <xref linkend="brev"/>
-		angående IMAP.</para>
+		<para>Se Ã¤ven brevet frÃ¥n PÃ¤r Lindskog i i <xref linkend="brev"/>
+		angÃ¥ende IMAP.</para>
 		<para>
-			IMAP är en forkortning för <emphasis>Internet Message Access
-			Protocol</emphasis> är ett protokoll för att läsa e-posten med
-			ett e-postprogram. Till skillnad från POP så är IMAP avsett för
-			att läsa, sortera och söka bland breven på servern. (POP var ju
-			avsett för att hämta breven från servern till den lokala
-			datorn.) Fördelarna med IMAP är uppenbara, all e-post lagras
-			centralt på en server. Användarna kan komma åt från vilken
-			plats som helst. Till skillnad från POP så kan man med IMAP
-			också skapa mappar på servern och sortera breven i dem.
-			Nackdelen är kanske också uppenbar, att man läser breven från
-			servern gör att man är beroende av denna och måste ha en
-			fungerande anslutning till det nät där servern finns. Det finns
-			program som löser detta genom att spara en synkroniserad kopia
-			på den lokala datorn och synkronisera denna med servern när
+			IMAP Ã¤r en forkortning fÃ¶r <emphasis>Internet Message Access
+			Protocol</emphasis> Ã¤r ett protokoll fÃ¶r att lÃ¤sa e-posten med
+			ett e-postprogram. Till skillnad frÃ¥n POP sÃ¥ Ã¤r IMAP avsett fÃ¶r
+			att lÃ¤sa, sortera och sÃ¶ka bland breven pÃ¥ servern. (POP var ju
+			avsett fÃ¶r att hÃ¤mta breven frÃ¥n servern till den lokala
+			datorn.) FÃ¶rdelarna med IMAP Ã¤r uppenbara, all e-post lagras
+			centralt pÃ¥ en server. AnvÃ¤ndarna kan komma Ã¥t frÃ¥n vilken
+			plats som helst. Till skillnad frÃ¥n POP sÃ¥ kan man med IMAP
+			ocksÃ¥ skapa mappar pÃ¥ servern och sortera breven i dem.
+			Nackdelen Ã¤r kanske ocksÃ¥ uppenbar, att man lÃ¤ser breven frÃ¥n
+			servern gÃ¶r att man Ã¤r beroende av denna och mÃ¥ste ha en
+			fungerande anslutning till det nÃ¤t dÃ¤r servern finns. Det finns
+			program som lÃ¶ser detta genom att spara en synkroniserad kopia
+			pÃ¥ den lokala datorn och synkronisera denna med servern nÃ¤r
 			programmet har kontakt med den.
 		</para>
 	</sect1>
 
 	<sect1><title>Webmail</title>
 		<para>
-			En nackdel med POP och IMAP är att det krävs inställningar på
-			den dator man skall läsa sin post ifrån. Många vill idag kunna
-			läsa sin post på vilken dator som helst eftersom de ofta reser
-			eller använder flera olika datorer.
+			En nackdel med POP och IMAP Ã¤r att det krÃ¤vs instÃ¤llningar pÃ¥
+			den dator man skall lÃ¤sa sin post ifrÃ¥n. MÃ¥nga vill idag kunna
+			lÃ¤sa sin post pÃ¥ vilken dator som helst eftersom de ofta reser
+			eller anvÃ¤nder flera olika datorer.
 		</para>
 		<para>
-			Det enklaste sättet att göra detta på är att använda sig av en
-			webbmail. Det är ett system då man istället för att hämta sin
-			post från leverantörens eller företagets SMTP-server med POP
-			eller IMAP, läser den direkt från servern med hjälp av en
-			webbmailprogramvara. Ved denna programvara gör är att möjliggöra
-			att man läser sin post via HTTP och ett vanlig webbläsare.
-			Eftersom nästan alla datorer idag har en webbläsare och är
-			anslutna till Internet kan man läsa sin post nästan varifrån som
+			Det enklaste sÃ¤ttet att gÃ¶ra detta pÃ¥ Ã¤r att anvÃ¤nda sig av en
+			webbmail. Det Ã¤r ett system dÃ¥ man istÃ¤llet fÃ¶r att hÃ¤mta sin
+			post frÃ¥n leverantÃ¶rens eller fÃ¶retagets SMTP-server med POP
+			eller IMAP, lÃ¤ser den direkt frÃ¥n servern med hjÃ¤lp av en
+			webbmailprogramvara. Ved denna programvara gÃ¶r Ã¤r att mÃ¶jliggÃ¶ra
+			att man lÃ¤ser sin post via HTTP och ett vanlig webblÃ¤sare.
+			Eftersom nÃ¤stan alla datorer idag har en webblÃ¤sare och Ã¤r
+			anslutna till Internet kan man lÃ¤sa sin post nÃ¤stan varifrÃ¥n som
 			helst.
 		</para>
 		<para>
-			Att kunna läsa sin post varifrån som helst och att slippa spara
-			sina brev på den egna datorn är stora fördelar som gör att många
-			använder webbmail. Det finns flera företag som använder gratis
-			webbmailtjänster som gör att du kan skaffa dig en e-postadress
+			Att kunna lÃ¤sa sin post varifrÃ¥n som helst och att slippa spara
+			sina brev pÃ¥ den egna datorn Ã¤r stora fÃ¶rdelar som gÃ¶r att mÃ¥nga
+			anvÃ¤nder webbmail. Det finns flera fÃ¶retag som anvÃ¤nder gratis
+			webbmailtjÃ¤nster som gÃ¶r att du kan skaffa dig en e-postadress
 			alldeles gratis utan att ens ha en internetansluten dator. Men
-			det finns också nackdelar med webbmail.
+			det finns ocksÃ¥ nackdelar med webbmail.
 		</para>
 		<para>
 			Webbmail har flera nackdelar. Att hantera sin post med en
-			webbläsare är oftast krångligare och långsammare än att göra
-			det med ett vanligt e-postprogram. En annan nackdel är att du
-			måste vara uppkopplad hela tiden du skall läsa din post. Om du
-			hämtar posten med POP eller IMAP behöver du ju bara vara
-			ansluten till Internet just när du hämtar posten, sedan kan du
-			ju läsa den i lugn och ro även om du inte är uppkopplad. En
-			annan nackdel är att de flesta företag som erbjuder webbmail
-			har en gräns för hur mycket post du får spara på deras server.
-			Det gör att du men jämna mellanrum måste slänga dina brev för
-			att få plats med nya. Detta gäller i första han gratistjänster
-			men det är inte ovanligt att även sådana man betalar för eller
-			de inom företag har liknande gränser (om än oftast lite högre).
+			webblÃ¤sare Ã¤r oftast krÃ¥ngligare och lÃ¥ngsammare Ã¤n att gÃ¶ra
+			det med ett vanligt e-postprogram. En annan nackdel Ã¤r att du
+			mÃ¥ste vara uppkopplad hela tiden du skall lÃ¤sa din post. Om du
+			hÃ¤mtar posten med POP eller IMAP behÃ¶ver du ju bara vara
+			ansluten till Internet just nÃ¤r du hÃ¤mtar posten, sedan kan du
+			ju lÃ¤sa den i lugn och ro Ã¤ven om du inte Ã¤r uppkopplad. En
+			annan nackdel Ã¤r att de flesta fÃ¶retag som erbjuder webbmail
+			har en grÃ¤ns fÃ¶r hur mycket post du fÃ¥r spara pÃ¥ deras server.
+			Det gÃ¶r att du men jÃ¤mna mellanrum mÃ¥ste slÃ¤nga dina brev fÃ¶r
+			att fÃ¥ plats med nya. Detta gÃ¤ller i fÃ¶rsta han gratistjÃ¤nster
+			men det Ã¤r inte ovanligt att Ã¤ven sÃ¥dana man betalar fÃ¶r eller
+			de inom fÃ¶retag har liknande grÃ¤nser (om Ã¤n oftast lite hÃ¶gre).
 		</para>
 	</sect1>
 
-	<sect1><title>E-post och säkerhet</title>
+	<sect1><title>E-post och sÃ¤kerhet</title>
 		<para>
-			I nästa kapitel kommer vi att tala om säkerhet men det är ändå
-			på sin plats att tala lite om det redan nu när vi hanterar
-			e-post. E-post är nämligen en tjänst på Internet som skall
-			betraktas som osäker. En tumregel som är bra är att man inte
-			skall skriva någonting i ett e-brev som man inte skulle skriva
-			på ett vykort. Vill man skicka någonting som är lite hemligt
-			skall man använda sig av något verktyg för att kryptera sitt
-			brev så att obehöriga inte kan läsa det.
+			I nÃ¤sta kapitel kommer vi att tala om sÃ¤kerhet men det Ã¤r Ã¤ndÃ¥
+			pÃ¥ sin plats att tala lite om det redan nu nÃ¤r vi hanterar
+			e-post. E-post Ã¤r nÃ¤mligen en tjÃ¤nst pÃ¥ Internet som skall
+			betraktas som osÃ¤ker. En tumregel som Ã¤r bra Ã¤r att man inte
+			skall skriva nÃ¥gonting i ett e-brev som man inte skulle skriva
+			pÃ¥ ett vykort. Vill man skicka nÃ¥gonting som Ã¤r lite hemligt
+			skall man anvÃ¤nda sig av nÃ¥got verktyg fÃ¶r att kryptera sitt
+			brev sÃ¥ att obehÃ¶riga inte kan lÃ¤sa det.
 		</para>
 	</sect1>
 </chapter>

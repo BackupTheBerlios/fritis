@@ -1,350 +1,350 @@
 <chapter id="chap_kablar"><title>Kablar och icke-kablar</title>
-	<!--Allmänt om kablar och icke-kablar
-		- Ledningsegenskaper och kapacitet samt deras praktiska innebörd
+	<!--AllmÃ¤nt om kablar och icke-kablar
+		- Ledningsegenskaper och kapacitet samt deras praktiska innebÃ¶rd
 		  vid datakommunikation
 		- Olika sorters kablar
-			- För och nackdelar
-		- Olika sorters trådlösa alternativ
+			- FÃ¶r och nackdelar
+		- Olika sorters trÃ¥dlÃ¶sa alternativ
 	-->
 	<abstract><para>
-		Vi har tidigare tittat på hur man kan "förpacka" data för att
-		skicka det på olika sätt i olika kablar. I detta kapitel skall vi
-		titta mer på själva kablarna och lite på de trådlösa alternativ
+		Vi har tidigare tittat pÃ¥ hur man kan "fÃ¶rpacka" data fÃ¶r att
+		skicka det pÃ¥ olika sÃ¤tt i olika kablar. I detta kapitel skall vi
+		titta mer pÃ¥ sjÃ¤lva kablarna och lite pÃ¥ de trÃ¥dlÃ¶sa alternativ
 		som finns.
 	</para></abstract>
 	<sect1><title>Inledning</title>
 		<para>
 			Det finns massor av olika kablar. De flesta kablar finns
-			naturligtvis för att de är speciellt bra på någonting men det
-			finns också de som finns för att de en gång i tiden var bra på
-			något. Det vill säga vissa kablar finns kvar på grund av att de
-			varit vanliga en gång i tiden. Idag finns det dessutom en hel
-			del trådlösa alternativ såsom radio, IR och Mobiltelefonnätet.
-			Jag kallar dessa trådlösa alternativ för icke-kablar. Detta för
-			att de på många sätt påminner om kablar och gör ofta samma sak
-			men en del av själva finessen med dem är att de just inte är
+			naturligtvis fÃ¶r att de Ã¤r speciellt bra pÃ¥ nÃ¥gonting men det
+			finns ocksÃ¥ de som finns fÃ¶r att de en gÃ¥ng i tiden var bra pÃ¥
+			nÃ¥got. Det vill sÃ¤ga vissa kablar finns kvar pÃ¥ grund av att de
+			varit vanliga en gÃ¥ng i tiden. Idag finns det dessutom en hel
+			del trÃ¥dlÃ¶sa alternativ sÃ¥som radio, IR och MobiltelefonnÃ¤tet.
+			Jag kallar dessa trÃ¥dlÃ¶sa alternativ fÃ¶r icke-kablar. Detta fÃ¶r
+			att de pÃ¥ mÃ¥nga sÃ¤tt pÃ¥minner om kablar och gÃ¶r ofta samma sak
+			men en del av sjÃ¤lva finessen med dem Ã¤r att de just inte Ã¤r
 			kablar.
 		</para>
 		<para>
-			I detta kapitel tittar vi närmare på kablarna och icke-kablarna
+			I detta kapitel tittar vi nÃ¤rmare pÃ¥ kablarna och icke-kablarna
 			och deras egenskaper.
 		</para>
 	</sect1>
 
 	<sect1><title>Kabelegenskaper</title>
 		<para>
-			En kabel har en mängd olika egenskaper. Alla påverkar på olika
-			sätt hur bra den är i olika sammanhang. En kabel för att leda
-			starkström mellan ett kärnkraftverk och någon typ av ställvärk
-			eller mellan två kontinenter har vid en första anblick inte
-			mycket gemensamt med en ledning mellan två olika delar i ett
-			elektroniskt armbandsur. Men om man tänker efter så är flera
-			olika saker direkt jämförbara även om deras mätvärden inte ens
-			kommer i närheten av varandra.
+			En kabel har en mÃ¤ngd olika egenskaper. Alla pÃ¥verkar pÃ¥ olika
+			sÃ¤tt hur bra den Ã¤r i olika sammanhang. En kabel fÃ¶r att leda
+			starkstrÃ¶m mellan ett kÃ¤rnkraftverk och nÃ¥gon typ av stÃ¤llvÃ¤rk
+			eller mellan tvÃ¥ kontinenter har vid en fÃ¶rsta anblick inte
+			mycket gemensamt med en ledning mellan tvÃ¥ olika delar i ett
+			elektroniskt armbandsur. Men om man tÃ¤nker efter sÃ¥ Ã¤r flera
+			olika saker direkt jÃ¤mfÃ¶rbara Ã¤ven om deras mÃ¤tvÃ¤rden inte ens
+			kommer i nÃ¤rheten av varandra.
 		</para>
 		<para>
-			Båda kablarna har som uppgift att leda en ström. Den gigantiska
-			kabeln från kärnkraftverket eller mellan kontinenterna måste
-			kunna leda en enormt stor ström. Den måste också tåla väder och
-			vara utformad så att man inte kan skada sig på den. Kabeln i
-			klockan skall också leda en ström. Denna ström är bara en
-			bråkdel av strömmen i den stora kabeln. Kabeln i klockan måste
-			i stället vara tillräckligt tunn för att rymmas i klockan, den
-			måste dessutom vara utformad så att den tål eventuella stötar
-			klockan kan komma att utsättas för.
+			BÃ¥da kablarna har som uppgift att leda en strÃ¶m. Den gigantiska
+			kabeln frÃ¥n kÃ¤rnkraftverket eller mellan kontinenterna mÃ¥ste
+			kunna leda en enormt stor strÃ¶m. Den mÃ¥ste ocksÃ¥ tÃ¥la vÃ¤der och
+			vara utformad sÃ¥ att man inte kan skada sig pÃ¥ den. Kabeln i
+			klockan skall ocksÃ¥ leda en strÃ¶m. Denna strÃ¶m Ã¤r bara en
+			brÃ¥kdel av strÃ¶mmen i den stora kabeln. Kabeln i klockan mÃ¥ste
+			i stÃ¤llet vara tillrÃ¤ckligt tunn fÃ¶r att rymmas i klockan, den
+			mÃ¥ste dessutom vara utformad sÃ¥ att den tÃ¥l eventuella stÃ¶tar
+			klockan kan komma att utsÃ¤ttas fÃ¶r.
 		</para>
 		<para>
-			Även om dessa kablar inte liknar varandra ser vi att samma
-			storheter spelar in på dem. De skall leda en viss ström
-			(Ampere). De får inte ha för stort motstånd (Ohm) och så
+			Ã„ven om dessa kablar inte liknar varandra ser vi att samma
+			storheter spelar in pÃ¥ dem. De skall leda en viss strÃ¶m
+			(Ampere). De fÃ¥r inte ha fÃ¶r stort motstÃ¥nd (Ohm) och sÃ¥
 			vidare.
 		</para>
 		<para>
-			En annan aspekt på kablar som man måste tänka på är
-			brandfarligheten. Ofta när man drar nätverk i större hus så
-			blir det väldigt tjocka kabelbuntar i väggar och på skenor
-			under tak. Ur brandsynpunkt finns det två material att välja
-			på. PVC och Plenum, PVC är mer brandfarligt och kan utveckla
-			giftig rök när det brinner. Plenum däremt är mindre
-			brandfarligt. Plenum-kablar är betydligt dyrare än PVC-kablar
+			En annan aspekt pÃ¥ kablar som man mÃ¥ste tÃ¤nka pÃ¥ Ã¤r
+			brandfarligheten. Ofta nÃ¤r man drar nÃ¤tverk i stÃ¶rre hus sÃ¥
+			blir det vÃ¤ldigt tjocka kabelbuntar i vÃ¤ggar och pÃ¥ skenor
+			under tak. Ur brandsynpunkt finns det tvÃ¥ material att vÃ¤lja
+			pÃ¥. PVC och Plenum, PVC Ã¤r mer brandfarligt och kan utveckla
+			giftig rÃ¶k nÃ¤r det brinner. Plenum dÃ¤remt Ã¤r mindre
+			brandfarligt. Plenum-kablar Ã¤r betydligt dyrare Ã¤n PVC-kablar
 		</para>
 		<para>
-			De kankse viktigaste egenskaperna för kablar när det gäller
-			datorkommunikation är att de har rätt antal ledare, att de inte
-			har för stort motstånd över den längd de är avsedda för och att
-			de inte är störningskänsliga så att de klara de frekvenser de
-			kommer att utsättas för. Det finns en mängd olika kablar.
+			De kankse viktigaste egenskaperna fÃ¶r kablar nÃ¤r det gÃ¤ller
+			datorkommunikation Ã¤r att de har rÃ¤tt antal ledare, att de inte
+			har fÃ¶r stort motstÃ¥nd Ã¶ver den lÃ¤ngd de Ã¤r avsedda fÃ¶r och att
+			de inte Ã¤r stÃ¶rningskÃ¤nsliga sÃ¥ att de klara de frekvenser de
+			kommer att utsÃ¤ttas fÃ¶r. Det finns en mÃ¤ngd olika kablar.
 		</para>
 	</sect1>
 
 	<sect1><title>Kablar till periferiutrustning</title>
 		<para>
-			För att ansluta periferiutrustning till en dator finns det idag i
+			FÃ¶r att ansluta periferiutrustning till en dator finns det idag i
 			huvudsak tre olika kabeltyper. Seriekabel, parallellkabel och
 			USB-kabel. 
 		</para>
 
 		<sect2><title>Parallellkabel</title>
 			<para>
-				Parallellkabeln kallas också för skrivarkabel och används
-				huvudsakligen för att ansluta skrivare till en dator. Man
-				kan också använda den till att ansluta andra saker som till
-				exempel flyttbara hårddiskar, skannrar, och annat. Man kan
-				även koppla ihop två datorer med en parallellkabel för till
-				exempel filöverföring. Man skall tänka på att en
-				parallellkabel inte kan vara speciellt lång (se <xref
+				Parallellkabeln kallas ocksÃ¥ fÃ¶r skrivarkabel och anvÃ¤nds
+				huvudsakligen fÃ¶r att ansluta skrivare till en dator. Man
+				kan ocksÃ¥ anvÃ¤nda den till att ansluta andra saker som till
+				exempel flyttbara hÃ¥rddiskar, skannrar, och annat. Man kan
+				Ã¤ven koppla ihop tvÃ¥ datorer med en parallellkabel fÃ¶r till
+				exempel filÃ¶verfÃ¶ring. Man skall tÃ¤nka pÃ¥ att en
+				parallellkabel inte kan vara speciellt lÃ¥ng (se <xref
 				linkend="sect_parallell_kommunikation"/>).
 			</para>
 		</sect2>
 
 		<sect2><title>Seriekabel</title>
 			<para>
-				Seriekabeln används oftast för att ansluta modem men den kan
-				även användas för en mängd olika saker, som till exempel att
-				ansluta en digitalkamera eller överföra filer. Seriekablar
-				kan vara väldigt långa.
+				Seriekabeln anvÃ¤nds oftast fÃ¶r att ansluta modem men den kan
+				Ã¤ven anvÃ¤ndas fÃ¶r en mÃ¤ngd olika saker, som till exempel att
+				ansluta en digitalkamera eller Ã¶verfÃ¶ra filer. Seriekablar
+				kan vara vÃ¤ldigt lÃ¥nga.
 			</para>
 		</sect2>
 
 		<sect2><title>USB-kabel</title>
 			<para>
-				USB <emphasis>Universal Serial Bus</emphasis> är ett
-				gränssnitt som blir allt vanligare. I många fall ersätter
-				det både seriekablar och parallellkablar. Både modem,
+				USB <emphasis>Universal Serial Bus</emphasis> Ã¤r ett
+				grÃ¤nssnitt som blir allt vanligare. I mÃ¥nga fall ersÃ¤tter
+				det bÃ¥de seriekablar och parallellkablar. BÃ¥de modem,
 				kameror och skrivare ansluts allt oftare via USB. Det finns
 				flera skillnader mellan den vanliga seriekabeln och USB. Den
-				största skillnaden är att USB, som namnet antyder, är ett
-				bussystem. Det gör att man inte har en kommunikation bara
-				mellan två punkter utan man kan koppla in flera enheter på
+				stÃ¶rsta skillnaden Ã¤r att USB, som namnet antyder, Ã¤r ett
+				bussystem. Det gÃ¶r att man inte har en kommunikation bara
+				mellan tvÃ¥ punkter utan man kan koppla in flera enheter pÃ¥
 				samma uttag.
 			</para>
 		</sect2>
 	</sect1>
 
-	<sect1><title>Kablar till datornätverk</title>
+	<sect1><title>Kablar till datornÃ¤tverk</title>
 		<para>
 			Det blir allt vanligare att man kopplar ihop flera datorer i
-			ett datornät. De allra flesta nya datorer idag har nätverkskort
-			eller modem och ansluts till ett nätverk. 
+			ett datornÃ¤t. De allra flesta nya datorer idag har nÃ¤tverkskort
+			eller modem och ansluts till ett nÃ¤tverk. 
 		</para>
 		<para>
-			Fortfarande är kablar det vanligaste sättet att bygga ett
-			datornätverk även om trådlösa alternativ kommer starkt.
+			Fortfarande Ã¤r kablar det vanligaste sÃ¤ttet att bygga ett
+			datornÃ¤tverk Ã¤ven om trÃ¥dlÃ¶sa alternativ kommer starkt.
 		</para>
 
 		<sect2><title>Twisted-pair (TP)</title>
 			<para>
-				Twisted-pair eller partvinnad kabel, kallas vardagligt för
-				TP-kabel,  är den vanligaste typen av kabel i installationer
-				inom byggnader.  TP-kabel är är lätt att dra i byggnader och
-				är ekonomiskt fördelaktig.
+				Twisted-pair eller partvinnad kabel, kallas vardagligt fÃ¶r
+				TP-kabel,  Ã¤r den vanligaste typen av kabel i installationer
+				inom byggnader.  TP-kabel Ã¤r Ã¤r lÃ¤tt att dra i byggnader och
+				Ã¤r ekonomiskt fÃ¶rdelaktig.
 			</para>
 			<para>
 				I en vanlig TP-kabel finns det 4 par kablar. Det finns dem
-				med bara två par också men de används inte så ofta för
-				datornätverk utan används oftast bara till telefontrafik.
-				Som namnet antyder är ledarna i varje par tvinnade om
-				varandra. Man kan känna detta om drar fingrarna längs en
-				TP-kabel. Anledningen till att man tvinnar dem är att minska
-				känsligheten för störningar, både för störningar utifrån, så
-				kallad interferens, och inre störningar i kabeln, så kallad
-				crosstalk. Kanske minns nu från fysiken hur ett
-				elektromagnetiskt fält vrider sig runt kabeln. Genom att
-				tvinna två kablar tar dessa magnetfält ut varandra och
-				minskar risken för störningar.
+				med bara tvÃ¥ par ocksÃ¥ men de anvÃ¤nds inte sÃ¥ ofta fÃ¶r
+				datornÃ¤tverk utan anvÃ¤nds oftast bara till telefontrafik.
+				Som namnet antyder Ã¤r ledarna i varje par tvinnade om
+				varandra. Man kan kÃ¤nna detta om drar fingrarna lÃ¤ngs en
+				TP-kabel. Anledningen till att man tvinnar dem Ã¤r att minska
+				kÃ¤nsligheten fÃ¶r stÃ¶rningar, bÃ¥de fÃ¶r stÃ¶rningar utifrÃ¥n, sÃ¥
+				kallad interferens, och inre stÃ¶rningar i kabeln, sÃ¥ kallad
+				crosstalk. Kanske minns nu frÃ¥n fysiken hur ett
+				elektromagnetiskt fÃ¤lt vrider sig runt kabeln. Genom att
+				tvinna tvÃ¥ kablar tar dessa magnetfÃ¤lt ut varandra och
+				minskar risken fÃ¶r stÃ¶rningar.
 			</para>
 			<para>
-				Det finns två typer av TP-kabel, skärmad och oskärmad. Den
-				skärmade varianten kallas för STP och den oskärmade för UTP.
-				TP-kabel klarar överföringar på 10 - 155 Mbit/s. Det finns
-				även de som klarar 1000Mbit/s.
+				Det finns tvÃ¥ typer av TP-kabel, skÃ¤rmad och oskÃ¤rmad. Den
+				skÃ¤rmade varianten kallas fÃ¶r STP och den oskÃ¤rmade fÃ¶r UTP.
+				TP-kabel klarar Ã¶verfÃ¶ringar pÃ¥ 10 - 155 Mbit/s. Det finns
+				Ã¤ven de som klarar 1000Mbit/s.
 			</para>
 
-				<sect3><title>Oskärmad TP-kabel (UTP)</title>
+				<sect3><title>OskÃ¤rmad TP-kabel (UTP)</title>
 					<para>
-						Oskärmad TP-kabel brukar kallas UTP. Det kommer från
+						OskÃ¤rmad TP-kabel brukar kallas UTP. Det kommer frÃ¥n
 						engelskans Unshielded Twisted Pair. Den har normalt 8
-						ledningar (4 par). UTP kabel är mycket mjuk och
-						följsam vilket gör den lätt (billig) att installera i
+						ledningar (4 par). UTP kabel Ã¤r mycket mjuk och
+						fÃ¶ljsam vilket gÃ¶r den lÃ¤tt (billig) att installera i
 						en byggnad. 
 					</para>
 				</sect3>
 				
-				<sect3><title>Skärmad TP-kabel (STP)</title>
+				<sect3><title>SkÃ¤rmad TP-kabel (STP)</title>
 					<para>
-						Skärmad TP-kabel kallas STP som i Shielded Twisted
-						Pair.  Trots att kabelparen är tvinnade så ar
-						UTP-kabel känslig för störningar. Därför finns STP.
-						Den ser likadan ut som UTP men har en skärm mellan
-						ledarna och ytterhöljet.  Denna skärm består oftast av
-						aluminiumfolie eller kopparväv. STP blir, tack vara
-						skärmen, lite stelare och svårare att installera. Men
-						den är ändå relativt lättinstallerad. STP är också
-						dyrare är UTP.
+						SkÃ¤rmad TP-kabel kallas STP som i Shielded Twisted
+						Pair.  Trots att kabelparen Ã¤r tvinnade sÃ¥ ar
+						UTP-kabel kÃ¤nslig fÃ¶r stÃ¶rningar. DÃ¤rfÃ¶r finns STP.
+						Den ser likadan ut som UTP men har en skÃ¤rm mellan
+						ledarna och ytterhÃ¶ljet.  Denna skÃ¤rm bestÃ¥r oftast av
+						aluminiumfolie eller kopparvÃ¤v. STP blir, tack vara
+						skÃ¤rmen, lite stelare och svÃ¥rare att installera. Men
+						den Ã¤r Ã¤ndÃ¥ relativt lÃ¤ttinstallerad. STP Ã¤r ocksÃ¥
+						dyrare Ã¤r UTP.
 					</para>
 				</sect3>
 			</sect2>
 
 			<sect2><title>Koaxialkabel (Koax)</title>
 				<para>
-					Koaxialkabel är en kabel med en ledare i mitten. Runt
-					denna finns en isolator och utanpå den en skärm. Ytterst
-					finns ett skyddande och isolerade hölje. Ledningarnas
-					centrumaxel sammanfaller vilket är bra ur eftersom den
-					elektromagnetiska strålningen, som kan störa. blir
+					Koaxialkabel Ã¤r en kabel med en ledare i mitten. Runt
+					denna finns en isolator och utanpÃ¥ den en skÃ¤rm. Ytterst
+					finns ett skyddande och isolerade hÃ¶lje. Ledningarnas
+					centrumaxel sammanfaller vilket Ã¤r bra ur eftersom den
+					elektromagnetiska strÃ¥lningen, som kan stÃ¶ra. blir
 					minimal.
 				</para>
 				<para>
-					Koaxialkabel är styvare än TP-kabel och är därför svårare
-					att installera. Svårare är detta fall lika med dyrare.
+					Koaxialkabel Ã¤r styvare Ã¤n TP-kabel och Ã¤r dÃ¤rfÃ¶r svÃ¥rare
+					att installera. SvÃ¥rare Ã¤r detta fall lika med dyrare.
 				</para>
 
 			</sect2>
 
 			<sect2><title>Fiberoptisk kabel (Fiber)</title>
 				<para>
-					Fiberoptisk kabel har en kärna av glas eller plast som
-					släpper igenom ljus mycket bra. Ljus i ena änden på
+					Fiberoptisk kabel har en kÃ¤rna av glas eller plast som
+					slÃ¤pper igenom ljus mycket bra. Ljus i ena Ã¤nden pÃ¥
 					kabeln tar sig blixtsnabbt igenom kabeln och kan
-					registreras på andra sidan.
+					registreras pÃ¥ andra sidan.
 				</para>
 				<para>
-					Fiberoptisk kabel är billig och har en enorm kapacitet
-					som vida överstiger de andra kablarna. Dock är
-					fiberoptisk kabel svårare att hantera, till exempel
-					behövs speciella verktyg för att skarva kabeln. Ledaren
-					är extremt känslig, både för böjning och för slag.
-					Fiberoptisk kabel skall installeras av proffs. Av någon
-					anledning är fideroptisk kabel ofta grön.
+					Fiberoptisk kabel Ã¤r billig och har en enorm kapacitet
+					som vida Ã¶verstiger de andra kablarna. Dock Ã¤r
+					fiberoptisk kabel svÃ¥rare att hantera, till exempel
+					behÃ¶vs speciella verktyg fÃ¶r att skarva kabeln. Ledaren
+					Ã¤r extremt kÃ¤nslig, bÃ¥de fÃ¶r bÃ¶jning och fÃ¶r slag.
+					Fiberoptisk kabel skall installeras av proffs. Av nÃ¥gon
+					anledning Ã¤r fideroptisk kabel ofta grÃ¶n.
 				</para>
 				<para>
-					Fiberoptisk kabel är det vanligaste alternativet idag vi
-					snabbare internetförbindelser.
+					Fiberoptisk kabel Ã¤r det vanligaste alternativet idag vi
+					snabbare internetfÃ¶rbindelser.
 				</para>
 			</sect2>
 
 	</sect1>
 
-	<sect1><title>Trådlösa alternativ</title>
+	<sect1><title>TrÃ¥dlÃ¶sa alternativ</title>
 		<para>
-			Kablar har många nackdelar. Till exempel så kostar de en hel
-			del. Även om kostnaden för kabeln kanske inte är så stor så
-			kostar den att installera. Vidare är kablar svåra att dölja vid
-			en installation. Man vill ju inte ha kablar kors och tvärs
-			överallt i en lokal. Kablar är inte heller så flexibla för
-			användaren. Skall man gå från sitt skrivbord till soffan eller
-			fika-bordet och vill ha sin laptop med sig blir det krångligt
-			med sladdar. Har man trådlöst nätverk till sin dator
-			underlättar det avsevärt.
+			Kablar har mÃ¥nga nackdelar. Till exempel sÃ¥ kostar de en hel
+			del. Ã„ven om kostnaden fÃ¶r kabeln kanske inte Ã¤r sÃ¥ stor sÃ¥
+			kostar den att installera. Vidare Ã¤r kablar svÃ¥ra att dÃ¶lja vid
+			en installation. Man vill ju inte ha kablar kors och tvÃ¤rs
+			Ã¶verallt i en lokal. Kablar Ã¤r inte heller sÃ¥ flexibla fÃ¶r
+			anvÃ¤ndaren. Skall man gÃ¥ frÃ¥n sitt skrivbord till soffan eller
+			fika-bordet och vill ha sin laptop med sig blir det krÃ¥ngligt
+			med sladdar. Har man trÃ¥dlÃ¶st nÃ¤tverk till sin dator
+			underlÃ¤ttar det avsevÃ¤rt.
 		</para>
 		<para>
 			Och sist men inte minst. Sladdar och kablar kan inte ligga
 			still bredvid varandra utan att bilda trassel, bara det kan
-			motivera ett byte till trådlösa alternativ. Man skall dock vara
+			motivera ett byte till trÃ¥dlÃ¶sa alternativ. Man skall dock vara
 			medveten om problemen.
 		</para>
 		<para>
-			Trådlös kommunikation kan låta som himmelriket men är
-			förknippat med en hel del problem. För det första får man räkna
-			med att kapaciteten minskar mot kabelalternativ och framför
-			allt att säkerheten som regel minskar. Man måste ta detta i
-			anspråk innan man beslutar sig för att upprätta en trådlös
+			TrÃ¥dlÃ¶s kommunikation kan lÃ¥ta som himmelriket men Ã¤r
+			fÃ¶rknippat med en hel del problem. FÃ¶r det fÃ¶rsta fÃ¥r man rÃ¤kna
+			med att kapaciteten minskar mot kabelalternativ och framfÃ¶r
+			allt att sÃ¤kerheten som regel minskar. Man mÃ¥ste ta detta i
+			ansprÃ¥k innan man beslutar sig fÃ¶r att upprÃ¤tta en trÃ¥dlÃ¶s
 			kommunikation.
 		</para>
 
-		<sect2><title>Infrarött ljus (IR)</title>
+		<sect2><title>InfrarÃ¶tt ljus (IR)</title>
 			<para>
-				Infrarött ljus kan användas för att överföra data mellan
-				olika enheter som stödjer detta. Vanligast är att det
-				används för att föra över information mellan små enheter som
-				till exempel handdatorer. Det är också vanligt att det
-				används för att ansluta pereferienheter, framför allt
-				skrivare, till bärbara datorer för att slippa hålla på med
-				kablar. Det går också att använda IR för att föra över filer
-				mellan bärbara datorer. En nackdel med IR är att det måste
-				vara fri sikt mellan sändaren och mottagaren och att dessa
-				är ganska riktingskänsliga. Det blir vanligare och vanligare
-				att Bluetooth tar över där IR vanligt vanligt.
+				InfrarÃ¶tt ljus kan anvÃ¤ndas fÃ¶r att Ã¶verfÃ¶ra data mellan
+				olika enheter som stÃ¶djer detta. Vanligast Ã¤r att det
+				anvÃ¤nds fÃ¶r att fÃ¶ra Ã¶ver information mellan smÃ¥ enheter som
+				till exempel handdatorer. Det Ã¤r ocksÃ¥ vanligt att det
+				anvÃ¤nds fÃ¶r att ansluta pereferienheter, framfÃ¶r allt
+				skrivare, till bÃ¤rbara datorer fÃ¶r att slippa hÃ¥lla pÃ¥ med
+				kablar. Det gÃ¥r ocksÃ¥ att anvÃ¤nda IR fÃ¶r att fÃ¶ra Ã¶ver filer
+				mellan bÃ¤rbara datorer. En nackdel med IR Ã¤r att det mÃ¥ste
+				vara fri sikt mellan sÃ¤ndaren och mottagaren och att dessa
+				Ã¤r ganska riktingskÃ¤nsliga. Det blir vanligare och vanligare
+				att Bluetooth tar Ã¶ver dÃ¤r IR vanligt vanligt.
 			</para>
 		</sect2>
 
 		<sect2><title>Radio</title>
 			<para>
-				Radio är det vanligaste alternativet när det gäller att
-				sätta upp trådlösa nätverk, så kallade <emphasis>Wireless
+				Radio Ã¤r det vanligaste alternativet nÃ¤r det gÃ¤ller att
+				sÃ¤tta upp trÃ¥dlÃ¶sa nÃ¤tverk, sÃ¥ kallade <emphasis>Wireless
 				LAN</emphasis> eller <emphasis>WLAN</emphasis>. Eftersom man
-				oftast använder radio till dessa kallas de ibland för
-				radio-LAN. De standarder som är vanligast inom detta område
-				kommer från <emphasis>IEEE</emphasis> (http://www.ieee.org/)
-				och är en familj av protokoll under namnet <emphasis>IEEE
+				oftast anvÃ¤nder radio till dessa kallas de ibland fÃ¶r
+				radio-LAN. De standarder som Ã¤r vanligast inom detta omrÃ¥de
+				kommer frÃ¥n <emphasis>IEEE</emphasis> (http://www.ieee.org/)
+				och Ã¤r en familj av protokoll under namnet <emphasis>IEEE
 				802.11</emphasis> (http://www.ieee802.org/11/).  Kapaciteten
-				beror på vilken standard man använder sig av. Vanligast idag
-				är IEEE 802.11b som tillåter 11 Mbit/s men betydligt
+				beror pÃ¥ vilken standard man anvÃ¤nder sig av. Vanligast idag
+				Ã¤r IEEE 802.11b som tillÃ¥ter 11 Mbit/s men betydligt
 				snabbare finns.
 			</para>
 			<para>
-				Till 802.11 togs en standard fram för att höja säkerheten.
+				Till 802.11 togs en standard fram fÃ¶r att hÃ¶ja sÃ¤kerheten.
 				Den kallas WEP <emphasis>Wireless Equivalence
-				Privacy</emphasis> och följer med de flesta produkter.
-				Namnet antyder syftet med den, den är avsedd att höja
-				säkerhetsnivån till den som motsvaras av ett kabelburet
-				nätverk. Det vill säga, inte perfekt, men bra nog för de
-				flesta. Tyvärr har det visat sig att den har stora brister
-				varför WEP enbart inte räcker för att göra ett trådlöst nät
-				speciellt säkert.
+				Privacy</emphasis> och fÃ¶ljer med de flesta produkter.
+				Namnet antyder syftet med den, den Ã¤r avsedd att hÃ¶ja
+				sÃ¤kerhetsnivÃ¥n till den som motsvaras av ett kabelburet
+				nÃ¤tverk. Det vill sÃ¤ga, inte perfekt, men bra nog fÃ¶r de
+				flesta. TyvÃ¤rr har det visat sig att den har stora brister
+				varfÃ¶r WEP enbart inte rÃ¤cker fÃ¶r att gÃ¶ra ett trÃ¥dlÃ¶st nÃ¤t
+				speciellt sÃ¤kert.
 			</para>
 		</sect2>
 
-		<sect2><title>Bluetooth (Blåtand)</title>
+		<sect2><title>Bluetooth (BlÃ¥tand)</title>
 			<para>
-				Bluetooth, eller blåtand som det också kallas, är en
-				standard som från början togs fram av Ericsson. Nu styrs
-				standarden av ett större organ med över 100 medlemmar.
+				Bluetooth, eller blÃ¥tand som det ocksÃ¥ kallas, Ã¤r en
+				standard som frÃ¥n bÃ¶rjan togs fram av Ericsson. Nu styrs
+				standarden av ett stÃ¶rre organ med Ã¶ver 100 medlemmar.
 			</para>
 			<para>
-				Bluetooth är inte direkt menat för datornätverk även om det
-				idag kan användas till det. Bluetooth är avsett för det som
-				brukar kallas personliga nätverk. Det vill säga nätverk som
-				bara används av en person. Det kan vara till exempel mellan
+				Bluetooth Ã¤r inte direkt menat fÃ¶r datornÃ¤tverk Ã¤ven om det
+				idag kan anvÃ¤ndas till det. Bluetooth Ã¤r avsett fÃ¶r det som
+				brukar kallas personliga nÃ¤tverk. Det vill sÃ¤ga nÃ¤tverk som
+				bara anvÃ¤nds av en person. Det kan vara till exempel mellan
 				en telefon och ett headset, mellan en handdator/ljudspelare
-				och hörlurar eller mellan en dator och en datormus. Eftersom
-				det är avsett för dessa små nätverk har Bluetooth väldigt
-				begränsad räckvidd. Upp till 10 eller 100 meter beroende på
+				och hÃ¶rlurar eller mellan en dator och en datormus. Eftersom
+				det Ã¤r avsett fÃ¶r dessa smÃ¥ nÃ¤tverk har Bluetooth vÃ¤ldigt
+				begrÃ¤nsad rÃ¤ckvidd. Upp till 10 eller 100 meter beroende pÃ¥
 				utrustning.
 			</para>
 			<para> 
-				Bluetooth är idag mycket vanligt i till exempel
-				mobiltelefoner och handdatorer. I vanliga datorer är det
-				ännu inte lika vanligt men väntas komma där med.
+				Bluetooth Ã¤r idag mycket vanligt i till exempel
+				mobiltelefoner och handdatorer. I vanliga datorer Ã¤r det
+				Ã¤nnu inte lika vanligt men vÃ¤ntas komma dÃ¤r med.
 			</para>
 		</sect2>
 
 		<sect2><title>Mobiltelefon</title>
 			<para>
-				Ofta vill man komma åt sina nätverk var man än befinner sig.
-				I dagsläget är det enda rimliga alternativet för detta att
-				använda sig av mobiltelefonnätet. Det finns flera sätt att
-				ansluta till ett datornätverk via mobiltelefonen. Till
-				exempel kan man använda den som en helt vanlig telefon och
+				Ofta vill man komma Ã¥t sina nÃ¤tverk var man Ã¤n befinner sig.
+				I dagslÃ¤get Ã¤r det enda rimliga alternativet fÃ¶r detta att
+				anvÃ¤nda sig av mobiltelefonnÃ¤tet. Det finns flera sÃ¤tt att
+				ansluta till ett datornÃ¤tverk via mobiltelefonen. Till
+				exempel kan man anvÃ¤nda den som en helt vanlig telefon och
 				ringa upp ett modem precis som med en vanlig telefon. Dock
-				skall man tänka på att hastigheten i det fallet inte blir
+				skall man tÃ¤nka pÃ¥ att hastigheten i det fallet inte blir
 				lika snabb som med en vanlig telefon eftersom
-				mobiltelefonnätet inte förmedlar lika mycket information
+				mobiltelefonnÃ¤tet inte fÃ¶rmedlar lika mycket information
 				(bandbredd).
 			</para>
 			<para>
-				Eftersom man inte kan utnyttja mobiltelefonnätet så bra för
-				datorkommunikation på traditionellt sätt så har nya tekniker
+				Eftersom man inte kan utnyttja mobiltelefonnÃ¤tet sÃ¥ bra fÃ¶r
+				datorkommunikation pÃ¥ traditionellt sÃ¤tt sÃ¥ har nya tekniker
 				tagits fram som nyttjar samma infrastruktur. Det vanligaste
-				idag är GPRS.  GPRS är ett paketförmedlat system som kan
-				användas samtidigt som man talar i telefonen. Det har en
-				hastighet på 9-160 kbit/s beroende på belastning i systemet.
+				idag Ã¤r GPRS.  GPRS Ã¤r ett paketfÃ¶rmedlat system som kan
+				anvÃ¤ndas samtidigt som man talar i telefonen. Det har en
+				hastighet pÃ¥ 9-160 kbit/s beroende pÃ¥ belastning i systemet.
 			</para>
 			<para>
-				I det nya mobiltelefonnätet <emphasis>UMTS</emphasis>, även
-				kallat 3G. UMTS använder ett mycket större frekvensområde än
-				dagens mobiltelefoner <emphasis>GSM</emphasis> och är bland
-				annat mer lämpligt för datatrafik.
+				I det nya mobiltelefonnÃ¤tet <emphasis>UMTS</emphasis>, Ã¤ven
+				kallat 3G. UMTS anvÃ¤nder ett mycket stÃ¶rre frekvensomrÃ¥de Ã¤n
+				dagens mobiltelefoner <emphasis>GSM</emphasis> och Ã¤r bland
+				annat mer lÃ¤mpligt fÃ¶r datatrafik.
 			</para>
 		</sect2>
 	</sect1>

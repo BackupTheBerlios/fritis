@@ -1,7 +1,7 @@
 <appendix id="rfc">
-	<title>Tabell över några av de RFC:er som berör boken</title>
+	<title>Tabell Ã¶ver nÃ¥gra av de RFC:er som berÃ¶r boken</title>
 	<table frame="all" id="tab_rfc">
-		<title>Exmpel på RFC:er som är relaterade till boken</title>
+		<title>Exmpel pÃ¥ RFC:er som Ã¤r relaterade till boken</title>
 		<tgroup cols='3' align='center' colsep='1' rowsep='1'>
 		<colspec colname='c1'/>
 		<colspec colname='c2'colwidth="4*"/>

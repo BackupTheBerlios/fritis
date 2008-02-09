@@ -4,20 +4,21 @@
 	</head>
 	<body bgcolor="lightyellow">
 		<h1>__TITLE__</h1>
-		Av: Marcus RejÂs <a href="mailto:marcus@rejas.se">&lt;marcus@rejas.se&gt;</a><br>
-		RejÂs Datakonsult<br>
+		Av: Marcus Rej√•s <a href="mailto:marcus@rejas.se">&lt;marcus@rejas.se&gt;</a><br>
+		Rej√•s Datakonsult<br>
 		
 		<i>Senast uppdaterad: __DATE__ (__VERSION__)</i>
-
 		
 		<p>
-		Denna bok ‰r en del av <a
+		Denna bok √§r en del av <a
 		href="http://www.fritis.se">Fritis - Fri IT i
-		skolan</a>. Besˆk g‰rna projektet och <a
-		href="http://www.fritis.se/bok/datorkommunikation">skriv en kommentar om denna bok</a>.
+		skolan</a>. Bes√∂k g√§rna projektet och <a href="http://www.fritis.se/bok/datorkommunikation">skriv en kommentar om denna bok</a>.
 
+		<h2>Sponsorer</h2>
+		<p>Denna bok sponsras av Rej√•s Datakonsult och .SEs
+		Internetfond.</p>
 
-		<h2>L‰s boken</h2>
+		<h2>L√§s boken</h2>
 
 		<h3>Online</h3>
 		<a href="book1.html">HTML-Format</a>
@@ -27,13 +28,12 @@
 		<a href="__BASE_FILE_NAME__.pdf">Adobe PDF</a>
 
 		<h2>Laborationer</h2>
-		Alla laborationer finns <a href="laborationer">h‰r</a>.
+		Alla laborationer finns <a href="laborationer">h√§r</a>.
 
-		<h2>Hj‰lpa till / ƒndra / Jobba vidare</h2>
+		<h2>Hj√§lpa till / √Ñndra / Jobba vidare</h2>
 
-		<a href="__BASE_FILE_NAME__.tar.gz">K‰llkod</a>
+		<a href="__BASE_FILE_NAME__.tar.gz">K√§llkod</a>
 		
 		
 	</body>
 </html>
-	

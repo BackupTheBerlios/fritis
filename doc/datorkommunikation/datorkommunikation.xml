@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="latin1" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
  "/usr/share/sgml/docbook/dtd/4.2/docbookx.dtd" [
 <!ENTITY fdl-sv SYSTEM "fdl-sv.xml">
@@ -36,9 +36,9 @@
 
 	<author>
 		<firstname>Marcus</firstname> 
-		<surname>Rejås</surname>
+		<surname>RejÃ¥s</surname>
 		<affiliation>
-			<orgname>Rejås Datakonsult</orgname>
+			<orgname>RejÃ¥s Datakonsult</orgname>
 			<address><email>marcus@rejas.se</email></address>
 		</affiliation>
 	</author>
@@ -47,21 +47,21 @@
 		<firstname>Johan</firstname>
 		<surname>Hammar</surname>
 		<contrib>
-			Mycket uppskattad korrekturläsning.
+			Mycket uppskattad korrekturlÃ¤sning.
 		</contrib>
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2005/11/15 12:54:07 $</pubdate>
+	<pubdate>$Date: 2008/02/09 20:44:57 $</pubdate>
 
 	<copyright>
-		<year>2003 - 2005</year>
-		<holder>Marcus Rejås</holder>
+		<year>2003,2004,2005,2007,2008</year>
+		<holder>Marcus RejÃ¥s</holder>
 	</copyright>
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.53 $</revnumber>
+			<revnumber>$Revision: 1.54 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -80,147 +80,147 @@
 			Documentation License".
 		</para>
 		<para>
-			[Översättning:] Var och en äger rätt att kopiera, sprida
-			och/eller förändra detta dokument under villkoren i licensen
+			[Ã–versÃ¤ttning:] Var och en Ã¤ger rÃ¤tt att kopiera, sprida
+			och/eller fÃ¶rÃ¤ndra detta dokument under villkoren i licensen
 			"GNU Free Documentation License", version 1.2 eller senare
-			publicerad av Free Software Foundation, med de oföränderliga
+			publicerad av Free Software Foundation, med de ofÃ¶rÃ¤nderliga
 			avsnitten <xref linkend="dtr1201"/> och <xref
 			linkend="forord"/>, utan framsidestexter och utan
 			baksidestexter.  En kopia av denna licens finns med i avsnittet
 			med titeln "GNU Free Documentation License".
 		</para>
 		<para>
-			Det vill säga, du kan fritt ladda ner, vidaredistribuera och
-			kopiera denna bok. Du får ändra den om du vill (se
-			licenstexten).  Tryckta böcker kan köpas av TriNix AB i
+			Det vill sÃ¤ga, du kan fritt ladda ner, vidaredistribuera och
+			kopiera denna bok. Du fÃ¥r Ã¤ndra den om du vill (se
+			licenstexten).  Tryckta bÃ¶cker kan kÃ¶pas av TriNix AB i
 			Helsingborg, telefon 042-127800.
 		</para>
 	</legalnotice>
 
 	<abstract>
 		<para>
-			Denna bok är anpassad för gymnasieskolans kurs
+			Denna bok Ã¤r anpassad fÃ¶r gymnasieskolans kurs
 			datorkommunikation med kurskoden DTR1201 (<xref
-			linkend="dtr1201"/>). Den kan naturligtvis användas även i
+			linkend="dtr1201"/>). Den kan naturligtvis anvÃ¤ndas Ã¤ven i
 			andra sammanhang.
 		</para>
 	</abstract>
 
 </bookinfo>
 
-<preface id="forord"><title>Förord</title>
+<preface id="forord"><title>FÃ¶rord</title>
 	<sect1><title>Tack till</title>
 		<para>
-			Jag vill börja denna bok med att tacka alla som hjälpt mig med
-			den. Framför allt då <emphasis>Johan Hammar</emphasis> och
-			<emphasis>Kalevi Nyman</emphasis> som ställt upp med
-			korrekturläsning och <emphasis>XXXX XXXX</emphasis> som ritat
-			alla fina bilder. Utan er hade boken inte varit så bra som den
-			är idag. Tack!
+			Jag vill bÃ¶rja denna bok med att tacka alla som hjÃ¤lpt mig med
+			den. FramfÃ¶r allt dÃ¥ <emphasis>Johan Hammar</emphasis> och
+			<emphasis>Kalevi Nyman</emphasis> som stÃ¤llt upp med
+			korrekturlÃ¤sning och <emphasis>XXXX XXXX</emphasis> som ritat
+			alla fina bilder. Utan er hade boken inte varit sÃ¥ bra som den
+			Ã¤r idag. Tack!
 		</para>
 		<para>
-			Jag vill också tacka dig som läser denna bok. Hittar du något
-			som är fel eller som du tycker att man kan göra på något bättre
-			sätt så tveka inte att höra av dig till mig. Min adress står i
-			början av boken. Jag har mina begränsningar som författare men
-			genom att släppa denna bok fri förväntar jag mig att du som
-			läsare skall skicka mig kommentarer så att vi tillsammans kan
-			göra den mycket bättre än vad jag och kanske du skulle ensamma.
-			Några exempel på de som gjort detta är <emphasis>Bengt
-			Gördén</emphasis> som gett mycket bra feedback om NAT,
-			<emphasis>Pär Lindskog</emphasis> som gett bra feedback
-			angående IMAP, <emphasis>Jan Johansson</emphasis> som bidragit
+			Jag vill ocksÃ¥ tacka dig som lÃ¤ser denna bok. Hittar du nÃ¥got
+			som Ã¤r fel eller som du tycker att man kan gÃ¶ra pÃ¥ nÃ¥got bÃ¤ttre
+			sÃ¤tt sÃ¥ tveka inte att hÃ¶ra av dig till mig. Min adress stÃ¥r i
+			bÃ¶rjan av boken. Jag har mina begrÃ¤nsningar som fÃ¶rfattare men
+			genom att slÃ¤ppa denna bok fri fÃ¶rvÃ¤ntar jag mig att du som
+			lÃ¤sare skall skicka mig kommentarer sÃ¥ att vi tillsammans kan
+			gÃ¶ra den mycket bÃ¤ttre Ã¤n vad jag och kanske du skulle ensamma.
+			NÃ¥gra exempel pÃ¥ de som gjort detta Ã¤r <emphasis>Bengt
+			GÃ¶rdÃ©n</emphasis> som gett mycket bra feedback om NAT,
+			<emphasis>PÃ¤r Lindskog</emphasis> som gett bra feedback
+			angÃ¥ende IMAP, <emphasis>Jan Johansson</emphasis> som bidragit
 			med stycken om bryggor och repeatrar och Simon Schmidt som
-			hittade fel i kapitlet om Internet. Tack alla för er hjälp!
+			hittade fel i kapitlet om Internet. Tack alla fÃ¶r er hjÃ¤lp!
 		</para>
 		<para>
-			Sist vill jag tacka min <emphasis>Jenny</emphasis> som står ut
-			med att ha en datanörd hemmavid. Att skriva böcker för att ge
-			bort dem samt att engagera sig i en massa öppna projekt vid
-			sidan om mer än ett heltidsjobb tar sin tid och kräver mycket
-			tålamod och förståelse av de nära. Allt det ger Jenny mig
-			vilket jag är mycket tacksam för. Ni borde också tacka Jenny,
+			Sist vill jag tacka min <emphasis>Jenny</emphasis> som stÃ¥r ut
+			med att ha en datanÃ¶rd hemmavid. Att skriva bÃ¶cker fÃ¶r att ge
+			bort dem samt att engagera sig i en massa Ã¶ppna projekt vid
+			sidan om mer Ã¤n ett heltidsjobb tar sin tid och krÃ¤ver mycket
+			tÃ¥lamod och fÃ¶rstÃ¥else av de nÃ¤ra. Allt det ger Jenny mig
+			vilket jag Ã¤r mycket tacksam fÃ¶r. Ni borde ocksÃ¥ tacka Jenny,
 			utan Jenny -- ingen bok.
 		</para>
 	</sect1>
 
-	<sect1><title>Några ord om denna bok</title>
+	<sect1><title>NÃ¥gra ord om denna bok</title>
 		<para>
-			Jag vill också passa på att berätta lite om denna bok, varför
-			jag skriver den, varför jag släpper den helt fritt och kanske
-			varför den blev som den blev.
+			Jag vill ocksÃ¥ passa pÃ¥ att berÃ¤tta lite om denna bok, varfÃ¶r
+			jag skriver den, varfÃ¶r jag slÃ¤pper den helt fritt och kanske
+			varfÃ¶r den blev som den blev.
 		</para>
 		<para>
 			Det finns flera anledningar till att jag skriver denna bok. Den
-			största anledningen är att jag till vardags håller bland annat
-			denna kurs i en gymnasieskola. Jag har läst ett flertal böcker
-			på området och tycker inte att någon lägger upp kursen på det
-			sätt jag vill och vissa innehåller inte heller allt det som
-			står i kursplanen. Jag har utgått från kursplanen när jag gjort
-			denna bok så allt skall vara med. Man bör komplettera med
-			labbar också eftersom kursplanen nämner en del praktiska
-			moment. Det finns labbar att hämta på denna boks hemsida. Har
-			du förslag på labbar, lektionsförslag, övningar eller annat så
-			tveka inte att skicka dem till mig. Tillsammans kan vi göra ett
-			suveränt kursmaterial som kan gagna både elever, lärare och
+			stÃ¶rsta anledningen Ã¤r att jag till vardags hÃ¥ller bland annat
+			denna kurs i en gymnasieskola. Jag har lÃ¤st ett flertal bÃ¶cker
+			pÃ¥ omrÃ¥det och tycker inte att nÃ¥gon lÃ¤gger upp kursen pÃ¥ det
+			sÃ¤tt jag vill och vissa innehÃ¥ller inte heller allt det som
+			stÃ¥r i kursplanen. Jag har utgÃ¥tt frÃ¥n kursplanen nÃ¤r jag gjort
+			denna bok sÃ¥ allt skall vara med. Man bÃ¶r komplettera med
+			labbar ocksÃ¥ eftersom kursplanen nÃ¤mner en del praktiska
+			moment. Det finns labbar att hÃ¤mta pÃ¥ denna boks hemsida. Har
+			du fÃ¶rslag pÃ¥ labbar, lektionsfÃ¶rslag, Ã¶vningar eller annat sÃ¥
+			tveka inte att skicka dem till mig. Tillsammans kan vi gÃ¶ra ett
+			suverÃ¤nt kursmaterial som kan gagna bÃ¥de elever, lÃ¤rare och
 			skolor i framtiden.
 		</para>
 		<para>
-			Hur kommer det sig då att jag släpper denna bok fritt på
-			Internet, med en licens som till och med låter andra ändra i
-			den och/eller sälja den för att tjäna pengar? Jag brinner för
-			något som kallas fri programvara. Fri programvara är
-			programvara som du får använda fritt i vilket syfte du vill och
-			vars källkod är öppen. Fri programvara har visat sig hålla
-			mycket hög kvalitet och funktionalitet. Exempel på fri
-			programvara är till exempel operativsystemet Linux, webbservern
+			Hur kommer det sig dÃ¥ att jag slÃ¤pper denna bok fritt pÃ¥
+			Internet, med en licens som till och med lÃ¥ter andra Ã¤ndra i
+			den och/eller sÃ¤lja den fÃ¶r att tjÃ¤na pengar? Jag brinner fÃ¶r
+			nÃ¥got som kallas fri programvara. Fri programvara Ã¤r
+			programvara som du fÃ¥r anvÃ¤nda fritt i vilket syfte du vill och
+			vars kÃ¤llkod Ã¤r Ã¶ppen. Fri programvara har visat sig hÃ¥lla
+			mycket hÃ¶g kvalitet och funktionalitet. Exempel pÃ¥ fri
+			programvara Ã¤r till exempel operativsystemet Linux, webbservern
 			Apache och kontorsprogramsviten OpenOffice.org. Alla dessa tre
-			har på sitt sätt hjälpt till att skapa och sprida denna bok.
-			Till denna bok har uteslutande fria programvaror använts.
+			har pÃ¥ sitt sÃ¤tt hjÃ¤lpt till att skapa och sprida denna bok.
+			Till denna bok har uteslutande fria programvaror anvÃ¤nts.
 		</para>
 		<para>
-			Även denna bok är fri. Du kan ladda ner den från Internet. Även
-			de datafiler jag skrivit boken i finns där så att du kan
-			förbättra den om du vill. Om du väljer att göra det så vill jag
-			gärna veta det även om det inte är något tvång. Vad som däremot
-			är ett tvång är att om du bygger vidare på denna bok så måste
-			du släppa den lika fri som jag gjort (se licenstexten om du är
-			osäker). Eftersom denna bok är skriven för och med fria
-			programvaror så kommer de exempel som är i boken att vara för 
+			Ã„ven denna bok Ã¤r fri. Du kan ladda ner den frÃ¥n Internet. Ã„ven
+			de datafiler jag skrivit boken i finns dÃ¤r sÃ¥ att du kan
+			fÃ¶rbÃ¤ttra den om du vill. Om du vÃ¤ljer att gÃ¶ra det sÃ¥ vill jag
+			gÃ¤rna veta det Ã¤ven om det inte Ã¤r nÃ¥got tvÃ¥ng. Vad som dÃ¤remot
+			Ã¤r ett tvÃ¥ng Ã¤r att om du bygger vidare pÃ¥ denna bok sÃ¥ mÃ¥ste
+			du slÃ¤ppa den lika fri som jag gjort (se licenstexten om du Ã¤r
+			osÃ¤ker). Eftersom denna bok Ã¤r skriven fÃ¶r och med fria
+			programvaror sÃ¥ kommer de exempel som Ã¤r i boken att vara fÃ¶r 
 			operativsystemet Linux och de program som brukar finnas med
-			det.  Använder du något annat operativsystem så kan du ändå ha
+			det.  AnvÃ¤nder du nÃ¥got annat operativsystem sÃ¥ kan du Ã¤ndÃ¥ ha
 			nytta av boken. 
 		</para>
 		<para>
-			Det finns naturligtvis andra skäl till att släppa en bok fritt
-			på detta sätt. Det självklara är att alla kan hjälpas åt att
-			göra den bättre, men det finns även mer praktiska fördelar. Det
-			står skolan fritt att köpa denna bok i tryckt format. Tycker
-			man att det är för dyrt eller tar för lång tid kan man trycka
-			den själv. Man kan även läsa den online om man vill. Har någon
-			elev glömt sin bok en dag så finns allt material fritt
-			tillgängligt på Internet. Man får fritt kopiera hela eller
-			delar av boken.  Detta kan vara smidigt i händelse av att någon
-			glömt sin bok eller om man bara vill behandla en liten del av
-			den i en kurs.  Hittas ett fel i boken kan detta rättas till
-			och vara studenterna till hands redan nästa dag om man vill.
+			Det finns naturligtvis andra skÃ¤l till att slÃ¤ppa en bok fritt
+			pÃ¥ detta sÃ¤tt. Det sjÃ¤lvklara Ã¤r att alla kan hjÃ¤lpas Ã¥t att
+			gÃ¶ra den bÃ¤ttre, men det finns Ã¤ven mer praktiska fÃ¶rdelar. Det
+			stÃ¥r skolan fritt att kÃ¶pa denna bok i tryckt format. Tycker
+			man att det Ã¤r fÃ¶r dyrt eller tar fÃ¶r lÃ¥ng tid kan man trycka
+			den sjÃ¤lv. Man kan Ã¤ven lÃ¤sa den online om man vill. Har nÃ¥gon
+			elev glÃ¶mt sin bok en dag sÃ¥ finns allt material fritt
+			tillgÃ¤ngligt pÃ¥ Internet. Man fÃ¥r fritt kopiera hela eller
+			delar av boken.  Detta kan vara smidigt i hÃ¤ndelse av att nÃ¥gon
+			glÃ¶mt sin bok eller om man bara vill behandla en liten del av
+			den i en kurs.  Hittas ett fel i boken kan detta rÃ¤ttas till
+			och vara studenterna till hands redan nÃ¤sta dag om man vill.
 		</para>
 		<para>
-			Men, som jag sagt, den största fördelen är att alla kan hjälpas
-			åt för att göra denna bok bättre. Jag hoppas nu när jag skriver
+			Men, som jag sagt, den stÃ¶rsta fÃ¶rdelen Ã¤r att alla kan hjÃ¤lpas
+			Ã¥t fÃ¶r att gÃ¶ra denna bok bÃ¤ttre. Jag hoppas nu nÃ¤r jag skriver
 			denna bok att det skall vara ett levande dokument som anpassas
-			efterhand som tekniken förändras. Därför vill jag uppmuntra dig
-			som läsare att skicka kommentarer, rättelser, nya avsnitt,
-			förändrade avsnitt, m.m., m.m. till mig så för jag in dem i
-			boken.  Tillsammans kan vi göra en bok mycket bättre än vad jag
-			själv skulle kunna åstadkomma. I gengäld får du ett bättre
-			material och vad som brukar kallas för "credit", det vill säga
-			ett omnämnande i boken för att visa vad du gjort. Att hjälpas
-			åt på detta sätt för att göra det som blir bäst för alla, det
-			är det som allt detta handlar om.
+			efterhand som tekniken fÃ¶rÃ¤ndras. DÃ¤rfÃ¶r vill jag uppmuntra dig
+			som lÃ¤sare att skicka kommentarer, rÃ¤ttelser, nya avsnitt,
+			fÃ¶rÃ¤ndrade avsnitt, m.m., m.m. till mig sÃ¥ fÃ¶r jag in dem i
+			boken.  Tillsammans kan vi gÃ¶ra en bok mycket bÃ¤ttre Ã¤n vad jag
+			sjÃ¤lv skulle kunna Ã¥stadkomma. I gengÃ¤ld fÃ¥r du ett bÃ¤ttre
+			material och vad som brukar kallas fÃ¶r "credit", det vill sÃ¤ga
+			ett omnÃ¤mnande i boken fÃ¶r att visa vad du gjort. Att hjÃ¤lpas
+			Ã¥t pÃ¥ detta sÃ¤tt fÃ¶r att gÃ¶ra det som blir bÃ¤st fÃ¶r alla, det
+			Ã¤r det som allt detta handlar om.
 		</para>
 		<para>
-			Marcus Rejås, Norrtälje 2004-01-11.
+			Marcus RejÃ¥s, NorrtÃ¤lje 2004-01-11.
 		</para>
 </sect1>
 </preface>
@@ -278,7 +278,6 @@
 &fdl-sv;
 
 &fdl;
-
 </book>
 
 

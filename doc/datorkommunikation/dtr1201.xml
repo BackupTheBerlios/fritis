@@ -1,61 +1,61 @@
 <appendix id="dtr1201">
 
 <title>DTR1201 - Datorkommunikation</title>
-<subtitle>100 poäng, inrättad 2000-07  SKOLFS: 2000:28</subtitle>
+<subtitle>100 poÃ¤ng, inrÃ¤ttad 2000-07  SKOLFS: 2000:28</subtitle>
 
-<sect1><title>Mål</title>
+<sect1><title>MÃ¥l</title>
 
-<sect2><title>Mål för kursen</title>
+<sect2><title>MÃ¥l fÃ¶r kursen</title>
 
-<para>Kursen skall ge grundläggande kunskaper om datorkommunikation och
-utveckla färdigheter inom området. Kursen skall också ge kunskaper om
-principer, begrepp, standarder och utveckling inom området.</para>
+<para>Kursen skall ge grundlÃ¤ggande kunskaper om datorkommunikation och
+utveckla fÃ¤rdigheter inom omrÃ¥det. Kursen skall ocksÃ¥ ge kunskaper om
+principer, begrepp, standarder och utveckling inom omrÃ¥det.</para>
 
 </sect2>
 
-<sect2><title>Mål som eleverna skall ha uppnått efter avslutad
+<sect2><title>MÃ¥l som eleverna skall ha uppnÃ¥tt efter avslutad
 kurs</title>
 
-<para>Eleven skall</para><para> kunna upprätta, underhålla och felsöka
+<para>Eleven skall</para><para> kunna upprÃ¤tta, underhÃ¥lla och felsÃ¶ka
 seriell och parallell kommunikation mellan persondatorer och deras
 kringutrustning</para>
 
-<para>kunna upprätta och konfigurera förbindelser med olika typer av
+<para>kunna upprÃ¤tta och konfigurera fÃ¶rbindelser med olika typer av
 modem</para>
 
-<para>kunna ansluta, konfigurera och använda digitala tjänster</para>
+<para>kunna ansluta, konfigurera och anvÃ¤nda digitala tjÃ¤nster</para>
 
-<para>känna till det publika telenätets anslutningsmöjligheter,
-prestanda, begränsningar och tjänster samt egenskaper för de vanligaste
+<para>kÃ¤nna till det publika telenÃ¤tets anslutningsmÃ¶jligheter,
+prestanda, begrÃ¤nsningar och tjÃ¤nster samt egenskaper fÃ¶r de vanligaste
 modemstandarderna</para>
 
-<para>ha kunskap om principer och prestanda för olika typer av
-överförings- transport- och transmissionsprotokoll</para>
+<para>ha kunskap om principer och prestanda fÃ¶r olika typer av
+Ã¶verfÃ¶rings- transport- och transmissionsprotokoll</para>
 
-<para>känna till begreppen ledningsegenskaper och kapacitet samt deras
-praktiska innebörd vid datakommunikation med olika
-överföringsmedier</para>
+<para>kÃ¤nna till begreppen ledningsegenskaper och kapacitet samt deras
+praktiska innebÃ¶rd vid datakommunikation med olika
+Ã¶verfÃ¶ringsmedier</para>
 
-<para>känna till funktion och prestanda hos olika digitala
-förbindelser</para>
+<para>kÃ¤nna till funktion och prestanda hos olika digitala
+fÃ¶rbindelser</para>
 
-<para>ha kunskap om gällande datalagstiftning och förstå datasäkerhetens
+<para>ha kunskap om gÃ¤llande datalagstiftning och fÃ¶rstÃ¥ datasÃ¤kerhetens
 betydelse</para>
 
 <para>ha kunskap om referensmodeller som beskriver struktur och funktion
-för datorkommunikation</para>
+fÃ¶r datorkommunikation</para>
 
-<para>ha kunskap om de vanligaste protokollen och programmen på internet
-samt hur de används</para>
+<para>ha kunskap om de vanligaste protokollen och programmen pÃ¥ internet
+samt hur de anvÃ¤nds</para>
 
-<para>kunna använda programvaror för enklare diagnostisering<emphasis>,
-</emphasis>spårning och felsökning på internet </para>
+<para>kunna anvÃ¤nda programvaror fÃ¶r enklare diagnostisering<emphasis>,
+</emphasis>spÃ¥rning och felsÃ¶kning pÃ¥ internet </para>
 
 <para>ha kunskap om internets historik, uppbyggnad och
 kommunikationsteknik</para>
 
-<para>ha kunskap om olika sätt att skydda information vid
-dataöverföringar.</para> <para>
+<para>ha kunskap om olika sÃ¤tt att skydda information vid
+dataÃ¶verfÃ¶ringar.</para> <para>
 
 </para>
 
@@ -64,34 +64,34 @@ dataöverföringar.</para> <para>
 
 <sect1><title>Betygskriterier</title>
 
-<sect2><title>Kriterier för betyget Godkänd</title>
+<sect2><title>Kriterier fÃ¶r betyget GodkÃ¤nd</title>
 
-<para>Eleven upprättar kommunikation mellan datorer med olika
-operativsystem i lokala nät och telenät.</para><para> Eleven utför med
-viss handledning felsökning i förbindelser mellan persondatorer och
-kringutrustning.</para><para> Eleven söker upp den information som
-behövs för arbetsuppgifterna.</para><para> Eleven beskriver
-grundläggande begrepp, funktioner och standarder för
+<para>Eleven upprÃ¤ttar kommunikation mellan datorer med olika
+operativsystem i lokala nÃ¤t och telenÃ¤t.</para><para> Eleven utfÃ¶r med
+viss handledning felsÃ¶kning i fÃ¶rbindelser mellan persondatorer och
+kringutrustning.</para><para> Eleven sÃ¶ker upp den information som
+behÃ¶vs fÃ¶r arbetsuppgifterna.</para><para> Eleven beskriver
+grundlÃ¤ggande begrepp, funktioner och standarder fÃ¶r
 datorkommunikation.</para><para> Eleven redovisar ledningsegenskapers
-betydelse vid datorkommunikation.</para><para> Eleven ger exempel på hur
-kravet på datasäkerhet och datalagstiftning påverkar arbetet.</para>
+betydelse vid datorkommunikation.</para><para> Eleven ger exempel pÃ¥ hur
+kravet pÃ¥ datasÃ¤kerhet och datalagstiftning pÃ¥verkar arbetet.</para>
 
 </sect2>
 
-<sect2><title>Kriterier för betyget Väl godkänd</title>
+<sect2><title>Kriterier fÃ¶r betyget VÃ¤l godkÃ¤nd</title>
 
-<para>Eleven utför på egen hand och inom rimlig tid de arbetsuppgifter
-som ingår i datorkommunikation.</para><para> Eleven hämtar på egen hand
-information från olika källor och tillämpar denna i olika
-arbetsuppgifter och situationer.</para><para> Eleven tillämpar
-kunskaperna om datasäkerhet och datalagstiftning i arbetet.</para>
+<para>Eleven utfÃ¶r pÃ¥ egen hand och inom rimlig tid de arbetsuppgifter
+som ingÃ¥r i datorkommunikation.</para><para> Eleven hÃ¤mtar pÃ¥ egen hand
+information frÃ¥n olika kÃ¤llor och tillÃ¤mpar denna i olika
+arbetsuppgifter och situationer.</para><para> Eleven tillÃ¤mpar
+kunskaperna om datasÃ¤kerhet och datalagstiftning i arbetet.</para>
 
 </sect2>
-<sect2><title>Kriterier för betyget Mycket väl godkänd</title>
+<sect2><title>Kriterier fÃ¶r betyget Mycket vÃ¤l godkÃ¤nd</title>
 
-<para>Eleven utför sina arbetsuppgifter på ett närmast yrkesmässigt
-sätt.</para><para> Eleven löser självständigt problem med metoder som
-tar hänsyn till datasäkerhet och ekonomi.</para><para> Eleven beskriver
+<para>Eleven utfÃ¶r sina arbetsuppgifter pÃ¥ ett nÃ¤rmast yrkesmÃ¤ssigt
+sÃ¤tt.</para><para> Eleven lÃ¶ser sjÃ¤lvstÃ¤ndigt problem med metoder som
+tar hÃ¤nsyn till datasÃ¤kerhet och ekonomi.</para><para> Eleven beskriver
 samband och ser helheten i komplexa datakommunikationsmodeller.</para>
 <para>Skolverket 2002-04-09</para>
 

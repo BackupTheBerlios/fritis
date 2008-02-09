@@ -1,28 +1,28 @@
-<appendix id="topdomains"><title>Topdomäner</title>
+<appendix id="topdomains"><title>TopdomÃ¤ner</title>
 <para>
-	Toppdomänerna är den översta nivån i DNS-hierarkin. I detta
-	appendix listas de generiska och de nationella toppdomänerna.
-	Dessa uppgifter kommer från Internet Assigned Numbers Authority
+	ToppdomÃ¤nerna Ã¤r den Ã¶versta nivÃ¥n i DNS-hierarkin. I detta
+	appendix listas de generiska och de nationella toppdomÃ¤nerna.
+	Dessa uppgifter kommer frÃ¥n Internet Assigned Numbers Authority
 	(IANA, http://www.iana.org).
 </para>
 
 <sect1><title>Generiska (gtld)</title>
 <para>
 <literallayout>
-<emphasis>aero</emphasis>, Reserverad för medlemmar av flygtransportindustrin, sponsrad av Société Internationale de Télécommunications Aéronautiques (SITA).
-<emphasis>biz</emphasis>, Begränsad till företag, drivs av NeuLevel, Inc.
+<emphasis>aero</emphasis>, Reserverad fÃ¶r medlemmar av flygtransportindustrin, sponsrad av SociÃ©tÃ© Internationale de TÃ©lÃ©communications AÃ©ronautiques (SITA).
+<emphasis>biz</emphasis>, BegrÃ¤nsad till fÃ¶retag, drivs av NeuLevel, Inc.
 <emphasis>com</emphasis>, Drivs av VeriSign Global Registry Services.
-<emphasis>coop</emphasis>, Reserverad för kooperativa föreningar, sponsrad av Dot Cooperation LLC.
+<emphasis>coop</emphasis>, Reserverad fÃ¶r kooperativa fÃ¶reningar, sponsrad av Dot Cooperation LLC.
 <emphasis>info</emphasis>, Drivs av Afilias Limited.
-<emphasis>museum</emphasis>, Reserverad för museum, sponsrad av Museum Domain Management Association.
-<emphasis>name</emphasis>, Reserved för privatpersoner, drivs av Global Name Registry.
+<emphasis>museum</emphasis>, Reserverad fÃ¶r museum, sponsrad av Museum Domain Management Association.
+<emphasis>name</emphasis>, Reserved fÃ¶r privatpersoner, drivs av Global Name Registry.
 <emphasis>net</emphasis>, Drivs av VeriSign Global Registry Services.
-<emphasis>org</emphasis>, Drivs av Public Interest Registry. Avsedd för icke-kommersiella verksamheter men finns tillgänglig för alla.
+<emphasis>org</emphasis>, Drivs av Public Interest Registry. Avsedd fÃ¶r icke-kommersiella verksamheter men finns tillgÃ¤nglig fÃ¶r alla.
 <emphasis>pro</emphasis>, Under uppbyggnad, drivs av RegistryPro. 
-<emphasis>gov</emphasis>, Reserverad enbart för den amerikanska regeringen. Drivs av US General Services Administration.
-<emphasis>edu</emphasis>, Reserverad för amerikanska skolväsendet
-<emphasis>mil</emphasis>, Reserverad för det amerikanska försvaret.Drivs av US DoD Network Information Center.
-<emphasis>int</emphasis>, Används bara av oraganisationer som etablerats av olika regeringar. Drivs av IANA .int Domain Registry. 
+<emphasis>gov</emphasis>, Reserverad enbart fÃ¶r den amerikanska regeringen. Drivs av US General Services Administration.
+<emphasis>edu</emphasis>, Reserverad fÃ¶r amerikanska skolvÃ¤sendet
+<emphasis>mil</emphasis>, Reserverad fÃ¶r det amerikanska fÃ¶rsvaret.Drivs av US DoD Network Information Center.
+<emphasis>int</emphasis>, AnvÃ¤nds bara av oraganisationer som etablerats av olika regeringar. Drivs av IANA .int Domain Registry. 
 </literallayout>
 </para>
 </sect1>

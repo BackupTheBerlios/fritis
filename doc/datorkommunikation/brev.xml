@@ -1,10 +1,10 @@
 <appendix id="brev">
-	<title>Kommentarer från läsare och experter</title>
+	<title>Kommentarer frÃ¥n lÃ¤sare och experter</title>
 
-	<sect1><title>Brev från Bengt Gördén</title>
+	<sect1><title>Brev frÃ¥n Bengt GÃ¶rdÃ©n</title>
 		<screen>
 Date: Thu, 11 Mar 2004 23:42:25 +0100
-From: Bengt Gördén &lt;bengan (snabel-a) sunet.se&gt;
+From: Bengt GÃ¶rdÃ©n &lt;bengan (snabel-a) sunet.se&gt;
 To: marcus@rejas.se
 Subject: ang. NAT
 
@@ -12,81 +12,81 @@ Hej!
 
 Ang. Datorkommunikation och kurs DTR1201.
 
-Trevlig läsning (även om jag inte lyckats ta mig genom allt :-).
+Trevlig lÃ¤sning (Ã¤ven om jag inte lyckats ta mig genom allt :-).
 
-Nu till lite spörsmål ang. NAT.
+Nu till lite spÃ¶rsmÃ¥l ang. NAT.
 
-Ditt avsnitt om NAT är inte riktigt rättvisande, om man utgår från att
-kapittlet egentligen handlar om IP-routing. IETF har under flera år
-varit rejält bekymrade ang. NAT. Anledningen är helt enkelt att NAT slår
-sönder det fundament varpå IP bygger. Det finns några få kriterier som
-måste uppfyllas för att Internet skall fungera. Ett av dem är "unik
-adresserbarhet".  Genom att NAT (främst den varianten där man i hög grad
-bygger adresseringen på transportnivå) förhindrar detta så är det
-förkastligt att använda det.
+Ditt avsnitt om NAT Ã¤r inte riktigt rÃ¤ttvisande, om man utgÃ¥r frÃ¥n att
+kapittlet egentligen handlar om IP-routing. IETF har under flera Ã¥r
+varit rejÃ¤lt bekymrade ang. NAT. Anledningen Ã¤r helt enkelt att NAT slÃ¥r
+sÃ¶nder det fundament varpÃ¥ IP bygger. Det finns nÃ¥gra fÃ¥ kriterier som
+mÃ¥ste uppfyllas fÃ¶r att Internet skall fungera. Ett av dem Ã¤r "unik
+adresserbarhet".  Genom att NAT (frÃ¤mst den varianten dÃ¤r man i hÃ¶g grad
+bygger adresseringen pÃ¥ transportnivÃ¥) fÃ¶rhindrar detta sÃ¥ Ã¤r det
+fÃ¶rkastligt att anvÃ¤nda det.
 
-Det är för övrigt ingen fördel att spara adresser då man konserverar en
-modell och bygger dåliga lösningar runt den. Speciellt i USA och Europa
-har vi inget adressproblem. Det finns så mycket adresser att vi kan
-gödsla med dem. Att få ut nya adresser är heller inte svårt. Det är bara
-de stora ISP:erna som anför annledningen att det är dåligt med adresser
-så att de bara kan dela ut 1 till varje hushåll. Den egentliga
-annledningen är att de inte vill att du har mycket burkar på ditt hemnät
-som aggerar servrar. Och kanske framför allt inte att du ska köra
-IP-telefoni (de stora ISP:erna är ju egentligen telekombolag).
+Det Ã¤r fÃ¶r Ã¶vrigt ingen fÃ¶rdel att spara adresser dÃ¥ man konserverar en
+modell och bygger dÃ¥liga lÃ¶sningar runt den. Speciellt i USA och Europa
+har vi inget adressproblem. Det finns sÃ¥ mycket adresser att vi kan
+gÃ¶dsla med dem. Att fÃ¥ ut nya adresser Ã¤r heller inte svÃ¥rt. Det Ã¤r bara
+de stora ISP:erna som anfÃ¶r annledningen att det Ã¤r dÃ¥ligt med adresser
+sÃ¥ att de bara kan dela ut 1 till varje hushÃ¥ll. Den egentliga
+annledningen Ã¤r att de inte vill att du har mycket burkar pÃ¥ ditt hemnÃ¤t
+som aggerar servrar. Och kanske framfÃ¶r allt inte att du ska kÃ¶ra
+IP-telefoni (de stora ISP:erna Ã¤r ju egentligen telekombolag).
 
-Jag vet inte om du har tänkt skriva något om detta i din kurs men som
-"Old Internet Fart" (tm) så skulle jag råda dig till att skriva in ett
-stycke där man förklarar just grunden för IP och varför det är dumt att
-slå sönder den.
+Jag vet inte om du har tÃ¤nkt skriva nÃ¥got om detta i din kurs men som
+"Old Internet Fart" (tm) sÃ¥ skulle jag rÃ¥da dig till att skriva in ett
+stycke dÃ¤r man fÃ¶rklarar just grunden fÃ¶r IP och varfÃ¶r det Ã¤r dumt att
+slÃ¥ sÃ¶nder den.
 		</screen>
 	</sect1>
-	<sect1><title>Brev från Pär Lindskog </title>
+	<sect1><title>Brev frÃ¥n PÃ¤r Lindskog </title>
 		<screen>
 Date: Sun, 30 May 2004 23:33:55 +0200
-From: Pär Lindskog &lt;lindskog (snabel-a) imapcenter.net&gt;
+From: PÃ¤r Lindskog &lt;lindskog (snabel-a) imapcenter.net&gt;
 To: marcus@rejas.se
-Subject: Rättelse/tillägg Datorkommunikation
+Subject: RÃ¤ttelse/tillÃ¤gg Datorkommunikation
 
 Hej
 
-Surfade runt lite på se.linux.org och fastnade en stund på din bok om
-datorkommunikation. Mycket bra skrivet, verkligen välgjord.
-Nu har jag inte läst hela boken (hoppas jag hinner till sommaren) men
-jag upptäckte en sak på kapitlet om E-post. Det står att med protokollet
+Surfade runt lite pÃ¥ se.linux.org och fastnade en stund pÃ¥ din bok om
+datorkommunikation. Mycket bra skrivet, verkligen vÃ¤lgjord.
+Nu har jag inte lÃ¤st hela boken (hoppas jag hinner till sommaren) men
+jag upptÃ¤ckte en sak pÃ¥ kapitlet om E-post. Det stÃ¥r att med protokollet
 IMAP lagras all e-post lokalt... CENTRALT borde det vara? Sen har jag
-ett tillägg på IMAP-protokollet som kan vara värt att nämna, nämligen
-risken med backuper då mailen lagras centralt, man måste vara medveten
-om att man är helt och hållet i händerna på leverantören (motsv.) då det
-gäller backup av sina mail. Många av de leverantörer som specialicerat
-sig på IMAP har möjligheten att ladda ner allt innehåll i en mapp som
+ett tillÃ¤gg pÃ¥ IMAP-protokollet som kan vara vÃ¤rt att nÃ¤mna, nÃ¤mligen
+risken med backuper dÃ¥ mailen lagras centralt, man mÃ¥ste vara medveten
+om att man Ã¤r helt och hÃ¥llet i hÃ¤nderna pÃ¥ leverantÃ¶ren (motsv.) dÃ¥ det
+gÃ¤ller backup av sina mail. MÃ¥nga av de leverantÃ¶rer som specialicerat
+sig pÃ¥ IMAP har mÃ¶jligheten att ladda ner allt innehÃ¥ll i en mapp som
 tex. en zip-fil.
 
-En stor fördel med IMAP är möjligheten till ett kommando som heter IDLE,
-vilken ser till att "pusha" ut mailen istället för att ställa in
-mailprogrammet att aktivt "gå" och hämta nya mail med visst intervall
+En stor fÃ¶rdel med IMAP Ã¤r mÃ¶jligheten till ett kommando som heter IDLE,
+vilken ser till att "pusha" ut mailen istÃ¤llet fÃ¶r att stÃ¤lla in
+mailprogrammet att aktivt "gÃ¥" och hÃ¤mta nya mail med visst intervall
 (som POP-mail). Om IDLE supportas av servern och klienten har jag mailet
 i min mailklient samtidigt som det kommer till servern. Man kan
-visserligen ställa tiden för hämtning av POP-mail lågt men det tar
-ganska stora resurser i anspråk (logga in, kolla, logga ut) så det kan
-lätt bli överbelastning på servern om många gör det...
+visserligen stÃ¤lla tiden fÃ¶r hÃ¤mtning av POP-mail lÃ¥gt men det tar
+ganska stora resurser i ansprÃ¥k (logga in, kolla, logga ut) sÃ¥ det kan
+lÃ¤tt bli Ã¶verbelastning pÃ¥ servern om mÃ¥nga gÃ¶r det...
 
-Vidare under webmail står det att webmail ofta har begränsat utrymme på
-servern, som det står skrivet kan man tolka det som att utrymmet är
-obegränsat då man använder sig av någon mailklient (POP/IMAP), borde nog
-förtydligas lite, speciellt om man använder sig av IMAP då man måste
-rensa själv på servern.
+Vidare under webmail stÃ¥r det att webmail ofta har begrÃ¤nsat utrymme pÃ¥
+servern, som det stÃ¥r skrivet kan man tolka det som att utrymmet Ã¤r
+obegrÃ¤nsat dÃ¥ man anvÃ¤nder sig av nÃ¥gon mailklient (POP/IMAP), borde nog
+fÃ¶rtydligas lite, speciellt om man anvÃ¤nder sig av IMAP dÃ¥ man mÃ¥ste
+rensa sjÃ¤lv pÃ¥ servern.
 
-Ändra/lägg till det du önskar eller tycker är relevant i sammanhanget,
-jag återkommer säkert med fler synpunkter i framtiden.
+Ã„ndra/lÃ¤gg till det du Ã¶nskar eller tycker Ã¤r relevant i sammanhanget,
+jag Ã¥terkommer sÃ¤kert med fler synpunkter i framtiden.
 
 --
 Mvh
-/Pär Lindskog
+/PÃ¤r Lindskog
 		</screen>
 	</sect1>
 
-        <sect1><title>Brev fån Jan Johansson</title>
+        <sect1><title>Brev fÃ¥n Jan Johansson</title>
 		<screen>
 
 Date: Tue, 30 Nov 2004 16:27:10 +0100
@@ -95,54 +95,54 @@ To: marcus@rejas.se
 Subject: datorkommunikation
 
 Hej Marcus
-Jag har jobbat flera år som lärare och håller fullständigt med när det
-gäller svårigheten att hitta lämpliga böcker för kursen
-datorkommunikation. Kul att du har tagit detta initiativ! Boken är
-skriven på ett lättfattligt och lättläst sätt, men tenderar kanske att
+Jag har jobbat flera Ã¥r som lÃ¤rare och hÃ¥ller fullstÃ¤ndigt med nÃ¤r det
+gÃ¤ller svÃ¥righeten att hitta lÃ¤mpliga bÃ¶cker fÃ¶r kursen
+datorkommunikation. Kul att du har tagit detta initiativ! Boken Ã¤r
+skriven pÃ¥ ett lÃ¤ttfattligt och lÃ¤ttlÃ¤st sÃ¤tt, men tenderar kanske att
 bli ytlig i en del avsnitt.                         
 
-Jag brukar ta upp lite mer när det gäller repeatrar och bryggor. Bryggan
-är viktig att förstå eftersom den är grunden till hur switchen fungerar.
-Fortsätter sedan med att ta upp layer 2 funktionen, broadcast, switchar
-finns i olika utföranden mm. Begreppen simplex, halv- och full-duplex
-måste också förklaras.      
+Jag brukar ta upp lite mer nÃ¤r det gÃ¤ller repeatrar och bryggor. Bryggan
+Ã¤r viktig att fÃ¶rstÃ¥ eftersom den Ã¤r grunden till hur switchen fungerar.
+FortsÃ¤tter sedan med att ta upp layer 2 funktionen, broadcast, switchar
+finns i olika utfÃ¶randen mm. Begreppen simplex, halv- och full-duplex
+mÃ¥ste ocksÃ¥ fÃ¶rklaras.      
 
 Repeatrar
-Är en kvarleva från bussnätens tid. Trots att koaxialkabeln i 10base2
-(thinnet) kunde sträckas ut nästan 200meter och 10base5 (thicknet) ca
-500 meter behövdes  signalerna i koaxialkablarna förstärkas med hjälp av
-repeatrar så att man kunde forsätta ännu längre sträckor. Eftersom det
-var glest mellan datorerna på den  tiden och de skulle dessutom
-sammanbindas med samma kabel blev det snabbt långa krokiga snirklingar
+Ã„r en kvarleva frÃ¥n bussnÃ¤tens tid. Trots att koaxialkabeln i 10base2
+(thinnet) kunde strÃ¤ckas ut nÃ¤stan 200meter och 10base5 (thicknet) ca
+500 meter behÃ¶vdes  signalerna i koaxialkablarna fÃ¶rstÃ¤rkas med hjÃ¤lp av
+repeatrar sÃ¥ att man kunde forsÃ¤tta Ã¤nnu lÃ¤ngre strÃ¤ckor. Eftersom det
+var glest mellan datorerna pÃ¥ den  tiden och de skulle dessutom
+sammanbindas med samma kabel blev det snabbt lÃ¥nga krokiga snirklingar
 med kablarna.
 
-Med stjärnnäten blev repetrarna var mans egendom eftersom det sitter en
-förstärkare (repeater) på varje port i en hubb. Vi skulle kunna säga att
-hubben är en "multirepeater" som isolerar varje kabelsegment så att ett
-kabelfel (kortslutning, avbrott eller missanpassning) på ett ställe inte
-slår ut de andra anslutningarna (portarna) i hubben.
+Med stjÃ¤rnnÃ¤ten blev repetrarna var mans egendom eftersom det sitter en
+fÃ¶rstÃ¤rkare (repeater) pÃ¥ varje port i en hubb. Vi skulle kunna sÃ¤ga att
+hubben Ã¤r en "multirepeater" som isolerar varje kabelsegment sÃ¥ att ett
+kabelfel (kortslutning, avbrott eller missanpassning) pÃ¥ ett stÃ¤lle inte
+slÃ¥r ut de andra anslutningarna (portarna) i hubben.
 
 Bryggor
-Har haft en lika tynande tillvaro som repeatrar men har nu börjat göra
-comeback i trådlösa nät. Bryggan används ofta för att minska onyttig
-trafik i nät där trafiken ökat för mycket. Egentligen så minskar man
-ej trafiken utan ser med bryggan till att hålla "onödig trafik" sk
-broadcast lokalt inom mindre områden. Genom att lagra nätverkskortens
-hårdvaruadresser "MAC-adresser" i ett litet minne, lär sig bryggan på
+Har haft en lika tynande tillvaro som repeatrar men har nu bÃ¶rjat gÃ¶ra
+comeback i trÃ¥dlÃ¶sa nÃ¤t. Bryggan anvÃ¤nds ofta fÃ¶r att minska onyttig
+trafik i nÃ¤t dÃ¤r trafiken Ã¶kat fÃ¶r mycket. Egentligen sÃ¥ minskar man
+ej trafiken utan ser med bryggan till att hÃ¥lla "onÃ¶dig trafik" sk
+broadcast lokalt inom mindre omrÃ¥den. Genom att lagra nÃ¤tverkskortens
+hÃ¥rdvaruadresser "MAC-adresser" i ett litet minne, lÃ¤r sig bryggan pÃ¥
 vilken sida av bryggan som olika datorer finns. Bara den trafik som
-behöver komma till andra sidan av bryggan släpps sedan igenom. I nät med
+behÃ¶ver komma till andra sidan av bryggan slÃ¤pps sedan igenom. I nÃ¤t med
 hubbar och Windows datorer kan broadcast och elections ta upp en stor
-del  av bandbredden. För att lätta upp situationen är en brygga lättare
-att sätta in än att dela nätet med en router.
+del  av bandbredden. FÃ¶r att lÃ¤tta upp situationen Ã¤r en brygga lÃ¤ttare
+att sÃ¤tta in Ã¤n att dela nÃ¤tet med en router.
 
-I nät med switchar uppstår inte behovet av att sätta in bryggor eftersom
-switchar har en bryggfunktion i varje port. Därför kan vi likna switchen
-vid en "multibrygga". I dagens trådlösa nät har vi oftast en
-bryggfunktion inbygd i den trådlösa accesspunkten. Bryggan har i det
-fallet i uppgift att brygga samman  det trådade nätet med det trådlösa.
+I nÃ¤t med switchar uppstÃ¥r inte behovet av att sÃ¤tta in bryggor eftersom
+switchar har en bryggfunktion i varje port. DÃ¤rfÃ¶r kan vi likna switchen
+vid en "multibrygga". I dagens trÃ¥dlÃ¶sa nÃ¤t har vi oftast en
+bryggfunktion inbygd i den trÃ¥dlÃ¶sa accesspunkten. Bryggan har i det
+fallet i uppgift att brygga samman  det trÃ¥dade nÃ¤tet med det trÃ¥dlÃ¶sa.
 
-Skall försöka återkomma med mera när jag får tid över. Du får
-använda/förändra som du vill.
+Skall fÃ¶rsÃ¶ka Ã¥terkomma med mera nÃ¤r jag fÃ¥r tid Ã¶ver. Du fÃ¥r
+anvÃ¤nda/fÃ¶rÃ¤ndra som du vill.
 
 Mvh
 Jan Johansson

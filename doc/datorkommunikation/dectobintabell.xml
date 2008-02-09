@@ -1,16 +1,16 @@
 <appendix id="dectobintabell">
-	<title>Tabell för att översätta mellan Decimala och binära tal</title>
+	<title>Tabell fÃ¶r att Ã¶versÃ¤tta mellan Decimala och binÃ¤ra tal</title>
 
 	<para>
-		Detta är en tabell för att översätta de första 256 talen
-		i vårt vanliga talsystem med basen tio till det binära
-		med basen två. I boken behandlas hur man, istället för
-		att hämta ur en tabell, räknar fram dessa värden. Det är
-		bättre att lära sig räkna fram dem. Använd denna tabell
-		på det sätt du tycker passar.
+		Detta Ã¤r en tabell fÃ¶r att Ã¶versÃ¤tta de fÃ¶rsta 256 talen
+		i vÃ¥rt vanliga talsystem med basen tio till det binÃ¤ra
+		med basen tvÃ¥. I boken behandlas hur man, istÃ¤llet fÃ¶r
+		att hÃ¤mta ur en tabell, rÃ¤knar fram dessa vÃ¤rden. Det Ã¤r
+		bÃ¤ttre att lÃ¤ra sig rÃ¤kna fram dem. AnvÃ¤nd denna tabell
+		pÃ¥ det sÃ¤tt du tycker passar.
 	</para>
 
-	<table frame="all" id="tab_dectobin"><title>Decimal -> Binära</title>
+	<table frame="all" id="tab_dectobin"><title>Decimal -> BinÃ¤ra</title>
 		<tgroup cols='8' align='center' colsep='1' rowsep='1'>
 			<thead>
 				<row>
