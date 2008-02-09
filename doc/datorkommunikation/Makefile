@@ -35,7 +35,9 @@ dist: $(TARGET).tar.gz
 
 laborations: $(LABORATIONS)
 
-html: $(SOURCE_FILES) book1.html
+html: book1.html
+
+book1.html: $(SOURCE_FILES)
 	docbook2html -d fritis.dsl#html $<
 
 ps: $(TARGET).ps
