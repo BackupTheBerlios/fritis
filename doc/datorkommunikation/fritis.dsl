@@ -1,7 +1,7 @@
 <!--
 	fritis.dsl
 
-	Version: $Revision: 1.1 $
+	Version: $Revision: 1.2 $
 
 
 	Detta är en Style Sheet för böckerna som skrivs för projektet
@@ -110,8 +110,6 @@
 (define %two-side% 
   ;; Is two-sided output being produced?
   #f)
-
-    
 
 </style-specification-body>
 </style-specification>

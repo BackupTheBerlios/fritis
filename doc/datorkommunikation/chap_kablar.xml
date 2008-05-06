@@ -69,7 +69,7 @@
 			brandfarligt. Plenum-kablar är betydligt dyrare än PVC-kablar
 		</para>
 		<para>
-			De kankse viktigaste egenskaperna för kablar när det gäller
+			De kanske viktigaste egenskaperna för kablar när det gäller
 			datorkommunikation är att de har rätt antal ledare, att de inte
 			har för stort motstånd över den längd de är avsedda för och att
 			de inte är störningskänsliga så att de klara de frekvenser de
@@ -148,7 +148,7 @@
 				TP-kabel. Anledningen till att man tvinnar dem är att minska
 				känsligheten för störningar, både för störningar utifrån, så
 				kallad interferens, och inre störningar i kabeln, så kallad
-				crosstalk. Kanske minns nu från fysiken hur ett
+				crosstalk. Kanske minns ni från fysiken hur ett
 				elektromagnetiskt fält vrider sig runt kabeln. Genom att
 				tvinna två kablar tar dessa magnetfält ut varandra och
 				minskar risken för störningar.
@@ -190,13 +190,13 @@
 					Koaxialkabel är en kabel med en ledare i mitten. Runt
 					denna finns en isolator och utanpå den en skärm. Ytterst
 					finns ett skyddande och isolerade hölje. Ledningarnas
-					centrumaxel sammanfaller vilket är bra ur eftersom den
+					centrumaxel sammanfaller, vilket är bra eftersom den
 					elektromagnetiska strålningen, som kan störa. blir
 					minimal.
 				</para>
 				<para>
 					Koaxialkabel är styvare än TP-kabel och är därför svårare
-					att installera. Svårare är detta fall lika med dyrare.
+					att installera. Svårare är i detta fall lika med dyrare.
 				</para>
 
 			</sect2>
@@ -215,10 +215,10 @@
 					behövs speciella verktyg för att skarva kabeln. Ledaren
 					är extremt känslig, både för böjning och för slag.
 					Fiberoptisk kabel skall installeras av proffs. Av någon
-					anledning är fideroptisk kabel ofta grön.
+					anledning är fiberoptisk kabel ofta grön.
 				</para>
 				<para>
-					Fiberoptisk kabel är det vanligaste alternativet idag vi
+					Fiberoptisk kabel är det vanligaste alternativet idag vid
 					snabbare internetförbindelser.
 				</para>
 			</sect2>
@@ -248,7 +248,7 @@
 			förknippat med en hel del problem. För det första får man räkna
 			med att kapaciteten minskar mot kabelalternativ och framför
 			allt att säkerheten som regel minskar. Man måste ta detta i
-			anspråk innan man beslutar sig för att upprätta en trådlös
+			beaktande innan man beslutar sig för att upprätta en trådlös
 			kommunikation.
 		</para>
 
@@ -264,7 +264,7 @@
 				mellan bärbara datorer. En nackdel med IR är att det måste
 				vara fri sikt mellan sändaren och mottagaren och att dessa
 				är ganska riktingskänsliga. Det blir vanligare och vanligare
-				att Bluetooth tar över där IR vanligt vanligt.
+				att Bluetooth tar över där IR tidigare varit vanligt.
 			</para>
 		</sect2>
 

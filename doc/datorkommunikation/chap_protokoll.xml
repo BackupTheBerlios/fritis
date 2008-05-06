@@ -25,14 +25,13 @@
 	<sect1><title>Inledning</title>
 		<para>
 			Minns ni telefonsamtalet (<xref linkend="fig_telefonsamtal"/>)
-			som var ett exempel tidigt i denna bok?  För att
-			telefonsamtalet skall fungera krävs att väldigt många olika
-			regler som måste följas. Man kan dela kommunikationen i ett
-			flertal olika lager. Om Kalle talar i telefon med Kajsa så
-			talar de ju enligt en uppsättning olika regler. De måste vara
-			överens om vilket språk de talar och även inom vilket ämne de
-			talar. Talar de om helt olika saker finns det en stor risk att
-			de missförstår varandra.
+			som var ett exempel tidigt i denna bok? För att telefonsamtalet
+			skall fungera krävs att väldigt många olika regler följs. Man
+			kan dela kommunikationen i ett flertal olika lager. Om Kalle
+			talar i telefon med Kajsa så talar de ju enligt en uppsättning
+			olika regler. De måste vara överens om vilket språk de talar
+			och även inom vilket ämne de talar. Talar de om helt olika
+			saker finns det en stor risk att de missförstår varandra.
 		</para>
 		<para>
 			Om man studerar samtalet i detalj så ser man att Kalle
@@ -55,7 +54,7 @@
 			Kort sagt så kan man säga att om man skall kommunicera på ett
 			eller annat sätt så måste de som kommunicerar göra det efter
 			vissa givna regler. Ett datornätverk skulle inte fungera om
-			inte alla enheter håll sig till en uppsättning regler. Hur
+			inte alla enheter höll sig till en uppsättning regler. Hur
 			skulle alla 1:or och 0:or på Internet kunna komma rätt om alla
 			datorer gjorde som de ville?
 		</para>
@@ -88,7 +87,7 @@
 			protokollen hålls uppdaterade och att de är korrekta.
 		</para>
 	</sect1>
-
+	
 	<sect1><title>Vem styr över protokollen och hur tillkommer nya?</title>
 		<para>
 			Det finns flera företag och organisationer som hanterar olika
@@ -102,7 +101,7 @@
 			fungerar så att någon publicerar ett RFC som beskriver något
 			protokoll eller annat som kan beröra flera. Om inte någon
 			protesterat inom en vis tid antas att RFC:n kan fungera som
-			standard. I dag som regel ett RFC-dokument klart redan när det
+			standard. I dag är som regel ett RFC-dokument redan klart när det
 			publiceras. Vi kommer att titta mer på Internet i <xref
 			linkend="chap_internet"/>, det finns också en tabell över
 			RFC:er som berör det vi talar om i denna bok i <xref
@@ -128,17 +127,17 @@
 			Standarder som tas fram av oberoende organisationer kallas för
 			<emphasis>formella standarder</emphasis>. I de oberoende
 			organisationerna sitter ofta flera av de företag som berörs av
-			starndarderna men efersom de alla har samma tillgång till
+			starndarderna men eftersom de alla har samma tillgång till
 			standarderna så kallas de ändå oberoende. Ganska många
 			standarder tas fram på så sätt att ett företag utvecklar en
-			produtk som skall fungera på ett viss sätt. Blir denna populär
+			produkt som skall fungera på ett viss sätt. Blir denna populär
 			så kommer konkurrenterna att anamma samma format för att kunna
 			utbyta information med denna produkt. Till slut har man en
 			"standard" som alla följer men som ett enda företag (det som
 			inledningsvis tog fram det) kontrollerar och utvecklar. Dessa
 			standarder kallas för <emphasis>de-factostandarder</emphasis>
 			eller industristandarder och skall inte förväxlas med formella
-			standarder eftersom företagen inte konkurrerar på samma vilkor
+			standarder eftersom företagen inte konkurrerar på samma villkor
 			kring en industristandard vilket de kan kring en formell
 			standard.
 		</para>
@@ -260,7 +259,7 @@
 		<sect2><title>Transportlagret</title>
 			<para>
 				I detta lager delas data i flera mindre paket. Det gör att
-				nätskiktet lättare kan arbeta. På mottagarsidan ansvara detta
+				nätskiktet lättare kan arbeta. På mottagarsidan ansvarar detta
 				lager för att sätta ihop paketen igen i rätt ordning så att
 				ursprungsstrukturen återfås. I detta skikt hittar vi TCP som
 				används flitigt på Internet och på LAN.
@@ -270,7 +269,7 @@
 		<sect2><title>Nätverkslagret</title>
 			<para>
 				Detta lager ansvarar för vägval och och vidarebefordring av
-				paketen i datanätet. Här jobbbar till exempel routrar. Det finns
+				paketen i datanätet. Här jobbar till exempel routrar. Det finns
 				massor av protokoll i detta skikt och det viktigaste i dag
 				borde vara IP som används på Internet och i de flesta LAN.
 			</para>
@@ -278,7 +277,7 @@
 
 		<sect2><title>Datalänklagret</title>
 			<para>
-				Här hittar vi det accessmetoder vi lärt oss. Till exempel
+				Här hittar vi de accessmetoder vi lärt oss. Till exempel
 				CSMA/CD och Token Passing. Utrustning som jobbar här är till
 				exempel bryggor.
 			</para>

@@ -29,7 +29,7 @@
 			linkend="fig_osi-vs-tcpip"/> visas en figur över modellerna och
 			hur deras lager är relaterade till varandra. Vi ser även
 			exempel på protokoll i de olika lagren. Till vänster ser vi
-			OSI-modellends sju lager. Till höger ser vi att TCP/IP har 4
+			OSI-modellens sju lager. Till höger ser vi att TCP/IP har 4
 			lager och hur de är relaterade till OSI-modellen. Vissa delar
 			upp TCP/IP-stacken i 5 skikt. Då är det nedersta lagret uppdelat
 			på samma sätt som i OSI-modellen.
@@ -92,7 +92,7 @@
 				finns ingen direkt förbindelse mellan sändare och mottagare.
 				Kommer brevet fram så gör det, annars inte. Vill man veta
 				att brevet verkligen har kommit fram måste man be mottagaren
-				bekräfta detta vilket görs i en del av protokollen ovaför
+				bekräfta detta vilket görs i en del av protokollen ovanför
 				IP i OSI-modellen. IP hittas i nätverksnivån i OSI-modellen.
 			</para>
 		</sect3>
@@ -102,9 +102,9 @@
 				Protocol</emphasis>. TCP är det vanligaste
 				transportprotokollet på Internet. TCP är vad man brukar
 				kalla för <emphasis>connection oriented</emphasis>, det vill
-				säga det skapas ett koppling (connection) mellan sändare och
+				säga det skapas en koppling (connection) mellan sändare och
 				mottagare, precis som under ett telefonsamtal. Vi inser ju
-				att den bara är virtuell eftersom det bygger på IP, men alla
+				att den bara är virtuell eftersom den bygger på IP, men alla
 				överliggande lager ser det som en koppling. I TCP finns
 				funktioner som ser till all data som sänds mellan noderna
 				kommer fram och att den inte blir förstörd. På IP-nivån kan
@@ -115,7 +115,7 @@
 		</sect3>
 		<sect3><title>UDP</title>
 			<para>
-				UDP är också ett valigt protokoll på Internet. UDP är en
+				UDP är också ett vanligt protokoll på Internet. UDP är en
 				förkortning för <emphasis>User Datagram Protocol</emphasis>.
 				Till skillnad från TCP så är det
 				<emphasis>connectionless</emphasis>, vilket betyder att det
@@ -128,13 +128,13 @@
 		</sect3>
 		<sect3><title>ICMP</title>
 			<para>
-				ICMP är en förkortning för <emphasis>Internet Control
-				Message Protocol</emphasis> är ett protokoll som används för
-				diagnostik av ruting och annan funktionalitet samt för
-				kontroll och felmeddelandehantering i ett TCP/IP-nät.
-				Programmen "ping" och "traceroute" är exempel på program som
-				använder ICMP. ICMP är, precis som UDP, connectionless så
-				man kan inte garantera att paketen komme fram.
+				ICMP som är en förkortning för <emphasis>Internet Control
+					Message Protocol</emphasis> är ett protokoll som används
+				för ruting och annan funktionalitet samt för kontroll och
+				felmeddelandehantering i ett TCP/IP-nät.  Programmen "ping"
+				och "traceroute" är exempel på program som använder ICMP.
+				ICMP är, precis som UDP, connectionless så man kan inte
+				garantera att paketen kommer fram.
 			</para>
 		</sect3>
 		<sect3><title>ARP</title>
@@ -155,7 +155,7 @@
 				broadkastförfrågan kommer till alla datorer på nätverket)
 				där den ber noden med den aktuella IP-adressen att svara.
 				När den svarar får den nod som skickar redan på dess
-				MAC-adress. För att varje no inte skall behöva göra
+				MAC-adress. För att varje nod inte skall behöva göra
 				ARP-förfrågningar varje gång den skall sända sparas
 				MAC-adresserna i en tabell på varje nod.
 			</para>
@@ -208,10 +208,8 @@
 				Traditionellt så delar man in nätverken i tre olika klasser,
 				A, B och C. Det finns även D och E men dessa behandlas inte
 				i denna bok. Om man delar in IP-adressen i dess fyra
-				talgrupper w.x.y.w så kan ma Det finns även D och E men
-				dessa behandlas inte i denna bok. Om man delar in
-				IP-adressen i dess fyra talgrupper så gäller <xref
-				linkend="table_natverksklasser"/>.
+				talgrupper w.x.y.w så gäller <xref
+					linkend="table_natverksklasser"/>.
 	
 				<table frame="all" id="table_natverksklasser">
 					<title>Nätverksklasser</title>
@@ -272,7 +270,7 @@
 				datorer som finns på Internet. Det finns flera lösningar på
 				detta. Ett sätt är att dela in adresserna i fler mer
 				finfördelade klasser än A, B och C. Detta gör man redan idag
-				för att få få fler nätverk. Man kan till exempel ha nätverk
+				för att få fler nätverk. Man kan till exempel ha nätverk
 				med bara 8 eller 32 IP-adresser. Läs med om detta i <xref
 				linkend="natmask"/>. Det finns också en teknik som kallas
 				NAT <emphasis>Network Address Translation</emphasis> som gör
@@ -397,7 +395,7 @@
 				<para>
 					På Internet finns en mängd olika routrar. De fungerar som
 					små postkontor som tar emot paket från olika håll och
-					beroende på var de skall skickar dem vidare åt olika
+					beroende på vart de skall skickar dem vidare åt olika
 					håll. Varje router står i kontakt med andra routrar och
 					de samarbetar så att varje router vet vilka delar av
 					nätet som varje router kan komma åt.  På så sätt kan en
@@ -413,10 +411,11 @@
 				</para>
 				<para>
 					Systemet består alltså av en mängd olika routrar som
-					känner till sin omgivning genom att med bestämda
-					protokoll samarbetar med sina grannar om de olika
-					möjliga vägarna till olika mål och därefter tar emot och
-					skickar datapaket åt olika håll beroende på var de skall.
+					känner till sin omgivning genom att de med hjälp av
+					bestämda protokoll samarbetar med sina grannar om de
+					olika möjliga vägarna till olika mål och därefter tar
+					emot och skickar datapaket åt olika håll beroende på var
+					de skall.
 				</para>
 			</sect3>
 
@@ -461,7 +460,7 @@
 					<textobject>
 						<phrase>
 							Bild på ett nätverk. Till vänster syns ett lokalt
-							bätverk med adressrymden 192.168.0.0/255.255.255.0.
+							nätverk med adressrymden 192.168.0.0/255.255.255.0.
 							Det har en router som har adressen 192.168.0.254 på
 							insidan och 10.0.0.9 på utsidan. Den är kopplad
 							till Internet där till exempel www.se.linux.org
@@ -532,7 +531,7 @@ Destination   Netmask          Gateway           Interface
 			<para>
 				I exemplet tittar vi på datorer på ett lokalt nätverk. Dessa
 				har vad man brukar kalla <emphasis>statiska
-				routingtabeller</emphasis>. En dator antingen konfigureras i
+				routingtabeller</emphasis>. En dator kan antingen konfigureras i
 				nätverksinställningarna att använda en speciell
 				routingtabell eller så får den tabellen av en en server på
 				nätet. Sedan ändras inte denna tabell utan den är statisk.
@@ -545,7 +544,7 @@ Destination   Netmask          Gateway           Interface
 				samma gateway i exemplet. Istället för statiska tabeller
 				använder routrarna på Internet ett speciellt protokoll för
 				att deras routingtabeller alltid skall vara aktuella. De
-				håller ständigt reda på sina grannar och vet vilken vär de
+				håller ständigt reda på sina grannar och vet vilken väg de
 				skall skicka paket för att nå olika nät. I övrigt fungerar
 				routrar enligt precis samma princip som routingtabellen i
 				din dator.
@@ -563,7 +562,7 @@ Destination   Netmask          Gateway           Interface
 					gateway som har en publik adress på Internet. Denna
 					router översätter sedan de interna adresserna så att alla
 					datorer på den interna nätverket använder en och samma
-					adress när de ansluter tilll Internet.
+					adress när de ansluter till Internet.
 				</para>
 				<para>
 					Det finns, som nämnts tidigare, flera fördelar med detta
@@ -578,7 +577,7 @@ Destination   Netmask          Gateway           Interface
 					adresser som helst. För att man inte skall riskera att
 					använda adresser på det interna nätet som finns på
 					Internet (då skulle man ju inte komma åt den datorn
-					eftersom deras adresser skulla kollidera) så finns det
+					eftersom deras adresser skulle kollidera) så finns det
 					speciella adresser som bara är avsedda att användas på
 					Interna nät. Dessa kallas ibland för svarta adresser
 					eftersom man aldrig skall stöta på dessa på Internet.
@@ -593,8 +592,8 @@ Destination   Netmask          Gateway           Interface
 					Som vi ser så är det olika stora nätverksklasser. Till
 					exempel så är det lämpligt att använda 10.X.X.X om man
 					behöver ett klass A nät, 172.16.x.x om man behöver ett
-					klass B nät och 192.168.0.x om man behöver ett klass A
-					nät. Men inget hindrar att man använder ett klass A nät
+					klass B nät och 192.168.0.x om man behöver ett klass C
+					nät. Men inget hindrar att man använder ett klass C nät
 					som börjar på 10 eftersom man gör som man vill med dessa
 					adresser.
 				</para>
@@ -744,7 +743,7 @@ Destination   Netmask          Gateway           Interface
 		<!--
 							- DNS-systemets uppbyggnad
 							- hierarkiskt
-							- topdomäner (appendix med komplett lista kanske)
+							- toppdomäner (appendix med komplett lista kanske)
 				- DNS-servrar								   
 		-->
 		<para>
@@ -804,28 +803,28 @@ Destination   Netmask          Gateway           Interface
 			<para>
 				DNS har inte en master eller topp-chef utan i dagsläget 13
 				stycken (http://www.root-servers.org/). Under dessa finns alla
-				dns-servrar som hanterar <emphasis>topdomäner</emphasis>.
+				dns-servrar som hanterar <emphasis>toppdomäner</emphasis>.
 			</para>
 			<para>
 				Vi har tidigare sett att ett datornamn består av flera olika
 				delar. Det längst till höger är det mest signifikanta och är den
 				så kallade toppdomänen. I det finns två olika typer av
-				topdomäner, dels de så kallade <emphasis>generiska</emphasis>
-				som är de äldsta. De vanligaste generiska topdomänerna är .com,
+				toppdomäner, dels de så kallade <emphasis>generiska</emphasis>
+				som är de äldsta. De vanligaste generiska toppdomänerna är .com,
 				.org, och .net. Dessa kom till när Internet var litet och i
 				princip bara fanns i USA. Då var det mest logiskt att dela upp
 				datornamnen efter vilken funktion de tillhörde. Sedan när
 				Internet växte insåg man att man måste dela upp ytterligare, då
 				blev det mest logiska att dela upp efter land. Så kom de
-				nationella topdomänerna till. Exempel på nationella domäner ät
+				nationella toppdomänerna till. Exempel på nationella domäner ät
 				.se, .no, och .dk. Märk att de nationella domänerna är bundna
 				till land medan de generiska kan användas överallt. USA, där
-				användandet av generiska topdomännamn är vanligast har den
-				nationella topdomännamnet .us. Märk också att även om nationella
-				topdomännamn är bundna till länder så finns det inget som
+				användandet av generiska toppdomännamn är vanligast har det
+				nationella toppdomännamnet .us. Märk också att även om nationella
+				toppdomännamn är bundna till länder så finns det inget som
 				hindrar att landet säljer dessa till utlandet. På så sätt har
 				det till exempel blivit väldigt vanligt att svenskar använder
-				det nationella topdomännamnet .nu som tillhör landet Niue.
+				det nationella toppdomännamnet .nu som tillhör landet Niue.
 			</para>
 			<para>
 				I Sverige har vi den nationella toppdomänen se. Den styrs av
@@ -854,25 +853,27 @@ Destination   Netmask          Gateway           Interface
 				http://www.se.linux.org i din browser, vad händer sedan?
 			</para>
 			<para>
-				Det första som händer är att din dator frågar den DNS-server som
-				du angett som standard, det är vanligtvis den server som är DNS
-				på ditt lokala nätverk eller den som din internetleverantör
-				tillhandahåller. Så din dator frågar alltså denna efter
-				www.se.linux.org. Vi antar att denna DNS inte vet vad
-				www.se.linux.org har för adress så denna DNS måste fråga någon
-				annan. Eftersom det är en .org adress (generisk topdomän) så
-				frågar den den server som ansvarar för .org. Vet inte server
-				vilken det är så måste den fråga någon av root-servrarna. Den
+				Det första som händer är att din dator frågar den DNS-server
+				som du angett som standard, det är vanligtvis den server som
+				är DNS på ditt lokala nätverk eller den som din
+				internetleverantör tillhandahåller. Så din dator frågar
+				alltså denna efter www.se.linux.org. Vi antar att denna DNS
+				inte vet vad www.se.linux.org har för adress så denna DNS
+				måste fråga någon annan. Eftersom det är en .org adress
+				(generisk toppdomän) så frågar den den server som ansvarar
+				för .org. Vet den inte vilken server vilken det är så
+				måste den fråga någon av root-servrarna vilken
 				server<footnote><para>Dessa stora domäner hanteras av flera
-				servrar men man kan se de som en enda.</para></footnote> som
-				hanterar .org. Denna server känner inte heller till hela
-				adressen men den kan fråga linux.org som den känner till. Alla
-				känner ju till de som ligger direkt under dem. linux.org känner
-				se.linux.org som i sin tur hittar www.se.linux.org. På så sätt
-				så hittas adressen till den dator du sökte. Varje fråga som
-				ställs sparas (cachas) i den maskin som ställde frågan så det
-				skall gå snabbare nästa gång. Så nästa gång du frågar så vet
-				redan din lokala DNS vilken adress det är du söker. Utan denna
+						servrar men man kan se de som en
+						enda.</para></footnote> som hanterar .org. Denna
+				server känner inte heller till hela adressen men den kan
+				fråga linux.org som den känner till. Alla känner ju till de
+				som ligger direkt under dem. linux.org känner se.linux.org
+				som i sin tur hittar www.se.linux.org. På så sätt så hittas
+				adressen till den dator du sökte. Varje fråga som ställs
+				sparas (cachas) i den maskin som ställde frågan så det skall
+				gå snabbare nästa gång. Så nästa gång du frågar så vet redan
+				din lokala DNS vilken adress det är du söker. Utan denna
 				funktion skulle Internet snabbt svämma över av bara
 				namnförfrågningar.
 			</para>

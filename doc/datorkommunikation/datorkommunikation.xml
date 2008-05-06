@@ -52,7 +52,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2008/02/09 20:44:57 $</pubdate>
+	<pubdate>$Date: 2008/05/06 20:30:23 $</pubdate>
 
 	<copyright>
 		<year>2003,2004,2005,2007,2008</year>
@@ -61,7 +61,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.54 $</revnumber>
+			<revnumber>$Revision: 1.55 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -92,8 +92,7 @@
 		<para>
 			Det vill säga, du kan fritt ladda ner, vidaredistribuera och
 			kopiera denna bok. Du får ändra den om du vill (se
-			licenstexten).  Tryckta böcker kan köpas av TriNix AB i
-			Helsingborg, telefon 042-127800.
+			licenstexten).
 		</para>
 	</legalnotice>
 
@@ -112,11 +111,11 @@
 	<sect1><title>Tack till</title>
 		<para>
 			Jag vill börja denna bok med att tacka alla som hjälpt mig med
-			den. Framför allt då <emphasis>Johan Hammar</emphasis> och
-			<emphasis>Kalevi Nyman</emphasis> som ställt upp med
-			korrekturläsning och <emphasis>XXXX XXXX</emphasis> som ritat
-			alla fina bilder. Utan er hade boken inte varit så bra som den
-			är idag. Tack!
+			den. Framför allt då <emphasis>Johan Hammar</emphasis>,
+			<emphasis>Gunnar Sjöö</emphasis> och <emphasis>Kalevi
+				Nyman</emphasis> som ställt upp med korrekturläsning och
+			<emphasis>XXXX XXXX</emphasis> som ritat alla fina bilder. Utan
+			er hade boken inte varit så bra som den är idag. Tack!
 		</para>
 		<para>
 			Jag vill också tacka dig som läser denna bok. Hittar du något
@@ -127,11 +126,12 @@
 			läsare skall skicka mig kommentarer så att vi tillsammans kan
 			göra den mycket bättre än vad jag och kanske du skulle ensamma.
 			Några exempel på de som gjort detta är <emphasis>Bengt
-			Gördén</emphasis> som gett mycket bra feedback om NAT,
+				Gördén</emphasis> som gett mycket bra feedback om NAT,
 			<emphasis>Pär Lindskog</emphasis> som gett bra feedback
 			angående IMAP, <emphasis>Jan Johansson</emphasis> som bidragit
-			med stycken om bryggor och repeatrar och Simon Schmidt som
-			hittade fel i kapitlet om Internet. Tack alla för er hjälp!
+			med stycken om bryggor och repeatrar och <emphasis>Simon
+				Schmidt</emphasis> som hittade fel i kapitlet om Internet.
+			Tack alla för er hjälp!
 		</para>
 		<para>
 			Sist vill jag tacka min <emphasis>Jenny</emphasis> som står ut

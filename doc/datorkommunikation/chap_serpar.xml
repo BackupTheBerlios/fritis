@@ -274,8 +274,8 @@
 				fungerar så att man läggar till en bit innan stoppbiten
 				eller stoppbitarna. Man skiljer på <emphasis>udda</emphasis>
 				och <emphasis>jämn paritet</emphasis>. Vid jämn paritet
-				skall alla ettor, inklusive paritetsbiten utgöra ett jämnt
-				tal och vid udda paritet ett udda tal.
+				skall summan av alla ettor, inklusive paritetsbiten utgöra
+				ett jämnt tal och vid udda paritet ett udda tal.
 			</para>
 
 			<para>	

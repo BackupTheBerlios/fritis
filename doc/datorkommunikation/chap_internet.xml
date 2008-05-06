@@ -86,14 +86,14 @@
 				utveckling i normala fall är topphemlig. Allteftersom
 				nätverket sprider sig blir det mer och mer okontrollerbart
 				och är till slut inte längre intressant för militären. De
-				överger tillslut Internet och börjat utveckla ett eget
-				nätverk som kommer att kallas MILNET.
+				övergav till slut Internet och började utveckla ett eget
+				nätverk som de kom att kalla MILNET.
 			</para>
 		</sect2>
 
 		<sect2><title>Word wide web, WWW</title>
 			<para>
-				Det som många idag förknippar med Internet är <emphasis>Word
+				Det som många idag förknippar med Internet är <emphasis>World
 				wide web</emphasis> eller WWW som det brukar förkortas eller
 				webben som det populärt kallas. Webben är egentligen bara en
 				funktion av väldigt många på Internet men för många är den,
@@ -121,7 +121,7 @@
 			<para>
 				Det största som hänt Internet bör vara när den första
 				grafiska webbläsaren, <emphasis>Mosaic</emphasis>, skapades.
-				Den gjorde det möjligt att på ett enkelt sätt navigera brand
+				Den gjorde det möjligt att på ett enkelt sätt navigera bland
 				all den information som gjordes tillgänglig på Internet.
 				Programvaran var så pass enkel att vem som helst skulle
 				kunna använda den.  Ett mål med den, och hela Internet, var
@@ -219,7 +219,7 @@
 				anslutning till Internet när man inte använder den.
 				Ytterligare en nackdel är då att det tar en stund att koppla
 				upp sig igen. För inte alls många år sedan var detta det
-				ända sättet en privatperson kunde ansluta sin dator till
+				enda sättet en privatperson kunde ansluta sin dator till
 				Internet. Den maximala anslutningshastigeheten ligger på
 				ungefär 56 kbit/s med ett vanligt modem.
 			</para>
@@ -249,16 +249,16 @@
 			<para>
 				DSL tekniken är en modernare teknik än ISDN. Men den kräver
 				ytterligare lite till av telenätet och går därför inte att
-				för överallt där man kan få ISDN eller använda ett vanligt
+				installera överallt där man kan få ISDN eller använda ett vanligt
 				modem.  Den vanligaste varianten av DSL som använde i
 				Sverige är ADSL (Asymmetric Digital Subscriber Line) det
-				innebär att hastigheten man kan komma upp skiljer sig
+				innebär att hastigheten man kan komma upp i skiljer sig
 				beroende på om man skickar eller tar emot data. Vanligtvis
 				så går det snabbare att hämta data från Internet än vad det
 				gör att skicka data till Internet.  Eftersom man oftast
 				hämtar data från Internet så har detta oftast ingen större
 				praktisk betydelse. Hur snabbt det kan gå med ADSL beror på
-				hur långt ledning du har från ditt hem till en telestation.
+				hur lång ledning du har från ditt hem till en telestation.
 				Ledningens kvalitet påverkar också. Med ADSL ligger
 				hastigheten för nedladdning någonstans mellan 1 och 8 mbit/s
 				och uppladdning någonstans mellan 0,5 och 1 mbit/s.
@@ -287,7 +287,7 @@
 				en av Internetleverantörernas routrar och får på så sätt en
 				stabil koppling till Internet. Inte sällan har större
 				företag två eller flera kopplingar för att inte vara
-				beroende av en ända. De kan till exempel ha en förbindelse
+				beroende av en enda. De kan till exempel ha en förbindelse
 				mellan två kontor i olika städer och sedan en
 				Internetförbindelse i varje stad. Går den ena
 				Internetförbindelsen ner så märker inte användarna det utan
@@ -418,7 +418,7 @@
 			</para>
 		</sect2>
 
-		<sect2><title>Filöverförning (FTP)</title>
+		<sect2><title>Filöverföring (FTP)</title>
 			<para>
 				När man använder http (se ovan) så hämtar man ju filer från
 				servern för att visa dem i sin webbläsare. Men eftersom http
@@ -441,15 +441,14 @@
 			<para>
 				Usenet news eller nyhetsgrupper är ett hörn av Internet som
 				många glömmer bort. En nyhetsgrupp har inte så mycket med
-				med nyheter att göra utan handlar om diskussioner. Usenet
-				News fungerar lite som e-postlistor. Det finns
-				hundratusentals nyhetsgrupper världen över. De flesta
-				speglas mellan servrarna så på din newsserver kommer även
-				postningar från andra länder. Alla grupper har ett specifikt
-				ämne. Vissa har ett speciellt språk. Till exempel så finns
-				det grupper som behandlar olika datorsystem på svenska. Om
-				det inte framgör vilket språk som gäller så är det alltid
-				engelska.
+				nyheter att göra utan handlar om diskussioner. Usenet News
+				fungerar lite som e-postlistor. Det finns hundratusentals
+				nyhetsgrupper världen över. De flesta speglas mellan
+				servrarna så på din newsserver kommer även postningar från
+				andra länder. Alla grupper har ett specifikt ämne. Vissa har
+				ett speciellt språk. Till exempel så finns det grupper som
+				behandlar olika datorsystem på svenska. Om det inte framgår
+				vilket språk som gäller så är det alltid engelska.
 			</para>
 			<para>
 				Det går till så här. När någon postar ett meddelande i en
@@ -496,15 +495,14 @@
 				gör det ingenting om trafiken kan avlyssnas. I fallet med
 				telnet däremot är trafiken väldigt känslig. Anledningen är
 				att användarnamn och lösenord skickas i början av en
-				sessioon. Om någon avlyssnar kommunikationen får får denne
+				session. Om någon avlyssnar kommunikationen får får denne
 				kompletta kontouppgifter och kan logga in på servern.
 			</para>
 			<para>
 				Ett nyare protokoll som heter SSH (Secure SHell) som
 				erbjuder samma funktionalitet som telnet men som är mycket
 				säkrare. Klienter finns till de flesta operativsystem men
-				intstalleras inte alltid som standard vilket telnet ofta
-				gör.
+				installeras inte alltid som standard vilket telnet ofta gör.
 			</para>
 			<para>
 				Om nu SSH är så mycket säkrare, varför finns telnet kvar?

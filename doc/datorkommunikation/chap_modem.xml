@@ -53,11 +53,11 @@
 		<sect2><title>Amplitudmodulering</title>
 			<para>
 				Amplitudmodulering innebär att man genom att ändra
-				amplituden i signalen. Det vill säga 1:or ges en amplitud
-				och 0:or en annan.  Denna metod är inte så effektiv,
-				eftersom den till exempel är väldigt beroende av att
-				signalen inte dämpas på vägen, och användes i de första
-				modemen. 
+				amplituden i signalen kan man baka in data i signalen. Det
+				vill säga 1:or ges en amplitud och 0:or en annan.  Denna
+				metod är inte så effektiv, eftersom den till exempel är
+				väldigt beroende av att signalen inte dämpas på vägen, och
+				användes i de första modemen. 
 			</para>
 
 			<para>

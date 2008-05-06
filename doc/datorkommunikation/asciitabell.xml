@@ -2,7 +2,7 @@
 <title>Exempel på ASCII-tabell</title>
 
 <table frame="all" id="tab_ascii" orient="land">
-<title>ACSII-tabell</title>
+<title>ASCII-tabell</title>
 <tgroup cols='17' align='center' colsep='1' rowsep='1'>
 <colspec colname='c1'/>
 <colspec colname='c2'colwidth="2*"/>

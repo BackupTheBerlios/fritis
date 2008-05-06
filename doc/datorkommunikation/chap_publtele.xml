@@ -20,7 +20,7 @@
 
 		<sect2><title>Stamnät och accessnät</title>
 			<para>
-				Man delar in det publika telenätet i två olika delarm
+				Man delar in det publika telenätet i två olika delar:
 				<emphasis>stamnät</emphasis> och
 				<emphasis>accessnät</emphasis>.  Stamnät brukar man kalla
 				stora nätverk som används som backbone i nätverksstrukturer
@@ -34,8 +34,8 @@
 				skall bygga snabba datornät över telenätet är det oftast här
 				man stöter på problem. Detta gamla kablage är naturligtvis
 				inte avsett för att köra snabba, moderna datornät över. Men
-				det finns tekniker där man anpassat moder teknik efter
-				gammal lägra standard. Ett bra exempel på det är xDSL som är
+				det finns tekniker där man anpassat modern teknik efter
+				gammal lägre standard. Ett bra exempel på det är xDSL som är
 				ett snabbt sätt att kommuninicera med datatrafik över gamla
 				kopparledningar. I Sverige är ADSL vanligast inom det
 				området idag.
@@ -90,9 +90,9 @@
 		<sect2><title>Datapak</title>
 			<para>
 				Ett exempel på ett paketförmedlande (X.25) datanät är
-				Datapak.  Datapak marknadsförs av bland annat telia och
+				Datapak.  Datapak marknadsförs av bland annat Telia och
 				används till exempel för bankomater, kassasystem,
-				företagsnät och telefonsystem.
+				företagsnät och telefonsystem. 
 			</para> 
 		</sect2>
 	</sect1>

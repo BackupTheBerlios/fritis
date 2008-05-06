@@ -32,9 +32,9 @@
 			något typ av kommunikationskort och en kabel.
 		</para>
 		<para>
-			Det vanligaste typen av kommunikationskort eller gränssnitt man
+			Den vanligaste typen av kommunikationskort eller gränssnitt man
 			använder på en dator är ett <emphasis>nätverkskort</emphasis>.
-			Det vanligaste typen av nätverkkort idag är ethernet-kort.
+			Den vanligaste typen av nätverkkort idag är ethernet-kort.
 			Dessa har oftast ett uttag för en kabel med ett kontaktdon som
 			kallas för RJ-45. RJ-45 ser ungefär som den koppling som finns
 			på en del telefoner. Den kontakt som sitter på telefonen heter
@@ -241,7 +241,7 @@
 			vara ansluten till flera nät. Att läsa nätverkstrafik och
 			skicka den vidare åt olika håll beroende på deras destination
 			kallas för att <emphasis>routa</emphasis> på klingande
-			svengelska. För att veta år vilket håll inkommen nätverkstrafik
+			svengelska. För att veta åt vilket håll inkommen nätverkstrafik
 			skall använder sig en router av en
 			<emphasis>routingtabell</emphasis> där det finns listat var
 			olika datorer och nätverk finns. Routingtabellen kan vara

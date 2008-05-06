@@ -25,7 +25,7 @@
 			I svenskt tal och skrift bör man använda ordet e-post före till
 			exempel e-mail eller bara mail. Framför allt bara mail eller
 			försvenskat till mejl är olyckligt eftersom det redan har en
-			annan betydelse på engelska, nämligen papperspost. Ytteligare
+			annan betydelse på engelska, nämligen papperspost. Ytterligare
 			information om detta finns hos Svenska
 			Datatermgruppen<footnote><para>http://www.nada.kth.se/dataterm/</para></footnote>.
 		</para>
@@ -36,8 +36,8 @@
 			flera datorer kunde komma åt. I denna fil kunde man skriva
 			meddelanden som andra kunde läsa. Detta system var dock inte så
 			bra när man ville ha ett system där alla datorer skulle kunna
-			skicka meddlanden till varandra oavsett var de fanns och
-			oavsett vilket system de körde. Man utvecklade det i idag
+			skicka meddelanden till varandra oavsett var de fanns och
+			oavsett vilket system de körde. Man utvecklade det vi i idag
 			kallar e-post.
 		</para>
 		<para>
@@ -164,7 +164,7 @@
 			webbmail. Det är ett system då man istället för att hämta sin
 			post från leverantörens eller företagets SMTP-server med POP
 			eller IMAP, läser den direkt från servern med hjälp av en
-			webbmailprogramvara. Ved denna programvara gör är att möjliggöra
+			webbmailprogramvara. Vad denna programvara gör är att möjliggöra
 			att man läser sin post via HTTP och ett vanlig webbläsare.
 			Eftersom nästan alla datorer idag har en webbläsare och är
 			anslutna till Internet kan man läsa sin post nästan varifrån som

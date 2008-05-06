@@ -13,6 +13,8 @@ VERSION=$(shell gawk '/<revnumber>.*<\/revnumber>/ { match($$0, />(.*)</, arr); 
 TITLE="Datorkommunikation"
 BASE_FILE_NAME=$(TARGET)
 
+export SP_ENCODING=UTF-8
+
 .PHONY: index.html
 
 all: html index.html ps pdf dist laborations
@@ -22,8 +24,8 @@ pub: all
 	chmod 705 laborationer
 	rsync -e "ssh -l rejas" --recursive ./ joakim.vaddo.rejas.se:/var/www/www.rejas.se/static/fritis/$(TARGET)/
 
-fdl-sv.xml: ../../../licenses/fdl-sv.xml
-	cp ../../../licenses/fdl-sv.xml fdl-sv.xml
+fdl-sv.xml: ../common/licenses/fdl-sv.xml
+	cp ../common/licenses/fdl-sv.xml fdl-sv.xml
 
 $(TARGET).tar.gz: $(SOURCE_FILES)
 	mkdir $(TARGET)
@@ -43,12 +45,17 @@ book1.html: $(SOURCE_FILES)
 ps: $(TARGET).ps
 
 $(TARGET).ps: $(SOURCE_FILES)
-	docbook2ps -d fritis.dsl#print $<
+	docbook2ps -V tex-backend -d fritis.dsl#print $<
+
+#$(TARGET).pdf: $(SOURCE_FILES)
+#	docbook2pdf -V tex-backend -d fritis.dsl#print $<
+
 
 pdf: $(TARGET).pdf
 
 $(TARGET).pdf: $(TARGET).ps
 	ps2pdf $(TARGET).ps
+
 
 laborationer/lab1_hub_vs_switch.pdf: laborationer/lab1_hub_vs_switch.sxw
 	echo "You have to use OpenOffice.org to create laborationer/lab1_hub_vs_switch.pdf"

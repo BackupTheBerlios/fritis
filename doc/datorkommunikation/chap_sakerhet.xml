@@ -17,7 +17,7 @@
 		<para>
 			Syftet med all säkerhet är att man skall skapa trygghet. Alla
 			som berörs av systemet skall känna sig trygga med att den
-			information som ligger i sytemet bara kan komma i rätta händer.
+			information som ligger i systemet bara kan komma i rätta händer.
 			En stor bov i detta spel är faktiskt också trygghet. En
 			människa som känner sig väldigt trygg slutar ofta att tänka på
 			säkerheten. Det värsta är det vi kallar falsk trygghet.
@@ -119,7 +119,7 @@
 			<para>
 				Med e-post finns möjligheten att skicka brev med bilagor.
 				Bilagorna kan vara till exempel en bild som illustrerar
-				innehållet i brevet. Det går också att bigoga filer som kan
+				innehållet i brevet. Det går också att bifoga filer som kan
 				vara program. Om du kör dessa program ger du programmet (och
 				då naturligtvis den som skrev det) samma rättigheter som du
 				själv har på din dator. Om du inte vet var programmet kommer
@@ -208,10 +208,10 @@
 		</sect2>
 		<sect2><title>Välj inte de "dansande grisarna"</title>
 			<para>
-				En säkerhetsexpert som heter Bruce Schneier har kostaterat
+				En säkerhetsexpert som heter Bruce Schneier har konstaterat
 				att användarna alltid kommer att välja dansande grisar före
 				säkerhet. Med detta menar han att hur mycket man än utbildar
-				de som använder systemen så kommer de så fort de ser något
+				dem som använder systemen så kommer de så fort de ser något
 				lockande att göra tvärt emot. Så gör inte saker du vet är
 				fel!
 			</para>
