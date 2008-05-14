@@ -15,8 +15,7 @@
 			<emphasis>nod</emphasis>. En nod är en generell
 			adresserbar nätverkskomponent, det kan vara en arbetsstation,
 			en router, en brandvägg eller något annat. Är den adresserbar i
-			nätverket så kallas den ofta för en nod. En nod kallas också
-			för <emphasis>host</emphasis> eller <emphasis>värd</emphasis>.
+			nätverket så kallas den ofta för en nod.
 		</para>
 		<para>
 			Man kan säga att ett nätverk byggs upp av noder som i sin tur

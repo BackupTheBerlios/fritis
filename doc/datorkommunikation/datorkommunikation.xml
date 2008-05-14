@@ -19,6 +19,7 @@
 <!ENTITY chap_sakerhet SYSTEM "chap_sakerhet.xml">
 <!ENTITY chap_dataoverforing SYSTEM "chap_dataoverforing.xml">
 <!ENTITY chap_serpar SYSTEM "chap_serpar.xml">
+<!ENTITY chap_wlan SYSTEM "chap_wlan.xml">
 <!ENTITY chap_datornatverk SYSTEM "chap_datornatverk.xml">
 <!ENTITY chap_natverkskomponenter SYSTEM "chap_natverkskomponenter.xml">
 <!ENTITY chap_kablar SYSTEM "chap_kablar.xml">
@@ -52,7 +53,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2008/05/06 20:30:23 $</pubdate>
+	<pubdate>$Date: 2008/05/14 14:11:52 $</pubdate>
 
 	<copyright>
 		<year>2003,2004,2005,2007,2008</year>
@@ -61,7 +62,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.55 $</revnumber>
+			<revnumber>$Revision: 1.56 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -88,6 +89,10 @@
 			linkend="forord"/>, utan framsidestexter och utan
 			baksidestexter.  En kopia av denna licens finns med i avsnittet
 			med titeln "GNU Free Documentation License".
+		</para>
+		<para>
+			Denna bok använder visst material från Wikipedia
+			(http://sv.wikipedia.org).
 		</para>
 		<para>
 			Det vill säga, du kan fritt ladda ner, vidaredistribuera och
@@ -238,6 +243,8 @@
 &chap_natverkskomponenter;
 
 &chap_kablar;
+
+&chap_wlan;
 
 &chap_modem;
 

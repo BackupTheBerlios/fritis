@@ -62,15 +62,15 @@
 		</para>
 		<para>
 			Nu är det ju inte så att dessa två personer talar med varandra
-			direkt, utan de talar ju egentligen med sin telefon. Denna
-			telefon talar sedan med den andra telefonen med hjälp av en
-			mängd komponenter som till exempel växlar och kablar. Alla
-			dessa komponenter måste samarbeta enligt givna protokoll för
-			att det skall fungera. Telefonerna skickar och tar emot
-			elektriska strömmar som bildar ljud. Dessa måste se ut på ett
-			visst sätt för att telefonerna skall förstå dem. Vidare måste
-			alla delar i telefonnätet vara överens för att man skall vara
-			så säker som möjligt på att de strömmar som kommer ur en
+			direkt, utan de talar ju egentligen med sina telefoner.
+			Telefonerna i sin tur talar sedan med den andra telefonen med
+			hjälp av en mängd komponenter som till exempel växlar och
+			kablar. Alla dessa komponenter måste samarbeta enligt givna
+			protokoll för att det skall fungera. Telefonerna skickar och
+			tar emot elektriska strömmar som bildar ljud. Dessa måste se ut
+			på ett visst sätt för att telefonerna skall förstå dem. Vidare
+			måste alla delar i telefonnätet vara överens för att man skall
+			vara så säker som möjligt på att de strömmar som kommer ur en
 			telefons högtalare skall vara så lika som möjligt som de som
 			kommer in i den andra telefonens mikrofon.
 		</para>
@@ -119,7 +119,7 @@
 				<textobject>
 					<phrase>
 						En figur som visar en rund sinusformad våg till
-						vänster och en kantig fyrkantsvåg till höger.
+						vänster och en kantig fyrkantvåg till höger.
 					</phrase>
 				</textobject>
 			</mediaobject>

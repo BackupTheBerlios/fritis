@@ -80,7 +80,7 @@
 		</sect2>
 		<sect2><title>Spårbarhet</title>
 			<para>
-				Spårbarheten tar många upp som en egen punkt ovan. Jag gör
+				Spårbarhet tar många upp som en egen punkt ovan. Jag gör
 				det inte eftersom jag tycker att den hänger ihop med den
 				andra punkten (Integritet) och att det inte är ett
 				säkerhetsmål i sig. Data blir inte säkrare av spårbarhet,
