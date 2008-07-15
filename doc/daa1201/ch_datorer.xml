@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter lang="sv">
+  <title>Datorer</title>
+
+<section>
+	<title>Datorer</title>
+
+
+
+
+Kapitel 2- Datorer
+
+2.1 Datorer
+
+Den första persondatorn kom från IBM 1981. En persondator används oftast bara av en person åt gången och kopplas ofta till ett lokalt nätverk. Persondatorn är den typen av dator som man har hemmal, i skolan och på arbetsplatsen.  
+
+Minidatorer är en annan datortyp som man inte kommer i kontakt med speciellt ofta och de är en mellanklass mellan stor- och persondatorer. Minidatorerna kommer antagligen att försvinna helt från marknaden ganska snart eftersom att persondatorerna blir bättre och snabbare och kan ta över minidatorernas arbetsområden.
+
+En stordator är en mycket kraftfull dator som oftast används till administrativa system hos större företag. Många personer kan använda denna datorn samtidigt och oftast med en så kallad dum terminal som bara är en skärm och ett tangentbord kopplat direkt in i stordatorn. En stordator har mycket hög beräkningskapacitet, men eftersom att den bara kan räkna ut en sak i taget så räknar den lite på en uppgift sedan lite på nästa och fortsätter så tills den är färdig. 
+
+Superdatorer är extremt kraftfulla datorer som används för mycket kvalificerade tillämpningar. Några användningsområden för superdatorerna är att göra väderprognoser, beräkningar av satellitbanor eller vid konstruktion av t.ex. nya flygplansmodeller.
+</section>
+
+<section>
+	<title>Hårdvara</title>
+
+2.2 Hårdvara
+
+En dator är för många en låda, men vad finns egentligen inut i den? En dator består av en massa sladdar och elektroniska kretsar. För att en dator ska fungera behöver den ström och för att det ska bli rätt mängd ström ska komma in till datorns delar så har man ett nätaggregat som försörger hela datorn med störm. 
+Moderkortet är ett stort kretskort där alla datorns delar knyts samman. På moderkortet sitter datorns hjärna, processorn, även kallad CPU. I processorn sker alla dataförflyttningar mellan alla delarna i datorn, den bestämmer när och var allt ska. Processorn utför även alla beräkningar och logiska operationer. Den blir oftast väldigt varm och bör därför kylas med en fläkt.
+ 
+En annan viktig del i datorn är internminnet eller RAM-minnet (Random Access Memory) som är en vanligare benämning. Där lagras och hämtas data under beräkningar. När datorn stängs av så försvinner allt som ligger lagrat i RAM-minnet, därför måste man spara det man vill ha kvar på datorn till hårddisken. 
+
+Kapaciteten på datorns olika minnen räknas i byte, men 1 byte är väldigt lite, det är bara ett tecken i en text t.ex. ett a. Därför använder man sig av KiB (kibibyte) som är 1024 byte, MiB (mebibyte) som är 1024 KiB, GiB (gibibyte) som är 1024 MiB och TiB (tebibyte) som är 1024 GiB. En felaktig men vanlig benämning på dessa är KB (kilobyte), MB (megabyte), GB (gigabyte) och TB (terabyte). Kilo betyder tusen och när man skriver 1 KB menar man 1000 byte, men en såkallad kilobyte på datorn är 1024 byte och inte 1000 byte. Därför utvecklades binär-prefixen kibi, mebi, gibi och tebi, för att slippa förvirringen när man använde sig av SI-prefix som kilo, mega, giga och tera. 
+
+</section>
+
+<section>
+	<title>Operativsystem</title>
+
+2.3 Operativsystem
+
+Operativsystemet är ett “program” som sköter datorn grundläggande funktioner. Det registrerar vilken tangent som tycks ner och ser till att rätt sak visas på skärmen. 
+Det finns många olika typer av operativsystem, ett som du säkert har kommit i kontakt med tidigare är Microsoft Windows och kanske t.o.m. dess föregångare DOS. 
+
+Ett operativsystem som är fritt och i många fall även gratis är Linux som till stora delar är licensierat med GNU's licenser. Linux är bara själva kärnan i operativsystemet, ett gränssnitt mellan datorns program och hårdvaran, och för att den ska gå att använda behövs programvaror som agerar gränssnitt mellan användaren och kärnan. Det finns en rad olika operativsystem som baseras på Linuxkärnan och andra fria programvaror, dessa kallas för Linuxdistributioner. En del Linuxdistributioner utvecklas av företag t.ex. RedHat och Novell, medan andra utvecklas av frivilliga användare och helt ideelt t.ex. Debian.
+
+Många av idéerna till Linux kommer från Unix som också finns i olika distributioner, men när det är Unix kallas de dialekter. Några exempel på Unix dialekter är Solaris, HP-UX och AIX. Ett annat operativsystem som liknar Unix och Linux är BSD som finns i tre varianter FreeBSD, OpenBSD och NetBSD.
+
+Andra exempel på operativsystem är os/390 och os/400 från IBM som används på stordatorer och Mac OS som används på Macintosh.  Novells operativsystem Netware bör också nämnas, det används oftast på nätverksservrar för fil- och skrivardelning.
+</section>
+
+<section>
+	<title>Tillämpningsprogram</title>
+
+2.4 Tillämpningsprogram
+
+Ett tillämpningsprogram är ett program som du använder för en speciell uppgift t.ex. för ordbehandlning eller skicka e-post. Ett exempel på tillämpningsprogram är OpenOffice som är ett program för ordbehandling, kalkylering och att göra grafiska presentationer.
+
+Ett ordbehandlingsprogram använder du för att skriva exempelvis uppsatser. Ordbehandlingsprogam hanterar i första hand text men det går även att infoga bilder och oftast går det även att göra enklare hemsidor.
+
+Kalkyleringsprogram används för att göra en budget eller räkna ut medelvärdet på alla dina prov. Det kan utföra olika sorters beräkningar. Du kan även visa dina beräkningar i form av tabeller eller olika diagram.
+
+Med ett presentationsprogram kan du göra ett bildspel av dina semesterbilder eller göra en företagspresentation. Det är även bra att använda vid muntliga föredrag i skolan då du visar bildspelet på väggen med en projektor så att alla i publiken kan hänga med. 
+
+Det finns även en rad olika typer av kommunikationsprogram. Med dessa kan du skicka e-post, chatta eller delta i diskussioner. Några exempel på kommunikationsprogram är Mozilla Thunderbird som du använder för att skicka e-post; ICQ, MSN, Jabber och andra IM (Instant Messenger) är också kommunikationsprogram.
+
+Med ett bildbehandlingsprogram som The Gimp (GNU Image Manipulation Program) kan du skapa egna bilder eller redigera foton och andra bilder.
+
+Med webläsaren Mozilla Firefox kan du surfa på internet. Det finns många andra webläsare några exempel är Netscape Navigator, Internet Explorer och Safari. Du kan delta i diskussioner på olika webbsidor, handla cd-skivor eller söka information till ett skolarbete.
+</section>
+
+
+
+
+</chapter>
