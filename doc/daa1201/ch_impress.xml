@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter lang="sv">
+  <title>OpenOffice.org Impress</title>
+
+<section>
+	<title>Arbetslägen</title>
+
+I OpenOffice.org Impress finns fyra arbetslägen och ett läge för bildskärmspresentation. Dessa fyra arbetslägen är Normal, Disposition, Anteckningsvy och Bildsortering. Arbetslägena används för att arbeta på olika sätt med din presentation. I arbetsläget Normal har du en fin överblick över din presentation med bilden i mitten och en meny med alla bilder till vänster för att snabbt kunna skifta mellan de olika bilderna. I arbetsläget Disposition ser du bara texten på bilderna i presentationen och detta ger dig större möjligheter att editera texten så den ser bra ut. I Anteckningsvyn kan du göra små anteckningar för att komma ihåg vad du hade tänkt ha med på de olika bilderna om arbetet tar lång tid. Det kan vara bra speciellt när du inte hinner bli klar med en gång. Du kan även lägga in stöd för din presentation i anteckningsvyn på samma sätt och sedan skriva ut dessa för att använda under presentationen. I arbetsläget Bildsortering kan du se flera bilder som miniatyrer (eng. Thumbnails) och ändra deras ordning eller ta bort och kopiera bilder.
+</section>
+
+<section>
+	<title>Texthantering</title>
+
+För att göra ändringar i textens utseende på alla sidor använder man sid av Bildbakgrundsvyn, denna finner du under Visa-menyn, Bakgrund och sedan Bildbakgrund. Har du ingen text i din presentation kommer en exempeltext upp som gör att du kan se hur dina ändringar kommer att se ut. 
+
+
+
+Nu kan du ändra antingen utseendet på bakgrundsrubriken eller bakgrundstexten. Detta gör du genom att markera det område där du vill ändra och sedan går du upp till verktygsfältet och gör dina inställningar. När du är klar väljer du bara Stäng bildbakgrund i den lilla dialogrutan som kom upp när du öppnade bildbakgrundsvyn.
+
+Vill du bara ändra utseendet på en enstaka bild i presentationen utan att ändringarna påverkar alla bilderna går du till bilden det gäller och markerar texten du vill ändra. För att skapa egna textrutor där du kan lägga in text använder du Text-knappen som finns i verktygsfältet längst ner och drar sedan en ruta från övre vänstra hörnet där du vill att texten ska börja. När du klicka på Text-knappen och sedan på bilden skapas en ny textruta varje gång, för att istället redigera text i en redan existerande textruta klickar du bara på texten. Textrutan utvidgas efter hand som du lägger till mer innehåll i den.
+
+</section>
+
+<section>
+	<title>Bilder</title>
+
+I samma verktygsfält som Text-knappen finns även alternativ för att själv rita olika objekt till sin presentation. Du kan rita linjer, rektanglar, ellipser och figurer med de olika verktygen. För att du lättare ska kunna göra en presentation går jag igenom alla knapparna i den speciella verktygsmenyn längst ner i OpenOffice.org Impress.
+
+
+
+Urval används för att att markera objekt.
+
+Linje ritar en rak linje.
+
+Linje med pilslut ritar en linje som en pil.
+
+Rektangel ritar en rektangel.
+
+Ellips ritar en ellips.
+
+Text lägger till text i presentationen.
+
+Kurva används för att rita raka linjer med fästpunkter för att göra figurer, har en 	undermeny som du kommer åt genom att klicka på pilen till vänster på knappen.
+
+Förbindelse används för att rita linjer med fästpunkter för att göra figurer, har en undermeny.
+
+Grundformer används för att rita olika former som du finner i undermenyn.
+
+Symbolformer används för att rita olika symboler som du finner i undermenyn.
+
+Blockpilar används för att rita blockpilar.
+
+Flödesschema används för att rita flödesscheman.
+
+Förklaringar används för att rita rutor du kan skriva förklaringar i.
+
+Stjärnor används för att rita olika stjärnor, banderoller och sigill.
+
+Punkter används för att förändra formen på ett markerat objekt.
+
+Fästpunkter används för att sätta ut eller flytta fästpunkter som man kan dra linjer mellan för att rita objekt.
+
+Fontwork-galleri öppnar ett galleri med snygga typsnitt du kan använda till rubriker.
+
+Från fil används för att lägga in bilder från din hårddisk i din presentation.
+
+Gallery är ett galleri med olika bilder som du kan använda i din presentation för 	att göra den lite snyggare.
+
+Rotera används för att rotera på ett markerat objekt.
+
+Justering används för att justera positionen för ett objekt.
+
+Placering används för att välja om ett objekt ska vara placerat ovanpå eller under ett annat.
+
+Om du vill att flera objekt ska behandlas som ett objekt kan du välja att gruppera dessa. För att göra detta måste du först markera alla objekt du vill ska grupperas, det gör du genom att hålla nere Shift-tangenten och klicka på objekten. Sedan kan du flytta dem eller göra ändringar precis som vanligt. 
+</section>
+
+
+</chapter>

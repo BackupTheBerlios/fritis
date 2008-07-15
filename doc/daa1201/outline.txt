@@ -4,4 +4,8 @@ ch_datorkommunikation.xml
 ch_openoffice.xml
 ch_writer.xml
 ch_calc.xml
+ch_impress.xml
+ch_lagar.xml
+app_tack.xml
+fdl-sv.xml
 
