@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter lang="sv">
+  <title>Introduktion</title>
+
+  <section>
+    <title>Förord</title>
+
+    <para>Fritis Datorkunskap A är en lärobok för gymnasiekursen Datorkunskap
+    A (DAA1201) helt baserad på programvaror som är fria att ladda ner från
+    tillverkarens webbsida. För den här boken har jag valt att använda Sun
+    Microsystems OpenOffice.org och Mozilla Foundations webbläsare Firefox och
+    e-postklient Thunderbird då dessa fungerar på de flesta plattformar.
+    Tanken med den här boken är att att den ska kunna användas oavsett om man
+    väljer Microsoft Windows, Linux, BSD, Unix eller Mac OS som
+    plattform.</para>
+ </section>
+
+<section>
+  <title>Pedagogik och utformning</title>
+  <para>När du ska lära dig datorer med hjälp
+    av en bok kan det ibland vara lite svårt att förstå vad som menas, därför
+    använder vi skärmbilder (eng. Screenshots) för att visa program, menyer
+    och funktioner. För att underlätta ytterligare för dig som läsare används
+    olika stilar för att förtydliga detta.</para>
+
+	<para>Kommandon visas alltid med fetstil. Exempel:</para>
+
+	<para>Tryck på <guimenuitem>Arkiv</guimenuitem> och välj <guimenuitem>Skriv ut</guimenuitem>.</para>
+
+	<para>Tangenter visas alltid med fetstil.</para>
+
+	<para>Tryck på <keysym>Enter</keysym> följt av <keysym>Uppil</keysym>.</para>
+
+	<para>Två tangenter som skall tryckas ner samtidigt skrivs med + (plus) mellan. Börja alltid med den första tangenten:</para>
+
+	<para><keysym>CTRL</keysym>+<keysym>ALT</keysym>+<keysym>DEL</keysym></para>
+
+	<para>Tangenter som skall tryckas ned efter varandra skrivs med , (komma) mellan:</para>
+
+	<para><keysym>End</keysym>, <keysym>Vänsterpil</keysym></para>
+
+	<para>Du
+    kommer att använda musen mycket under kursens gång. När du ska använda
+    vänster musknapp så står det bara klicka och när du ska använda höger
+    musknapp så skrivs det högerklicka.
+	</para>
+
+	<para> Ibland är det engelska ordet för något
+    kanske mer känt än det svenska, då skriver vi det inom parenteser.
+	</para>
+
+  <para>Exempel: Öppen källkod (eng. Open source).</para>
+
+</section>
+
+<section>
+	<title>Systemkrav Operativsystem</title>
+	
+	<para>Microsoft Windows, Linux, BSD, Unix eller Mac OS.</para>
+ 	<para>Webbläsare: Mozilla Firefox</para>
+	<para>E-postprogram: Mozilla Thunderbird</para>
+	<para>Office-paket: StarOffice eller OpenOffice</para>
+</section>
+
+<section>
+	<title>Fritis - Fri IT i Skolan</title>
+	<para>Fritis är ett projekt vars mål är
+    att underlätta för skolor som väljer att använda fri och öppen
+    programvara. Projektets primära mål är att skriva utbildningsmaterial
+    baserat på fri och öppen programvara som kan användas i undervisningen på
+    gymnasienivå. Mer information, senaste nyheterna och allt
+    utbildningsmaterial som skrivs finns tillgängligt för nedladdning på
+    projektets webbsida www.fritis.se.</para>
+</section>
+
+<section>
+	<title>Vad är fri programvara?</title>
+
+<para>Fri
+    programvara baserar sig på fyra friheter formulerade av Richard Stallman:
+    Friheten att använda programvaran för valfritt syfte. Friheten att
+    undersöka hur programvaran fungerar och förändra den efter egna önskemål.
+    Friheten att vidaredistribuera kopior av programvaran. Friheten att
+    förbättra programvaran och distribuera den i sin förbättrade form.
+
+	<para>Med fri
+    programvara menas programvara som inte är fastlåst med tekniska och/eller
+    juridiska restriktioner som förhindrar de ovan nämnda friheterna. För att
+    uppfylla frihet två och fyra måste källkoden följa med programvaran.
+    Källkoden är den eller de filer där programmeraren berättar för datorn vad
+    programmet ska göra, hur det ska presentera sitt arbete och hur du kan
+    kommunicera med programmet, och där kan man även förbättra befintliga
+    funktioner och/eller lägga till nya. Ett vanligt missförstånd är att många
+    tror att fri programvara måste vara gratis, men med fri programvara menar
+    man fri som i frihet och inte fri som i gratis.
+	</para>
+	<para>Några andra benämningar
+    för fri programvara är engelskans free software och libre software. Open
+    source (sv. öppen källkod) är också en vanlig benämning, men open source
+    programvara behöver inte vara fri programvara, däremot är all fri
+    programvara open source.</para>
+</section>
+
+<section>
+	<title>GNU och GPL</title>
+	<para>GNU är ett projekt som startades
+    1984 och drivs av stiftelsen Free Software Foundation. GNU är en rekursiv
+    akronym för engelska GNU's Not Unix (sv. GNU är inte UNIX). Projektets mål
+    var att utveckla ett UNIX-liknande operativsystem baserat på fria och
+    öppna programvaror. De tog fram licensen GNU General Public License, ofta
+    förkortad GNU GPL, för att ge användarna oinskränkt rätt att ändra och
+    förbättra programmen. Den enda restriktionen är att förändringen också
+    måste vara licensierad med GNU GPL.</para>
+	<para>GNU General Public License är en
+    upphovsrättslicens för fri programvara som ursprungligen skrevs av Richard
+    Stallman. GNU GPL är självklart baserad på Richard Stallmans fyra friheter
+    och därför måste källkoden alltid följa med en GNU GPL-licensierad
+    programvara.</para>
+  </section>
+</chapter>
