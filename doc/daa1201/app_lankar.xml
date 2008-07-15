@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<appendix lang="sv">
+  <title>Länkar till fria programvaror</title>
+
+
+	OpenOffice.org
+	http://www.openoffice.org
+	
+	Mozilla Firefox och Thunderbird
+	http://www.mozilla.com
+
+	The GIMP (GNU Image Manupulation Program) 
+	http://www.gimp.org
+
+	aMSN, en fri MSN-klient för Linux
+	http://www.amsn-project.net/
+
+	Pidgin (tidigare Gaim), en fri mutli-IM klient (bl.a. ICQ, MSN, Jabber och Yahoo)
+	http://www.pidgin.im
+
+	VLC Media Player, en fri mediaspelare
+	http://www.videolan.org/
+
+	Amarok, en fri musikspelare.
+	http://amarok.kde.org/
+
+	K3B, ett fritt DVD/CD-brännarprogram.
+	http://k3b.plainblack.com/
+
+
+
+</appendix>

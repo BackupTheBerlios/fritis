@@ -7,5 +7,6 @@ ch_calc.xml
 ch_impress.xml
 ch_lagar.xml
 app_tack.xml
+app_lankar.xml
 fdl-sv.xml
 
