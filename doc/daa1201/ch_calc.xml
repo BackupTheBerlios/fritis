@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+<chapter lang="sv">
+  <title>OpenOffice.org Calc</title>
+
+
+<section>
+	<title>Tabelldokument</title>
+
+
+Ett tabelldokument är uppbyggt av celler som är ordnade i rader och kolumner. Raderna numrerade från 1 till 32000 och kolumnerna från A till Z och sedan AA till AZ. Detta gör det möjligt att referera till varje unik cell i tabelldokumentet. Varje cell kan innehålla antingen text, ett värde eller en matematisk formel. En uträkning kan skrivas direkt i en cell t.ex. =2 + 3, men den viktigaste anledningen till att använda ett program som OpenOffice.org Calc är att man kan använda innehållet i andra celler för att göra uträkningar t.ex. =SUMMA(A1:A7). Detta räknar ut värdet av cellerna A1 till A7 och skriver resultatet i cellen med uträkningen. Du kan även göra uträkningar som använder värden från andra celler i cellerna A1 till A7 vilket ger dig möjligheter att göra väldigt komplexa uträkningar. 
+
+Ibland händer det att talen blir längre än cellen, då visas ### i cellen. För att anpassa kolumnens bredd efter talet dubbelklickar du på skiljestrecket på höger sida uppe i kolumnhuvudet där bokstäverna står. Skriver du text som är längre än en cell så kommer texten att visas utanför cellen. Du kan använda samma metod som beskrevs ovan för att anpassa kolumnens bredd till texten.
+
+För att inforga en ny rad eller kolumn klickar du på radnummret eller kolumnbokstaven på raden eller kolumnen före där du vill infoga en ny rad eller kolumn. När du gör detta markeras hela raden eller kolumnen, högerklicka på samma ställe och välj sedan Infoga rad eller Infoga kolumni menyn. För att ta bort en rad eller kolumn gör du på samma sätt, men väljer istället Radera rad eller Radera kolumn i menyn.
+
+När OpenOffice.org Calc startas finns det tre tabeller i ditt tabelldokument. Dessa ser du som flikar längst ner till vänster i dokumnentet och heter Tabell1, Tabell2 och Tabell3. Behöver du fler än tre tabeller kan du lägga till fler genom att högerklicka på en av flikarna och sedan välja Infoga tabell i menyn. Då får du upp en dialogruta för att skapa en ny tabell där du kan välja om du vill lägga den före eller efter den tabellflik du högerklickade på. 
+
+
+
+Du kan även döpa din tabell till något mer passande än TabellX. För att döpa om de flikar som finns från början högerklickar du på den och väljer Byt namn på tabell. Behöver du ta bort en av tabellerna högerklickar du på den och väljer Radera tabell.
+
+</section>
+
+<section>
+	<title>Formler</title>
+
+Uträkningarna i OpenOffice.org Calc kallas för formler och kan göras på lite olika sätt. Här nedan beskrivs två exempel på formler och hur man gör dem.
+
+Skriv in ett tal i ruta A1 och tryck på Enter, skriv sedan ytterliggare ett tal i rutan A2 och tryck på tangenten  Tab. Nu befinner vi oss i ruta B2 där du skriver =SUMMA(A1:A2) och tryck på Enter. Nu ser du resultatet av uträkningen i rutan, men om du tittar i inmatningsfältet under verktygsfältet så ser du att själva formlen för uträkningen står där. På så viss kan du se vilken formel du har använt och ändå se resultatet av den i ditt tabelldokument. 
+
+När man arbetar med OpenOffice.org Calc behöver man ibland visa resultat i procent. Skriv in ett tal i rutan A4 och ett mindre tal i ruta A5. Tryck sedan på Tab-tangenten för att komma till ruta B5 där du skriver =A5 \ A4. Detta kommer ge dig ett resultat med procent i decimalform. Klicka då på knappen Talformat: procent medan rutan B5 är markerad. Resultatet kommer ändras till procentform. Du kan även bestämma antalet decimaler med knapparna Talformat: lägg till decimal och Talformat: radera decimal.
+
+Du kan även göra så att talen står i valuta form, då kommer t.ex. 139,00 kr visas i cellen. För att göra detta använder du dig av knappen Talformat: valuta. För att ändra tillbaka till vanligt talformat använder du knappen Talformat: standard. Du kan fritt skifta mellan dessa olika talformat för värden i olika celler.
+</section>
+
+<section>
+	<title>Diagram</title>
+
+När uträkningarna blir större och mer komplexa i OpenOffice.org Calc kan det vara svårt att tolka dem för någon som inte är insatt. För att göra siffrorna mer lättolkade och överskådliga kan du skapa ett eller flera diagram. För att göra diagramet lätt att förstå bör man ha en rad eller kolumn som beskriver vad de olika värdena står för såhär:
+
+
+
+Nu är det dags att skapa själva diagramet, då markerar du de celler som du vill använda som underlag till diagramet. Gå in i Infoga-menyn och välj sedan Diagram för att öppna dialogrutan för att skapa ett diagram. Först ska du välja om det är första kolumnen eller första raden som ska användas som ettiket d.v.s. Förklaring till vad diagramet visar och därefter väljer du i vilket tabellblad som diagramet ska skapas. När du är klar klickar du på Nästa.
+
+
+
+Därefter väljer du vilken typ av diagram du vill använda dig av. Det finns en del att välja på bl.a. Stapeldiagram, cirkeldiagram, linjediagram, XY-diagram och kursdiagram. Du väljer diagram genom att klicka på det så att det markeras med en ruta runt ditt val och klickar sedan på Nästa för att komma vidare.
+
+
+
+Nästa steg är att välja mer exakt hur diagramet ska se ut och var du vill ha gitterlinjer. Gitterlinjer är de linjer som går från diagramets olika värden och gör det lättare att avläsa. När du gjort dina val klickar du på Nästa.
+
+
+
+I sista steget kan du sätta en huvudrubrik och även välja att sätta rubriker på de olika axlarna. Genom att sätta en rubrik på axlarna blir det lättare att förstå vad de visar. Du kan även välja om du vill ha en förklaring, det är bra att ha t.ex. när man använder sig av cirkeldiagram för att veta vilka färger som betyder vad. När du är klar väljer du Färdigställ.
+
+
+
+När du färdigställt ditt diagram läggs det in i det tabellblad som du valde i steg ett. Nedan visas ett exempel på hur det kan se ut.
+
+
+
+Nu kan du ändra storlek på diagramet och flytta dit du vill på sidan. Klicka på diagramet så det blir markerat och sedan kan du dra och släppa det var du vill i tabellbladet. Klicka en gång precis utanför diagramet för att få upp åtta gröna rutor runt diagramet. Genom att klicka på någon av de gröna fyrkanterna runt diagrammet, hålla inne och sedan flytta muspekaren kan du ändra storleken på diagrammet. 
+
+
+
+Klicka du en gång till utanför diagramet kommer du få upp åtta röda cirklar runt diagrammet istället. Med dessa röda cirklar kan du vrida diagrammet i olika vinklar så att det syns bättre.
+
+
+</section>
+
+
+</chapter>
+
+

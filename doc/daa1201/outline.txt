@@ -2,4 +2,6 @@ ch_introduktion.xml
 ch_datorer.xml
 ch_datorkommunikation.xml
 ch_openoffice.xml
+ch_writer.xml
+ch_calc.xml
 
