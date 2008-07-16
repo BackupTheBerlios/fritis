@@ -1,34 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
-<appendix lang="sv">
+<appendix lang="sv" id="app-lankar">
   <title>Länkar till fria programvaror</title>
 
+  <variablelist>
+    <varlistentry>
+      <term>OpenOffice.org</term>
 
-	OpenOffice.org
-	http://www.openoffice.org
-	
-	Mozilla Firefox och Thunderbird
-	http://www.mozilla.com
+      <listitem>
+        <para><ulink
+        url="http://www.openoffice.org">http://www.openoffice.org</ulink></para>
+      </listitem>
+    </varlistentry>
 
-	The GIMP (GNU Image Manupulation Program) 
-	http://www.gimp.org
+    <varlistentry>
+      <term>Mozilla Firefox och Thunderbird</term>
 
-	aMSN, en fri MSN-klient för Linux
-	http://www.amsn-project.net/
+      <listitem>
+        <para><ulink
+        url="http://www.mozilla.com">http://www.mozilla.com</ulink></para>
+      </listitem>
+    </varlistentry>
 
-	Pidgin (tidigare Gaim), en fri mutli-IM klient (bl.a. ICQ, MSN, Jabber och Yahoo)
-	http://www.pidgin.im
+    <varlistentry>
+      <term>The GIMP (GNU Image Manupulation Program)</term>
 
-	VLC Media Player, en fri mediaspelare
-	http://www.videolan.org/
+      <listitem>
+        <para><ulink
+        url="http://www.gimp.org ">http://www.gimp.org</ulink></para>
+      </listitem>
+    </varlistentry>
 
-	Amarok, en fri musikspelare.
-	http://amarok.kde.org/
+    <varlistentry>
+      <term>aMSN, en fri MSN-klient för Linux</term>
 
-	K3B, ett fritt DVD/CD-brännarprogram.
-	http://k3b.plainblack.com/
+      <listitem>
+        <para><ulink
+        url="http://www.amsn-project.net/">http://www.amsn-project.net/</ulink></para>
+      </listitem>
+    </varlistentry>
 
+    <varlistentry>
+      <term>Pidgin (tidigare Gaim), en fri mutli-IM klient (bl.a. ICQ, MSN,
+      Jabber och Yahoo) </term>
 
+      <listitem>
+        <para><ulink
+        url="http://www.pidgin.im ">http://www.pidgin.im</ulink></para>
+      </listitem>
+    </varlistentry>
 
+    <varlistentry>
+      <term>VLC Media Player, en fri mediaspelare</term>
+
+      <listitem>
+        <para><ulink url="http://www.videolan.org/ ">http://www.videolan.org/
+        </ulink></para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>Amarok, en fri musikspelare.</term>
+
+      <listitem>
+        <para><ulink url="http://amarok.kde.org/ ">http://amarok.kde.org/
+        </ulink></para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>K3B, ett fritt DVD/CD-brännarprogram.</term>
+
+      <listitem>
+        <para><ulink
+        url="http://k3b.plainblack.com/ ">http://k3b.plainblack.com/</ulink></para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
 </appendix>
