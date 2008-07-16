@@ -1,0 +1,19 @@
+
+** Konvertera till Docbook:
+ app_lankar.xml
+ ch_datorer.xml
+ ch_datorkommunikation.xml
+ ch_impress.xml
+ ch_writer.xml
+
+** Bilderna
+ Alla bilder från OpenOffice-dokumentet saknas.
+
+** Fixa en Makefile
+
+** Fixa id på alla kapitel
+
+** book.xml
+ Versionshistorik
+ Se till att allt är ok
+
