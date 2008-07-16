@@ -4,64 +4,189 @@
 <chapter lang="sv">
   <title>OpenOffice.org</title>
 
-<section>
-	<title>Introduktion till OpenOffice.org</title>
+  <section>
+     
 
+    <title>Introduktion till OpenOffice.org</title>
 
-4.1 Introduktion till OpenOffice.org
+    <para>I det här kapitlet ska vi bekanta oss med OpenOffice.org som är Sun
+    Microsystems office-paket. OpenOffice.org stöder de flesta filformat som
+    används för att spara olika typer av office-dokument. Detta gör det
+    möjligt att läsa och ändra nästan alla office-dokument som finns. Med
+    OpenOffice.org kan du även spara dina dokument som .pdf-filer (Portable
+    Document Format) som gör att andra inte kan skriva om ditt dokument, detta
+    gör att du kan vara säker på att de som läser ditt dokument verkligen
+    läser det du har skrivit.</para>
 
-I det här kapitlet ska vi bekanta oss med OpenOffice.org som är Sun Microsystems office-paket. OpenOffice.org stöder de flesta filformat som används för att spara olika typer av office-dokument. Detta  gör det möjligt att läsa och ändra nästan alla office-dokument som finns. Med OpenOffice.org kan du även spara dina dokument som .pdf-filer (Portable Document Format) som gör att andra inte kan skriva om ditt dokument, detta gör att du kan vara säker på att de som läser ditt dokument verkligen läser det du har skrivit.
+    <para>I OpenOffice.org kan du skapa textdokument, tabelldokument,
+    presentationer och databaser. Detta kommer du lära dig i följande fyra
+    kapitel. Först ska vi gå igenom lite grundläggande saker som är gemensamma
+    för alla typer av dokument i OpenOffice.org. </para>
+  </section>
 
-I OpenOffice.org kan du skapa textdokument, tabelldokument, presentationer och databaser. Detta kommer du lära dig i följande fyra kapitel. Först ska vi gå igenom lite grundläggande saker som är gemensamma för alla typer av dokument i OpenOffice.org.
-</section>
+  <section>
+     
 
-<section>
-	<title>Arbeta med OpenOffice.org</title>
+    <title>Arbeta med OpenOffice.org</title>
 
-När du startar OpenOffice.org får du upp ett tomt dokument som heter Namnlös1 (eng. Untitled1). Varje nytt dokument som öppnas heter Namnlös och sedan en siffra t.ex. 1, 2 eller 3 beroende på hur många nya, osparade dokument du har öppna. När du sedan sparar ditt dokument så ger du det ett namn, men tills dess har dokumentet inget namn och kallas därför för Namnlös. 
+    <para>När du startar OpenOffice.org får du upp ett tomt dokument som heter
+    Namnlös1 (eng. Untitled1). Varje nytt dokument som öppnas heter Namnlös
+    och sedan en siffra t.ex. 1, 2 eller 3 beroende på hur många nya, osparade
+    dokument du har öppna. När du sedan sparar ditt dokument så ger du det ett
+    namn, men tills dess har dokumentet inget namn och kallas därför för
+    Namnlös.</para>
 
-Om du vill öppna ett nytt dokument kan du antingen använda dig av Akriv-menyn och sedan Nytt  och Textdokument, Tabelldokument, Presentation eller Databas. 
+    <para>Om du vill öppna ett nytt dokument kan du antingen använda dig av
+    <guimenu>Arkiv</guimenu>-menyn och sedan <guimenuitem>Nytt</guimenuitem>
+    och <guimenuitem>Textdokument</guimenuitem>,
+    <guimenuitem>Tabelldokument</guimenuitem>,
+    <guimenuitem>Presentation</guimenuitem> eller
+    <guimenuitem>Databas</guimenuitem>.</para>
 
-När du startar OpenOffice.org får du alltid upp ett tomt dokument, en markör blinkar i övre vänstra hörnet av dokumentet. Texten du skriver läggs in i dokumentet där markören befinner sig.  I ditt nya dokument kan du nu skriva den text du önskar och när raden tar slut så hoppar markören automatiskt till nästa rad och din text fortsätter där. Samma sak händer när sidan tar slut, markören hoppar automatiskt till nästa sida. När du vill påbörja ett nytt stycke använder du Enter-tangenten och markören kommer att flytta sig en rad ner för varje gång du trycker på tangenten. När du fyllt på ditt dokument med text kan du flytta markören mellan olika stycken och sidor med hjälp av antingen musen, pil-tangenterna eller olika tangentbordskombinationer.
+    <para>När du startar OpenOffice.org får du alltid upp ett tomt dokument,
+    en markör blinkar i övre vänstra hörnet av dokumentet. Texten du skriver
+    läggs in i dokumentet där markören befinner sig. I ditt nya dokument kan
+    du nu skriva den text du önskar och när raden tar slut så hoppar markören
+    automatiskt till nästa rad och din text fortsätter där. Samma sak händer
+    när sidan tar slut, markören hoppar automatiskt till nästa sida. När du
+    vill påbörja ett nytt stycke använder du <keysym>Enter</keysym>-tangenten
+    och markören kommer att flytta sig en rad ner för varje gång du trycker på
+    tangenten. När du fyllt på ditt dokument med text kan du flytta markören
+    mellan olika stycken och sidor med hjälp av antingen musen,
+    pil-tangenterna eller olika tangentbordskombinationer. </para>
 
-Det vanligaste sättet att arbeta i OpenOffice.org är i infogningsläge d.v.s. din text skrivs in bakom den text som finns framför markören. Ett annat sätt är överskrivningsläge där texten efter markören skrivs över med den nya texten du skriver. För att växla mellan dessa olika lägen använder du Insert-tangenten.
+    <para>Det vanligaste sättet att arbeta i OpenOffice.org är i
+    infogningsläge d.v.s. din text skrivs in bakom den text som finns framför
+    markören. Ett annat sätt är överskrivningsläge där texten efter markören
+    skrivs över med den nya texten du skriver. För att växla mellan dessa
+    olika lägen använder du <keysym>Insert</keysym>-tangenten.</para>
 
-Om du skrivit något fel i ditt dokument så vill du gärna kunna sudda ut det. Det finns två sätt att radera text i ett dokument. Vill du radera texten bakom markören använder du Backspace-tangenten och vill du radera texten framför markören använder du Delete-tangenten.
+    <para>Om du skrivit något fel i ditt dokument så vill du gärna kunna sudda
+    ut det. Det finns två sätt att radera text i ett dokument. Vill du radera
+    texten bakom markören använder du <keysym>Backspace</keysym>-tangenten och
+    vill du radera texten framför markören använder du
+    <keysym>Delete</keysym>-tangenten.</para>
 
-Du kan även flytta och kopiera text i OpenOffice.org. Först måste du markera texten genom att hålla inne vänster musknapp och dra muspekaren över texten. Där efter högerklickar du på den markerade texten och får upp en meny där du kan välja Klipp ut för att klippa ut texten och sedan Klistra in för att placera den på det ställe du vill ha den. Vill du istället kopiera texten väljer du Kopiera i menyn och sedan Klistra in. Tänk på att texten klistras in där markören är placerad.  
+    <para>Du kan även flytta och kopiera text i OpenOffice.org. Först måste du
+    markera texten genom att hålla inne vänster musknapp och dra muspekaren
+    över texten. Där efter högerklickar du på den markerade texten och får upp
+    en meny där du kan välja <guimenuitem>Klipp ut</guimenuitem> för att
+    klippa ut texten och sedan <guimenuitem>Klistra in</guimenuitem> för att
+    placera den på det ställe du vill ha den. Vill du istället kopiera texten
+    väljer du <guimenuitem>Kopiera</guimenuitem> i menyn och sedan
+    <guimenuitem>Klistra in</guimenuitem>. Tänk på att texten klistras in där
+    markören är placerad.</para>
 
-När du skrivit i ditt dokument så måste du spara dokumentet på datorns hårddisk, annars försvinner dokumentet när du stänger OpenOffice.org. Om det är första gången du ska spara dokumentet och det inte har något namn så går du in i Arkiv-menyn och väljer Spara som..., då får du upp en dialogruta där du kan välja var på hårddisken du vill spara ditt dokument och en rad där du kan skriva in det namn du önskar döpa ditt dokument till, sedan är det bara att trycka på knappen märkt Spara och ditt dokument sparas på hårddisken. Fyller du sedan på med mer text kan du använda Spara-knappen för att spara ändringarna i ditt dokument på hårddisken. Vill du däremot spara en kopia av ditt dokument så måste du använda Arkiv-meny och Spara som... där du får skriva in ett nytt namn på ditt dokument då kopian inte kan ha samma namn som originalet. Namnet på dokumentet får vara max 255 tecken långt och kan inte innehålla ? Eller *. 
+    <para>När du skrivit i ditt dokument så måste du spara dokumentet på
+    datorns hårddisk, annars försvinner dokumentet när du stänger
+    OpenOffice.org. Om det är första gången du ska spara dokumentet och det
+    inte har något namn så går du in i <guimenu>Arkiv</guimenu>-menyn och
+    väljer <guimenuitem>Spara som...</guimenuitem>, då får du upp en
+    dialogruta där du kan välja var på hårddisken du vill spara ditt dokument
+    och en rad där du kan skriva in det namn du önskar döpa ditt dokument
+    till, sedan är det bara att trycka på knappen märkt
+    <guimenuitem>Spara</guimenuitem> och ditt dokument sparas på hårddisken.
+    Fyller du sedan på med mer text kan du använda
+    <guibutton>Spara</guibutton>-knappen för att spara ändringarna i ditt
+    dokument på hårddisken. Vill du däremot spara en kopia av ditt dokument så
+    måste du använda <guimenu>Arkiv</guimenu>-meny och <guimenuitem>Spara
+    som...</guimenuitem> där du får skriva in ett nytt namn på ditt dokument
+    då kopian inte kan ha samma namn som originalet. Namnet på dokumentet får
+    vara max 255 tecken långt och kan inte innehålla ? Eller *. </para>
 
-För att öppna ett dokument som ligger sparat på datorn använder du Öppna-knappen som återfinns bredvid Nytt-knappen. Då får du upp en dialogruta där du kan bläddra bland datorns kataloger för att hitta ditt dokument. När du hittat ditt dokument markerar du det och klickar på knappen märkt Öppna i dialogrutan. 
+    <para>För att öppna ett dokument som ligger sparat på datorn använder du
+    <guibutton>Öppna</guibutton>-knappen som återfinns bredvid
+    <guibutton>Nytt</guibutton>-knappen. Då får du upp en dialogruta där du
+    kan bläddra bland datorns kataloger för att hitta ditt dokument. När du
+    hittat ditt dokument markerar du det och klickar på knappen märkt
+    <guibutton>Öppna</guibutton> i dialogrutan.</para>
 
-Om du hade tänkt skriva ut ditt dokument kan det vara bra att se hur det kommer att se ut på papper innan du skriver ut det. Detta kan du göra med funktionen förhandsgranskning som du finner i Arkiv-menyn och sedan Förhandsgranskning eller så kan du använda knappen Förhandsgranskning i verktygsmenyn.
+    <para>Om du hade tänkt skriva ut ditt dokument kan det vara bra att se hur
+    det kommer att se ut på papper innan du skriver ut det. Detta kan du göra
+    med funktionen förhandsgranskning som du finner i
+    <guimenu>Arkiv</guimenu>-menyn och sedan
+    <guimenuitem>Förhandsgranskning</guimenuitem> eller så kan du använda
+    knappen <guibutton>Förhandsgranskning</guibutton> i verktygsmenyn. </para>
 
-För att sedan skriva ut ditt dokument kan du antingen välja Skriv ut-knappen i verktygsmenyn eller använda Arkiv-menyn och sedan Skriv ut. Ibland kan du behöva ändra inställningarna för skrivarna t.ex. om du har mer än en skrivare att välja på. Det kan du göra i Arkiv-menyn och sedan väljer du Skrivarinställningar.
+    <para>För att sedan skriva ut ditt dokument kan du antingen välja
+    <guibutton>Skriv ut</guibutton>-knappen i verktygsmenyn eller använda
+    <guimenu>Arkiv</guimenu>-menyn och sedan <guimenuitem>Skriv
+    ut</guimenuitem>. Ibland kan du behöva ändra inställningarna för skrivarna
+    t.ex. om du har mer än en skrivare att välja på. Det kan du göra i
+    <guimenu>Arkiv</guimenu>-menyn och sedan väljer du
+    <guimenuitem>Skrivarinställningar</guimenuitem>. </para>
+  </section>
 
-</section>
+  <section>
+     
 
-<section>
-	<title>Rättstavning och autokorrigering</title>
+    <title>Rättstavning och autokorrigering</title>
 
-OpenOffice.org har automatisk stavningskontroll vilket betyder att den kontrollerar din stavning medan du skriver. Stavar du ett ord fel stryks det under med en röd vågig linje. Ett ord anses som felstavat om det inte finns i ordlistan, därför kan vissa rättstavade ord markeras som felstavade. För att rätta det felstavade ordet kan du högerklicka på det, då får du upp en meny med olika förslag på ord och möjligheterna Lägg till  som lägger till ordet i en ordlista eller Ignorera alla som ignorerar ordet alla gånger det dyker upp i ett dokument. Har du stavat ordet korrekt på svenska och det ändå markeras som felstavat kan du lägga in det i ordlistan så att det inte visas som felstavat nästa gång. Är det däremot namn eller kanske utländska ord i din text som anses som felstavade är det mer effektivt att använda Ignorera alla.
+    <para>OpenOffice.org har automatisk stavningskontroll vilket betyder att
+    den kontrollerar din stavning medan du skriver. Stavar du ett ord fel
+    stryks det under med en röd vågig linje. Ett ord anses som felstavat om
+    det inte finns i ordlistan, därför kan vissa rättstavade ord markeras som
+    felstavade. För att rätta det felstavade ordet kan du högerklicka på det,
+    då får du upp en meny med olika förslag på ord och möjligheterna
+    <guibutton>Lägg till</guibutton> som lägger till ordet i en ordlista eller
+    <guibutton>Ignorera alla</guibutton> som ignorerar ordet alla gånger det
+    dyker upp i ett dokument. Har du stavat ordet korrekt på svenska och det
+    ändå markeras som felstavat kan du lägga in det i ordlistan så att det
+    inte visas som felstavat nästa gång. Är det däremot namn eller kanske
+    utländska ord i din text som anses som felstavade är det mer effektivt att
+    använda <guibutton>Ignorera alla</guibutton>. </para>
 
-För att aktivera eller avaktivera automatisk stavningskontroll använder du dig av knappen Kontrollera automatiskt. Vill du inte använda automatiskt stavningskontroll utan rättstava ditt dokument när det är klart kan du använda knappen Rättstavning. För att kontrollera stavningen på ett annat språk använder du menyn Verktyg och sedan Alternativ då får du upp en dialogruta med inställningar för OpenOffice Writer. Gå in under Språkinställningar och sedan Språk, där kan du ändra standardspråk för dokumentet. När du ändrar standardspråk för dokument så gäller det alla dokument, vill du däremot bara kontrollera det aktuella dokumentet på ett annat språk markerar du avbockningsrutan Bara för det aktuella dokumentet. 
+    <para>För att aktivera eller avaktivera automatisk stavningskontroll
+    använder du dig av knappen <guibutton>Kontrollera automatiskt</guibutton>.
+    Vill du inte använda automatiskt stavningskontroll utan rättstava ditt
+    dokument när det är klart kan du använda knappen
+    <guibutton>Rättstavning</guibutton>. För att kontrollera stavningen på ett
+    annat språk använder du menyn <guimenu>Verktyg</guimenu> och sedan
+    <guimenuitem>Alternativ</guimenuitem> då får du upp en dialogruta med
+    inställningar för OpenOffice Writer. Gå in under
+    <guibutton>Språkinställningar</guibutton> och sedan
+    <guibutton>Språk</guibutton>, där kan du ändra standardspråk för
+    dokumentet. När du ändrar standardspråk för dokument så gäller det alla
+    dokument, vill du däremot bara kontrollera det aktuella dokumentet på ett
+    annat språk markerar du avbockningsrutan <guibutton>Bara för det aktuella
+    dokumentet</guibutton>. </para>
 
-OpenOffice.org har även autokorrigering som innebär att vissa ord som man ofta skriver fel på korrigeras automatiskt. Dessa rättas under tiden du skriver t.ex. om du råkar skriva två VErsaler i början på ett ord kommer det ändras så att det bara blir en (Versaler). Det finns även vissa teckenkombinationer som ändras till ett specialtecken när du skriver dessa. 
+    <para>OpenOffice.org har även autokorrigering som innebär att vissa ord
+    som man ofta skriver fel på korrigeras automatiskt. Dessa rättas under
+    tiden du skriver t.ex. om du råkar skriva två VErsaler i början på ett ord
+    kommer det ändras så att det bara blir en (Versaler). Det finns även vissa
+    teckenkombinationer som ändras till ett specialtecken när du skriver
+    dessa. </para>
 
-För att de vilka ord och tecken som korrigeras och för att stänga av funktionen använder du Verktyg-menyn och sedan Autokorrigering. Där kan du själv ändra vilka ord som ska vara med. Du kan även lägga till ord som du stavar fel på ofta som inte finns med. För att lägga till ett ord skriv det felstavade ordet i rutan Ersätt: och det rättstavade ordet i rutan Med:.
-</section>
+    <para>För att de vilka ord och tecken som korrigeras och för att stänga av
+    funktionen använder du <guimenu>Verktyg</guimenu>-menyn och sedan
+    <guimenuitem>Autokorrigering</guimenuitem>. Där kan du själv ändra vilka
+    ord som ska vara med. Du kan även lägga till ord som du stavar fel på ofta
+    som inte finns med. För att lägga till ett ord skriv det felstavade ordet
+    i rutan <guilabel>Ersätt:</guilabel> och det rättstavade ordet i rutan
+    <guilabel>Med:</guilabel>. </para>
+  </section>
 
-<section>
-	<title>Söka och ersätta text</title>
+  <section>
+     
 
-Har du skrivit ett ord eller en fras på flera ställen i ett dokument och sedan kommer på att du måste byta dessa mot något annat kan det vara jobbigt att göra det för hand. Därför finns en funktion för detta i OpenOffice.org. Välj Redigera-menyn och sedan Sök och ersätt.
+    <title>Söka och ersätta text</title>
 
+    <para>Har du skrivit ett ord eller en fras på flera ställen i ett dokument
+    och sedan kommer på att du måste byta dessa mot något annat kan det vara
+    jobbigt att göra det för hand. Därför finns en funktion för detta i
+    OpenOffice.org. Välj <guimenu>Redigera</guimenu>-menyn och sedan
+    <guimenuitem>Sök och ersätt</guimenuitem>. </para>
 
+    <!--TODO: Här finns en bild i originaldokumentet som borde läggas in.-->
 
-Skriv ordet eller frasen som du vill ersätta i rutan Sök efter: och ordet eller frasen som du vill ersätta den med i rutan Ersätt med:. Nu kan du antingen välja att använda Ersätt alla för att göra alla ändringar direkt eller Ersätt för att ersätta det markerade ordet. Vill du inte ersätt ett ord så klickar du bara på Sök nästa och fortsätter till nästa ställe där ordet eller frasen finns utan att ersätta det.
-
-</section>
-
-
+    <para>Skriv ordet eller frasen som du vill ersätta i rutan <guilabel>Sök
+    efter:</guilabel> och ordet eller frasen som du vill ersätta den med i
+    rutan <guilabel>Ersätt med:</guilabel>. Nu kan du antingen välja att
+    använda <guibutton>Ersätt alla</guibutton> för att göra alla ändringar
+    direkt eller <guibutton>Ersätt</guibutton> för att ersätta det markerade
+    ordet. Vill du inte ersätt ett ord så klickar du bara på <guibutton>Sök
+    nästa</guibutton> och fortsätter till nästa ställe där ordet eller frasen
+    finns utan att ersätta det. </para>
+  </section>
 </chapter>
