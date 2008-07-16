@@ -1,23 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+<!DOCTYPE appendix PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
-<appendix lang="sv">
+<appendix lang="sv" id="app-tack">
   <title>Tack till</title>
 
-Jonas Björk och Trinix AB för hjälp med korrekturläsning och praktikplats där jag fick tid att skriva.
+  <variablelist>
+    <varlistentry>
+      <term>Jonas Björk och Trinix AB</term>
 
-Kunskapsgymnasiet i Malmö för att ni gav mig möjligheten att skriva på boken under mig praktik och även som projektarbete. Utan er hade det varit svårt att få tiden att räcka till.
+      <listitem>
+        <para>För hjälp med korrekturläsning och praktikplats där jag fick tid
+        att skriva.</para>
+      </listitem>
+    </varlistentry>
 
-Eva-Marie och Bertil Nilsson för korrekturläsning och uppmuntrande kommentarer när arbetet körde fast.
+    <varlistentry>
+      <term>Kunskapsgymnasiet i Malmö</term>
 
-Andreas Bakker för bilden på ”Sök och ersätt”-dialogrutan från OpenOffice.org i kapitel 4.
+      <listitem>
+        <para>För att ni gav mig möjligheten att skriva på boken under mig
+        praktik och även som projektarbete. Utan er hade det varit svårt att
+        få tiden att räcka till. </para>
+      </listitem>
+    </varlistentry>
 
-Gustav Nilsson för hjälp med korrekturläsning.
+    <varlistentry>
+      <term>Eva-Marie och Bertil Nilsson</term>
 
-Tim Jansson för hjälp med korrekturläsning.
+      <listitem>
+        <para>För korrekturläsning och uppmuntrande kommentarer när arbetet
+        körde fast. </para>
+      </listitem>
+    </varlistentry>
 
-Lars Delhage för hjälp med korrekturläsning.
+    <varlistentry>
+      <term>Andreas Bakker</term>
 
-Martin Thuresson för inskickade kommentarer och rättningar.
+      <listitem>
+        <para>För bilden på ”Sök och ersätt”-dialogrutan från OpenOffice.org i
+        kapitel <xref linkend="ch-openoffice" />.</para>
+      </listitem>
+    </varlistentry>
 
+    <varlistentry>
+      <term>Gustav Nilsson</term>
+
+      <listitem>
+        <para>För hjälp med korrekturläsning. </para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>Tim Jansson</term>
+
+      <listitem>
+        <para>För hjälp med korrekturläsning.</para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>Lars Delhage</term>
+
+      <listitem>
+        <para>För hjälp med korrekturläsning. </para>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>Martin Thuresson</term>
+
+      <listitem>
+        <para>För inskickade kommentarer och rättningar.</para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
 </appendix>
