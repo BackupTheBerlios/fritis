@@ -4,203 +4,439 @@
 <chapter lang="sv">
   <title>Säkerhet, lagar och regler</title>
 
-<section>
-	<title>Netikett</title>
+  <section>
+    <title>Netikett</title>
 
-<para>Många människor pratar med varandra över Internet och med åren har oskrivna regler för hur man uppför sig på Internet tagit form. Dessa regler kallas för Netikett eller Netiquette. Precis som överallt annars behövs vissa regler för hur man ska uppföra sig och vad som är rätt och orätt för att inga missförstånd ska uppstå. Det är ju extra lätt att missförstånd uppstår på Internet där man varken kan se personens ansiktsuttryck eller höra tonfallet i rösten. Det kan vara väldigt svårt att avgöra om en person skämta eller menar allvar, därför finns det olika sätt att markera sin sinnesstämning. Skriver du med STORA BOKSTÄVER på Internet så tolkar man det som att du skriker. Ibland kan man använda stora bokstäver för att markera att man höjer rösten ordentligt och är riktigt arg, men använd inte stora bokstäver i onödan det anses mycket otrevligt.</para>
+    <para>Många människor pratar med varandra över Internet och med åren har
+    oskrivna regler för hur man uppför sig på Internet tagit form. Dessa
+    regler kallas för Netikett eller Netiquette. Precis som överallt annars
+    behövs vissa regler för hur man ska uppföra sig och vad som är rätt och
+    orätt för att inga missförstånd ska uppstå. Det är ju extra lätt att
+    missförstånd uppstår på Internet där man varken kan se personens
+    ansiktsuttryck eller höra tonfallet i rösten. Det kan vara väldigt svårt
+    att avgöra om en person skämta eller menar allvar, därför finns det olika
+    sätt att markera sin sinnesstämning. Skriver du med STORA BOKSTÄVER på
+    Internet så tolkar man det som att du skriker. Ibland kan man använda
+    stora bokstäver för att markera att man höjer rösten ordentligt och är
+    riktigt arg, men använd inte stora bokstäver i onödan det anses mycket
+    otrevligt.</para>
 
-<para>För att markera sina sinnesstämningar används smileys. Här är några exempel på smileys och deras betydelser:</para>
+    <para>För att markera sina sinnesstämningar används smileys. Här är några
+    exempel på smileys och deras betydelser:</para>
 
-<programlisting>
-=)	:)	:-)		Glad
-=D 	:D	:-D		Jätteglad
-=P	:P	:-P		Retsam
-=|	:|	:-|		Likgiltig
-=/	:/	:-/		Missnöjd
-=(	:(	:-(		Sur
-='(	:'(	:'-(		Ledsen
-=S	:S	:-S		Förvirrad
-	;)	;-)		Flirtig eller skämtsam 
-</programlisting>
+    <para></para>
 
-<para>Smileys kan man använda i chat, e-post och i diskussionsforum. När det gäller e-post och diskussionsforum finns det fler saker att tänka på. När du skickar ett e-postmeddelande eller skriver ett inlägg i ett diskussionsforum bör du ange ett ämne som förklarar vad e-postmeddelandet eller inlägget handlar om. Vanligast är att ämnen ser ut t.ex. såhär ”Peter Forsberg skadad igen” eller ”Vad ska man ha för solglasögon i vår?”. Det hade inte låtit speciellt intressant om det stått ”Hockey” eller ”Mode”.</para>
+    <table>
+      <title>Smileys</title>
 
-<para>När du svarar på e-postmeddelande eller inlägg i ett diskussionsforum är det bra att ha med texten du svarar på för att man lättare ska komma ihåg allt. I långa texter anses det som god etikett att klippa bort den text som inte är relevant för ditt svar. Om du svarar på många frågor kan du lägga in svaret i den gamla texten så att man lätt förstår vilken fråga du svarat på. </para>
-
-<para>När man skickar e-postmeddelande eller gör inlägg i ett diskussionsforum så kan man avsluta med en signatur. Det är ett bra sätt att sätta en personlig stämpel på meddelandet eller inlägget. I din signatur kan du skriva t.ex. ditt namn, din e-postadress och adressen till din hemsida. En del personer lägger in olika valspråk i sina signaturer för att göra dem ännu mer personliga. Man bör dock tänka på att inte ha en alltför lång signatur. I enlighet med god netikett får signaturen inte vara längre än fem rader och de flesta e-postprogram har en spärr som gör att det inte går att ha en signatur som är längre än just fem rader.</para>
-
-<para>I en chat kan tempot vara hög och då gäller det att skriva sitt meddelande snabbt för att hänga med i diskussionen, speciellt i chatten på ett spel är tempot riktigt högt när man ska hinna spela samtidigt som man pratar. Därför har ett stort antal förkortningar uppstått och en del har blivit så vanliga att de används på webbsidor, i e-postmeddelande och i diskussionsforum. Tvättemot netiketten skrivs de ofta med stora bokstäver, men det blir vanligare att folk skriver dem med små bokstäver. Här är en lista på de vanligaste förkortningarna som kan vara bra att känna till.</para>
-
-<table>
-	<title>Förkortningar</title>
-
-	<tgroup cols="3">
+      <tgroup cols="2">
         <tbody>
           <row>
-        <entry>FAQ</entry>
-        <entry>Frequently Asked Questions</entry>
-	<entry>Ofta stälda frågor</entry>
+            <entry>=) , :) , :-)</entry>
+
+            <entry>Glad</entry>
           </row>
 
           <row>
-        <entry>BTW</entry>
-	<entry>By The Way</entry>
-        <entry>Förresten</entry>
+            <entry>=D , :D , :-D</entry>
+
+            <entry>Jätteglad</entry>
           </row>
 
-<row>
-<entry>IMHO</entry>
-<entry>In My Humble Opinion</entry>
-<entry>Enligt min blygsamma åsikt</entry>
-</row>
+          <row>
+            <entry>=P , :P , :-P</entry>
 
-<row>
-<entry>IMO</entry>
-<entry>In My Opinion</entry>
-<entry>Enligt min åsikt</entry>
-</row>
+            <entry>Retsam</entry>
+          </row>
 
-<row>
-<entry>RTFM</entry>
-<entry>Read The F*cking Manual</entry>
-<entry>Läs den förbannade manualen</entry>
-</row>
+          <row>
+            <entry>=| , :| , :-|</entry>
 
-<row>
-<entry>LOL</entry>
-<entry>Laughing Out Load</entry>
-<entry>Skrattar högt</entry>
-</row>
+            <entry>Likgiltig</entry>
+          </row>
 
-<row>
-<entry>ROFL</entry>
-<entry>Rolling On The Floor Laughing</entry>
-<entry>Rullar runt på golvet och skrattar</entry>
-</row>
+          <row>
+            <entry>=/ , :/ , :-/</entry>
 
-<row>
-<entry>ROTFLMAO</entry>
-<entry>Rolling On The Floor Laughing My Ass Off</entry>
-<entry>Rullar runt på golvet och skrattar röven av mig</entry>
-</row>
+            <entry>Missnöjd</entry>
+          </row>
 
-<row>
-<entry>OTOH</entry>
-<entry>On The Other Hand</entry>
-<entry>Och andra sidan</entry>
-</row>
+          <row>
+            <entry>=( , :( , :-(</entry>
 
-<row>
-<entry>CU</entry>
-<entry>See You</entry>
-<entry>Vi ses</entry>
-</row>
+            <entry>Sur</entry>
+          </row>
 
-<row>
-<entry>FYI</entry>
-<entry>For Your Information</entry>
-<entry>För din information</entry>
-</row>
+          <row>
+            <entry>='( , :'( , :'-(</entry>
 
-<row>
-<entry>YMBK</entry>
-<entry>You Must Be Kidding</entry>
-<entry>Du måste skoja</entry>
-</row>
+            <entry>Ledsen</entry>
+          </row>
 
-<row>
-<entry>THX</entry>
-<entry>Thanks</entry>
-<entry>Tack</entry>
-</row>
+          <row>
+            <entry>=S , :S , :-S</entry>
 
-<row>
-<entry>PLS</entry>
-<entry>Please</entry>
-<entry>Snälla</entry>
-</row>
+            <entry>Förvirrad</entry>
+          </row>
 
-<row>
-<entry>AFK</entry>
-<entry>Away From Keyboard</entry>
-<entry>Borta från tangentbordet</entry>
-</row>
-<row>
-<entry>BRB</entry>
-<entry>Be Right Back</entry>
-<entry>Strax tillbaka</entry>
-</row>
-<row>
-<entry>BBL</entry>
-<entry>Be Back Later</entry>
-<entry>Tillbaka senare</entry>
-</row>
-<row>
-<entry>GL HF</entry>
-<entry>Good Luck, Have Fun</entry>
-<entry>Lycka till, ha kul</entry>
-</row>
-<row>
-<entry>GG</entry>
-<entry>Good Game</entry>
-<entry>Fint spel</entry>
-</row>
+          <row>
+            <entry>;) , ;-)</entry>
 
+            <entry>Flirtig eller skämtsam</entry>
+          </row>
         </tbody>
       </tgroup>
     </table>
 
-</section>
+    <para>Smileys kan man använda i chat, e-post och i diskussionsforum. När
+    det gäller e-post och diskussionsforum finns det fler saker att tänka på.
+    När du skickar ett e-postmeddelande eller skriver ett inlägg i ett
+    diskussionsforum bör du ange ett ämne som förklarar vad e-postmeddelandet
+    eller inlägget handlar om. Vanligast är att ämnen ser ut t.ex. såhär
+    ”Peter Forsberg skadad igen” eller ”Vad ska man ha för solglasögon i
+    vår?”. Det hade inte låtit speciellt intressant om det stått ”Hockey”
+    eller ”Mode”.</para>
 
-<section>
-	<title>Datorsäkerhet</title>
+    <para>När du svarar på e-postmeddelande eller inlägg i ett
+    diskussionsforum är det bra att ha med texten du svarar på för att man
+    lättare ska komma ihåg allt. I långa texter anses det som god etikett att
+    klippa bort den text som inte är relevant för ditt svar. Om du svarar på
+    många frågor kan du lägga in svaret i den gamla texten så att man lätt
+    förstår vilken fråga du svarat på.</para>
 
+    <para>När man skickar e-postmeddelande eller gör inlägg i ett
+    diskussionsforum så kan man avsluta med en signatur. Det är ett bra sätt
+    att sätta en personlig stämpel på meddelandet eller inlägget. I din
+    signatur kan du skriva t.ex. ditt namn, din e-postadress och adressen till
+    din hemsida. En del personer lägger in olika valspråk i sina signaturer
+    för att göra dem ännu mer personliga. Man bör dock tänka på att inte ha en
+    alltför lång signatur. I enlighet med god netikett får signaturen inte
+    vara längre än fem rader och de flesta e-postprogram har en spärr som gör
+    att det inte går att ha en signatur som är längre än just fem
+    rader.</para>
 
-<para>På de flesta datorer och nätverk finns information och program som man inte vill bli av med av olika anledningar. Därför måste man skydda datorn och nätverket på olika sätt. För att skydda informationen på datorn och nätverket används inloggning. Inloggning funderar så att du måste ange identitet och ett lösenord för att komma åt datorn och nätverket. Oftast finns det även en spärr som gör att man konto blir låst och måste låsas upp av systemadministratören om man skriver fel lösenord tre gånger i rad. För att man inte ska kunna ha ett för enkelt lösenord måste oftast lösenordet vara minst sex tecken för att du ska kunna använda det. När du väljer lösenord ska du tänka på att inte välja något som anknyter till dig för då blir det lättare att gissa. Lösenordet är hemligt och bara du ska veta om det, därför visas *** på skärmen när du skriver ditt lösenord så ingen kan titta över axeln. Den vanligaste orsaken till att information hamnar i orätta händer är just slarv med lösenorden av användarna. För att ytterligare skydda sig om någon nu lyckas ta sig in så använder man rättigheter. Dessa rättigheter gör att man oftast bara har tillgång till information och program som man använder i sitt arbete och inget mer. Dessutom kan det vara så att man får läsa vissa filer, men inte skriva i dem eller använda ett program, men inte kunna ändra inställningarna för det. </para>
+    <para>I en chat kan tempot vara hög och då gäller det att skriva sitt
+    meddelande snabbt för att hänga med i diskussionen, speciellt i chatten på
+    ett spel är tempot riktigt högt när man ska hinna spela samtidigt som man
+    pratar. Därför har ett stort antal förkortningar uppstått och en del har
+    blivit så vanliga att de används på webbsidor, i e-postmeddelande och i
+    diskussionsforum. Tvättemot netiketten skrivs de ofta med stora bokstäver,
+    men det blir vanligare att folk skriver dem med små bokstäver. Här är en
+    lista på de vanligaste förkortningarna som kan vara bra att känna
+    till.</para>
 
-<para>Ett annat hot mot säkerheten på datorn och nätverket är datorvirus. Ett datorvirus är ett program vars uppgift först och främst är att kopiera och sprida sig själv, men är oftast programmerat för att skada datorn det smittar. Oftast skadar det datorn genom att ta bort filer, installera program som körs på datorn och gör den långsammare eller sparar filer på din hårddisk som du inte kan öppna eller ta bort. Datorvirus smittar vanligast genom e-post och program som du laddar ner från Internet. De flesta datorvirus är programmerade för Microsoft Windows och funkar därför inte på andra operativsystem som t.ex. Linux och Mac OS X, men det finns några få även till dessa operativsystem. För att skydda sig mot virus använder man sig av antivirusprogram. </para>
+    <table>
+      <title>Förkortningar</title>
 
-</section>
+      <tgroup cols="3">
+        <tbody>
+          <row>
+            <entry>FAQ</entry>
 
-<section>
-	<title>Lagar</title>
+            <entry>Frequently Asked Questions</entry>
 
-Det finns ett antal lagar och bestämmelser som reglerar säkerheten kring databehandling. De viktigaste är Sekretesslagen, Personuppgiftslagen och Datalagen, Tryckfrihetsförordningen och Datainspektionens författningssamlingar. Dessa tar upp hur man får samla in, använda och sprida data. Datainspektionen är tillsynsmyndighet för Personuppgiftslagen och har i uppgift att se till att lagen efterföljs. Personuppgiftslagen  är Datalagens ersättare och trädde i kraft 1998. Syftet med personuppgiftslagen är att avgöra när behandling av personuppgifter är tillåten. Datainspektionen kan gå in och kontrollera innehållet i olika personregister. De har även till uppgift att ta emot klagomål från allmänheten om någon anser sig orättfärdigt registrerad och då gå in och kontrollera om registreringen strider mot lagen. Enligt Personuppgiftslagen är du också skyldig att anmäla till Datainspektionen om du vill föra ett register med personuppgifter.  
-</section>
+            <entry>Ofta stälda frågor</entry>
+          </row>
 
-<section>
-	<title>Miljö</title>
+          <row>
+            <entry>BTW</entry>
 
-<para>Datorer är inte särskilt miljövänliga då de innehåller miljöfarliga tungmetaller, de flesta av dessa finns i de delar som är tillverkade av plast. P.g.a detta har många datortillverkare valt att utlova återvinning av datorer för att datorerna inte ska slängas på soptippen där de kan bli liggande i flera år och på sikt utger en risk för läckage av tungmetaller. För att återvinna en dator måste man plocka isär alla delar, även kretskorten då dessa innehåller både plast och metall, dessutom måste man sortera de olika plasterna för återvinning.</para>
+            <entry>By The Way</entry>
 
-<para>Vid tillverkning av datorer använder ett stort antal miljöfarliga ämnen bl.a freoner (CFC och HCFC) och klorerade lösningsmedel. Dessa används inom elektronikindustrin som rengörings- och lösningsmedel och är mycket miljöfarliga. Freoner är stark ozonnedbrytande och klorerade lösningsmedel kan vara ozonnedbrytande, cancerframkallande och giftiga om de förekommer i vattenmiljöer.</para>
+            <entry>Förresten</entry>
+          </row>
 
-<para>Det finns även ett antal miljömärkningar för datorer bl.a. TCO, Svanen och Bra Miljöval. TCO(Tjänstemännens Centralorganisation) började sitt arbete att ställa krav på bildskärmar efter FN:s miljökonferens i Rio 1992. På bara några år blev det en dominerande standard för miljömärkning av bildskärmar och över hundra dator- och skärmleverantörer har anslutit sig och har miljöanpassat nästan 2000 bildskärmsmodeller utifrån TCO-märkningens miljökrav.</para>
+          <row>
+            <entry>IMHO</entry>
 
-<para>Miljömärkningen Svanen är nordiska ministerrådets miljömärkning som inrättades 1990. En skillnad mellan Svanen och andra miljömärkningar är att beslut om märkning fattas i organisationens miljömärkningsnämnd som består av representanter från de nordiska länderna och industrin i dessa länder. När man ska märka en produkt med Svanen vägs alla miljökraven ihop och även om man inte uppfyller ett av kraven kan produkten bli Svanen-märkt om produkten uppfyller kraven med god marginal på en annan punkt.</para>
+            <entry>In My Humble Opinion</entry>
 
-<para>Svenska Naturskyddsföreningens miljömärkning Bra Miljöval har pilgrimsfalk som märkning. Deras kriterier omfattar ett stort antal produkter och har nu miljömärkning inom många olika sektorer bl.a dagligvaror, transporter, elleveranser och märkning av persondatorer tillsammans med TCO. För miljömärkningen Bra Miljöval är det Svenska Naturskyddsföreningen som bestämmer hur kriterierna ska se ut och vilka produkter som ska märkas.</para>
-</section>
+            <entry>Enligt min blygsamma åsikt</entry>
+          </row>
 
-<section>
-	<title>Demokrati och etik</title>
+          <row>
+            <entry>IMO</entry>
 
-<para>Datoranvändningen ökar i snabb takt i hela världen och allt fler ägnar sig åt att söka eller själva sprida information på Internet. Detta påverkar politiken genom att det blivit enklare för gemene man att få kunskaper om sakfrågor. När man använder internet mycket och själv publicerar material på Internet är det viktigt att ha kunskap om de juridiska och demokratiska aspekterna av datorteknologin. Dessa innefattar främst Personuppgiftslagen, Upphovsrättslagen och lagen om yttrande- och informationsfriheten. </para>
+            <entry>In My Opinion</entry>
 
-<para>Det finns tyvärr även risker med det informationssamhälle där vi lever. Den mest påtagliga risken är hotet mot den personliga integriteten. I debatten har även risken för ökade samhällsklyftor nämnts i samband med att inte alla kan nås av den information som finns på Internet. En annan faktor är att tekniken hela tiden blir mer och mer komplex och att detta skulle leda till att vissa känner sig främmande inför den nya tekniken. Det har även diskuterats flitigt hur vida vissa grupper ska få sprida sin information på Internet. Det finns ett antal rasistiska föreningar och organisationer som publicerar rasistisk information på Internet.</para>
+            <entry>Enligt min åsikt</entry>
+          </row>
 
-</section>
+          <row>
+            <entry>RTFM</entry>
 
-<section>
-	<title>Ergonomi</title>
+            <entry>Read The F*cking Manual</entry>
 
-<para>Använder du datorn många timmar per dag är det viktigt med en bra arbetsmiljö för att slippa obehag och skador. Det finns många ergonomiska produkter på marknaden idag och många av dem kan bidra till att din kropp inte utsätts för onödiga risker. Viktigast är dock den grundläggande arbetsmiljön som skrivbordet och stolen. Det bästa är justerbara skrivbord och stolar som du kan ställa in så de passar just dig. När du sitter på stolen ska du ha ryggen mot ryggstödet och hela foten i golvet. Skrivbordet bör vara i armbågshöjd annars är det lätt att du drar upp axlarna och får ont. Det ska dessutom vara så djup att du får plats med skärmen och tangentbordet mitt framför dig. Sitter du mycket vid datorn bör du dessutom ta pauser och sträcka på benen ibland för att minska belastningen på kroppen. När du arbetar vid datorn bör du sitta på minst 50 cm avstånd från skärmen och blicken ska vara riktad lite nedåt när du läser på skärmen. Skärmen ska inte flimra och alla tecken ska vara skarpa och tydliga. Tänk även på att placera bildskärmen så att inget ljus reflekteras i den då det gör det betydligt svårare att se på skärmen och kan i förlängningen orsaka ögonbesvär.</para>
+            <entry>Läs den förbannade manualen</entry>
+          </row>
 
-<para>Det finns några olika typer av tangentbord och här kan det vara bra att prova sig fram och se vad man själv trivs med. Dels finns de vanliga och sedan finns tangentbord utan den numeriska delen som då blir mindre. Det finns även ett tangentbord som är delat på mitten och böjt, dessa sk. Ergonomiska tangentbord ska minska risken för förslitningsskador i armarna. Det är mest personer som skriver väldigt mycket som föredrar den typen av tangentbord. Det finns även handlovsstöd som man fäster i nederkanten på sitt vanliga tangentbord och som ger stöd åt handlederna. </para>
+          <row>
+            <entry>LOL</entry>
 
-<para>En skada man ofta pratar om i samband med datorer är musarm. Det är en smärta och stelhet  i nacke, axlar, armar eller händer som är orsakad av arbete vid dator. För att undvika musarm bör musen placeras på samma höjd som tangentbordet och du ska kunna byta mellan tangentbord och mus utan att spänna axlarna. Dina underarmar bör dessutom luta nedåt mot tangentbord och mus för att minska risken för skador. Det finns olika modeller av pekdon och datormöss så även här kan det vara värt att prova sig fram.</para>
+            <entry>Laughing Out Load</entry>
 
-</section>
+            <entry>Skrattar högt</entry>
+          </row>
 
+          <row>
+            <entry>ROFL</entry>
+
+            <entry>Rolling On The Floor Laughing</entry>
+
+            <entry>Rullar runt på golvet och skrattar</entry>
+          </row>
+
+          <row>
+            <entry>ROTFLMAO</entry>
+
+            <entry>Rolling On The Floor Laughing My Ass Off</entry>
+
+            <entry>Rullar runt på golvet och skrattar röven av mig</entry>
+          </row>
+
+          <row>
+            <entry>OTOH</entry>
+
+            <entry>On The Other Hand</entry>
+
+            <entry>Och andra sidan</entry>
+          </row>
+
+          <row>
+            <entry>CU</entry>
+
+            <entry>See You</entry>
+
+            <entry>Vi ses</entry>
+          </row>
+
+          <row>
+            <entry>FYI</entry>
+
+            <entry>For Your Information</entry>
+
+            <entry>För din information</entry>
+          </row>
+
+          <row>
+            <entry>YMBK</entry>
+
+            <entry>You Must Be Kidding</entry>
+
+            <entry>Du måste skoja</entry>
+          </row>
+
+          <row>
+            <entry>THX</entry>
+
+            <entry>Thanks</entry>
+
+            <entry>Tack</entry>
+          </row>
+
+          <row>
+            <entry>PLS</entry>
+
+            <entry>Please</entry>
+
+            <entry>Snälla</entry>
+          </row>
+
+          <row>
+            <entry>AFK</entry>
+
+            <entry>Away From Keyboard</entry>
+
+            <entry>Borta från tangentbordet</entry>
+          </row>
+
+          <row>
+            <entry>BRB</entry>
+
+            <entry>Be Right Back</entry>
+
+            <entry>Strax tillbaka</entry>
+          </row>
+
+          <row>
+            <entry>BBL</entry>
+
+            <entry>Be Back Later</entry>
+
+            <entry>Tillbaka senare</entry>
+          </row>
+
+          <row>
+            <entry>GL HF</entry>
+
+            <entry>Good Luck, Have Fun</entry>
+
+            <entry>Lycka till, ha kul</entry>
+          </row>
+
+          <row>
+            <entry>GG</entry>
+
+            <entry>Good Game</entry>
+
+            <entry>Fint spel</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+  </section>
+
+  <section>
+    <title>Datorsäkerhet</title>
+
+    <para>På de flesta datorer och nätverk finns information och program som
+    man inte vill bli av med av olika anledningar. Därför måste man skydda
+    datorn och nätverket på olika sätt. För att skydda informationen på datorn
+    och nätverket används inloggning. Inloggning funderar så att du måste ange
+    identitet och ett lösenord för att komma åt datorn och nätverket. Oftast
+    finns det även en spärr som gör att man konto blir låst och måste låsas
+    upp av systemadministratören om man skriver fel lösenord tre gånger i rad.
+    För att man inte ska kunna ha ett för enkelt lösenord måste oftast
+    lösenordet vara minst sex tecken för att du ska kunna använda det. När du
+    väljer lösenord ska du tänka på att inte välja något som anknyter till dig
+    för då blir det lättare att gissa. Lösenordet är hemligt och bara du ska
+    veta om det, därför visas *** på skärmen när du skriver ditt lösenord så
+    ingen kan titta över axeln. Den vanligaste orsaken till att information
+    hamnar i orätta händer är just slarv med lösenorden av användarna. För att
+    ytterligare skydda sig om någon nu lyckas ta sig in så använder man
+    rättigheter. Dessa rättigheter gör att man oftast bara har tillgång till
+    information och program som man använder i sitt arbete och inget mer.
+    Dessutom kan det vara så att man får läsa vissa filer, men inte skriva i
+    dem eller använda ett program, men inte kunna ändra inställningarna för
+    det.</para>
+
+    <para>Ett annat hot mot säkerheten på datorn och nätverket är datorvirus.
+    Ett datorvirus är ett program vars uppgift först och främst är att kopiera
+    och sprida sig själv, men är oftast programmerat för att skada datorn det
+    smittar. Oftast skadar det datorn genom att ta bort filer, installera
+    program som körs på datorn och gör den långsammare eller sparar filer på
+    din hårddisk som du inte kan öppna eller ta bort. Datorvirus smittar
+    vanligast genom e-post och program som du laddar ner från Internet. De
+    flesta datorvirus är programmerade för Microsoft Windows och funkar därför
+    inte på andra operativsystem som t.ex. Linux och Mac OS X, men det finns
+    några få även till dessa operativsystem. För att skydda sig mot virus
+    använder man sig av antivirusprogram.</para>
+  </section>
+
+  <section>
+     
+
+    <title>Lagar</title>
+
+     Det finns ett antal lagar och bestämmelser som reglerar säkerheten kring databehandling. De viktigaste är Sekretesslagen, Personuppgiftslagen och Datalagen, Tryckfrihetsförordningen och Datainspektionens författningssamlingar. Dessa tar upp hur man får samla in, använda och sprida data. Datainspektionen är tillsynsmyndighet för Personuppgiftslagen och har i uppgift att se till att lagen efterföljs. Personuppgiftslagen är Datalagens ersättare och trädde i kraft 1998. Syftet med personuppgiftslagen är att avgöra när behandling av personuppgifter är tillåten. Datainspektionen kan gå in och kontrollera innehållet i olika personregister. De har även till uppgift att ta emot klagomål från allmänheten om någon anser sig orättfärdigt registrerad och då gå in och kontrollera om registreringen strider mot lagen. Enligt Personuppgiftslagen är du också skyldig att anmäla till Datainspektionen om du vill föra ett register med personuppgifter. 
+  </section>
+
+  <section>
+    <title>Miljö</title>
+
+    <para>Datorer är inte särskilt miljövänliga då de innehåller miljöfarliga
+    tungmetaller, de flesta av dessa finns i de delar som är tillverkade av
+    plast. P.g.a detta har många datortillverkare valt att utlova återvinning
+    av datorer för att datorerna inte ska slängas på soptippen där de kan bli
+    liggande i flera år och på sikt utger en risk för läckage av tungmetaller.
+    För att återvinna en dator måste man plocka isär alla delar, även
+    kretskorten då dessa innehåller både plast och metall, dessutom måste man
+    sortera de olika plasterna för återvinning.</para>
+
+    <para>Vid tillverkning av datorer använder ett stort antal miljöfarliga
+    ämnen bl.a freoner (CFC och HCFC) och klorerade lösningsmedel. Dessa
+    används inom elektronikindustrin som rengörings- och lösningsmedel och är
+    mycket miljöfarliga. Freoner är stark ozonnedbrytande och klorerade
+    lösningsmedel kan vara ozonnedbrytande, cancerframkallande och giftiga om
+    de förekommer i vattenmiljöer.</para>
+
+    <para>Det finns även ett antal miljömärkningar för datorer bl.a. TCO,
+    Svanen och Bra Miljöval. TCO(Tjänstemännens Centralorganisation) började
+    sitt arbete att ställa krav på bildskärmar efter FN:s miljökonferens i Rio
+    1992. På bara några år blev det en dominerande standard för miljömärkning
+    av bildskärmar och över hundra dator- och skärmleverantörer har anslutit
+    sig och har miljöanpassat nästan 2000 bildskärmsmodeller utifrån
+    TCO-märkningens miljökrav.</para>
+
+    <para>Miljömärkningen Svanen är nordiska ministerrådets miljömärkning som
+    inrättades 1990. En skillnad mellan Svanen och andra miljömärkningar är
+    att beslut om märkning fattas i organisationens miljömärkningsnämnd som
+    består av representanter från de nordiska länderna och industrin i dessa
+    länder. När man ska märka en produkt med Svanen vägs alla miljökraven ihop
+    och även om man inte uppfyller ett av kraven kan produkten bli
+    Svanen-märkt om produkten uppfyller kraven med god marginal på en annan
+    punkt.</para>
+
+    <para>Svenska Naturskyddsföreningens miljömärkning Bra Miljöval har
+    pilgrimsfalk som märkning. Deras kriterier omfattar ett stort antal
+    produkter och har nu miljömärkning inom många olika sektorer bl.a
+    dagligvaror, transporter, elleveranser och märkning av persondatorer
+    tillsammans med TCO. För miljömärkningen Bra Miljöval är det Svenska
+    Naturskyddsföreningen som bestämmer hur kriterierna ska se ut och vilka
+    produkter som ska märkas.</para>
+  </section>
+
+  <section>
+    <title>Demokrati och etik</title>
+
+    <para>Datoranvändningen ökar i snabb takt i hela världen och allt fler
+    ägnar sig åt att söka eller själva sprida information på Internet. Detta
+    påverkar politiken genom att det blivit enklare för gemene man att få
+    kunskaper om sakfrågor. När man använder internet mycket och själv
+    publicerar material på Internet är det viktigt att ha kunskap om de
+    juridiska och demokratiska aspekterna av datorteknologin. Dessa innefattar
+    främst Personuppgiftslagen, Upphovsrättslagen och lagen om yttrande- och
+    informationsfriheten.</para>
+
+    <para>Det finns tyvärr även risker med det informationssamhälle där vi
+    lever. Den mest påtagliga risken är hotet mot den personliga integriteten.
+    I debatten har även risken för ökade samhällsklyftor nämnts i samband med
+    att inte alla kan nås av den information som finns på Internet. En annan
+    faktor är att tekniken hela tiden blir mer och mer komplex och att detta
+    skulle leda till att vissa känner sig främmande inför den nya tekniken.
+    Det har även diskuterats flitigt hur vida vissa grupper ska få sprida sin
+    information på Internet. Det finns ett antal rasistiska föreningar och
+    organisationer som publicerar rasistisk information på Internet.</para>
+  </section>
+
+  <section>
+    <title>Ergonomi</title>
+
+    <para>Använder du datorn många timmar per dag är det viktigt med en bra
+    arbetsmiljö för att slippa obehag och skador. Det finns många ergonomiska
+    produkter på marknaden idag och många av dem kan bidra till att din kropp
+    inte utsätts för onödiga risker. Viktigast är dock den grundläggande
+    arbetsmiljön som skrivbordet och stolen. Det bästa är justerbara skrivbord
+    och stolar som du kan ställa in så de passar just dig. När du sitter på
+    stolen ska du ha ryggen mot ryggstödet och hela foten i golvet.
+    Skrivbordet bör vara i armbågshöjd annars är det lätt att du drar upp
+    axlarna och får ont. Det ska dessutom vara så djup att du får plats med
+    skärmen och tangentbordet mitt framför dig. Sitter du mycket vid datorn
+    bör du dessutom ta pauser och sträcka på benen ibland för att minska
+    belastningen på kroppen. När du arbetar vid datorn bör du sitta på minst
+    50 cm avstånd från skärmen och blicken ska vara riktad lite nedåt när du
+    läser på skärmen. Skärmen ska inte flimra och alla tecken ska vara skarpa
+    och tydliga. Tänk även på att placera bildskärmen så att inget ljus
+    reflekteras i den då det gör det betydligt svårare att se på skärmen och
+    kan i förlängningen orsaka ögonbesvär.</para>
+
+    <para>Det finns några olika typer av tangentbord och här kan det vara bra
+    att prova sig fram och se vad man själv trivs med. Dels finns de vanliga
+    och sedan finns tangentbord utan den numeriska delen som då blir mindre.
+    Det finns även ett tangentbord som är delat på mitten och böjt, dessa sk.
+    Ergonomiska tangentbord ska minska risken för förslitningsskador i
+    armarna. Det är mest personer som skriver väldigt mycket som föredrar den
+    typen av tangentbord. Det finns även handlovsstöd som man fäster i
+    nederkanten på sitt vanliga tangentbord och som ger stöd åt
+    handlederna.</para>
+
+    <para>En skada man ofta pratar om i samband med datorer är musarm. Det är
+    en smärta och stelhet i nacke, axlar, armar eller händer som är orsakad av
+    arbete vid dator. För att undvika musarm bör musen placeras på samma höjd
+    som tangentbordet och du ska kunna byta mellan tangentbord och mus utan
+    att spänna axlarna. Dina underarmar bör dessutom luta nedåt mot
+    tangentbord och mus för att minska risken för skador. Det finns olika
+    modeller av pekdon och datormöss så även här kan det vara värt att prova
+    sig fram.</para>
+  </section>
 </chapter>
-
