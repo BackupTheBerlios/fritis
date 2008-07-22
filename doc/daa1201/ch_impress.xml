@@ -4,78 +4,262 @@
 <chapter lang="sv">
   <title>OpenOffice.org Impress</title>
 
-<section>
-	<title>Arbetslägen</title>
+  <section>
+    <title>Arbetslägen</title>
 
-I OpenOffice.org Impress finns fyra arbetslägen och ett läge för bildskärmspresentation. Dessa fyra arbetslägen är Normal, Disposition, Anteckningsvy och Bildsortering. Arbetslägena används för att arbeta på olika sätt med din presentation. I arbetsläget Normal har du en fin överblick över din presentation med bilden i mitten och en meny med alla bilder till vänster för att snabbt kunna skifta mellan de olika bilderna. I arbetsläget Disposition ser du bara texten på bilderna i presentationen och detta ger dig större möjligheter att editera texten så den ser bra ut. I Anteckningsvyn kan du göra små anteckningar för att komma ihåg vad du hade tänkt ha med på de olika bilderna om arbetet tar lång tid. Det kan vara bra speciellt när du inte hinner bli klar med en gång. Du kan även lägga in stöd för din presentation i anteckningsvyn på samma sätt och sedan skriva ut dessa för att använda under presentationen. I arbetsläget Bildsortering kan du se flera bilder som miniatyrer (eng. Thumbnails) och ändra deras ordning eller ta bort och kopiera bilder.
-</section>
+    <para>I OpenOffice.org Impress finns fyra arbetslägen och ett läge för
+    bildskärmspresentation. Dessa fyra arbetslägen är Normal, Disposition,
+    Anteckningsvy och Bildsortering. Arbetslägena används för att arbeta på
+    olika sätt med din presentation. I arbetsläget Normal har du en fin
+    överblick över din presentation med bilden i mitten och en meny med alla
+    bilder till vänster för att snabbt kunna skifta mellan de olika bilderna.
+    I arbetsläget Disposition ser du bara texten på bilderna i presentationen
+    och detta ger dig större möjligheter att editera texten så den ser bra ut.
+    I Anteckningsvyn kan du göra små anteckningar för att komma ihåg vad du
+    hade tänkt ha med på de olika bilderna om arbetet tar lång tid. Det kan
+    vara bra speciellt när du inte hinner bli klar med en gång. Du kan även
+    lägga in stöd för din presentation i anteckningsvyn på samma sätt och
+    sedan skriva ut dessa för att använda under presentationen. I arbetsläget
+    Bildsortering kan du se flera bilder som miniatyrer (eng. Thumbnails) och
+    ändra deras ordning eller ta bort och kopiera bilder.</para>
+  </section>
 
-<section>
-	<title>Texthantering</title>
+  <section>
+    <title>Texthantering</title>
 
-För att göra ändringar i textens utseende på alla sidor använder man sid av Bildbakgrundsvyn, denna finner du under Visa-menyn, Bakgrund och sedan Bildbakgrund. Har du ingen text i din presentation kommer en exempeltext upp som gör att du kan se hur dina ändringar kommer att se ut. 
+    <para>För att göra ändringar i textens utseende på alla sidor använder man
+    sid av Bildbakgrundsvyn, denna finner du under
+    <guimenu>Visa</guimenu>-menyn, <guimenuitem>Bakgrund</guimenuitem> och
+    sedan <guimenuitem>Bildbakgrund</guimenuitem>. Har du ingen text i din
+    presentation kommer en exempeltext upp som gör att du kan se hur dina
+    ändringar kommer att se ut.</para>
 
+    <para><!--TODO: Här fanns en bild i originaldokumentet-->Nu kan du ändra
+    antingen utseendet på bakgrundsrubriken eller bakgrundstexten. Detta gör
+    du genom att markera det område där du vill ändra och sedan går du upp
+    till verktygsfältet och gör dina inställningar. När du är klar väljer du
+    bara <guibutton>Stäng bildbakgrund</guibutton> i den lilla dialogrutan som
+    kom upp när du öppnade bildbakgrundsvyn.</para>
 
+    <para>Vill du bara ändra utseendet på en enstaka bild i presentationen
+    utan att ändringarna påverkar alla bilderna går du till bilden det gäller
+    och markerar texten du vill ändra. För att skapa egna textrutor där du kan
+    lägga in text använder du <guibutton>Text</guibutton>-knappen som finns i
+    verktygsfältet längst ner och drar sedan en ruta från övre vänstra hörnet
+    där du vill att texten ska börja. När du klicka på
+    <guibutton>Text</guibutton>-knappen och sedan på bilden skapas en ny
+    textruta varje gång, för att istället redigera text i en redan existerande
+    textruta klickar du bara på texten. Textrutan utvidgas efter hand som du
+    lägger till mer innehåll i den.</para>
+  </section>
 
-Nu kan du ändra antingen utseendet på bakgrundsrubriken eller bakgrundstexten. Detta gör du genom att markera det område där du vill ändra och sedan går du upp till verktygsfältet och gör dina inställningar. När du är klar väljer du bara Stäng bildbakgrund i den lilla dialogrutan som kom upp när du öppnade bildbakgrundsvyn.
+  <section>
+    <title>Bilder</title>
 
-Vill du bara ändra utseendet på en enstaka bild i presentationen utan att ändringarna påverkar alla bilderna går du till bilden det gäller och markerar texten du vill ändra. För att skapa egna textrutor där du kan lägga in text använder du Text-knappen som finns i verktygsfältet längst ner och drar sedan en ruta från övre vänstra hörnet där du vill att texten ska börja. När du klicka på Text-knappen och sedan på bilden skapas en ny textruta varje gång, för att istället redigera text i en redan existerande textruta klickar du bara på texten. Textrutan utvidgas efter hand som du lägger till mer innehåll i den.
+    <para>I samma verktygsfält som <guibutton>Text</guibutton>-knappen finns
+    även alternativ för att själv rita olika objekt till sin presentation. Du
+    kan rita linjer, rektanglar, ellipser och figurer med de olika verktygen.
+    För att du lättare ska kunna göra en presentation går jag igenom alla
+    knapparna i den speciella verktygsmenyn längst ner i OpenOffice.org
+    Impress.</para>
 
-</section>
+    <!--TODO: Här fanns en bild-->
 
-<section>
-	<title>Bilder</title>
+    <para><variablelist>
+        <varlistentry>
+          <term>Urval</term>
 
-I samma verktygsfält som Text-knappen finns även alternativ för att själv rita olika objekt till sin presentation. Du kan rita linjer, rektanglar, ellipser och figurer med de olika verktygen. För att du lättare ska kunna göra en presentation går jag igenom alla knapparna i den speciella verktygsmenyn längst ner i OpenOffice.org Impress.
+          <listitem>
+            <para>används för att markera objekt</para>
+          </listitem>
+        </varlistentry>
 
+        <varlistentry>
+          <term>Linje</term>
 
+          <listitem>
+            <para>ritar en rak linje</para>
+          </listitem>
+        </varlistentry>
 
-Urval används för att att markera objekt.
+        <varlistentry>
+          <term>Linje med pilslut</term>
 
-Linje ritar en rak linje.
+          <listitem>
+            <para>ritar en linje som en pil</para>
+          </listitem>
+        </varlistentry>
 
-Linje med pilslut ritar en linje som en pil.
+        <varlistentry>
+          <term>Rektangel</term>
 
-Rektangel ritar en rektangel.
+          <listitem>
+            <para>ritar en rektangel</para>
+          </listitem>
+        </varlistentry>
 
-Ellips ritar en ellips.
+        <varlistentry>
+          <term>Ellips</term>
 
-Text lägger till text i presentationen.
+          <listitem>
+            <para>ritar en ellips</para>
+          </listitem>
+        </varlistentry>
 
-Kurva används för att rita raka linjer med fästpunkter för att göra figurer, har en 	undermeny som du kommer åt genom att klicka på pilen till vänster på knappen.
+        <varlistentry>
+          <term>Text</term>
 
-Förbindelse används för att rita linjer med fästpunkter för att göra figurer, har en undermeny.
+          <listitem>
+            <para>lägger till text i presentationen</para>
+          </listitem>
+        </varlistentry>
 
-Grundformer används för att rita olika former som du finner i undermenyn.
+        <varlistentry>
+          <term>Kurva</term>
 
-Symbolformer används för att rita olika symboler som du finner i undermenyn.
+          <listitem>
+            <para>används för att rita raka linjer med fästpunkter för att
+            göra figurer, har en undermeny som du kommer åt genom att klicka
+            på pilen till vänster på knappen</para>
+          </listitem>
+        </varlistentry>
 
-Blockpilar används för att rita blockpilar.
+        <varlistentry>
+          <term>Förbindelse</term>
 
-Flödesschema används för att rita flödesscheman.
+          <listitem>
+            <para>används för att rita linjer med fästpunkter för att göra
+            figurer, har en undermeny</para>
+          </listitem>
+        </varlistentry>
 
-Förklaringar används för att rita rutor du kan skriva förklaringar i.
+        <varlistentry>
+          <term>Grundformer</term>
 
-Stjärnor används för att rita olika stjärnor, banderoller och sigill.
+          <listitem>
+            <para>används för att rita olika former som du finner i
+            undermenyn</para>
+          </listitem>
+        </varlistentry>
 
-Punkter används för att förändra formen på ett markerat objekt.
+        <varlistentry>
+          <term>Symbolformer</term>
 
-Fästpunkter används för att sätta ut eller flytta fästpunkter som man kan dra linjer mellan för att rita objekt.
+          <listitem>
+            <para>används för att rita olika symboler som du finner i
+            undermenyn</para>
+          </listitem>
+        </varlistentry>
 
-Fontwork-galleri öppnar ett galleri med snygga typsnitt du kan använda till rubriker.
+        <varlistentry>
+          <term>Blockpilar</term>
 
-Från fil används för att lägga in bilder från din hårddisk i din presentation.
+          <listitem>
+            <para>används för att rita blockpilar</para>
+          </listitem>
+        </varlistentry>
 
-Gallery är ett galleri med olika bilder som du kan använda i din presentation för 	att göra den lite snyggare.
+        <varlistentry>
+          <term>Flödesschema</term>
 
-Rotera används för att rotera på ett markerat objekt.
+          <listitem>
+            <para>används för att rita flödesscheman</para>
+          </listitem>
+        </varlistentry>
 
-Justering används för att justera positionen för ett objekt.
+        <varlistentry>
+          <term>Förklaringar</term>
 
-Placering används för att välja om ett objekt ska vara placerat ovanpå eller under ett annat.
+          <listitem>
+            <para>används för att rita rutor du kan skriva förklaringar
+            i</para>
+          </listitem>
+        </varlistentry>
 
-Om du vill att flera objekt ska behandlas som ett objekt kan du välja att gruppera dessa. För att göra detta måste du först markera alla objekt du vill ska grupperas, det gör du genom att hålla nere Shift-tangenten och klicka på objekten. Sedan kan du flytta dem eller göra ändringar precis som vanligt. 
-</section>
+        <varlistentry>
+          <term>Stjärnor</term>
 
+          <listitem>
+            <para>används för att rita olika stärnor, banderoller och
+            sigill</para>
+          </listitem>
+        </varlistentry>
 
+        <varlistentry>
+          <term>Punkter</term>
+
+          <listitem>
+            <para>används för att förändra formen på ett markerat
+            objekt</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Fästpunkter</term>
+
+          <listitem>
+            <para>används för att sätta ut eller flytta fästpunkter som man
+            kan dra linjer mellan för att rita objekt</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Fontwork-galleri</term>
+
+          <listitem>
+            <para>öppnar ett galleri med snygga typsnitt du kan använda till
+            rubriker</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Från fil</term>
+
+          <listitem>
+            <para>används för att lägga in bilder från din hårddisk i din
+            presentation</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Gallery</term>
+
+          <listitem>
+            <para>är ett galleri med olika bilder som du kan använda i din
+            presentation för att göra den snyggare</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Rotera</term>
+
+          <listitem>
+            <para>används för att rotera ett markerat objekt</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Justering</term>
+
+          <listitem>
+            <para>används för att justera positionen för ett objekt</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Placering</term>
+
+          <listitem>
+            <para>används för att välja om ett objekt skall vara placerat
+            ovanpå eller under ett annat</para>
+          </listitem>
+        </varlistentry>
+      </variablelist></para>
+
+    <para>Om du vill att flera objekt ska behandlas som ett objekt kan du
+    välja att gruppera dessa. För att göra detta måste du först markera alla
+    objekt du vill ska grupperas, det gör du genom att hålla nere
+    <keycap>Shift</keycap>-tangenten och klicka på objekten. Sedan kan du
+    flytta dem eller göra ändringar precis som vanligt.</para>
+  </section>
 </chapter>
