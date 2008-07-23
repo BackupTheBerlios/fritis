@@ -4,48 +4,128 @@
 <chapter lang="sv">
   <title>OpenOffice.org Writer</title>
 
-<section>
-	<title>Teckenformat</title>
+  <section>
+    <title>Teckenformat</title>
 
-<para>När du skriver ett dokument kan det vara bra att kunna ändra inställningarna för texten. För att ändra teckensnitt och utseende på texten kan du antingen använda dig av de funktioner som finns i verktygsfältet eller så kan du använda dig av dialogrutan Tecken som du hittar under Format-menyn och sedan Tecken.</para>
+    <para>När du skriver ett dokument kan det vara bra att kunna ändra
+    inställningarna för texten. För att ändra teckensnitt och utseende på
+    texten kan du antingen använda dig av de funktioner som finns i
+    verktygsfältet eller så kan du använda dig av dialogrutan
+    <guimenuitem>Tecken</guimenuitem> som du hittar under
+    <guimenu>Format</guimenu>-menyn och sedan
+    <guimenuitem>Tecken</guimenuitem>.</para>
 
-<para>Här kan du ändra teckensnitt, teckenstorlek och ifall du vill ha texten fet, kursiv eller understruken. I rutan längst ner kan du se hur det kommer att se ut när du skriver. När du är nöjd med dina inställningar klickar du på OK-knappen och kommer tillbaka till dokumentet. De inställningar som du har gjort gäller tills du ändrar dem igen. Vill du ändra inställningarna igen gör du på samma sätt igen.</para>
+    <!--TODO: Här fanns en bild-->
 
-<para>Vill du byta teckensnitt, teckenstorlek eller effekter för en redan skriven text så måste du först markera texten och sedan ändrar du inställningarna i verktygsfältet.</para>
+    <para>Här kan du ändra teckensnitt, teckenstorlek och ifall du vill ha
+    texten fet, kursiv eller understruken. I rutan längst ner kan du se hur
+    det kommer att se ut när du skriver. När du är nöjd med dina inställningar
+    klickar du på <guibutton>OK</guibutton>-knappen och kommer tillbaka till
+    dokumentet. De inställningar som du har gjort gäller tills du ändrar dem
+    igen. Vill du ändra inställningarna igen gör du på samma sätt igen.</para>
 
-</section>
+    <para>Vill du byta teckensnitt, teckenstorlek eller effekter för en redan
+    skriven text så måste du först markera texten och sedan ändrar du
+    inställningarna i verktygsfältet.</para>
+  </section>
 
-<section>
-	<title>Styckeformat</title>
+  <section>
+    <title>Styckeformat</title>
 
-<para>När du skriver ett dokument kan du behöva ändra formatet på vissa stycken. Detta kan behövas i t.ex. rapporter där du behöver göra indrag eller ha vissa stycken centrerade. Styckeformat kan du ställa in innan du börjar skriva eller ändra det i efterhand.</para>
+    <para>När du skriver ett dokument kan du behöva ändra formatet på vissa
+    stycken. Detta kan behövas i t.ex. rapporter där du behöver göra indrag
+    eller ha vissa stycken centrerade. Styckeformat kan du ställa in innan du
+    börjar skriva eller ändra det i efterhand.</para>
 
-<para>Till att börja med kan man behöva använda justering av stycket. Knapparna för detta finner du i verktygsfältet bredvid tecken-inställningarna.</para>
+    <para>Till att börja med kan man behöva använda justering av stycket.
+    Knapparna för detta finner du i verktygsfältet bredvid
+    tecken-inställningarna.</para>
 
-<para>Vänsterjusterad text är det som normalt används och innebär att texten utgår från den vänstra marginalen där texten blir jämn och i högermarginalen blir den ojämn.</para>
+    <variablelist>
+      <varlistentry>
+        <term>Vänsterjusterad text</term>
 
-<para>Högerjusterad text är motsattsen till vänsterjusterad text och blir då jämn i högermarginalen och ojämn i vänstermarginalen. Detta kan vara bra att använda till siffror i tabeller.</para>
+        <listitem>
+          <para>är det som normalt används och innebär att texten utgår från
+          den vänstra marginalen där texten blir jämn och i högermarginalen
+          blir den ojämn.</para>
+        </listitem>
+      </varlistentry>
 
-<para>Centrerad text används vanligast på rubriker och innebär att texten placerad mitt emellan vänster- och högermarginalen.</para>
+      <varlistentry>
+        <term>Högerjusterad text</term>
 
-<para>Marginaljusterad text används främst i böcker och tidningar och innebär att texten blir rak både i vänster- och högermarginalen. Mellanrummet mellan orden ökar automatiskt för att kompensera att texten inte fyller ut hela raden.</para> 
+        <listitem>
+          <para>är motsatsen till vänsterjusterad text och blir då jämn i
+          högermarginalen och ojämn i vänstermarginalen. Detta kan vara bra
+          att använda till siffror i tabeller.</para>
+        </listitem>
+      </varlistentry>
 
-<para>Ibland kan man behöva ändra marginalerna för delar av ett dokument. Då kan man använda sig av indrag och det gör man genom att använda indragsmarkörerna på den vågräta linjalen.</para>
+      <varlistentry>
+        <term>Centrerad text</term>
 
-<para>Den övre delen av indragsmarkören på vänster sida visar var styckets första rad ska börja och den undre delen visar var resten av stycket ska börja. För att göra ett indrag måste du placera markören i det stycket som ska dras in eller om du vill ställa in det för flera stycken måste du markera dem. För att göra indrag på första raden flyttar du bara den översta delen av indragsmarkören dit du vill. Den undre delen av indragsmarkören är relativ till den övre d.v.s. när du flyttar den undre indragsmarkören så flyttas den övre lika långt åt samma håll. Vill du göra ett indrag på hela stycket använder du den undre indragsmarkören. Om du vill dra in alla rader utom den första i ett stycke gör du på samma sätt som om du skulle göra ett indrag på hela stycket och sedan flyttar du den övre delen av indragsmarkören åt vänster för att ändra indraget på den översta raden.</para>
+        <listitem>
+          <para>används vanligast på rubriker och innebär att texten placerad
+          mitt emellan vänster- och högermarginalen.</para>
+        </listitem>
+      </varlistentry>
 
-<para>Du kan även använda dig av knappen Öka indrag i verktygsfältet för att göra ett indrag på ett stycke till nästa tabbstopp.</para>
+      <varlistentry>
+        <term>Marginaljusterad text</term>
 
-<para>Har man mycket text kan man göra den mer lättläst genom att öka radavståndet. De vanligaste alternativen för radavstånd är enkelt, dubbelt eller 1,5 rader. För att ändra radavstånd för ett stycke så markerar du det och högerklickar. Välj Radavstånd i menyn som kommer upp och sedan det alternativet du vill använda dig av t.ex. 1,5 rad.</para>
+        <listitem>
+          <para>används främst i böcker och tidningar och innebär att texten
+          blir rak både i vänster- och högermarginalen. Mellanrummet mellan
+          orden ökar automatiskt för att kompensera att texten inte fyller ut
+          hela raden.</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
 
-</section>
+    <para>Ibland kan man behöva ändra marginalerna för delar av ett dokument.
+    Då kan man använda sig av indrag och det gör man genom att använda
+    indragsmarkörerna på den vågräta linjalen.</para>
 
-<section>
-	<title>Tabbar och tabeller</title>
+    <!--TODO: Här fanns en bild-->
 
-<para>I OpenOffice Writer finns ett antal fördefinerade tabbstopp som du kan använda dig av för att göra uppställningar. Dessa visas på den horisontella linjalen som små svarta streck. Du kan även göra egna tabbstopp som passar ditt dokument bättre. Till vänster på den horisontella linjalen finns knappen Tabbstopp där du kan välja mellan fyra olika typer av tabbar.</para>
+    <para>Den övre delen av indragsmarkören på vänster sida visar var styckets
+    första rad ska börja och den undre delen visar var resten av stycket ska
+    börja. För att göra ett indrag måste du placera markören i det stycket som
+    ska dras in eller om du vill ställa in det för flera stycken måste du
+    markera dem. För att göra indrag på första raden flyttar du bara den
+    översta delen av indragsmarkören dit du vill. Den undre delen av
+    indragsmarkören är relativ till den övre d.v.s. när du flyttar den undre
+    indragsmarkören så flyttas den övre lika långt åt samma håll. Vill du göra
+    ett indrag på hela stycket använder du den undre indragsmarkören. Om du
+    vill dra in alla rader utom den första i ett stycke gör du på samma sätt
+    som om du skulle göra ett indrag på hela stycket och sedan flyttar du den
+    övre delen av indragsmarkören åt vänster för att ändra indraget på den
+    översta raden.</para>
 
-<!-- TODO: Fixa!
+    <para>Du kan även använda dig av knappen <guibutton>Öka indrag</guibutton>
+    i verktygsfältet för att göra ett indrag på ett stycke till nästa
+    tabbstopp.</para>
+
+    <para>Har man mycket text kan man göra den mer lättläst genom att öka
+    radavståndet. De vanligaste alternativen för radavstånd är enkelt, dubbelt
+    eller 1,5 rader. För att ändra radavstånd för ett stycke så markerar du
+    det och högerklickar. Välj <guimenuitem>Radavstånd</guimenuitem> i menyn
+    som kommer upp och sedan det alternativet du vill använda dig av t.ex.
+    <userinput>1,5 rad</userinput>.</para>
+  </section>
+
+  <section>
+    <title>Tabbar och tabeller</title>
+
+    <para>I OpenOffice Writer finns ett antal fördefinerade tabbstopp som du
+    kan använda dig av för att göra uppställningar. Dessa visas på den
+    horisontella linjalen som små svarta streck. Du kan även göra egna
+    tabbstopp som passar ditt dokument bättre. Till vänster på den
+    horisontella linjalen finns knappen Tabbstopp där du kan välja mellan fyra
+    olika typer av tabbar.</para>
+
+    <!-- TODO: Fixa!
 
 	Vänstertabb	Högertabb	Centertabb	Decimaltabb
 	texten	texten	texten	123,4	
@@ -54,32 +134,71 @@
 
 -->
 
-<para>För att ställa in tabbar klickar du på knappen Tabbstopp till symbolen för den tabb du vill använda visas i rutan. Därefter klickar du på den horisontella linjalen där du vill ha ett tabbläge. För att flytta markören mellan tabbarna använder du dig av tangenten Tab på ditt tangentbord. Tänk på att de fördefingerade tabbarna försvinner när du skapar egna.</para>
+    <para>För att ställa in tabbar klickar du på knappen Tabbstopp till
+    symbolen för den tabb du vill använda visas i rutan. Därefter klickar du
+    på den horisontella linjalen där du vill ha ett tabbläge. För att flytta
+    markören mellan tabbarna använder du dig av tangenten Tab på ditt
+    tangentbord. Tänk på att de fördefingerade tabbarna försvinner när du
+    skapar egna.</para>
 
-<para>För att flytta en tabb kan du antingen klicka på den och hålla inne vänster musknapp och sedan flytta den med musen. Vill du däremot ange exakt position för tabben kan du göra detta i Format-menyn och sedan Stycke. Där kan du sedan välja Tabulator bland flikarna längst upp och ändra positionerna för dina tabbar. Vill du ta bort en tabb så klickar du bara på den och drar den utanför linjalen och släpper den där så försvinner den.</para>
+    <para>För att flytta en tabb kan du antingen klicka på den och hålla inne
+    vänster musknapp och sedan flytta den med musen. Vill du däremot ange
+    exakt position för tabben kan du göra detta i Format-menyn och sedan
+    Stycke. Där kan du sedan välja Tabulator bland flikarna längst upp och
+    ändra positionerna för dina tabbar. Vill du ta bort en tabb så klickar du
+    bara på den och drar den utanför linjalen och släpper den där så
+    försvinner den.</para>
 
-<para>Till vissa uppgifter är det bättre att använda tabeller än tabbar t.ex. när du vill lägga en text och en bild bredvid varandra. För att lägga till en tabell går du in i Tabell-menyn och väljer sedan Infoga och Tabell. Där väljer du sedan hur många rader och hur många kolumner du vill ha i din tabell och klickar sedan på OK.</para>
+    <!--TODO: Här fanns en bild-->
 
-<!-- TODO: Fixa!
+    <para>Till vissa uppgifter är det bättre att använda tabeller än tabbar
+    t.ex. när du vill lägga en text och en bild bredvid varandra. För att
+    lägga till en tabell går du in i Tabell-menyn och väljer sedan Infoga och
+    Tabell. Där väljer du sedan hur många rader och hur många kolumner du vill
+    ha i din tabell och klickar sedan på OK.</para>
+
+    <!-- TODO: Fixa!
 
 Tabell, rad 1 och kolumn 1.
 Tabell, rad 1 och kolumn 2.
 
 -->
- 
-<para>För att ändra inställningarna på en tabell kan du högerklicka i tabellen och sedan välja Tabell i menyn som kommer upp. Under de olika flikarna i dialogrutan Tabell kan du ändra tabellens utseende t.ex. högerjustera texten, ta bort inramning eller lägga till skugga runt tabellen.</para>
 
-</section>
+    <para>För att ändra inställningarna på en tabell kan du högerklicka i
+    tabellen och sedan välja Tabell i menyn som kommer upp. Under de olika
+    flikarna i dialogrutan Tabell kan du ändra tabellens utseende t.ex.
+    högerjustera texten, ta bort inramning eller lägga till skugga runt
+    tabellen.</para>
+  </section>
 
-<section>
-	<title>Sidnumrering</title>
+  <section>
+    <title>Sidnumrering</title>
 
-<para>För att lägga in sidnumrering i ett textdokument behöver du ha minst två sidor som ska innehålla numrering för att det ska fungera. Man brukar inte ha sidnummer på första sidan eller på innehållsförteckningen så skapa gärna dessa sidor först så det blir rätt. Gå till sidan där du vill ha sidnumrering och använd knappen Formatmallar och formatering (bild knappen) och sedan Sidformatmallar (bild knappen) i rutan som öppnas. Därefter högerklickar du på Standard och väljer Ändra.</para>
+    <para>För att lägga in sidnumrering i ett textdokument behöver du ha minst
+    två sidor som ska innehålla numrering för att det ska fungera. Man brukar
+    inte ha sidnummer på första sidan eller på innehållsförteckningen så skapa
+    gärna dessa sidor först så det blir rätt. Gå till sidan där du vill ha
+    sidnumrering och använd knappen Formatmallar och formatering (bild
+    knappen) och sedan Sidformatmallar (bild knappen) i rutan som öppnas.
+    Därefter högerklickar du på Standard och väljer Ändra.</para>
 
-<para>Här kan du nu välja inställningar för hur sidan ska se ut. Välj någon av flikarna Sidhuvud eller Sidfot och aktivera dessa genom att klicka i avbockningsrutan på respektive flik. När du är klar väljer du OK och sedan dubbelklickar du på Standard i Formatmallar och formatering-dialogrutan för att aktivera det för sidan. Därefter går du till sidan före där sidnumreringen ska börja och väljer Infoga och sedan Manuell brytning.</para>
+    <!--TODO: Här fanns en bild-->
 
-<para>Klicka i avbockningsrutan Sidbrytning och välj sedan Formatmall Standard. Därefter klickar du i avbockningsrutan Ändra sidnummer och väljer 1 i menyn under. När detta är klart går du till sidfoten på sidan där sidnumreringen ska börja och väljer Infoga-menyn, Fält och därefter Sidnummer. Gör samma sak på nästa sida och där efter kommer sidnummerna att läggas till automatiskt på följande sidor medans du skriver.</para>
+    <para>Här kan du nu välja inställningar för hur sidan ska se ut. Välj
+    någon av flikarna Sidhuvud eller Sidfot och aktivera dessa genom att
+    klicka i avbockningsrutan på respektive flik. När du är klar väljer du OK
+    och sedan dubbelklickar du på Standard i Formatmallar och
+    formatering-dialogrutan för att aktivera det för sidan. Därefter går du
+    till sidan före där sidnumreringen ska börja och väljer Infoga och sedan
+    Manuell brytning.</para>
 
-</section>
+    <!--TODO: Här fanns en bild-->
 
+    <para>Klicka i avbockningsrutan Sidbrytning och välj sedan Formatmall
+    Standard. Därefter klickar du i avbockningsrutan Ändra sidnummer och
+    väljer 1 i menyn under. När detta är klart går du till sidfoten på sidan
+    där sidnumreringen ska börja och väljer Infoga-menyn, Fält och därefter
+    Sidnummer. Gör samma sak på nästa sida och där efter kommer sidnummerna
+    att läggas till automatiskt på följande sidor medans du skriver.</para>
+  </section>
 </chapter>
