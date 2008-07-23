@@ -122,8 +122,8 @@
     kan använda dig av för att göra uppställningar. Dessa visas på den
     horisontella linjalen som små svarta streck. Du kan även göra egna
     tabbstopp som passar ditt dokument bättre. Till vänster på den
-    horisontella linjalen finns knappen Tabbstopp där du kan välja mellan fyra
-    olika typer av tabbar.</para>
+    horisontella linjalen finns knappen <guibutton>Tabbstopp</guibutton> där
+    du kan välja mellan fyra olika typer av tabbar.</para>
 
     <!-- TODO: Fixa!
 
@@ -134,28 +134,32 @@
 
 -->
 
-    <para>För att ställa in tabbar klickar du på knappen Tabbstopp till
-    symbolen för den tabb du vill använda visas i rutan. Därefter klickar du
-    på den horisontella linjalen där du vill ha ett tabbläge. För att flytta
-    markören mellan tabbarna använder du dig av tangenten Tab på ditt
-    tangentbord. Tänk på att de fördefingerade tabbarna försvinner när du
-    skapar egna.</para>
+    <para>För att ställa in tabbar klickar du på knappen
+    <guibutton>Tabbstopp</guibutton> till symbolen för den tabb du vill
+    använda visas i rutan. Därefter klickar du på den horisontella linjalen
+    där du vill ha ett tabbläge. För att flytta markören mellan tabbarna
+    använder du dig av tangenten <keycap>Tab</keycap> på ditt tangentbord.
+    Tänk på att de fördefingerade tabbarna försvinner när du skapar
+    egna.</para>
 
     <para>För att flytta en tabb kan du antingen klicka på den och hålla inne
     vänster musknapp och sedan flytta den med musen. Vill du däremot ange
-    exakt position för tabben kan du göra detta i Format-menyn och sedan
-    Stycke. Där kan du sedan välja Tabulator bland flikarna längst upp och
-    ändra positionerna för dina tabbar. Vill du ta bort en tabb så klickar du
-    bara på den och drar den utanför linjalen och släpper den där så
-    försvinner den.</para>
+    exakt position för tabben kan du göra detta i
+    <guimenu>Format</guimenu>-menyn och sedan
+    <guimenuitem>Stycke</guimenuitem>. Där kan du sedan välja
+    <guimenuitem>Tabulator</guimenuitem> bland flikarna längst upp och ändra
+    positionerna för dina tabbar. Vill du ta bort en tabb så klickar du bara
+    på den och drar den utanför linjalen och släpper den där så försvinner
+    den.</para>
 
     <!--TODO: Här fanns en bild-->
 
     <para>Till vissa uppgifter är det bättre att använda tabeller än tabbar
     t.ex. när du vill lägga en text och en bild bredvid varandra. För att
-    lägga till en tabell går du in i Tabell-menyn och väljer sedan Infoga och
-    Tabell. Där väljer du sedan hur många rader och hur många kolumner du vill
-    ha i din tabell och klickar sedan på OK.</para>
+    lägga till en tabell går du in i <guimenu>Tabell</guimenu>-menyn och
+    väljer sedan <guimenuitem>Infoga</guimenuitem> och
+    <guimenuitem>Tabell</guimenuitem>. Där väljer du sedan hur många rader och
+    hur många kolumner du vill ha i din tabell och klickar sedan på OK.</para>
 
     <!-- TODO: Fixa!
 
@@ -165,10 +169,10 @@ Tabell, rad 1 och kolumn 2.
 -->
 
     <para>För att ändra inställningarna på en tabell kan du högerklicka i
-    tabellen och sedan välja Tabell i menyn som kommer upp. Under de olika
-    flikarna i dialogrutan Tabell kan du ändra tabellens utseende t.ex.
-    högerjustera texten, ta bort inramning eller lägga till skugga runt
-    tabellen.</para>
+    tabellen och sedan välja <guimenuitem>Tabell</guimenuitem> i menyn som
+    kommer upp. Under de olika flikarna i dialogrutan Tabell kan du ändra
+    tabellens utseende t.ex. högerjustera texten, ta bort inramning eller
+    lägga till skugga runt tabellen.</para>
   </section>
 
   <section>
@@ -178,27 +182,35 @@ Tabell, rad 1 och kolumn 2.
     två sidor som ska innehålla numrering för att det ska fungera. Man brukar
     inte ha sidnummer på första sidan eller på innehållsförteckningen så skapa
     gärna dessa sidor först så det blir rätt. Gå till sidan där du vill ha
-    sidnumrering och använd knappen Formatmallar och formatering (bild
-    knappen) och sedan Sidformatmallar (bild knappen) i rutan som öppnas.
-    Därefter högerklickar du på Standard och väljer Ändra.</para>
+    sidnumrering och använd knappen <guibutton>Formatmallar och
+    formatering</guibutton> (bildknappen) och sedan
+    <guibutton>Sidformatmallar</guibutton> (bildknappen) i rutan som öppnas.
+    Därefter högerklickar du på <guimenuitem>Standard</guimenuitem> och väljer
+    <guimenuitem>Ändra</guimenuitem>.</para>
 
     <!--TODO: Här fanns en bild-->
 
     <para>Här kan du nu välja inställningar för hur sidan ska se ut. Välj
-    någon av flikarna Sidhuvud eller Sidfot och aktivera dessa genom att
-    klicka i avbockningsrutan på respektive flik. När du är klar väljer du OK
-    och sedan dubbelklickar du på Standard i Formatmallar och
-    formatering-dialogrutan för att aktivera det för sidan. Därefter går du
-    till sidan före där sidnumreringen ska börja och väljer Infoga och sedan
-    Manuell brytning.</para>
+    någon av flikarna <guimenuitem>Sidhuvud</guimenuitem> eller
+    <guimenuitem>Sidfot</guimenuitem> och aktivera dessa genom att klicka i
+    avbockningsrutan på respektive flik. När du är klar väljer du
+    <guibutton>OK</guibutton> och sedan dubbelklickar du på
+    <guimenuitem>Standard</guimenuitem> i <guimenuitem>Formatmallar och
+    formatering</guimenuitem>-dialogrutan för att aktivera det för sidan.
+    Därefter går du till sidan före där sidnumreringen ska börja och väljer
+    <guibutton>Infoga</guibutton> och sedan <guibutton>Manuell
+    brytning</guibutton>.</para>
 
     <!--TODO: Här fanns en bild-->
 
-    <para>Klicka i avbockningsrutan Sidbrytning och välj sedan Formatmall
-    Standard. Därefter klickar du i avbockningsrutan Ändra sidnummer och
-    väljer 1 i menyn under. När detta är klart går du till sidfoten på sidan
-    där sidnumreringen ska börja och väljer Infoga-menyn, Fält och därefter
-    Sidnummer. Gör samma sak på nästa sida och där efter kommer sidnummerna
-    att läggas till automatiskt på följande sidor medans du skriver.</para>
+    <para>Klicka i avbockningsrutan <guilabel>Sidbrytning</guilabel> och välj
+    sedan <guilabel>Formatmall Standard</guilabel>. Därefter klickar du i
+    avbockningsrutan <guilabel>Ändra sidnummer</guilabel> och väljer
+    <userinput>1</userinput> i menyn under. När detta är klart går du till
+    sidfoten på sidan där sidnumreringen ska börja och väljer
+    <guimenu>Infoga</guimenu>-menyn, <guimenuitem>Fält</guimenuitem> och
+    därefter <guimenuitem>Sidnummer</guimenuitem>. Gör samma sak på nästa sida
+    och där efter kommer sidnummerna att läggas till automatiskt på följande
+    sidor medan du skriver.</para>
   </section>
 </chapter>
