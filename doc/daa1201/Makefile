@@ -56,4 +56,4 @@ index.html: index.in
 	sed s/__VERSION__/'$(VERSION)'/g > index.html
 
 clean:
-	rm -f *.html $(TARGET).ps $(TARGET).pdf $(TARGET).tar.gz
+	rm -f *.html $(TARGET).ps $(TARGET).pdf $(TARGET).tar.gz *~
