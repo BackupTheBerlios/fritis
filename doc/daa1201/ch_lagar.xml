@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-"http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
-<chapter lang="sv">
+<chapter lang="sv" id="ch-lagar">
   <title>Säkerhet, lagar och regler</title>
 
   <section>
@@ -23,8 +21,6 @@
 
     <para>För att markera sina sinnesstämningar används smileys. Här är några
     exempel på smileys och deras betydelser:</para>
-
-    <para></para>
 
     <table>
       <title>Smileys</title>
@@ -328,7 +324,7 @@
 
     <title>Lagar</title>
 
-     Det finns ett antal lagar och bestämmelser som reglerar säkerheten kring databehandling. De viktigaste är Sekretesslagen, Personuppgiftslagen och Datalagen, Tryckfrihetsförordningen och Datainspektionens författningssamlingar. Dessa tar upp hur man får samla in, använda och sprida data. Datainspektionen är tillsynsmyndighet för Personuppgiftslagen och har i uppgift att se till att lagen efterföljs. Personuppgiftslagen är Datalagens ersättare och trädde i kraft 1998. Syftet med personuppgiftslagen är att avgöra när behandling av personuppgifter är tillåten. Datainspektionen kan gå in och kontrollera innehållet i olika personregister. De har även till uppgift att ta emot klagomål från allmänheten om någon anser sig orättfärdigt registrerad och då gå in och kontrollera om registreringen strider mot lagen. Enligt Personuppgiftslagen är du också skyldig att anmäla till Datainspektionen om du vill föra ett register med personuppgifter. 
+    <para>Det finns ett antal lagar och bestämmelser som reglerar säkerheten kring databehandling. De viktigaste är Sekretesslagen, Personuppgiftslagen och Datalagen, Tryckfrihetsförordningen och Datainspektionens författningssamlingar. Dessa tar upp hur man får samla in, använda och sprida data. Datainspektionen är tillsynsmyndighet för Personuppgiftslagen och har i uppgift att se till att lagen efterföljs. Personuppgiftslagen är Datalagens ersättare och trädde i kraft 1998. Syftet med personuppgiftslagen är att avgöra när behandling av personuppgifter är tillåten. Datainspektionen kan gå in och kontrollera innehållet i olika personregister. De har även till uppgift att ta emot klagomål från allmänheten om någon anser sig orättfärdigt registrerad och då gå in och kontrollera om registreringen strider mot lagen. Enligt Personuppgiftslagen är du också skyldig att anmäla till Datainspektionen om du vill föra ett register med personuppgifter.</para>
   </section>
 
   <section>

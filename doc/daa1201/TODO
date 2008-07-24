@@ -1,13 +1,6 @@
 
-** Konvertera till Docbook:
- ch_datorkommunikation.xml
-
 ** Bilderna
  Alla bilder från OpenOffice-dokumentet saknas.
-
-** Fixa en Makefile
-
-** Fixa id på alla kapitel
 
 ** book.xml
  Versionshistorik

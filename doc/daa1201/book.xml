@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY introduktion SYSTEM "ch_introduktion.xml">
+<!ENTITY datorer SYSTEM "ch_datorer.xml">
+<!ENTITY datorkommunikation SYSTEM "ch_datorkommunikation.xml">
+<!ENTITY openoffice SYSTEM "ch_openoffice.xml">
+<!ENTITY writer SYSTEM "ch_writer.xml">
+<!ENTITY calc SYSTEM "ch_calc.xml">
+<!ENTITY impress SYSTEM "ch_impress.xml">
+<!ENTITY lagar SYSTEM "ch_lagar.xml">
+<!ENTITY app-tack SYSTEM "app_tack.xml">
+<!ENTITY app-lankar SYSTEM "app_lankar.xml">
+<!ENTITY app-fdl SYSTEM "fdl-sv.xml">
+]>
 
 <book lang="sv" status="draft">
     <bookinfo>
@@ -41,5 +53,16 @@
     </bookinfo>
 
 <toc/>
+&introduktion;
+&datorer;
+&datorkommunikation;
+&openoffice;
+&writer;
+&calc;
+&impress;
+&lagar;
+&app-tack;
+&app-lankar;
+&app-fdl;
 
 </book>
