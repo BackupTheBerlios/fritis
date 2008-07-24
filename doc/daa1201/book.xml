@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.2//EN"
- "/usr/share/sgml/docbook/xml-dtd-4.2/docbookx.dtd" []>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                 "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 
 <book lang="sv" status="draft">
     <bookinfo>
@@ -25,18 +25,18 @@
                 distribute and/or modify this document under the terms of the GNU Free Documentation
                 License, Version 1.2 or any later version published by the Free Software Foundation;
                 with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of
-                the license is included in the section entitled &quot;GNU Free Documentation
-                License&quot;. </para>
-            <para>[&Ouml;vers&auml;ttning:] Copyright (c) 2008 Amelia Nilsson.
-                Var och en &auml;ger r&auml;tt att kopiera, sprida och/eller
-                f&ouml;r&auml;ndra detta dokument under villkoren i licensen &quot;GNU
-                Free Documentation License&quot;, version 1.2 eller senare publicerad av Free
-                Software Foundation, utan of&ouml;r&auml;nderliga avsnitt, utan
+                the license is included in the section entitled "GNU Free Documentation
+                License". </para>
+            <para>[Översättning:] Copyright (c) 2008 Amelia Nilsson.
+                Var och en äger rätt att kopiera, sprida och/eller
+                förändra detta dokument under villkoren i licensen "GNU
+                Free Documentation License", version 1.2 eller senare publicerad av Free
+                Software Foundation, utan oföränderliga avsnitt, utan
                 framsidestexter och utan baksidestexter. En kopia av denna licens finns med i
-                avsnittet med titeln &quot;GNU Free Documentation License&quot;. </para>
+                avsnittet med titeln "GNU Free Documentation License". </para>
         </legalnotice>
         <abstract>
-            <para>Denna bok �r t�nkt att anv�ndas i gymnasieskolans kurs Datorkunskap A (DAA1201).</para>
+            <para>Denna bok är tänkt att användas i gymnasieskolans kurs Datorkunskap A (DAA1201).</para>
         </abstract>
     </bookinfo>
 
