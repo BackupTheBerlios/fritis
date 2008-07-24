@@ -4,141 +4,428 @@
 <!--
 	TODO: Saknar bilderna från originalet
 -->
-
 <chapter lang="sv">
   <title>Datorkommunikation och Internet</title>
-Kapitel 3 – Datorkommunikation och Internet
 
-<section>
-	<title>Datorkommunikation</title>
-
-3.1 Datorkommunikation
-
-Datorkommunikation är överförning av data mellan olika datorer t.ex. mellan två datorer eller mellan din dator och en internetsida. Dataöverföringen görs i någon form av nätverk och den data som överförs kan vara t.ex. text, bilder eller ljud. Datorkommunikation används på många ställen i vardagen t.ex. när du tar ut pengar i en bankomat eller bokar en resa. I skolan, på arbetsplatsen eller i hemmet använder datorkommunikation för att skicka e-post, surfa på Internet, mötesbokning och distansarbete. 
-
-För att kunna överföra data mellan olika datorer eller enheter behövs ett nätverk. I nätverket är alla datorer ansluta till varandra vilket gör det möjligt att överföra data mellan alla datorerna. Ett nätverk kan vara allt från två datorer till ett gigantiskt stort nätverk t.ex. Internet. 
-
-Ett lokalt nätverk (eng. Local Area Network) brukar förkortas LAN och är ett nätverk som används inom ett begränsat område t.ex. en arbetsplats.  Nätverket i sig består av kablar och switchar som kopplar ihop alla datorerna så de kan kommunicera med varandra. Idag kan man även ha trådlösa lokala nätverk, dessa kallas då WLAN (Wireless Local Area Network). Ett lokalt nätverk kan även användas för att flera datorer ska få tillgång till Internet samtidigt.
-
-En annan typ av nätverk som man bör känna till är Wide Area Network (WAN) som används över större områden. Ett Wide Area Network kan t.ex. användas av ett företag som har kontor i flera städer och behöver ett gemensamt nätverk.
- 
-</section>
-
-<section>
-	<title>Internet</title>
-3.2 Internet
-
-Internet är ett världsomspännande nätverk som består av flera miljoner datorer. Alla som har en dator vilken är kopplad till Internet är en del av detta nätverk. Ordet Internet betyder "nätverk av nätverk" och det är precis vad Internet är. När du sitter vid datorn i skolan så är du kopplad till skolans nätverk, detta är i sin tur kopplat till en internetleverantörs nätverk. Internetleverantören är sedan kopplad till ett större nätverk t.ex. ett stadsnät, sin leverantörs nätverk eller har egna fiberkablar som i sin tur är kopplade till liknande leverantörer i andra länder och deras nätverk. 
-
-Internet är uppbyggt så att ingen central dator sköter alla kommunication utan all datatrafik kan dirigera om sig själv mellan de olika datorerna och nätverken. Detta betyder att datatrafiken själv kan hitta nya vägar till ett mål om den första tänkbara färdvägen av någon anledning inte fungerar. Att man byggde Internet på det här sättet har sin grund i USA på 60- och 70-talet. Redan på 60-talet fanns grunden till det Internet vi har idag. Det var ett militärt datanät som kallades för ARPANET. När nätverket byggdes ut på 70-talet döptes det om till Internetwork. I samband med detta bytte man arkitektur till den vi använder idag, en anarkistisk arkitektur där datatrafiken själv letar sig fram till sitt mål utan någon centraldator som dirigerar trafiken. Detta gjordes i första hand av säkerhetsskäll för att det inte skulle gå att slå ut Internetworks genom att bomba en enskild dator eller knutpunkt i händelse av krig.
-
-Under 60-talet var det bara några få universitet och alla myndigheter, företag och organisationer som var viktiga för totalförsvaret kopplade till ARPANET. Vid uppgraderingen på 70-talet började fler ansluta sig till Internetwork och i slutet på 70-talet var så gott som alla amerikanska universitet och myndigheter anslutna. Internet fortsatte att växa och i mitten på 80-talet hade det vuxit till världens största nätverk och organisationer utanför USA började ansluta sig. Främst var det universitet som anslöt sig till Internet och de flesta hade aldrig hört ordet Internet. Vid den här tiden hade inte Internet så mycket att erbjuda gemene man då man endast kunde skicka e-post eller koppla upp sig till en annan dator för att arbeta på den.
-
-Det stora genombrottet för Internet kom på 90-talet och berodde på Gophers introduktion. Gopher kom 1991 och var en fullständig revolution för Internet med dess användarvänlighet genom det första grafiska gränssnittet för Internet. Två år senare kom World Wide Web eller www som också var försedd med ett grafiskt gränssnitt där man kunde klicka sig fram istället för att behöva navigera med tangentbordet. Samma år, 1993 blev det också möjligt för företag att i kommersiellt syfte erbjuda internetuppkopplingar via modem till privatpersoner. 
-
-Idag är Internet en del av våra liv, att surfa på Internet är inte konstigare än att titta på TV eller att prata i telefon. Vi letar information, skickar e-post till varandra, chattar och spelar datorspel på Internet, men det har medfört en del problem. Eftersom att ingen äger Internet finns det ingen myndighet som granskar dess innehåll eller bestämmer vad som får finnas och inte finnas där. Många länder har stött på problem när de försökt reglera nätet med nationella lagstiftningar. Egentligen finns det inga lagar på Internet, men oftast tillämpas nationell lagstiftning i det landet datorn med den olagliga informationen är uppkopplad ifrån, därför skiljer sig vad man får och inte får göra på Internet mellan olika länder.
-
-Från början var Internet ickekommersiellt och driften av Internet bekostades till stor del av universitet och statliga myndigheter världen över. Idag är internet kommersiellt, men den gamla tanken om att allt på Internet ska vara gratis lever kvar. Nu finansieras driften av Internet till större delen av användarnas anslutningsavgift.
-
-</section>
-
-<section>
-	<title>Webbläsaren Mozilla Firefox</title>
-
-Mozilla Firefox är en av många webbläsare som kan användas för att surfa på Internet. En webbläsare översätter HTML-kod till en grafisk sida med länkar, bilder, ljud och videosekvenser. HTML (HyperText Markup Language) är ett språk som används för att göra webbsidor. Alla webbsidor sparas på servern som en enskild fil och har filtilägget .html eller .htm och det är därför som många webbadresser slutar på just det. En webbadress eller URL (Universal Resource Locator) som det heter kan användas för att länka till olika källor på Internet som t.ex. en webbsida. Ett exempel på en URL är: http://www.linuxchick.se/.
-
-Förutom den vanliga menyn så har Mozilla Firefox ett verktygsfält med knappar, ett adressfält där du anger webbadressen och en ruta med sökfunktion. Följande funktioner finner du i verktygsfältet:
-
-
-
-
-
-
-Bakåt Går tillbaka till föregående sida. Klickar du på pilen på höger sida av knappen får du fram en lista över besökta webbplatser och kan själv välja hur många sidor du vill hoppa bakåt på en gång.
-
-Framåt Om du har hoppat bakåt kan du på samma sätt hopp framåt igen med denna knappen. På samma sätt som med bakåt-knappen kan du använda pilen på högersidan av knappen för att få en lista på alla sidor du kan hoppa till.
-
-Uppdatera Laddar om den sidan du befinner dig på.
-
-Stop Avbryter nedladdningen av den aktuella sidan.
-
-Hem Går till den webbadress du valt som startsida i din webbläsare.
-
-Adressfält Här skriver du in vilken sida du vill gå in på.
-
-Gå till Öppnar sidan du skrivit i adressfältet. Man kan även trycka på Enter istället för att klicka på den här knappen.
-
-Sökruta Här kan du söka på några av de största sökmotorerna och även lägga till egna. Skriv in ett sökord och välj sökmotor i menyn som du öppnar genom att klicka på bilden till vänster i sökrutan.
-
-Bokmärkesrad Här kan du lägga bokmärken till sidor som du besöker ofta. Då behöver du bara klicka på den bokmärket i bokmärkesraden för att komma till sidan. 
-
-För att lägga till bokmärken i Mozilla Firefox du använda menyn Bokmärken och välja Lägg till bokmärke eller trycka Ctrl + D när du står på sidan du vill göra ett bokmärke till. I Mozilla Firefox finns även en funktion för att hålla ordning på sina bokmärken som du finner i menyn Bokmärken och sedan Ordna bokmärken. Här kan du ordna dina bokmärken i mappar och välja vilka som ska synas i bokmärkesraden.
-</section>
-
-<section>
-	<title>Att söka på Internet</title>
-
-Internet är enormt stort och därför kan det vara svårt att veta var man ska leta efter det man söker. Detta har man löst med sökmotorer. Dessa sökmotorer använder sig av en så kallad Web-spider som börjar på en webbsida, går vidare till alla länkar på den webbsidan och går sedan vidare till dessa webbsidors länkar.  Så fortsätter den tills den har besökt alla webbsidor som det finns länkar till och samlar samtidigt alla ord på alla dessa webbsidor i en gigantisk databas. I den här databasen söker sedan sökmotorn efter vilka webbsidor som innehåller det eller de ord du söker efter. En av de största sökmotorerna i skrivandets stund är Google som du hittar på http://www.google.se/. 
-
-När du söker på internet kan du använda ett eller flera ord och även hela meningar. För att få bättre sökresultat kan man använda sig av booleansk logik som du säkert hört talas om i matematiken. Radar du upp ett antal ord i sökrutan så tolkar sökmotorn detta som att det står "eller" och kommer därför att ta med alla sidor som innehåller minst ett av orden i sökresultatet. Sökordens ordningsföljd ger betydelse för sökresultatet genom att de sökord som står först i sökrutan prioriteras högre än de som står efter. Sökresultatet sorteras så att de webbsidor som innehåller flest av dina sökord kommer först.
-
-
-
-Detta sättet fungerar bra om du söker efter något som kan benämnas på mer än ett sätt annars tenderar det att ge onödigt många träffar och ett mindre precist sökresultat. Använder du flera sökord och vill att vissa av dem ska finnas med på alla sidorna i sökresultatet så sätter du ett plustecken framför. Du kanske behöver hitta ett hotell i Paris och om du då söker efter "hotell" och "Paris" utan plustecken framför så kommer sökresultatet visa en massa webbsidor som handlar om antingen om hotell eller Paris. 
-
-
-
-Ibland innehåller sökresultatet många träffar som är ointressanta för dig även om de stämmer överens med dina sökord. Som ett exempel så kan sökningen ovan ge träffar till webbsidor som handlar om Paris Hilton som är dotter till ägaren av hotellkedjan Hilton. Förutsatt att du inte tvunget vill bo på ett Hiltonhotell kan du filtrera bort dessa träffar genom att skriva Hilton med ett minustecken framför. Då visar sökresultatet träffar som innehåller orden "hotell" och "Paris" men inte "Hilton".
-
-
-
-Letar du däremot efter information om en film eller en bok där titlen innehåller flera ord kan du sätta citattecken runt frasen. Då kommer sökmotorn söka på hela frasen och inte betrakta mellanslag som "eller". Sökresultatet innehåller bara webbsidor där hela frasen finns med och det tas även hänsyn till små och stora bokstäver.
-</section>
-
-<section>
-	<title>E-post med Mozilla Thunderbird</title>
-
-Mozilla Thunderbird är en e-postklient som är utvecklad av samma företag som utvecklat Mozilla Firefox. Precis som Mozilla Firefox har Mozilla Thunderbird ett vertygsfält med knappar som kan användas för att utföra de vanligaste funktionerna i Mozilla Thunderbird. 
-
-
-
-Hämta används för att ladda ner dina e-postbrev till din brevlåda på datorn. 
-
-Skicka öppnar ett fönster där du kan skriva ett nytt e-postbrev.
-
-Adressboken öppnar din adressbok.
-
-Svara använder du för att skicka ett svar på ett e-postbrev till avsändaren.
-
-Svara alla kan du använda om ett e-postbrev har flera mottagare och vill skicka ett svar till avsändaren och alla mottagarna.
-
-Vidarebefordra kan du använda om du vill skicka vidare e-postbrevet till någon annan.
-
-Ta bort används för att slänga ett e-postbrev i papperskorgen för e-postprogrammet.
-
-Skräppost kan användas för att markera meddelande som skräppost (eng. Spam).
-
-Skriv ut skriver ut ditt e-postmeddelande så du får en papperskopia.
-
-Stopp avbryter en pågående överföring.
-
-Idag har de flesta en personlig e-postadress som de använder för att skicka e-postbrev till vänner och bekanta eller för att delta i e-postlistor. Den stor föredelen med e-post är att det går snabbt. Om du skickar ett e-postbrev så har mottagaren det i sin elektroniska brevlåda inom några sekunder. En annan fördel är att en kopia på alla e-postbrev du skickar sparas på din dator så du kan gå tilllbaka och se vad du skrivit. 
-
-En e-postadress består av två delar som skiljs åt med tecknet "@". Tecknet @ utalas "snabel-a" på svenska, men även en engelska benämningen "at" är vanlig. Till vänster om @ står ditt användarnamn som kan vara t.ex. ditt namn eller ditt smeknamn och till höger om @ står ditt domännamn som talar om var du finns.
-
-amelia@linuxchick.se
-
-Domännamnet är uppdelat i flera delas som skiljs åt med punkter och längst till höger i vårt exempel står se som betyder att det är ett svenskt domännamn. Det som står före .se är själva domännamnet som är anslutet till toppdomänen .se, i det här fallet linuxchick. Man kan ha flera underdomänen separerade med punkter t.ex.
-
-amelia@mail.linuxchick.se
-
-I en e-postadress kan man använda bokstäver, siffror och vissa specialtecken som t.ex. punkt, bindestreck och understreck. Värt att tänka på är att man bör använda sig av små bokstäver i sin e-postadress då vissa äldre servrar skiljer på små och stora bokstäver. Man kan inte heller använda sig av svenska tecken som å, ä och ö i sin e-postadress då det inte fungerar i utlandet. 
-
-E-post kan inte bara användas för att skicka e-post till sina vänner och bekanta, man kan även delta i e-postlistor och diskutera eller få information om saker som intresserar dig. När någon skickar ett e-postbrev till en e-postlista så skickas e-postbrevet till alla som anmält sig till e-postlistan. När du vill svara på ett e-postbrev till en e-postlista skickar du svaret till e-postlistans e-postadress. Listans e-postadress ser likadan ut som vilken e-postadress som helst t.ex. selinux-medlemmar@se.linux.org som är en e-postlista för Svenska Linuxföreningens alla medlemmar.
-
-Kom ihåg att alltid skriva ett ämne som talar om för mottagaren vad e-postbrevet handlar om, det underlättar för mottagaren och blir lättare för dig att hitta om du behöver gå tillbaka och se vad du skrev.
-
-</section>
-
-
+  <section>
+    <title>Datorkommunikation</title>
+
+    <para>Datorkommunikation är överföring av data mellan olika datorer t.ex.
+    mellan två datorer eller mellan din dator och en internetsida.
+    Dataöverföringen görs i någon form av nätverk och den data som överförs
+    kan vara t.ex. text, bilder eller ljud. Datorkommunikation används på
+    många ställen i vardagen t.ex. när du tar ut pengar i en bankomat eller
+    bokar en resa. I skolan, på arbetsplatsen eller i hemmet använder
+    datorkommunikation för att skicka e-post, surfa på Internet, mötesbokning
+    och distansarbete.</para>
+
+    <para>För att kunna överföra data mellan olika datorer eller enheter
+    behövs ett nätverk. I nätverket är alla datorer ansluta till varandra
+    vilket gör det möjligt att överföra data mellan alla datorerna. Ett
+    nätverk kan vara allt från två datorer till ett gigantiskt stort nätverk
+    t.ex. Internet.</para>
+
+    <para>Ett lokalt nätverk (eng. Local Area Network) brukar förkortas LAN
+    och är ett nätverk som används inom ett begränsat område t.ex. en
+    arbetsplats. Nätverket i sig består av kablar och switchar som kopplar
+    ihop alla datorerna så de kan kommunicera med varandra. Idag kan man även
+    ha trådlösa lokala nätverk, dessa kallas då WLAN (Wireless Local Area
+    Network). Ett lokalt nätverk kan även användas för att flera datorer ska
+    få tillgång till Internet samtidigt.</para>
+
+    <para>En annan typ av nätverk som man bör känna till är Wide Area Network
+    (WAN) som används över större områden. Ett Wide Area Network kan t.ex.
+    användas av ett företag som har kontor i flera städer och behöver ett
+    gemensamt nätverk.</para>
+  </section>
+
+  <section>
+    <title>Internet</title>
+
+    <para>Internet är ett världsomspännande nätverk som består av flera
+    miljoner datorer. Alla som har en dator vilken är kopplad till Internet är
+    en del av detta nätverk. Ordet Internet betyder "nätverk av nätverk" och
+    det är precis vad Internet är. När du sitter vid datorn i skolan så är du
+    kopplad till skolans nätverk, detta är i sin tur kopplat till en
+    internetleverantörs nätverk. Internetleverantören är sedan kopplad till
+    ett större nätverk t.ex. ett stadsnät, sin leverantörs nätverk eller har
+    egna fiberkablar som i sin tur är kopplade till liknande leverantörer i
+    andra länder och deras nätverk.</para>
+
+    <para>Internet är uppbyggt så att ingen central dator sköter alla
+    kommunikation utan all datatrafik kan dirigera om sig själv mellan de
+    olika datorerna och nätverken. Detta betyder att datatrafiken själv kan
+    hitta nya vägar till ett mål om den första tänkbara färdvägen av någon
+    anledning inte fungerar. Att man byggde Internet på det här sättet har sin
+    grund i USA på 60- och 70-talet. Redan på 60-talet fanns grunden till det
+    Internet vi har idag. Det var ett militärt datanät som kallades för
+    ARPANET. När nätverket byggdes ut på 70-talet döptes det om till
+    Internetwork. I samband med detta bytte man arkitektur till den vi
+    använder idag, en anarkistisk arkitektur där datatrafiken själv letar sig
+    fram till sitt mål utan någon centraldator som dirigerar trafiken. Detta
+    gjordes i första hand av säkerhetsskäll för att det inte skulle gå att slå
+    ut Internetworks genom att bomba en enskild dator eller knutpunkt i
+    händelse av krig.</para>
+
+    <para>Under 60-talet var det bara några få universitet och alla
+    myndigheter, företag och organisationer som var viktiga för totalförsvaret
+    kopplade till ARPANET. Vid uppgraderingen på 70-talet började fler ansluta
+    sig till Internetwork och i slutet på 70-talet var så gott som alla
+    amerikanska universitet och myndigheter anslutna. Internet fortsatte att
+    växa och i mitten på 80-talet hade det vuxit till världens största nätverk
+    och organisationer utanför USA började ansluta sig. Främst var det
+    universitet som anslöt sig till Internet och de flesta hade aldrig hört
+    ordet Internet. Vid den här tiden hade inte Internet så mycket att erbjuda
+    gemene man då man endast kunde skicka e-post eller koppla upp sig till en
+    annan dator för att arbeta på den.</para>
+
+    <para>Det stora genombrottet för Internet kom på 90-talet och berodde på
+    Gophers introduktion. Gopher kom 1991 och var en fullständig revolution
+    för Internet med dess användarvänlighet genom det första grafiska
+    gränssnittet för Internet. Två år senare kom World Wide Web eller www som
+    också var försedd med ett grafiskt gränssnitt där man kunde klicka sig
+    fram istället för att behöva navigera med tangentbordet. Samma år, 1993
+    blev det också möjligt för företag att i kommersiellt syfte erbjuda
+    internetuppkopplingar via modem till privatpersoner.</para>
+
+    <para>Idag är Internet en del av våra liv, att surfa på Internet är inte
+    konstigare än att titta på TV eller att prata i telefon. Vi letar
+    information, skickar e-post till varandra, chattar och spelar datorspel på
+    Internet, men det har medfört en del problem. Eftersom att ingen äger
+    Internet finns det ingen myndighet som granskar dess innehåll eller
+    bestämmer vad som får finnas och inte finnas där. Många länder har stött
+    på problem när de försökt reglera nätet med nationella lagstiftningar.
+    Egentligen finns det inga lagar på Internet, men oftast tillämpas
+    nationell lagstiftning i det landet datorn med den olagliga informationen
+    är uppkopplad ifrån, därför skiljer sig vad man får och inte får göra på
+    Internet mellan olika länder.</para>
+
+    <para>Från början var Internet ickekommersiellt och driften av Internet
+    bekostades till stor del av universitet och statliga myndigheter världen
+    över. Idag är internet kommersiellt, men den gamla tanken om att allt på
+    Internet ska vara gratis lever kvar. Nu finansieras driften av Internet
+    till större delen av användarnas anslutningsavgift.</para>
+  </section>
+
+  <section>
+    <title>Webbläsaren Mozilla Firefox</title>
+
+    <para>Mozilla Firefox är en av många webbläsare som kan användas för att
+    surfa på Internet. En webbläsare översätter HTML-kod till en grafisk sida
+    med länkar, bilder, ljud och videosekvenser. HTML (HyperText Markup
+    Language) är ett språk som används för att göra webbsidor. Alla webbsidor
+    sparas på servern som en enskild fil och har filtilägget .html eller .htm
+    och det är därför som många webbadresser slutar på just det. En webbadress
+    eller URL (Universal Resource Locator) som det heter kan användas för att
+    länka till olika källor på Internet som t.ex. en webbsida. Ett exempel på
+    en URL är: <ulink type=""
+    url="http://www.linuxchick.se/">http://www.linuxchick.se/</ulink>.</para>
+
+    <para>Förutom den vanliga menyn så har Mozilla Firefox ett verktygsfält
+    med knappar, ett adressfält där du anger webbadressen och en ruta med
+    sökfunktion. Följande funktioner finner du i verktygsfältet:</para>
+
+    <!-- TODO: Här fanns en bild -->
+
+    <para><variablelist>
+        <varlistentry>
+          <term>Bakåt</term>
+
+          <listitem>
+            <para>Går tillbaka till föregående sida. Klickar du på pilen på
+            höger sida av knappen får du fram en lista över besökta
+            webbplatser och kan själv välja hur många sidor du vill hoppa
+            bakåt på en gång.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Framåt</term>
+
+          <listitem>
+            <para>Om du har hoppat bakåt kan du på samma sätt hopp framåt igen
+            med denna knappen. På samma sätt som med bakåt-knappen kan du
+            använda pilen på högersidan av knappen för att få en lista på alla
+            sidor du kan hoppa till.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Uppdatera</term>
+
+          <listitem>
+            <para>Laddar om den sidan du befinner dig på.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Stop</term>
+
+          <listitem>
+            <para>Avbryter nedladdningen av den aktuella sidan.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Hem</term>
+
+          <listitem>
+            <para>Går till den webbadress du valt som startsida i din
+            webbläsare.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Adressfält</term>
+
+          <listitem>
+            <para>Här skriver du in vilken sida du vill gå in på.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Gå till</term>
+
+          <listitem>
+            <para>Öppnar sidan du skrivit i adressfältet. Man kan även trycka
+            på <keycap>Enter</keycap> istället för att klicka på den här
+            knappen.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Sökruta</term>
+
+          <listitem>
+            <para>Här kan du söka på några av de största sökmotorerna och även
+            lägga till egna. Skriv in ett sökord och välj sökmotor i menyn som
+            du öppnar genom att klicka på bilden till vänster i
+            sökrutan.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Bokmärkesrad</term>
+
+          <listitem>
+            <para>Här kan du lägga bokmärken till sidor som du besöker ofta.
+            Då behöver du bara klicka på den bokmärket i bokmärkesraden för
+            att komma till sidan.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist></para>
+
+    <para>För att lägga till bokmärken i Mozilla Firefox du använda menyn
+    <guimenu>Bokmärken</guimenu> och välja <guimenuitem>Lägg till
+    bokmärke</guimenuitem> eller trycka <keycap>Ctrl</keycap> +
+    <keycap>D</keycap> när du står på sidan du vill göra ett bokmärke till. I
+    Mozilla Firefox finns även en funktion för att hålla ordning på sina
+    bokmärken som du finner i menyn <guimenu>Bokmärken</guimenu> och sedan
+    <guimenuitem>Ordna bokmärken</guimenuitem>. Här kan du ordna dina
+    bokmärken i mappar och välja vilka som ska synas i bokmärkesraden.</para>
+  </section>
+
+  <section>
+    <title>Att söka på Internet</title>
+
+    <para>Internet är enormt stort och därför kan det vara svårt att veta var
+    man ska leta efter det man söker. Detta har man löst med sökmotorer. Dessa
+    sökmotorer använder sig av en så kallad Web-spider som börjar på en
+    webbsida, går vidare till alla länkar på den webbsidan och går sedan
+    vidare till dessa webbsidors länkar. Så fortsätter den tills den har
+    besökt alla webbsidor som det finns länkar till och samlar samtidigt alla
+    ord på alla dessa webbsidor i en gigantisk databas. I den här databasen
+    söker sedan sökmotorn efter vilka webbsidor som innehåller det eller de
+    ord du söker efter. En av de största sökmotorerna i skrivandets stund är
+    Google som du hittar på <ulink
+    url="http://www.google.se/">http://www.google.se/</ulink>.</para>
+
+    <para>När du söker på internet kan du använda ett eller flera ord och även
+    hela meningar. För att få bättre sökresultat kan man använda sig av
+    booleansk logik som du säkert hört talas om i matematiken. Radar du upp
+    ett antal ord i sökrutan så tolkar sökmotorn detta som att det står
+    "eller" och kommer därför att ta med alla sidor som innehåller minst ett
+    av orden i sökresultatet. Sökordens ordningsföljd ger betydelse för
+    sökresultatet genom att de sökord som står först i sökrutan prioriteras
+    högre än de som står efter. Sökresultatet sorteras så att de webbsidor som
+    innehåller flest av dina sökord kommer först.</para>
+
+    <!-- TODO: Här fanns en bild -->
+
+    <para>Detta sättet fungerar bra om du söker efter något som kan benämnas
+    på mer än ett sätt annars tenderar det att ge onödigt många träffar och
+    ett mindre precist sökresultat. Använder du flera sökord och vill att
+    vissa av dem ska finnas med på alla sidorna i sökresultatet så sätter du
+    ett plustecken framför. Du kanske behöver hitta ett hotell i Paris och om
+    du då söker efter "hotell" och "Paris" utan plustecken framför så kommer
+    sökresultatet visa en massa webbsidor som handlar om antingen om hotell
+    eller Paris.</para>
+
+    <!-- TODO: Här fanns en bild -->
+
+    <para>Ibland innehåller sökresultatet många träffar som är ointressanta
+    för dig även om de stämmer överens med dina sökord. Som ett exempel så kan
+    sökningen ovan ge träffar till webbsidor som handlar om Paris Hilton som
+    är dotter till ägaren av hotellkedjan Hilton. Förutsatt att du inte
+    tvunget vill bo på ett Hiltonhotell kan du filtrera bort dessa träffar
+    genom att skriva Hilton med ett minustecken framför. Då visar
+    sökresultatet träffar som innehåller orden "hotell" och "Paris" men inte
+    "Hilton".</para>
+
+    <!-- TODO: Här fanns en bild -->
+
+    <para>Letar du däremot efter information om en film eller en bok där
+    titlen innehåller flera ord kan du sätta citattecken runt frasen. Då
+    kommer sökmotorn söka på hela frasen och inte betrakta mellanslag som
+    "eller". Sökresultatet innehåller bara webbsidor där hela frasen finns med
+    och det tas även hänsyn till små och stora bokstäver.</para>
+
+    <!-- TODO: Här fanns en bild -->
+  </section>
+
+  <section>
+    <title>E-post med Mozilla Thunderbird</title>
+
+    <para>Mozilla Thunderbird är en e-postklient som är utvecklad av samma
+    företag som utvecklat Mozilla Firefox. Precis som Mozilla Firefox har
+    Mozilla Thunderbird ett vertygsfält med knappar som kan användas för att
+    utföra de vanligaste funktionerna i Mozilla Thunderbird.</para>
+
+    <!-- TODO: Här fanns en bild -->
+
+    <para><variablelist>
+        <varlistentry>
+          <term>Hämta</term>
+
+          <listitem>
+            <para>används för att ladda ner dina e-postbrev till din brevlåda
+            på datorn.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Skicka</term>
+
+          <listitem>
+            <para>öppnar ett fönster där du kan skriva ett nytt
+            e-postbrev.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Adressboken</term>
+
+          <listitem>
+            <para>öppnar din adressbok.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Svara</term>
+
+          <listitem>
+            <para>använder du för att skicka ett svar på ett e-postbrev till
+            avsändaren.</para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Svara alla</term>
+
+          <listitem>
+            <para>kan du använda om ett e-postbrev har flera mottagare och
+            vill skicka ett svar till avsändaren och alla mottagarna. </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Vidarebefordra</term>
+
+          <listitem>
+            <para>kan du använda om du vill skicka vidare e-postbrevet till
+            någon annan. </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Ta bort</term>
+
+          <listitem>
+            <para>används för att slänga ett e-postbrev i papperskorgen för
+            e-postprogrammet. </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Skräppost</term>
+
+          <listitem>
+            <para>kan användas för att markera meddelande som skräppost (eng.
+            Spam). </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Skriv ut</term>
+
+          <listitem>
+            <para>skriver ut ditt e-postmeddelande så du får en papperskopia.
+            </para>
+          </listitem>
+        </varlistentry>
+
+        <varlistentry>
+          <term>Stopp</term>
+
+          <listitem>
+            <para>avbryter en pågående överföring.</para>
+          </listitem>
+        </varlistentry>
+      </variablelist></para>
+
+    <para>Idag har de flesta en personlig e-postadress som de använder för att
+    skicka e-postbrev till vänner och bekanta eller för att delta i
+    e-postlistor. Den stor föredelen med e-post är att det går snabbt. Om du
+    skickar ett e-postbrev så har mottagaren det i sin elektroniska brevlåda
+    inom några sekunder. En annan fördel är att en kopia på alla e-postbrev du
+    skickar sparas på din dator så du kan gå tilllbaka och se vad du
+    skrivit.</para>
+
+    <para>En e-postadress består av två delar som skiljs åt med tecknet "@".
+    Tecknet @ utalas "snabel-a" på svenska, men även en engelska benämningen
+    "at" är vanlig. Till vänster om @ står ditt användarnamn som kan vara
+    t.ex. ditt namn eller ditt smeknamn och till höger om @ står ditt
+    domännamn som talar om var du finns.</para>
+
+    <para>amelia@linuxchick.se</para>
+
+    <para>Domännamnet är uppdelat i flera delas som skiljs åt med punkter och
+    längst till höger i vårt exempel står se som betyder att det är ett
+    svenskt domännamn. Det som står före .se är själva domännamnet som är
+    anslutet till toppdomänen .se, i det här fallet linuxchick. Man kan ha
+    flera underdomänen separerade med punkter t.ex.</para>
+
+    <para>amelia@mail.linuxchick.se</para>
+
+    <para>I en e-postadress kan man använda bokstäver, siffror och vissa
+    specialtecken som t.ex. punkt, bindestreck och understreck. Värt att tänka
+    på är att man bör använda sig av små bokstäver i sin e-postadress då vissa
+    äldre servrar skiljer på små och stora bokstäver. Man kan inte heller
+    använda sig av svenska tecken som å, ä och ö i sin e-postadress då det
+    inte fungerar i utlandet.</para>
+
+    <para>E-post kan inte bara användas för att skicka e-post till sina vänner
+    och bekanta, man kan även delta i e-postlistor och diskutera eller få
+    information om saker som intresserar dig. När någon skickar ett e-postbrev
+    till en e-postlista så skickas e-postbrevet till alla som anmält sig till
+    e-postlistan. När du vill svara på ett e-postbrev till en e-postlista
+    skickar du svaret till e-postlistans e-postadress. Listans e-postadress
+    ser likadan ut som vilken e-postadress som helst t.ex.
+    selinux-medlemmar@se.linux.org som är en e-postlista för Svenska
+    Linuxföreningens alla medlemmar.</para>
+
+    <para>Kom ihåg att alltid skriva ett ämne som talar om för mottagaren vad
+    e-postbrevet handlar om, det underlättar för mottagaren och blir lättare
+    för dig att hitta om du behöver gå tillbaka och se vad du skrev.</para>
+  </section>
 </chapter>
