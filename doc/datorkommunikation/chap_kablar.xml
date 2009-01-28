@@ -140,12 +140,13 @@
 				är ekonomiskt fördelaktig.
 			</para>
 			<para>
-				I en vanlig TP-kabel finns det 4 par kablar. Det finns dem
+				I en vanlig TP-kabel finns det 4 par ledare. Det finns dem
 				med bara två par också men de används inte så ofta för
 				datornätverk utan används oftast bara till telefontrafik.
 				Som namnet antyder är ledarna i varje par tvinnade om
 				varandra. Man kan känna detta om drar fingrarna längs en
-				TP-kabel. Anledningen till att man tvinnar dem är att minska
+				TP-kabel och man ser det tydligt om man klipper upp en bit
+				kabel. Anledningen till att man tvinnar dem är att minska
 				känsligheten för störningar, både för störningar utifrån, så
 				kallad interferens, och inre störningar i kabeln, så kallad
 				crosstalk. Kanske minns ni från fysiken hur ett
@@ -173,11 +174,11 @@
 				<sect3><title>Skärmad TP-kabel (STP)</title>
 					<para>
 						Skärmad TP-kabel kallas STP som i Shielded Twisted
-						Pair.  Trots att kabelparen är tvinnade så ar
-						UTP-kabel känslig för störningar. Därför finns STP.
-						Den ser likadan ut som UTP men har en skärm mellan
-						ledarna och ytterhöljet.  Denna skärm består oftast av
-						aluminiumfolie eller kopparväv. STP blir, tack vara
+						Pair. Trots att ledarparen är tvinnade så är UTP-kabel
+						känslig för störningar. Därför finns STP.  Den ser
+						likadan ut som UTP men har en skärm mellan ledarna och
+						ytterhöljet.  Denna skärm består oftast av
+						aluminiumfolie eller kopparväv. STP blir, tack vare
 						skärmen, lite stelare och svårare att installera. Men
 						den är ändå relativt lättinstallerad. STP är också
 						dyrare är UTP.
@@ -214,8 +215,7 @@
 					fiberoptisk kabel svårare att hantera, till exempel
 					behövs speciella verktyg för att skarva kabeln. Ledaren
 					är extremt känslig, både för böjning och för slag.
-					Fiberoptisk kabel skall installeras av proffs. Av någon
-					anledning är fiberoptisk kabel ofta grön.
+					Fiberoptisk kabel skall installeras av proffs.
 				</para>
 				<para>
 					Fiberoptisk kabel är det vanligaste alternativet idag vid
