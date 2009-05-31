@@ -1,11 +1,35 @@
 <chapter id="chap_wlan"><title>Trådlösa nätverk, WLAN</title>
 	<abstract>
 		<para>
-			Detta kapitel behandlar trådlösa nätverk. Det mesta i detta
+			I förra kapitlet behandlades kablar och några trådlösa
+			alternativ. Det vanligaste trådlösa alternativet idag är WLAN
+			och det är vad vi skall behanda i detta kapitel.
+		</para>
+		<para>
+			Detta kapitel behandlar trådlösa nätverk. En del av detta
 			kapitel kommer från Wikipedia, Den fria encyklopedin.
 		</para>
 	</abstract>
 
+	<sect1><title>Trådlös frihet</title>
+		<para>
+				Det finns massor av skäl att välja trådlösa nätverk idag.
+				Tekniken är mogen och snabb och fungerar mycket bra. Att
+				sätta upp ett trådlöst nätver går på ett kick om lokalen
+				inte är för stor och användarna för många. Tidigare har det
+				kritiserats väldigt mycket för att vara osäkert men dagen
+				teknik gör att det är enkelt att få det åtminstone lika
+				säkert som trådbundna nätverk.
+			</para>
+			<para>
+				Att man slipper dra kablar gör installationen enkel och
+				billig. Har de som skall använda nätverket bärbara datorer
+				och kan flytta sig så är det också bra med trådlöst nätverk.
+				Men finns det kablar att tillgå är det nästan alltid
+				snabbare och mer tillgängligt att använda dem, men
+				fördelarna med trådlöst nätverk är många.
+			</para>
+	</sect1>
 
 	<sect1><title>Trådlöst LAN</title>
 		<para>
