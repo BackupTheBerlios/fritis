@@ -210,7 +210,7 @@
 		</sect2>
 	</sect1>
 
-	<sect1><title>Accessmetoder</title>
+	<sect1><title id="accessmetoder">Accessmetoder</title>
 		<para>
 			I alla tre topologier som vi gått igenom måste det finnas
 			regler för vilken dator som får sända när. I inget av näten kan
@@ -246,15 +246,17 @@
 			har inträffat. CSMA/CD används i nätverksprotokollet Ethernet.
 		</para>
 		<para>
-			En variant på CSMA/DC är <emphasis>CSMA/CA</emphasis>. Alla
-			bokstäver står för samma sak (och samma innebörd) utom då CA
-			som står för <emphasis>Collision Avoidance</emphasis>. Det
-			fungerar så att en dator innan den börjar sända skickar ut ett
-			litet meddelande för att kontrollera att nätverket är ledigt
+			En variant på CSMA/DC är <emphasis>CSMA/CA</emphasis>.
+			Alla bokstäver står för samma sak (och samma innebörd)
+			utom då CA som står för <emphasis>Collision
+				Avoidance</emphasis>. Det fungerar så att en
+			dator innan den börjar sända skickar ut ett litet
+			meddelande för att kontrollera att nätverket är ledigt
 			och om det är det skickar ut riktiga data. Det gör att
-			kollisioner inte behöver ske med riktiga data utan bara med de
-			små "provskotten".  CSMA/CA används i LocalTalk som är ett
-			nätverksprotokoll från Apple.
+			kollisioner inte behöver ske med riktiga data utan bara
+			med de små "provskotten".  CSMA/CA används i LocalTalk
+			som är ett nätverksprotokoll från Apple och i de flesta
+			av våra trådlösa nätverk.
 		</para>
 		<para>
 			CSMA/CD och CSMA/CA passar när nätverket består av ett

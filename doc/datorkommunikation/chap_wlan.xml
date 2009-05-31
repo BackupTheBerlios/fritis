@@ -39,7 +39,21 @@
 			samma utsända effekt.
 		</para>
 	</sect1>
-		
+
+	<sect1><title>Teknik</title>
+		<para>
+			Som tidigare sagts är trådlösa lan byggda på
+			radiovågor. Dessa går igeom väggar och har ganska bra
+			räckvidd. Upp till 30-50 meter brukar gå bra och även
+			längre om man har bra utrustning. Även i ett trådlöst
+			nätverk uppstår kollisioner (se <xref
+				linkend="accessmetoder"/>). Som accessmetod
+			används CSMA/CA för att undvika och göra kollisionerna
+			så snabba som möjligt.
+	
+	
+	</sect1>
+
 	<sect1><title>Säkerhet</title>
 		<para>
 			Trådlösa nätverk är ur säkerhetssynpunkt mer utsatta än
