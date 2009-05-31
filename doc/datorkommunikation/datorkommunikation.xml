@@ -53,7 +53,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2009/05/31 18:48:05 $</pubdate>
+	<pubdate>$Date: 2009/05/31 19:00:59 $</pubdate>
 
 	<copyright>
 		<year>2003,2004,2005,2007,2008,2009</year>
@@ -62,7 +62,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.58 $</revnumber>
+			<revnumber>$Revision: 1.59 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -101,11 +101,6 @@
 		</para>
 	</legalnotice>
 
-	<dedication>
-		<para>Till mina barn.</para>
-		<para>In Memorian Daniel Lundblad 1995--2008</para>
-	
-	</dedication>
 
 	<abstract>
 		<para>
@@ -117,6 +112,11 @@
 	</abstract>
 
 </bookinfo>
+
+<dedication>
+		<para>Denna bok vill jag tillägna mina barn.</para>
+		<para>In Memorian Daniel Lundblad 1995--2008.</para>
+	</dedication>
 
 <preface id="forord"><title>Förord</title>
 	<sect1><title>Tack till</title>

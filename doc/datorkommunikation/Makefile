@@ -24,8 +24,8 @@ pub: all
 	chmod 705 laborationer
 	rsync -e "ssh -l rejas" --recursive ./ joakim.bgt.rejas.net:/var/www/www.rejas.se/static/fritis/$(TARGET)/
 
-fdl-sv.xml: ../common/licenses/fdl-sv.xml
-	cp ../common/licenses/fdl-sv.xml fdl-sv.xml
+#fdl-sv.xml: ../common/licenses/fdl-sv.xml
+#	cp ../common/licenses/fdl-sv.xml fdl-sv.xml
 
 $(TARGET).tar.gz: $(SOURCE_FILES)
 	mkdir $(TARGET)

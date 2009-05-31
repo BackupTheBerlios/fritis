@@ -47,11 +47,11 @@
 			räckvidd. Upp till 30-50 meter brukar gå bra och även
 			längre om man har bra utrustning. Även i ett trådlöst
 			nätverk uppstår kollisioner (se <xref
-				linkend="accessmetoder"/>). Som accessmetod
+				linkend="sect_accessmetoder"/>). Som accessmetod
 			används CSMA/CA för att undvika och göra kollisionerna
 			så snabba som möjligt.
 	
-	
+		</para>	
 	</sect1>
 
 	<sect1><title>Säkerhet</title>

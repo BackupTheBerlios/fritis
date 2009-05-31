@@ -210,7 +210,7 @@
 		</sect2>
 	</sect1>
 
-	<sect1><title id="accessmetoder">Accessmetoder</title>
+	<sect1 id="sect_accessmetoder"><title>Accessmetoder</title>
 		<para>
 			I alla tre topologier som vi gått igenom måste det finnas
 			regler för vilken dator som får sända när. I inget av näten kan
