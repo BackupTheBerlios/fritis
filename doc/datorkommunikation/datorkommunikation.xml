@@ -53,16 +53,16 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2009/01/28 13:09:33 $</pubdate>
+	<pubdate>$Date: 2009/05/31 18:48:05 $</pubdate>
 
 	<copyright>
-		<year>2003,2004,2005,2007,2008</year>
+		<year>2003,2004,2005,2007,2008,2009</year>
 		<holder>Marcus Rejås</holder>
 	</copyright>
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.57 $</revnumber>
+			<revnumber>$Revision: 1.58 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -101,6 +101,12 @@
 		</para>
 	</legalnotice>
 
+	<dedication>
+		<para>Till mina barn.</para>
+		<para>In Memorian Daniel Lundblad 1995--2008</para>
+	
+	</dedication>
+
 	<abstract>
 		<para>
 			Denna bok är anpassad för gymnasieskolans kurs
@@ -115,12 +121,15 @@
 <preface id="forord"><title>Förord</title>
 	<sect1><title>Tack till</title>
 		<para>
-			Jag vill börja denna bok med att tacka alla som hjälpt mig med
-			den. Framför allt då <emphasis>Johan Hammar</emphasis>,
-			<emphasis>Gunnar Sjöö</emphasis> och <emphasis>Kalevi
-				Nyman</emphasis> som ställt upp med korrekturläsning och
-			<emphasis>XXXX XXXX</emphasis> som ritat alla fina bilder. Utan
-			er hade boken inte varit så bra som den är idag. Tack!
+			Jag vill börja denna bok med att tacka alla som hjälpt
+			mig med den. Framför allt då <emphasis>Johan
+				Hammar</emphasis>, <emphasis>Gunnar
+				Sjöö</emphasis>, <emphasis>Jenny
+				Ohlsson</emphasis> och <emphasis>Kalevi
+				Nyman</emphasis> som ställt upp med
+			korrekturläsning och <emphasis>XXXX XXXX</emphasis> som
+			ritat alla fina bilder. Utan er hade boken inte varit
+			så bra som den är idag. Tack!
 		</para>
 		<para>
 			Jag vill också tacka dig som läser denna bok. Hittar du något
