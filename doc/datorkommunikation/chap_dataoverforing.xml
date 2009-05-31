@@ -75,8 +75,26 @@
 		</para>
 		<para>
 			Om alla delar i denna kommunikation fungerar så kommer samtalet
-			att vara givande. Vi skall nu titta lite närmare på hur det går
-			till att överföra data i en ledning.
+			att vara givande. 
+		</para>
+	</sect1>
+
+
+	<sect1><title>Duplex, Simplex och Halv-duplex</title>
+		<para>
+			Man kan dela in kommunikation beroende på i vilken rikting den
+			kan gå. Simplex innebär att kommunikation bara kan ske åt ett
+			håll. Ett bra exempel på det är TV eller radio-utsändningar. Du
+			kan bara lyssna (och titta) på det som sägs, men inte säga
+			något tillbaka. Duplex (kallas ibland även full-duplex) innebär
+			att du kan svara och säga emot den du kommunicerar med det vill
+			säga ni kan tala i munnen på varandra och kommunikationen kan
+			flyta åt båda håll på samma gång. Ett exempel på duplex är ett
+			vanligt telefonsamtal. Ett mellanting mellan simplex och duplex
+			är halv-duplex. Med halv-duplex kan kommunikationen ske åt båda
+			hållen, men bara åt ett håll i taget. Ett exempel på detta är
+			kommunikationsradio där man inte kan tala i munnen på varandra
+			utan en sänder och andra lyssnar.
 		</para>
 	</sect1>
 
