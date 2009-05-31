@@ -13,7 +13,7 @@
 		<para>
 			Det kan vara på sin plats att först beskriva termen
 			<emphasis>nod</emphasis>. En nod är en generell
-			adresserbar nätverkskomponent, det kan vara en arbetsstation,
+			adresserbar nätverkskomponent. Det kan vara en arbetsstation,
 			en router, en brandvägg eller något annat. Är den adresserbar i
 			nätverket så kallas den ofta för en nod.
 		</para>
@@ -96,7 +96,7 @@
 	<sect1><title>Hubb<footnote><para>Se även brevet från Jan Johansson i
 	<xref linkend="brev"/></para></footnote></title>
 		<para>
-			En hubb, från engelskans hub = nav, är namnet på den centrala
+			En hubb, från engelskans hub (= nav), är namnet på den centrala
 			knytpunkten, nätnavet, i ett stjärnnät. Det är också namnet på
 			en nätverkskomponent som används just i detta syfte. En hubb
 			fungerar som en grenkoppling. Alla signaler som kommer in på
@@ -107,14 +107,13 @@
 			med kollisioner i ett nät där man har just en hubb som nätnav.
 			De flesta hubbar har en lysdiod som indikerar när det är en
 			kollision på nätet. Denna lampa kan man använda som en
-			indikator för att se hur mycket kollisioner det är på
-			nätverket. Mycket kollisioner gör att nätverket får minskad
-			kapacitet och upplevs som långsamt. Man kan då välja att
-			segmentera nätverket eller skaffa en switch (se nästa stycke).
-			Ett annat relaterat problem är att eftersom all trafik kommer
-			fram till alla datorer kan en ond användare ta del av
-			information som inte är avsedd för henne vilket är en
-			säkerhetsrisk.
+			indikator för att se hur många kollisioner det är på nätverket.
+			Många kollisioner gör att nätverket får minskad kapacitet och
+			upplevs som långsamt. Man kan då välja att segmentera nätverket
+			eller skaffa en switch (se nästa stycke).  Ett annat relaterat
+			problem är att eftersom all trafik kommer fram till alla
+			datorer kan en ond användare ta del av information som inte är
+			avsedd för henne vilket är en säkerhetsrisk.
 		</para>
 
 		<para>
@@ -255,7 +254,7 @@
 			En gateway används för att koppla samman nätverk av olika typ.
 			Man kan se det som en konverterare. Namnet gateway används
 			ibland, felaktigt, på en maskin som som sitter mellan ett
-			lokalt nät och internet även om samma nätverksprotokoll
+			lokalt nät och Internet även om samma nätverksprotokoll
 			används. I det fallet är router en riktigare benämning.
 		</para>
 	</sect1>
@@ -284,7 +283,7 @@
 		</para>
 		<para>
 			Vi kommer att tala mer om brandväggar i <xref
-			linkend="chap_sakerhet"/>
+			linkend="chap_sakerhet"/>.
 		</para>
 	</sect1>
 

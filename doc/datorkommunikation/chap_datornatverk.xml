@@ -17,9 +17,9 @@
 		<para>
 			I det förra kapitlet tittade vi på seriell och parallell
 			överföring. Vid sådan kommunikation är det alltid två parter
-			som talar med varandra. Det som vi kommer se i detta kapitel
-			som bygger man oftare mer avancerade kommunikationsnät med en mer
-			avancerad struktur där datorer efter givna regler kan
+			som talar med varandra. I detta kapitel tittar vi lite längre
+			upp ser hur man bygger mer avancerade kommunikationsnät med en
+			mer avancerad struktur där datorer efter givna regler kan
 			kommunicera med varandra. Dessa nät kallar vi kort och gott för
 			datornät.
 		</para>
@@ -81,7 +81,7 @@
 		<sect2><title>Bussnät</title>
 			<para>
 				I ett bussnät finns det en kabel till vilken alla datorer är
-				kopplade. Till den gemensamma kabeln (kallas för backbone)
+				kopplade. Till den gemensamma kabeln (kallas för backbone) 
 				kopplas datorerna med så kallade drop-cables. I <xref
 				linkend="fig_bussnat"/> visas en schematisk bild av ett
 				bussnät. Överst i bilden är backbone-kabeln med terminatorer
@@ -151,7 +151,7 @@
 			<para>
 				Stjärnnät är den vanligaste topologin i nyinstallerade
 				nätverk idag. Den är billig att installera och om någon del
-				an nätverket fallerar behöver inte nödvändigtvis hela nätet
+				av nätverket fallerar behöver inte nödvändigtvis hela nätet
 				påverkas. Hubben i mitten fungerar så att en dator sänder
 				och alla andra lyssnar, bara den datorn som meddelandet är
 				avsett för sparar och behandlar meddelandet. Om någon dator
@@ -230,7 +230,7 @@
 			<emphasis>CSMA/CD</emphasis> som betyder: <emphasis>Carrier
 			Sense Multiple Access / Collision
 			Detection</emphasis><footnote><para>Datorkommunikation är ett
-			underbart ämne med underbara förkortningar.</para></footnote>.
+			underbart ämne med underbara förkortningar!</para></footnote>.
 			Vi tar det steg för steg. Carrier Sense innebär att en dator
 			innan den sänder måste känna efter om det är någon som använder
 			nätet. Är det det så måste datorerna vänta tills det blir
@@ -266,7 +266,7 @@
 			linkend="fig_stjarnnat"/>).  I ett ringnät kan man istället
 			använda en accessmetod som heter <emphasis>token
 			passing</emphasis>. Token passing går ut på att en token
-			cirkulerar runt i nätverket ungefär som en stafettpinne, varje
+			cirkulerar runt i nätverket ungefär som en stafettpinne. Varje
 			dator får stafettpinnen och skickar den vidare. Det finns bara
 			en stafettpinne och bara den dator som har stafettpinnen får
 			sända data. Dessa data och stafettpinen skickas vidare. Alla

@@ -35,7 +35,7 @@
 		<para>
 			En kabel har en mängd olika egenskaper. Alla påverkar på olika
 			sätt hur bra den är i olika sammanhang. En kabel för att leda
-			starkström mellan ett kärnkraftverk och någon typ av ställvärk
+			starkström mellan ett kärnkraftverk och någon typ av ställverk
 			eller mellan två kontinenter har vid en första anblick inte
 			mycket gemensamt med en ledning mellan två olika delar i ett
 			elektroniskt armbandsur. Men om man tänker efter så är flera
@@ -51,7 +51,7 @@
 			bråkdel av strömmen i den stora kabeln. Kabeln i klockan måste
 			i stället vara tillräckligt tunn för att rymmas i klockan, den
 			måste dessutom vara utformad så att den tål eventuella stötar
-			klockan kan komma att utsättas för.
+			som klockan kan komma att utsättas för.
 		</para>
 		<para>
 			Även om dessa kablar inte liknar varandra ser vi att samma
@@ -66,13 +66,13 @@
 			under tak. Ur brandsynpunkt finns det två material att välja
 			på. PVC och Plenum, PVC är mer brandfarligt och kan utveckla
 			giftig rök när det brinner. Plenum däremt är mindre
-			brandfarligt. Plenum-kablar är betydligt dyrare än PVC-kablar
+			brandfarligt. Plenum-kablar är betydligt dyrare än PVC-kablar.
 		</para>
 		<para>
 			De kanske viktigaste egenskaperna för kablar när det gäller
 			datorkommunikation är att de har rätt antal ledare, att de inte
 			har för stort motstånd över den längd de är avsedda för och att
-			de inte är störningskänsliga så att de klara de frekvenser de
+			de inte är störningskänsliga så att de klarar de frekvenser de
 			kommer att utsättas för. Det finns en mängd olika kablar.
 		</para>
 	</sect1>
@@ -166,8 +166,8 @@
 						Oskärmad TP-kabel brukar kallas UTP. Det kommer från
 						engelskans Unshielded Twisted Pair. Den har normalt 8
 						ledningar (4 par). UTP kabel är mycket mjuk och
-						följsam vilket gör den lätt (billig) att installera i
-						en byggnad. 
+						följsam vilket gör den lätt (och billig) att
+						installera i en byggnad. 
 					</para>
 				</sect3>
 				
@@ -191,8 +191,8 @@
 					Koaxialkabel är en kabel med en ledare i mitten. Runt
 					denna finns en isolator och utanpå den en skärm. Ytterst
 					finns ett skyddande och isolerade hölje. Ledningarnas
-					centrumaxel sammanfaller, vilket är bra eftersom den
-					elektromagnetiska strålningen, som kan störa. blir
+					centrumaxel sammanfaller vilket är bra eftersom den
+					elektromagnetiska strålningen, som kan störa, blir
 					minimal.
 				</para>
 				<para>
@@ -297,7 +297,7 @@
 
 		<sect2><title>Bluetooth (Blåtand)</title>
 			<para>
-				Bluetooth, eller blåtand som det också kallas, är en
+				Bluetooth, eller Blåtand som det också kallas, är en
 				standard som från början togs fram av Ericsson. Nu styrs
 				standarden av ett större organ med över 100 medlemmar.
 			</para>
@@ -351,7 +351,10 @@
 
 	<sect1><title>Sammanfattning</title>
 		<para>
-
+			Det finns en mängd olika kablar som alla är bra på olika saker.
+			Inom datorkommunikationen har vi flera olika alternativ. I dag
+			är olika typer av TP-kabel och fiberoptisk kabel det
+			vanligaste.
 		</para>
 	</sect1>
 
