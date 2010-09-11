@@ -39,7 +39,7 @@
 		<firstname>Marcus</firstname> 
 		<surname>Rejås</surname>
 		<affiliation>
-			<orgname>Rejås Datakonsult</orgname>
+			<orgname>Rejås Datakonsult AB</orgname>
 			<address><email>marcus@rejas.se</email></address>
 		</affiliation>
 	</author>
@@ -53,7 +53,7 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2009/05/31 19:58:33 $</pubdate>
+	<pubdate>$Date: 2010/09/11 17:12:17 $</pubdate>
 
 	<copyright>
 		<year>2003,2004,2005,2007,2008,2009</year>
@@ -62,7 +62,7 @@
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.60 $</revnumber>
+			<revnumber>$Revision: 1.61 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -148,9 +148,11 @@
 			<emphasis>Pär Lindskog</emphasis> som gett bra feedback
 			angående IMAP, <emphasis>Jan Johansson</emphasis> som bidragit
 			med stycken om bryggor och repeatrar, <emphasis>Torbjörn
-				Ahlsén</emphasis> som skrev och berättade att jag blandat
-			ihop kablar och ledare och <emphasis>Simon Schmidt</emphasis>
-			som hittade fel i kapitlet om Internet. Tack alla för er hjälp!
+				Ahlsén</emphasis> som skrev och berättade att jag blandat ihop
+			kablar och ledare, <emphasis>Simon Schmidt</emphasis> som hittade fel
+			i kapitlet om Internet och <emphasis>Marie Lundholm Janenge</emphasis>
+			som uppmärksammade att jag snurrat till det bland bilderna i kapitlet
+			om datornätverk. Tack alla för er hjälp!
 		</para>
 		<para>
 			Sist vill jag tacka min <emphasis>Jenny</emphasis> som står ut

@@ -263,7 +263,7 @@
 			gemensamt media, till exempel en kabel eller en hubb. I fallet
 			med ringnät passar inte detta eftersom det är olika kablar i de
 			olika delarna av nätverket (studera <xref
-			linkend="fig_stjarnnat"/>).  I ett ringnät kan man istället
+			linkend="fig_ringnat"/>).  I ett ringnät kan man istället
 			använda en accessmetod som heter <emphasis>token
 			passing</emphasis>. Token passing går ut på att en token
 			cirkulerar runt i nätverket ungefär som en stafettpinne. Varje
