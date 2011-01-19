@@ -53,16 +53,16 @@
 	</othercredit>
 	-->
 
-	<pubdate>$Date: 2010/09/11 17:12:17 $</pubdate>
+	<pubdate>$Date: 2011/01/19 20:09:27 $</pubdate>
 
 	<copyright>
-		<year>2003,2004,2005,2007,2008,2009</year>
+		<year>2003,2004,2005,2007,2008,2009,2010</year>
 		<holder>Marcus Rejås</holder>
 	</copyright>
 
 	<revhistory>
 		<revision>
-			<revnumber>$Revision: 1.61 $</revnumber>
+			<revnumber>$Revision: 1.62 $</revnumber>
 			<date></date>
 			<revremark>Utvecklingsversion</revremark>
 		</revision>
@@ -110,7 +110,7 @@
 			andra sammanhang.
 		</para>
 		<para>
-			Du kan köpa tryckta böcker från Rejås Datakonsult, se
+			Du kan köpa tryckta böcker från Rejås Datakonsult AB, se
 			http://www.rejas.se.
 		</para>
 	</abstract>
@@ -152,7 +152,9 @@
 			kablar och ledare, <emphasis>Simon Schmidt</emphasis> som hittade fel
 			i kapitlet om Internet och <emphasis>Marie Lundholm Janenge</emphasis>
 			som uppmärksammade att jag snurrat till det bland bilderna i kapitlet
-			om datornätverk. Tack alla för er hjälp!
+			om datornätverk. Marie påpekade också att jag förkortat Media Access
+			Unit felaktigt inte bara en eller två utan tre gånger. Tack alla för
+			er hjälp!
 		</para>
 		<para>
 			Sist vill jag tacka min <emphasis>Jenny</emphasis> som står ut

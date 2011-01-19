@@ -175,9 +175,9 @@
 				datorer är sluten har man fått en ring, därav namnet
 				ringnät. I <xref linkend="fig_ringnat"/> ser vi ett exempel
 				på ett ringnät. Observera att ringen ofta består av en så
-				kallad MUA, <emphasis>Media Access Unit</emphasis>. Denna
-				MUA innehåller en logisk ring och påminner till utseendet om
-				en hubb eller switch. Med en MUA får en ringnät samma
+				kallad MAU, <emphasis>Media Access Unit</emphasis>. Denna
+				MAU innehåller en logisk ring och påminner till utseendet om
+				en hubb eller switch. Med en MAU får en ringnät samma
 				fysiska topologi om ett stjärnnät.
 
 				<figure id="fig_ringnat"><title>Ringnät</title>
@@ -246,7 +246,7 @@
 			har inträffat. CSMA/CD används i nätverksprotokollet Ethernet.
 		</para>
 		<para>
-			En variant på CSMA/DC är <emphasis>CSMA/CA</emphasis>.
+			En variant på CSMA/CD är <emphasis>CSMA/CA</emphasis>.
 			Alla bokstäver står för samma sak (och samma innebörd)
 			utom då CA som står för <emphasis>Collision
 				Avoidance</emphasis>. Det fungerar så att en

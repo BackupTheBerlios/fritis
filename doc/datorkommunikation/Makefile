@@ -22,7 +22,7 @@ all: html index.html ps pdf dist laborations
 pub: all
 	chmod -R o+r,g-rwxs * .htaccess
 	chmod 705 laborationer
-	rsync -e "ssh -l rejas" --recursive ./ joakim.bgt.rejas.net:/var/www/www.rejas.se/static/fritis/$(TARGET)/
+	rsync -e "ssh -l rejas" --recursive ./ flinthjarta:/var/www/rejas.se/www/static/fritis/$(TARGET)/
 
 #fdl-sv.xml: ../common/licenses/fdl-sv.xml
 #	cp ../common/licenses/fdl-sv.xml fdl-sv.xml
